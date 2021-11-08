@@ -1,0 +1,611 @@
+,H_cat,H_type,H_Attacks,H_Ball Possession,H_Blocked Shots,H_Completed Passes,H_Corner Kicks,H_Dangerous Attacks,H_Fouls,H_Free Kicks,H_Goal Attempts,H_Goalkeeper Saves,H_Goals,H_Offsides,H_Red Cards,H_Shots off Goal,H_Shots on Goal,H_Tackles,H_Teamnames,H_Total Passes,H_Yellow Cards,H_datetime,H_gameinfo,A_cat,A_type,A_Attacks,A_Ball Possession,A_Blocked Shots,A_Completed Passes,A_Corner Kicks,A_Dangerous Attacks,A_Fouls,A_Free Kicks,A_Goal Attempts,A_Goalkeeper Saves,A_Goals,A_Offsides,A_Red Cards,A_Shots off Goal,A_Shots on Goal,A_Tackles,A_Teamnames,A_Total Passes,A_Yellow Cards,A_datetime,A_gameinfo
+0,cat4,1,,62,2,,3,,3,,10,1,0,0,,2,6,,B. Monchengladbach,,1,20.05.2017 15:30,Bundesliga - Round 34,cat4,2,,38,2,,1,,5,,4,6,0,0,,1,1,,Darmstadt,,0,20.05.2017 15:30,Bundesliga - Round 34
+1,cat5,1,,62,2,,2,,3,,8,1,2,1,,2,4,,B. Monchengladbach,,,20.05.2017 15:30,Bundesliga - Round 34,cat5,2,,38,2,,2,,3,,9,2,2,3,,4,3,,Darmstadt,,,20.05.2017 15:30,Bundesliga - Round 34
+2,cat6,1,,67,7,,9,,3,,19,2,1,1,,7,5,,Bayern Munich,,,20.05.2017 15:30,Bundesliga - Round 34,cat6,2,,33,2,,2,,5,,8,4,0,2,,4,2,,Freiburg,,,20.05.2017 15:30,Bundesliga - Round 34
+3,cat7,1,,57,6,,6,,7,,14,5,3,1,,2,6,,Bayern Munich,,1,20.05.2017 15:30,Bundesliga - Round 34,cat7,2,,43,4,,5,,5,,11,3,1,2,,1,6,,Freiburg,,0,20.05.2017 15:30,Bundesliga - Round 34
+4,cat8,1,,60,2,,4,,4,,15,1,2,1,,8,5,,Dortmund,,1,20.05.2017 15:30,Bundesliga - Round 34,cat8,2,,40,1,,1,,6,,7,3,1,0,,4,2,,Werder Bremen,,0,20.05.2017 15:30,Bundesliga - Round 34
+5,cat9,1,,60,3,,5,,9,,13,1,2,1,,4,6,,Dortmund,,3,20.05.2017 15:30,Bundesliga - Round 34,cat9,2,,40,0,,2,,10,,4,4,2,2,,1,3,,Werder Bremen,,3,20.05.2017 15:30,Bundesliga - Round 34
+6,cat10,1,,41,1,,3,,5,,8,1,0,0,,7,0,,Eintracht Frankfurt,,1,20.05.2017 15:30,Bundesliga - Round 34,cat10,2,,59,0,,1,,7,,2,0,1,3,,0,2,,RB Leipzig,,0,20.05.2017 15:30,Bundesliga - Round 34
+7,cat11,1,,43,1,,1,,7,,8,2,2,4,,4,3,,Eintracht Frankfurt,,0,20.05.2017 15:30,Bundesliga - Round 34,cat11,2,,57,2,,2,,10,,5,1,1,1,,0,3,,RB Leipzig,,2,20.05.2017 15:30,Bundesliga - Round 34
+8,cat12,1,,51,1,,5,,3,,7,0,1,0,,5,1,,FC Koln,,1,20.05.2017 15:30,Bundesliga - Round 34,cat12,2,,49,2,,1,,11,,4,0,0,1,,2,0,,Mainz,,1,20.05.2017 15:30,Bundesliga - Round 34
+9,cat13,1,,41,1,,2,,11,,9,0,1,0,,5,3,,FC Koln,,1,20.05.2017 15:30,Bundesliga - Round 34,cat13,2,,59,1,,4,,6,,1,2,0,1,,0,0,,Mainz,,0,20.05.2017 15:30,Bundesliga - Round 34
+10,cat14,1,,50,0,,2,,6,,2,2,1,1,,1,1,,Hamburger SV,,1,20.05.2017 15:30,Bundesliga - Round 34,cat14,2,,50,0,,5,,6,,5,0,1,0,,2,3,,Wolfsburg,,1,20.05.2017 15:30,Bundesliga - Round 34
+11,cat15,1,,48,0,,0,,6,,4,2,1,1,,2,2,,Hamburger SV,,3,20.05.2017 15:30,Bundesliga - Round 34,cat15,2,,52,4,,3,,12,,7,1,0,1,,1,2,,Wolfsburg,,2,20.05.2017 15:30,Bundesliga - Round 34
+12,cat16,1,,48,1,,1,,6,,6,3,0,1,,4,1,,Hertha Berlin,,2,20.05.2017 15:30,Bundesliga - Round 34,cat16,2,,52,2,,6,,7,,10,1,3,1,,2,6,,Bayer Leverkusen,,0,20.05.2017 15:30,Bundesliga - Round 34
+13,cat17,1,,53,0,,2,,11,,8,2,2,1,,4,4,,Hertha Berlin,,1,20.05.2017 15:30,Bundesliga - Round 34,cat17,2,,47,0,,0,,6,,6,2,3,1,,1,5,,Bayer Leverkusen,,1,20.05.2017 15:30,Bundesliga - Round 34
+14,cat18,1,,67,0,,3,,6,,6,0,0,1,,2,4,,Hoffenheim,,1,20.05.2017 15:30,Bundesliga - Round 34,cat18,2,,33,2,,3,,2,,4,4,0,1,,2,0,,Augsburg,,1,20.05.2017 15:30,Bundesliga - Round 34
+15,cat19,1,,85,2,,2,,4,,13,2,0,0,,6,5,,Hoffenheim,,1,20.05.2017 15:30,Bundesliga - Round 34,cat19,2,,15,1,,1,,11,,4,5,0,0,,1,2,,Augsburg,,0,20.05.2017 15:30,Bundesliga - Round 34
+16,cat20,1,,45,2,,4,,3,,8,1,1,0,,2,4,,Ingolstadt,,,20.05.2017 15:30,Bundesliga - Round 34,cat20,2,,55,0,,1,,5,,3,3,1,1,,1,2,,Schalke,,,20.05.2017 15:30,Bundesliga - Round 34
+17,cat21,1,,55,3,,2,,6,,10,1,0,0,0,3,4,,Ingolstadt,,1,20.05.2017 15:30,Bundesliga - Round 34,cat21,2,,45,3,,5,,6,,6,4,0,2,1,2,1,,Schalke,,1,20.05.2017 15:30,Bundesliga - Round 34
+18,cat22,1,,26,0,,1,,7,,4,1,1,1,,1,3,,Augsburg,,0,13.05.2017 15:30,Bundesliga - Round 33,cat22,2,,74,2,,0,,3,,6,2,1,0,,2,2,,Dortmund,,1,13.05.2017 15:30,Bundesliga - Round 33
+19,cat23,1,,20,0,,1,,10,,1,3,0,2,,1,0,,Augsburg,,2,13.05.2017 15:30,Bundesliga - Round 33,cat23,2,,80,1,,3,,4,,9,0,0,0,,5,3,,Dortmund,,0,13.05.2017 15:30,Bundesliga - Round 33
+20,cat24,1,,56,5,,4,,3,,14,0,0,1,,4,5,,Bayer Leverkusen,,,13.05.2017 15:30,Bundesliga - Round 33,cat24,2,,44,0,,2,,3,,3,5,1,1,,2,1,,FC Koln,,,13.05.2017 15:30,Bundesliga - Round 33
+21,cat25,1,,76,3,,3,,9,,13,2,2,0,,6,4,,Bayer Leverkusen,,0,13.05.2017 15:30,Bundesliga - Round 33,cat25,2,,24,0,,1,,9,,4,2,1,1,,1,3,,FC Koln,,2,13.05.2017 15:30,Bundesliga - Round 33
+22,cat26,1,,58,0,,2,,6,,3,1,0,3,,3,0,,Darmstadt,,,13.05.2017 15:30,Bundesliga - Round 33,cat26,2,,42,0,,4,,9,,6,0,2,0,,3,3,,Hertha Berlin,,,13.05.2017 15:30,Bundesliga - Round 33
+23,cat27,1,,64,1,,2,,11,,8,2,0,2,,5,2,,Darmstadt,,3,13.05.2017 15:30,Bundesliga - Round 33,cat27,2,,36,1,,2,,5,,10,2,0,1,,7,2,,Hertha Berlin,,0,13.05.2017 15:30,Bundesliga - Round 33
+24,cat28,1,,51,0,,1,,9,,1,3,1,0,,0,1,,Freiburg,,0,13.05.2017 15:30,Bundesliga - Round 33,cat28,2,,49,1,,1,,16,,13,0,1,2,,8,4,,Ingolstadt,,1,13.05.2017 15:30,Bundesliga - Round 33
+25,cat29,1,,57,5,,3,,9,,10,5,0,3,,2,3,,Freiburg,,2,13.05.2017 15:30,Bundesliga - Round 33,cat29,2,,43,3,,2,,11,,10,3,0,1,,2,5,,Ingolstadt,,2,13.05.2017 15:30,Bundesliga - Round 33
+26,cat30,1,,55,6,,5,,10,,10,1,0,6,,1,3,,Mainz,,0,13.05.2017 15:30,Bundesliga - Round 33,cat30,2,,45,0,,0,,6,,3,3,1,0,,1,2,,Eintracht Frankfurt,,1,13.05.2017 15:30,Bundesliga - Round 33
+27,cat31,1,,71,3,,2,,6,,11,1,4,2,,3,5,,Mainz,,4,13.05.2017 15:30,Bundesliga - Round 33,cat31,2,,29,0,,0,,16,,3,1,1,0,,1,2,,Eintracht Frankfurt,,3,13.05.2017 15:30,Bundesliga - Round 33
+28,cat32,1,,45,2,,2,,8,,9,2,2,2,,3,4,,RB Leipzig,,0,13.05.2017 15:30,Bundesliga - Round 33,cat32,2,,55,0,,0,,4,,6,2,1,2,,3,3,,Bayern Munich,,1,13.05.2017 15:30,Bundesliga - Round 33
+29,cat33,1,,33,0,,0,,11,,2,2,2,1,,0,2,,RB Leipzig,,1,13.05.2017 15:30,Bundesliga - Round 33,cat33,2,,67,3,,6,,7,,14,0,4,1,,5,6,,Bayern Munich,,4,13.05.2017 15:30,Bundesliga - Round 33
+30,cat34,1,,55,2,,2,,6,,7,0,1,1,,4,1,,Schalke,,1,13.05.2017 15:30,Bundesliga - Round 33,cat34,2,,45,3,,3,,6,,6,0,0,0,,3,0,,Hamburger SV,,0,13.05.2017 15:30,Bundesliga - Round 33
+31,cat35,1,,44,4,,3,,8,,5,3,0,1,,1,0,,Schalke,,2,13.05.2017 15:30,Bundesliga - Round 33,cat35,2,,56,2,,4,,9,,12,0,1,0,,6,4,,Hamburger SV,,1,13.05.2017 15:30,Bundesliga - Round 33
+32,cat36,1,,43,2,,2,,6,,5,1,0,0,,3,0,,Werder Bremen,,0,13.05.2017 15:30,Bundesliga - Round 33,cat36,2,,57,2,,2,,7,,8,0,3,0,,2,4,,Hoffenheim,,1,13.05.2017 15:30,Bundesliga - Round 33
+33,cat37,1,,55,2,,8,,4,,11,3,3,2,,2,7,,Werder Bremen,,1,13.05.2017 15:30,Bundesliga - Round 33,cat37,2,,45,0,,2,,7,,8,4,2,0,,3,5,,Hoffenheim,,0,13.05.2017 15:30,Bundesliga - Round 33
+34,cat38,1,,43,3,,0,,6,,5,2,0,1,,1,1,,Wolfsburg,,1,13.05.2017 15:30,Bundesliga - Round 33,cat38,2,,57,3,,4,,6,,8,1,1,0,,2,3,,B. Monchengladbach,,0,13.05.2017 15:30,Bundesliga - Round 33
+35,cat39,1,,43,0,,3,,6,,6,3,1,1,,1,5,,Wolfsburg,,2,13.05.2017 15:30,Bundesliga - Round 33,cat39,2,,57,1,,3,,6,,6,4,0,0,,2,3,,B. Monchengladbach,,1,13.05.2017 15:30,Bundesliga - Round 33
+36,cat40,1,,45,1,,2,,5,,7,0,2,0,,4,2,,Freiburg,,,07.05.2017 17:30,Bundesliga - Round 32,cat40,2,,55,1,,2,,8,,4,0,0,0,,3,0,,Schalke,,,07.05.2017 17:30,Bundesliga - Round 32
+37,cat41,1,,35,0,,0,,7,,6,3,0,2,,3,3,,Freiburg,,0,07.05.2017 17:30,Bundesliga - Round 32,cat41,2,,65,3,,2,,5,,10,3,0,0,,4,3,,Schalke,,2,07.05.2017 17:30,Bundesliga - Round 32
+38,cat42,1,,48,2,,3,,7,,3,5,0,2,,0,1,,Hamburger SV,,,07.05.2017 15:30,Bundesliga - Round 32,cat42,2,,52,1,,2,,7,,7,1,0,1,,1,5,,Mainz,,,07.05.2017 15:30,Bundesliga - Round 32
+39,cat43,1,,48,1,,2,,9,,3,1,0,1,,1,1,,Hamburger SV,,2,07.05.2017 15:30,Bundesliga - Round 32,cat43,2,,52,3,,1,,9,,6,1,0,1,,2,1,,Mainz,,1,07.05.2017 15:30,Bundesliga - Round 32
+40,cat44,1,,47,2,,3,,6,,5,3,0,0,,2,1,,Hertha Berlin,,0,06.05.2017 18:30,Bundesliga - Round 32,cat44,2,,53,0,,5,,7,,6,1,1,4,,2,4,,RB Leipzig,,1,06.05.2017 18:30,Bundesliga - Round 32
+41,cat45,1,,47,0,,0,,8,,2,1,1,0,,1,0,,Hertha Berlin,,3,06.05.2017 18:30,Bundesliga - Round 32,cat45,2,,53,0,,3,,7,,8,0,3,2,,4,4,,RB Leipzig,,2,06.05.2017 18:30,Bundesliga - Round 32
+42,cat46,1,,62,3,,2,,1,,8,2,0,3,,3,2,,B. Monchengladbach,,0,06.05.2017 15:30,Bundesliga - Round 32,cat46,2,,38,2,,2,,7,,5,2,0,0,,1,2,,Augsburg,,1,06.05.2017 15:30,Bundesliga - Round 32
+43,cat47,1,,64,5,,1,,5,,10,1,1,1,,2,3,,B. Monchengladbach,,2,06.05.2017 15:30,Bundesliga - Round 32,cat47,2,,36,2,,3,,7,,6,2,1,2,,2,2,,Augsburg,,1,06.05.2017 15:30,Bundesliga - Round 32
+44,cat48,1,,64,3,,8,,4,,14,1,1,2,,6,5,,Bayern Munich,,,06.05.2017 15:30,Bundesliga - Round 32,cat48,2,,36,1,,2,,4,,7,4,0,1,,5,1,,Darmstadt,,,06.05.2017 15:30,Bundesliga - Round 32
+45,cat49,1,,64,2,,5,,6,,9,2,0,1,,4,3,,Bayern Munich,,1,06.05.2017 15:30,Bundesliga - Round 32,cat49,2,,36,2,,5,,3,,6,3,0,3,,2,2,,Darmstadt,,1,06.05.2017 15:30,Bundesliga - Round 32
+46,cat50,1,,44,1,,4,,10,,4,2,1,1,,2,1,,Dortmund,,2,06.05.2017 15:30,Bundesliga - Round 32,cat50,2,,56,0,,1,,4,,4,0,0,5,,2,2,,Hoffenheim,,1,06.05.2017 15:30,Bundesliga - Round 32
+47,cat51,1,,42,0,,2,,7,,7,2,1,1,,4,3,,Dortmund,,2,06.05.2017 15:30,Bundesliga - Round 32,cat51,2,,58,1,,1,,6,,6,2,1,5,,2,3,,Hoffenheim,,1,06.05.2017 15:30,Bundesliga - Round 32
+48,cat52,1,,51,0,,1,,4,,1,0,0,1,,1,0,,Eintracht Frankfurt,,1,06.05.2017 15:30,Bundesliga - Round 32,cat52,2,,49,0,,4,,7,,3,0,0,0,,3,0,,Wolfsburg,,0,06.05.2017 15:30,Bundesliga - Round 32
+49,cat53,1,,51,0,,1,,7,,6,1,0,0,,4,2,,Eintracht Frankfurt,,0,06.05.2017 15:30,Bundesliga - Round 32,cat53,2,,49,0,,0,,7,,4,2,2,1,,1,3,,Wolfsburg,,2,06.05.2017 15:30,Bundesliga - Round 32
+50,cat54,1,,50,0,,5,,8,,2,1,0,0,,1,1,,Ingolstadt,,1,06.05.2017 15:30,Bundesliga - Round 32,cat54,2,,50,1,,2,,4,,4,1,0,1,,2,1,,Bayer Leverkusen,,1,06.05.2017 15:30,Bundesliga - Round 32
+51,cat55,1,,50,0,,2,,5,,8,4,1,0,,7,1,,Ingolstadt,,0,06.05.2017 15:30,Bundesliga - Round 32,cat55,2,,50,1,,4,,6,,8,0,1,0,,2,5,,Bayer Leverkusen,,2,06.05.2017 15:30,Bundesliga - Round 32
+52,cat56,1,,47,2,,4,,3,,13,0,3,2,,5,6,,FC Koln,,0,05.05.2017 20:30,Bundesliga - Round 32,cat56,2,,53,1,,0,,2,,6,3,2,0,,3,2,,Werder Bremen,,1,05.05.2017 20:30,Bundesliga - Round 32
+53,cat57,1,,32,0,,1,,6,,3,1,1,0,,0,3,,FC Koln,,0,05.05.2017 20:30,Bundesliga - Round 32,cat57,2,,68,0,,1,,7,,5,2,1,1,,3,2,,Werder Bremen,,1,05.05.2017 20:30,Bundesliga - Round 32
+54,cat58,1,,66,5,,1,,8,,6,1,0,3,,1,0,,Hoffenheim,,,30.04.2017 17:30,Bundesliga - Round 31,cat58,2,,34,1,,1,,9,,2,0,0,1,,0,1,,Eintracht Frankfurt,,,30.04.2017 17:30,Bundesliga - Round 31
+55,cat59,1,,64,1,,2,,14,,2,1,1,0,,0,1,,Hoffenheim,,0,30.04.2017 17:30,Bundesliga - Round 31,cat59,2,,36,0,,3,,9,,2,0,0,0,,1,1,,Eintracht Frankfurt,,3,30.04.2017 17:30,Bundesliga - Round 31
+56,cat60,1,,57,1,,1,,2,,8,1,2,1,,2,5,,Augsburg,,0,30.04.2017 15:30,Bundesliga - Round 31,cat60,2,,43,2,,1,,7,,5,3,0,1,,2,1,,Hamburger SV,,2,30.04.2017 15:30,Bundesliga - Round 31
+57,cat61,1,,51,3,,3,,6,,9,3,2,0,,2,4,,Augsburg,,1,30.04.2017 15:30,Bundesliga - Round 31,cat61,2,,49,0,,3,,8,,4,2,0,0,,1,3,,Hamburger SV,,2,30.04.2017 15:30,Bundesliga - Round 31
+58,cat62,1,,42,0,,2,,5,,5,2,0,2,,3,2,,Wolfsburg,,1,29.04.2017 18:30,Bundesliga - Round 31,cat62,2,,58,1,,1,,2,,7,2,3,3,,1,5,,Bayern Munich,,0,29.04.2017 18:30,Bundesliga - Round 31
+59,cat63,1,,40,1,,2,,6,,2,1,0,2,1,0,1,,Wolfsburg,,1,29.04.2017 18:30,Bundesliga - Round 31,cat63,2,,60,1,,3,,8,,10,1,3,2,0,5,4,,Bayern Munich,,0,29.04.2017 18:30,Bundesliga - Round 31
+60,cat64,1,,46,0,,1,,10,,5,1,2,1,,3,2,,Darmstadt,,2,29.04.2017 15:30,Bundesliga - Round 31,cat64,2,,54,0,,0,,8,,2,0,0,0,,1,1,,Freiburg,,0,29.04.2017 15:30,Bundesliga - Round 31
+61,cat65,1,,42,1,,6,,5,,9,3,1,0,,6,2,,Darmstadt,,,29.04.2017 15:30,Bundesliga - Round 31,cat65,2,,58,1,,6,,7,,7,1,0,0,,3,3,,Freiburg,,,29.04.2017 15:30,Bundesliga - Round 31
+62,cat66,1,,63,3,,3,,2,,11,0,0,5,,8,0,,Dortmund,,1,29.04.2017 15:30,Bundesliga - Round 31,cat66,2,,37,0,,0,,6,,2,0,0,1,,2,0,,FC Koln,,1,29.04.2017 15:30,Bundesliga - Round 31
+63,cat67,1,,69,3,,6,,5,,12,0,0,1,,5,4,,Dortmund,,1,29.04.2017 15:30,Bundesliga - Round 31,cat67,2,,31,3,,0,,6,,3,4,0,4,,0,0,,FC Koln,,1,29.04.2017 15:30,Bundesliga - Round 31
+64,cat68,1,,46,1,,3,,6,,5,1,0,1,,1,3,,Mainz,,,29.04.2017 15:30,Bundesliga - Round 31,cat68,2,,54,3,,3,,8,,7,3,1,1,,2,2,,B. Monchengladbach,,,29.04.2017 15:30,Bundesliga - Round 31
+65,cat69,1,,58,2,,5,,3,,12,2,1,5,,5,5,,Mainz,,1,29.04.2017 15:30,Bundesliga - Round 31,cat69,2,,42,0,,0,,7,,6,4,1,2,,3,3,,B. Monchengladbach,,1,29.04.2017 15:30,Bundesliga - Round 31
+66,cat70,1,,65,0,,0,,6,,4,0,0,1,,2,2,,RB Leipzig,,2,29.04.2017 15:30,Bundesliga - Round 31,cat70,2,,35,2,,2,,7,,4,2,0,2,,2,0,,Ingolstadt,,2,29.04.2017 15:30,Bundesliga - Round 31
+67,cat71,1,,59,2,,5,,8,,11,0,0,0,0,8,1,,RB Leipzig,,1,29.04.2017 15:30,Bundesliga - Round 31,cat71,2,,41,0,,1,,8,,2,1,0,1,1,2,0,,Ingolstadt,,4,29.04.2017 15:30,Bundesliga - Round 31
+68,cat72,1,,50,0,,2,,2,,5,0,2,1,,1,4,,Werder Bremen,,1,29.04.2017 15:30,Bundesliga - Round 31,cat72,2,,50,0,,0,,10,,2,2,0,2,,2,0,,Hertha Berlin,,1,29.04.2017 15:30,Bundesliga - Round 31
+69,cat73,1,,40,0,,0,,6,,4,2,0,1,,4,0,,Werder Bremen,,,29.04.2017 15:30,Bundesliga - Round 31,cat73,2,,60,1,,2,,7,,8,0,0,1,,5,2,,Hertha Berlin,,,29.04.2017 15:30,Bundesliga - Round 31
+70,cat74,1,,48,0,,2,,6,,5,2,0,1,,3,2,,Bayer Leverkusen,,1,28.04.2017 20:30,Bundesliga - Round 31,cat74,2,,52,2,,2,,5,,7,2,3,1,,0,5,,Schalke,,0,28.04.2017 20:30,Bundesliga - Round 31
+71,cat75,1,,46,3,,0,,9,13,8,2,1,3,,3,2,,Bayer Leverkusen,,2,28.04.2017 20:30,Bundesliga - Round 31,cat75,2,,54,1,,1,,5,19,5,1,1,2,,1,3,,Schalke,,0,28.04.2017 20:30,Bundesliga - Round 31
+72,cat76,1,,51,2,,4,,8,,7,0,0,0,,5,0,,Schalke,,2,23.04.2017 17:30,Bundesliga - Round 30,cat76,2,,49,1,,4,,9,,5,0,1,5,,3,1,,RB Leipzig,,1,23.04.2017 17:30,Bundesliga - Round 30
+73,cat77,1,,47,0,,1,,10,,4,0,1,2,,3,1,,Schalke,,1,23.04.2017 17:30,Bundesliga - Round 30,cat77,2,,53,1,,1,,12,,4,0,0,2,,3,0,,RB Leipzig,,1,23.04.2017 17:30,Bundesliga - Round 30
+74,cat78,1,,42,1,,2,,3,,3,3,1,3,,1,1,,Freiburg,,1,23.04.2017 15:30,Bundesliga - Round 30,cat78,2,,58,0,,3,,6,,5,0,0,0,,2,3,,Bayer Leverkusen,,0,23.04.2017 15:30,Bundesliga - Round 30
+75,cat79,1,,46,1,,3,,3,,8,0,1,1,,3,4,,Freiburg,,1,23.04.2017 15:30,Bundesliga - Round 30,cat79,2,,54,0,,2,,6,,6,3,1,2,,5,1,,Bayer Leverkusen,,2,23.04.2017 15:30,Bundesliga - Round 30
+76,cat80,1,,48,0,,0,,2,,3,1,1,4,,2,1,,B. Monchengladbach,,1,22.04.2017 18:30,Bundesliga - Round 30,cat80,2,,52,2,,2,,6,,6,0,1,2,,2,2,,Dortmund,,0,22.04.2017 18:30,Bundesliga - Round 30
+77,cat81,1,,44,1,,2,,6,,4,2,1,4,,1,2,,B. Monchengladbach,,1,22.04.2017 18:30,Bundesliga - Round 30,cat81,2,,56,0,,2,,6,,6,1,2,0,,2,4,,Dortmund,,3,22.04.2017 18:30,Bundesliga - Round 30
+78,cat82,1,,65,2,,3,,4,,6,2,1,1,,1,3,,Bayern Munich,,1,22.04.2017 15:30,Bundesliga - Round 30,cat82,2,,35,3,,2,,2,,9,2,2,2,,2,4,,Mainz,,0,22.04.2017 15:30,Bundesliga - Round 30
+79,cat83,1,,73,5,,11,,1,,13,1,1,0,,5,3,,Bayern Munich,,0,22.04.2017 15:30,Bundesliga - Round 30,cat83,2,,27,0,,0,,3,,1,2,0,2,,0,1,,Mainz,,1,22.04.2017 15:30,Bundesliga - Round 30
+80,cat84,1,,72,1,,4,,3,,7,1,0,1,,3,3,,Eintracht Frankfurt,,,22.04.2017 15:30,Bundesliga - Round 30,cat84,2,,28,1,,1,,5,,4,3,1,1,,1,2,,Augsburg,,,22.04.2017 15:30,Bundesliga - Round 30
+81,cat85,1,,62,5,,0,,10,,13,2,3,0,,4,4,,Eintracht Frankfurt,,2,22.04.2017 15:30,Bundesliga - Round 30,cat85,2,,38,2,,1,,3,,6,1,0,2,,2,2,,Augsburg,,1,22.04.2017 15:30,Bundesliga - Round 30
+82,cat86,1,,55,1,,4,,9,,6,1,0,0,,2,3,,Hamburger SV,,1,22.04.2017 15:30,Bundesliga - Round 30,cat86,2,,45,0,,2,,9,,2,3,0,0,,1,1,,Darmstadt,,0,22.04.2017 15:30,Bundesliga - Round 30
+83,cat87,1,,55,2,,5,,5,,7,1,1,1,,2,3,,Hamburger SV,,2,22.04.2017 15:30,Bundesliga - Round 30,cat87,2,,45,1,,4,,9,,7,2,2,2,,3,3,,Darmstadt,,2,22.04.2017 15:30,Bundesliga - Round 30
+84,cat88,1,,53,4,,2,,4,,6,3,0,1,,1,1,,Hertha Berlin,,0,22.04.2017 15:30,Bundesliga - Round 30,cat88,2,,47,3,,2,,7,,7,1,0,2,,1,3,,Wolfsburg,,1,22.04.2017 15:30,Bundesliga - Round 30
+85,cat89,1,,49,1,,3,,6,,8,-1,1,0,,3,4,,Hertha Berlin,,3,22.04.2017 15:30,Bundesliga - Round 30,cat89,2,,51,2,,0,,11,,3,3,0,2,,2,-1,,Wolfsburg,,4,22.04.2017 15:30,Bundesliga - Round 30
+86,cat90,1,,51,0,,5,,9,,7,1,1,1,,4,3,,Ingolstadt,,1,22.04.2017 15:30,Bundesliga - Round 30,cat90,2,,49,0,,1,,3,,4,2,1,1,,2,2,,Werder Bremen,,0,22.04.2017 15:30,Bundesliga - Round 30
+87,cat91,1,,42,2,,4,,6,,8,0,1,2,,4,2,,Ingolstadt,,2,22.04.2017 15:30,Bundesliga - Round 30,cat91,2,,58,0,,1,,8,,6,1,3,3,,3,3,,Werder Bremen,,2,22.04.2017 15:30,Bundesliga - Round 30
+88,cat92,1,,46,1,,4,,8,,3,4,0,3,,2,0,,FC Koln,,1,21.04.2017 20:30,Bundesliga - Round 30,cat92,2,,54,1,,3,,3,,6,0,0,3,,1,4,,Hoffenheim,,0,21.04.2017 20:30,Bundesliga - Round 30
+89,cat93,1,,35,0,,2,,1,,9,1,1,1,,3,6,,FC Koln,,1,21.04.2017 20:30,Bundesliga - Round 30,cat93,2,,65,1,,1,,8,,5,5,1,2,,2,2,,Hoffenheim,,0,21.04.2017 20:30,Bundesliga - Round 30
+90,cat94,1,,36,2,,1,,7,,4,5,1,0,,1,1,,Darmstadt,,1,16.04.2017 17:30,Bundesliga - Round 29,cat94,2,,64,0,,5,,6,,12,0,0,0,,7,5,,Schalke,,0,16.04.2017 17:30,Bundesliga - Round 29
+91,cat95,1,,36,1,,1,,15,,7,2,1,0,0,2,4,,Darmstadt,,4,16.04.2017 17:30,Bundesliga - Round 29,cat95,2,,64,5,,4,,7,,14,3,1,0,1,6,3,,Schalke,,3,16.04.2017 17:30,Bundesliga - Round 29
+92,cat96,1,,54,1,,1,,6,,7,1,1,0,,4,2,,Werder Bremen,,2,16.04.2017 15:30,Bundesliga - Round 29,cat96,2,,46,0,,1,,7,,3,1,1,1,,1,2,,Hamburger SV,,0,16.04.2017 15:30,Bundesliga - Round 29
+93,cat97,1,,54,1,,3,,7,,6,2,1,0,,2,3,,Werder Bremen,,1,16.04.2017 15:30,Bundesliga - Round 29,cat97,2,,46,1,,2,,8,,3,2,0,4,,0,2,,Hamburger SV,,1,16.04.2017 15:30,Bundesliga - Round 29
+94,cat98,1,,34,1,,1,,3,,5,4,0,0,,2,2,,Bayer Leverkusen,,1,15.04.2017 18:30,Bundesliga - Round 29,cat98,2,,66,3,,2,,4,,12,2,0,1,,5,4,,Bayern Munich,,0,15.04.2017 18:30,Bundesliga - Round 29
+95,cat99,1,,34,0,,0,,5,,4,2,0,0,1,4,0,,Bayer Leverkusen,,2,15.04.2017 18:30,Bundesliga - Round 29,cat99,2,,66,1,,2,,6,,9,0,0,0,0,6,2,,Bayern Munich,,0,15.04.2017 18:30,Bundesliga - Round 29
+96,cat100,1,,37,0,,2,,9,,7,0,2,0,,1,6,,Augsburg,,1,15.04.2017 15:30,Bundesliga - Round 29,cat100,2,,63,0,,5,,7,,4,4,0,1,,4,0,,FC Koln,,1,15.04.2017 15:30,Bundesliga - Round 29
+97,cat101,1,,43,0,,0,,10,,0,0,0,0,2,0,0,,Augsburg,,3,15.04.2017 15:30,Bundesliga - Round 29,cat101,2,,57,2,,3,,9,,8,0,1,1,0,6,0,,FC Koln,,2,15.04.2017 15:30,Bundesliga - Round 29
+98,cat102,1,,65,1,,2,,5,,6,1,2,2,,2,3,,Dortmund,,,15.04.2017 15:30,Bundesliga - Round 29,cat102,2,,35,0,,1,,10,,5,1,1,1,,3,2,,Eintracht Frankfurt,,,15.04.2017 15:30,Bundesliga - Round 29
+99,cat103,1,,57,2,,2,,7,,9,0,1,3,,3,4,,Dortmund,,,15.04.2017 15:30,Bundesliga - Round 29,cat103,2,,43,1,,0,,13,,4,3,0,5,,3,0,,Eintracht Frankfurt,,,15.04.2017 15:30,Bundesliga - Round 29
+100,cat104,1,,48,2,,3,,6,,8,0,2,1,,3,3,,Hoffenheim,,1,15.04.2017 15:30,Bundesliga - Round 29,cat104,2,,52,2,,1,,8,,5,1,2,4,,1,2,,B. Monchengladbach,,2,15.04.2017 15:30,Bundesliga - Round 29
+101,cat105,1,,50,0,,2,,0,,8,1,3,2,,2,6,,Hoffenheim,,1,15.04.2017 15:30,Bundesliga - Round 29,cat105,2,,50,1,,0,,12,,5,3,1,2,,2,2,,B. Monchengladbach,,2,15.04.2017 15:30,Bundesliga - Round 29
+102,cat106,1,,58,1,,4,,6,,9,0,1,2,,5,3,,Mainz,,0,15.04.2017 15:30,Bundesliga - Round 29,cat106,2,,42,0,,1,,6,,0,2,0,2,,0,0,,Hertha Berlin,,1,15.04.2017 15:30,Bundesliga - Round 29
+103,cat107,1,,42,2,,3,,4,,8,2,0,2,,6,0,,Mainz,,1,15.04.2017 15:30,Bundesliga - Round 29,cat107,2,,58,2,,2,,10,,6,0,0,1,,2,2,,Hertha Berlin,,2,15.04.2017 15:30,Bundesliga - Round 29
+104,cat108,1,,62,3,,5,,6,,8,1,2,0,,2,3,,RB Leipzig,,1,15.04.2017 15:30,Bundesliga - Round 29,cat108,2,,38,0,,0,,5,,3,1,0,0,,2,1,,Freiburg,,0,15.04.2017 15:30,Bundesliga - Round 29
+105,cat109,1,,46,0,,1,,11,,5,1,2,3,,2,3,,RB Leipzig,,0,15.04.2017 15:30,Bundesliga - Round 29,cat109,2,,54,4,,0,,6,,8,1,0,1,,3,1,,Freiburg,,2,15.04.2017 15:30,Bundesliga - Round 29
+106,cat110,1,,53,0,,1,,11,,4,1,1,1,,1,3,,Wolfsburg,,2,15.04.2017 15:30,Bundesliga - Round 29,cat110,2,,47,1,,2,,8,,3,2,0,0,,1,1,,Ingolstadt,,2,15.04.2017 15:30,Bundesliga - Round 29
+107,cat111,1,,55,0,,1,,3,,5,2,2,1,,2,3,,Wolfsburg,,0,15.04.2017 15:30,Bundesliga - Round 29,cat111,2,,45,0,,2,,8,,3,1,0,3,,1,2,,Ingolstadt,,1,15.04.2017 15:30,Bundesliga - Round 29
+108,cat112,1,,57,6,,4,,6,,15,1,1,2,,4,5,,Ingolstadt,,,09.04.2017 17:30,Bundesliga - Round 28,cat112,2,,43,0,,0,,3,,3,4,2,3,,0,3,,Darmstadt,,,09.04.2017 17:30,Bundesliga - Round 28
+109,cat113,1,,55,2,,1,,6,,8,2,2,0,1,1,5,,Ingolstadt,,1,09.04.2017 17:30,Bundesliga - Round 28,cat113,2,,45,2,,2,,8,,7,3,0,3,1,3,2,,Darmstadt,,2,09.04.2017 17:30,Bundesliga - Round 28
+110,cat114,1,,59,2,,2,,11,,9,0,2,1,,2,5,,Hertha Berlin,,0,09.04.2017 15:30,Bundesliga - Round 28,cat114,2,,41,0,,0,,11,,0,3,0,2,,0,0,,Augsburg,,1,09.04.2017 15:30,Bundesliga - Round 28
+111,cat115,1,,49,2,,5,,6,,9,0,0,2,,4,3,,Hertha Berlin,,1,09.04.2017 15:30,Bundesliga - Round 28,cat115,2,,51,2,,0,,9,,5,3,0,0,,3,0,,Augsburg,,1,09.04.2017 15:30,Bundesliga - Round 28
+112,cat116,1,,60,2,,3,,8,,11,0,2,0,,5,4,,Bayern Munich,,1,08.04.2017 18:30,Bundesliga - Round 28,cat116,2,,40,1,,2,,5,,5,2,1,0,,3,1,,Dortmund,,2,08.04.2017 18:30,Bundesliga - Round 28
+113,cat117,1,,74,1,,3,,5,,7,2,2,2,,4,2,,Bayern Munich,,1,08.04.2017 18:30,Bundesliga - Round 28,cat117,2,,26,0,,1,,5,,4,0,0,0,,2,2,,Dortmund,,1,08.04.2017 18:30,Bundesliga - Round 28
+114,cat118,1,,27,1,,2,,5,,5,1,1,2,,3,1,,FC Koln,,,08.04.2017 15:30,Bundesliga - Round 28,cat118,2,,73,2,,5,,4,,8,0,1,2,,4,2,,B. Monchengladbach,,,08.04.2017 15:30,Bundesliga - Round 28
+115,cat119,1,,37,0,,3,,11,,4,3,1,0,,3,1,,FC Koln,,2,08.04.2017 15:30,Bundesliga - Round 28,cat119,2,,63,1,,1,,6,,8,0,2,1,,2,5,,B. Monchengladbach,,2,08.04.2017 15:30,Bundesliga - Round 28
+116,cat120,1,,46,1,,1,,5,,3,0,0,0,,1,1,,Freiburg,,0,08.04.2017 15:30,Bundesliga - Round 28,cat120,2,,54,1,,3,,6,,3,1,0,2,,2,0,,Mainz,,1,08.04.2017 15:30,Bundesliga - Round 28
+117,cat121,1,,42,0,,0,,8,,4,3,1,2,,2,2,,Freiburg,,0,08.04.2017 15:30,Bundesliga - Round 28,cat121,2,,58,1,,3,,8,,7,1,0,2,,3,3,,Mainz,,2,08.04.2017 15:30,Bundesliga - Round 28
+118,cat122,1,,45,0,,3,,9,,5,1,1,2,,2,3,,Hamburger SV,,1,08.04.2017 15:30,Bundesliga - Round 28,cat122,2,,55,0,,0,,8,,4,2,1,0,,2,2,,Hoffenheim,,2,08.04.2017 15:30,Bundesliga - Round 28
+119,cat123,1,,43,2,,5,,12,,6,2,1,0,,2,2,,Hamburger SV,,3,08.04.2017 15:30,Bundesliga - Round 28,cat123,2,,57,2,,4,,13,,8,1,0,2,,4,2,,Hoffenheim,,2,08.04.2017 15:30,Bundesliga - Round 28
+120,cat124,1,,54,2,,4,,4,,8,0,0,1,,3,3,,RB Leipzig,,1,08.04.2017 15:30,Bundesliga - Round 28,cat124,2,,46,1,,1,,7,,6,3,0,2,,5,0,,Bayer Leverkusen,,0,08.04.2017 15:30,Bundesliga - Round 28
+121,cat125,1,,52,1,,4,,9,,6,3,1,0,1,3,2,,RB Leipzig,,1,08.04.2017 15:30,Bundesliga - Round 28,cat125,2,,48,2,,1,,4,,8,1,0,1,0,3,3,,Bayer Leverkusen,,1,08.04.2017 15:30,Bundesliga - Round 28
+122,cat126,1,,52,2,,2,,11,,7,0,2,0,,0,5,,Schalke,,0,08.04.2017 15:30,Bundesliga - Round 28,cat126,2,,48,4,,0,,4,,8,3,0,2,,4,0,,Wolfsburg,,1,08.04.2017 15:30,Bundesliga - Round 28
+123,cat127,1,,56,2,,3,,6,,5,0,2,1,,1,2,,Schalke,,1,08.04.2017 15:30,Bundesliga - Round 28,cat127,2,,44,4,,1,,5,,10,0,1,1,,5,1,,Wolfsburg,,1,08.04.2017 15:30,Bundesliga - Round 28
+124,cat128,1,,56,0,,2,,7,,8,1,0,0,,4,4,,Eintracht Frankfurt,,0,07.04.2017 20:30,Bundesliga - Round 28,cat128,2,,44,1,,0,,2,,4,4,2,2,,0,3,,Werder Bremen,,1,07.04.2017 20:30,Bundesliga - Round 28
+125,cat129,1,,60,1,,2,,12,,8,1,2,2,,4,3,,Eintracht Frankfurt,,2,07.04.2017 20:30,Bundesliga - Round 28,cat129,2,,40,2,,1,,6,,4,1,0,1,,1,1,,Werder Bremen,,1,07.04.2017 20:30,Bundesliga - Round 28
+126,cat130,1,,53,0,,1,,9,,4,1,0,4,,2,2,,Augsburg,,1,05.04.2017 20:00,Bundesliga - Round 27,cat130,2,,47,0,,1,,9,,6,2,2,3,,3,3,,Ingolstadt,,0,05.04.2017 20:00,Bundesliga - Round 27
+127,cat131,1,,55,2,,2,,6,,9,2,2,3,,4,3,,Augsburg,,2,05.04.2017 20:00,Bundesliga - Round 27,cat131,2,,45,1,,4,,4,,7,1,1,1,,3,3,,Ingolstadt,,2,05.04.2017 20:00,Bundesliga - Round 27
+128,cat132,1,,55,2,,3,,6,,8,1,1,0,,4,2,,B. Monchengladbach,,,05.04.2017 20:00,Bundesliga - Round 27,cat132,2,,45,2,,3,,4,,7,1,0,1,,4,1,,Hertha Berlin,,,05.04.2017 20:00,Bundesliga - Round 27
+129,cat133,1,,61,3,,5,,6,,14,1,0,0,,6,5,,B. Monchengladbach,,1,05.04.2017 20:00,Bundesliga - Round 27,cat133,2,,39,1,,1,,8,,5,5,0,1,,3,1,,Hertha Berlin,,1,05.04.2017 20:00,Bundesliga - Round 27
+130,cat134,1,,40,0,,2,,7,,5,1,0,2,,5,0,,Darmstadt,,0,05.04.2017 20:00,Bundesliga - Round 27,cat134,2,,60,2,,5,,5,,4,0,0,1,,0,2,,Bayer Leverkusen,,2,05.04.2017 20:00,Bundesliga - Round 27
+131,cat135,1,,47,1,,1,,3,,8,4,0,2,,5,2,,Darmstadt,,,05.04.2017 20:00,Bundesliga - Round 27,cat135,2,,53,2,,3,,7,,10,2,1,0,,3,5,,Bayer Leverkusen,,,05.04.2017 20:00,Bundesliga - Round 27
+132,cat136,1,,42,3,,5,,7,,7,3,0,1,,3,1,,Mainz,,0,05.04.2017 20:00,Bundesliga - Round 27,cat136,2,,58,0,,2,,9,,6,1,0,1,,3,3,,RB Leipzig,,1,05.04.2017 20:00,Bundesliga - Round 27
+133,cat137,1,,48,2,,3,,8,,11,1,2,2,1,7,2,,Mainz,,6,05.04.2017 20:00,Bundesliga - Round 27,cat137,2,,52,2,,1,,10,,9,0,3,1,0,3,4,,RB Leipzig,,3,05.04.2017 20:00,Bundesliga - Round 27
+134,cat138,1,,63,1,,4,,4,,11,1,0,1,,7,3,,Wolfsburg,,,05.04.2017 20:00,Bundesliga - Round 27,cat138,2,,37,1,,0,,8,,4,3,0,1,,2,1,,Freiburg,,,05.04.2017 20:00,Bundesliga - Round 27
+135,cat139,1,,57,1,,2,,7,,6,3,0,3,,4,1,,Wolfsburg,,0,05.04.2017 20:00,Bundesliga - Round 27,cat139,2,,43,3,,3,,6,,12,1,1,1,,5,4,,Freiburg,,1,05.04.2017 20:00,Bundesliga - Round 27
+136,cat140,1,,65,0,,3,,3,,6,3,1,1,,1,5,,Dortmund,,1,04.04.2017 20:00,Bundesliga - Round 27,cat140,2,,35,1,,1,,5,,8,4,0,0,,4,3,,Hamburger SV,,1,04.04.2017 20:00,Bundesliga - Round 27
+137,cat141,1,,51,4,,3,,3,,11,3,2,0,,2,5,,Dortmund,,0,04.04.2017 20:00,Bundesliga - Round 27,cat141,2,,49,0,,3,,5,,8,3,0,2,,5,3,,Hamburger SV,,2,04.04.2017 20:00,Bundesliga - Round 27
+138,cat142,1,,38,1,,0,,6,,4,1,0,0,,3,0,,FC Koln,,,04.04.2017 20:00,Bundesliga - Round 27,cat142,2,,62,2,,3,,7,,8,0,0,1,,5,1,,Eintracht Frankfurt,,,04.04.2017 20:00,Bundesliga - Round 27
+139,cat143,1,,42,0,,0,,5,,1,1,1,4,,0,1,,FC Koln,,0,04.04.2017 20:00,Bundesliga - Round 27,cat143,2,,58,1,,2,,11,,3,0,0,0,,1,1,,Eintracht Frankfurt,,2,04.04.2017 20:00,Bundesliga - Round 27
+140,cat144,1,,47,4,,7,,6,,11,1,1,3,,3,4,,Hoffenheim,,,04.04.2017 20:00,Bundesliga - Round 27,cat144,2,,53,3,,2,,4,,8,3,0,0,,4,1,,Bayern Munich,,,04.04.2017 20:00,Bundesliga - Round 27
+141,cat145,1,,25,1,,0,,11,,3,5,0,1,,2,0,,Hoffenheim,,0,04.04.2017 20:00,Bundesliga - Round 27,cat145,2,,75,4,,7,,6,,13,0,0,1,,4,5,,Bayern Munich,,1,04.04.2017 20:00,Bundesliga - Round 27
+142,cat146,1,,38,3,,3,,3,,6,2,1,0,,0,3,,Werder Bremen,,,04.04.2017 20:00,Bundesliga - Round 27,cat146,2,,62,1,,1,,7,,7,2,0,1,,4,2,,Schalke,,,04.04.2017 20:00,Bundesliga - Round 27
+143,cat147,1,,0,,,,,,,,,2,,,,,,Werder Bremen,,,04.04.2017 20:00,Bundesliga - Round 27,cat147,2,,0,,,,,,,,,0,,,,,,Schalke,,,04.04.2017 20:00,Bundesliga - Round 27
+144,cat148,1,,47,0,,0,,8,,3,3,1,1,,1,2,,Bayer Leverkusen,,0,02.04.2017 17:30,Bundesliga - Round 26,cat148,2,,53,1,,6,,7,,6,1,0,0,,2,3,,Wolfsburg,,1,02.04.2017 17:30,Bundesliga - Round 26
+145,cat149,1,,39,2,,2,,9,,5,3,2,0,,0,3,,Bayer Leverkusen,,1,02.04.2017 17:30,Bundesliga - Round 26,cat149,2,,61,1,,4,,7,,12,1,3,1,,5,6,,Wolfsburg,,1,02.04.2017 17:30,Bundesliga - Round 26
+146,cat150,1,,49,2,,4,,13,,8,0,1,1,,3,3,,Ingolstadt,,0,02.04.2017 15:30,Bundesliga - Round 26,cat150,2,,51,0,,0,,14,,1,2,0,2,,1,0,,Mainz,,1,02.04.2017 15:30,Bundesliga - Round 26
+147,cat151,1,,40,1,,0,,12,,4,1,1,2,,1,2,,Ingolstadt,,4,02.04.2017 15:30,Bundesliga - Round 26,cat151,2,,60,3,,4,,11,,10,1,1,1,,5,2,,Mainz,,2,02.04.2017 15:30,Bundesliga - Round 26
+148,cat152,1,,58,3,,5,,7,,9,1,0,1,,5,1,,Eintracht Frankfurt,,2,01.04.2017 18:30,Bundesliga - Round 26,cat152,2,,42,0,,0,,5,,1,1,0,2,,0,1,,B. Monchengladbach,,0,01.04.2017 18:30,Bundesliga - Round 26
+149,cat153,1,,60,2,,5,,6,,6,0,0,0,0,1,3,,Eintracht Frankfurt,,2,01.04.2017 18:30,Bundesliga - Round 26,cat153,2,,40,2,,1,,6,,5,3,0,0,1,3,0,,B. Monchengladbach,,4,01.04.2017 18:30,Bundesliga - Round 26
+150,cat154,1,,72,2,,2,,3,,11,2,2,1,,6,3,,Bayern Munich,,0,01.04.2017 15:30,Bundesliga - Round 26,cat154,2,,28,0,,0,,6,,2,1,0,0,,0,2,,Augsburg,,1,01.04.2017 15:30,Bundesliga - Round 26
+151,cat155,1,,66,4,,3,,3,,10,0,4,2,,1,5,,Bayern Munich,,0,01.04.2017 15:30,Bundesliga - Round 26,cat155,2,,34,1,,1,,2,,4,1,0,1,,3,0,,Augsburg,,1,01.04.2017 15:30,Bundesliga - Round 26
+152,cat156,1,,57,1,,2,,6,,5,0,0,1,,3,1,,Freiburg,,1,01.04.2017 15:30,Bundesliga - Round 26,cat156,2,,43,1,,1,,9,,5,1,2,1,,2,2,,Werder Bremen,,0,01.04.2017 15:30,Bundesliga - Round 26
+153,cat157,1,,69,1,,3,,3,,8,1,2,0,,4,3,,Freiburg,,1,01.04.2017 15:30,Bundesliga - Round 26,cat157,2,,31,1,,4,,5,,6,1,3,1,,1,4,,Werder Bremen,,1,01.04.2017 15:30,Bundesliga - Round 26
+154,cat158,1,,48,1,,3,,6,,7,0,1,1,,4,2,,Hamburger SV,,0,01.04.2017 15:30,Bundesliga - Round 26,cat158,2,,52,1,,1,,5,,7,1,1,1,,5,1,,FC Koln,,2,01.04.2017 15:30,Bundesliga - Round 26
+155,cat159,1,,56,2,,2,,13,,7,0,1,3,,3,2,,Hamburger SV,,2,01.04.2017 15:30,Bundesliga - Round 26,cat159,2,,44,0,,0,,8,,0,1,0,1,,0,0,,FC Koln,,1,01.04.2017 15:30,Bundesliga - Round 26
+156,cat160,1,,56,6,,5,,7,,13,0,1,3,,3,4,,RB Leipzig,,1,01.04.2017 15:30,Bundesliga - Round 26,cat160,2,,44,2,,3,,7,,9,3,0,0,,7,0,,Darmstadt,,0,01.04.2017 15:30,Bundesliga - Round 26
+157,cat161,1,,64,1,,5,,4,,12,1,3,0,0,5,6,,RB Leipzig,,0,01.04.2017 15:30,Bundesliga - Round 26,cat161,2,,36,0,,1,,8,,2,3,0,2,1,1,1,,Darmstadt,,4,01.04.2017 15:30,Bundesliga - Round 26
+158,cat162,1,,41,1,,3,,5,,3,1,0,2,,2,0,,Schalke,,,01.04.2017 15:30,Bundesliga - Round 26,cat162,2,,59,2,,3,,9,,5,0,0,1,,2,1,,Dortmund,,,01.04.2017 15:30,Bundesliga - Round 26
+159,cat163,1,,55,3,,6,,8,,6,0,1,4,,0,3,,Schalke,,1,01.04.2017 15:30,Bundesliga - Round 26,cat163,2,,45,0,,1,,8,,2,2,1,1,,1,1,,Dortmund,,2,01.04.2017 15:30,Bundesliga - Round 26
+160,cat0,1,,31,2,,2,,0,,4,4,0,2,,2,0,,B. Monchengladbach,,,19.03.2017 17:30,Bundesliga - Round 25,cat0,2,,69,2,,2,,5,,11,0,0,3,,5,4,,Bayern Munich,,,19.03.2017 17:30,Bundesliga - Round 25
+161,cat1,1,,31,5,,3,,5,,10,1,0,0,,4,1,,B. Monchengladbach,,0,19.03.2017 17:30,Bundesliga - Round 25,cat1,2,,69,1,,2,,6,,8,1,1,1,,5,2,,Bayern Munich,,2,19.03.2017 17:30,Bundesliga - Round 25
+162,cat2,1,,43,1,,6,,4,,8,1,0,1,,3,4,,Mainz,,1,19.03.2017 15:30,Bundesliga - Round 25,cat2,2,,57,0,,1,,10,,3,4,0,0,,2,1,,Schalke,,1,19.03.2017 15:30,Bundesliga - Round 25
+163,cat3,1,,55,3,,4,,6,,10,3,0,1,,6,1,12,Mainz,,1,19.03.2017 15:30,Bundesliga - Round 25,cat3,2,,45,0,,3,,4,,6,1,1,0,,2,4,18,Schalke,,3,19.03.2017 15:30,Bundesliga - Round 25
+164,cat4,1,,56,0,,1,,11,,2,0,0,2,,2,0,,Eintracht Frankfurt,,,18.03.2017 18:30,Bundesliga - Round 25,cat4,2,,44,0,,4,,12,,3,0,0,0,,3,0,,Hamburger SV,,,18.03.2017 18:30,Bundesliga - Round 25
+165,cat5,1,,48,1,,3,,8,,5,0,0,0,,3,1,,Eintracht Frankfurt,,1,18.03.2017 18:30,Bundesliga - Round 25,cat5,2,,52,1,,3,,12,,2,1,0,1,,1,0,,Hamburger SV,,1,18.03.2017 18:30,Bundesliga - Round 25
+166,cat6,1,,51,2,,3,,7,,11,1,1,0,,6,3,,Augsburg,,2,18.03.2017 15:30,Bundesliga - Round 25,cat6,2,,49,0,,1,,10,,3,2,1,0,,1,2,,Freiburg,,1,18.03.2017 15:30,Bundesliga - Round 25
+167,cat7,1,,53,0,,0,,8,,4,1,0,1,,4,0,,Augsburg,,0,18.03.2017 15:30,Bundesliga - Round 25,cat7,2,,47,1,,0,,9,,4,0,0,0,,2,1,,Freiburg,,1,18.03.2017 15:30,Bundesliga - Round 25
+168,cat8,1,,35,0,,1,,5,,4,1,3,1,,0,4,,FC Koln,,0,18.03.2017 15:30,Bundesliga - Round 25,cat8,2,,65,0,,3,,5,,2,1,0,1,,1,1,,Hertha Berlin,,2,18.03.2017 15:30,Bundesliga - Round 25
+169,cat9,1,,35,0,,1,,7,,3,3,1,0,,1,2,,FC Koln,,2,18.03.2017 15:30,Bundesliga - Round 25,cat9,2,,65,0,,6,,7,,6,1,2,0,,1,5,,Hertha Berlin,,1,18.03.2017 15:30,Bundesliga - Round 25
+170,cat10,1,,57,2,,2,,5,,9,5,0,0,,3,4,,Hoffenheim,,1,18.03.2017 15:30,Bundesliga - Round 25,cat10,2,,43,4,,6,,4,,12,4,0,2,,3,5,,Bayer Leverkusen,,1,18.03.2017 15:30,Bundesliga - Round 25
+171,cat11,1,,65,1,,0,,4,,5,2,1,0,,3,1,,Hoffenheim,,,18.03.2017 15:30,Bundesliga - Round 25,cat11,2,,35,0,,1,,8,,4,0,0,1,,2,2,,Bayer Leverkusen,,,18.03.2017 15:30,Bundesliga - Round 25
+172,cat12,1,,49,3,,1,,3,,4,1,1,1,,0,1,,Werder Bremen,,,18.03.2017 15:30,Bundesliga - Round 25,cat12,2,,51,0,,3,,8,,4,0,0,2,,3,1,,RB Leipzig,,,18.03.2017 15:30,Bundesliga - Round 25
+173,cat13,1,,43,2,,3,,8,,5,1,2,0,,0,3,,Werder Bremen,,2,18.03.2017 15:30,Bundesliga - Round 25,cat13,2,,57,0,,2,,9,,3,1,0,2,,2,1,,RB Leipzig,,1,18.03.2017 15:30,Bundesliga - Round 25
+174,cat14,1,,60,2,,5,,5,,10,0,1,0,,7,1,,Wolfsburg,,,18.03.2017 15:30,Bundesliga - Round 25,cat14,2,,40,0,,1,,3,,0,0,0,1,,0,0,,Darmstadt,,,18.03.2017 15:30,Bundesliga - Round 25
+175,cat15,1,,52,0,,1,,10,,8,1,0,0,,5,3,,Wolfsburg,,2,18.03.2017 15:30,Bundesliga - Round 25,cat15,2,,48,3,,3,,10,,6,3,0,0,,2,1,,Darmstadt,,3,18.03.2017 15:30,Bundesliga - Round 25
+176,cat16,1,,56,2,,2,,4,,7,2,1,0,,4,1,,Dortmund,,0,17.03.2017 20:30,Bundesliga - Round 25,cat16,2,,44,2,,2,,10,,9,0,0,3,,5,2,,Ingolstadt,,1,17.03.2017 20:30,Bundesliga - Round 25
+177,cat17,1,,54,1,,2,,8,,3,0,0,1,,1,1,,Dortmund,,1,17.03.2017 20:30,Bundesliga - Round 25,cat17,2,,46,2,,0,,13,,5,1,0,1,,3,0,,Ingolstadt,,2,17.03.2017 20:30,Bundesliga - Round 25
+178,cat18,1,,46,1,,2,,4,,7,2,1,2,,4,2,,Hamburger SV,,1,12.03.2017 17:30,Bundesliga - Round 24,cat18,2,,54,1,,1,,8,,6,1,1,0,,2,3,,B. Monchengladbach,,1,12.03.2017 17:30,Bundesliga - Round 24
+179,cat19,1,,50,5,,6,,3,,10,0,1,3,,1,4,,Hamburger SV,,0,12.03.2017 17:30,Bundesliga - Round 24,cat19,2,,50,0,,3,,9,,1,3,0,0,,1,0,,B. Monchengladbach,,1,12.03.2017 17:30,Bundesliga - Round 24
+180,cat20,1,,62,7,,4,,11,,13,2,3,0,,2,4,,Schalke,,1,12.03.2017 15:30,Bundesliga - Round 24,cat20,2,,38,2,,3,,4,,7,1,0,1,,3,2,,Augsburg,,0,12.03.2017 15:30,Bundesliga - Round 24
+181,cat21,1,,62,3,,3,,9,,12,1,0,0,,6,3,,Schalke,,2,12.03.2017 15:30,Bundesliga - Round 24,cat21,2,,38,0,,1,,6,,2,3,0,1,,1,1,,Augsburg,,0,12.03.2017 15:30,Bundesliga - Round 24
+182,cat22,1,,53,2,,5,,6,,12,0,1,0,,6,4,,Ingolstadt,,2,11.03.2017 18:30,Bundesliga - Round 24,cat22,2,,47,1,,0,,11,,2,3,1,1,,0,1,,FC Koln,,1,11.03.2017 18:30,Bundesliga - Round 24
+183,cat23,1,,55,5,,6,,7,,14,0,1,1,,4,5,,Ingolstadt,,2,11.03.2017 18:30,Bundesliga - Round 24,cat23,2,,45,2,,0,,12,,5,4,1,0,,2,1,,FC Koln,,2,11.03.2017 18:30,Bundesliga - Round 24
+184,cat24,1,,68,1,,1,,7,,5,2,2,3,,2,2,,Bayern Munich,,1,11.03.2017 15:30,Bundesliga - Round 24,cat24,2,,32,0,,1,,5,,4,0,0,1,,2,2,,Eintracht Frankfurt,,3,11.03.2017 15:30,Bundesliga - Round 24
+185,cat25,1,,64,0,,2,,3,,11,2,1,1,,6,5,,Bayern Munich,,1,11.03.2017 15:30,Bundesliga - Round 24,cat25,2,,36,0,,1,,1,,6,4,0,0,,4,2,,Eintracht Frankfurt,,0,11.03.2017 15:30,Bundesliga - Round 24
+186,cat26,1,,50,2,,3,,6,,7,3,2,1,,2,3,,Darmstadt,,0,11.03.2017 15:30,Bundesliga - Round 24,cat26,2,,50,0,,7,,8,,5,1,1,0,,1,4,,Mainz,,2,11.03.2017 15:30,Bundesliga - Round 24
+187,cat27,1,,40,0,,2,,8,,4,2,0,0,1,2,2,,Darmstadt,,5,11.03.2017 15:30,Bundesliga - Round 24,cat27,2,,60,1,,4,,7,,8,2,0,1,1,5,2,,Mainz,,2,11.03.2017 15:30,Bundesliga - Round 24
+188,cat28,1,,43,0,,2,,7,,2,4,0,3,,1,1,,Freiburg,,1,11.03.2017 15:30,Bundesliga - Round 24,cat28,2,,57,5,,3,,4,,14,1,0,1,,5,4,,Hoffenheim,,0,11.03.2017 15:30,Bundesliga - Round 24
+189,cat29,1,,41,0,,4,,3,,4,2,1,3,,1,3,,Freiburg,,1,11.03.2017 15:30,Bundesliga - Round 24,cat29,2,,59,1,,3,,6,,9,2,1,0,,5,3,,Hoffenheim,,2,11.03.2017 15:30,Bundesliga - Round 24
+190,cat30,1,,40,5,,2,,2,,10,0,1,2,,3,2,,Hertha Berlin,,,11.03.2017 15:30,Bundesliga - Round 24,cat30,2,,60,3,,5,,7,,7,1,0,1,,4,0,,Dortmund,,,11.03.2017 15:30,Bundesliga - Round 24
+191,cat31,1,,32,2,,2,,5,,6,1,1,0,,2,2,,Hertha Berlin,,2,11.03.2017 15:30,Bundesliga - Round 24,cat31,2,,68,4,,3,,8,,11,1,1,1,,5,2,,Dortmund,,4,11.03.2017 15:30,Bundesliga - Round 24
+192,cat32,1,,57,0,,2,,9,,2,2,0,2,,1,1,,RB Leipzig,,3,11.03.2017 15:30,Bundesliga - Round 24,cat32,2,,43,0,,1,,8,,5,1,1,3,,2,3,,Wolfsburg,,1,11.03.2017 15:30,Bundesliga - Round 24
+193,cat33,1,,53,1,,5,,7,,9,2,0,1,,3,5,,RB Leipzig,,0,11.03.2017 15:30,Bundesliga - Round 24,cat33,2,,47,1,,2,,8,,10,5,0,1,,7,2,,Wolfsburg,,3,11.03.2017 15:30,Bundesliga - Round 24
+194,cat34,1,,54,2,,2,,8,,8,1,1,0,,2,4,,Bayer Leverkusen,,1,10.03.2017 20:30,Bundesliga - Round 24,cat34,2,,46,3,,2,,3,,5,3,0,1,,1,1,,Werder Bremen,,0,10.03.2017 20:30,Bundesliga - Round 24
+195,cat35,1,,50,1,,2,,4,,4,1,0,0,1,0,3,,Bayer Leverkusen,,1,10.03.2017 20:30,Bundesliga - Round 24,cat35,2,,50,1,,1,,9,,6,3,1,4,0,3,2,,Werder Bremen,,2,10.03.2017 20:30,Bundesliga - Round 24
+196,cat36,1,,49,3,,5,,7,,6,0,0,2,,2,1,,Hamburger SV,,0,05.03.2017 17:30,Bundesliga - Round 23,cat36,2,,51,1,,1,,5,,3,1,0,2,,2,0,,Hertha Berlin,,1,05.03.2017 17:30,Bundesliga - Round 23
+197,cat37,1,,40,0,,0,,6,,3,1,1,1,,1,2,,Hamburger SV,,1,05.03.2017 17:30,Bundesliga - Round 23,cat37,2,,60,3,,1,,6,,5,1,0,0,,1,1,,Hertha Berlin,,1,05.03.2017 17:30,Bundesliga - Round 23
+198,cat38,1,,37,1,,5,,6,,5,0,1,2,,2,2,,Eintracht Frankfurt,,1,05.03.2017 15:30,Bundesliga - Round 23,cat38,2,,63,0,,0,,6,,3,1,1,3,,2,1,,Freiburg,,1,05.03.2017 15:30,Bundesliga - Round 23
+199,cat39,1,,55,4,,7,,7,,10,1,0,1,,5,1,,Eintracht Frankfurt,,1,05.03.2017 15:30,Bundesliga - Round 23,cat39,2,,45,3,,1,,8,,7,1,1,0,,2,2,,Freiburg,,0,05.03.2017 15:30,Bundesliga - Round 23
+200,cat40,1,,38,0,,0,,2,,7,0,1,2,,6,1,,B. Monchengladbach,,0,04.03.2017 18:30,Bundesliga - Round 23,cat40,2,,62,0,,2,,7,,4,0,1,1,,3,1,,Schalke,,1,04.03.2017 18:30,Bundesliga - Round 23
+201,cat41,1,,47,2,,3,,3,,12,0,3,2,,4,6,,B. Monchengladbach,,0,04.03.2017 18:30,Bundesliga - Round 23,cat41,2,,53,0,,0,,8,,3,3,1,4,,2,1,,Schalke,,3,04.03.2017 18:30,Bundesliga - Round 23
+202,cat42,1,,51,2,,4,,4,,11,0,2,1,,3,6,,Dortmund,,0,04.03.2017 15:30,Bundesliga - Round 23,cat42,2,,49,6,,3,,13,,8,4,0,1,,2,0,,Bayer Leverkusen,,3,04.03.2017 15:30,Bundesliga - Round 23
+203,cat43,1,,55,2,,3,,3,,9,1,4,1,,1,6,,Dortmund,,0,04.03.2017 15:30,Bundesliga - Round 23,cat43,2,,45,0,,0,,7,,4,2,2,1,,1,3,,Bayer Leverkusen,,3,04.03.2017 15:30,Bundesliga - Round 23
+204,cat44,1,,35,0,,1,,7,,4,5,0,0,,2,2,,FC Koln,,0,04.03.2017 15:30,Bundesliga - Round 23,cat44,2,,65,4,,7,,4,,14,2,1,0,,4,6,,Bayern Munich,,1,04.03.2017 15:30,Bundesliga - Round 23
+205,cat45,1,,27,1,,1,,4,,2,0,0,1,,1,0,,FC Koln,,0,04.03.2017 15:30,Bundesliga - Round 23,cat45,2,,73,2,,2,,5,,6,0,2,1,,2,2,,Bayern Munich,,1,04.03.2017 15:30,Bundesliga - Round 23
+206,cat46,1,,54,3,,2,,10,,7,0,1,3,,2,2,,Hoffenheim,,1,04.03.2017 15:30,Bundesliga - Round 23,cat46,2,,46,0,,3,,11,,2,1,1,1,,1,1,,Ingolstadt,,0,04.03.2017 15:30,Bundesliga - Round 23
+207,cat47,1,,61,-1,,1,,8,,10,2,4,2,,1,10,,Hoffenheim,,1,04.03.2017 15:30,Bundesliga - Round 23,cat47,2,,39,1,,3,,8,,6,6,1,2,,2,3,,Ingolstadt,,2,04.03.2017 15:30,Bundesliga - Round 23
+208,cat48,1,,43,2,,3,,7,,7,2,1,0,,4,1,,Mainz,,,04.03.2017 15:30,Bundesliga - Round 23,cat48,2,,57,1,,4,,6,,5,0,1,0,,1,3,,Wolfsburg,,,04.03.2017 15:30,Bundesliga - Round 23
+209,cat49,1,,39,1,,1,,8,,3,2,0,0,,1,1,,Mainz,,,04.03.2017 15:30,Bundesliga - Round 23,cat49,2,,61,0,,2,,5,,2,1,0,0,,0,2,,Wolfsburg,,,04.03.2017 15:30,Bundesliga - Round 23
+210,cat50,1,,39,0,,1,,4,,2,1,0,0,,1,1,,Werder Bremen,,,04.03.2017 15:30,Bundesliga - Round 23,cat50,2,,61,5,,6,,6,,10,1,0,2,,4,1,,Darmstadt,,,04.03.2017 15:30,Bundesliga - Round 23
+211,cat51,1,,51,0,,1,,5,,7,2,2,1,,4,3,,Werder Bremen,,1,04.03.2017 15:30,Bundesliga - Round 23,cat51,2,,49,0,,1,,10,,5,1,0,0,,3,2,,Darmstadt,,1,04.03.2017 15:30,Bundesliga - Round 23
+212,cat52,1,,42,0,,0,,8,,4,0,1,2,,3,1,,Augsburg,,3,03.03.2017 20:30,Bundesliga - Round 23,cat52,2,,58,0,,3,,8,,2,0,1,2,,1,1,,RB Leipzig,,1,03.03.2017 20:30,Bundesliga - Round 23
+213,cat53,1,,34,0,,1,,7,,3,3,1,5,,2,1,,Augsburg,,1,03.03.2017 20:30,Bundesliga - Round 23,cat53,2,,66,2,,3,,7,,10,0,1,3,,4,4,,RB Leipzig,,1,03.03.2017 20:30,Bundesliga - Round 23
+214,cat54,1,,41,2,,4,,7,,3,3,1,1,,0,1,,Schalke,,,26.02.2017 17:30,Bundesliga - Round 22,cat54,2,,59,1,,3,,4,,8,0,0,1,,4,3,,Hoffenheim,,,26.02.2017 17:30,Bundesliga - Round 22
+215,cat55,1,,45,1,,2,,11,,4,0,0,1,,2,1,,Schalke,,0,26.02.2017 17:30,Bundesliga - Round 22,cat55,2,,55,0,,0,,8,,6,1,1,1,,5,1,,Hoffenheim,,2,26.02.2017 17:30,Bundesliga - Round 22
+216,cat56,1,,50,3,,1,,5,,5,1,0,0,,2,0,,Ingolstadt,,1,26.02.2017 15:30,Bundesliga - Round 22,cat56,2,,50,3,,3,,8,,6,0,0,2,,2,1,,B. Monchengladbach,,0,26.02.2017 15:30,Bundesliga - Round 22
+217,cat57,1,,54,4,,5,,5,,9,1,0,2,,2,3,,Ingolstadt,,1,26.02.2017 15:30,Bundesliga - Round 22,cat57,2,,46,-1,,1,,6,,4,3,2,2,,2,3,,B. Monchengladbach,,0,26.02.2017 15:30,Bundesliga - Round 22
+218,cat58,1,,58,0,,2,,8,,2,2,0,2,,1,1,,Hertha Berlin,,2,25.02.2017 18:30,Bundesliga - Round 22,cat58,2,,42,1,,3,,8,,4,1,0,0,,1,2,,Eintracht Frankfurt,,0,25.02.2017 18:30,Bundesliga - Round 22
+219,cat59,1,,54,0,,1,,3,,4,0,2,2,0,1,3,,Hertha Berlin,,0,25.02.2017 18:30,Bundesliga - Round 22,cat59,2,,46,4,,3,,8,,4,1,0,2,1,0,0,,Eintracht Frankfurt,,2,25.02.2017 18:30,Bundesliga - Round 22
+220,cat60,1,,55,1,,5,,8,,6,2,0,0,,3,2,,Bayer Leverkusen,,1,25.02.2017 15:30,Bundesliga - Round 22,cat60,2,,45,3,,5,,5,,8,2,2,3,,1,4,,Mainz,,0,25.02.2017 15:30,Bundesliga - Round 22
+221,cat61,1,,59,0,,4,,12,,6,1,0,0,,5,1,,Bayer Leverkusen,,0,25.02.2017 15:30,Bundesliga - Round 22,cat61,2,,41,0,,3,,8,,3,1,0,1,,2,1,,Mainz,,3,25.02.2017 15:30,Bundesliga - Round 22
+222,cat62,1,,70,1,,3,,6,,11,0,3,1,,4,6,,Bayern Munich,,0,25.02.2017 15:30,Bundesliga - Round 22,cat62,2,,30,1,,4,,5,,2,3,0,1,,1,0,,Hamburger SV,,1,25.02.2017 15:30,Bundesliga - Round 22
+223,cat63,1,,63,1,,1,,9,,7,1,5,1,,0,6,,Bayern Munich,,,25.02.2017 15:30,Bundesliga - Round 22,cat63,2,,37,1,,0,,5,,3,1,0,1,,1,1,,Hamburger SV,,,25.02.2017 15:30,Bundesliga - Round 22
+224,cat64,1,,56,0,,1,,7,,0,0,0,1,,0,0,,Darmstadt,,,25.02.2017 15:30,Bundesliga - Round 22,cat64,2,,44,1,,0,,12,,4,0,0,1,,3,0,,Augsburg,,,25.02.2017 15:30,Bundesliga - Round 22
+225,cat65,1,,52,1,,0,,9,,5,1,1,0,,2,2,,Darmstadt,,1,25.02.2017 15:30,Bundesliga - Round 22,cat65,2,,48,7,,1,,4,,14,1,2,1,,4,3,,Augsburg,,0,25.02.2017 15:30,Bundesliga - Round 22
+226,cat66,1,,38,1,,1,,3,,2,6,0,2,,1,0,,Freiburg,,,25.02.2017 15:30,Bundesliga - Round 22,cat66,2,,62,3,,2,,6,,14,0,1,1,,4,7,,Dortmund,,,25.02.2017 15:30,Bundesliga - Round 22
+227,cat67,1,,40,0,,4,,5,,5,1,0,1,,2,3,,Freiburg,,1,25.02.2017 15:30,Bundesliga - Round 22,cat67,2,,60,4,,1,,4,,12,3,2,1,,5,3,,Dortmund,,0,25.02.2017 15:30,Bundesliga - Round 22
+228,cat68,1,,53,0,,1,,6,,9,0,2,1,,6,3,,RB Leipzig,,0,25.02.2017 15:30,Bundesliga - Round 22,cat68,2,,47,0,,0,,5,,2,1,0,1,,2,0,,FC Koln,,2,25.02.2017 15:30,Bundesliga - Round 22
+229,cat69,1,,51,0,,2,,8,,4,0,1,2,,2,2,,RB Leipzig,,1,25.02.2017 15:30,Bundesliga - Round 22,cat69,2,,49,0,,0,,5,,3,1,1,0,,2,1,,FC Koln,,2,25.02.2017 15:30,Bundesliga - Round 22
+230,cat70,1,,63,2,,3,,4,,18,1,1,1,,11,5,,Wolfsburg,,0,24.02.2017 20:30,Bundesliga - Round 22,cat70,2,,37,0,,1,,6,,5,4,2,0,,2,3,,Werder Bremen,,1,24.02.2017 20:30,Bundesliga - Round 22
+231,cat71,1,,67,2,,10,,9,,9,0,0,0,,6,1,,Wolfsburg,,1,24.02.2017 20:30,Bundesliga - Round 22,cat71,2,,33,0,,0,,8,,2,1,0,0,,2,0,,Werder Bremen,,2,24.02.2017 20:30,Bundesliga - Round 22
+232,cat72,1,,53,0,,2,,7,,5,0,1,5,,2,3,,FC Koln,,1,19.02.2017 17:30,Bundesliga - Round 21,cat72,2,,47,1,,0,,6,,5,2,1,0,,3,1,,Schalke,,0,19.02.2017 17:30,Bundesliga - Round 21
+233,cat73,1,,45,1,,3,,5,,3,3,0,3,,1,1,,FC Koln,,1,19.02.2017 17:30,Bundesliga - Round 21,cat73,2,,55,0,,0,,8,,7,1,0,1,,4,3,,Schalke,,3,19.02.2017 17:30,Bundesliga - Round 21
+234,cat74,1,,55,0,,2,,5,,4,2,0,4,,3,1,,B. Monchengladbach,,1,19.02.2017 15:30,Bundesliga - Round 21,cat74,2,,45,1,,1,,9,,4,1,1,4,,0,3,,RB Leipzig,,2,19.02.2017 15:30,Bundesliga - Round 21
+235,cat75,1,,55,2,,6,,10,,8,1,1,3,,4,2,,B. Monchengladbach,,3,19.02.2017 15:30,Bundesliga - Round 21,cat75,2,,45,0,,2,,8,,5,1,1,3,,3,2,,RB Leipzig,,1,19.02.2017 15:30,Bundesliga - Round 21
+236,cat76,1,,49,1,,3,,4,,3,1,1,2,,0,2,,Hamburger SV,,0,18.02.2017 18:30,Bundesliga - Round 21,cat76,2,,51,2,,2,,5,,6,1,1,2,,2,2,,Freiburg,,1,18.02.2017 18:30,Bundesliga - Round 21
+237,cat77,1,,47,1,,4,,11,,3,0,1,0,,0,2,,Hamburger SV,,3,18.02.2017 18:30,Bundesliga - Round 21,cat77,2,,53,3,,3,,4,,6,1,1,0,,2,1,,Freiburg,,1,18.02.2017 18:30,Bundesliga - Round 21
+238,cat78,1,,63,1,,4,,8,,9,1,1,2,,4,4,,Dortmund,,,18.02.2017 15:30,Bundesliga - Round 21,cat78,2,,37,0,,0,,9,,2,3,0,1,,1,1,,Wolfsburg,,,18.02.2017 15:30,Bundesliga - Round 21
+239,cat79,1,,61,4,,5,,8,,15,2,2,4,,5,6,,Dortmund,,2,18.02.2017 15:30,Bundesliga - Round 21,cat79,2,,39,0,,2,,6,,4,4,0,1,,2,2,,Wolfsburg,,1,18.02.2017 15:30,Bundesliga - Round 21
+240,cat80,1,,52,1,,2,,6,,4,4,0,2,1,2,1,,Eintracht Frankfurt,,2,18.02.2017 15:30,Bundesliga - Round 21,cat80,2,,48,1,,3,,4,,8,1,1,3,0,2,5,,Ingolstadt,,0,18.02.2017 15:30,Bundesliga - Round 21
+241,cat81,1,,48,2,,2,,9,,11,5,0,2,0,4,5,,Eintracht Frankfurt,,2,18.02.2017 15:30,Bundesliga - Round 21,cat81,2,,52,0,,2,,8,,6,5,1,0,1,0,6,,Ingolstadt,,0,18.02.2017 15:30,Bundesliga - Round 21
+242,cat82,1,,33,4,,3,,9,,7,2,1,3,,2,1,,Hertha Berlin,,,18.02.2017 15:30,Bundesliga - Round 21,cat82,2,,67,2,,1,,3,,5,0,0,2,,1,2,,Bayern Munich,,,18.02.2017 15:30,Bundesliga - Round 21
+243,cat83,1,,25,1,,0,,10,,4,4,0,0,,2,1,,Hertha Berlin,,2,18.02.2017 15:30,Bundesliga - Round 21,cat83,2,,75,5,,3,,7,,11,1,1,2,,1,5,,Bayern Munich,,3,18.02.2017 15:30,Bundesliga - Round 21
+244,cat84,1,,57,1,,1,,6,,6,2,0,2,,4,1,,Hoffenheim,,1,18.02.2017 15:30,Bundesliga - Round 21,cat84,2,,43,0,,0,,10,,3,1,0,1,,1,2,,Darmstadt,,0,18.02.2017 15:30,Bundesliga - Round 21
+245,cat85,1,,55,3,,3,,5,,8,2,2,1,,1,4,,Hoffenheim,,2,18.02.2017 15:30,Bundesliga - Round 21,cat85,2,,45,0,,2,,9,,4,2,0,1,,2,2,,Darmstadt,,4,18.02.2017 15:30,Bundesliga - Round 21
+246,cat86,1,,57,1,,1,,8,,2,0,0,2,,0,1,,Mainz,,1,18.02.2017 15:30,Bundesliga - Round 21,cat86,2,,43,0,,5,,5,,3,1,2,0,,1,2,,Werder Bremen,,2,18.02.2017 15:30,Bundesliga - Round 21
+247,cat87,1,,57,3,,6,,6,,11,2,0,0,,4,4,,Mainz,,2,18.02.2017 15:30,Bundesliga - Round 21,cat87,2,,43,1,,1,,4,,5,4,0,1,,2,2,,Werder Bremen,,2,18.02.2017 15:30,Bundesliga - Round 21
+248,cat88,1,,46,1,,1,,6,,6,4,0,1,,4,1,,Augsburg,,1,17.02.2017 20:30,Bundesliga - Round 21,cat88,2,,54,3,,3,,7,,11,1,2,1,,2,6,,Bayer Leverkusen,,0,17.02.2017 20:30,Bundesliga - Round 21
+249,cat89,1,,56,1,,1,,6,,6,3,1,2,,2,3,,Augsburg,,2,17.02.2017 20:30,Bundesliga - Round 21,cat89,2,,44,2,,1,,6,,9,2,1,0,,3,4,,Bayer Leverkusen,,1,17.02.2017 20:30,Bundesliga - Round 21
+250,cat90,1,,57,0,,2,,7,,4,1,1,0,,1,3,,Freiburg,,,12.02.2017 17:30,Bundesliga - Round 20,cat90,2,,43,1,,0,,6,,5,2,1,2,,2,2,,FC Koln,,,12.02.2017 17:30,Bundesliga - Round 20
+251,cat91,1,,53,2,,5,,7,,8,3,1,0,,3,3,,Freiburg,,1,12.02.2017 17:30,Bundesliga - Round 20,cat91,2,,47,0,,1,,6,,7,2,0,2,,4,3,,FC Koln,,1,12.02.2017 17:30,Bundesliga - Round 20
+252,cat92,1,,46,1,,1,,8,,4,1,0,2,,2,1,,Wolfsburg,,2,12.02.2017 15:30,Bundesliga - Round 20,cat92,2,,54,2,,1,,8,,8,1,1,1,,4,2,,Hoffenheim,,0,12.02.2017 15:30,Bundesliga - Round 20
+253,cat93,1,,35,1,,3,,7,,10,5,2,0,,3,6,,Wolfsburg,,1,12.02.2017 15:30,Bundesliga - Round 20,cat93,2,,65,0,,4,,9,,6,4,0,2,,1,5,,Hoffenheim,,2,12.02.2017 15:30,Bundesliga - Round 20
+254,cat94,1,,67,1,,1,,9,,9,0,1,3,,6,2,,Schalke,,,11.02.2017 18:30,Bundesliga - Round 20,cat94,2,,33,1,,2,,7,,2,1,0,1,,1,0,,Hertha Berlin,,,11.02.2017 18:30,Bundesliga - Round 20
+255,cat95,1,,45,0,,1,,11,,5,2,1,0,,4,1,,Schalke,,1,11.02.2017 18:30,Bundesliga - Round 20,cat95,2,,55,0,,0,,8,,3,0,0,1,,1,2,,Hertha Berlin,,2,11.02.2017 18:30,Bundesliga - Round 20
+256,cat96,1,,52,0,,0,,7,,6,2,1,2,,4,2,,Bayer Leverkusen,,2,11.02.2017 15:30,Bundesliga - Round 20,cat96,2,,48,1,,2,,9,,3,1,0,1,,0,2,,Eintracht Frankfurt,,1,11.02.2017 15:30,Bundesliga - Round 20
+257,cat97,1,,48,4,,7,,2,,11,1,2,1,,2,5,,Bayer Leverkusen,,,11.02.2017 15:30,Bundesliga - Round 20,cat97,2,,52,1,,4,,1,,6,3,0,1,,4,1,,Eintracht Frankfurt,,,11.02.2017 15:30,Bundesliga - Round 20
+258,cat98,1,,44,0,,0,,4,,6,2,1,2,,3,3,,Darmstadt,,,11.02.2017 15:30,Bundesliga - Round 20,cat98,2,,56,1,,6,,10,,7,2,1,0,,3,3,,Dortmund,,,11.02.2017 15:30,Bundesliga - Round 20
+259,cat99,1,,38,1,,0,,6,,9,1,1,1,,4,4,,Darmstadt,,2,11.02.2017 15:30,Bundesliga - Round 20,cat99,2,,62,3,,6,,10,,7,3,0,2,,3,1,,Dortmund,,2,11.02.2017 15:30,Bundesliga - Round 20
+260,cat100,1,,36,1,,0,,10,,4,2,0,0,,3,0,,Ingolstadt,,,11.02.2017 15:30,Bundesliga - Round 20,cat100,2,,64,1,,3,,7,,8,0,0,2,,5,2,,Bayern Munich,,,11.02.2017 15:30,Bundesliga - Round 20
+261,cat101,1,,32,0,,2,,5,,4,1,0,0,,4,0,,Ingolstadt,,2,11.02.2017 15:30,Bundesliga - Round 20,cat101,2,,68,2,,1,,7,,9,0,2,2,,4,3,,Bayern Munich,,1,11.02.2017 15:30,Bundesliga - Round 20
+262,cat102,1,,62,2,,2,,2,,10,1,0,1,,8,0,,RB Leipzig,,1,11.02.2017 15:30,Bundesliga - Round 20,cat102,2,,38,0,,5,,5,,5,0,2,0,,2,3,,Hamburger SV,,0,11.02.2017 15:30,Bundesliga - Round 20
+263,cat103,1,,64,4,,1,,7,,5,1,0,3,,1,0,,RB Leipzig,,1,11.02.2017 15:30,Bundesliga - Round 20,cat103,2,,36,1,,1,,12,,6,0,1,5,,3,2,,Hamburger SV,,2,11.02.2017 15:30,Bundesliga - Round 20
+264,cat104,1,,54,0,,2,,10,,4,1,0,0,,1,3,,Werder Bremen,,,11.02.2017 15:30,Bundesliga - Round 20,cat104,2,,46,3,,3,,6,,8,3,1,3,,3,2,,B. Monchengladbach,,,11.02.2017 15:30,Bundesliga - Round 20
+265,cat105,1,,60,7,,7,,6,,12,1,0,1,,2,3,,Werder Bremen,,2,11.02.2017 15:30,Bundesliga - Round 20,cat105,2,,40,2,,0,,11,,4,3,0,1,,1,1,,B. Monchengladbach,,2,11.02.2017 15:30,Bundesliga - Round 20
+266,cat106,1,,53,1,,5,,4,,5,4,1,1,,2,2,,Mainz,,,10.02.2017 20:30,Bundesliga - Round 20,cat106,2,,47,1,,1,,9,,6,1,0,0,,1,4,,Augsburg,,,10.02.2017 20:30,Bundesliga - Round 20
+267,cat107,1,,45,0,,1,,5,,3,2,1,0,,1,2,,Mainz,,1,10.02.2017 20:30,Bundesliga - Round 20,cat107,2,,55,0,,1,,4,,4,1,0,0,,2,2,,Augsburg,,3,10.02.2017 20:30,Bundesliga - Round 20
+268,cat108,1,,63,2,,2,,3,,6,0,0,1,,3,1,,Eintracht Frankfurt,,0,05.02.2017 17:30,Bundesliga - Round 19,cat108,2,,37,0,,2,,7,,3,1,0,0,,3,0,,Darmstadt,,2,05.02.2017 17:30,Bundesliga - Round 19
+269,cat109,1,,69,2,,6,,3,,9,0,2,1,,2,5,,Eintracht Frankfurt,,2,05.02.2017 17:30,Bundesliga - Round 19,cat109,2,,31,1,,0,,9,,1,3,0,3,,0,0,,Darmstadt,,2,05.02.2017 17:30,Bundesliga - Round 19
+270,cat110,1,,41,0,,0,,6,,5,2,1,0,,2,3,,Augsburg,,,05.02.2017 15:30,Bundesliga - Round 19,cat110,2,,59,2,,2,,4,,10,2,1,0,,5,3,,Werder Bremen,,,05.02.2017 15:30,Bundesliga - Round 19
+271,cat111,1,,45,3,,2,,7,,10,0,2,0,,3,4,,Augsburg,,3,05.02.2017 15:30,Bundesliga - Round 19,cat111,2,,55,3,,2,,8,,9,2,1,0,,5,1,,Werder Bremen,,2,05.02.2017 15:30,Bundesliga - Round 19
+272,cat112,1,,55,1,,1,,10,,5,1,1,4,,3,1,,Dortmund,,0,04.02.2017 18:30,Bundesliga - Round 19,cat112,2,,45,0,,0,,9,,2,0,0,1,,1,1,,RB Leipzig,,1,04.02.2017 18:30,Bundesliga - Round 19
+273,cat113,1,,51,1,,4,,5,,6,0,0,1,,2,3,,Dortmund,,1,04.02.2017 18:30,Bundesliga - Round 19,cat113,2,,49,0,,2,,8,,0,3,0,3,,0,0,,RB Leipzig,,2,04.02.2017 18:30,Bundesliga - Round 19
+274,cat114,1,,53,3,,2,,4,,6,1,0,0,,3,0,,B. Monchengladbach,,,04.02.2017 15:30,Bundesliga - Round 19,cat114,2,,47,2,,6,,4,,5,0,0,0,,2,1,,Freiburg,,,04.02.2017 15:30,Bundesliga - Round 19
+275,cat115,1,,45,0,,1,,5,,5,3,3,0,,2,3,,B. Monchengladbach,,1,04.02.2017 15:30,Bundesliga - Round 19,cat115,2,,55,5,,2,,6,,9,0,0,1,,1,3,,Freiburg,,1,04.02.2017 15:30,Bundesliga - Round 19
+276,cat116,1,,56,0,,4,,4,,6,1,1,2,,4,2,,Bayern Munich,,,04.02.2017 15:30,Bundesliga - Round 19,cat116,2,,44,0,,3,,5,,4,1,1,2,,2,2,,Schalke,,,04.02.2017 15:30,Bundesliga - Round 19
+277,cat117,1,,58,1,,4,,10,,6,1,0,1,,3,2,,Bayern Munich,,1,04.02.2017 15:30,Bundesliga - Round 19,cat117,2,,42,0,,0,,9,,3,2,0,2,,2,1,,Schalke,,1,04.02.2017 15:30,Bundesliga - Round 19
+278,cat118,1,,48,1,,3,,10,,5,0,0,1,,3,1,,FC Koln,,2,04.02.2017 15:30,Bundesliga - Round 19,cat118,2,,52,2,,0,,10,,3,1,0,0,,1,0,,Wolfsburg,,0,04.02.2017 15:30,Bundesliga - Round 19
+279,cat119,1,,48,4,,3,,4,,7,2,1,1,,2,1,,FC Koln,,2,04.02.2017 15:30,Bundesliga - Round 19,cat119,2,,52,4,,6,,9,,10,0,0,2,,4,2,,Wolfsburg,,3,04.02.2017 15:30,Bundesliga - Round 19
+280,cat120,1,,56,0,,0,,10,,3,0,1,0,,1,2,,Hertha Berlin,,0,04.02.2017 15:30,Bundesliga - Round 19,cat120,2,,44,1,,1,,10,,4,1,0,0,,3,0,,Ingolstadt,,1,04.02.2017 15:30,Bundesliga - Round 19
+281,cat121,1,,48,1,,1,,4,,5,4,0,0,,4,0,,Hertha Berlin,,2,04.02.2017 15:30,Bundesliga - Round 19,cat121,2,,52,3,,2,,9,,9,0,0,3,,2,4,,Ingolstadt,,1,04.02.2017 15:30,Bundesliga - Round 19
+282,cat122,1,,56,6,,2,,7,,9,1,1,0,,2,1,,Hoffenheim,,0,04.02.2017 15:30,Bundesliga - Round 19,cat122,2,,44,4,,2,,3,,9,0,0,0,,4,1,,Mainz,,1,04.02.2017 15:30,Bundesliga - Round 19
+283,cat123,1,,54,5,,1,,6,,13,1,3,1,,2,6,,Hoffenheim,,2,04.02.2017 15:30,Bundesliga - Round 19,cat123,2,,46,1,,4,,9,,4,3,0,0,,2,1,,Mainz,,1,04.02.2017 15:30,Bundesliga - Round 19
+284,cat124,1,,44,0,,1,,9,,4,0,0,4,,3,1,,Hamburger SV,,0,03.02.2017 20:30,Bundesliga - Round 19,cat124,2,,56,0,,0,,14,,0,1,0,1,,0,0,,Bayer Leverkusen,,1,03.02.2017 20:30,Bundesliga - Round 19
+285,cat125,1,,44,3,,3,,4,,7,0,1,1,,2,2,,Hamburger SV,,0,03.02.2017 20:30,Bundesliga - Round 19,cat125,2,,56,1,,3,,8,,5,1,0,0,,4,0,,Bayer Leverkusen,,2,03.02.2017 20:30,Bundesliga - Round 19
+286,cat126,1,,38,1,,1,,4,,2,1,0,3,,1,0,,Mainz,,,29.01.2017 17:30,Bundesliga - Round 18,cat126,2,,62,3,,3,,4,,8,0,1,2,,3,2,,Dortmund,,,29.01.2017 17:30,Bundesliga - Round 18
+287,cat127,1,,44,3,,1,,9,,7,2,1,0,,3,1,,Mainz,,2,29.01.2017 17:30,Bundesliga - Round 18,cat127,2,,56,2,,1,,9,,5,0,0,1,,1,2,,Dortmund,,1,29.01.2017 17:30,Bundesliga - Round 18
+288,cat128,1,,42,0,,3,,5,,2,0,1,0,,1,1,,Freiburg,,0,29.01.2017 15:30,Bundesliga - Round 18,cat128,2,,58,0,,0,,7,,1,0,0,2,,1,0,,Hertha Berlin,,2,29.01.2017 15:30,Bundesliga - Round 18
+289,cat129,1,,42,4,,3,,6,,9,1,1,2,,2,3,,Freiburg,,,29.01.2017 15:30,Bundesliga - Round 18,cat129,2,,58,5,,4,,11,,10,2,1,1,,3,2,,Hertha Berlin,,,29.01.2017 15:30,Bundesliga - Round 18
+290,cat130,1,,58,1,,4,,5,,8,2,2,0,,4,3,,Bayer Leverkusen,,,28.01.2017 18:30,Bundesliga - Round 18,cat130,2,,42,0,,4,,3,,4,1,0,1,,2,2,,B. Monchengladbach,,,28.01.2017 18:30,Bundesliga - Round 18
+291,cat131,1,,58,1,,5,,6,,5,2,0,0,,3,1,,Bayer Leverkusen,,,28.01.2017 18:30,Bundesliga - Round 18,cat131,2,,42,2,,1,,5,,8,1,3,0,,1,5,,B. Monchengladbach,,,28.01.2017 18:30,Bundesliga - Round 18
+292,cat132,1,,42,0,,0,,12,,1,1,0,3,,1,0,,Darmstadt,,1,28.01.2017 15:30,Bundesliga - Round 18,cat132,2,,58,2,,2,,12,,8,0,3,1,,2,4,,FC Koln,,2,28.01.2017 15:30,Bundesliga - Round 18
+293,cat133,1,,46,1,,3,,10,,9,0,1,1,,4,4,,Darmstadt,,1,28.01.2017 15:30,Bundesliga - Round 18,cat133,2,,54,0,,2,,8,,6,3,3,0,,3,3,,FC Koln,,2,28.01.2017 15:30,Bundesliga - Round 18
+294,cat134,1,,45,3,,0,,6,,8,1,2,1,,1,4,,Ingolstadt,,0,28.01.2017 15:30,Bundesliga - Round 18,cat134,2,,55,2,,4,,8,,7,2,0,0,,4,1,,Hamburger SV,,1,28.01.2017 15:30,Bundesliga - Round 18
+295,cat135,1,,47,1,,1,,6,,7,1,1,0,,3,3,,Ingolstadt,,0,28.01.2017 15:30,Bundesliga - Round 18,cat135,2,,53,0,,2,,10,,4,2,1,0,,2,2,,Hamburger SV,,1,28.01.2017 15:30,Bundesliga - Round 18
+296,cat136,1,,55,3,,6,,9,,7,1,1,1,,2,2,,RB Leipzig,,1,28.01.2017 15:30,Bundesliga - Round 18,cat136,2,,45,0,,3,,5,,3,1,1,1,,1,2,,Hoffenheim,,1,28.01.2017 15:30,Bundesliga - Round 18
+297,cat137,1,,62,1,,1,,8,,7,0,1,5,0,3,3,,RB Leipzig,,2,28.01.2017 15:30,Bundesliga - Round 18,cat137,2,,38,0,,1,,11,,2,2,0,0,1,2,0,,Hoffenheim,,2,28.01.2017 15:30,Bundesliga - Round 18
+298,cat138,1,,35,0,,1,,10,,3,1,0,1,,1,2,,Werder Bremen,,1,28.01.2017 15:30,Bundesliga - Round 18,cat138,2,,65,3,,4,,7,,8,2,2,1,,2,3,,Bayern Munich,,0,28.01.2017 15:30,Bundesliga - Round 18
+299,cat139,1,,47,1,,1,,7,,8,1,1,2,,5,2,,Werder Bremen,,3,28.01.2017 15:30,Bundesliga - Round 18,cat139,2,,53,3,,3,,9,,5,1,0,1,,1,1,,Bayern Munich,,1,28.01.2017 15:30,Bundesliga - Round 18
+300,cat140,1,,61,1,,1,,5,,4,3,1,0,,0,3,,Wolfsburg,,0,28.01.2017 15:30,Bundesliga - Round 18,cat140,2,,39,0,,3,,8,,6,2,1,1,,2,4,,Augsburg,,1,28.01.2017 15:30,Bundesliga - Round 18
+301,cat141,1,,55,2,,4,,7,,7,0,0,0,,3,2,,Wolfsburg,,2,28.01.2017 15:30,Bundesliga - Round 18,cat141,2,,45,2,,3,,9,,6,2,1,0,,3,1,,Augsburg,,1,28.01.2017 15:30,Bundesliga - Round 18
+302,cat142,1,,44,2,,3,,11,,6,0,0,4,,2,2,,Schalke,,,27.01.2017 20:30,Bundesliga - Round 18,cat142,2,,56,2,,2,,5,,6,2,1,0,,3,1,,Eintracht Frankfurt,,,27.01.2017 20:30,Bundesliga - Round 18
+303,cat143,1,,58,1,,0,,7,,6,0,0,3,,5,0,,Schalke,,2,27.01.2017 20:30,Bundesliga - Round 18,cat143,2,,42,0,,0,,12,,2,0,0,1,,2,0,,Eintracht Frankfurt,,1,27.01.2017 20:30,Bundesliga - Round 18
+304,cat144,1,,45,2,,4,,7,,8,2,0,0,,3,3,,Mainz,,1,22.01.2017 17:30,Bundesliga - Round 17,cat144,2,,55,1,,2,,5,,5,3,0,1,,2,2,,FC Koln,,0,22.01.2017 17:30,Bundesliga - Round 17
+305,cat145,1,,45,0,,1,,4,,4,1,0,0,,2,2,,Mainz,,0,22.01.2017 17:30,Bundesliga - Round 17,cat145,2,,55,0,,3,,5,,4,2,0,2,,3,1,,FC Koln,,1,22.01.2017 17:30,Bundesliga - Round 17
+306,cat146,1,,50,0,,3,,6,,6,1,2,1,,3,3,,Bayer Leverkusen,,,22.01.2017 15:30,Bundesliga - Round 17,cat146,2,,50,0,,3,,7,,4,1,1,2,,2,2,,Hertha Berlin,,,22.01.2017 15:30,Bundesliga - Round 17
+307,cat147,1,,58,3,,4,,7,,10,1,1,0,,1,6,,Bayer Leverkusen,,0,22.01.2017 15:30,Bundesliga - Round 17,cat147,2,,42,0,,0,,6,,3,5,0,2,,2,1,,Hertha Berlin,,2,22.01.2017 15:30,Bundesliga - Round 17
+308,cat148,1,,65,1,,0,,3,,10,3,2,2,0,3,6,,RB Leipzig,,0,21.01.2017 18:30,Bundesliga - Round 17,cat148,2,,35,0,,3,,6,,4,4,0,0,1,1,3,,Eintracht Frankfurt,,1,21.01.2017 18:30,Bundesliga - Round 17
+309,cat149,1,,67,1,,3,,5,,7,0,1,3,,5,1,,RB Leipzig,,1,21.01.2017 18:30,Bundesliga - Round 17,cat149,2,,33,0,,0,,8,,0,0,0,0,,0,0,,Eintracht Frankfurt,,1,21.01.2017 18:30,Bundesliga - Round 17
+310,cat150,1,,45,1,,1,,8,,4,1,0,0,,2,1,,Augsburg,,2,21.01.2017 15:30,Bundesliga - Round 17,cat150,2,,55,3,,1,,7,,5,1,0,1,,1,1,,Hoffenheim,,3,21.01.2017 15:30,Bundesliga - Round 17
+311,cat151,1,,51,3,,3,,10,,5,0,0,1,,1,1,,Augsburg,,1,21.01.2017 15:30,Bundesliga - Round 17,cat151,2,,49,4,,3,,7,,8,1,2,0,,2,2,,Hoffenheim,,1,21.01.2017 15:30,Bundesliga - Round 17
+312,cat152,1,,38,2,,1,,4,,3,4,0,0,,1,0,,Darmstadt,,,21.01.2017 15:30,Bundesliga - Round 17,cat152,2,,62,0,,3,,6,,5,0,0,1,,1,4,,B. Monchengladbach,,,21.01.2017 15:30,Bundesliga - Round 17
+313,cat153,1,,40,2,,3,,7,,5,0,0,1,,1,2,,Darmstadt,,1,21.01.2017 15:30,Bundesliga - Round 17,cat153,2,,60,3,,3,,9,,9,2,0,1,,6,0,,B. Monchengladbach,,1,21.01.2017 15:30,Bundesliga - Round 17
+314,cat154,1,,51,2,,2,,6,,6,2,0,3,,3,1,,Schalke,,,21.01.2017 15:30,Bundesliga - Round 17,cat154,2,,49,4,,1,,8,,7,1,0,1,,1,2,,Ingolstadt,,,21.01.2017 15:30,Bundesliga - Round 17
+315,cat155,1,,53,3,,5,,5,,9,1,1,3,,2,4,,Schalke,,1,21.01.2017 15:30,Bundesliga - Round 17,cat155,2,,47,1,,2,,8,,7,3,0,0,,5,1,,Ingolstadt,,0,21.01.2017 15:30,Bundesliga - Round 17
+316,cat156,1,,46,0,,1,,5,,6,3,0,3,1,3,3,,Werder Bremen,,1,21.01.2017 15:30,Bundesliga - Round 17,cat156,2,,54,4,,3,,7,,10,3,1,2,0,2,4,,Dortmund,,1,21.01.2017 15:30,Bundesliga - Round 17
+317,cat157,1,,38,1,,2,,11,,3,3,1,2,,0,2,,Werder Bremen,,2,21.01.2017 15:30,Bundesliga - Round 17,cat157,2,,62,5,,2,,5,,12,1,1,2,,3,4,,Dortmund,,0,21.01.2017 15:30,Bundesliga - Round 17
+318,cat158,1,,66,1,,1,,7,,4,0,0,0,0,3,0,,Wolfsburg,,1,21.01.2017 15:30,Bundesliga - Round 17,cat158,2,,34,3,,1,,13,,4,0,0,0,1,1,0,,Hamburger SV,,3,21.01.2017 15:30,Bundesliga - Round 17
+319,cat159,1,,40,2,,4,,4,,7,1,1,0,,2,3,,Wolfsburg,,1,21.01.2017 15:30,Bundesliga - Round 17,cat159,2,,60,4,,2,,3,,7,2,0,0,,2,1,,Hamburger SV,,0,21.01.2017 15:30,Bundesliga - Round 17
+320,cat160,1,,28,4,,1,,3,,7,1,1,0,,1,2,,Freiburg,,0,20.01.2017 20:30,Bundesliga - Round 17,cat160,2,,72,1,,4,,3,,6,1,1,1,,3,2,,Bayern Munich,,1,20.01.2017 20:30,Bundesliga - Round 17
+321,cat161,1,,32,1,,0,,4,,4,2,0,1,,2,1,,Freiburg,,2,20.01.2017 20:30,Bundesliga - Round 17,cat161,2,,68,1,,7,,4,,7,1,1,2,,3,3,,Bayern Munich,,1,20.01.2017 20:30,Bundesliga - Round 17
+322,cat162,1,,64,2,,3,,6,,9,2,3,1,0,4,3,,Bayern Munich,,,21.12.2016 20:00,Bundesliga - Round 16,cat162,2,,36,1,,3,,8,,3,0,0,0,1,0,2,,RB Leipzig,,,21.12.2016 20:00,Bundesliga - Round 16
+323,cat163,1,,78,3,,6,,6,,15,0,0,3,,4,8,,Bayern Munich,,1,21.12.2016 20:00,Bundesliga - Round 16,cat163,2,,22,1,,1,,4,,2,8,0,1,,1,0,,RB Leipzig,,1,21.12.2016 20:00,Bundesliga - Round 16
+324,cat164,1,,44,2,,2,,3,,5,3,1,0,,1,2,,FC Koln,,,21.12.2016 20:00,Bundesliga - Round 16,cat164,2,,56,4,,4,,4,,11,1,1,1,,3,4,,Bayer Leverkusen,,,21.12.2016 20:00,Bundesliga - Round 16
+325,cat165,1,,48,5,,2,,3,,6,2,0,1,,1,0,,FC Koln,,,21.12.2016 20:00,Bundesliga - Round 16,cat165,2,,52,4,,1,,10,,7,0,0,0,,1,2,,Bayer Leverkusen,,,21.12.2016 20:00,Bundesliga - Round 16
+326,cat166,1,,65,2,,3,,6,,7,0,0,0,,3,2,,Hertha Berlin,,1,21.12.2016 20:00,Bundesliga - Round 16,cat166,2,,35,1,,2,,6,,4,2,0,1,,3,0,,Darmstadt,,0,21.12.2016 20:00,Bundesliga - Round 16
+327,cat167,1,,61,3,,3,,7,,9,0,2,0,,3,3,,Hertha Berlin,,0,21.12.2016 20:00,Bundesliga - Round 16,cat167,2,,39,1,,2,,8,,1,1,0,2,,0,0,,Darmstadt,,3,21.12.2016 20:00,Bundesliga - Round 16
+328,cat168,1,,63,2,,3,,5,,7,1,1,0,,3,2,,Hoffenheim,,,21.12.2016 20:00,Bundesliga - Round 16,cat168,2,,37,0,,5,,5,,3,1,0,0,,2,1,,Werder Bremen,,,21.12.2016 20:00,Bundesliga - Round 16
+329,cat169,1,,53,1,,2,,6,,5,1,0,1,,3,1,,Hoffenheim,,2,21.12.2016 20:00,Bundesliga - Round 16,cat169,2,,47,2,,4,,13,,7,1,1,1,,3,2,,Werder Bremen,,2,21.12.2016 20:00,Bundesliga - Round 16
+330,cat170,1,,42,1,,1,,11,,3,2,0,2,,2,0,,Ingolstadt,,2,21.12.2016 20:00,Bundesliga - Round 16,cat170,2,,58,3,,3,,2,,9,0,2,2,,2,4,,Freiburg,,0,21.12.2016 20:00,Bundesliga - Round 16
+331,cat171,1,,62,2,,5,,5,,14,1,1,0,,6,6,,Ingolstadt,,2,21.12.2016 20:00,Bundesliga - Round 16,cat171,2,,38,0,,0,,10,,2,5,0,0,,1,1,,Freiburg,,2,21.12.2016 20:00,Bundesliga - Round 16
+332,cat172,1,,56,4,,3,,11,,6,1,0,0,,2,0,,B. Monchengladbach,,1,20.12.2016 20:00,Bundesliga - Round 16,cat172,2,,44,2,,3,,10,,8,0,1,0,,4,2,,Wolfsburg,,2,20.12.2016 20:00,Bundesliga - Round 16
+333,cat173,1,,60,2,,2,,7,,14,4,1,0,,8,4,,B. Monchengladbach,,,20.12.2016 20:00,Bundesliga - Round 16,cat173,2,,40,4,,3,,7,,10,3,1,0,,1,5,,Wolfsburg,,,20.12.2016 20:00,Bundesliga - Round 16
+334,cat174,1,,66,2,,4,,7,,10,1,0,0,,4,4,,Dortmund,,,20.12.2016 20:00,Bundesliga - Round 16,cat174,2,,34,3,,1,,9,,6,4,1,3,,1,2,,Augsburg,,,20.12.2016 20:00,Bundesliga - Round 16
+335,cat175,1,,70,3,,2,,3,,13,1,1,1,,6,4,,Dortmund,,1,20.12.2016 20:00,Bundesliga - Round 16,cat175,2,,30,0,,1,,10,,2,3,0,0,,1,1,,Augsburg,,2,20.12.2016 20:00,Bundesliga - Round 16
+336,cat176,1,,51,0,,1,,7,,3,3,1,0,,2,1,,Eintracht Frankfurt,,,20.12.2016 20:00,Bundesliga - Round 16,cat176,2,,49,1,,4,,7,,7,0,0,4,,3,3,,Mainz,,,20.12.2016 20:00,Bundesliga - Round 16
+337,cat177,1,,59,1,,5,,6,,6,3,2,1,0,2,3,,Eintracht Frankfurt,,3,20.12.2016 20:00,Bundesliga - Round 16,cat177,2,,41,0,,2,,1,,4,1,0,1,1,1,3,,Mainz,,0,20.12.2016 20:00,Bundesliga - Round 16
+338,cat178,1,,49,2,,3,,5,,4,0,0,1,,0,2,,Hamburger SV,,1,20.12.2016 20:00,Bundesliga - Round 16,cat178,2,,51,0,,3,,2,,2,2,0,4,,2,0,,Schalke,,2,20.12.2016 20:00,Bundesliga - Round 16
+339,cat179,1,,42,0,,1,,8,,7,2,2,2,,2,5,,Hamburger SV,,1,20.12.2016 20:00,Bundesliga - Round 16,cat179,2,,58,0,,2,,7,,4,3,1,2,,1,3,,Schalke,,2,20.12.2016 20:00,Bundesliga - Round 16
+340,cat180,1,,56,0,,0,,7,,1,2,0,4,,1,0,,Bayer Leverkusen,,1,18.12.2016 17:30,Bundesliga - Round 15,cat180,2,,44,1,,1,,9,,9,0,0,2,,5,3,,Ingolstadt,,0,18.12.2016 17:30,Bundesliga - Round 15
+341,cat181,1,,56,0,,1,,9,,4,3,1,2,1,1,3,,Bayer Leverkusen,,2,18.12.2016 17:30,Bundesliga - Round 15,cat181,2,,44,3,,3,,6,,8,2,1,2,0,1,4,,Ingolstadt,,2,18.12.2016 17:30,Bundesliga - Round 15
+342,cat182,1,,24,2,,3,,5,,5,0,0,2,,3,0,,Darmstadt,,1,18.12.2016 15:30,Bundesliga - Round 15,cat182,2,,76,0,,0,,5,,5,0,0,1,,5,0,,Bayern Munich,,0,18.12.2016 15:30,Bundesliga - Round 15
+343,cat183,1,,30,0,,0,,11,,5,1,0,0,,3,2,,Darmstadt,,0,18.12.2016 15:30,Bundesliga - Round 15,cat183,2,,70,2,,1,,5,,8,2,1,0,,4,2,,Bayern Munich,,2,18.12.2016 15:30,Bundesliga - Round 15
+344,cat184,1,,44,3,,3,,7,,8,0,1,2,,3,2,,Wolfsburg,,2,17.12.2016 18:30,Bundesliga - Round 15,cat184,2,,56,2,,0,,8,,3,1,0,2,,1,0,,Eintracht Frankfurt,,2,17.12.2016 18:30,Bundesliga - Round 15
+345,cat185,1,,40,0,,1,,9,,7,1,0,3,,6,1,,Wolfsburg,,1,17.12.2016 18:30,Bundesliga - Round 15,cat185,2,,60,1,,2,,9,,4,1,0,1,,2,1,,Eintracht Frankfurt,,2,17.12.2016 18:30,Bundesliga - Round 15
+346,cat186,1,,43,0,,0,,9,,3,2,0,0,,3,0,,Augsburg,,,17.12.2016 15:30,Bundesliga - Round 15,cat186,2,,57,1,,0,,4,,4,0,0,0,,1,2,,B. Monchengladbach,,,17.12.2016 15:30,Bundesliga - Round 15
+347,cat187,1,,41,1,,3,,7,,5,1,1,0,,3,1,,Augsburg,,,17.12.2016 15:30,Bundesliga - Round 15,cat187,2,,59,1,,0,,8,,4,0,0,1,,2,1,,B. Monchengladbach,,,17.12.2016 15:30,Bundesliga - Round 15
+348,cat188,1,,59,3,,3,,4,,9,1,1,4,,4,2,,Mainz,,1,17.12.2016 15:30,Bundesliga - Round 15,cat188,2,,41,1,,4,,9,,6,1,1,0,,3,2,,Hamburger SV,,1,17.12.2016 15:30,Bundesliga - Round 15
+349,cat189,1,,49,2,,3,,7,,10,1,2,1,,2,6,,Mainz,,1,17.12.2016 15:30,Bundesliga - Round 15,cat189,2,,51,0,,2,,5,,4,4,0,1,,3,1,,Hamburger SV,,2,17.12.2016 15:30,Bundesliga - Round 15
+350,cat190,1,,67,0,,2,,7,,8,0,1,0,,3,5,,RB Leipzig,,,17.12.2016 15:30,Bundesliga - Round 15,cat190,2,,33,1,,0,,5,,2,4,0,0,,1,0,,Hertha Berlin,,,17.12.2016 15:30,Bundesliga - Round 15
+351,cat191,1,,54,2,,7,,3,,8,0,1,2,,3,3,,RB Leipzig,,1,17.12.2016 15:30,Bundesliga - Round 15,cat191,2,,46,0,,1,,9,,1,2,0,0,,1,0,,Hertha Berlin,,3,17.12.2016 15:30,Bundesliga - Round 15
+352,cat192,1,,59,1,,3,,5,,7,0,0,1,,5,1,,Schalke,,1,17.12.2016 15:30,Bundesliga - Round 15,cat192,2,,41,0,,1,,2,,3,1,0,0,,3,0,,Freiburg,,0,17.12.2016 15:30,Bundesliga - Round 15
+353,cat193,1,,65,2,,6,,6,,10,1,1,3,,7,1,,Schalke,,,17.12.2016 15:30,Bundesliga - Round 15,cat193,2,,35,0,,0,,7,,3,0,1,0,,1,2,,Freiburg,,,17.12.2016 15:30,Bundesliga - Round 15
+354,cat194,1,,49,1,,2,,7,,6,2,1,1,,2,3,,Werder Bremen,,0,17.12.2016 15:30,Bundesliga - Round 15,cat194,2,,51,4,,3,,5,,8,2,1,2,,1,3,,FC Koln,,1,17.12.2016 15:30,Bundesliga - Round 15
+355,cat195,1,,58,1,,2,,8,,4,2,0,1,,1,2,,Werder Bremen,,1,17.12.2016 15:30,Bundesliga - Round 15,cat195,2,,42,1,,2,,12,,6,2,0,1,,3,2,,FC Koln,,3,17.12.2016 15:30,Bundesliga - Round 15
+356,cat196,1,,43,2,,1,,10,,5,0,2,1,0,0,3,,Hoffenheim,,2,16.12.2016 20:30,Bundesliga - Round 15,cat196,2,,57,5,,2,,11,,9,1,1,1,1,3,1,,Dortmund,,3,16.12.2016 20:30,Bundesliga - Round 15
+357,cat197,1,,61,2,,1,,12,,8,2,0,3,,4,2,,Hoffenheim,,3,16.12.2016 20:30,Bundesliga - Round 15,cat197,2,,39,1,,2,,6,,5,2,1,0,,1,3,,Dortmund,,0,16.12.2016 20:30,Bundesliga - Round 15
+358,cat198,1,,34,3,,1,,4,,7,0,0,0,1,4,0,,Schalke,,1,11.12.2016 17:30,Bundesliga - Round 14,cat198,2,,66,3,,1,,8,,5,0,0,0,0,2,0,,Bayer Leverkusen,,2,11.12.2016 17:30,Bundesliga - Round 14
+359,cat199,1,,36,1,,3,,6,,4,1,0,2,,3,0,,Schalke,,2,11.12.2016 17:30,Bundesliga - Round 14,cat199,2,,64,2,,2,,7,,8,0,1,1,,4,2,,Bayer Leverkusen,,1,11.12.2016 17:30,Bundesliga - Round 14
+360,cat200,1,,59,1,,0,,8,,3,1,0,0,,1,1,,B. Monchengladbach,,1,11.12.2016 15:30,Bundesliga - Round 14,cat200,2,,41,2,,0,,4,,6,1,0,1,,3,1,,Mainz,,0,11.12.2016 15:30,Bundesliga - Round 14
+361,cat201,1,,50,2,,4,,5,,6,3,1,1,0,2,2,,B. Monchengladbach,,1,11.12.2016 15:30,Bundesliga - Round 14,cat201,2,,50,0,,1,,11,,6,1,0,2,1,3,3,,Mainz,,2,11.12.2016 15:30,Bundesliga - Round 14
+362,cat202,1,,58,1,,2,,8,,5,2,0,1,,4,0,,Hertha Berlin,,,10.12.2016 18:30,Bundesliga - Round 14,cat202,2,,42,2,,0,,5,,7,0,1,3,,2,3,,Werder Bremen,,,10.12.2016 18:30,Bundesliga - Round 14
+363,cat203,1,,52,1,,3,,9,,6,3,0,1,,1,4,,Hertha Berlin,,0,10.12.2016 18:30,Bundesliga - Round 14,cat203,2,,48,1,,1,,8,,6,4,0,2,,2,3,,Werder Bremen,,3,10.12.2016 18:30,Bundesliga - Round 14
+364,cat204,1,,65,3,,6,,9,,8,2,2,0,,1,4,,Bayern Munich,,1,10.12.2016 15:30,Bundesliga - Round 14,cat204,2,,35,1,,0,,2,,3,2,0,0,,0,2,,Wolfsburg,,0,10.12.2016 15:30,Bundesliga - Round 14
+365,cat205,1,,63,2,,4,,3,,11,1,3,1,,3,6,,Bayern Munich,,,10.12.2016 15:30,Bundesliga - Round 14,cat205,2,,37,1,,2,,2,,3,3,0,0,,1,1,,Wolfsburg,,,10.12.2016 15:30,Bundesliga - Round 14
+366,cat206,1,,30,0,,0,,13,,2,1,1,4,,1,1,,FC Koln,,0,10.12.2016 15:30,Bundesliga - Round 14,cat206,2,,70,0,,0,,7,,4,0,0,1,,3,1,,Dortmund,,2,10.12.2016 15:30,Bundesliga - Round 14
+367,cat207,1,,40,1,,1,,12,,5,2,0,1,1,3,1,,FC Koln,,4,10.12.2016 15:30,Bundesliga - Round 14,cat207,2,,60,2,,6,,11,,7,1,1,0,0,2,3,,Dortmund,,1,10.12.2016 15:30,Bundesliga - Round 14
+368,cat208,1,,58,2,,1,,6,,4,1,0,0,,2,0,,Freiburg,,2,10.12.2016 15:30,Bundesliga - Round 14,cat208,2,,42,1,,3,,5,,6,0,0,1,,4,1,,Darmstadt,,2,10.12.2016 15:30,Bundesliga - Round 14
+369,cat209,1,,60,1,,5,,5,,8,3,1,1,,5,2,,Freiburg,,1,10.12.2016 15:30,Bundesliga - Round 14,cat209,2,,40,1,,2,,4,,10,1,0,2,,6,3,,Darmstadt,,2,10.12.2016 15:30,Bundesliga - Round 14
+370,cat210,1,,47,1,,3,,6,,6,1,0,1,1,3,2,,Hamburger SV,,0,10.12.2016 15:30,Bundesliga - Round 14,cat210,2,,53,1,,2,,8,,5,2,0,1,0,3,1,,Augsburg,,1,10.12.2016 15:30,Bundesliga - Round 14
+371,cat211,1,,41,1,,0,,9,,5,1,1,1,0,1,3,,Hamburger SV,,1,10.12.2016 15:30,Bundesliga - Round 14,cat211,2,,59,3,,3,,8,,6,2,0,2,1,2,1,,Augsburg,,4,10.12.2016 15:30,Bundesliga - Round 14
+372,cat212,1,,36,1,,1,,14,,3,0,1,0,,1,1,,Ingolstadt,,0,10.12.2016 15:30,Bundesliga - Round 14,cat212,2,,64,1,,0,,8,,1,0,0,2,,0,0,,RB Leipzig,,1,10.12.2016 15:30,Bundesliga - Round 14
+373,cat213,1,,36,1,,2,,5,,1,3,0,2,1,0,0,,Ingolstadt,,3,10.12.2016 15:30,Bundesliga - Round 14,cat213,2,,64,6,,4,,7,,12,0,0,0,0,3,3,,RB Leipzig,,3,10.12.2016 15:30,Bundesliga - Round 14
+374,cat214,1,,42,2,,5,,14,,8,0,0,1,,3,3,,Eintracht Frankfurt,,,09.12.2016 20:30,Bundesliga - Round 14,cat214,2,,58,1,,2,,7,,3,3,0,2,,2,0,,Hoffenheim,,,09.12.2016 20:30,Bundesliga - Round 14
+375,cat215,1,,46,3,,6,,13,,7,0,0,1,1,4,0,,Eintracht Frankfurt,,5,09.12.2016 20:30,Bundesliga - Round 14,cat215,2,,54,0,,0,,10,,0,0,0,4,0,0,0,,Hoffenheim,,3,09.12.2016 20:30,Bundesliga - Round 14
+376,cat216,1,,40,0,,1,,9,,4,2,1,2,,2,2,,Augsburg,,2,04.12.2016 17:30,Bundesliga - Round 13,cat216,2,,60,0,,0,,5,,5,1,1,2,,2,3,,Eintracht Frankfurt,,2,04.12.2016 17:30,Bundesliga - Round 13
+377,cat217,1,,46,3,,4,,2,,10,1,0,2,,4,3,,Augsburg,,1,04.12.2016 17:30,Bundesliga - Round 13,cat217,2,,54,1,,2,,7,,2,3,0,0,,0,1,,Eintracht Frankfurt,,0,04.12.2016 17:30,Bundesliga - Round 13
+378,cat218,1,,52,0,,1,,8,,4,1,0,3,,3,1,,Darmstadt,,1,04.12.2016 15:30,Bundesliga - Round 13,cat218,2,,48,4,,3,,14,,10,1,1,1,,4,2,,Hamburger SV,,1,04.12.2016 15:30,Bundesliga - Round 13
+379,cat219,1,,54,1,,0,,8,,6,2,0,1,,4,1,,Darmstadt,,1,04.12.2016 15:30,Bundesliga - Round 13,cat219,2,,46,3,,1,,10,,11,1,1,0,,5,3,,Hamburger SV,,3,04.12.2016 15:30,Bundesliga - Round 13
+380,cat220,1,,49,2,,1,,5,,7,2,1,2,,2,3,,RB Leipzig,,0,03.12.2016 18:30,Bundesliga - Round 13,cat220,2,,51,0,,5,,9,,6,2,1,1,,3,3,,Schalke,,2,03.12.2016 18:30,Bundesliga - Round 13
+381,cat221,1,,47,3,,7,,10,,7,2,1,2,,2,2,,RB Leipzig,,1,03.12.2016 18:30,Bundesliga - Round 13,cat221,2,,53,1,,0,,10,,5,1,0,4,,2,2,,Schalke,,3,03.12.2016 18:30,Bundesliga - Round 13
+382,cat222,1,,63,0,,1,,6,,0,1,0,2,,0,0,,Bayer Leverkusen,,0,03.12.2016 15:30,Bundesliga - Round 13,cat222,2,,37,3,,3,,3,,7,0,1,0,,2,2,,Freiburg,,1,03.12.2016 15:30,Bundesliga - Round 13
+383,cat223,1,,65,2,,3,,4,,13,0,1,1,,5,6,,Bayer Leverkusen,,,03.12.2016 15:30,Bundesliga - Round 13,cat223,2,,35,0,,0,,7,,3,5,0,1,,3,0,,Freiburg,,,03.12.2016 15:30,Bundesliga - Round 13
+384,cat224,1,,57,2,,3,,6,,7,0,2,0,,3,2,,Dortmund,,1,03.12.2016 15:30,Bundesliga - Round 13,cat224,2,,43,0,,0,,3,,1,0,1,2,,0,1,,B. Monchengladbach,,1,03.12.2016 15:30,Bundesliga - Round 13
+385,cat225,1,,67,2,,6,,4,,8,0,2,1,,1,5,,Dortmund,,,03.12.2016 15:30,Bundesliga - Round 13,cat225,2,,33,2,,3,,5,,2,3,0,1,,0,0,,B. Monchengladbach,,,03.12.2016 15:30,Bundesliga - Round 13
+386,cat226,1,,63,0,,1,,4,,5,0,2,0,,2,3,,Hoffenheim,,,03.12.2016 15:30,Bundesliga - Round 13,cat226,2,,37,1,,2,,3,,5,1,0,1,,4,0,,FC Koln,,,03.12.2016 15:30,Bundesliga - Round 13
+387,cat227,1,,53,1,,2,,10,,5,1,2,0,,1,3,,Hoffenheim,,1,03.12.2016 15:30,Bundesliga - Round 13,cat227,2,,47,0,,2,,7,,5,1,0,2,,4,1,,FC Koln,,1,03.12.2016 15:30,Bundesliga - Round 13
+388,cat228,1,,50,0,,0,,6,,4,1,1,1,,3,1,,Werder Bremen,,0,03.12.2016 15:30,Bundesliga - Round 13,cat228,2,,50,2,,2,,8,,6,0,0,1,,3,1,,Ingolstadt,,1,03.12.2016 15:30,Bundesliga - Round 13
+389,cat229,1,,46,2,,3,,12,,9,3,1,0,,3,4,,Werder Bremen,,0,03.12.2016 15:30,Bundesliga - Round 13,cat229,2,,54,1,,2,,5,,9,3,1,1,,4,4,,Ingolstadt,,2,03.12.2016 15:30,Bundesliga - Round 13
+390,cat230,1,,39,0,,0,,8,,3,3,2,0,,0,3,,Wolfsburg,,2,03.12.2016 15:30,Bundesliga - Round 13,cat230,2,,61,4,,2,,5,,10,1,1,0,,2,4,,Hertha Berlin,,0,03.12.2016 15:30,Bundesliga - Round 13
+391,cat231,1,,33,1,,0,,11,,3,2,0,0,1,1,1,,Wolfsburg,,3,03.12.2016 15:30,Bundesliga - Round 13,cat231,2,,67,1,,0,,3,,8,1,2,1,0,3,4,,Hertha Berlin,,2,03.12.2016 15:30,Bundesliga - Round 13
+392,cat232,1,,29,2,,0,,3,,5,2,1,4,,2,1,,Mainz,,0,02.12.2016 20:30,Bundesliga - Round 13,cat232,2,,71,2,,3,,7,,10,0,2,3,,4,4,,Bayern Munich,,1,02.12.2016 20:30,Bundesliga - Round 13
+393,cat233,1,,35,0,,1,,8,,4,1,0,2,,2,2,,Mainz,,3,02.12.2016 20:30,Bundesliga - Round 13,cat233,2,,65,2,,2,,5,,5,2,1,0,,1,2,,Bayern Munich,,1,02.12.2016 20:30,Bundesliga - Round 13
+394,cat234,1,,63,2,,1,,3,,8,0,1,1,,4,2,,Hertha Berlin,,0,27.11.2016 17:30,Bundesliga - Round 12,cat234,2,,37,1,,2,,10,,3,1,1,1,,1,1,,Mainz,,1,27.11.2016 17:30,Bundesliga - Round 12
+395,cat235,1,,59,2,,4,,9,,8,3,1,1,1,3,3,,Hertha Berlin,,3,27.11.2016 17:30,Bundesliga - Round 12,cat235,2,,41,0,,1,,9,,6,2,0,2,1,3,3,,Mainz,,1,27.11.2016 17:30,Bundesliga - Round 12
+396,cat236,1,,64,3,,3,,7,,13,1,1,0,,7,3,,Schalke,,0,27.11.2016 15:30,Bundesliga - Round 12,cat236,2,,36,1,,2,,9,,3,2,1,2,,0,2,,Darmstadt,,1,27.11.2016 15:30,Bundesliga - Round 12
+397,cat237,1,,62,1,,2,,1,,7,0,2,2,,2,4,,Schalke,,0,27.11.2016 15:30,Bundesliga - Round 12,cat237,2,,38,3,,4,,3,,6,2,0,1,,3,0,,Darmstadt,,1,27.11.2016 15:30,Bundesliga - Round 12
+398,cat238,1,,56,0,,2,,3,,6,1,1,1,,2,4,,Bayern Munich,,,26.11.2016 18:30,Bundesliga - Round 12,cat238,2,,44,0,,0,,6,,4,3,1,0,,2,2,,Bayer Leverkusen,,,26.11.2016 18:30,Bundesliga - Round 12
+399,cat239,1,,52,1,,4,,5,,7,2,1,2,,2,4,,Bayern Munich,,,26.11.2016 18:30,Bundesliga - Round 12,cat239,2,,48,5,,3,,5,,9,3,0,1,,2,2,,Bayer Leverkusen,,,26.11.2016 18:30,Bundesliga - Round 12
+400,cat240,1,,46,1,,1,,3,,6,1,1,3,,1,4,,B. Monchengladbach,,,26.11.2016 15:30,Bundesliga - Round 12,cat240,2,,54,1,,2,,9,,4,3,0,1,,2,1,,Hoffenheim,,,26.11.2016 15:30,Bundesliga - Round 12
+401,cat241,1,,46,2,,1,,4,,10,2,0,1,,4,4,,B. Monchengladbach,,0,26.11.2016 15:30,Bundesliga - Round 12,cat241,2,,54,5,,4,,8,,11,4,1,1,,3,3,,Hoffenheim,,2,26.11.2016 15:30,Bundesliga - Round 12
+402,cat242,1,,36,0,,2,,9,,3,3,0,2,,1,2,,Eintracht Frankfurt,,2,26.11.2016 15:30,Bundesliga - Round 12,cat242,2,,64,2,,3,,4,,7,2,0,3,,2,3,,Dortmund,,0,26.11.2016 15:30,Bundesliga - Round 12
+403,cat243,1,,38,4,,2,,9,,9,1,2,1,,3,2,,Eintracht Frankfurt,,2,26.11.2016 15:30,Bundesliga - Round 12,cat243,2,,62,0,,2,,7,,5,0,1,2,,3,2,,Dortmund,,3,26.11.2016 15:30,Bundesliga - Round 12
+404,cat244,1,,61,3,,2,,9,,10,2,0,0,,5,2,,FC Koln,,2,26.11.2016 15:30,Bundesliga - Round 12,cat244,2,,39,2,,2,,9,,5,2,0,1,,1,2,,Augsburg,,3,26.11.2016 15:30,Bundesliga - Round 12
+405,cat245,1,,59,3,,1,,4,,8,0,0,0,,2,3,,FC Koln,,,26.11.2016 15:30,Bundesliga - Round 12,cat245,2,,41,2,,3,,6,,8,3,0,0,,6,0,,Augsburg,,,26.11.2016 15:30,Bundesliga - Round 12
+406,cat246,1,,50,2,,3,,6,,11,1,2,1,,5,4,,Hamburger SV,,0,26.11.2016 15:30,Bundesliga - Round 12,cat246,2,,50,1,,2,,4,,8,2,2,0,,4,3,,Werder Bremen,,2,26.11.2016 15:30,Bundesliga - Round 12
+407,cat247,1,,52,2,,2,,11,,6,1,0,2,,1,3,,Hamburger SV,,2,26.11.2016 15:30,Bundesliga - Round 12,cat247,2,,48,0,,1,,5,,4,3,0,1,,3,1,,Werder Bremen,,1,26.11.2016 15:30,Bundesliga - Round 12
+408,cat248,1,,39,1,,0,,3,,10,0,1,1,,6,3,,Ingolstadt,,1,26.11.2016 15:30,Bundesliga - Round 12,cat248,2,,61,1,,2,,11,,3,2,0,0,,2,0,,Wolfsburg,,0,26.11.2016 15:30,Bundesliga - Round 12
+409,cat249,1,,45,3,,4,,9,,10,2,0,1,,5,2,,Ingolstadt,,1,26.11.2016 15:30,Bundesliga - Round 12,cat249,2,,55,1,,3,,7,,8,2,1,0,,4,3,,Wolfsburg,,1,26.11.2016 15:30,Bundesliga - Round 12
+410,cat250,1,,40,1,,3,,5,,5,1,1,1,,2,2,,Freiburg,,1,25.11.2016 20:30,Bundesliga - Round 12,cat250,2,,60,3,,5,,4,,8,1,3,1,,1,4,,RB Leipzig,,2,25.11.2016 20:30,Bundesliga - Round 12
+411,cat251,1,,61,2,,1,,5,,4,2,0,0,,1,1,,Freiburg,,1,25.11.2016 20:30,Bundesliga - Round 12,cat251,2,,39,1,,0,,9,,8,1,1,4,,4,3,,RB Leipzig,,1,25.11.2016 20:30,Bundesliga - Round 12
+412,cat252,1,,45,0,,1,,12,,5,2,1,1,,3,2,,Werder Bremen,,0,20.11.2016 17:30,Bundesliga - Round 11,cat252,2,,55,2,,1,,9,,6,1,0,1,,2,2,,Eintracht Frankfurt,,1,20.11.2016 17:30,Bundesliga - Round 11
+413,cat253,1,,45,5,,2,,10,,9,5,0,0,,2,2,,Werder Bremen,,1,20.11.2016 17:30,Bundesliga - Round 11,cat253,2,,55,1,,5,,8,,13,2,2,2,,5,7,,Eintracht Frankfurt,,1,20.11.2016 17:30,Bundesliga - Round 11
+414,cat254,1,,57,2,,6,,5,,11,2,1,1,,6,3,,Hoffenheim,,1,20.11.2016 15:30,Bundesliga - Round 11,cat254,2,,43,1,,5,,10,,9,2,1,0,,5,3,,Hamburger SV,,2,20.11.2016 15:30,Bundesliga - Round 11
+415,cat255,1,,59,0,,2,,6,,6,0,1,1,,4,2,,Hoffenheim,,,20.11.2016 15:30,Bundesliga - Round 11,cat255,2,,41,1,,1,,12,,5,1,1,2,,3,1,,Hamburger SV,,,20.11.2016 15:30,Bundesliga - Round 11
+416,cat256,1,,41,1,,0,,9,,5,2,1,0,,1,3,,Dortmund,,1,19.11.2016 18:30,Bundesliga - Round 11,cat256,2,,59,5,,4,,6,,11,2,0,2,,4,2,,Bayern Munich,,0,19.11.2016 18:30,Bundesliga - Round 11
+417,cat257,1,,35,1,,3,,4,,6,1,0,0,,4,1,,Dortmund,,2,19.11.2016 18:30,Bundesliga - Round 11,cat257,2,,65,2,,5,,7,,7,1,0,2,,4,1,,Bayern Munich,,2,19.11.2016 18:30,Bundesliga - Round 11
+418,cat258,1,,46,1,,3,,5,,4,1,0,2,,2,1,,Augsburg,,1,19.11.2016 15:30,Bundesliga - Round 11,cat258,2,,54,1,,1,,7,,3,1,0,0,,1,1,,Hertha Berlin,,0,19.11.2016 15:30,Bundesliga - Round 11
+419,cat259,1,,40,1,,1,,9,,5,3,0,1,,2,2,,Augsburg,,2,19.11.2016 15:30,Bundesliga - Round 11,cat259,2,,60,1,,2,,8,,7,2,0,0,,3,3,,Hertha Berlin,,1,19.11.2016 15:30,Bundesliga - Round 11
+420,cat260,1,,62,1,,5,,2,,10,0,1,0,,5,4,,B. Monchengladbach,,0,19.11.2016 15:30,Bundesliga - Round 11,cat260,2,,38,1,,1,,10,,3,3,0,0,,2,0,,FC Koln,,3,19.11.2016 15:30,Bundesliga - Round 11
+421,cat261,1,,58,3,,2,,4,,10,2,0,1,,3,4,,B. Monchengladbach,,1,19.11.2016 15:30,Bundesliga - Round 11,cat261,2,,42,1,,2,,11,,8,4,2,6,,3,4,,FC Koln,,2,19.11.2016 15:30,Bundesliga - Round 11
+422,cat262,1,,44,0,,1,,9,,3,5,0,0,,3,0,,Darmstadt,,1,19.11.2016 15:30,Bundesliga - Round 11,cat262,2,,56,1,,7,,8,,8,0,0,0,,2,5,,Ingolstadt,,1,19.11.2016 15:30,Bundesliga - Round 11
+423,cat263,1,,46,7,,7,,10,,15,1,0,0,,4,4,,Darmstadt,,0,19.11.2016 15:30,Bundesliga - Round 11,cat263,2,,54,2,,4,,7,,7,4,1,0,,3,2,,Ingolstadt,,3,19.11.2016 15:30,Bundesliga - Round 11
+424,cat264,1,,41,1,,2,,12,,6,5,2,3,,1,4,,Mainz,,1,19.11.2016 15:30,Bundesliga - Round 11,cat264,2,,59,4,,2,,9,,11,2,0,0,,2,5,,Freiburg,,2,19.11.2016 15:30,Bundesliga - Round 11
+425,cat265,1,,39,0,,1,,9,,5,4,2,1,,3,2,,Mainz,,3,19.11.2016 15:30,Bundesliga - Round 11,cat265,2,,61,3,,3,,11,,13,0,2,0,,4,6,,Freiburg,,1,19.11.2016 15:30,Bundesliga - Round 11
+426,cat266,1,,44,1,,3,,7,,5,0,0,1,,4,0,,Wolfsburg,,1,19.11.2016 15:30,Bundesliga - Round 11,cat266,2,,56,0,,0,,7,,5,0,0,0,,5,0,,Schalke,,0,19.11.2016 15:30,Bundesliga - Round 11
+427,cat267,1,,44,2,,0,,10,,3,3,0,2,,1,0,,Wolfsburg,,1,19.11.2016 15:30,Bundesliga - Round 11,cat267,2,,56,2,,5,,8,,14,0,1,0,,8,4,,Schalke,,2,19.11.2016 15:30,Bundesliga - Round 11
+428,cat268,1,,56,0,,2,,6,,6,0,2,3,,2,4,,Bayer Leverkusen,,,18.11.2016 20:30,Bundesliga - Round 11,cat268,2,,44,1,,5,,6,,4,2,1,2,,2,1,,RB Leipzig,,,18.11.2016 20:30,Bundesliga - Round 11
+429,cat269,1,,54,2,,4,,6,,6,2,0,1,,2,2,,Bayer Leverkusen,,1,18.11.2016 20:30,Bundesliga - Round 11,cat269,2,,46,3,,4,,9,,8,2,2,1,,1,4,,RB Leipzig,,3,18.11.2016 20:30,Bundesliga - Round 11
+430,cat270,1,,61,4,,2,,7,,15,3,2,1,,8,3,,Schalke,,0,06.11.2016 17:30,Bundesliga - Round 10,cat270,2,,39,0,,3,,7,,6,1,1,1,,2,4,,Werder Bremen,,2,06.11.2016 17:30,Bundesliga - Round 10
+431,cat271,1,,44,1,,1,,6,,9,1,1,3,,5,3,,Schalke,,2,06.11.2016 17:30,Bundesliga - Round 10,cat271,2,,56,0,,3,,6,,2,2,0,0,,1,1,,Werder Bremen,,1,06.11.2016 17:30,Bundesliga - Round 10
+432,cat272,1,,49,4,,2,,2,,10,1,3,0,,3,3,,RB Leipzig,,,06.11.2016 15:30,Bundesliga - Round 10,cat272,2,,51,0,,1,,3,,4,0,0,1,,3,1,,Mainz,,,06.11.2016 15:30,Bundesliga - Round 10
+433,cat273,1,,52,1,,1,,10,,5,1,0,1,,2,2,,RB Leipzig,,0,06.11.2016 15:30,Bundesliga - Round 10,cat273,2,,48,4,,5,,9,,7,2,1,1,,1,2,,Mainz,,3,06.11.2016 15:30,Bundesliga - Round 10
+434,cat274,1,,53,4,,3,,12,,6,0,1,0,,1,1,,Eintracht Frankfurt,,1,05.11.2016 18:30,Bundesliga - Round 10,cat274,2,,47,0,,1,,3,,1,0,0,3,,1,0,,FC Koln,,1,05.11.2016 18:30,Bundesliga - Round 10
+435,cat275,1,,45,1,,2,,8,,2,1,0,0,,1,0,,Eintracht Frankfurt,,2,05.11.2016 18:30,Bundesliga - Round 10,cat275,2,,55,1,,4,,7,,5,0,0,2,,3,1,,FC Koln,,2,05.11.2016 18:30,Bundesliga - Round 10
+436,cat276,1,,69,1,,3,,5,,4,1,1,1,,2,1,,Bayer Leverkusen,,,05.11.2016 15:30,Bundesliga - Round 10,cat276,2,,31,0,,2,,5,,3,0,0,0,,2,1,,Darmstadt,,,05.11.2016 15:30,Bundesliga - Round 10
+437,cat277,1,,63,3,,3,,4,,8,0,2,3,,2,3,,Bayer Leverkusen,,0,05.11.2016 15:30,Bundesliga - Round 10,cat277,2,,37,1,,3,,5,,3,1,2,2,,0,2,,Darmstadt,,1,05.11.2016 15:30,Bundesliga - Round 10
+438,cat278,1,,59,1,,1,,3,,5,2,1,1,,2,2,,Bayern Munich,,,05.11.2016 15:30,Bundesliga - Round 10,cat278,2,,41,0,,0,,13,,3,1,1,1,,0,3,,Hoffenheim,,,05.11.2016 15:30,Bundesliga - Round 10
+439,cat279,1,,65,3,,7,,4,,16,0,0,2,,10,3,,Bayern Munich,,0,05.11.2016 15:30,Bundesliga - Round 10,cat279,2,,35,1,,1,,11,,2,3,0,0,,1,0,,Hoffenheim,,2,05.11.2016 15:30,Bundesliga - Round 10
+440,cat280,1,,48,2,,1,,4,,7,2,0,0,,4,1,,Freiburg,,2,05.11.2016 15:30,Bundesliga - Round 10,cat280,2,,52,2,,7,,9,,7,1,1,1,,2,3,,Wolfsburg,,0,05.11.2016 15:30,Bundesliga - Round 10
+441,cat281,1,,68,2,,5,,5,,5,0,0,0,1,2,1,,Freiburg,,1,05.11.2016 15:30,Bundesliga - Round 10,cat281,2,,32,2,,2,,8,,6,1,2,1,0,2,2,,Wolfsburg,,2,05.11.2016 15:30,Bundesliga - Round 10
+442,cat282,1,,38,0,,3,,6,,5,1,0,2,,4,1,,Hamburger SV,,,05.11.2016 15:30,Bundesliga - Round 10,cat282,2,,62,0,,2,,9,,5,1,3,3,,1,4,,Dortmund,,,05.11.2016 15:30,Bundesliga - Round 10
+443,cat283,1,,50,1,,2,,7,,9,0,2,1,,3,5,,Hamburger SV,,2,05.11.2016 15:30,Bundesliga - Round 10,cat283,2,,50,0,,1,,5,,5,3,2,1,,3,2,,Dortmund,,0,05.11.2016 15:30,Bundesliga - Round 10
+444,cat284,1,,45,0,,1,,7,,3,2,0,0,,0,3,,Ingolstadt,,1,05.11.2016 15:30,Bundesliga - Round 10,cat284,2,,55,0,,3,,6,,8,3,0,0,,6,2,,Augsburg,,0,05.11.2016 15:30,Bundesliga - Round 10
+445,cat285,1,,51,3,,2,,6,,11,1,0,0,1,6,2,,Ingolstadt,,1,05.11.2016 15:30,Bundesliga - Round 10,cat285,2,,49,1,,3,,8,,5,2,2,0,0,1,3,,Augsburg,,1,05.11.2016 15:30,Bundesliga - Round 10
+446,cat286,1,,51,0,,1,,5,,6,0,2,0,0,2,4,,Hertha Berlin,,1,04.11.2016 20:30,Bundesliga - Round 10,cat286,2,,49,1,,0,,10,,4,2,0,0,1,3,0,,B. Monchengladbach,,4,04.11.2016 20:30,Bundesliga - Round 10
+447,cat287,1,,49,1,,3,,9,,6,2,1,2,,3,2,,Hertha Berlin,,1,04.11.2016 20:30,Bundesliga - Round 10,cat287,2,,51,1,,1,,5,,7,1,0,0,,4,2,,B. Monchengladbach,,0,04.11.2016 20:30,Bundesliga - Round 10
+448,cat288,1,,58,4,,4,,9,,6,1,0,0,,2,0,,FC Koln,,3,30.10.2016 17:30,Bundesliga - Round 9,cat288,2,,42,3,,3,,9,,6,0,0,1,,2,1,,Hamburger SV,,1,30.10.2016 17:30,Bundesliga - Round 9
+449,cat289,1,,62,2,,3,,6,,12,1,3,2,0,4,6,,FC Koln,,,30.10.2016 17:30,Bundesliga - Round 9,cat289,2,,38,1,,1,,7,,3,3,0,0,1,1,1,,Hamburger SV,,,30.10.2016 17:30,Bundesliga - Round 9
+450,cat290,1,,58,4,,4,,5,,13,1,1,1,,5,4,,Hoffenheim,,,30.10.2016 15:30,Bundesliga - Round 9,cat290,2,,42,0,,3,,5,,4,3,0,1,,3,1,,Hertha Berlin,,,30.10.2016 15:30,Bundesliga - Round 9
+451,cat291,1,,50,2,,3,,5,,11,1,0,3,,6,3,,Hoffenheim,,0,30.10.2016 15:30,Bundesliga - Round 9,cat291,2,,50,0,,0,,14,,1,3,0,4,,0,1,,Hertha Berlin,,4,30.10.2016 15:30,Bundesliga - Round 9
+452,cat292,1,,58,0,,0,,8,,0,1,0,3,,0,0,,Dortmund,,3,29.10.2016 18:30,Bundesliga - Round 9,cat292,2,,42,3,,0,,8,,4,0,0,5,,0,1,,Schalke,,2,29.10.2016 18:30,Bundesliga - Round 9
+453,cat293,1,,66,1,,1,,6,,9,1,0,0,,7,1,,Dortmund,,1,29.10.2016 18:30,Bundesliga - Round 9,cat293,2,,34,0,,4,,13,,4,1,0,1,,3,1,,Schalke,,2,29.10.2016 18:30,Bundesliga - Round 9
+454,cat294,1,,27,0,,1,,6,,2,1,0,0,,0,2,,Augsburg,,1,29.10.2016 15:30,Bundesliga - Round 9,cat294,2,,73,1,,5,,2,,8,2,2,2,,4,3,,Bayern Munich,,0,29.10.2016 15:30,Bundesliga - Round 9
+455,cat295,1,,33,1,,3,,8,,5,4,1,1,,3,1,,Augsburg,,1,29.10.2016 15:30,Bundesliga - Round 9,cat295,2,,67,1,,5,,3,,8,0,1,1,,2,5,,Bayern Munich,,0,29.10.2016 15:30,Bundesliga - Round 9
+456,cat296,1,,33,0,,0,,5,,0,0,0,1,,0,0,,Darmstadt,,2,29.10.2016 15:30,Bundesliga - Round 9,cat296,2,,67,0,,4,,8,,2,0,0,4,,2,0,,RB Leipzig,,1,29.10.2016 15:30,Bundesliga - Round 9
+457,cat297,1,,45,0,,2,,7,,4,2,0,2,,4,0,,Darmstadt,,2,29.10.2016 15:30,Bundesliga - Round 9,cat297,2,,55,4,,2,,7,,9,0,2,3,,1,4,,RB Leipzig,,1,29.10.2016 15:30,Bundesliga - Round 9
+458,cat298,1,,59,0,,5,,8,,8,0,0,1,,5,3,,Mainz,,,29.10.2016 15:30,Bundesliga - Round 9,cat298,2,,41,1,,0,,3,,2,3,0,2,,1,0,,Ingolstadt,,,29.10.2016 15:30,Bundesliga - Round 9
+459,cat299,1,,46,0,,0,,6,,9,2,2,2,0,4,5,,Mainz,,1,29.10.2016 15:30,Bundesliga - Round 9,cat299,2,,54,1,,0,,5,,3,3,0,0,1,0,2,,Ingolstadt,,2,29.10.2016 15:30,Bundesliga - Round 9
+460,cat300,1,,51,2,,4,,15,,7,0,0,0,,2,3,,Werder Bremen,,1,29.10.2016 15:30,Bundesliga - Round 9,cat300,2,,49,1,,1,,10,,6,3,2,0,,3,2,,Freiburg,,1,29.10.2016 15:30,Bundesliga - Round 9
+461,cat301,1,,59,0,,0,,9,,7,2,1,2,,6,1,,Werder Bremen,,0,29.10.2016 15:30,Bundesliga - Round 9,cat301,2,,41,1,,3,,13,,7,0,1,3,,3,3,,Freiburg,,2,29.10.2016 15:30,Bundesliga - Round 9
+462,cat302,1,,53,0,,1,,5,,4,4,1,0,,3,1,,Wolfsburg,,,29.10.2016 15:30,Bundesliga - Round 9,cat302,2,,47,2,,1,,8,,8,0,0,4,,2,4,,Bayer Leverkusen,,,29.10.2016 15:30,Bundesliga - Round 9
+463,cat303,1,,43,1,,0,,10,,2,0,0,0,,0,1,,Wolfsburg,,1,29.10.2016 15:30,Bundesliga - Round 9,cat303,2,,57,2,,3,,8,,10,1,2,1,,6,2,,Bayer Leverkusen,,3,29.10.2016 15:30,Bundesliga - Round 9
+464,cat304,1,,60,2,,2,,8,,4,0,0,2,,2,0,,B. Monchengladbach,,1,28.10.2016 20:30,Bundesliga - Round 9,cat304,2,,40,0,,3,,5,,3,0,0,1,,3,0,,Eintracht Frankfurt,,0,28.10.2016 20:30,Bundesliga - Round 9
+465,cat305,1,,60,0,,1,,11,,3,1,0,2,,1,2,,B. Monchengladbach,,0,28.10.2016 20:30,Bundesliga - Round 9,cat305,2,,40,2,,3,,9,,3,2,0,1,,0,1,,Eintracht Frankfurt,,2,28.10.2016 20:30,Bundesliga - Round 9
+466,cat306,1,,57,3,,2,,7,,7,0,1,0,,1,3,,Schalke,,0,23.10.2016 17:30,Bundesliga - Round 8,cat306,2,,43,2,,2,,8,,3,2,0,1,,1,0,,Mainz,,2,23.10.2016 17:30,Bundesliga - Round 8
+467,cat307,1,,45,0,,1,,9,,4,4,2,0,,2,2,,Schalke,,2,23.10.2016 17:30,Bundesliga - Round 8,cat307,2,,55,0,,1,,8,,7,0,0,1,,3,4,,Mainz,,1,23.10.2016 17:30,Bundesliga - Round 8
+468,cat308,1,,62,2,,3,,10,,8,0,1,1,,4,2,,RB Leipzig,,3,23.10.2016 15:30,Bundesliga - Round 8,cat308,2,,38,0,,1,,5,,1,1,0,1,,1,0,,Werder Bremen,,2,23.10.2016 15:30,Bundesliga - Round 8
+469,cat309,1,,54,2,,3,,8,,14,2,2,3,,8,4,,RB Leipzig,,1,23.10.2016 15:30,Bundesliga - Round 8,cat309,2,,46,3,,4,,5,,6,2,1,2,,0,3,,Werder Bremen,,1,23.10.2016 15:30,Bundesliga - Round 8
+470,cat310,1,,71,3,,4,,0,,12,0,2,1,,6,3,,Bayern Munich,,,22.10.2016 18:30,Bundesliga - Round 8,cat310,2,,29,0,,0,,5,,1,1,0,0,,1,0,,B. Monchengladbach,,,22.10.2016 18:30,Bundesliga - Round 8
+471,cat311,1,,53,0,,4,,4,,5,0,0,0,,3,2,,Bayern Munich,,0,22.10.2016 18:30,Bundesliga - Round 8,cat311,2,,47,0,,1,,6,,2,2,0,1,,2,0,,B. Monchengladbach,,1,22.10.2016 18:30,Bundesliga - Round 8
+472,cat312,1,,48,2,,3,,1,,3,2,0,2,1,1,0,,Bayer Leverkusen,,0,22.10.2016 15:30,Bundesliga - Round 8,cat312,2,,52,1,,0,,10,,6,0,1,1,0,2,3,,Hoffenheim,,1,22.10.2016 15:30,Bundesliga - Round 8
+473,cat313,1,,46,0,,2,,5,,3,3,0,0,,2,1,,Bayer Leverkusen,,,22.10.2016 15:30,Bundesliga - Round 8,cat313,2,,54,1,,3,,6,,8,1,2,3,,2,5,,Hoffenheim,,,22.10.2016 15:30,Bundesliga - Round 8
+474,cat314,1,,30,1,,0,,12,,3,0,1,2,0,1,1,,Darmstadt,,,22.10.2016 15:30,Bundesliga - Round 8,cat314,2,,70,0,,1,,10,,2,0,0,0,1,2,0,,Wolfsburg,,,22.10.2016 15:30,Bundesliga - Round 8
+475,cat315,1,,37,0,,1,,5,,6,0,2,1,,2,4,,Darmstadt,,0,22.10.2016 15:30,Bundesliga - Round 8,cat315,2,,63,1,,3,,4,,7,2,1,3,,5,1,,Wolfsburg,,2,22.10.2016 15:30,Bundesliga - Round 8
+476,cat316,1,,57,0,,0,,3,,5,3,0,0,,3,2,,Freiburg,,,22.10.2016 15:30,Bundesliga - Round 8,cat316,2,,43,0,,0,,3,,4,2,0,2,,1,3,,Augsburg,,,22.10.2016 15:30,Bundesliga - Round 8
+477,cat317,1,,49,0,,0,,4,,7,2,2,0,,4,3,,Freiburg,,1,22.10.2016 15:30,Bundesliga - Round 8,cat317,2,,51,3,,1,,7,,10,1,1,0,,4,3,,Augsburg,,0,22.10.2016 15:30,Bundesliga - Round 8
+478,cat318,1,,53,0,,1,,1,,5,0,1,0,,2,3,,Hertha Berlin,,1,22.10.2016 15:30,Bundesliga - Round 8,cat318,2,,47,1,,2,,6,,3,2,0,3,,2,0,,FC Koln,,0,22.10.2016 15:30,Bundesliga - Round 8
+479,cat319,1,,47,0,,3,,7,,8,1,1,0,,4,4,,Hertha Berlin,,1,22.10.2016 15:30,Bundesliga - Round 8,cat319,2,,53,1,,3,,10,,7,3,1,1,,4,2,,FC Koln,,1,22.10.2016 15:30,Bundesliga - Round 8
+480,cat320,1,,36,1,,2,,10,,9,3,2,2,,2,6,,Ingolstadt,,,22.10.2016 15:30,Bundesliga - Round 8,cat320,2,,64,3,,1,,7,,11,4,0,0,,5,3,,Dortmund,,,22.10.2016 15:30,Bundesliga - Round 8
+481,cat321,1,,27,1,,0,,8,,3,4,1,1,,1,1,,Ingolstadt,,0,22.10.2016 15:30,Bundesliga - Round 8,cat321,2,,73,0,,7,,4,,13,0,3,0,,6,7,,Dortmund,,1,22.10.2016 15:30,Bundesliga - Round 8
+482,cat322,1,,51,0,,0,,10,,0,0,0,2,,0,0,,Hamburger SV,,1,21.10.2016 20:30,Bundesliga - Round 8,cat322,2,,49,3,,0,,7,,9,0,1,1,,5,0,,Eintracht Frankfurt,,2,21.10.2016 20:30,Bundesliga - Round 8
+483,cat323,1,,37,1,,0,,5,,3,1,0,2,1,2,0,,Hamburger SV,,1,21.10.2016 20:30,Bundesliga - Round 8,cat323,2,,63,0,,2,,1,,4,0,2,1,0,1,3,,Eintracht Frankfurt,,2,21.10.2016 20:30,Bundesliga - Round 8
+484,cat324,1,,55,3,,5,,8,,8,3,0,2,,4,1,,Wolfsburg,,1,16.10.2016 17:30,Bundesliga - Round 7,cat324,2,,45,1,,1,,9,,5,1,0,2,,1,3,,RB Leipzig,,0,16.10.2016 17:30,Bundesliga - Round 7
+485,cat325,1,,49,0,,2,,12,,2,2,0,0,,1,1,,Wolfsburg,,1,16.10.2016 17:30,Bundesliga - Round 7,cat325,2,,51,1,,3,,9,,8,1,1,1,,4,3,,RB Leipzig,,1,16.10.2016 17:30,Bundesliga - Round 7
+486,cat326,1,,53,1,,6,,8,,9,2,1,4,,5,3,,Mainz,,1,16.10.2016 15:30,Bundesliga - Round 7,cat326,2,,47,0,,2,,8,,5,2,0,0,,3,2,,Darmstadt,,1,16.10.2016 15:30,Bundesliga - Round 7
+487,cat327,1,,45,0,,1,,9,,4,1,1,1,,2,2,,Mainz,,2,16.10.2016 15:30,Bundesliga - Round 7,cat327,2,,55,2,,5,,11,,7,1,1,0,,3,2,,Darmstadt,,0,16.10.2016 15:30,Bundesliga - Round 7
+488,cat328,1,,34,1,,0,,5,,4,3,1,1,,1,2,,Werder Bremen,,,15.10.2016 18:30,Bundesliga - Round 7,cat328,2,,66,1,,0,,3,,10,1,1,0,,5,4,,Bayer Leverkusen,,,15.10.2016 18:30,Bundesliga - Round 7
+489,cat329,1,,34,2,,0,,5,,7,2,1,1,,2,3,,Werder Bremen,,2,15.10.2016 18:30,Bundesliga - Round 7,cat329,2,,66,1,,2,,12,,3,2,0,2,,0,2,,Bayer Leverkusen,,2,15.10.2016 18:30,Bundesliga - Round 7
+490,cat330,1,,53,1,,3,,8,,2,0,0,0,,0,1,,Augsburg,,2,15.10.2016 15:30,Bundesliga - Round 7,cat330,2,,47,1,,2,,7,,5,1,0,1,,4,0,,Schalke,,1,15.10.2016 15:30,Bundesliga - Round 7
+491,cat331,1,,49,1,,3,,6,,9,2,1,0,,4,4,,Augsburg,,0,15.10.2016 15:30,Bundesliga - Round 7,cat331,2,,51,2,,2,,9,,7,3,1,1,,2,3,,Schalke,,2,15.10.2016 15:30,Bundesliga - Round 7
+492,cat332,1,,68,0,,3,,4,,5,0,0,1,0,4,1,,B. Monchengladbach,,1,15.10.2016 15:30,Bundesliga - Round 7,cat332,2,,32,1,,2,,8,,3,1,0,0,1,2,0,,Hamburger SV,,1,15.10.2016 15:30,Bundesliga - Round 7
+493,cat333,1,,84,8,,7,,6,,17,0,0,4,,6,3,,B. Monchengladbach,,1,15.10.2016 15:30,Bundesliga - Round 7,cat333,2,,16,0,,1,,8,,2,3,0,2,,2,0,,Hamburger SV,,3,15.10.2016 15:30,Bundesliga - Round 7
+494,cat334,1,,41,1,,2,,12,,8,0,1,2,,4,3,,Eintracht Frankfurt,,2,15.10.2016 15:30,Bundesliga - Round 7,cat334,2,,59,0,,1,,6,,3,2,1,2,,2,1,,Bayern Munich,,2,15.10.2016 15:30,Bundesliga - Round 7
+495,cat335,1,,35,0,,0,,6,,5,3,1,1,1,4,1,,Eintracht Frankfurt,,3,15.10.2016 15:30,Bundesliga - Round 7,cat335,2,,65,1,,5,,5,,11,0,1,2,0,6,4,,Bayern Munich,,2,15.10.2016 15:30,Bundesliga - Round 7
+496,cat336,1,,66,0,,3,,10,,6,0,2,2,,3,3,,FC Koln,,1,15.10.2016 15:30,Bundesliga - Round 7,cat336,2,,34,0,,1,,8,,5,1,0,0,,5,0,,Ingolstadt,,1,15.10.2016 15:30,Bundesliga - Round 7
+497,cat337,1,,56,2,,2,,17,,9,0,0,1,,7,0,,FC Koln,,2,15.10.2016 15:30,Bundesliga - Round 7,cat337,2,,44,0,,2,,16,,4,0,1,1,,3,1,,Ingolstadt,,2,15.10.2016 15:30,Bundesliga - Round 7
+498,cat338,1,,47,0,,3,,8,,7,1,1,2,,4,3,,Hoffenheim,,,15.10.2016 15:30,Bundesliga - Round 7,cat338,2,,53,1,,1,,5,,4,2,0,5,,2,1,,Freiburg,,,15.10.2016 15:30,Bundesliga - Round 7
+499,cat339,1,,43,4,,5,,10,,7,4,1,1,,2,1,,Hoffenheim,,2,15.10.2016 15:30,Bundesliga - Round 7,cat339,2,,57,1,,2,,10,,9,0,1,2,,3,5,,Freiburg,,3,15.10.2016 15:30,Bundesliga - Round 7
+500,cat340,1,,68,1,,2,,8,,2,0,0,3,,1,0,,Dortmund,,0,14.10.2016 20:30,Bundesliga - Round 7,cat340,2,,32,2,,0,,10,,5,0,0,0,,3,0,,Hertha Berlin,,1,14.10.2016 20:30,Bundesliga - Round 7
+501,cat341,1,,70,1,,3,,5,,13,1,1,0,1,6,6,,Dortmund,,1,14.10.2016 20:30,Bundesliga - Round 7,cat341,2,,30,0,,0,,11,,4,5,1,1,1,2,2,,Hertha Berlin,,4,14.10.2016 20:30,Bundesliga - Round 7
+502,cat342,1,,37,2,,3,,5,,7,1,0,2,,2,3,,Schalke,,,02.10.2016 17:30,Bundesliga - Round 6,cat342,2,,63,1,,1,,5,,2,3,0,1,,0,1,,B. Monchengladbach,,,02.10.2016 17:30,Bundesliga - Round 6
+503,cat343,1,,29,1,,0,,6,,8,3,4,0,,2,5,,Schalke,,,02.10.2016 17:30,Bundesliga - Round 6,cat343,2,,71,3,,4,,5,,10,1,0,0,,4,3,,B. Monchengladbach,,,02.10.2016 17:30,Bundesliga - Round 6
+504,cat344,1,,58,2,,5,,6,,7,1,0,3,,3,2,,Wolfsburg,,,02.10.2016 15:30,Bundesliga - Round 6,cat344,2,,42,1,,0,,3,,3,2,0,0,,1,1,,Mainz,,,02.10.2016 15:30,Bundesliga - Round 6
+505,cat345,1,,56,6,,6,,4,,12,1,0,1,,5,1,,Wolfsburg,,,02.10.2016 15:30,Bundesliga - Round 6,cat345,2,,44,1,,3,,3,,5,1,0,1,,3,1,,Mainz,,,02.10.2016 15:30,Bundesliga - Round 6
+506,cat346,1,,33,0,,1,,10,,5,2,1,2,,3,2,,Bayer Leverkusen,,3,01.10.2016 18:30,Bundesliga - Round 6,cat346,2,,67,1,,3,,1,,4,1,0,1,,1,2,,Dortmund,,0,01.10.2016 18:30,Bundesliga - Round 6
+507,cat347,1,,35,0,,0,,11,,6,2,1,2,,2,4,,Bayer Leverkusen,,2,01.10.2016 18:30,Bundesliga - Round 6,cat347,2,,65,2,,6,,6,,6,3,0,2,,2,2,,Dortmund,,1,01.10.2016 18:30,Bundesliga - Round 6
+508,cat348,1,,69,3,,4,,1,,12,1,1,1,,8,1,,Bayern Munich,,,01.10.2016 15:30,Bundesliga - Round 6,cat348,2,,31,0,,2,,4,,2,0,0,1,,1,1,,FC Koln,,,01.10.2016 15:30,Bundesliga - Round 6
+509,cat349,1,,61,2,,6,,2,,15,0,0,3,,11,2,,Bayern Munich,,1,01.10.2016 15:30,Bundesliga - Round 6,cat349,2,,39,0,,1,,8,,3,2,1,3,,2,1,,FC Koln,,2,01.10.2016 15:30,Bundesliga - Round 6
+510,cat350,1,,48,1,,2,,9,,5,0,1,0,,3,1,,Darmstadt,,2,01.10.2016 15:30,Bundesliga - Round 6,cat350,2,,52,2,,2,,12,,2,0,0,1,,0,0,,Werder Bremen,,1,01.10.2016 15:30,Bundesliga - Round 6
+511,cat351,1,,37,2,,3,,8,,4,5,1,0,,1,1,,Darmstadt,,,01.10.2016 15:30,Bundesliga - Round 6,cat351,2,,63,2,,8,,8,,12,0,2,0,,3,7,,Werder Bremen,,,01.10.2016 15:30,Bundesliga - Round 6
+512,cat352,1,,37,1,,2,,7,,4,3,1,1,,1,2,,Freiburg,,0,01.10.2016 15:30,Bundesliga - Round 6,cat352,2,,63,2,,2,,3,,10,1,0,2,,5,3,,Eintracht Frankfurt,,2,01.10.2016 15:30,Bundesliga - Round 6
+513,cat353,1,,43,1,,7,,5,,7,0,0,1,,5,1,,Freiburg,,4,01.10.2016 15:30,Bundesliga - Round 6,cat353,2,,57,2,,2,,9,,4,1,0,1,,2,0,,Eintracht Frankfurt,,1,01.10.2016 15:30,Bundesliga - Round 6
+514,cat354,1,,52,1,,5,,6,,6,1,1,0,,2,3,,Hertha Berlin,,2,01.10.2016 15:30,Bundesliga - Round 6,cat354,2,,48,1,,1,,12,,6,2,0,0,,4,1,,Hamburger SV,,3,01.10.2016 15:30,Bundesliga - Round 6
+515,cat355,1,,36,2,,2,,5,,8,2,1,0,,4,2,,Hertha Berlin,,0,01.10.2016 15:30,Bundesliga - Round 6,cat355,2,,64,4,,2,,8,,10,1,0,1,,4,2,,Hamburger SV,,3,01.10.2016 15:30,Bundesliga - Round 6
+516,cat356,1,,49,2,,4,,10,,6,2,0,1,,3,1,,Ingolstadt,,,01.10.2016 15:30,Bundesliga - Round 6,cat356,2,,51,2,,3,,6,,8,1,2,1,,2,4,,Hoffenheim,,,01.10.2016 15:30,Bundesliga - Round 6
+517,cat357,1,,51,5,,4,,11,,12,5,1,3,,3,4,,Ingolstadt,,1,01.10.2016 15:30,Bundesliga - Round 6,cat357,2,,49,2,,2,,14,,13,3,0,1,,6,5,,Hoffenheim,,2,01.10.2016 15:30,Bundesliga - Round 6
+518,cat358,1,,56,3,,3,,8,,8,0,1,1,,1,4,,RB Leipzig,,0,30.09.2016 20:30,Bundesliga - Round 6,cat358,2,,44,2,,1,,5,,4,3,1,0,,1,1,,Augsburg,,1,30.09.2016 20:30,Bundesliga - Round 6
+519,cat359,1,,52,1,,3,,6,,9,1,1,1,,2,6,,RB Leipzig,,0,30.09.2016 20:30,Bundesliga - Round 6,cat359,2,,48,1,,2,,7,,2,5,0,1,,0,1,,Augsburg,,2,30.09.2016 20:30,Bundesliga - Round 6
+520,cat360,1,,52,0,,1,,3,,7,0,1,2,,5,2,,FC Koln,,0,25.09.2016 17:45,Bundesliga - Round 5,cat360,2,,48,0,,2,,10,,1,1,1,0,,0,1,,RB Leipzig,,1,25.09.2016 17:45,Bundesliga - Round 5
+521,cat361,1,,40,2,,0,,7,,3,1,0,1,,1,0,,FC Koln,,1,25.09.2016 17:45,Bundesliga - Round 5,cat361,2,,60,4,,4,,6,,11,0,0,0,,6,1,,RB Leipzig,,1,25.09.2016 17:45,Bundesliga - Round 5
+522,cat362,1,,52,0,,1,,1,,6,1,2,1,,4,2,,Hoffenheim,,1,25.09.2016 15:30,Bundesliga - Round 5,cat362,2,,48,0,,2,,7,,5,0,1,2,,3,2,,Schalke,,0,25.09.2016 15:30,Bundesliga - Round 5
+523,cat363,1,,37,3,,1,,10,,8,3,0,1,,5,0,,Hoffenheim,,0,25.09.2016 15:30,Bundesliga - Round 5,cat363,2,,63,2,,4,,6,,7,0,0,1,,2,3,,Schalke,,1,25.09.2016 15:30,Bundesliga - Round 5
+524,cat364,1,,45,0,,3,,5,,7,0,0,2,,6,1,,Werder Bremen,,0,24.09.2016 18:30,Bundesliga - Round 5,cat364,2,,55,1,,1,,10,,3,1,0,1,,2,0,,Wolfsburg,,2,24.09.2016 18:30,Bundesliga - Round 5
+525,cat365,1,,41,1,,3,,10,,9,2,2,1,,5,3,,Werder Bremen,,1,24.09.2016 18:30,Bundesliga - Round 5,cat365,2,,59,3,,1,,4,,8,1,1,0,,2,3,,Wolfsburg,,1,24.09.2016 18:30,Bundesliga - Round 5
+526,cat366,1,,59,1,,2,,4,,8,0,0,0,0,4,3,,Augsburg,,1,24.09.2016 15:30,Bundesliga - Round 5,cat366,2,,41,1,,3,,10,,3,3,0,1,1,2,0,,Darmstadt,,3,24.09.2016 15:30,Bundesliga - Round 5
+527,cat367,1,,71,2,,1,,3,,11,0,1,2,,6,3,,Augsburg,,1,24.09.2016 15:30,Bundesliga - Round 5,cat367,2,,29,0,,2,,4,,1,2,0,0,,1,0,,Darmstadt,,0,24.09.2016 15:30,Bundesliga - Round 5
+528,cat368,1,,59,0,,0,,10,,4,1,1,2,,1,3,,B. Monchengladbach,,0,24.09.2016 15:30,Bundesliga - Round 5,cat368,2,,41,0,,0,,6,,4,2,0,4,,3,1,,Ingolstadt,,1,24.09.2016 15:30,Bundesliga - Round 5
+529,cat369,1,,49,0,,1,,13,,3,1,1,1,,1,2,,B. Monchengladbach,,2,24.09.2016 15:30,Bundesliga - Round 5,cat369,2,,51,1,,3,,8,,4,1,0,0,,2,1,,Ingolstadt,,2,24.09.2016 15:30,Bundesliga - Round 5
+530,cat370,1,,57,1,,3,,4,,5,0,2,1,,1,3,,Eintracht Frankfurt,,1,24.09.2016 15:30,Bundesliga - Round 5,cat370,2,,43,1,,1,,5,,2,1,1,0,,0,1,,Hertha Berlin,,1,24.09.2016 15:30,Bundesliga - Round 5
+531,cat371,1,,53,2,,1,,9,,6,1,1,0,,3,1,,Eintracht Frankfurt,,3,24.09.2016 15:30,Bundesliga - Round 5,cat371,2,,47,0,,0,,7,,4,0,2,2,,1,3,,Hertha Berlin,,1,24.09.2016 15:30,Bundesliga - Round 5
+532,cat372,1,,37,0,,2,,7,,2,1,0,1,,1,1,,Hamburger SV,,,24.09.2016 15:30,Bundesliga - Round 5,cat372,2,,63,0,,2,,4,,3,1,0,0,,2,1,,Bayern Munich,,,24.09.2016 15:30,Bundesliga - Round 5
+533,cat373,1,,33,1,,1,,10,,5,6,0,2,,4,0,,Hamburger SV,,2,24.09.2016 15:30,Bundesliga - Round 5,cat373,2,,67,5,,3,,8,,14,0,1,2,,2,7,,Bayern Munich,,3,24.09.2016 15:30,Bundesliga - Round 5
+534,cat374,1,,40,1,,3,,6,,9,2,2,3,,3,5,,Mainz,,3,24.09.2016 15:30,Bundesliga - Round 5,cat374,2,,60,1,,1,,6,,5,3,1,1,,1,3,,Bayer Leverkusen,,2,24.09.2016 15:30,Bundesliga - Round 5
+535,cat375,1,,42,0,,3,,6,,0,1,0,2,,0,0,,Mainz,,,24.09.2016 15:30,Bundesliga - Round 5,cat375,2,,58,1,,0,,8,,11,0,2,1,,7,3,,Bayer Leverkusen,,,24.09.2016 15:30,Bundesliga - Round 5
+536,cat376,1,,68,5,,8,,4,,13,2,1,0,,7,1,,Dortmund,,1,23.09.2016 20:30,Bundesliga - Round 5,cat376,2,,32,1,,2,,15,,6,0,0,0,,3,2,,Freiburg,,0,23.09.2016 20:30,Bundesliga - Round 5
+537,cat377,1,,63,1,,7,,4,,11,2,2,3,,6,4,,Dortmund,,1,23.09.2016 20:30,Bundesliga - Round 5,cat377,2,,37,0,,1,,12,,3,2,1,1,,0,3,,Freiburg,,3,23.09.2016 20:30,Bundesliga - Round 5
+538,cat378,1,,67,1,,2,,7,,5,1,0,0,,2,2,,Bayer Leverkusen,,,21.09.2016 20:00,Bundesliga - Round 4,cat378,2,,33,1,,2,,5,,3,2,0,2,,1,1,,Augsburg,,,21.09.2016 20:00,Bundesliga - Round 4
+539,cat379,1,,63,1,,4,,7,,9,1,0,1,,4,4,,Bayer Leverkusen,,0,21.09.2016 20:00,Bundesliga - Round 4,cat379,2,,37,0,,1,,10,,2,4,0,1,,1,1,,Augsburg,,2,21.09.2016 20:00,Bundesliga - Round 4
+540,cat380,1,,73,0,,4,,4,,11,0,1,4,,7,4,,Bayern Munich,,,21.09.2016 20:00,Bundesliga - Round 4,cat380,2,,27,0,,0,,5,,1,3,0,1,,1,0,,Hertha Berlin,,,21.09.2016 20:00,Bundesliga - Round 4
+541,cat381,1,,69,2,,2,,4,,5,2,2,1,,0,3,,Bayern Munich,,1,21.09.2016 20:00,Bundesliga - Round 4,cat381,2,,31,0,,2,,3,,1,1,0,0,,-1,2,,Hertha Berlin,,0,21.09.2016 20:00,Bundesliga - Round 4
+542,cat382,1,,44,1,,4,,4,,6,0,1,2,,3,2,,RB Leipzig,,0,21.09.2016 20:00,Bundesliga - Round 4,cat382,2,,56,1,,2,,7,,2,1,0,0,,1,0,,B. Monchengladbach,,1,21.09.2016 20:00,Bundesliga - Round 4
+543,cat383,1,,44,0,,1,,11,,3,0,0,0,,0,3,,RB Leipzig,,1,21.09.2016 20:00,Bundesliga - Round 4,cat383,2,,56,0,,0,,9,,1,3,1,4,,0,1,,B. Monchengladbach,,1,21.09.2016 20:00,Bundesliga - Round 4
+544,cat384,1,,60,7,,5,,7,,13,1,1,0,,2,4,,Schalke,,0,21.09.2016 20:00,Bundesliga - Round 4,cat384,2,,40,1,,3,,5,,5,3,1,0,,2,2,,FC Koln,,1,21.09.2016 20:00,Bundesliga - Round 4
+545,cat385,1,,64,1,,3,,10,,5,1,0,3,,0,4,,Schalke,,2,21.09.2016 20:00,Bundesliga - Round 4,cat385,2,,36,0,,1,,4,,4,4,2,0,,1,3,,FC Koln,,0,21.09.2016 20:00,Bundesliga - Round 4
+546,cat386,1,,46,0,,0,,9,,6,0,1,2,,3,3,,Werder Bremen,,1,21.09.2016 20:00,Bundesliga - Round 4,cat386,2,,54,1,,6,,8,,3,2,0,1,,2,0,,Mainz,,0,21.09.2016 20:00,Bundesliga - Round 4
+547,cat387,1,,41,1,,3,,5,,7,4,0,0,,2,4,,Werder Bremen,,1,21.09.2016 20:00,Bundesliga - Round 4,cat387,2,,59,0,,8,,6,,10,4,2,3,,4,6,,Mainz,,2,21.09.2016 20:00,Bundesliga - Round 4
+548,cat388,1,,26,0,,1,,6,,3,1,0,3,,3,0,,Darmstadt,,,20.09.2016 20:00,Bundesliga - Round 4,cat388,2,,74,5,,4,,5,,7,0,0,0,,1,1,,Hoffenheim,,,20.09.2016 20:00,Bundesliga - Round 4
+549,cat389,1,,42,2,,1,,9,,9,2,1,4,,4,3,,Darmstadt,,1,20.09.2016 20:00,Bundesliga - Round 4,cat389,2,,58,1,,2,,12,,8,2,1,0,,4,3,,Hoffenheim,,1,20.09.2016 20:00,Bundesliga - Round 4
+550,cat390,1,,53,7,,5,,8,,9,0,0,1,,1,1,,Freiburg,,1,20.09.2016 20:00,Bundesliga - Round 4,cat390,2,,47,0,,0,,9,,5,1,0,1,,5,0,,Hamburger SV,,0,20.09.2016 20:00,Bundesliga - Round 4
+551,cat391,1,,43,4,,2,,8,,10,0,1,0,,3,3,,Freiburg,,,20.09.2016 20:00,Bundesliga - Round 4,cat391,2,,57,1,,0,,7,,2,2,0,2,,1,0,,Hamburger SV,,,20.09.2016 20:00,Bundesliga - Round 4
+552,cat392,1,,49,3,,4,,10,,6,2,0,1,,3,0,,Ingolstadt,,,20.09.2016 20:00,Bundesliga - Round 4,cat392,2,,51,1,,3,,5,,6,0,1,1,,2,3,,Eintracht Frankfurt,,,20.09.2016 20:00,Bundesliga - Round 4
+553,cat393,1,,59,1,,2,,9,,7,1,0,4,,3,3,,Ingolstadt,,0,20.09.2016 20:00,Bundesliga - Round 4,cat393,2,,41,0,,1,,14,,3,3,1,0,,1,2,,Eintracht Frankfurt,,1,20.09.2016 20:00,Bundesliga - Round 4
+554,cat394,1,,51,0,,0,,9,,7,2,0,3,,3,4,,Wolfsburg,,2,20.09.2016 20:00,Bundesliga - Round 4,cat394,2,,49,0,,2,,6,,4,4,0,2,,0,4,,Dortmund,,0,20.09.2016 20:00,Bundesliga - Round 4
+555,cat395,1,,49,1,,2,,5,,8,2,1,1,,2,5,,Wolfsburg,,,20.09.2016 20:00,Bundesliga - Round 4,cat395,2,,51,1,,1,,5,,6,4,3,1,,0,5,,Dortmund,,,20.09.2016 20:00,Bundesliga - Round 4
+556,cat396,1,,56,0,,2,,7,,3,2,0,0,,3,0,,Hertha Berlin,,,18.09.2016 17:30,Bundesliga - Round 3,cat396,2,,44,2,,3,,10,,5,0,0,0,,1,2,,Schalke,,,18.09.2016 17:30,Bundesliga - Round 3
+557,cat397,1,,44,1,,2,,5,,5,2,2,0,,2,2,,Hertha Berlin,,1,18.09.2016 17:30,Bundesliga - Round 3,cat397,2,,56,2,,3,,7,,6,0,0,2,,2,2,,Schalke,,1,18.09.2016 17:30,Bundesliga - Round 3
+558,cat398,1,,51,1,,0,,7,,4,2,0,2,,3,0,,Augsburg,,,18.09.2016 15:30,Bundesliga - Round 3,cat398,2,,49,0,,3,,3,,6,0,1,0,,3,3,,Mainz,,,18.09.2016 15:30,Bundesliga - Round 3
+559,cat399,1,,55,2,,2,,7,,8,1,1,2,0,1,5,,Augsburg,,1,18.09.2016 15:30,Bundesliga - Round 3,cat399,2,,45,1,,4,,13,,5,4,2,1,1,1,3,,Mainz,,2,18.09.2016 15:30,Bundesliga - Round 3
+560,cat400,1,,59,0,,6,,5,,9,0,4,1,,2,7,,B. Monchengladbach,,0,17.09.2016 18:30,Bundesliga - Round 3,cat400,2,,41,0,,3,,9,,1,3,0,0,,1,0,,Werder Bremen,,1,17.09.2016 18:30,Bundesliga - Round 3
+561,cat401,1,,61,4,,4,,4,,6,4,0,0,0,2,0,,B. Monchengladbach,,0,17.09.2016 18:30,Bundesliga - Round 3,cat401,2,,39,1,,1,,8,,8,0,1,0,1,2,5,,Werder Bremen,,2,17.09.2016 18:30,Bundesliga - Round 3
+562,cat402,1,,63,0,,3,,8,,4,2,1,0,,2,2,,Bayern Munich,,,17.09.2016 15:30,Bundesliga - Round 3,cat402,2,,37,0,,2,,5,,7,1,1,2,,4,3,,Ingolstadt,,,17.09.2016 15:30,Bundesliga - Round 3
+563,cat403,1,,67,1,,2,,9,,6,2,2,1,,2,3,,Bayern Munich,,1,17.09.2016 15:30,Bundesliga - Round 3,cat403,2,,33,1,,3,,12,,6,1,0,0,,3,2,,Ingolstadt,,2,17.09.2016 15:30,Bundesliga - Round 3
+564,cat404,1,,74,2,,5,,2,,9,0,1,2,,2,5,,Dortmund,,0,17.09.2016 15:30,Bundesliga - Round 3,cat404,2,,26,0,,0,,10,,0,4,0,1,,0,0,,Darmstadt,,4,17.09.2016 15:30,Bundesliga - Round 3
+565,cat405,1,,69,2,,7,,6,,13,1,5,0,0,2,9,,Dortmund,,0,17.09.2016 15:30,Bundesliga - Round 3,cat405,2,,31,1,,2,,6,,5,4,0,0,1,3,1,,Darmstadt,,2,17.09.2016 15:30,Bundesliga - Round 3
+566,cat406,1,,41,0,,0,,7,,4,0,0,2,,2,2,,Eintracht Frankfurt,,,17.09.2016 15:30,Bundesliga - Round 3,cat406,2,,59,0,,1,,8,,1,2,0,4,,1,0,,Bayer Leverkusen,,,17.09.2016 15:30,Bundesliga - Round 3
+567,cat407,1,,43,2,,1,,14,,13,2,2,0,,5,6,,Eintracht Frankfurt,,3,17.09.2016 15:30,Bundesliga - Round 3,cat407,2,,57,0,,2,,4,,6,4,1,3,,3,3,,Bayer Leverkusen,,0,17.09.2016 15:30,Bundesliga - Round 3
+568,cat408,1,,57,4,,5,,8,,10,1,0,1,,4,2,,Hamburger SV,,2,17.09.2016 15:30,Bundesliga - Round 3,cat408,2,,43,1,,2,,4,,4,2,0,2,,2,1,,RB Leipzig,,0,17.09.2016 15:30,Bundesliga - Round 3
+569,cat409,1,,59,1,,3,,9,,4,1,0,0,,3,0,,Hamburger SV,,3,17.09.2016 15:30,Bundesliga - Round 3,cat409,2,,41,1,,1,,8,,8,0,4,2,,2,5,,RB Leipzig,,1,17.09.2016 15:30,Bundesliga - Round 3
+570,cat410,1,,47,5,,2,,7,,11,5,0,0,,3,3,,Hoffenheim,,1,17.09.2016 15:30,Bundesliga - Round 3,cat410,2,,53,2,,5,,6,,9,3,0,2,,2,5,,Wolfsburg,,1,17.09.2016 15:30,Bundesliga - Round 3
+571,cat411,1,,53,1,,1,,10,,9,4,0,0,,6,2,,Hoffenheim,,1,17.09.2016 15:30,Bundesliga - Round 3,cat411,2,,47,3,,6,,12,,11,2,0,1,,4,4,,Wolfsburg,,0,17.09.2016 15:30,Bundesliga - Round 3
+572,cat412,1,,43,2,,3,,8,,9,4,3,2,,4,3,,FC Koln,,0,16.09.2016 20:30,Bundesliga - Round 3,cat412,2,,57,1,,2,,4,,7,0,0,0,,2,4,,Freiburg,,1,16.09.2016 20:30,Bundesliga - Round 3
+573,cat413,1,,35,0,,1,,4,,0,4,0,3,,0,0,,FC Koln,,1,16.09.2016 20:30,Bundesliga - Round 3,cat413,2,,65,2,,4,,5,,10,0,0,0,,4,4,,Freiburg,,0,16.09.2016 20:30,Bundesliga - Round 3
+574,cat414,1,,35,0,,4,,10,,5,0,4,1,,0,5,,Mainz,,1,11.09.2016 17:30,Bundesliga - Round 2,cat414,2,,65,2,,2,,5,,7,1,1,1,,4,1,,Hoffenheim,,0,11.09.2016 17:30,Bundesliga - Round 2
+575,cat415,1,,35,1,,4,,9,,7,1,0,0,1,5,1,,Mainz,,0,11.09.2016 17:30,Bundesliga - Round 2,cat415,2,,65,5,,3,,10,,13,1,3,1,0,4,4,,Hoffenheim,,3,11.09.2016 17:30,Bundesliga - Round 2
+576,cat416,1,,51,0,,0,,8,,4,1,1,0,,3,1,,Werder Bremen,,2,11.09.2016 15:30,Bundesliga - Round 2,cat416,2,,49,2,,0,,14,,5,0,0,1,,2,1,,Augsburg,,1,11.09.2016 15:30,Bundesliga - Round 2
+577,cat417,1,,51,3,,0,,5,,6,2,0,0,,3,0,,Werder Bremen,,0,11.09.2016 15:30,Bundesliga - Round 2,cat417,2,,49,3,,4,,14,,13,0,2,0,,6,4,,Augsburg,,2,11.09.2016 15:30,Bundesliga - Round 2
+578,cat418,1,,37,0,,2,,10,,3,0,0,2,,2,1,,RB Leipzig,,0,10.09.2016 18:30,Bundesliga - Round 2,cat418,2,,63,1,,4,,7,,5,1,0,1,,4,0,,Dortmund,,1,10.09.2016 18:30,Bundesliga - Round 2
+579,cat419,1,,39,1,,3,,6,,7,1,1,1,,3,3,,RB Leipzig,,2,10.09.2016 18:30,Bundesliga - Round 2,cat419,2,,61,1,,3,,2,,3,2,0,1,,1,1,,Dortmund,,1,10.09.2016 18:30,Bundesliga - Round 2
+580,cat420,1,,57,0,,2,,3,,3,1,0,4,,2,1,,Bayer Leverkusen,,,10.09.2016 15:30,Bundesliga - Round 2,cat420,2,,43,0,,1,,8,,4,1,0,1,,3,1,,Hamburger SV,,,10.09.2016 15:30,Bundesliga - Round 2
+581,cat421,1,,65,2,,2,,10,,12,0,3,0,,6,4,,Bayer Leverkusen,,2,10.09.2016 15:30,Bundesliga - Round 2,cat421,2,,35,1,,0,,10,,2,1,1,1,,0,1,,Hamburger SV,,1,10.09.2016 15:30,Bundesliga - Round 2
+582,cat422,1,,28,0,,1,,8,,1,1,0,2,,1,0,,Darmstadt,,,10.09.2016 15:30,Bundesliga - Round 2,cat422,2,,72,3,,1,,7,,7,0,0,0,,3,1,,Eintracht Frankfurt,,,10.09.2016 15:30,Bundesliga - Round 2
+583,cat423,1,,28,0,,0,,8,,7,2,1,1,,6,1,,Darmstadt,,1,10.09.2016 15:30,Bundesliga - Round 2,cat423,2,,72,2,,3,,5,,7,0,0,1,,3,2,,Eintracht Frankfurt,,2,10.09.2016 15:30,Bundesliga - Round 2
+584,cat424,1,,35,2,,2,,8,,6,1,0,0,,2,2,,Freiburg,,,10.09.2016 15:30,Bundesliga - Round 2,cat424,2,,65,1,,1,,4,,3,2,1,2,,0,2,,B. Monchengladbach,,,10.09.2016 15:30,Bundesliga - Round 2
+585,cat425,1,,42,4,,1,,7,,11,0,3,1,,2,5,,Freiburg,,2,10.09.2016 15:30,Bundesliga - Round 2,cat425,2,,58,0,,3,,7,,2,2,0,1,,2,0,,B. Monchengladbach,,2,10.09.2016 15:30,Bundesliga - Round 2
+586,cat426,1,,54,0,,2,,6,,4,2,0,1,,2,2,,Ingolstadt,,1,10.09.2016 15:30,Bundesliga - Round 2,cat426,2,,46,0,,0,,9,,4,2,1,0,,1,3,,Hertha Berlin,,0,10.09.2016 15:30,Bundesliga - Round 2
+587,cat427,1,,58,3,,4,,7,,8,2,0,1,,2,3,,Ingolstadt,,2,10.09.2016 15:30,Bundesliga - Round 2,cat427,2,,42,0,,1,,10,,3,3,1,0,,0,3,,Hertha Berlin,,1,10.09.2016 15:30,Bundesliga - Round 2
+588,cat428,1,,58,3,,5,,5,,9,4,0,0,,4,2,,Wolfsburg,,1,10.09.2016 15:30,Bundesliga - Round 2,cat428,2,,42,1,,4,,5,,10,2,0,0,,5,4,,FC Koln,,0,10.09.2016 15:30,Bundesliga - Round 2
+589,cat429,1,,64,0,,3,,8,,9,5,0,0,,7,2,,Wolfsburg,,1,10.09.2016 15:30,Bundesliga - Round 2,cat429,2,,36,1,,0,,7,,6,2,0,1,,0,5,,FC Koln,,3,10.09.2016 15:30,Bundesliga - Round 2
+590,cat430,1,,35,3,,1,,8,,6,0,0,0,,3,0,,Schalke,,1,09.09.2016 20:30,Bundesliga - Round 2,cat430,2,,65,2,,5,,4,,5,0,0,2,,3,0,,Bayern Munich,,1,09.09.2016 20:30,Bundesliga - Round 2
+591,cat431,1,,35,0,,1,,4,,3,0,0,2,,1,2,,Schalke,,1,09.09.2016 20:30,Bundesliga - Round 2,cat431,2,,65,3,,2,,8,,13,2,2,0,,8,2,,Bayern Munich,,3,09.09.2016 20:30,Bundesliga - Round 2
+592,cat432,1,,55,0,,1,,5,,6,5,0,1,,3,3,,Hoffenheim,,1,28.08.2016 17:30,Bundesliga - Round 1,cat432,2,,45,4,,6,,7,,13,3,0,1,,4,5,,RB Leipzig,,1,28.08.2016 17:30,Bundesliga - Round 1
+593,cat433,1,,55,1,,1,,7,,5,2,2,0,,2,2,,Hoffenheim,,1,28.08.2016 17:30,Bundesliga - Round 1,cat433,2,,45,3,,3,,4,,10,0,2,0,,3,4,,RB Leipzig,,3,28.08.2016 17:30,Bundesliga - Round 1
+594,cat434,1,,60,1,,2,,5,,6,0,0,1,,3,2,,Hertha Berlin,,0,28.08.2016 15:30,Bundesliga - Round 1,cat434,2,,40,1,,1,,2,,2,2,0,0,,1,0,,Freiburg,,1,28.08.2016 15:30,Bundesliga - Round 1
+595,cat435,1,,48,4,,3,,5,,9,1,2,0,,2,3,,Hertha Berlin,,0,28.08.2016 15:30,Bundesliga - Round 1,cat435,2,,52,2,,1,,8,,6,1,1,0,,2,2,,Freiburg,,2,28.08.2016 15:30,Bundesliga - Round 1
+596,cat436,1,,53,1,,1,,6,,8,3,1,1,,1,6,,B. Monchengladbach,,1,27.08.2016 18:30,Bundesliga - Round 1,cat436,2,,47,1,,2,,7,,6,5,0,2,,2,3,,Bayer Leverkusen,,0,27.08.2016 18:30,Bundesliga - Round 1
+597,cat437,1,,49,1,,6,,5,,6,2,1,2,,2,3,,B. Monchengladbach,,2,27.08.2016 18:30,Bundesliga - Round 1,cat437,2,,51,1,,1,,8,,6,2,1,2,,2,3,,Bayer Leverkusen,,3,27.08.2016 18:30,Bundesliga - Round 1
+598,cat438,1,,48,1,,0,,6,,3,1,0,0,,2,0,,Augsburg,,0,27.08.2016 15:30,Bundesliga - Round 1,cat438,2,,52,0,,0,,8,,3,0,1,1,,1,2,,Wolfsburg,,1,27.08.2016 15:30,Bundesliga - Round 1
+599,cat439,1,,46,3,,2,,9,,10,3,0,0,,5,2,,Augsburg,,1,27.08.2016 15:30,Bundesliga - Round 1,cat439,2,,54,3,,3,,9,,9,2,1,0,,2,4,,Wolfsburg,,1,27.08.2016 15:30,Bundesliga - Round 1
+600,cat440,1,,72,1,,4,,2,,6,3,1,1,,2,3,,Dortmund,,0,27.08.2016 15:30,Bundesliga - Round 1,cat440,2,,28,2,,1,,13,,7,2,0,1,,2,3,,Mainz,,2,27.08.2016 15:30,Bundesliga - Round 1
+601,cat441,1,,66,3,,3,,1,,11,0,1,1,,3,5,,Dortmund,,0,27.08.2016 15:30,Bundesliga - Round 1,cat441,2,,34,2,,1,,7,,5,4,1,3,,2,1,,Mainz,,1,27.08.2016 15:30,Bundesliga - Round 1
+602,cat442,1,,51,0,,4,,5,,5,1,1,0,,3,2,,Eintracht Frankfurt,,,27.08.2016 15:30,Bundesliga - Round 1,cat442,2,,49,0,,3,,6,,5,1,0,3,,4,1,,Schalke,,,27.08.2016 15:30,Bundesliga - Round 1
+603,cat443,1,,41,1,,3,,6,,6,2,0,0,1,3,2,,Eintracht Frankfurt,,2,27.08.2016 15:30,Bundesliga - Round 1,cat443,2,,59,1,,2,,8,,6,2,0,2,0,3,2,,Schalke,,2,27.08.2016 15:30,Bundesliga - Round 1
+604,cat444,1,,64,1,,3,,3,,13,0,1,1,,8,4,,FC Koln,,1,27.08.2016 15:30,Bundesliga - Round 1,cat444,2,,36,3,,3,,7,,6,3,0,1,,3,0,,Darmstadt,,2,27.08.2016 15:30,Bundesliga - Round 1
+605,cat445,1,,54,2,,3,,6,,8,3,1,4,,2,4,,FC Koln,,2,27.08.2016 15:30,Bundesliga - Round 1,cat445,2,,46,1,,2,,8,,6,3,0,1,,2,3,,Darmstadt,,1,27.08.2016 15:30,Bundesliga - Round 1
+606,cat446,1,,50,1,,0,,9,,5,2,1,1,,3,1,,Hamburger SV,,1,27.08.2016 15:30,Bundesliga - Round 1,cat446,2,,50,3,,4,,9,,7,0,0,1,,2,2,,Ingolstadt,,2,27.08.2016 15:30,Bundesliga - Round 1
+607,cat447,1,,48,1,,4,,8,,3,2,0,0,,2,0,,Hamburger SV,,1,27.08.2016 15:30,Bundesliga - Round 1,cat447,2,,52,1,,1,,6,,6,0,1,0,,2,3,,Ingolstadt,,0,27.08.2016 15:30,Bundesliga - Round 1
+608,cat448,1,,66,4,,3,,4,,16,0,2,1,,3,9,,Bayern Munich,,,26.08.2016 20:30,Bundesliga - Round 1,cat448,2,,34,1,,0,,3,,1,7,0,1,,0,0,,Werder Bremen,,,26.08.2016 20:30,Bundesliga - Round 1
+609,cat449,1,,66,3,,5,,3,,11,2,4,0,,3,5,,Bayern Munich,,0,26.08.2016 20:30,Bundesliga - Round 1,cat449,2,,34,0,,1,,5,,3,1,0,0,,1,2,,Werder Bremen,,1,26.08.2016 20:30,Bundesliga - Round 1

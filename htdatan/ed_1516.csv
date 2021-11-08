@@ -1,0 +1,657 @@
+,H_cat,H_type,H_Attacks,H_Ball Possession,H_Blocked Shots,H_Completed Passes,H_Corner Kicks,H_Dangerous Attacks,H_Fouls,H_Free Kicks,H_Goal Attempts,H_Goalkeeper Saves,H_Goals,H_Offsides,H_Red Cards,H_Shots off Goal,H_Shots on Goal,H_Tackles,H_Teamnames,H_Total Passes,H_Yellow Cards,H_datetime,H_gameinfo,A_cat,A_type,A_Attacks,A_Ball Possession,A_Blocked Shots,A_Completed Passes,A_Corner Kicks,A_Dangerous Attacks,A_Fouls,A_Free Kicks,A_Goal Attempts,A_Goalkeeper Saves,A_Goals,A_Offsides,A_Red Cards,A_Shots off Goal,A_Shots on Goal,A_Tackles,A_Teamnames,A_Total Passes,A_Yellow Cards,A_datetime,A_gameinfo
+0,cat0,1,,47,1,,4,,2,,9,2,2,1,,3,5,,Roda,,0,08.08.2015 19:45,Eredivisie - Round 1,cat0,2,,53,2,,6,,6,,6,3,0,1,,2,2,,Heracles,,1,08.08.2015 19:45,Eredivisie - Round 1
+1,cat1,1,,41,0,,1,,9,,5,0,1,0,,3,2,,Roda,,0,08.08.2015 19:45,Eredivisie - Round 1,cat1,2,,59,1,,3,,9,,3,1,1,0,,1,1,,Heracles,,1,08.08.2015 19:45,Eredivisie - Round 1
+2,cat2,1,,38,0,,2,,4,,6,3,2,2,1,3,3,,Feyenoord,,2,08.08.2015 20:45,Eredivisie - Round 1,cat2,2,,62,1,,2,,10,,6,1,2,0,0,0,5,,Utrecht,,2,08.08.2015 20:45,Eredivisie - Round 1
+3,cat3,1,,54,1,,1,,8,,4,1,1,2,,1,2,,Feyenoord,,,08.08.2015 20:45,Eredivisie - Round 1,cat3,2,,46,1,,1,,4,,3,1,0,2,,1,1,,Utrecht,,,08.08.2015 20:45,Eredivisie - Round 1
+4,cat4,1,,45,2,,1,,3,,6,1,0,2,,3,1,,AZ Alkmaar,,1,09.08.2015 12:30,Eredivisie - Round 1,cat4,2,,55,2,,4,,5,,6,1,0,2,,3,1,,Ajax,,2,09.08.2015 12:30,Eredivisie - Round 1
+5,cat5,1,,43,4,,5,,6,,10,1,0,1,,6,0,,AZ Alkmaar,,0,09.08.2015 12:30,Eredivisie - Round 1,cat5,2,,57,2,,3,,8,,9,0,3,1,,3,4,,Ajax,,1,09.08.2015 12:30,Eredivisie - Round 1
+6,cat6,1,,49,1,,3,,12,,8,2,1,2,0,4,3,,Willem II,,1,09.08.2015 16:45,Eredivisie - Round 1,cat6,2,,51,0,,0,,6,,5,2,1,3,1,2,3,,Vitesse,,0,09.08.2015 16:45,Eredivisie - Round 1
+7,cat7,1,,49,2,,1,,7,,6,5,0,2,,2,2,,Willem II,,1,09.08.2015 16:45,Eredivisie - Round 1,cat7,2,,51,1,,1,,11,,8,2,0,2,,2,5,,Vitesse,,1,09.08.2015 16:45,Eredivisie - Round 1
+8,cat8,1,,57,2,,5,,11,,12,2,1,0,,8,2,,Den Haag,,3,11.08.2015 18:30,Eredivisie - Round 1,cat8,2,,43,1,,1,,10,,6,1,1,0,,2,3,,PSV,,0,11.08.2015 18:30,Eredivisie - Round 1
+9,cat9,1,,51,0,,2,,10,,2,1,1,0,,1,1,,Den Haag,,1,11.08.2015 18:30,Eredivisie - Round 1,cat9,2,,49,0,,2,,8,,8,0,1,1,,6,2,,PSV,,2,11.08.2015 18:30,Eredivisie - Round 1
+10,cat10,1,,44,2,,4,,2,,8,1,1,0,,2,4,,Heerenveen,,,11.08.2015 20:45,Eredivisie - Round 1,cat10,2,,56,1,,2,,5,,10,3,1,2,,7,2,,Graafschap,,,11.08.2015 20:45,Eredivisie - Round 1
+11,cat11,1,,58,2,,5,,3,,8,2,2,2,,3,3,,Heerenveen,,,11.08.2015 20:45,Eredivisie - Round 1,cat11,2,,42,1,,5,,3,,3,1,0,2,,0,2,,Graafschap,,,11.08.2015 20:45,Eredivisie - Round 1
+12,cat12,1,,60,2,,1,,4,,13,2,1,3,,6,5,,Groningen,,,12.08.2015 18:30,Eredivisie - Round 1,cat12,2,,40,2,,4,,3,,6,4,0,0,,2,2,,Twente,,,12.08.2015 18:30,Eredivisie - Round 1
+13,cat13,1,,58,2,,6,,5,,8,0,0,2,,1,5,,Groningen,,,12.08.2015 18:30,Eredivisie - Round 1,cat13,2,,42,1,,4,,2,,3,5,1,0,,1,1,,Twente,,,12.08.2015 18:30,Eredivisie - Round 1
+14,cat14,1,,35,0,,2,,9,,5,3,0,0,,4,1,,Zwolle,,2,12.08.2015 19:45,Eredivisie - Round 1,cat14,2,,65,2,,5,,8,,14,1,2,1,,7,5,,Cambuur,,1,12.08.2015 19:45,Eredivisie - Round 1
+15,cat15,1,,35,2,,1,,4,,6,2,2,2,,0,4,,Zwolle,,,12.08.2015 19:45,Eredivisie - Round 1,cat15,2,,65,4,,5,,4,,7,2,0,0,,1,2,,Cambuur,,,12.08.2015 19:45,Eredivisie - Round 1
+16,cat16,1,,55,0,,4,,7,,3,1,1,0,,2,1,,Nijmegen,,0,12.08.2015 20:45,Eredivisie - Round 1,cat16,2,,45,0,,5,,7,,1,0,0,0,,0,1,,Excelsior,,1,12.08.2015 20:45,Eredivisie - Round 1
+17,cat17,1,,55,2,,4,,4,,5,1,0,1,,2,1,,Nijmegen,,0,12.08.2015 20:45,Eredivisie - Round 1,cat17,2,,45,0,,2,,14,,3,1,0,0,,2,1,,Excelsior,,1,12.08.2015 20:45,Eredivisie - Round 1
+18,cat18,1,,77,1,,6,,3,,15,1,2,0,,8,6,,Vitesse,,,14.08.2015 20:00,Eredivisie - Round 2,cat18,2,,23,1,,1,,4,,2,4,0,0,,0,1,,Roda,,,14.08.2015 20:00,Eredivisie - Round 2
+19,cat19,1,,69,2,,7,,6,,9,0,1,0,0,4,3,,Vitesse,,0,14.08.2015 20:00,Eredivisie - Round 2,cat19,2,,31,2,,2,,4,,3,2,0,1,1,1,0,,Roda,,2,14.08.2015 20:00,Eredivisie - Round 2
+20,cat20,1,,55,3,,1,,5,,9,1,0,0,,5,1,,Graafschap,,2,15.08.2015 18:30,Eredivisie - Round 2,cat20,2,,45,2,,1,,5,,10,1,3,2,,4,4,,Zwolle,,1,15.08.2015 18:30,Eredivisie - Round 2
+21,cat21,1,,61,3,,6,,6,,12,1,0,1,,6,3,,Graafschap,,,15.08.2015 18:30,Eredivisie - Round 2,cat21,2,,39,0,,1,,4,,6,3,0,0,,5,1,,Zwolle,,,15.08.2015 18:30,Eredivisie - Round 2
+22,cat22,1,,48,3,,4,,4,,8,1,1,3,,3,2,,Twente,,1,15.08.2015 19:45,Eredivisie - Round 2,cat22,2,,52,1,,4,,3,,9,1,2,1,,5,3,,Den Haag,,0,15.08.2015 19:45,Eredivisie - Round 2
+23,cat23,1,,48,1,,3,,1,,6,0,0,3,,2,3,,Twente,,0,15.08.2015 19:45,Eredivisie - Round 2,cat23,2,,52,1,,1,,9,,6,3,2,0,,3,2,,Den Haag,,1,15.08.2015 19:45,Eredivisie - Round 2
+24,cat24,1,,55,0,,1,,6,,7,1,2,0,,3,4,,Ajax,,,15.08.2015 19:45,Eredivisie - Round 2,cat24,2,,45,2,,2,,5,,5,2,0,1,,2,1,,Willem II,,,15.08.2015 19:45,Eredivisie - Round 2
+25,cat25,1,,49,3,,4,,5,,8,0,1,1,,2,3,,Ajax,,,15.08.2015 19:45,Eredivisie - Round 2,cat25,2,,51,2,,1,,5,,5,2,0,2,,3,0,,Willem II,,,15.08.2015 19:45,Eredivisie - Round 2
+26,cat26,1,,38,3,,2,,8,,10,2,0,2,,5,2,,Excelsior,,2,15.08.2015 20:45,Eredivisie - Round 2,cat26,2,,62,1,,4,,5,,9,2,1,2,,5,3,,AZ Alkmaar,,0,15.08.2015 20:45,Eredivisie - Round 2
+27,cat27,1,,50,1,,2,,8,,5,0,2,0,,0,4,,Excelsior,,1,15.08.2015 20:45,Eredivisie - Round 2,cat27,2,,50,1,,1,,6,,6,2,1,2,,4,1,,AZ Alkmaar,,0,15.08.2015 20:45,Eredivisie - Round 2
+28,cat28,1,,51,1,,2,,2,,10,1,1,2,,4,5,,PSV,,0,16.08.2015 12:30,Eredivisie - Round 2,cat28,2,,49,1,,1,,7,,4,4,0,0,,2,1,,Groningen,,2,16.08.2015 12:30,Eredivisie - Round 2
+29,cat29,1,,57,2,,2,,2,,6,1,1,0,,3,1,,PSV,,1,16.08.2015 12:30,Eredivisie - Round 2,cat29,2,,43,2,,2,,9,,4,0,0,1,,1,1,,Groningen,,3,16.08.2015 12:30,Eredivisie - Round 2
+30,cat30,1,,45,3,,4,,12,,7,2,0,1,,2,2,,Utrecht,,2,16.08.2015 14:30,Eredivisie - Round 2,cat30,2,,55,1,,3,,9,,6,2,1,2,,2,3,,Heerenveen,,1,16.08.2015 14:30,Eredivisie - Round 2
+31,cat31,1,,47,3,,3,,5,,7,1,1,1,,3,1,,Utrecht,,0,16.08.2015 14:30,Eredivisie - Round 2,cat31,2,,53,0,,2,,6,,2,0,0,1,,1,1,,Heerenveen,,1,16.08.2015 14:30,Eredivisie - Round 2
+32,cat32,1,,52,0,,2,,5,,4,2,0,0,,3,1,,Cambuur,,1,16.08.2015 14:30,Eredivisie - Round 2,cat32,2,,48,0,,4,,9,,7,1,2,0,,3,4,,Feyenoord,,2,16.08.2015 14:30,Eredivisie - Round 2
+33,cat33,1,,46,1,,3,,10,,3,0,0,2,,1,1,,Cambuur,,,16.08.2015 14:30,Eredivisie - Round 2,cat33,2,,54,2,,3,,9,,3,1,0,1,,1,0,,Feyenoord,,,16.08.2015 14:30,Eredivisie - Round 2
+34,cat34,1,,59,2,,0,,4,,14,0,2,2,0,5,7,,Heracles,,1,16.08.2015 16:45,Eredivisie - Round 2,cat34,2,,41,0,,2,,6,,3,5,0,0,1,3,0,,Nijmegen,,1,16.08.2015 16:45,Eredivisie - Round 2
+35,cat35,1,,51,1,,1,,10,,9,1,1,4,,4,4,,Heracles,,,16.08.2015 16:45,Eredivisie - Round 2,cat35,2,,49,0,,1,,9,,2,3,0,1,,1,1,,Nijmegen,,,16.08.2015 16:45,Eredivisie - Round 2
+36,cat36,1,,51,0,,1,,13,,6,0,2,4,,3,3,,Groningen,,0,21.08.2015 20:00,Eredivisie - Round 3,cat36,2,,49,3,,2,,2,,8,1,0,0,,5,0,,Excelsior,,1,21.08.2015 20:00,Eredivisie - Round 3
+37,cat37,1,,67,3,,4,,6,,10,1,0,0,,4,3,,Groningen,,,21.08.2015 20:00,Eredivisie - Round 3,cat37,2,,33,1,,0,,3,,4,3,0,1,,2,1,,Excelsior,,,21.08.2015 20:00,Eredivisie - Round 3
+38,cat38,1,,44,1,,3,,4,,4,0,0,3,,2,1,,Roda,,0,22.08.2015 18:30,Eredivisie - Round 3,cat38,2,,56,1,,1,,4,,3,1,0,1,,2,0,,Graafschap,,1,22.08.2015 18:30,Eredivisie - Round 3
+39,cat39,1,,48,0,,2,,4,,5,3,1,4,,2,3,,Roda,,1,22.08.2015 18:30,Eredivisie - Round 3,cat39,2,,52,0,,1,,3,,4,2,0,1,,1,3,,Graafschap,,0,22.08.2015 18:30,Eredivisie - Round 3
+40,cat40,1,,43,2,,5,,8,,7,1,1,0,,1,4,,Heerenveen,,0,22.08.2015 19:45,Eredivisie - Round 3,cat40,2,,57,2,,4,,3,,7,3,1,1,,3,2,,PSV,,1,22.08.2015 19:45,Eredivisie - Round 3
+41,cat41,1,,45,4,,3,,2,,12,3,0,1,,3,5,,Heerenveen,,,22.08.2015 19:45,Eredivisie - Round 3,cat41,2,,55,2,,7,,3,,9,5,0,1,,4,3,,PSV,,,22.08.2015 19:45,Eredivisie - Round 3
+42,cat42,1,,51,5,,7,,8,,12,3,1,2,,4,3,,Cambuur,,0,22.08.2015 20:45,Eredivisie - Round 3,cat42,2,,49,2,,2,,7,,10,2,2,3,,3,5,,Heracles,,2,22.08.2015 20:45,Eredivisie - Round 3
+43,cat43,1,,57,2,,1,,10,,4,1,0,1,,2,0,,Cambuur,,3,22.08.2015 20:45,Eredivisie - Round 3,cat43,2,,43,0,,3,,8,,5,0,4,0,,0,5,,Heracles,,1,22.08.2015 20:45,Eredivisie - Round 3
+44,cat44,1,,45,2,,4,,6,,15,3,1,0,,9,4,,Zwolle,,,23.08.2015 12:30,Eredivisie - Round 3,cat44,2,,55,1,,3,,0,,15,3,1,1,,10,4,,Twente,,,23.08.2015 12:30,Eredivisie - Round 3
+45,cat45,1,,49,4,,3,,9,,11,2,1,1,,4,3,,Zwolle,,,23.08.2015 12:30,Eredivisie - Round 3,cat45,2,,51,3,,2,,2,,11,2,0,1,,6,2,,Twente,,,23.08.2015 12:30,Eredivisie - Round 3
+46,cat46,1,,40,1,,1,,3,,3,2,0,4,,2,0,,Nijmegen,,0,23.08.2015 14:30,Eredivisie - Round 3,cat46,2,,60,1,,2,,6,,8,0,2,0,,3,4,,Ajax,,1,23.08.2015 14:30,Eredivisie - Round 3
+47,cat47,1,,40,3,,0,,5,,5,3,0,0,,1,1,,Nijmegen,,1,23.08.2015 14:30,Eredivisie - Round 3,cat47,2,,60,2,,5,,3,,10,1,0,1,,5,3,,Ajax,,0,23.08.2015 14:30,Eredivisie - Round 3
+48,cat48,1,,48,2,,3,,8,,8,3,1,2,,3,3,,Den Haag,,2,23.08.2015 14:30,Eredivisie - Round 3,cat48,2,,52,0,,2,,8,,3,2,0,0,,0,3,,Utrecht,,1,23.08.2015 14:30,Eredivisie - Round 3
+49,cat49,1,,40,1,,1,,10,,2,1,0,3,,1,0,,Den Haag,,0,23.08.2015 14:30,Eredivisie - Round 3,cat49,2,,60,0,,0,,10,,4,0,1,1,,2,2,,Utrecht,,1,23.08.2015 14:30,Eredivisie - Round 3
+50,cat50,1,,55,1,,3,,9,,6,0,0,1,,2,3,,AZ Alkmaar,,0,23.08.2015 14:30,Eredivisie - Round 3,cat50,2,,45,1,,2,,7,,3,3,0,0,,2,0,,Willem II,,2,23.08.2015 14:30,Eredivisie - Round 3
+51,cat51,1,,53,1,,1,,4,,9,1,0,1,,4,4,,AZ Alkmaar,,0,23.08.2015 14:30,Eredivisie - Round 3,cat51,2,,47,1,,2,,13,,3,4,0,0,,1,1,,Willem II,,2,23.08.2015 14:30,Eredivisie - Round 3
+52,cat52,1,,46,0,,0,,5,,6,2,2,3,,2,4,,Feyenoord,,1,23.08.2015 16:45,Eredivisie - Round 3,cat52,2,,54,1,,2,,4,,3,2,0,0,,0,2,,Vitesse,,0,23.08.2015 16:45,Eredivisie - Round 3
+53,cat53,1,,56,1,,2,,6,,3,1,0,2,,1,1,,Feyenoord,,1,23.08.2015 16:45,Eredivisie - Round 3,cat53,2,,44,0,,1,,13,,2,1,0,0,,1,1,,Vitesse,,1,23.08.2015 16:45,Eredivisie - Round 3
+54,cat54,1,,66,2,,9,,5,,4,1,0,0,,2,0,,Willem II,,2,28.08.2015 20:00,Eredivisie - Round 4,cat54,2,,34,0,,1,,11,,2,0,1,0,,0,2,,Nijmegen,,1,28.08.2015 20:00,Eredivisie - Round 4
+55,cat55,1,,56,0,,1,,6,,3,1,0,0,,3,0,,Willem II,,,28.08.2015 20:00,Eredivisie - Round 4,cat55,2,,44,0,,0,,9,,2,0,0,0,,1,1,,Nijmegen,,,28.08.2015 20:00,Eredivisie - Round 4
+56,cat56,1,,39,0,,1,,9,,6,0,1,0,,4,2,,Utrecht,,1,29.08.2015 18:30,Eredivisie - Round 4,cat56,2,,61,2,,2,,6,,4,1,0,3,,2,0,,Groningen,,2,29.08.2015 18:30,Eredivisie - Round 4
+57,cat57,1,,61,0,,1,,1,,6,1,1,0,,3,3,,Utrecht,,,29.08.2015 18:30,Eredivisie - Round 4,cat57,2,,39,1,,0,,4,,4,2,0,0,,2,1,,Groningen,,,29.08.2015 18:30,Eredivisie - Round 4
+58,cat58,1,,66,1,,0,,5,,3,0,0,1,,2,0,,Heerenveen,,,29.08.2015 19:45,Eredivisie - Round 4,cat58,2,,34,6,,3,,5,,14,0,1,0,,7,1,,Zwolle,,,29.08.2015 19:45,Eredivisie - Round 4
+59,cat59,1,,60,3,,1,,2,,8,0,1,3,,2,3,,Heerenveen,,0,29.08.2015 19:45,Eredivisie - Round 4,cat59,2,,40,0,,0,,4,,3,2,0,1,,3,0,,Zwolle,,1,29.08.2015 19:45,Eredivisie - Round 4
+60,cat60,1,,52,2,,2,,5,,9,3,3,2,,3,4,,Excelsior,,0,29.08.2015 19:45,Eredivisie - Round 4,cat60,2,,48,0,,5,,6,,11,1,0,0,,8,3,,Graafschap,,1,29.08.2015 19:45,Eredivisie - Round 4
+61,cat61,1,,48,1,,2,,3,,5,0,0,2,,3,1,,Excelsior,,0,29.08.2015 19:45,Eredivisie - Round 4,cat61,2,,52,1,,5,,4,,5,1,0,4,,4,0,,Graafschap,,1,29.08.2015 19:45,Eredivisie - Round 4
+62,cat62,1,,40,1,,5,,10,,10,4,1,2,,5,4,,Heracles,,0,29.08.2015 20:45,Eredivisie - Round 4,cat62,2,,60,1,,5,,6,,8,3,0,0,,3,4,,Twente,,1,29.08.2015 20:45,Eredivisie - Round 4
+63,cat63,1,,48,0,,2,,10,,10,2,1,2,,5,5,,Heracles,,1,29.08.2015 20:45,Eredivisie - Round 4,cat63,2,,52,0,,0,,7,,4,4,0,3,,2,2,,Twente,,0,29.08.2015 20:45,Eredivisie - Round 4
+64,cat64,1,,56,2,,1,,12,,9,1,2,1,,3,4,,Ajax,,0,30.08.2015 12:30,Eredivisie - Round 4,cat64,2,,44,0,,1,,6,,2,2,0,0,,1,1,,Den Haag,,1,30.08.2015 12:30,Eredivisie - Round 4
+65,cat65,1,,58,3,,2,,4,,8,2,2,1,,3,2,,Ajax,,0,30.08.2015 12:30,Eredivisie - Round 4,cat65,2,,42,0,,1,,9,,3,0,0,0,,1,2,,Den Haag,,1,30.08.2015 12:30,Eredivisie - Round 4
+66,cat66,1,,47,2,,5,,6,,10,0,2,4,,4,4,,Vitesse,,1,30.08.2015 14:30,Eredivisie - Round 4,cat66,2,,53,1,,0,,10,,1,2,0,0,,0,0,,Cambuur,,2,30.08.2015 14:30,Eredivisie - Round 4
+67,cat67,1,,45,2,,3,,11,,7,0,2,0,,2,3,,Vitesse,,1,30.08.2015 14:30,Eredivisie - Round 4,cat67,2,,55,2,,2,,8,,4,1,1,0,,1,1,,Cambuur,,1,30.08.2015 14:30,Eredivisie - Round 4
+68,cat68,1,,57,2,,3,,7,,4,1,0,1,,2,0,,AZ Alkmaar,,0,30.08.2015 14:30,Eredivisie - Round 4,cat68,2,,43,3,,4,,9,,5,0,0,1,,1,1,,Roda,,3,30.08.2015 14:30,Eredivisie - Round 4
+69,cat69,1,,49,2,,5,,7,,3,2,0,0,,1,0,,AZ Alkmaar,,0,30.08.2015 14:30,Eredivisie - Round 4,cat69,2,,51,1,,1,,7,,6,0,1,0,,2,3,,Roda,,1,30.08.2015 14:30,Eredivisie - Round 4
+70,cat70,1,,38,0,,2,,6,,6,2,2,1,,2,4,,PSV,,1,30.08.2015 16:45,Eredivisie - Round 4,cat70,2,,62,0,,4,,5,,6,2,0,2,,4,2,,Feyenoord,,2,30.08.2015 16:45,Eredivisie - Round 4
+71,cat71,1,,54,3,,5,,5,,14,0,1,0,,5,6,,PSV,,1,30.08.2015 16:45,Eredivisie - Round 4,cat71,2,,46,1,,1,,8,,2,5,1,1,,0,1,,Feyenoord,,0,30.08.2015 16:45,Eredivisie - Round 4
+72,cat72,1,,56,2,,1,,7,,4,1,0,3,,2,0,,Roda,,1,12.09.2015 18:30,Eredivisie - Round 5,cat72,2,,44,2,,2,,9,,6,0,0,2,,3,1,,Nijmegen,,0,12.09.2015 18:30,Eredivisie - Round 5
+73,cat73,1,,42,1,,2,,4,,5,1,0,3,,2,2,,Roda,,1,12.09.2015 18:30,Eredivisie - Round 5,cat73,2,,58,0,,3,,5,,4,2,0,0,,3,1,,Nijmegen,,0,12.09.2015 18:30,Eredivisie - Round 5
+74,cat74,1,,0,2,,3,,0,,7,2,0,0,,5,0,,Graafschap,,1,12.09.2015 18:30,Eredivisie - Round 5,cat74,2,,100,0,,1,,9,,7,0,2,2,,3,4,,AZ Alkmaar,,0,12.09.2015 18:30,Eredivisie - Round 5
+75,cat75,1,,86,0,,3,,9,,5,4,1,0,,2,3,,Graafschap,,,12.09.2015 18:30,Eredivisie - Round 5,cat75,2,,14,3,,8,,4,,8,2,1,1,,0,5,,AZ Alkmaar,,,12.09.2015 18:30,Eredivisie - Round 5
+76,cat76,1,,28,1,,1,,8,,3,3,1,0,,0,2,,Twente,,3,12.09.2015 19:45,Eredivisie - Round 5,cat76,2,,72,4,,2,,5,,11,1,2,1,,2,5,,Ajax,,2,12.09.2015 19:45,Eredivisie - Round 5
+77,cat77,1,,44,0,,2,,5,,6,0,1,1,,5,1,,Twente,,1,12.09.2015 19:45,Eredivisie - Round 5,cat77,2,,56,1,,4,,9,,5,0,0,1,,4,0,,Ajax,,1,12.09.2015 19:45,Eredivisie - Round 5
+78,cat78,1,,50,4,,3,,5,,9,2,1,1,0,3,2,,Zwolle,,0,12.09.2015 20:45,Eredivisie - Round 5,cat78,2,,50,0,,3,,3,,7,1,0,0,2,5,2,,Excelsior,,2,12.09.2015 20:45,Eredivisie - Round 5
+79,cat79,1,,54,1,,2,,7,,7,0,2,2,,2,4,,Zwolle,,1,12.09.2015 20:45,Eredivisie - Round 5,cat79,2,,46,2,,3,,6,,4,2,0,1,,2,0,,Excelsior,,2,12.09.2015 20:45,Eredivisie - Round 5
+80,cat80,1,,25,0,,0,,1,,0,2,0,0,,0,0,,Cambuur,,1,12.09.2015 20:45,Eredivisie - Round 5,cat80,2,,75,2,,3,,1,,11,0,3,2,,4,5,,PSV,,0,12.09.2015 20:45,Eredivisie - Round 5
+81,cat81,1,,43,0,,1,,4,,3,5,0,0,1,1,2,,Cambuur,,,12.09.2015 20:45,Eredivisie - Round 5,cat81,2,,57,4,,2,,7,,19,2,3,2,0,7,8,,PSV,,,12.09.2015 20:45,Eredivisie - Round 5
+82,cat82,1,,49,4,,2,,6,,11,1,1,4,,3,4,,Groningen,,1,13.09.2015 12:30,Eredivisie - Round 5,cat82,2,,51,1,,2,,12,,4,3,1,0,,1,2,,Heerenveen,,2,13.09.2015 12:30,Eredivisie - Round 5
+83,cat83,1,,53,4,,4,,11,,11,1,2,1,,2,5,,Groningen,,0,13.09.2015 12:30,Eredivisie - Round 5,cat83,2,,47,4,,2,,6,,5,3,0,2,,0,1,,Heerenveen,,1,13.09.2015 12:30,Eredivisie - Round 5
+84,cat84,1,,56,2,,0,,5,0,9,1,1,1,,3,4,,Feyenoord,,1,13.09.2015 14:30,Eredivisie - Round 5,cat84,2,,44,0,,2,,8,0,1,3,0,2,,0,1,,Willem II,,2,13.09.2015 14:30,Eredivisie - Round 5
+85,cat85,1,,58,6,,4,,6,1,13,0,0,1,,4,3,,Feyenoord,,,13.09.2015 14:30,Eredivisie - Round 5,cat85,2,,42,0,,0,,7,3,1,3,0,2,,1,0,,Willem II,,,13.09.2015 14:30,Eredivisie - Round 5
+86,cat86,1,,55,1,,3,,8,,7,0,0,0,,4,2,,Den Haag,,1,13.09.2015 14:30,Eredivisie - Round 5,cat86,2,,45,1,,1,,11,,5,2,0,0,,4,0,,Heracles,,2,13.09.2015 14:30,Eredivisie - Round 5
+87,cat87,1,,55,2,,3,,10,,6,1,0,0,,3,1,,Den Haag,,1,13.09.2015 14:30,Eredivisie - Round 5,cat87,2,,45,1,,2,,14,,6,1,1,1,,3,2,,Heracles,,2,13.09.2015 14:30,Eredivisie - Round 5
+88,cat88,1,,39,1,,3,,4,,5,1,1,0,,1,3,,Utrecht,,1,13.09.2015 16:45,Eredivisie - Round 5,cat88,2,,61,1,,1,,7,,5,2,0,1,,3,1,,Vitesse,,0,13.09.2015 16:45,Eredivisie - Round 5
+89,cat89,1,,43,1,,3,,5,,7,3,1,0,,2,4,,Utrecht,,,13.09.2015 16:45,Eredivisie - Round 5,cat89,2,,57,3,,3,,4,,8,3,1,1,,1,4,,Vitesse,,,13.09.2015 16:45,Eredivisie - Round 5
+90,cat90,1,,41,1,,4,,8,,9,3,1,2,,6,2,,Nijmegen,,1,18.09.2015 20:00,Eredivisie - Round 6,cat90,2,,59,2,,4,,7,,6,1,0,1,,1,3,,Heerenveen,,2,18.09.2015 20:00,Eredivisie - Round 6
+91,cat91,1,,47,1,,4,,5,,8,3,1,2,,2,5,,Nijmegen,,,18.09.2015 20:00,Eredivisie - Round 6,cat91,2,,53,1,,2,,9,,5,4,0,0,,1,3,,Heerenveen,,,18.09.2015 20:00,Eredivisie - Round 6
+92,cat92,1,,55,1,,4,,8,,6,4,0,1,,5,0,,Cambuur,,2,19.09.2015 18:30,Eredivisie - Round 6,cat92,2,,45,2,,4,,4,,8,0,0,2,,2,4,,Twente,,1,19.09.2015 18:30,Eredivisie - Round 6
+93,cat93,1,,53,1,,2,,8,,5,0,0,1,,4,0,,Cambuur,,1,19.09.2015 18:30,Eredivisie - Round 6,cat93,2,,47,2,,3,,3,,3,0,0,2,,1,0,,Twente,,0,19.09.2015 18:30,Eredivisie - Round 6
+94,cat94,1,,58,1,,3,,6,,9,2,2,1,,3,5,,Zwolle,,2,19.09.2015 19:45,Eredivisie - Round 6,cat94,2,,42,1,,1,,3,,5,3,0,1,,2,2,,Den Haag,,1,19.09.2015 19:45,Eredivisie - Round 6
+95,cat95,1,,36,4,,5,,8,,7,0,0,1,,2,1,,Zwolle,,1,19.09.2015 19:45,Eredivisie - Round 6,cat95,2,,64,0,,2,,4,,3,1,1,1,,2,1,,Den Haag,,1,19.09.2015 19:45,Eredivisie - Round 6
+96,cat96,1,,34,1,,1,,5,,3,2,0,0,,1,1,,Heracles,,1,19.09.2015 19:45,Eredivisie - Round 6,cat96,2,,66,3,,4,,6,,9,1,0,0,,4,2,,PSV,,0,19.09.2015 19:45,Eredivisie - Round 6
+97,cat97,1,,58,2,,1,,8,,11,4,2,1,,4,5,,Heracles,,1,19.09.2015 19:45,Eredivisie - Round 6,cat97,2,,42,0,,2,,11,,9,3,1,1,,4,5,,PSV,,1,19.09.2015 19:45,Eredivisie - Round 6
+98,cat98,1,,45,1,,1,,6,,4,2,2,6,,1,2,,Willem II,,0,19.09.2015 20:45,Eredivisie - Round 6,cat98,2,,55,2,,2,,6,,5,0,1,1,,0,3,,Utrecht,,2,19.09.2015 20:45,Eredivisie - Round 6
+99,cat99,1,,49,2,,4,,10,,6,0,1,1,0,2,2,,Willem II,,2,19.09.2015 20:45,Eredivisie - Round 6,cat99,2,,51,0,,1,,6,,2,1,0,1,1,2,0,,Utrecht,,0,19.09.2015 20:45,Eredivisie - Round 6
+100,cat100,1,,36,2,,2,,11,,9,2,0,2,,5,2,,Roda,,3,20.09.2015 12:30,Eredivisie - Round 6,cat100,2,,64,2,,8,,6,,9,2,0,0,,5,2,,Feyenoord,,1,20.09.2015 12:30,Eredivisie - Round 6
+101,cat101,1,,46,0,,3,,4,,6,2,1,2,,2,4,,Roda,,0,20.09.2015 12:30,Eredivisie - Round 6,cat101,2,,54,1,,5,,8,,6,3,1,1,,2,3,,Feyenoord,,1,20.09.2015 12:30,Eredivisie - Round 6
+102,cat102,1,,51,1,,8,,9,,4,5,0,0,,1,2,,Excelsior,,2,20.09.2015 14:30,Eredivisie - Round 6,cat102,2,,49,0,,3,,8,,6,2,0,1,,1,5,,Ajax,,1,20.09.2015 14:30,Eredivisie - Round 6
+103,cat103,1,,37,0,,0,,6,,2,1,0,2,,2,0,,Excelsior,,,20.09.2015 14:30,Eredivisie - Round 6,cat103,2,,63,0,,2,,10,,6,0,2,0,,3,3,,Ajax,,,20.09.2015 14:30,Eredivisie - Round 6
+104,cat104,1,,63,0,,3,,2,,5,3,1,0,,2,3,,Vitesse,,0,20.09.2015 16:45,Eredivisie - Round 6,cat104,2,,37,1,,4,,12,,7,2,0,1,,3,3,,Graafschap,,1,20.09.2015 16:45,Eredivisie - Round 6
+105,cat105,1,,69,2,,5,,4,,7,1,2,0,,2,3,,Vitesse,,,20.09.2015 16:45,Eredivisie - Round 6,cat105,2,,31,1,,3,,7,,4,1,0,0,,2,1,,Graafschap,,,20.09.2015 16:45,Eredivisie - Round 6
+106,cat106,1,,35,0,,0,,9,,7,4,1,1,,4,3,,Groningen,,1,20.09.2015 16:45,Eredivisie - Round 6,cat106,2,,65,3,,5,,5,,15,2,0,2,,8,4,,AZ Alkmaar,,0,20.09.2015 16:45,Eredivisie - Round 6
+107,cat107,1,,51,0,,0,,4,,3,0,1,0,,2,1,,Groningen,,0,20.09.2015 16:45,Eredivisie - Round 6,cat107,2,,49,0,,5,,3,,1,0,0,0,,1,0,,AZ Alkmaar,,3,20.09.2015 16:45,Eredivisie - Round 6
+108,cat108,1,,60,1,,3,,1,,8,0,3,0,0,2,5,,Utrecht,,0,26.09.2015 18:30,Eredivisie - Round 7,cat108,2,,40,0,,1,,5,,2,2,2,2,1,0,2,,Cambuur,,3,26.09.2015 18:30,Eredivisie - Round 7
+109,cat109,1,,56,0,,3,,4,,2,1,0,3,,2,0,,Utrecht,,,26.09.2015 18:30,Eredivisie - Round 7,cat109,2,,44,1,,3,,2,,5,0,1,1,,2,2,,Cambuur,,,26.09.2015 18:30,Eredivisie - Round 7
+110,cat110,1,,47,0,,2,,9,,1,2,0,0,,0,1,,Heerenveen,,1,26.09.2015 18:30,Eredivisie - Round 7,cat110,2,,53,1,,1,,5,,6,1,0,0,,3,2,,Vitesse,,0,26.09.2015 18:30,Eredivisie - Round 7
+111,cat111,1,,38,2,,1,,7,,5,3,0,1,,2,1,,Heerenveen,,0,26.09.2015 18:30,Eredivisie - Round 7,cat111,2,,62,3,,4,,7,,8,1,0,1,,2,3,,Vitesse,,1,26.09.2015 18:30,Eredivisie - Round 7
+112,cat112,1,,43,3,,1,,5,,13,0,1,1,,7,3,,Ajax,,0,26.09.2015 19:45,Eredivisie - Round 7,cat112,2,,57,0,,2,,10,,1,2,0,5,,1,0,,Groningen,,1,26.09.2015 19:45,Eredivisie - Round 7
+113,cat113,1,,57,0,,3,,3,,4,1,1,1,,1,3,,Ajax,,,26.09.2015 19:45,Eredivisie - Round 7,cat113,2,,43,0,,0,,9,,1,2,0,0,,0,1,,Groningen,,,26.09.2015 19:45,Eredivisie - Round 7
+114,cat114,1,,51,0,,2,,2,,8,1,1,0,,5,3,,PSV,,1,26.09.2015 20:45,Eredivisie - Round 7,cat114,2,,49,0,,0,,11,,5,2,1,0,,3,2,,Nijmegen,,1,26.09.2015 20:45,Eredivisie - Round 7
+115,cat115,1,,53,2,,4,,2,,8,1,1,1,,2,4,,PSV,,0,26.09.2015 20:45,Eredivisie - Round 7,cat115,2,,47,4,,6,,4,,9,3,0,1,,4,1,,Nijmegen,,1,26.09.2015 20:45,Eredivisie - Round 7
+116,cat116,1,,48,5,,4,,8,,17,0,1,1,,6,6,,AZ Alkmaar,,3,26.09.2015 20:45,Eredivisie - Round 7,cat116,2,,52,1,,5,,6,,8,5,1,0,,6,1,,Heracles,,0,26.09.2015 20:45,Eredivisie - Round 7
+117,cat117,1,,46,1,,4,,4,,11,1,2,1,,4,6,,AZ Alkmaar,,0,26.09.2015 20:45,Eredivisie - Round 7,cat117,2,,54,3,,5,,4,,7,4,0,2,,3,1,,Heracles,,1,26.09.2015 20:45,Eredivisie - Round 7
+118,cat118,1,,52,3,,4,,11,,10,1,2,0,1,3,4,,Graafschap,,2,27.09.2015 12:30,Eredivisie - Round 7,cat118,2,,48,0,,1,,6,,4,2,0,1,0,3,1,,Willem II,,0,27.09.2015 12:30,Eredivisie - Round 7
+119,cat119,1,,42,1,,1,,6,,4,0,0,3,,2,1,,Graafschap,,1,27.09.2015 12:30,Eredivisie - Round 7,cat119,2,,58,1,,1,,6,,5,1,2,1,,2,2,,Willem II,,1,27.09.2015 12:30,Eredivisie - Round 7
+120,cat120,1,,56,0,,4,,4,,9,0,2,3,,4,5,,Feyenoord,,1,27.09.2015 14:30,Eredivisie - Round 7,cat120,2,,44,0,,1,,4,,2,3,0,1,,2,0,,Zwolle,,0,27.09.2015 14:30,Eredivisie - Round 7
+121,cat121,1,,60,2,,7,,3,,7,0,0,2,,4,1,,Feyenoord,,2,27.09.2015 14:30,Eredivisie - Round 7,cat121,2,,40,0,,2,,11,,2,1,0,2,,2,0,,Zwolle,,4,27.09.2015 14:30,Eredivisie - Round 7
+122,cat122,1,,54,3,,2,,7,,8,1,2,1,,2,3,,Den Haag,,2,27.09.2015 14:30,Eredivisie - Round 7,cat122,2,,46,1,,1,,11,,4,1,2,2,,0,3,,Excelsior,,1,27.09.2015 14:30,Eredivisie - Round 7
+123,cat123,1,,60,2,,6,,11,,8,1,1,1,,3,3,,Den Haag,,1,27.09.2015 14:30,Eredivisie - Round 7,cat123,2,,40,0,,1,,5,,4,2,1,0,,2,2,,Excelsior,,0,27.09.2015 14:30,Eredivisie - Round 7
+124,cat124,1,,46,1,,3,,7,,7,2,0,1,,4,2,,Twente,,0,27.09.2015 16:45,Eredivisie - Round 7,cat124,2,,54,0,,2,,10,,4,2,1,1,,1,3,,Roda,,1,27.09.2015 16:45,Eredivisie - Round 7
+125,cat125,1,,62,5,,4,,9,,13,2,2,1,,6,2,,Twente,,,27.09.2015 16:45,Eredivisie - Round 7,cat125,2,,38,1,,2,,8,,8,0,0,1,,5,2,,Roda,,,27.09.2015 16:45,Eredivisie - Round 7
+126,cat126,1,,42,4,,2,,8,,12,0,1,1,,4,4,,Heracles,,1,02.10.2015 20:00,Eredivisie - Round 8,cat126,2,,58,2,,3,,11,,3,3,0,1,,1,0,,Heerenveen,,4,02.10.2015 20:00,Eredivisie - Round 8
+127,cat127,1,,52,1,,3,,5,,4,5,1,0,,2,1,,Heracles,,2,02.10.2015 20:00,Eredivisie - Round 8,cat127,2,,48,1,,2,,11,,6,0,0,0,,0,5,,Heerenveen,,0,02.10.2015 20:00,Eredivisie - Round 8
+128,cat128,1,,58,2,,4,,6,,11,3,3,0,,2,7,,Nijmegen,,,03.10.2015 18:30,Eredivisie - Round 8,cat128,2,,42,1,,0,,3,,6,4,0,0,,2,3,,Den Haag,,,03.10.2015 18:30,Eredivisie - Round 8
+129,cat129,1,,58,1,,3,,6,,3,0,1,1,,2,0,,Nijmegen,,1,03.10.2015 18:30,Eredivisie - Round 8,cat129,2,,42,2,,2,,4,,4,0,1,2,,1,1,,Den Haag,,0,03.10.2015 18:30,Eredivisie - Round 8
+130,cat130,1,,57,1,,2,,3,,8,3,0,4,,5,2,,Willem II,,0,03.10.2015 19:45,Eredivisie - Round 8,cat130,2,,43,0,,6,,10,,5,2,0,0,,2,3,,Zwolle,,1,03.10.2015 19:45,Eredivisie - Round 8
+131,cat131,1,,55,1,,4,,5,,6,1,0,5,,2,3,,Willem II,,0,03.10.2015 19:45,Eredivisie - Round 8,cat131,2,,45,0,,3,,6,,8,3,1,0,,6,2,,Zwolle,,2,03.10.2015 19:45,Eredivisie - Round 8
+132,cat132,1,,56,1,,1,,6,,3,0,1,1,,0,2,,Roda,,1,03.10.2015 19:45,Eredivisie - Round 8,cat132,2,,44,6,,3,,10,,11,1,0,1,,5,0,,Cambuur,,1,03.10.2015 19:45,Eredivisie - Round 8
+133,cat133,1,,56,1,,3,,5,,10,1,0,0,,7,2,,Roda,,,03.10.2015 19:45,Eredivisie - Round 8,cat133,2,,44,1,,3,,9,,5,2,1,0,,2,2,,Cambuur,,,03.10.2015 19:45,Eredivisie - Round 8
+134,cat134,1,,45,3,,3,,10,,8,2,1,0,,4,1,,Excelsior,,0,03.10.2015 20:45,Eredivisie - Round 8,cat134,2,,55,4,,4,,10,,10,0,0,0,,4,2,,Utrecht,,2,03.10.2015 20:45,Eredivisie - Round 8
+135,cat135,1,,37,2,,2,,5,,6,2,0,1,,1,3,,Excelsior,,1,03.10.2015 20:45,Eredivisie - Round 8,cat135,2,,63,0,,3,,6,,6,3,0,0,,4,2,,Utrecht,,0,03.10.2015 20:45,Eredivisie - Round 8
+136,cat136,1,,39,2,,3,,8,,6,1,0,2,,4,0,,Graafschap,,1,04.10.2015 12:30,Eredivisie - Round 8,cat136,2,,61,0,,2,,5,,5,0,2,4,,2,3,,Feyenoord,,2,04.10.2015 12:30,Eredivisie - Round 8
+137,cat137,1,,45,2,,5,,9,,8,2,1,0,,3,3,,Graafschap,,1,04.10.2015 12:30,Eredivisie - Round 8,cat137,2,,55,3,,5,,7,,6,2,0,1,,1,2,,Feyenoord,,0,04.10.2015 12:30,Eredivisie - Round 8
+138,cat138,1,,54,4,,4,,5,,16,2,4,0,,5,7,,Vitesse,,0,04.10.2015 14:30,Eredivisie - Round 8,cat138,2,,46,2,,2,,5,,6,3,0,0,,2,2,,Groningen,,1,04.10.2015 14:30,Eredivisie - Round 8
+139,cat139,1,,54,2,,2,,4,,12,0,1,0,,6,4,,Vitesse,,,04.10.2015 14:30,Eredivisie - Round 8,cat139,2,,46,1,,3,,1,,5,3,0,0,,4,0,,Groningen,,,04.10.2015 14:30,Eredivisie - Round 8
+140,cat140,1,,45,1,,1,,14,,4,2,0,1,,3,0,,Ajax,,3,04.10.2015 14:30,Eredivisie - Round 8,cat140,2,,55,3,,2,,5,,11,0,1,1,,5,3,,PSV,,2,04.10.2015 14:30,Eredivisie - Round 8
+141,cat141,1,,41,1,,0,,7,,4,3,1,0,,1,2,,Ajax,,0,04.10.2015 14:30,Eredivisie - Round 8,cat141,2,,59,1,,1,,6,,6,1,1,1,,1,4,,PSV,,2,04.10.2015 14:30,Eredivisie - Round 8
+142,cat142,1,,46,3,,5,,5,,10,2,3,0,,2,5,,AZ Alkmaar,,2,04.10.2015 16:45,Eredivisie - Round 8,cat142,2,,54,0,,1,,7,,4,2,1,2,,1,3,,Twente,,1,04.10.2015 16:45,Eredivisie - Round 8
+143,cat143,1,,48,1,,2,,7,,6,0,0,2,,3,2,,AZ Alkmaar,,,04.10.2015 16:45,Eredivisie - Round 8,cat143,2,,52,0,,2,,3,,2,2,0,3,,2,0,,Twente,,,04.10.2015 16:45,Eredivisie - Round 8
+144,cat144,1,,50,2,,4,,11,,6,0,1,0,,1,3,,Groningen,,1,17.10.2015 18:30,Eredivisie - Round 9,cat144,2,,50,1,,2,,10,,5,2,1,0,,4,0,,Willem II,,0,17.10.2015 18:30,Eredivisie - Round 9
+145,cat145,1,,54,1,,3,,4,,6,0,1,3,,2,3,,Groningen,,0,17.10.2015 18:30,Eredivisie - Round 9,cat145,2,,46,1,,0,,6,,5,2,0,0,,4,0,,Willem II,,1,17.10.2015 18:30,Eredivisie - Round 9
+146,cat146,1,,54,6,,4,,5,,15,3,1,1,1,3,6,,Cambuur,,2,17.10.2015 18:30,Eredivisie - Round 9,cat146,2,,46,2,,7,,7,,11,5,0,0,0,6,3,,AZ Alkmaar,,2,17.10.2015 18:30,Eredivisie - Round 9
+147,cat147,1,,60,4,,3,,8,,9,3,0,2,,1,4,,Cambuur,,2,17.10.2015 18:30,Eredivisie - Round 9,cat147,2,,40,0,,3,,2,,6,4,1,0,,2,4,,AZ Alkmaar,,1,17.10.2015 18:30,Eredivisie - Round 9
+148,cat148,1,,50,3,,2,,10,,7,3,0,0,,3,1,,Heracles,,3,17.10.2015 19:45,Eredivisie - Round 9,cat148,2,,50,1,,3,,10,,7,1,0,0,,3,3,,Ajax,,2,17.10.2015 19:45,Eredivisie - Round 9
+149,cat149,1,,50,1,,2,,4,,3,1,0,1,,1,1,,Heracles,,,17.10.2015 19:45,Eredivisie - Round 9,cat149,2,,50,0,,2,,4,,5,1,2,2,,2,3,,Ajax,,,17.10.2015 19:45,Eredivisie - Round 9
+150,cat150,1,,62,1,,4,,5,,10,0,0,1,,8,1,,Utrecht,,0,17.10.2015 20:45,Eredivisie - Round 9,cat150,2,,38,1,,2,,6,,3,1,0,5,,2,0,,Roda,,2,17.10.2015 20:45,Eredivisie - Round 9
+151,cat151,1,,62,1,,4,,2,,3,3,1,0,,1,1,,Utrecht,,0,17.10.2015 20:45,Eredivisie - Round 9,cat151,2,,38,1,,1,,5,,7,0,1,2,,2,4,,Roda,,1,17.10.2015 20:45,Eredivisie - Round 9
+152,cat152,1,,58,3,,5,,3,,19,2,1,0,,9,7,,PSV,,0,17.10.2015 20:45,Eredivisie - Round 9,cat152,2,,42,3,,2,,10,,9,6,1,0,,3,3,,Excelsior,,2,17.10.2015 20:45,Eredivisie - Round 9
+153,cat153,1,,56,6,,5,,7,,9,2,0,1,,2,1,,PSV,,1,17.10.2015 20:45,Eredivisie - Round 9,cat153,2,,44,1,,3,,10,,5,1,0,0,,2,2,,Excelsior,,1,17.10.2015 20:45,Eredivisie - Round 9
+154,cat154,1,,45,3,,2,,3,17,7,2,1,1,,2,2,,Twente,,0,18.10.2015 12:30,Eredivisie - Round 9,cat154,2,,55,0,,3,,10,7,5,1,0,2,,3,2,,Nijmegen,,1,18.10.2015 12:30,Eredivisie - Round 9
+155,cat155,1,,53,3,,3,,3,,9,2,0,1,,5,1,,Twente,,,18.10.2015 12:30,Eredivisie - Round 9,cat155,2,,47,2,,2,,5,,6,1,0,0,,2,2,,Nijmegen,,,18.10.2015 12:30,Eredivisie - Round 9
+156,cat156,1,,37,1,,3,,11,,5,1,2,1,,2,2,,Heerenveen,,3,18.10.2015 14:30,Eredivisie - Round 9,cat156,2,,63,3,,5,,5,,6,0,0,2,,2,1,,Feyenoord,,0,18.10.2015 14:30,Eredivisie - Round 9
+157,cat157,1,,49,,,1,,5,,2,1,0,0,,1,1,,Heerenveen,,1,18.10.2015 14:30,Eredivisie - Round 9,cat157,2,,51,,,3,,8,,6,1,5,1,,0,6,,Feyenoord,,0,18.10.2015 14:30,Eredivisie - Round 9
+158,cat158,1,,67,3,,5,,2,,11,1,0,2,,3,5,,Den Haag,,0,18.10.2015 14:30,Eredivisie - Round 9,cat158,2,,33,6,,4,,8,,11,5,0,0,,4,1,,Graafschap,,3,18.10.2015 14:30,Eredivisie - Round 9
+159,cat159,1,,57,,,1,,8,,5,0,1,1,,3,2,,Den Haag,,2,18.10.2015 14:30,Eredivisie - Round 9,cat159,2,,43,,,1,,7,,2,1,1,0,,1,1,,Graafschap,,0,18.10.2015 14:30,Eredivisie - Round 9
+160,cat160,1,,43,4,,7,,4,,11,3,0,1,1,5,2,,Zwolle,,1,18.10.2015 16:45,Eredivisie - Round 9,cat160,2,,57,8,,1,,7,,14,2,0,2,0,1,5,,Vitesse,,0,18.10.2015 16:45,Eredivisie - Round 9
+161,cat161,1,,47,,,1,,5,,6,5,1,0,,4,2,,Zwolle,,2,18.10.2015 16:45,Eredivisie - Round 9,cat161,2,,53,,,1,,5,,9,1,3,1,,1,8,,Vitesse,,0,18.10.2015 16:45,Eredivisie - Round 9
+162,cat162,1,,50,0,,2,,9,,5,2,0,0,0,5,0,,Zwolle,,2,23.10.2015 20:00,Eredivisie - Round 10,cat162,2,,50,0,,1,,8,,4,0,1,1,1,1,3,,Utrecht,,0,23.10.2015 20:00,Eredivisie - Round 10
+163,cat163,1,,60,0,,0,,3,,5,1,1,0,,1,4,,Zwolle,,1,23.10.2015 20:00,Eredivisie - Round 10,cat163,2,,40,0,,4,,3,,5,3,1,0,,3,2,,Utrecht,,0,23.10.2015 20:00,Eredivisie - Round 10
+164,cat164,1,,47,0,,2,,8,,5,5,1,2,,3,2,,Willem II,,1,24.10.2015 18:30,Eredivisie - Round 10,cat164,2,,53,1,,2,,9,,15,1,2,0,,7,7,,Heerenveen,,3,24.10.2015 18:30,Eredivisie - Round 10
+165,cat165,1,,53,0,,3,,7,,2,2,1,4,,0,2,,Willem II,,0,24.10.2015 18:30,Eredivisie - Round 10,cat165,2,,47,4,,3,,6,,8,1,0,0,,2,2,,Heerenveen,,1,24.10.2015 18:30,Eredivisie - Round 10
+166,cat166,1,,42,1,,4,,8,,5,0,1,0,,0,4,,Twente,,,24.10.2015 19:45,Eredivisie - Round 10,cat166,2,,58,1,,2,,6,,10,3,3,1,,6,3,,PSV,,,24.10.2015 19:45,Eredivisie - Round 10
+167,cat167,1,,28,0,,3,,3,,1,2,0,2,,1,0,,Twente,,1,24.10.2015 19:45,Eredivisie - Round 10,cat167,2,,72,2,,5,,5,,7,0,0,1,,3,2,,PSV,,2,24.10.2015 19:45,Eredivisie - Round 10
+168,cat168,1,,37,3,,1,,12,,8,3,0,0,,5,0,,Graafschap,,3,24.10.2015 19:45,Eredivisie - Round 10,cat168,2,,63,2,,1,,2,,12,0,1,3,,6,4,,Heracles,,1,24.10.2015 19:45,Eredivisie - Round 10
+169,cat169,1,,39,2,,4,,10,,8,1,0,0,,3,3,,Graafschap,,1,24.10.2015 19:45,Eredivisie - Round 10,cat169,2,,61,2,,2,,4,,6,3,0,0,,3,1,,Heracles,,1,24.10.2015 19:45,Eredivisie - Round 10
+170,cat170,1,,61,3,,3,,5,,5,1,0,2,,2,0,,Roda,,3,24.10.2015 20:45,Eredivisie - Round 10,cat170,2,,39,1,,4,,10,,6,0,1,0,,3,2,,Excelsior,,4,24.10.2015 20:45,Eredivisie - Round 10
+171,cat171,1,,55,0,,4,,6,,7,0,1,0,,2,5,,Roda,,,24.10.2015 20:45,Eredivisie - Round 10,cat171,2,,45,1,,2,,5,,5,4,1,1,,3,1,,Excelsior,,,24.10.2015 20:45,Eredivisie - Round 10
+172,cat172,1,,55,1,,3,,9,,7,2,1,0,,1,5,,Cambuur,,1,25.10.2015 12:30,Eredivisie - Round 10,cat172,2,,45,3,,3,,8,,9,4,1,1,,3,3,,Den Haag,,0,25.10.2015 12:30,Eredivisie - Round 10
+173,cat173,1,,57,4,,1,,10,,7,1,0,2,,0,3,,Cambuur,,0,25.10.2015 12:30,Eredivisie - Round 10,cat173,2,,43,0,,4,,14,,1,3,0,1,,0,1,,Den Haag,,1,25.10.2015 12:30,Eredivisie - Round 10
+174,cat174,1,,44,1,,4,,13,,7,1,1,1,,5,1,,Vitesse,,4,25.10.2015 14:30,Eredivisie - Round 10,cat174,2,,56,2,,3,,7,,8,0,3,1,,2,4,,Ajax,,0,25.10.2015 14:30,Eredivisie - Round 10
+175,cat175,1,,52,1,,2,,3,,6,3,0,2,,1,4,,Vitesse,,0,25.10.2015 14:30,Eredivisie - Round 10,cat175,2,,48,1,,2,,6,,4,4,0,1,,0,3,,Ajax,,2,25.10.2015 14:30,Eredivisie - Round 10
+176,cat176,1,,53,3,,4,,9,,11,0,1,3,,4,4,,Nijmegen,,0,25.10.2015 14:30,Eredivisie - Round 10,cat176,2,,47,1,,4,,9,,5,3,0,2,,4,0,,Groningen,,1,25.10.2015 14:30,Eredivisie - Round 10
+177,cat177,1,,63,2,,5,,4,,6,0,0,0,,3,1,,Nijmegen,,1,25.10.2015 14:30,Eredivisie - Round 10,cat177,2,,37,0,,0,,7,,2,1,1,2,,1,1,,Groningen,,1,25.10.2015 14:30,Eredivisie - Round 10
+178,cat178,1,,57,2,,5,,4,,8,3,2,2,,2,4,,Feyenoord,,1,25.10.2015 16:45,Eredivisie - Round 10,cat178,2,,43,3,,7,,9,,10,2,0,2,,4,3,,AZ Alkmaar,,2,25.10.2015 16:45,Eredivisie - Round 10
+179,cat179,1,,63,3,,2,,2,,10,3,1,1,,5,2,,Feyenoord,,0,25.10.2015 16:45,Eredivisie - Round 10,cat179,2,,37,1,,0,,4,,6,1,1,3,,1,4,,AZ Alkmaar,,1,25.10.2015 16:45,Eredivisie - Round 10
+180,cat180,1,,44,0,,3,,10,,5,0,0,1,,2,3,,Heracles,,2,30.10.2015 20:00,Eredivisie - Round 11,cat180,2,,56,1,,3,,12,,5,3,1,1,,3,1,,Willem II,,2,30.10.2015 20:00,Eredivisie - Round 11
+181,cat181,1,,44,0,,2,,5,,6,2,2,1,,3,3,,Heracles,,1,30.10.2015 20:00,Eredivisie - Round 11,cat181,2,,56,0,,2,,6,,3,1,0,0,,1,2,,Willem II,,0,30.10.2015 20:00,Eredivisie - Round 11
+182,cat182,1,,39,1,,0,,5,,3,2,0,2,,2,0,,Groningen,,1,31.10.2015 18:30,Eredivisie - Round 11,cat182,2,,61,4,,4,,3,,14,0,0,0,,8,2,,Zwolle,,1,31.10.2015 18:30,Eredivisie - Round 11
+183,cat183,1,,45,0,,1,,4,,4,1,2,3,,1,3,,Groningen,,1,31.10.2015 18:30,Eredivisie - Round 11,cat183,2,,55,1,,2,,3,,6,1,0,1,,4,1,,Zwolle,,0,31.10.2015 18:30,Eredivisie - Round 11
+184,cat184,1,,35,3,,2,,4,,10,0,0,2,,2,5,,Excelsior,,1,31.10.2015 19:45,Eredivisie - Round 11,cat184,2,,65,3,,1,,7,,9,5,2,0,,4,2,,Vitesse,,0,31.10.2015 19:45,Eredivisie - Round 11
+185,cat185,1,,29,2,,2,,5,,5,1,0,2,,2,1,,Excelsior,,2,31.10.2015 19:45,Eredivisie - Round 11,cat185,2,,71,1,,4,,7,,6,1,1,0,,3,2,,Vitesse,,1,31.10.2015 19:45,Eredivisie - Round 11
+186,cat186,1,,72,3,,4,,6,,12,0,3,0,,1,8,,Ajax,,,31.10.2015 19:45,Eredivisie - Round 11,cat186,2,,28,0,,0,,8,,0,5,0,0,,0,0,,Roda,,,31.10.2015 19:45,Eredivisie - Round 11
+187,cat187,1,,58,1,,5,,3,,11,2,3,0,,7,3,,Ajax,,0,31.10.2015 19:45,Eredivisie - Round 11,cat187,2,,42,0,,4,,4,,5,0,0,1,,3,2,,Roda,,1,31.10.2015 19:45,Eredivisie - Round 11
+188,cat188,1,,46,2,,5,,8,,14,2,2,0,,4,8,,Graafschap,,0,31.10.2015 20:45,Eredivisie - Round 11,cat188,2,,54,2,,3,,1,,9,6,3,0,,2,5,,PSV,,2,31.10.2015 20:45,Eredivisie - Round 11
+189,cat189,1,,28,1,,3,,8,,5,6,1,0,,2,2,,Graafschap,,2,31.10.2015 20:45,Eredivisie - Round 11,cat189,2,,72,3,,3,,1,,15,1,3,3,,3,9,,PSV,,0,31.10.2015 20:45,Eredivisie - Round 11
+190,cat190,1,,38,1,,2,,6,,4,5,1,3,1,2,1,,Den Haag,,2,01.11.2015 12:30,Eredivisie - Round 11,cat190,2,,62,2,,7,,9,,8,0,0,1,0,1,5,,Feyenoord,,4,01.11.2015 12:30,Eredivisie - Round 11
+191,cat191,1,,38,0,,1,,5,,3,2,0,1,,3,0,,Den Haag,,,01.11.2015 12:30,Eredivisie - Round 11,cat191,2,,62,0,,3,,6,,5,0,0,1,,3,2,,Feyenoord,,,01.11.2015 12:30,Eredivisie - Round 11
+192,cat192,1,,46,0,,2,,6,,7,4,2,2,,4,3,,Utrecht,,1,01.11.2015 14:30,Eredivisie - Round 11,cat192,2,,54,5,,1,,5,,12,1,0,1,,3,4,,Twente,,0,01.11.2015 14:30,Eredivisie - Round 11
+193,cat193,1,,58,2,,5,,4,,8,0,2,2,,3,3,,Utrecht,,,01.11.2015 14:30,Eredivisie - Round 11,cat193,2,,42,1,,3,,5,,4,1,2,4,,1,2,,Twente,,,01.11.2015 14:30,Eredivisie - Round 11
+194,cat194,1,,47,2,,5,,10,,7,0,0,0,,5,0,,Heerenveen,,1,01.11.2015 14:30,Eredivisie - Round 11,cat194,2,,53,0,,0,,7,,2,0,0,1,,2,0,,Cambuur,,0,01.11.2015 14:30,Eredivisie - Round 11
+195,cat195,1,,39,0,,3,,3,,10,1,2,3,,6,4,,Heerenveen,,0,01.11.2015 14:30,Eredivisie - Round 11,cat195,2,,61,1,,2,,7,,3,2,0,1,,1,1,,Cambuur,,1,01.11.2015 14:30,Eredivisie - Round 11
+196,cat196,1,,55,3,,4,,9,,8,2,1,2,,2,3,,AZ Alkmaar,,2,01.11.2015 16:45,Eredivisie - Round 11,cat196,2,,45,1,,2,,3,,9,2,2,1,,4,4,,Nijmegen,,0,01.11.2015 16:45,Eredivisie - Round 11
+197,cat197,1,,57,3,,3,,6,,9,0,1,0,,3,3,,AZ Alkmaar,,,01.11.2015 16:45,Eredivisie - Round 11,cat197,2,,43,0,,1,,7,,3,2,2,2,,1,2,,Nijmegen,,,01.11.2015 16:45,Eredivisie - Round 11
+198,cat198,1,,37,0,,1,,5,,3,3,0,0,1,2,1,,Roda,,1,06.11.2015 20:00,Eredivisie - Round 12,cat198,2,,63,0,,2,,7,,8,1,0,1,0,5,3,,Den Haag,,1,06.11.2015 20:00,Eredivisie - Round 12
+199,cat199,1,,43,0,,0,,7,,3,3,1,0,,2,1,,Roda,,,06.11.2015 20:00,Eredivisie - Round 12,cat199,2,,57,0,,4,,5,,6,0,1,2,,2,4,,Den Haag,,,06.11.2015 20:00,Eredivisie - Round 12
+200,cat200,1,,64,1,,2,,11,,8,1,1,1,,6,1,,Twente,,1,07.11.2015 18:30,Eredivisie - Round 12,cat200,2,,36,0,,0,,6,,4,0,2,0,,1,3,,Heerenveen,,0,07.11.2015 18:30,Eredivisie - Round 12
+201,cat201,1,,60,3,,3,,4,,8,3,0,4,,4,1,,Twente,,1,07.11.2015 18:30,Eredivisie - Round 12,cat201,2,,40,0,,3,,8,,9,1,2,2,,4,5,,Heerenveen,,4,07.11.2015 18:30,Eredivisie - Round 12
+202,cat202,1,,64,0,,1,,5,,7,3,0,2,,6,1,,Willem II,,1,07.11.2015 19:45,Eredivisie - Round 12,cat202,2,,36,2,,5,,13,,9,1,1,1,,3,4,,Excelsior,,0,07.11.2015 19:45,Eredivisie - Round 12
+203,cat203,1,,60,2,,2,,9,,7,0,2,1,,2,3,,Willem II,,1,07.11.2015 19:45,Eredivisie - Round 12,cat203,2,,40,1,,0,,5,,5,1,2,0,,2,2,,Excelsior,,2,07.11.2015 19:45,Eredivisie - Round 12
+204,cat204,1,,58,0,,1,,3,,4,4,1,2,,2,2,,Nijmegen,,0,07.11.2015 19:45,Eredivisie - Round 12,cat204,2,,42,3,,4,,7,,13,1,0,1,,6,4,,Graafschap,,2,07.11.2015 19:45,Eredivisie - Round 12
+205,cat205,1,,58,2,,2,,5,,5,0,1,2,,2,1,,Nijmegen,,,07.11.2015 19:45,Eredivisie - Round 12,cat205,2,,42,1,,5,,8,,4,0,0,0,,3,0,,Graafschap,,,07.11.2015 19:45,Eredivisie - Round 12
+206,cat206,1,,60,3,,2,,5,,13,2,1,0,,7,3,,Zwolle,,1,07.11.2015 20:45,Eredivisie - Round 12,cat206,2,,40,3,,2,,11,,7,2,0,1,,2,2,,Heracles,,2,07.11.2015 20:45,Eredivisie - Round 12
+207,cat207,1,,62,1,,1,,10,,11,1,0,2,,6,4,,Zwolle,,1,07.11.2015 20:45,Eredivisie - Round 12,cat207,2,,38,0,,0,,11,,4,4,1,1,,2,2,,Heracles,,1,07.11.2015 20:45,Eredivisie - Round 12
+208,cat208,1,,47,0,,1,,4,,6,4,2,0,,2,4,,PSV,,1,08.11.2015 12:30,Eredivisie - Round 12,cat208,2,,53,2,,0,,4,,9,2,1,0,,2,5,,Utrecht,,1,08.11.2015 12:30,Eredivisie - Round 12
+209,cat209,1,,51,0,,2,,3,,9,1,1,0,,6,3,,PSV,,1,08.11.2015 12:30,Eredivisie - Round 12,cat209,2,,49,4,,1,,6,,6,2,0,0,,1,1,,Utrecht,,0,08.11.2015 12:30,Eredivisie - Round 12
+210,cat210,1,,48,2,,2,,7,,6,1,0,2,,2,2,,Feyenoord,,4,08.11.2015 14:30,Eredivisie - Round 12,cat210,2,,52,2,,6,,8,,6,2,1,0,,2,2,,Ajax,,4,08.11.2015 14:30,Eredivisie - Round 12
+211,cat211,1,,52,1,,4,,5,,5,0,1,4,,1,3,,Feyenoord,,0,08.11.2015 14:30,Eredivisie - Round 12,cat211,2,,48,1,,3,,3,,4,2,0,0,,3,0,,Ajax,,1,08.11.2015 14:30,Eredivisie - Round 12
+212,cat212,1,,40,0,,4,,7,,3,1,0,1,,2,1,,Cambuur,,2,08.11.2015 14:30,Eredivisie - Round 12,cat212,2,,60,3,,4,,11,,8,1,2,1,,2,3,,Groningen,,3,08.11.2015 14:30,Eredivisie - Round 12
+213,cat213,1,,46,1,,1,,11,,8,1,2,1,,2,5,,Cambuur,,,08.11.2015 14:30,Eredivisie - Round 12,cat213,2,,54,0,,2,,8,,2,3,0,2,,1,1,,Groningen,,,08.11.2015 14:30,Eredivisie - Round 12
+214,cat214,1,,36,1,,1,,4,,2,2,0,0,,1,0,,Vitesse,,,08.11.2015 16:45,Eredivisie - Round 12,cat214,2,,64,4,,2,,10,,10,0,2,4,,2,4,,AZ Alkmaar,,,08.11.2015 16:45,Eredivisie - Round 12
+215,cat215,1,,66,1,,1,,8,,6,2,0,0,1,5,0,,Vitesse,,2,08.11.2015 16:45,Eredivisie - Round 12,cat215,2,,34,0,,2,,7,,4,0,0,1,0,2,2,,AZ Alkmaar,,1,08.11.2015 16:45,Eredivisie - Round 12
+216,cat216,1,,65,4,,5,,4,,10,2,0,0,,3,3,,Roda,,1,21.11.2015 18:30,Eredivisie - Round 13,cat216,2,,35,0,,1,,7,,6,3,3,1,,1,5,,Zwolle,,0,21.11.2015 18:30,Eredivisie - Round 13
+217,cat217,1,,61,4,,6,,9,,9,1,0,2,,3,2,,Roda,,1,21.11.2015 18:30,Eredivisie - Round 13,cat217,2,,39,0,,1,,6,,5,2,2,1,,2,3,,Zwolle,,0,21.11.2015 18:30,Eredivisie - Round 13
+218,cat218,1,,49,1,,3,,8,,4,2,1,2,,0,3,,AZ Alkmaar,,0,21.11.2015 18:30,Eredivisie - Round 13,cat218,2,,51,0,,4,,10,,7,2,0,0,,5,2,,Heerenveen,,2,21.11.2015 18:30,Eredivisie - Round 13
+219,cat219,1,,57,1,,2,,7,,10,0,2,2,,4,5,,AZ Alkmaar,,,21.11.2015 18:30,Eredivisie - Round 13,cat219,2,,43,2,,5,,7,,6,3,1,0,,3,1,,Heerenveen,,,21.11.2015 18:30,Eredivisie - Round 13
+220,cat220,1,,50,1,,3,,1,,6,0,1,3,,3,2,,Ajax,,,21.11.2015 19:45,Eredivisie - Round 13,cat220,2,,50,1,,1,,5,,2,1,0,0,,1,0,,Cambuur,,,21.11.2015 19:45,Eredivisie - Round 13
+221,cat221,1,,58,0,,6,,6,,8,0,4,1,,2,6,,Ajax,,,21.11.2015 19:45,Eredivisie - Round 13,cat221,2,,42,1,,2,,3,,4,2,1,0,,2,1,,Cambuur,,,21.11.2015 19:45,Eredivisie - Round 13
+222,cat222,1,,47,0,,3,,6,,6,1,2,0,,3,3,,Willem II,,0,21.11.2015 20:45,Eredivisie - Round 13,cat222,2,,53,2,,2,,11,,4,1,1,1,,0,2,,PSV,,3,21.11.2015 20:45,Eredivisie - Round 13
+223,cat223,1,,47,1,,0,,7,,2,2,0,0,,1,0,,Willem II,,,21.11.2015 20:45,Eredivisie - Round 13,cat223,2,,53,2,,5,,6,,8,0,1,0,,3,3,,PSV,,,21.11.2015 20:45,Eredivisie - Round 13
+224,cat224,1,,44,3,,1,,7,,12,0,1,1,,6,3,,Graafschap,,2,21.11.2015 20:45,Eredivisie - Round 13,cat224,2,,56,0,,1,,2,,3,2,1,3,,2,1,,Groningen,,2,21.11.2015 20:45,Eredivisie - Round 13
+225,cat225,1,,42,7,,4,,4,,14,2,0,1,,3,4,,Graafschap,,,21.11.2015 20:45,Eredivisie - Round 13,cat225,2,,58,0,,3,,2,,6,4,1,4,,3,3,,Groningen,,,21.11.2015 20:45,Eredivisie - Round 13
+226,cat226,1,,59,3,,4,,7,,10,3,0,0,,4,3,,Heracles,,1,22.11.2015 12:30,Eredivisie - Round 13,cat226,2,,41,1,,4,,8,,6,3,0,1,,2,3,,Excelsior,,2,22.11.2015 12:30,Eredivisie - Round 13
+227,cat227,1,,56,0,,1,,12,,5,2,0,0,,4,1,,Heracles,,1,22.11.2015 12:30,Eredivisie - Round 13,cat227,2,,44,1,,3,,6,,9,1,0,0,,6,2,,Excelsior,,1,22.11.2015 12:30,Eredivisie - Round 13
+228,cat228,1,,46,0,,1,,6,,4,3,1,4,,2,2,,Nijmegen,,1,22.11.2015 14:30,Eredivisie - Round 13,cat228,2,,54,0,,3,,6,,4,1,0,1,,1,3,,Utrecht,,1,22.11.2015 14:30,Eredivisie - Round 13
+229,cat229,1,,55,3,,3,,5,,10,2,0,1,,4,3,,Nijmegen,,0,22.11.2015 14:30,Eredivisie - Round 13,cat229,2,,45,1,,1,,5,,7,3,0,0,,4,2,,Utrecht,,1,22.11.2015 14:30,Eredivisie - Round 13
+230,cat230,1,,61,3,,5,,7,,16,3,3,0,0,6,7,,Feyenoord,,1,22.11.2015 14:30,Eredivisie - Round 13,cat230,2,,39,3,,2,,3,,9,4,0,1,1,3,3,,Twente,,1,22.11.2015 14:30,Eredivisie - Round 13
+231,cat231,1,,67,2,,2,,4,,7,0,2,4,,2,3,,Feyenoord,,0,22.11.2015 14:30,Eredivisie - Round 13,cat231,2,,33,0,,1,,3,,0,1,0,1,,0,0,,Twente,,1,22.11.2015 14:30,Eredivisie - Round 13
+232,cat232,1,,47,0,,2,,8,,5,2,1,0,,3,2,,Den Haag,,1,22.11.2015 16:45,Eredivisie - Round 13,cat232,2,,53,0,,2,,9,,7,1,0,0,,5,2,,Vitesse,,0,22.11.2015 16:45,Eredivisie - Round 13
+233,cat233,1,,41,1,,3,,5,,6,0,1,2,,1,4,,Den Haag,,1,22.11.2015 16:45,Eredivisie - Round 13,cat233,2,,59,1,,3,,2,,6,3,2,2,,3,2,,Vitesse,,0,22.11.2015 16:45,Eredivisie - Round 13
+234,cat234,1,,73,3,,4,,7,,9,0,1,3,0,5,1,,Cambuur,,1,27.11.2015 20:00,Eredivisie - Round 14,cat234,2,,27,0,,0,,7,,3,0,1,0,1,2,1,,Graafschap,,2,27.11.2015 20:00,Eredivisie - Round 14
+235,cat235,1,,65,2,,5,,5,,6,2,1,1,,1,3,,Cambuur,,0,27.11.2015 20:00,Eredivisie - Round 14,cat235,2,,35,0,,3,,10,,6,2,2,1,,2,4,,Graafschap,,1,27.11.2015 20:00,Eredivisie - Round 14
+236,cat236,1,,68,0,,7,,7,,9,1,1,2,,4,5,,Heerenveen,,1,28.11.2015 18:30,Eredivisie - Round 14,cat236,2,,32,0,,1,,3,,5,4,0,3,,4,1,,Roda,,2,28.11.2015 18:30,Eredivisie - Round 14
+237,cat237,1,,70,2,,4,,5,,10,0,2,0,,2,6,,Heerenveen,,0,28.11.2015 18:30,Eredivisie - Round 14,cat237,2,,30,0,,0,,5,,0,4,0,1,,0,0,,Roda,,1,28.11.2015 18:30,Eredivisie - Round 14
+238,cat238,1,,45,2,,1,,1,,9,1,1,0,,4,3,,Excelsior,,0,28.11.2015 19:45,Eredivisie - Round 14,cat238,2,,55,0,,3,,6,,9,2,2,1,,6,3,,Feyenoord,,1,28.11.2015 19:45,Eredivisie - Round 14
+239,cat239,1,,37,0,,3,,6,,3,2,1,1,,2,1,,Excelsior,,1,28.11.2015 19:45,Eredivisie - Round 14,cat239,2,,63,2,,7,,3,,9,0,2,0,,3,4,,Feyenoord,,0,28.11.2015 19:45,Eredivisie - Round 14
+240,cat240,1,,65,2,,5,,6,,8,1,0,0,,2,4,,Twente,,3,28.11.2015 20:45,Eredivisie - Round 14,cat240,2,,35,0,,3,,17,,1,4,0,3,,0,1,,Willem II,,3,28.11.2015 20:45,Eredivisie - Round 14
+241,cat241,1,,51,4,,3,,4,,9,2,1,0,,3,2,,Twente,,,28.11.2015 20:45,Eredivisie - Round 14,cat241,2,,49,4,,2,,6,,12,1,3,1,,3,5,,Willem II,,,28.11.2015 20:45,Eredivisie - Round 14
+242,cat242,1,,51,1,,5,,4,,4,3,1,0,,2,1,,Vitesse,,1,29.11.2015 12:30,Eredivisie - Round 14,cat242,2,,49,1,,2,,5,,6,0,0,3,,2,3,,Nijmegen,,1,29.11.2015 12:30,Eredivisie - Round 14
+243,cat243,1,,69,3,,4,,7,,8,1,0,1,,4,1,,Vitesse,,0,29.11.2015 12:30,Eredivisie - Round 14,cat243,2,,31,2,,0,,10,,5,1,0,1,,2,1,,Nijmegen,,2,29.11.2015 12:30,Eredivisie - Round 14
+244,cat244,1,,46,3,,3,,7,,10,2,0,0,,5,2,,Zwolle,,1,29.11.2015 14:30,Eredivisie - Round 14,cat244,2,,54,0,,1,,9,,8,2,1,1,,5,3,,Ajax,,1,29.11.2015 14:30,Eredivisie - Round 14
+245,cat245,1,,41,1,,3,,6,,3,3,0,1,,1,1,,Zwolle,,1,29.11.2015 14:30,Eredivisie - Round 14,cat245,2,,59,1,,3,,4,,16,1,1,0,,11,4,,Ajax,,0,29.11.2015 14:30,Eredivisie - Round 14
+246,cat246,1,,39,1,,0,,8,,8,2,4,1,,1,6,,Utrecht,,1,29.11.2015 14:30,Eredivisie - Round 14,cat246,2,,61,3,,1,,6,,7,2,1,3,,1,3,,Heracles,,1,29.11.2015 14:30,Eredivisie - Round 14
+247,cat247,1,,53,1,,0,,12,,2,0,0,1,1,1,0,,Utrecht,,2,29.11.2015 14:30,Eredivisie - Round 14,cat247,2,,47,4,,2,,7,,8,0,1,4,0,3,1,,Heracles,,1,29.11.2015 14:30,Eredivisie - Round 14
+248,cat248,1,,60,2,,1,,11,,7,1,2,2,,3,2,,Groningen,,4,29.11.2015 14:30,Eredivisie - Round 14,cat248,2,,40,1,,1,,10,,8,0,0,0,,6,1,,Den Haag,,4,29.11.2015 14:30,Eredivisie - Round 14
+249,cat249,1,,62,2,,5,,6,,7,1,0,3,,3,2,,Groningen,,,29.11.2015 14:30,Eredivisie - Round 14,cat249,2,,38,0,,0,,6,,4,2,1,2,,2,2,,Den Haag,,,29.11.2015 14:30,Eredivisie - Round 14
+250,cat250,1,,56,1,,3,,7,,6,1,0,4,0,4,1,,PSV,,4,29.11.2015 16:45,Eredivisie - Round 14,cat250,2,,44,1,,4,,5,,4,1,0,2,1,2,1,,AZ Alkmaar,,0,29.11.2015 16:45,Eredivisie - Round 14
+251,cat251,1,,54,5,,3,,5,,12,1,3,3,,3,4,,PSV,,,29.11.2015 16:45,Eredivisie - Round 14,cat251,2,,46,2,,1,,4,,5,1,0,0,,2,1,,AZ Alkmaar,,,29.11.2015 16:45,Eredivisie - Round 14
+252,cat252,1,,65,2,,1,,8,,7,3,0,2,,4,1,,AZ Alkmaar,,2,04.12.2015 20:00,Eredivisie - Round 15,cat252,2,,35,2,,1,,5,,9,1,0,1,,4,3,,Den Haag,,2,04.12.2015 20:00,Eredivisie - Round 15
+253,cat253,1,,55,1,,4,,8,,5,2,0,1,,3,1,,AZ Alkmaar,,,04.12.2015 20:00,Eredivisie - Round 15,cat253,2,,45,0,,0,,5,,6,1,1,1,,3,3,,Den Haag,,,04.12.2015 20:00,Eredivisie - Round 15
+254,cat254,1,,45,2,,4,,9,,6,2,0,0,,3,1,,Excelsior,,1,05.12.2015 18:30,Eredivisie - Round 15,cat254,2,,55,2,,2,,3,,6,1,1,1,,1,3,,Twente,,1,05.12.2015 18:30,Eredivisie - Round 15
+255,cat255,1,,51,1,,1,,3,,7,2,1,0,,4,2,,Excelsior,,,05.12.2015 18:30,Eredivisie - Round 15,cat255,2,,49,3,,6,,3,,6,1,0,1,,1,2,,Twente,,,05.12.2015 18:30,Eredivisie - Round 15
+256,cat256,1,,51,3,,2,,8,,8,4,0,0,,2,3,,Vitesse,,,05.12.2015 19:45,Eredivisie - Round 15,cat256,2,,49,2,,5,,9,,10,3,1,0,,3,5,,PSV,,,05.12.2015 19:45,Eredivisie - Round 15
+257,cat257,1,,57,5,,4,,6,,10,1,0,0,,3,2,,Vitesse,,,05.12.2015 19:45,Eredivisie - Round 15,cat257,2,,43,1,,1,,2,,8,2,0,1,,6,1,,PSV,,,05.12.2015 19:45,Eredivisie - Round 15
+258,cat258,1,,56,1,,2,,11,,4,2,0,3,0,2,1,,Graafschap,,1,05.12.2015 19:45,Eredivisie - Round 15,cat258,2,,44,0,,1,,4,,3,1,0,1,1,1,2,,Utrecht,,2,05.12.2015 19:45,Eredivisie - Round 15
+259,cat259,1,,44,0,,1,,6,,3,2,0,1,,2,1,,Graafschap,,1,05.12.2015 19:45,Eredivisie - Round 15,cat259,2,,56,1,,3,,7,,9,1,1,4,,5,3,,Utrecht,,1,05.12.2015 19:45,Eredivisie - Round 15
+260,cat260,1,,68,2,,5,,7,,12,2,2,1,,3,7,,Ajax,,0,05.12.2015 20:45,Eredivisie - Round 15,cat260,2,,32,1,,2,,10,,8,5,2,1,,3,4,,Heerenveen,,1,05.12.2015 20:45,Eredivisie - Round 15
+261,cat261,1,,62,1,,4,,4,,11,3,3,2,,4,6,,Ajax,,,05.12.2015 20:45,Eredivisie - Round 15,cat261,2,,38,0,,3,,3,,6,3,0,1,,3,3,,Heerenveen,,,05.12.2015 20:45,Eredivisie - Round 15
+262,cat262,1,,41,1,,3,,8,,10,2,2,5,,3,6,,Willem II,,3,06.12.2015 12:30,Eredivisie - Round 15,cat262,2,,59,1,,3,,10,,6,4,0,0,,3,2,,Cambuur,,1,06.12.2015 12:30,Eredivisie - Round 15
+263,cat263,1,,45,2,,2,,13,,3,0,1,3,,0,1,,Willem II,,0,06.12.2015 12:30,Eredivisie - Round 15,cat263,2,,55,0,,0,,9,,0,0,0,1,,0,0,,Cambuur,,1,06.12.2015 12:30,Eredivisie - Round 15
+264,cat264,1,,67,0,,4,,8,,8,2,2,1,,3,5,,Nijmegen,,2,06.12.2015 14:30,Eredivisie - Round 15,cat264,2,,33,2,,2,,9,,7,3,0,0,,3,2,,Zwolle,,2,06.12.2015 14:30,Eredivisie - Round 15
+265,cat265,1,,63,1,,2,,6,,4,0,0,2,,2,1,,Nijmegen,,,06.12.2015 14:30,Eredivisie - Round 15,cat265,2,,37,2,,3,,7,,8,1,2,0,,4,2,,Zwolle,,,06.12.2015 14:30,Eredivisie - Round 15
+266,cat266,1,,57,3,,6,,6,,6,1,2,1,0,1,2,,Feyenoord,,2,06.12.2015 14:30,Eredivisie - Round 15,cat266,2,,43,1,,1,,8,,6,0,0,0,1,4,1,,Heracles,,2,06.12.2015 14:30,Eredivisie - Round 15
+267,cat267,1,,53,2,,3,,5,,9,1,1,1,,3,4,,Feyenoord,,,06.12.2015 14:30,Eredivisie - Round 15,cat267,2,,47,1,,2,,5,,3,3,0,0,,1,1,,Heracles,,,06.12.2015 14:30,Eredivisie - Round 15
+268,cat268,1,,41,4,,6,,4,,9,3,0,0,,2,3,,Roda,,0,06.12.2015 16:45,Eredivisie - Round 15,cat268,2,,59,1,,5,,5,,4,3,0,2,,0,3,,Groningen,,1,06.12.2015 16:45,Eredivisie - Round 15
+269,cat269,1,,51,0,,3,,5,,1,0,0,1,,0,1,,Roda,,1,06.12.2015 16:45,Eredivisie - Round 15,cat269,2,,49,1,,1,,5,,3,1,0,0,,2,0,,Groningen,,0,06.12.2015 16:45,Eredivisie - Round 15
+270,cat270,1,,51,2,,0,,8,,13,3,1,2,,4,7,,Heerenveen,,1,11.12.2015 20:00,Eredivisie - Round 16,cat270,2,,49,1,,4,,5,,5,6,1,1,,0,4,,Excelsior,,0,11.12.2015 20:00,Eredivisie - Round 16
+271,cat271,1,,59,1,,5,,6,,12,0,1,2,,6,5,,Heerenveen,,1,11.12.2015 20:00,Eredivisie - Round 16,cat271,2,,41,1,,2,,4,,2,4,0,2,,1,0,,Excelsior,,0,11.12.2015 20:00,Eredivisie - Round 16
+272,cat272,1,,26,5,,3,,8,,7,1,0,1,1,1,1,,Den Haag,,0,12.12.2015 18:30,Eredivisie - Round 16,cat272,2,,74,0,,4,,10,,3,1,1,0,0,1,2,,Willem II,,3,12.12.2015 18:30,Eredivisie - Round 16
+273,cat273,1,,36,1,,2,,6,,6,0,1,0,,1,4,,Den Haag,,1,12.12.2015 18:30,Eredivisie - Round 16,cat273,2,,64,0,,3,,10,,1,3,0,2,,1,0,,Willem II,,1,12.12.2015 18:30,Eredivisie - Round 16
+274,cat274,1,,71,3,,12,,4,,13,-1,1,0,,8,2,,PSV,,0,12.12.2015 19:45,Eredivisie - Round 16,cat274,2,,29,1,,2,,8,,3,1,1,0,,2,0,,Roda,,2,12.12.2015 19:45,Eredivisie - Round 16
+275,cat275,1,,61,1,,2,,2,,4,1,0,0,,2,1,,PSV,,,12.12.2015 19:45,Eredivisie - Round 16,cat275,2,,39,1,,1,,4,,3,1,0,0,,1,1,,Roda,,,12.12.2015 19:45,Eredivisie - Round 16
+276,cat276,1,,42,0,,2,,5,,6,0,2,2,,4,2,,Cambuur,,0,12.12.2015 19:45,Eredivisie - Round 16,cat276,2,,58,1,,2,,10,,4,0,0,3,,3,0,,Nijmegen,,1,12.12.2015 19:45,Eredivisie - Round 16
+277,cat277,1,,66,1,,6,,4,,3,0,1,0,,0,2,,Cambuur,,1,12.12.2015 19:45,Eredivisie - Round 16,cat277,2,,34,0,,1,,8,,3,1,1,0,,2,1,,Nijmegen,,0,12.12.2015 19:45,Eredivisie - Round 16
+278,cat278,1,,45,1,,5,,2,,7,5,1,2,,3,3,,Twente,,1,12.12.2015 20:45,Eredivisie - Round 16,cat278,2,,55,4,,4,,12,,11,2,0,2,,2,5,,Graafschap,,1,12.12.2015 20:45,Eredivisie - Round 16
+279,cat279,1,,51,3,,6,,3,,9,0,1,3,1,2,4,,Twente,,0,12.12.2015 20:45,Eredivisie - Round 16,cat279,2,,49,0,,2,,9,,5,3,1,1,0,4,1,,Graafschap,,2,12.12.2015 20:45,Eredivisie - Round 16
+280,cat280,1,,40,0,,4,,10,,5,0,1,0,,3,2,,Utrecht,,2,13.12.2015 12:30,Eredivisie - Round 16,cat280,2,,60,0,,0,,8,,0,1,0,2,,0,0,,Ajax,,1,13.12.2015 12:30,Eredivisie - Round 16
+281,cat281,1,,32,1,,0,,9,,5,1,0,1,,2,2,,Utrecht,,,13.12.2015 12:30,Eredivisie - Round 16,cat281,2,,68,6,,1,,5,,7,2,0,0,,0,1,,Ajax,,,13.12.2015 12:30,Eredivisie - Round 16
+282,cat282,1,,43,1,,1,,6,,6,1,0,2,,3,2,,Zwolle,,2,13.12.2015 14:30,Eredivisie - Round 16,cat282,2,,57,2,,5,,7,,8,2,1,0,,4,2,,AZ Alkmaar,,2,13.12.2015 14:30,Eredivisie - Round 16
+283,cat283,1,,57,4,,11,,9,,8,1,2,2,,2,2,,Zwolle,,,13.12.2015 14:30,Eredivisie - Round 16,cat283,2,,43,2,,2,,3,,6,0,0,0,,3,1,,AZ Alkmaar,,,13.12.2015 14:30,Eredivisie - Round 16
+284,cat284,1,,58,4,,3,,6,,9,1,0,2,0,2,3,,Groningen,,2,13.12.2015 14:30,Eredivisie - Round 16,cat284,2,,42,1,,1,,14,,5,3,1,0,1,2,2,,Feyenoord,,1,13.12.2015 14:30,Eredivisie - Round 16
+285,cat285,1,,40,0,,2,,7,,6,1,1,0,,4,2,,Groningen,,1,13.12.2015 14:30,Eredivisie - Round 16,cat285,2,,60,1,,3,,5,,6,1,0,3,,4,1,,Feyenoord,,0,13.12.2015 14:30,Eredivisie - Round 16
+286,cat286,1,,43,2,,0,,1,,7,1,1,1,,2,3,,Heracles,,0,13.12.2015 16:45,Eredivisie - Round 16,cat286,2,,57,3,,4,,12,,8,2,1,0,,3,2,,Vitesse,,1,13.12.2015 16:45,Eredivisie - Round 16
+287,cat287,1,,51,1,,1,,8,,6,1,0,2,,4,1,,Heracles,,1,13.12.2015 16:45,Eredivisie - Round 16,cat287,2,,49,3,,1,,16,,8,1,0,0,,4,1,,Vitesse,,3,13.12.2015 16:45,Eredivisie - Round 16
+288,cat288,1,,58,1,,4,,10,,5,2,3,3,,0,4,,Vitesse,,,18.12.2015 20:00,Eredivisie - Round 17,cat288,2,,42,0,,2,,4,,5,1,0,3,,3,2,,Twente,,,18.12.2015 20:00,Eredivisie - Round 17
+289,cat289,1,,58,2,,1,,6,,6,1,2,1,,2,2,,Vitesse,,,18.12.2015 20:00,Eredivisie - Round 17,cat289,2,,42,3,,2,,6,,8,0,1,2,,3,2,,Twente,,,18.12.2015 20:00,Eredivisie - Round 17
+290,cat290,1,,44,3,,4,,4,,12,1,1,1,,4,5,,AZ Alkmaar,,,19.12.2015 18:30,Eredivisie - Round 17,cat290,2,,56,1,,2,,7,,8,4,2,0,,4,3,,Utrecht,,,19.12.2015 18:30,Eredivisie - Round 17
+291,cat291,1,,38,0,,2,,6,,2,3,1,1,,1,1,,AZ Alkmaar,,1,19.12.2015 18:30,Eredivisie - Round 17,cat291,2,,62,1,,4,,2,,8,0,0,1,,4,3,,Utrecht,,0,19.12.2015 18:30,Eredivisie - Round 17
+292,cat292,1,,63,1,,3,,5,,9,4,1,0,,4,4,,PSV,,2,19.12.2015 19:45,Eredivisie - Round 17,cat292,2,,37,3,,1,,11,,12,3,0,0,,5,4,,Zwolle,,3,19.12.2015 19:45,Eredivisie - Round 17
+293,cat293,1,,63,0,,1,,3,,7,3,2,1,,4,3,,PSV,,0,19.12.2015 19:45,Eredivisie - Round 17,cat293,2,,37,2,,1,,8,,9,1,2,2,,2,5,,Zwolle,,1,19.12.2015 19:45,Eredivisie - Round 17
+294,cat294,1,,58,1,,5,,5,,8,3,1,0,,6,1,,Heracles,,3,19.12.2015 20:45,Eredivisie - Round 17,cat294,2,,42,1,,2,,10,,6,0,0,3,,2,3,,Groningen,,2,19.12.2015 20:45,Eredivisie - Round 17
+295,cat295,1,,52,3,,2,,4,,12,0,1,0,,7,2,,Heracles,,,19.12.2015 20:45,Eredivisie - Round 17,cat295,2,,48,0,,1,,5,,3,1,1,0,,2,1,,Groningen,,,19.12.2015 20:45,Eredivisie - Round 17
+296,cat296,1,,44,0,,5,,6,,12,3,1,0,,7,5,,Excelsior,,2,20.12.2015 12:30,Eredivisie - Round 17,cat296,2,,56,0,,1,,8,,6,4,3,0,,0,6,,Cambuur,,2,20.12.2015 12:30,Eredivisie - Round 17
+297,cat297,1,,36,0,,3,,5,,0,1,0,2,,0,0,,Excelsior,,,20.12.2015 12:30,Eredivisie - Round 17,cat297,2,,64,1,,4,,7,,7,0,1,0,,4,2,,Cambuur,,,20.12.2015 12:30,Eredivisie - Round 17
+298,cat298,1,,52,2,,4,,9,,6,2,1,0,,2,2,,Willem II,,1,20.12.2015 14:30,Eredivisie - Round 17,cat298,2,,48,2,,2,,11,,7,1,1,0,,2,3,,Roda,,1,20.12.2015 14:30,Eredivisie - Round 17
+299,cat299,1,,64,0,,2,,5,,7,0,2,0,,2,5,,Willem II,,1,20.12.2015 14:30,Eredivisie - Round 17,cat299,2,,36,1,,2,,8,,5,3,1,1,,3,1,,Roda,,1,20.12.2015 14:30,Eredivisie - Round 17
+300,cat300,1,,45,1,,2,,6,,7,4,3,2,,1,5,,Nijmegen,,0,20.12.2015 14:30,Eredivisie - Round 17,cat300,2,,55,4,,6,,9,,10,2,0,3,,2,4,,Feyenoord,,1,20.12.2015 14:30,Eredivisie - Round 17
+301,cat301,1,,51,0,,4,,3,,4,1,0,1,,1,3,,Nijmegen,,1,20.12.2015 14:30,Eredivisie - Round 17,cat301,2,,49,2,,6,,3,,7,3,1,1,,3,2,,Feyenoord,,0,20.12.2015 14:30,Eredivisie - Round 17
+302,cat302,1,,68,3,,2,,8,,9,3,0,0,,3,3,,Heerenveen,,2,20.12.2015 14:30,Eredivisie - Round 17,cat302,2,,32,0,,4,,4,,7,3,3,3,,1,6,,Den Haag,,2,20.12.2015 14:30,Eredivisie - Round 17
+303,cat303,1,,70,4,,4,,6,,7,1,0,1,,1,2,,Heerenveen,,0,20.12.2015 14:30,Eredivisie - Round 17,cat303,2,,30,0,,2,,10,,3,2,1,4,,1,2,,Den Haag,,2,20.12.2015 14:30,Eredivisie - Round 17
+304,cat304,1,,63,3,,10,,4,,11,1,1,3,,3,5,,Ajax,,1,20.12.2015 16:45,Eredivisie - Round 17,cat304,2,,37,1,,2,,10,,5,4,0,0,,3,1,,Graafschap,,2,20.12.2015 16:45,Eredivisie - Round 17
+305,cat305,1,,69,1,,3,,3,,6,1,1,2,,1,4,,Ajax,,,20.12.2015 16:45,Eredivisie - Round 17,cat305,2,,31,4,,3,,3,,10,3,1,0,,4,2,,Graafschap,,,20.12.2015 16:45,Eredivisie - Round 17
+306,cat306,1,,45,0,,0,,6,,4,1,2,0,,1,3,,Twente,,1,15.01.2016 20:00,Eredivisie - Round 18,cat306,2,,55,0,,0,,8,,4,1,0,1,,3,1,,Heracles,,1,15.01.2016 20:00,Eredivisie - Round 18
+307,cat307,1,,37,1,,1,,7,,6,3,2,0,,1,4,,Twente,,1,15.01.2016 20:00,Eredivisie - Round 18,cat307,2,,63,1,,3,,13,,6,2,0,3,,2,3,,Heracles,,0,15.01.2016 20:00,Eredivisie - Round 18
+308,cat308,1,,61,3,,1,,6,,6,1,0,2,,3,0,,Cambuur,,,16.01.2016 18:30,Eredivisie - Round 18,cat308,2,,39,0,,2,,5,,8,0,2,1,,5,3,,Vitesse,,,16.01.2016 18:30,Eredivisie - Round 18
+309,cat309,1,,53,0,,1,,9,,6,3,0,0,,4,2,,Cambuur,,,16.01.2016 18:30,Eredivisie - Round 18,cat309,2,,47,0,,1,,7,,7,2,0,0,,4,3,,Vitesse,,,16.01.2016 18:30,Eredivisie - Round 18
+310,cat310,1,,53,2,,2,,7,,10,1,3,1,0,3,5,,Zwolle,,1,16.01.2016 19:45,Eredivisie - Round 18,cat310,2,,47,4,,2,,1,,10,2,2,0,1,3,3,,Heerenveen,,2,16.01.2016 19:45,Eredivisie - Round 18
+311,cat311,1,,57,2,,5,,6,,10,2,2,1,,5,3,,Zwolle,,1,16.01.2016 19:45,Eredivisie - Round 18,cat311,2,,43,0,,2,,7,,2,1,0,2,,0,2,,Heerenveen,,1,16.01.2016 19:45,Eredivisie - Round 18
+312,cat312,1,,76,1,,3,,3,,15,0,0,1,0,10,4,,Roda,,0,16.01.2016 19:45,Eredivisie - Round 18,cat312,2,,24,1,,1,,6,,1,4,0,0,1,0,0,,AZ Alkmaar,,2,16.01.2016 19:45,Eredivisie - Round 18
+313,cat313,1,,58,1,,1,,4,,3,2,0,0,,2,0,,Roda,,2,16.01.2016 19:45,Eredivisie - Round 18,cat313,2,,42,1,,4,,13,,5,0,1,0,,1,3,,AZ Alkmaar,,1,16.01.2016 19:45,Eredivisie - Round 18
+314,cat314,1,,52,0,,4,,8,,4,0,2,0,,1,3,,Graafschap,,,16.01.2016 20:45,Eredivisie - Round 18,cat314,2,,48,1,,1,,4,,2,1,0,2,,1,0,,Excelsior,,,16.01.2016 20:45,Eredivisie - Round 18
+315,cat315,1,,48,1,,2,,2,,5,2,0,1,,3,1,,Graafschap,,,16.01.2016 20:45,Eredivisie - Round 18,cat315,2,,52,3,,5,,5,,8,1,0,1,,3,2,,Excelsior,,,16.01.2016 20:45,Eredivisie - Round 18
+316,cat316,1,,49,3,,1,,8,,10,3,0,1,,5,2,,Den Haag,,3,17.01.2016 12:30,Eredivisie - Round 18,cat316,2,,51,1,,1,,5,,7,2,0,0,,3,3,,Ajax,,0,17.01.2016 12:30,Eredivisie - Round 18
+317,cat317,1,,35,1,,0,,6,,5,0,0,1,,4,0,,Den Haag,,0,17.01.2016 12:30,Eredivisie - Round 18,cat317,2,,65,2,,0,,13,,5,0,1,2,,2,1,,Ajax,,1,17.01.2016 12:30,Eredivisie - Round 18
+318,cat318,1,,50,3,,3,,9,,6,4,0,1,0,1,2,,Groningen,,1,17.01.2016 14:30,Eredivisie - Round 18,cat318,2,,50,2,,4,,5,,10,2,3,0,1,1,7,,Utrecht,,2,17.01.2016 14:30,Eredivisie - Round 18
+319,cat319,1,,48,0,,1,,6,,5,3,1,1,,1,4,,Groningen,,,17.01.2016 14:30,Eredivisie - Round 18,cat319,2,,52,0,,2,,4,,7,3,1,0,,3,4,,Utrecht,,,17.01.2016 14:30,Eredivisie - Round 18
+320,cat320,1,,65,2,,2,,8,,8,2,0,1,,5,1,,Feyenoord,,2,17.01.2016 14:30,Eredivisie - Round 18,cat320,2,,35,2,,3,,6,,10,1,2,0,,4,4,,PSV,,1,17.01.2016 14:30,Eredivisie - Round 18
+321,cat321,1,,57,0,,2,,8,,4,1,0,1,,3,1,,Feyenoord,,0,17.01.2016 14:30,Eredivisie - Round 18,cat321,2,,43,0,,2,,10,,3,1,0,5,,2,1,,PSV,,1,17.01.2016 14:30,Eredivisie - Round 18
+322,cat322,1,,40,0,,0,,14,,2,2,0,1,0,1,1,,Nijmegen,,3,17.01.2016 16:45,Eredivisie - Round 18,cat322,2,,60,2,,1,,9,,8,1,0,1,1,4,2,,Willem II,,2,17.01.2016 16:45,Eredivisie - Round 18
+323,cat323,1,,40,2,,1,,6,,8,1,1,0,,3,3,,Nijmegen,,0,17.01.2016 16:45,Eredivisie - Round 18,cat323,2,,60,0,,1,,8,,5,2,0,0,,4,1,,Willem II,,1,17.01.2016 16:45,Eredivisie - Round 18
+324,cat324,1,,55,3,,3,,6,,8,1,0,0,,3,2,,Groningen,,1,22.01.2016 20:00,Eredivisie - Round 19,cat324,2,,45,2,,1,,10,,9,2,0,0,,6,1,,Nijmegen,,1,22.01.2016 20:00,Eredivisie - Round 19
+325,cat325,1,,51,3,,4,,4,,4,2,0,0,,1,0,,Groningen,,0,22.01.2016 20:00,Eredivisie - Round 19,cat325,2,,49,0,,4,,6,,4,0,0,0,,2,2,,Nijmegen,,1,22.01.2016 20:00,Eredivisie - Round 19
+326,cat326,1,,56,2,,5,,7,,8,1,1,1,,4,2,,Heracles,,1,23.01.2016 18:30,Eredivisie - Round 19,cat326,2,,44,0,,1,,13,,4,1,1,0,,2,2,,Graafschap,,2,23.01.2016 18:30,Eredivisie - Round 19
+327,cat327,1,,52,1,,3,,4,,7,1,1,2,,4,2,,Heracles,,1,23.01.2016 18:30,Eredivisie - Round 19,cat327,2,,48,0,,4,,10,,9,1,0,0,,8,1,,Graafschap,,0,23.01.2016 18:30,Eredivisie - Round 19
+328,cat328,1,,52,1,,2,,7,,4,2,0,0,,2,1,,Excelsior,,1,23.01.2016 19:45,Eredivisie - Round 19,cat328,2,,48,0,,0,,6,,4,1,1,0,,1,3,,Roda,,2,23.01.2016 19:45,Eredivisie - Round 19
+329,cat329,1,,48,1,,3,,4,,6,1,0,0,,2,3,,Excelsior,,,23.01.2016 19:45,Eredivisie - Round 19,cat329,2,,52,1,,1,,6,,3,3,0,1,,1,1,,Roda,,,23.01.2016 19:45,Eredivisie - Round 19
+330,cat330,1,,31,2,,2,,6,,8,3,0,3,,2,4,,Ajax,,1,23.01.2016 19:45,Eredivisie - Round 19,cat330,2,,69,1,,2,,7,,6,4,0,2,,2,3,,Vitesse,,0,23.01.2016 19:45,Eredivisie - Round 19
+331,cat331,1,,45,0,,1,,10,,5,1,1,3,,3,2,,Ajax,,0,23.01.2016 19:45,Eredivisie - Round 19,cat331,2,,55,2,,2,,13,,3,1,0,0,,0,1,,Vitesse,,2,23.01.2016 19:45,Eredivisie - Round 19
+332,cat332,1,,59,5,,3,,10,,11,2,3,0,,3,3,,Heerenveen,,1,23.01.2016 20:45,Eredivisie - Round 19,cat332,2,,41,0,,5,,7,,4,0,0,0,,2,2,,Willem II,,0,23.01.2016 20:45,Eredivisie - Round 19
+333,cat333,1,,49,3,,4,,3,,5,2,0,0,,1,1,,Heerenveen,,2,23.01.2016 20:45,Eredivisie - Round 19,cat333,2,,51,4,,2,,1,,9,1,1,7,,2,3,,Willem II,,0,23.01.2016 20:45,Eredivisie - Round 19
+334,cat334,1,,35,1,,2,,7,,9,2,2,1,,4,4,,AZ Alkmaar,,2,24.01.2016 12:30,Eredivisie - Round 19,cat334,2,,65,1,,2,,5,,8,2,1,1,,4,3,,Feyenoord,,1,24.01.2016 12:30,Eredivisie - Round 19
+335,cat335,1,,46,2,,0,,9,,9,2,2,3,,4,3,,AZ Alkmaar,,,24.01.2016 12:30,Eredivisie - Round 19,cat335,2,,54,3,,3,,5,,9,1,1,1,,3,3,,Feyenoord,,,24.01.2016 12:30,Eredivisie - Round 19
+336,cat336,1,,53,1,,3,,6,,9,0,1,1,,3,5,,Utrecht,,1,24.01.2016 14:30,Eredivisie - Round 19,cat336,2,,47,3,,4,,5,,6,4,0,1,,3,0,,Zwolle,,0,24.01.2016 14:30,Eredivisie - Round 19
+337,cat337,1,,53,1,,5,,1,,5,2,0,2,,1,3,,Utrecht,,,24.01.2016 14:30,Eredivisie - Round 19,cat337,2,,47,4,,2,,6,,7,3,0,1,,1,2,,Zwolle,,,24.01.2016 14:30,Eredivisie - Round 19
+338,cat338,1,,51,2,,3,,6,,9,1,1,0,,4,3,,PSV,,0,24.01.2016 14:30,Eredivisie - Round 19,cat338,2,,49,4,,4,,4,,8,2,1,0,,2,2,,Twente,,1,24.01.2016 14:30,Eredivisie - Round 19
+339,cat339,1,,56,3,,4,,4,,9,0,3,0,,1,5,,PSV,,,24.01.2016 14:30,Eredivisie - Round 19,cat339,2,,44,1,,2,,5,,6,2,1,0,,4,1,,Twente,,,24.01.2016 14:30,Eredivisie - Round 19
+340,cat340,1,,41,2,,5,,4,,11,2,2,0,,4,5,,Den Haag,,,24.01.2016 16:45,Eredivisie - Round 19,cat340,2,,59,2,,6,,5,,6,3,0,1,,2,2,,Cambuur,,,24.01.2016 16:45,Eredivisie - Round 19
+341,cat341,1,,37,1,,2,,9,,6,0,0,1,,4,1,,Den Haag,,1,24.01.2016 16:45,Eredivisie - Round 19,cat341,2,,63,0,,0,,9,,5,1,1,0,,4,1,,Cambuur,,4,24.01.2016 16:45,Eredivisie - Round 19
+342,cat342,1,,52,1,,3,,7,,8,2,0,1,,5,2,,Willem II,,1,26.01.2016 18:30,Eredivisie - Round 20,cat342,2,,48,1,,3,,6,,8,2,1,2,,4,3,,Groningen,,1,26.01.2016 18:30,Eredivisie - Round 20
+343,cat343,1,,56,0,,1,,5,,5,1,1,2,,2,3,,Willem II,,,26.01.2016 18:30,Eredivisie - Round 20,cat343,2,,44,1,,0,,11,,4,2,0,0,,2,1,,Groningen,,,26.01.2016 18:30,Eredivisie - Round 20
+344,cat344,1,,57,1,,4,,7,,8,0,0,1,,2,5,,Ajax,,0,26.01.2016 20:45,Eredivisie - Round 20,cat344,2,,44,0,,0,,5,,3,5,0,0,,3,0,,Heracles,,1,26.01.2016 20:45,Eredivisie - Round 20
+345,cat345,1,,69,1,,3,,5,,5,0,0,0,,3,1,,Ajax,,,26.01.2016 20:45,Eredivisie - Round 20,cat345,2,,31,1,,1,,10,,1,1,0,0,,0,0,,Heracles,,,26.01.2016 20:45,Eredivisie - Round 20
+346,cat346,1,,42,0,,1,,7,,7,9,2,0,,3,4,,Nijmegen,,1,27.01.2016 18:30,Eredivisie - Round 20,cat346,2,,58,2,,6,,5,,12,2,0,1,,1,9,,Twente,,0,27.01.2016 18:30,Eredivisie - Round 20
+347,cat347,1,,50,6,,4,,4,,10,4,0,3,,3,1,,Nijmegen,,0,27.01.2016 18:30,Eredivisie - Round 20,cat347,2,,50,0,,2,,4,,5,1,0,0,,1,4,,Twente,,1,27.01.2016 18:30,Eredivisie - Round 20
+348,cat348,1,,57,1,,6,,7,,7,2,0,3,,3,3,,AZ Alkmaar,,0,27.01.2016 18:30,Eredivisie - Round 20,cat348,2,,43,2,,0,,10,,7,3,1,1,,2,3,,Cambuur,,1,27.01.2016 18:30,Eredivisie - Round 20
+349,cat349,1,,44,0,,1,,5,,7,2,3,4,,2,5,,AZ Alkmaar,,,27.01.2016 18:30,Eredivisie - Round 20,cat349,2,,56,1,,0,,4,,4,2,0,0,,1,2,,Cambuur,,,27.01.2016 18:30,Eredivisie - Round 20
+350,cat350,1,,53,0,,1,,5,,8,2,3,0,,4,4,,Graafschap,,3,27.01.2016 19:45,Eredivisie - Round 20,cat350,2,,47,1,,4,,6,,5,1,0,1,,2,2,,Den Haag,,1,27.01.2016 19:45,Eredivisie - Round 20
+351,cat351,1,,65,5,,3,,6,,12,0,0,2,,5,2,,Graafschap,,,27.01.2016 19:45,Eredivisie - Round 20,cat351,2,,35,0,,2,,7,,5,2,1,0,,4,1,,Den Haag,,,27.01.2016 19:45,Eredivisie - Round 20
+352,cat352,1,,64,1,,5,,9,,5,3,1,2,,2,2,,Vitesse,,1,27.01.2016 20:45,Eredivisie - Round 20,cat352,2,,36,0,,2,,6,,6,1,1,1,,2,4,,Zwolle,,1,27.01.2016 20:45,Eredivisie - Round 20
+353,cat353,1,,73,1,,6,,7,,5,0,0,0,,2,2,,Vitesse,,,27.01.2016 20:45,Eredivisie - Round 20,cat353,2,,27,2,,3,,5,,6,2,0,0,,4,0,,Zwolle,,,27.01.2016 20:45,Eredivisie - Round 20
+354,cat354,1,,37,2,,2,,3,,5,1,1,1,,3,0,,Excelsior,,,27.01.2016 20:45,Eredivisie - Round 20,cat354,2,,63,2,,4,,3,,11,0,2,0,,6,3,,PSV,,,27.01.2016 20:45,Eredivisie - Round 20
+355,cat355,1,,53,0,,1,,5,,6,2,0,2,,5,1,,Excelsior,,,27.01.2016 20:45,Eredivisie - Round 20,cat355,2,,47,1,,4,,6,,10,1,1,1,,6,3,,PSV,,,27.01.2016 20:45,Eredivisie - Round 20
+356,cat356,1,,49,2,,0,,6,,8,1,1,0,,4,2,,Roda,,1,28.01.2016 18:30,Eredivisie - Round 20,cat356,2,,51,2,,3,,12,,6,1,0,0,,3,1,,Utrecht,,0,28.01.2016 18:30,Eredivisie - Round 20
+357,cat357,1,,47,0,,0,,6,,4,2,0,1,,0,4,,Roda,,,28.01.2016 18:30,Eredivisie - Round 20,cat357,2,,53,1,,2,,5,,4,4,0,0,,1,2,,Utrecht,,,28.01.2016 18:30,Eredivisie - Round 20
+358,cat358,1,,58,4,,2,,9,,7,5,1,1,,1,2,,Feyenoord,,2,28.01.2016 20:45,Eredivisie - Round 20,cat358,2,,42,2,,6,,9,,11,1,1,2,,3,6,,Heerenveen,,2,28.01.2016 20:45,Eredivisie - Round 20
+359,cat359,1,,62,1,,4,,8,,6,1,0,4,,2,3,,Feyenoord,,2,28.01.2016 20:45,Eredivisie - Round 20,cat359,2,,38,0,,1,,7,,5,3,1,3,,3,2,,Heerenveen,,2,28.01.2016 20:45,Eredivisie - Round 20
+360,cat360,1,,65,1,,2,,9,,8,1,0,0,,6,1,,Willem II,,2,29.01.2016 20:00,Eredivisie - Round 21,cat360,2,,35,0,,0,,10,,2,1,0,1,,1,1,,Heracles,,2,29.01.2016 20:00,Eredivisie - Round 21
+361,cat361,1,,65,1,,1,,9,,4,6,0,0,,3,0,,Willem II,,1,29.01.2016 20:00,Eredivisie - Round 21,cat361,2,,35,2,,3,,4,,9,0,0,0,,1,6,,Heracles,,0,29.01.2016 20:00,Eredivisie - Round 21
+362,cat362,1,,71,4,,3,,9,,8,3,0,0,,3,1,,Vitesse,,1,30.01.2016 18:30,Eredivisie - Round 21,cat362,2,,29,1,,1,,8,,5,1,0,1,,1,3,,Excelsior,,3,30.01.2016 18:30,Eredivisie - Round 21
+363,cat363,1,,65,0,,3,,6,,9,0,0,0,,4,5,,Vitesse,,,30.01.2016 18:30,Eredivisie - Round 21,cat363,2,,35,1,,1,,7,,3,5,0,1,,2,0,,Excelsior,,,30.01.2016 18:30,Eredivisie - Round 21
+364,cat364,1,,56,2,,5,,5,,6,1,1,1,,2,2,,Zwolle,,1,30.01.2016 19:45,Eredivisie - Round 21,cat364,2,,44,0,,2,,7,,4,1,2,0,,1,3,,Groningen,,0,30.01.2016 19:45,Eredivisie - Round 21
+365,cat365,1,,54,1,,4,,4,,13,1,0,0,,7,5,,Zwolle,,1,30.01.2016 19:45,Eredivisie - Round 21,cat365,2,,46,3,,4,,6,,6,5,1,1,,1,2,,Groningen,,0,30.01.2016 19:45,Eredivisie - Round 21
+366,cat366,1,,58,4,,2,,1,,8,1,1,0,,2,2,,PSV,,0,30.01.2016 19:45,Eredivisie - Round 21,cat366,2,,42,0,,2,,7,,7,1,2,2,,4,3,,Graafschap,,1,30.01.2016 19:45,Eredivisie - Round 21
+367,cat367,1,,70,4,,6,,1,,20,0,3,0,,5,11,,PSV,,,30.01.2016 19:45,Eredivisie - Round 21,cat367,2,,30,1,,1,,3,,2,8,0,0,,1,0,,Graafschap,,,30.01.2016 19:45,Eredivisie - Round 21
+368,cat368,1,,49,0,,1,,8,,2,4,0,3,,1,1,,Nijmegen,,2,30.01.2016 20:45,Eredivisie - Round 21,cat368,2,,51,2,,6,,5,,11,1,1,1,,4,5,,AZ Alkmaar,,1,30.01.2016 20:45,Eredivisie - Round 21
+369,cat369,1,,51,0,,3,,4,,3,4,0,2,,1,2,,Nijmegen,,0,30.01.2016 20:45,Eredivisie - Round 21,cat369,2,,49,1,,3,,7,,8,2,2,1,,1,6,,AZ Alkmaar,,1,30.01.2016 20:45,Eredivisie - Round 21
+370,cat370,1,,47,0,,2,,8,,3,0,1,1,,2,1,,Roda,,0,31.01.2016 12:30,Eredivisie - Round 21,cat370,2,,53,0,,0,,12,,1,0,0,2,,1,0,,Ajax,,2,31.01.2016 12:30,Eredivisie - Round 21
+371,cat371,1,,45,1,,1,,0,,6,1,1,1,,2,3,,Roda,,,31.01.2016 12:30,Eredivisie - Round 21,cat371,2,,55,2,,3,,8,,5,2,2,0,,0,3,,Ajax,,,31.01.2016 12:30,Eredivisie - Round 21
+372,cat372,1,,71,7,,8,,7,,16,0,0,0,,7,2,,Feyenoord,,1,31.01.2016 14:30,Eredivisie - Round 21,cat372,2,,29,0,,1,,8,,1,2,1,0,,0,1,,Den Haag,,1,31.01.2016 14:30,Eredivisie - Round 21
+373,cat373,1,,58,1,,1,,8,,4,0,0,4,,2,1,,Feyenoord,,1,31.01.2016 14:30,Eredivisie - Round 21,cat373,2,,42,1,,2,,10,,3,1,1,0,,1,1,,Den Haag,,1,31.01.2016 14:30,Eredivisie - Round 21
+374,cat374,1,,65,0,,7,,3,,8,3,0,1,,6,2,,Cambuur,,0,31.01.2016 14:30,Eredivisie - Round 21,cat374,2,,35,2,,2,,11,,7,2,1,2,,1,4,,Heerenveen,,2,31.01.2016 14:30,Eredivisie - Round 21
+375,cat375,1,,55,0,,2,,7,,3,3,0,1,,3,0,,Cambuur,,1,31.01.2016 14:30,Eredivisie - Round 21,cat375,2,,45,1,,3,,6,,8,0,0,0,,4,3,,Heerenveen,,1,31.01.2016 14:30,Eredivisie - Round 21
+376,cat376,1,,38,2,,1,,8,,4,1,0,3,,1,1,,Twente,,,31.01.2016 16:45,Eredivisie - Round 21,cat376,2,,62,2,,5,,5,,6,1,0,2,,2,2,,Utrecht,,,31.01.2016 16:45,Eredivisie - Round 21
+377,cat377,1,,42,2,,6,,6,,9,0,3,6,,1,6,,Twente,,,31.01.2016 16:45,Eredivisie - Round 21,cat377,2,,58,0,,1,,2,,2,3,0,2,,2,0,,Utrecht,,,31.01.2016 16:45,Eredivisie - Round 21
+378,cat378,1,,39,3,,2,,7,,9,1,0,0,,3,3,,Excelsior,,0,05.02.2016 20:00,Eredivisie - Round 22,cat378,2,,61,2,,1,,5,,8,3,0,1,,5,1,,Willem II,,1,05.02.2016 20:00,Eredivisie - Round 22
+379,cat379,1,,37,2,,4,,8,,7,0,0,1,,3,2,,Excelsior,,1,05.02.2016 20:00,Eredivisie - Round 22,cat379,2,,63,1,,1,,6,,2,2,0,3,,1,0,,Willem II,,0,05.02.2016 20:00,Eredivisie - Round 22
+380,cat380,1,,51,2,,5,,11,,7,2,0,1,,2,3,,Den Haag,,1,06.02.2016 18:30,Eredivisie - Round 22,cat380,2,,49,3,,2,,9,,10,2,0,0,,4,3,,Roda,,2,06.02.2016 18:30,Eredivisie - Round 22
+381,cat381,1,,57,0,,1,,8,,1,1,1,1,,0,1,,Den Haag,,1,06.02.2016 18:30,Eredivisie - Round 22,cat381,2,,43,0,,1,,10,,5,0,1,2,,3,2,,Roda,,0,06.02.2016 18:30,Eredivisie - Round 22
+382,cat382,1,,56,1,,3,,9,,8,2,0,1,1,7,0,,Heerenveen,,1,06.02.2016 19:45,Eredivisie - Round 22,cat382,2,,44,3,,4,,4,,11,0,0,1,0,4,4,,Twente,,0,06.02.2016 19:45,Eredivisie - Round 22
+383,cat383,1,,54,0,,1,,14,,2,0,1,1,,0,2,,Heerenveen,,2,06.02.2016 19:45,Eredivisie - Round 22,cat383,2,,46,1,,0,,8,,5,1,1,4,,3,1,,Twente,,2,06.02.2016 19:45,Eredivisie - Round 22
+384,cat384,1,,49,2,,6,,6,,11,3,1,1,,4,5,,AZ Alkmaar,,2,06.02.2016 19:45,Eredivisie - Round 22,cat384,2,,51,3,,2,,7,,9,4,0,1,,3,3,,Vitesse,,0,06.02.2016 19:45,Eredivisie - Round 22
+385,cat385,1,,41,1,,4,,4,,4,4,0,1,,1,2,,AZ Alkmaar,,0,06.02.2016 19:45,Eredivisie - Round 22,cat385,2,,59,0,,1,,3,,4,2,0,0,,0,4,,Vitesse,,1,06.02.2016 19:45,Eredivisie - Round 22
+386,cat386,1,,38,0,,1,,6,,4,0,2,1,,1,3,,Heracles,,,06.02.2016 20:45,Eredivisie - Round 22,cat386,2,,62,5,,4,,4,,10,1,0,1,,5,0,,Zwolle,,,06.02.2016 20:45,Eredivisie - Round 22
+387,cat387,1,,56,3,,4,,8,,8,1,0,3,,2,3,,Heracles,,1,06.02.2016 20:45,Eredivisie - Round 22,cat387,2,,44,1,,2,,5,,4,3,0,0,,2,1,,Zwolle,,0,06.02.2016 20:45,Eredivisie - Round 22
+388,cat388,1,,59,1,,3,,8,,4,1,1,1,,2,1,,Ajax,,2,07.02.2016 12:30,Eredivisie - Round 22,cat388,2,,41,2,,0,,11,,5,0,0,1,,2,1,,Feyenoord,,2,07.02.2016 12:30,Eredivisie - Round 22
+389,cat389,1,,65,3,,5,,9,,8,3,1,1,,4,1,,Ajax,,1,07.02.2016 12:30,Eredivisie - Round 22,cat389,2,,35,2,,5,,9,,7,0,1,1,,1,4,,Feyenoord,,0,07.02.2016 12:30,Eredivisie - Round 22
+390,cat390,1,,45,1,,3,,7,,8,2,1,1,,3,4,,Groningen,,1,07.02.2016 14:30,Eredivisie - Round 22,cat390,2,,55,2,,2,,3,,8,3,0,0,,4,2,,Cambuur,,0,07.02.2016 14:30,Eredivisie - Round 22
+391,cat391,1,,57,1,,1,,8,,7,1,1,0,,3,3,,Groningen,,,07.02.2016 14:30,Eredivisie - Round 22,cat391,2,,43,1,,1,,7,,7,2,0,0,,5,1,,Cambuur,,,07.02.2016 14:30,Eredivisie - Round 22
+392,cat392,1,,28,0,,0,,6,,6,3,0,0,1,4,2,,Graafschap,,0,07.02.2016 14:30,Eredivisie - Round 22,cat392,2,,72,6,,3,,12,,21,2,1,1,0,11,4,,Nijmegen,,2,07.02.2016 14:30,Eredivisie - Round 22
+393,cat393,1,,39,2,,3,,7,,6,4,1,0,,2,2,,Graafschap,,,07.02.2016 14:30,Eredivisie - Round 22,cat393,2,,61,0,,2,,7,,9,1,0,1,,5,4,,Nijmegen,,,07.02.2016 14:30,Eredivisie - Round 22
+394,cat394,1,,63,3,,5,,7,,11,2,0,0,,5,3,,Utrecht,,0,07.02.2016 16:45,Eredivisie - Round 22,cat394,2,,37,2,,3,,6,,5,3,0,0,,1,2,,PSV,,1,07.02.2016 16:45,Eredivisie - Round 22
+395,cat395,1,,51,2,,2,,5,,3,0,0,1,,1,0,,Utrecht,,1,07.02.2016 16:45,Eredivisie - Round 22,cat395,2,,49,1,,0,,7,,4,0,2,2,,1,2,,PSV,,1,07.02.2016 16:45,Eredivisie - Round 22
+396,cat396,1,,45,0,,0,,5,,1,3,0,0,,1,0,,Cambuur,,1,12.02.2016 20:00,Eredivisie - Round 23,cat396,2,,55,0,,4,,5,,8,0,2,0,,3,5,,Utrecht,,0,12.02.2016 20:00,Eredivisie - Round 23
+397,cat397,1,,37,1,,2,,5,,4,1,0,0,,0,3,,Cambuur,,3,12.02.2016 20:00,Eredivisie - Round 23,cat397,2,,63,1,,0,,1,,5,3,0,1,,3,1,,Utrecht,,1,12.02.2016 20:00,Eredivisie - Round 23
+398,cat398,1,,66,1,,0,,9,,7,2,2,0,,2,4,,Heracles,,2,13.02.2016 18:30,Eredivisie - Round 23,cat398,2,,34,3,,5,,11,,12,2,3,0,,4,5,,AZ Alkmaar,,0,13.02.2016 18:30,Eredivisie - Round 23
+399,cat399,1,,62,2,,2,,7,,9,0,1,3,,4,3,,Heracles,,1,13.02.2016 18:30,Eredivisie - Round 23,cat399,2,,38,1,,1,,11,,8,2,3,2,,4,3,,AZ Alkmaar,,0,13.02.2016 18:30,Eredivisie - Round 23
+400,cat400,1,,67,0,,3,,2,,7,1,0,0,,4,3,,Willem II,,0,13.02.2016 19:45,Eredivisie - Round 23,cat400,2,,33,0,,1,,8,,5,3,0,0,,4,1,,Graafschap,,1,13.02.2016 19:45,Eredivisie - Round 23
+401,cat401,1,,63,2,,4,,6,,10,0,0,1,,4,4,,Willem II,,0,13.02.2016 19:45,Eredivisie - Round 23,cat401,2,,37,1,,3,,9,,5,4,0,1,,4,0,,Graafschap,,1,13.02.2016 19:45,Eredivisie - Round 23
+402,cat402,1,,63,3,,3,,5,,8,0,0,0,,5,0,,Roda,,,13.02.2016 19:45,Eredivisie - Round 23,cat402,2,,37,1,,0,,4,,5,0,1,2,,3,1,,Twente,,,13.02.2016 19:45,Eredivisie - Round 23
+403,cat403,1,,47,4,,4,,6,,8,1,0,1,,2,2,,Roda,,0,13.02.2016 19:45,Eredivisie - Round 23,cat403,2,,53,2,,2,,4,,8,2,0,1,,5,1,,Twente,,1,13.02.2016 19:45,Eredivisie - Round 23
+404,cat404,1,,62,1,,2,,8,,7,1,1,2,,2,4,,Vitesse,,0,13.02.2016 20:45,Eredivisie - Round 23,cat404,2,,38,4,,2,,8,,5,3,0,1,,0,1,,Heerenveen,,2,13.02.2016 20:45,Eredivisie - Round 23
+405,cat405,1,,58,1,,2,,9,,4,2,2,2,,1,2,,Vitesse,,0,13.02.2016 20:45,Eredivisie - Round 23,cat405,2,,42,0,,1,,6,,3,0,0,0,,1,2,,Heerenveen,,1,13.02.2016 20:45,Eredivisie - Round 23
+406,cat406,1,,59,2,,0,,4,,8,3,1,0,0,4,2,,Groningen,,2,14.02.2016 12:30,Eredivisie - Round 23,cat406,2,,41,0,,1,,5,,6,1,2,1,1,1,5,,Ajax,,1,14.02.2016 12:30,Eredivisie - Round 23
+407,cat407,1,,61,1,,1,,5,,7,3,0,2,,5,1,,Groningen,,1,14.02.2016 12:30,Eredivisie - Round 23,cat407,2,,39,1,,2,,9,,4,1,0,1,,0,3,,Ajax,,2,14.02.2016 12:30,Eredivisie - Round 23
+408,cat408,1,,40,0,,2,,6,,8,1,2,1,,6,2,,Zwolle,,0,14.02.2016 14:30,Eredivisie - Round 23,cat408,2,,61,6,,6,,8,,10,0,0,2,,3,1,,Feyenoord,,1,14.02.2016 14:30,Eredivisie - Round 23
+409,cat409,1,,47,1,,2,,8,,8,2,1,0,,3,4,,Zwolle,,3,14.02.2016 14:30,Eredivisie - Round 23,cat409,2,,53,1,,6,,8,,5,3,1,1,,1,3,,Feyenoord,,1,14.02.2016 14:30,Eredivisie - Round 23
+410,cat410,1,,45,3,,2,,8,,7,3,1,2,,2,2,,Excelsior,,1,14.02.2016 14:30,Eredivisie - Round 23,cat410,2,,55,0,,2,,9,,7,1,3,-1,,1,6,,Den Haag,,0,14.02.2016 14:30,Eredivisie - Round 23
+411,cat411,1,,53,2,,0,,5,,8,0,1,0,,3,3,,Excelsior,,1,14.02.2016 14:30,Eredivisie - Round 23,cat411,2,,47,1,,3,,11,,5,2,1,1,,3,1,,Den Haag,,1,14.02.2016 14:30,Eredivisie - Round 23
+412,cat412,1,,49,1,,1,,8,,8,3,0,0,,5,2,,Nijmegen,,,14.02.2016 16:45,Eredivisie - Round 23,cat412,2,,51,0,,4,,3,,8,2,2,1,,3,5,,PSV,,,14.02.2016 16:45,Eredivisie - Round 23
+413,cat413,1,,37,3,,5,,4,,6,2,0,1,,1,2,,Nijmegen,,2,14.02.2016 16:45,Eredivisie - Round 23,cat413,2,,63,2,,3,,7,,5,2,1,0,,0,3,,PSV,,0,14.02.2016 16:45,Eredivisie - Round 23
+414,cat414,1,,59,2,,1,,9,,10,4,0,1,,6,2,,Den Haag,,1,19.02.2016 20:00,Eredivisie - Round 24,cat414,2,,41,1,,2,,3,,7,2,1,0,,1,5,,Zwolle,,0,19.02.2016 20:00,Eredivisie - Round 24
+415,cat415,1,,61,0,,0,,6,,3,0,0,0,,3,0,,Den Haag,,1,19.02.2016 20:00,Eredivisie - Round 24,cat415,2,,39,0,,0,,7,,2,0,1,0,,1,1,,Zwolle,,1,19.02.2016 20:00,Eredivisie - Round 24
+416,cat416,1,,38,3,,4,,11,,10,3,2,4,,4,3,,AZ Alkmaar,,2,20.02.2016 18:30,Eredivisie - Round 24,cat416,2,,62,0,,0,,8,,5,1,1,0,,1,4,,Groningen,,3,20.02.2016 18:30,Eredivisie - Round 24
+417,cat417,1,,54,3,,8,,5,,9,1,2,3,,3,3,,AZ Alkmaar,,,20.02.2016 18:30,Eredivisie - Round 24,cat417,2,,46,0,,0,,3,,2,1,0,3,,1,1,,Groningen,,,20.02.2016 18:30,Eredivisie - Round 24
+418,cat418,1,,47,2,,3,,9,,6,0,0,1,,2,2,,PSV,,,20.02.2016 19:45,Eredivisie - Round 24,cat418,2,,53,1,,0,,5,,3,2,0,0,,2,0,,Heracles,,,20.02.2016 19:45,Eredivisie - Round 24
+419,cat419,1,,59,2,,8,,6,,16,3,2,0,,8,6,,PSV,,,20.02.2016 19:45,Eredivisie - Round 24,cat419,2,,41,0,,1,,3,,4,4,0,0,,1,3,,Heracles,,,20.02.2016 19:45,Eredivisie - Round 24
+420,cat420,1,,60,1,,6,,6,,11,1,0,0,0,6,4,,Heerenveen,,0,20.02.2016 19:45,Eredivisie - Round 24,cat420,2,,40,0,,2,,6,,4,4,1,1,1,2,2,,Nijmegen,,2,20.02.2016 19:45,Eredivisie - Round 24
+421,cat421,1,,58,3,,1,,4,,8,1,1,1,,4,1,,Heerenveen,,1,20.02.2016 19:45,Eredivisie - Round 24,cat421,2,,42,0,,1,,10,,3,0,0,1,,2,1,,Nijmegen,,1,20.02.2016 19:45,Eredivisie - Round 24
+422,cat422,1,,44,1,,3,,6,,10,0,1,0,0,5,4,,Twente,,2,20.02.2016 20:45,Eredivisie - Round 24,cat422,2,,56,1,,1,,11,,6,3,0,1,1,5,0,,Cambuur,,2,20.02.2016 20:45,Eredivisie - Round 24
+423,cat423,1,,44,2,,2,,4,,7,2,2,1,,2,3,,Twente,,0,20.02.2016 20:45,Eredivisie - Round 24,cat423,2,,56,1,,1,,9,,6,1,0,0,,3,2,,Cambuur,,1,20.02.2016 20:45,Eredivisie - Round 24
+424,cat424,1,,33,3,,1,,8,,5,0,1,1,0,1,1,,Graafschap,,1,21.02.2016 12:30,Eredivisie - Round 24,cat424,2,,67,6,,3,,9,,12,0,1,1,1,5,1,,Vitesse,,3,21.02.2016 12:30,Eredivisie - Round 24
+425,cat425,1,,39,4,,3,,7,,8,1,1,0,,2,2,,Graafschap,,1,21.02.2016 12:30,Eredivisie - Round 24,cat425,2,,61,1,,0,,4,,6,1,1,2,,3,2,,Vitesse,,0,21.02.2016 12:30,Eredivisie - Round 24
+426,cat426,1,,48,4,,4,,7,,9,0,1,3,,1,4,,Utrecht,,2,21.02.2016 14:30,Eredivisie - Round 24,cat426,2,,52,0,,1,,8,,0,3,1,1,,0,0,,Willem II,,0,21.02.2016 14:30,Eredivisie - Round 24
+427,cat427,1,,50,0,,2,,3,,3,1,1,0,,1,2,,Utrecht,,1,21.02.2016 14:30,Eredivisie - Round 24,cat427,2,,50,0,,1,,5,,2,1,0,2,,1,1,,Willem II,,1,21.02.2016 14:30,Eredivisie - Round 24
+428,cat428,1,,53,4,,3,,9,,15,2,0,0,,4,7,,Ajax,,,21.02.2016 14:30,Eredivisie - Round 24,cat428,2,,47,1,,0,,4,,6,5,0,0,,3,2,,Excelsior,,,21.02.2016 14:30,Eredivisie - Round 24
+429,cat429,1,,71,2,,4,,4,,13,1,1,0,,5,6,,Ajax,,0,21.02.2016 14:30,Eredivisie - Round 24,cat429,2,,29,1,,0,,5,,3,5,0,1,,1,1,,Excelsior,,1,21.02.2016 14:30,Eredivisie - Round 24
+430,cat430,1,,57,2,,2,,7,,7,1,0,0,,4,1,,Feyenoord,,,21.02.2016 16:45,Eredivisie - Round 24,cat430,2,,43,1,,1,,4,,5,1,1,1,,2,2,,Roda,,,21.02.2016 16:45,Eredivisie - Round 24
+431,cat431,1,,63,0,,3,,8,,7,0,1,0,,3,4,,Feyenoord,,0,21.02.2016 16:45,Eredivisie - Round 24,cat431,2,,37,0,,1,,8,,0,3,0,0,,0,0,,Roda,,3,21.02.2016 16:45,Eredivisie - Round 24
+432,cat432,1,,36,1,,2,,9,,8,0,1,3,,3,4,,Excelsior,,2,26.02.2016 20:00,Eredivisie - Round 25,cat432,2,,64,0,,3,,3,,3,3,0,0,,3,0,,Nijmegen,,1,26.02.2016 20:00,Eredivisie - Round 25
+433,cat433,1,,40,0,,1,,5,,3,1,1,0,,0,3,,Excelsior,,,26.02.2016 20:00,Eredivisie - Round 25,cat433,2,,60,1,,2,,4,,9,2,0,1,,7,1,,Nijmegen,,,26.02.2016 20:00,Eredivisie - Round 25
+434,cat434,1,,46,3,,7,,4,,9,2,1,2,,4,2,,Twente,,1,27.02.2016 18:30,Eredivisie - Round 25,cat434,2,,54,2,,6,,4,,5,1,0,1,,1,2,,Groningen,,1,27.02.2016 18:30,Eredivisie - Round 25
+435,cat435,1,,46,2,,4,,5,,5,1,1,0,,0,3,,Twente,,0,27.02.2016 18:30,Eredivisie - Round 25,cat435,2,,54,0,,1,,5,,3,2,0,0,,2,1,,Groningen,,1,27.02.2016 18:30,Eredivisie - Round 25
+436,cat436,1,,60,5,,6,,8,,14,1,2,0,,6,3,,PSV,,1,27.02.2016 19:45,Eredivisie - Round 25,cat436,2,,40,1,,2,,9,,4,1,0,0,,2,1,,Den Haag,,4,27.02.2016 19:45,Eredivisie - Round 25
+437,cat437,1,,64,1,,3,,8,,6,1,0,1,,2,3,,PSV,,1,27.02.2016 19:45,Eredivisie - Round 25,cat437,2,,36,0,,1,,5,,3,3,0,1,,2,1,,Den Haag,,1,27.02.2016 19:45,Eredivisie - Round 25
+438,cat438,1,,70,2,,1,,6,,10,1,1,2,0,5,3,,Cambuur,,1,27.02.2016 19:45,Eredivisie - Round 25,cat438,2,,30,2,,3,,8,,7,2,0,0,1,4,1,,Zwolle,,4,27.02.2016 19:45,Eredivisie - Round 25
+439,cat439,1,,66,0,,1,,6,,7,0,0,1,,7,0,,Cambuur,,0,27.02.2016 19:45,Eredivisie - Round 25,cat439,2,,34,1,,3,,10,,2,0,0,0,,1,0,,Zwolle,,1,27.02.2016 19:45,Eredivisie - Round 25
+440,cat440,1,,60,1,,2,,6,,5,2,0,1,,3,1,,Vitesse,,2,27.02.2016 20:45,Eredivisie - Round 25,cat440,2,,40,1,,2,,7,,5,1,1,1,,1,3,,Willem II,,1,27.02.2016 20:45,Eredivisie - Round 25
+441,cat441,1,,68,2,,0,,8,,7,0,0,0,,3,2,,Vitesse,,,27.02.2016 20:45,Eredivisie - Round 25,cat441,2,,32,0,,2,,8,,3,2,0,0,,3,0,,Willem II,,,27.02.2016 20:45,Eredivisie - Round 25
+442,cat442,1,,60,2,,3,,10,,9,1,0,1,,7,0,,Heracles,,0,28.02.2016 12:30,Eredivisie - Round 25,cat442,2,,40,2,,1,,5,,10,0,3,2,,4,4,,Roda,,1,28.02.2016 12:30,Eredivisie - Round 25
+443,cat443,1,,64,1,,5,,10,,5,2,0,0,,2,2,,Heracles,,1,28.02.2016 12:30,Eredivisie - Round 25,cat443,2,,36,2,,2,,10,,8,2,2,0,,2,4,,Roda,,1,28.02.2016 12:30,Eredivisie - Round 25
+444,cat444,1,,62,3,,3,,5,,6,1,0,1,,1,2,,Utrecht,,1,28.02.2016 14:30,Eredivisie - Round 25,cat444,2,,38,3,,4,,7,,10,2,0,3,,6,1,,Feyenoord,,2,28.02.2016 14:30,Eredivisie - Round 25
+445,cat445,1,,44,2,,0,,6,,5,0,1,0,,0,3,,Utrecht,,,28.02.2016 14:30,Eredivisie - Round 25,cat445,2,,56,1,,2,,8,,3,2,2,1,,0,2,,Feyenoord,,,28.02.2016 14:30,Eredivisie - Round 25
+446,cat446,1,,49,1,,1,,12,,4,3,0,1,,3,0,,Graafschap,,3,28.02.2016 14:30,Eredivisie - Round 25,cat446,2,,51,1,,1,,8,,7,0,1,0,,2,4,,Heerenveen,,1,28.02.2016 14:30,Eredivisie - Round 25
+447,cat447,1,,47,4,,1,,3,,11,1,0,2,,5,2,,Graafschap,,0,28.02.2016 14:30,Eredivisie - Round 25,cat447,2,,53,0,,0,,5,,2,2,0,0,,1,1,,Heerenveen,,1,28.02.2016 14:30,Eredivisie - Round 25
+448,cat448,1,,39,2,,1,,4,,4,2,2,0,1,0,2,,Ajax,,1,28.02.2016 16:45,Eredivisie - Round 25,cat448,2,,61,0,,2,,9,,3,0,1,1,0,0,3,,AZ Alkmaar,,1,28.02.2016 16:45,Eredivisie - Round 25
+449,cat449,1,,53,3,,2,,8,,9,1,2,0,,2,4,,Ajax,,1,28.02.2016 16:45,Eredivisie - Round 25,cat449,2,,47,3,,3,,8,,4,2,0,1,,0,1,,AZ Alkmaar,,1,28.02.2016 16:45,Eredivisie - Round 25
+450,cat450,1,,32,0,,1,,6,,4,2,1,0,,3,1,,Den Haag,,0,04.03.2016 20:00,Eredivisie - Round 26,cat450,2,,68,3,,6,,5,,11,0,1,0,,5,3,,Twente,,2,04.03.2016 20:00,Eredivisie - Round 26
+451,cat451,1,,49,1,,5,,3,,7,1,1,2,,3,3,,Den Haag,,,04.03.2016 20:00,Eredivisie - Round 26,cat451,2,,51,1,,2,,4,,3,2,0,0,,1,1,,Twente,,,04.03.2016 20:00,Eredivisie - Round 26
+452,cat452,1,,42,0,,1,,5,,2,0,0,2,,1,1,,Zwolle,,,05.03.2016 18:30,Eredivisie - Round 26,cat452,2,,58,4,,2,,4,,8,1,1,2,,3,1,,Graafschap,,,05.03.2016 18:30,Eredivisie - Round 26
+453,cat453,1,,60,2,,4,,4,,10,1,2,1,,2,6,,Zwolle,,,05.03.2016 18:30,Eredivisie - Round 26,cat453,2,,40,0,,1,,9,,5,4,0,1,,4,1,,Graafschap,,,05.03.2016 18:30,Eredivisie - Round 26
+454,cat454,1,,42,1,,1,,5,,4,5,0,0,,2,1,,Groningen,,1,05.03.2016 19:45,Eredivisie - Round 26,cat454,2,,58,3,,5,,5,,13,1,2,0,,3,7,,PSV,,1,05.03.2016 19:45,Eredivisie - Round 26
+455,cat455,1,,50,0,,4,,4,,1,0,0,1,,1,0,,Groningen,,1,05.03.2016 19:45,Eredivisie - Round 26,cat455,2,,50,1,,2,,4,,3,0,1,3,,1,1,,PSV,,0,05.03.2016 19:45,Eredivisie - Round 26
+456,cat456,1,,33,1,,0,,4,,3,1,0,1,,1,1,,Heerenveen,,1,05.03.2016 20:45,Eredivisie - Round 26,cat456,2,,67,0,,0,,6,,5,1,3,2,,1,4,,Utrecht,,2,05.03.2016 20:45,Eredivisie - Round 26
+457,cat457,1,,59,0,,1,,2,,3,2,0,2,1,3,0,,Heerenveen,,0,05.03.2016 20:45,Eredivisie - Round 26,cat457,2,,41,2,,1,,9,,8,0,1,2,0,3,3,,Utrecht,,2,05.03.2016 20:45,Eredivisie - Round 26
+458,cat458,1,,59,3,,3,,7,,10,2,1,0,,3,4,,Nijmegen,,2,06.03.2016 12:30,Eredivisie - Round 26,cat458,2,,41,0,,4,,11,,2,3,0,0,,0,2,,Heracles,,5,06.03.2016 12:30,Eredivisie - Round 26
+459,cat459,1,,59,1,,5,,9,,8,0,0,0,,4,3,,Nijmegen,,2,06.03.2016 12:30,Eredivisie - Round 26,cat459,2,,41,2,,2,,3,,2,3,0,0,,0,0,,Heracles,,0,06.03.2016 12:30,Eredivisie - Round 26
+460,cat460,1,,51,3,,2,,9,,10,1,0,1,,6,1,,Willem II,,1,06.03.2016 14:30,Eredivisie - Round 26,cat460,2,,49,0,,0,,6,,6,1,3,0,,2,4,,Ajax,,1,06.03.2016 14:30,Eredivisie - Round 26
+461,cat461,1,,41,1,,2,,9,,6,3,0,0,,2,3,,Willem II,,0,06.03.2016 14:30,Eredivisie - Round 26,cat461,2,,59,4,,2,,5,,12,3,1,0,,4,4,,Ajax,,1,06.03.2016 14:30,Eredivisie - Round 26
+462,cat462,1,,39,1,,5,,2,,5,3,1,1,,2,2,,Roda,,0,06.03.2016 14:30,Eredivisie - Round 26,cat462,2,,61,2,,4,,3,,9,1,1,1,,3,4,,Vitesse,,1,06.03.2016 14:30,Eredivisie - Round 26
+463,cat463,1,,37,3,,2,,8,,9,2,0,0,,5,1,,Roda,,0,06.03.2016 14:30,Eredivisie - Round 26,cat463,2,,63,1,,0,,10,,4,1,1,0,,0,3,,Vitesse,,1,06.03.2016 14:30,Eredivisie - Round 26
+464,cat464,1,,59,7,,10,,4,,22,2,2,2,0,8,7,,AZ Alkmaar,,1,06.03.2016 14:30,Eredivisie - Round 26,cat464,2,,41,0,,1,,5,,4,5,0,1,1,2,2,,Excelsior,,1,06.03.2016 14:30,Eredivisie - Round 26
+465,cat465,1,,67,1,,5,,5,,8,0,0,4,,4,3,,AZ Alkmaar,,,06.03.2016 14:30,Eredivisie - Round 26,cat465,2,,33,1,,1,,7,,1,3,0,3,,0,0,,Excelsior,,,06.03.2016 14:30,Eredivisie - Round 26
+466,cat466,1,,49,0,,3,,7,,7,2,2,2,,1,6,,Feyenoord,,1,06.03.2016 16:45,Eredivisie - Round 26,cat466,2,,51,1,,4,,4,,5,4,1,0,,1,3,,Cambuur,,0,06.03.2016 16:45,Eredivisie - Round 26
+467,cat467,1,,55,1,,3,,7,,5,0,1,3,,3,1,,Feyenoord,,1,06.03.2016 16:45,Eredivisie - Round 26,cat467,2,,45,0,,0,,2,,2,0,0,0,,2,0,,Cambuur,,1,06.03.2016 16:45,Eredivisie - Round 26
+468,cat468,1,,44,3,,4,,10,,12,5,2,2,,3,6,,Graafschap,,2,11.03.2016 20:00,Eredivisie - Round 27,cat468,2,,56,5,,2,,12,,13,4,0,0,,3,5,,Roda,,3,11.03.2016 20:00,Eredivisie - Round 27
+469,cat469,1,,46,1,,6,,9,,5,0,1,0,,3,1,,Graafschap,,1,11.03.2016 20:00,Eredivisie - Round 27,cat469,2,,54,2,,3,,4,,4,0,0,1,,2,0,,Roda,,0,11.03.2016 20:00,Eredivisie - Round 27
+470,cat470,1,,36,2,,2,,3,,8,2,2,1,,2,4,,Twente,,0,12.03.2016 18:30,Eredivisie - Round 27,cat470,2,,64,3,,2,,6,,10,2,0,2,,5,2,,Zwolle,,1,12.03.2016 18:30,Eredivisie - Round 27
+471,cat471,1,,52,2,,5,,5,,6,3,0,0,,3,1,,Twente,,1,12.03.2016 18:30,Eredivisie - Round 27,cat471,2,,48,2,,3,,5,,9,1,1,1,,3,4,,Zwolle,,0,12.03.2016 18:30,Eredivisie - Round 27
+472,cat472,1,,51,1,,0,,16,,3,2,0,2,,2,0,,Willem II,,4,12.03.2016 19:45,Eredivisie - Round 27,cat472,2,,49,5,,4,,5,,13,0,2,1,,4,4,,AZ Alkmaar,,2,12.03.2016 19:45,Eredivisie - Round 27
+473,cat473,1,,51,0,,1,,5,,4,0,0,2,,3,1,,Willem II,,,12.03.2016 19:45,Eredivisie - Round 27,cat473,2,,49,2,,2,,6,,4,1,0,3,,2,0,,AZ Alkmaar,,,12.03.2016 19:45,Eredivisie - Round 27
+474,cat474,1,,61,1,,4,,3,,10,0,1,2,,5,4,,PSV,,2,12.03.2016 19:45,Eredivisie - Round 27,cat474,2,,39,1,,0,,12,,2,3,1,0,,0,1,,Heerenveen,,1,12.03.2016 19:45,Eredivisie - Round 27
+475,cat475,1,,57,1,,6,,3,,6,2,0,1,,5,0,,PSV,,0,12.03.2016 19:45,Eredivisie - Round 27,cat475,2,,43,0,,0,,6,,5,0,0,1,,3,2,,Heerenveen,,2,12.03.2016 19:45,Eredivisie - Round 27
+476,cat476,1,,37,0,,1,,8,,4,2,2,2,,0,4,,Excelsior,,1,12.03.2016 20:45,Eredivisie - Round 27,cat476,2,,63,3,,2,,8,,13,2,1,0,,7,3,,Groningen,,2,12.03.2016 20:45,Eredivisie - Round 27
+477,cat477,1,,45,2,,2,,6,,5,1,0,0,,2,1,,Excelsior,,,12.03.2016 20:45,Eredivisie - Round 27,cat477,2,,55,1,,1,,8,,2,1,0,0,,0,1,,Groningen,,,12.03.2016 20:45,Eredivisie - Round 27
+478,cat478,1,,49,4,,4,,3,,8,1,0,1,,3,1,,Utrecht,,0,13.03.2016 12:30,Eredivisie - Round 27,cat478,2,,51,0,,1,,9,,5,1,2,1,,2,3,,Den Haag,,3,13.03.2016 12:30,Eredivisie - Round 27
+479,cat479,1,,49,1,,0,,10,,7,2,2,0,,4,2,,Utrecht,,2,13.03.2016 12:30,Eredivisie - Round 27,cat479,2,,51,0,,5,,10,,5,0,0,1,,3,2,,Den Haag,,1,13.03.2016 12:30,Eredivisie - Round 27
+480,cat480,1,,50,1,,1,,7,,5,1,0,0,,3,1,,Vitesse,,2,13.03.2016 14:30,Eredivisie - Round 27,cat480,2,,50,1,,3,,5,,4,1,2,1,,0,3,,Feyenoord,,0,13.03.2016 14:30,Eredivisie - Round 27
+481,cat481,1,,52,0,,2,,5,,4,2,0,0,,3,1,,Vitesse,,0,13.03.2016 14:30,Eredivisie - Round 27,cat481,2,,48,1,,5,,7,,3,1,0,2,,0,2,,Feyenoord,,1,13.03.2016 14:30,Eredivisie - Round 27
+482,cat482,1,,46,4,,2,,8,,13,3,3,2,,4,5,,Heracles,,0,13.03.2016 14:30,Eredivisie - Round 27,cat482,2,,54,0,,1,,11,,7,2,0,1,,4,3,,Cambuur,,1,13.03.2016 14:30,Eredivisie - Round 27
+483,cat483,1,,55,4,,4,,6,,8,1,0,1,,2,2,,Heracles,,,13.03.2016 14:30,Eredivisie - Round 27,cat483,2,,45,2,,2,,9,,6,2,1,1,,2,2,,Cambuur,,,13.03.2016 14:30,Eredivisie - Round 27
+484,cat484,1,,68,2,,7,,5,,9,2,1,0,,4,3,,Ajax,,,13.03.2016 16:45,Eredivisie - Round 27,cat484,2,,32,1,,2,,3,,6,2,1,0,,2,3,,Nijmegen,,,13.03.2016 16:45,Eredivisie - Round 27
+485,cat485,1,,62,2,,4,,4,,12,1,1,0,,6,4,,Ajax,,,13.03.2016 16:45,Eredivisie - Round 27,cat485,2,,38,0,,1,,5,,4,3,1,0,,2,2,,Nijmegen,,,13.03.2016 16:45,Eredivisie - Round 27
+486,cat486,1,,42,4,,4,,7,,7,0,0,0,,2,1,,Utrecht,,0,18.03.2016 20:00,Eredivisie - Round 28,cat486,2,,58,3,,3,,6,,5,1,0,0,,2,0,,Excelsior,,2,18.03.2016 20:00,Eredivisie - Round 28
+487,cat487,1,,56,2,,2,,7,,10,0,2,0,,4,4,,Utrecht,,1,18.03.2016 20:00,Eredivisie - Round 28,cat487,2,,44,2,,0,,10,,6,2,1,0,,3,1,,Excelsior,,2,18.03.2016 20:00,Eredivisie - Round 28
+488,cat488,1,,64,5,,0,,6,,15,1,0,1,,6,4,,Heerenveen,,,19.03.2016 18:30,Eredivisie - Round 28,cat488,2,,36,6,,5,,8,,9,4,0,3,,2,1,,Heracles,,,19.03.2016 18:30,Eredivisie - Round 28
+489,cat489,1,,47,2,,3,,6,,5,0,0,0,,2,1,,Heerenveen,,,19.03.2016 18:30,Eredivisie - Round 28,cat489,2,,53,0,,5,,5,,4,1,1,2,,3,1,,Heracles,,,19.03.2016 18:30,Eredivisie - Round 28
+490,cat490,1,,48,3,,1,,10,,8,2,2,1,,0,5,,Zwolle,,,19.03.2016 19:45,Eredivisie - Round 28,cat490,2,,52,0,,2,,5,,5,3,0,5,,3,2,,Willem II,,,19.03.2016 19:45,Eredivisie - Round 28
+491,cat491,1,,54,3,,3,,7,,13,2,2,0,,7,3,,Zwolle,,0,19.03.2016 19:45,Eredivisie - Round 28,cat491,2,,46,1,,2,,10,,5,1,1,0,,1,3,,Willem II,,2,19.03.2016 19:45,Eredivisie - Round 28
+492,cat492,1,,73,5,,3,,4,,15,0,3,1,,5,5,,Feyenoord,,,19.03.2016 19:45,Eredivisie - Round 28,cat492,2,,27,0,,0,,9,,0,2,0,0,,0,0,,Graafschap,,,19.03.2016 19:45,Eredivisie - Round 28
+493,cat493,1,,63,2,,5,,4,,10,3,0,2,,3,5,,Feyenoord,,,19.03.2016 19:45,Eredivisie - Round 28,cat493,2,,37,1,,5,,4,,5,5,1,0,,0,4,,Graafschap,,,19.03.2016 19:45,Eredivisie - Round 28
+494,cat494,1,,69,2,,6,,5,,6,1,0,0,,2,2,,Cambuur,,,19.03.2016 20:45,Eredivisie - Round 28,cat494,2,,31,1,,3,,6,,7,2,1,1,,4,2,,Roda,,,19.03.2016 20:45,Eredivisie - Round 28
+495,cat495,1,,57,1,,2,,7,,5,0,0,0,,2,2,,Cambuur,,1,19.03.2016 20:45,Eredivisie - Round 28,cat495,2,,43,0,,2,,8,,1,2,0,1,,1,0,,Roda,,1,19.03.2016 20:45,Eredivisie - Round 28
+496,cat496,1,,54,1,,5,,3,,13,2,2,2,1,6,6,,Twente,,1,20.03.2016 12:30,Eredivisie - Round 28,cat496,2,,46,0,,2,,12,,12,4,2,0,1,8,4,,AZ Alkmaar,,3,20.03.2016 12:30,Eredivisie - Round 28
+497,cat497,1,,48,1,,2,,10,,9,2,0,1,,5,3,,Twente,,1,20.03.2016 12:30,Eredivisie - Round 28,cat497,2,,52,3,,1,,5,,7,3,0,0,,2,2,,AZ Alkmaar,,1,20.03.2016 12:30,Eredivisie - Round 28
+498,cat498,1,,44,0,,2,,4,,2,2,0,1,,1,1,,Groningen,,0,20.03.2016 14:30,Eredivisie - Round 28,cat498,2,,56,2,,2,,7,,8,1,3,4,,1,5,,Vitesse,,2,20.03.2016 14:30,Eredivisie - Round 28
+499,cat499,1,,48,2,,1,,11,,7,1,0,3,,2,3,,Groningen,,1,20.03.2016 14:30,Eredivisie - Round 28,cat499,2,,52,2,,1,,8,,5,3,0,3,,2,1,,Vitesse,,1,20.03.2016 14:30,Eredivisie - Round 28
+500,cat500,1,,44,1,,2,,5,,5,1,1,0,,2,2,,Den Haag,,0,20.03.2016 14:30,Eredivisie - Round 28,cat500,2,,56,3,,1,,6,,4,1,0,1,,0,1,,Nijmegen,,1,20.03.2016 14:30,Eredivisie - Round 28
+501,cat501,1,,64,0,,3,,3,,4,2,0,0,,3,1,,Den Haag,,0,20.03.2016 14:30,Eredivisie - Round 28,cat501,2,,36,0,,2,,3,,6,1,0,1,,4,2,,Nijmegen,,1,20.03.2016 14:30,Eredivisie - Round 28
+502,cat502,1,,55,1,,2,,6,,5,0,0,1,,3,1,,PSV,,2,20.03.2016 16:45,Eredivisie - Round 28,cat502,2,,45,2,,1,,7,,5,1,1,0,,2,1,,Ajax,,0,20.03.2016 16:45,Eredivisie - Round 28
+503,cat503,1,,63,1,,1,,8,,8,2,0,1,,5,2,,PSV,,2,20.03.2016 16:45,Eredivisie - Round 28,cat503,2,,37,0,,1,,11,,5,2,1,0,,2,3,,Ajax,,1,20.03.2016 16:45,Eredivisie - Round 28
+504,cat504,1,,41,1,,0,,3,,4,4,1,2,,2,1,,Heracles,,1,02.04.2016 18:30,Eredivisie - Round 29,cat504,2,,59,3,,3,,7,,11,0,1,1,,3,5,,Utrecht,,1,02.04.2016 18:30,Eredivisie - Round 29
+505,cat505,1,,45,0,,2,,2,,4,1,0,1,,4,0,,Heracles,,,02.04.2016 18:30,Eredivisie - Round 29,cat505,2,,55,3,,1,,8,,4,0,0,0,,0,1,,Utrecht,,,02.04.2016 18:30,Eredivisie - Round 29
+506,cat506,1,,46,0,,1,,7,,7,1,1,1,,4,3,,Graafschap,,1,02.04.2016 18:30,Eredivisie - Round 29,cat506,2,,54,3,,4,,7,,7,2,1,0,,2,2,,Cambuur,,1,02.04.2016 18:30,Eredivisie - Round 29
+507,cat507,1,,56,2,,4,,6,,6,0,1,1,,2,2,,Graafschap,,,02.04.2016 18:30,Eredivisie - Round 29,cat507,2,,44,1,,2,,9,,6,1,1,0,,4,1,,Cambuur,,,02.04.2016 18:30,Eredivisie - Round 29
+508,cat508,1,,43,0,,1,,8,,13,2,2,0,,7,6,,AZ Alkmaar,,1,02.04.2016 19:45,Eredivisie - Round 29,cat508,2,,57,6,,3,,6,,13,4,2,2,,3,4,,PSV,,0,02.04.2016 19:45,Eredivisie - Round 29
+509,cat509,1,,47,1,,3,,5,,5,1,0,0,,3,1,,AZ Alkmaar,,0,02.04.2016 19:45,Eredivisie - Round 29,cat509,2,,53,2,,5,,12,,8,1,2,2,,3,3,,PSV,,1,02.04.2016 19:45,Eredivisie - Round 29
+510,cat510,1,,42,3,,2,,12,0,3,6,0,2,,-1,1,,Willem II,,2,02.04.2016 20:45,Eredivisie - Round 29,cat510,2,,58,2,,3,,9,1,16,1,3,0,,5,9,,Twente,,1,02.04.2016 20:45,Eredivisie - Round 29
+511,cat511,1,,58,0,,3,,7,8,7,1,2,0,,2,5,,Willem II,,,02.04.2016 20:45,Eredivisie - Round 29,cat511,2,,42,1,,4,,8,9,4,3,0,0,,2,1,,Twente,,,02.04.2016 20:45,Eredivisie - Round 29
+512,cat512,1,,71,2,,6,,3,0,14,1,1,0,,8,4,,Feyenoord,,,02.04.2016 20:45,Eredivisie - Round 29,cat512,2,,29,1,,1,,6,0,4,3,0,2,,2,1,,Excelsior,,,02.04.2016 20:45,Eredivisie - Round 29
+513,cat513,1,,67,3,,6,,2,7,10,0,2,0,,2,5,,Feyenoord,,,02.04.2016 20:45,Eredivisie - Round 29,cat513,2,,33,0,,0,,6,2,0,3,0,1,,0,0,,Excelsior,,,02.04.2016 20:45,Eredivisie - Round 29
+514,cat514,1,,40,0,,5,,7,,6,1,1,1,,3,3,,Nijmegen,,1,03.04.2016 12:30,Eredivisie - Round 29,cat514,2,,60,1,,1,,6,,5,2,1,1,,2,2,,Vitesse,,2,03.04.2016 12:30,Eredivisie - Round 29
+515,cat515,1,,40,0,,2,,9,,8,5,1,3,,4,4,,Nijmegen,,,03.04.2016 12:30,Eredivisie - Round 29,cat515,2,,60,3,,5,,4,,11,3,0,0,,3,5,,Vitesse,,,03.04.2016 12:30,Eredivisie - Round 29
+516,cat516,1,,49,0,,2,,7,,7,1,1,0,,2,5,,Roda,,2,03.04.2016 14:30,Eredivisie - Round 29,cat516,2,,51,2,,4,,9,,7,4,2,0,,2,3,,Heerenveen,,2,03.04.2016 14:30,Eredivisie - Round 29
+517,cat517,1,,45,1,,4,,6,,6,3,0,2,,4,1,,Roda,,2,03.04.2016 14:30,Eredivisie - Round 29,cat517,2,,55,1,,0,,9,,7,1,0,0,,3,3,,Heerenveen,,0,03.04.2016 14:30,Eredivisie - Round 29
+518,cat518,1,,72,6,,6,,4,,12,1,0,2,,3,3,,Den Haag,,0,03.04.2016 14:30,Eredivisie - Round 29,cat518,2,,28,0,,2,,4,,3,3,1,1,,1,2,,Groningen,,3,03.04.2016 14:30,Eredivisie - Round 29
+519,cat519,1,,46,0,,3,,6,,7,0,0,1,0,4,3,,Den Haag,,,03.04.2016 14:30,Eredivisie - Round 29,cat519,2,,54,2,,1,,8,,3,3,0,1,1,1,0,,Groningen,,,03.04.2016 14:30,Eredivisie - Round 29
+520,cat520,1,,55,0,,3,,5,,7,0,0,1,,7,0,,Ajax,,,03.04.2016 16:45,Eredivisie - Round 29,cat520,2,,45,2,,1,,7,,3,0,0,1,,1,0,,Zwolle,,,03.04.2016 16:45,Eredivisie - Round 29
+521,cat521,1,,53,0,,3,,3,,8,1,3,2,,3,5,,Ajax,,,03.04.2016 16:45,Eredivisie - Round 29,cat521,2,,47,1,,1,,5,,2,2,0,1,,0,1,,Zwolle,,,03.04.2016 16:45,Eredivisie - Round 29
+522,cat522,1,,60,1,,6,,5,,8,2,3,3,,3,4,,Zwolle,,1,08.04.2016 20:00,Eredivisie - Round 30,cat522,2,,40,0,,1,,8,,3,1,0,0,,1,2,,Roda,,0,08.04.2016 20:00,Eredivisie - Round 30
+523,cat523,1,,64,1,,0,,3,,3,2,0,4,,1,1,,Zwolle,,,08.04.2016 20:00,Eredivisie - Round 30,cat523,2,,36,0,,4,,5,,6,1,1,1,,3,3,,Roda,,,08.04.2016 20:00,Eredivisie - Round 30
+524,cat524,1,,57,1,,6,,5,,8,1,1,0,,4,3,,Excelsior,,,09.04.2016 18:30,Eredivisie - Round 30,cat524,2,,43,3,,7,,9,,8,2,1,1,,3,2,,Heracles,,,09.04.2016 18:30,Eredivisie - Round 30
+525,cat525,1,,57,0,,6,,9,,5,1,0,2,,4,1,,Excelsior,,2,09.04.2016 18:30,Eredivisie - Round 30,cat525,2,,43,0,,1,,5,,6,1,2,2,,3,3,,Heracles,,0,09.04.2016 18:30,Eredivisie - Round 30
+526,cat526,1,,70,3,,2,,8,,10,0,1,1,,4,3,,Vitesse,,2,09.04.2016 19:45,Eredivisie - Round 30,cat526,2,,30,0,,3,,4,,3,2,1,1,,2,1,,Den Haag,,1,09.04.2016 19:45,Eredivisie - Round 30
+527,cat527,1,,70,0,,1,,4,,5,2,1,0,,2,3,,Vitesse,,1,09.04.2016 19:45,Eredivisie - Round 30,cat527,2,,30,0,,4,,7,,4,2,1,1,,1,3,,Den Haag,,0,09.04.2016 19:45,Eredivisie - Round 30
+528,cat528,1,,53,4,,3,,6,,10,1,0,1,,3,3,,Cambuur,,1,09.04.2016 19:45,Eredivisie - Round 30,cat528,2,,47,3,,2,,6,,11,3,1,2,,6,2,,Ajax,,1,09.04.2016 19:45,Eredivisie - Round 30
+529,cat529,1,,57,0,,0,,9,,1,1,0,0,,1,0,,Cambuur,,1,09.04.2016 19:45,Eredivisie - Round 30,cat529,2,,43,1,,5,,7,,7,0,0,1,,5,1,,Ajax,,0,09.04.2016 19:45,Eredivisie - Round 30
+530,cat530,1,,47,1,,3,,3,,9,2,2,1,1,5,3,,PSV,,2,09.04.2016 20:45,Eredivisie - Round 30,cat530,2,,53,0,,3,,7,,7,1,0,1,0,5,2,,Willem II,,3,09.04.2016 20:45,Eredivisie - Round 30
+531,cat531,1,,51,1,,1,,8,,8,1,0,1,,6,1,,PSV,,2,09.04.2016 20:45,Eredivisie - Round 30,cat531,2,,49,3,,2,,7,,5,1,0,2,,1,1,,Willem II,,1,09.04.2016 20:45,Eredivisie - Round 30
+532,cat532,1,,53,3,,1,,13,,7,2,3,1,,1,3,,Heerenveen,,1,10.04.2016 12:30,Eredivisie - Round 30,cat532,2,,47,3,,1,,3,,10,0,2,3,,3,4,,AZ Alkmaar,,0,10.04.2016 12:30,Eredivisie - Round 30
+533,cat533,1,,51,2,,1,,6,,6,3,1,0,,3,1,,Heerenveen,,,10.04.2016 12:30,Eredivisie - Round 30,cat533,2,,49,2,,0,,2,,7,0,0,4,,2,3,,AZ Alkmaar,,,10.04.2016 12:30,Eredivisie - Round 30
+534,cat534,1,,58,3,,2,,4,,10,1,2,1,0,3,4,,Utrecht,,1,10.04.2016 14:30,Eredivisie - Round 30,cat534,2,,42,0,,4,,10,,2,2,0,0,1,1,1,,Nijmegen,,1,10.04.2016 14:30,Eredivisie - Round 30
+535,cat535,1,,38,1,,4,,7,,5,1,1,0,,1,3,,Utrecht,,,10.04.2016 14:30,Eredivisie - Round 30,cat535,2,,62,2,,2,,3,,5,2,1,1,,1,2,,Nijmegen,,,10.04.2016 14:30,Eredivisie - Round 30
+536,cat536,1,,57,1,,3,,6,,9,1,2,1,,4,4,,Groningen,,1,10.04.2016 14:30,Eredivisie - Round 30,cat536,2,,43,5,,2,,5,,7,2,0,1,,1,1,,Graafschap,,1,10.04.2016 14:30,Eredivisie - Round 30
+537,cat537,1,,63,0,,4,,5,,5,3,1,0,,3,2,,Groningen,,0,10.04.2016 14:30,Eredivisie - Round 30,cat537,2,,37,0,,3,,8,,6,1,1,3,,2,4,,Graafschap,,1,10.04.2016 14:30,Eredivisie - Round 30
+538,cat538,1,,38,0,,1,,5,,4,1,0,0,,2,2,,Twente,,1,10.04.2016 16:45,Eredivisie - Round 30,cat538,2,,62,3,,2,,9,,10,2,0,2,,6,1,,Feyenoord,,1,10.04.2016 16:45,Eredivisie - Round 30
+539,cat539,1,,44,0,,1,,5,,5,2,0,2,,2,3,,Twente,,1,10.04.2016 16:45,Eredivisie - Round 30,cat539,2,,56,1,,3,,8,,8,3,1,3,,4,3,,Feyenoord,,1,10.04.2016 16:45,Eredivisie - Round 30
+540,cat540,1,,60,1,,4,,9,,8,0,1,2,1,3,4,,Graafschap,,2,15.04.2016 20:00,Eredivisie - Round 31,cat540,2,,40,2,,1,,2,,6,3,0,4,0,4,0,,Twente,,2,15.04.2016 20:00,Eredivisie - Round 31
+541,cat541,1,,48,1,,5,,6,,10,1,0,1,,7,2,,Graafschap,,2,15.04.2016 20:00,Eredivisie - Round 31,cat541,2,,52,0,,1,,5,,3,2,1,1,,1,2,,Twente,,1,15.04.2016 20:00,Eredivisie - Round 31
+542,cat542,1,,58,2,,2,,12,,11,1,1,1,,4,5,,Vitesse,,1,16.04.2016 18:30,Eredivisie - Round 31,cat542,2,,42,4,,2,,4,,8,4,1,3,,2,2,,Heracles,,0,16.04.2016 18:30,Eredivisie - Round 31
+543,cat543,1,,66,1,,1,,8,,4,0,0,0,,3,0,,Vitesse,,1,16.04.2016 18:30,Eredivisie - Round 31,cat543,2,,34,2,,3,,2,,5,0,0,1,,3,0,,Heracles,,0,16.04.2016 18:30,Eredivisie - Round 31
+544,cat544,1,,64,2,,5,,4,,15,1,1,2,,6,7,,Feyenoord,,1,16.04.2016 19:45,Eredivisie - Round 31,cat544,2,,36,0,,0,,9,,2,6,0,1,,1,1,,Groningen,,0,16.04.2016 19:45,Eredivisie - Round 31
+545,cat545,1,,58,1,,1,,7,,6,0,0,0,,5,0,,Feyenoord,,1,16.04.2016 19:45,Eredivisie - Round 31,cat545,2,,42,0,,1,,2,,3,0,1,1,,2,1,,Groningen,,1,16.04.2016 19:45,Eredivisie - Round 31
+546,cat546,1,,61,7,,8,,5,,20,1,3,2,0,5,8,,AZ Alkmaar,,,16.04.2016 19:45,Eredivisie - Round 31,cat546,2,,39,3,,2,,4,,7,5,1,0,1,2,2,,Zwolle,,,16.04.2016 19:45,Eredivisie - Round 31
+547,cat547,1,,59,5,,3,,4,,18,1,2,0,,3,10,,AZ Alkmaar,,0,16.04.2016 19:45,Eredivisie - Round 31,cat547,2,,41,0,,0,,9,,2,8,0,1,,1,1,,Zwolle,,2,16.04.2016 19:45,Eredivisie - Round 31
+548,cat548,1,,42,0,,1,,5,,6,1,0,2,,6,0,,Roda,,,16.04.2016 20:45,Eredivisie - Round 31,cat548,2,,58,1,,1,,5,,7,0,2,0,,3,3,,PSV,,,16.04.2016 20:45,Eredivisie - Round 31
+549,cat549,1,,38,2,,2,,3,,3,0,0,0,,1,0,,Roda,,,16.04.2016 20:45,Eredivisie - Round 31,cat549,2,,62,2,,5,,2,,5,0,1,1,,2,1,,PSV,,,16.04.2016 20:45,Eredivisie - Round 31
+550,cat550,1,,58,4,,2,,8,,10,1,2,0,,2,4,,Ajax,,1,17.04.2016 12:30,Eredivisie - Round 31,cat550,2,,42,1,,2,,7,,5,2,2,0,,1,3,,Utrecht,,2,17.04.2016 12:30,Eredivisie - Round 31
+551,cat551,1,,67,0,,0,,4,,6,1,0,1,,6,0,,Ajax,,0,17.04.2016 12:30,Eredivisie - Round 31,cat551,2,,33,1,,1,,6,,3,0,0,1,,1,1,,Utrecht,,1,17.04.2016 12:30,Eredivisie - Round 31
+552,cat552,1,,64,2,,3,,5,,13,0,0,1,,6,5,,Willem II,,1,17.04.2016 14:30,Eredivisie - Round 31,cat552,2,,36,0,,1,,14,,1,5,1,3,,0,1,,Den Haag,,2,17.04.2016 14:30,Eredivisie - Round 31
+553,cat553,1,,52,1,,2,,9,,5,0,0,1,,3,1,,Willem II,,,17.04.2016 14:30,Eredivisie - Round 31,cat553,2,,48,1,,3,,7,,3,1,1,2,,1,1,,Den Haag,,,17.04.2016 14:30,Eredivisie - Round 31
+554,cat554,1,,52,3,,2,,6,,10,2,2,0,,2,5,,Nijmegen,,1,17.04.2016 14:30,Eredivisie - Round 31,cat554,2,,48,3,,4,,11,,10,3,1,0,,4,3,,Cambuur,,0,17.04.2016 14:30,Eredivisie - Round 31
+555,cat555,1,,52,1,,5,,7,,7,1,0,2,,2,4,,Nijmegen,,,17.04.2016 14:30,Eredivisie - Round 31,cat555,2,,48,1,,5,,2,,4,4,0,0,,2,1,,Cambuur,,,17.04.2016 14:30,Eredivisie - Round 31
+556,cat556,1,,30,0,,0,,5,,5,2,0,6,,4,1,,Excelsior,,0,17.04.2016 16:45,Eredivisie - Round 31,cat556,2,,70,3,,2,,7,,7,1,0,0,,2,2,,Heerenveen,,1,17.04.2016 16:45,Eredivisie - Round 31
+557,cat557,1,,38,1,,2,,4,,4,1,1,1,,1,2,,Excelsior,,,17.04.2016 16:45,Eredivisie - Round 31,cat557,2,,62,0,,2,,6,,3,1,1,0,,1,2,,Heerenveen,,,17.04.2016 16:45,Eredivisie - Round 31
+558,cat558,1,,53,1,,1,,7,,4,1,1,4,,1,2,,Groningen,,0,19.04.2016 18:30,Eredivisie - Round 32,cat558,2,,47,1,,4,,6,,7,1,0,3,,5,1,,Roda,,1,19.04.2016 18:30,Eredivisie - Round 32
+559,cat559,1,,65,0,,9,,9,,7,3,0,2,,4,3,,Groningen,,0,19.04.2016 18:30,Eredivisie - Round 32,cat559,2,,35,0,,1,,4,,7,3,0,1,,4,3,,Roda,,1,19.04.2016 18:30,Eredivisie - Round 32
+560,cat560,1,,38,2,,2,,8,,11,2,1,1,,4,5,,PSV,,3,19.04.2016 20:45,Eredivisie - Round 32,cat560,2,,62,5,,4,,8,,11,4,0,1,,4,2,,Vitesse,,2,19.04.2016 20:45,Eredivisie - Round 32
+561,cat561,1,,45,2,,2,,4,,7,2,1,2,,1,4,,PSV,,0,19.04.2016 20:45,Eredivisie - Round 32,cat561,2,,55,1,,1,,13,,3,3,0,0,,0,2,,Vitesse,,1,19.04.2016 20:45,Eredivisie - Round 32
+562,cat562,1,,39,1,,2,,5,,5,2,0,4,,4,0,,Zwolle,,0,20.04.2016 18:30,Eredivisie - Round 32,cat562,2,,61,4,,4,,9,,6,0,0,1,,0,2,,Nijmegen,,2,20.04.2016 18:30,Eredivisie - Round 32
+563,cat563,1,,56,2,,3,,5,,7,2,2,0,,2,3,,Zwolle,,,20.04.2016 18:30,Eredivisie - Round 32,cat563,2,,44,1,,3,,5,,3,1,0,1,,0,2,,Nijmegen,,,20.04.2016 18:30,Eredivisie - Round 32
+564,cat564,1,,67,0,,4,,4,,15,2,0,0,,10,5,,Utrecht,,1,20.04.2016 18:30,Eredivisie - Round 32,cat564,2,,33,0,,1,,3,,5,5,1,1,,2,3,,Graafschap,,0,20.04.2016 18:30,Eredivisie - Round 32
+565,cat565,1,,61,2,,4,,4,,8,0,0,1,,2,4,,Utrecht,,0,20.04.2016 18:30,Eredivisie - Round 32,cat565,2,,39,2,,0,,4,,9,4,1,1,,6,1,,Graafschap,,1,20.04.2016 18:30,Eredivisie - Round 32
+566,cat566,1,,42,1,,5,,7,,5,4,1,0,,2,2,,Heracles,,2,20.04.2016 19:45,Eredivisie - Round 32,cat566,2,,58,1,,3,,6,,8,1,1,0,,2,5,,Feyenoord,,0,20.04.2016 19:45,Eredivisie - Round 32
+567,cat567,1,,33,0,,2,,7,,1,4,1,1,,0,1,,Heracles,,,20.04.2016 19:45,Eredivisie - Round 32,cat567,2,,67,4,,6,,5,,13,0,1,0,,4,5,,Feyenoord,,,20.04.2016 19:45,Eredivisie - Round 32
+568,cat568,1,,67,2,,2,,4,,10,0,2,3,0,3,5,,Twente,,0,20.04.2016 20:45,Eredivisie - Round 32,cat568,2,,33,0,,1,,7,,4,3,0,0,1,4,0,,Excelsior,,1,20.04.2016 20:45,Eredivisie - Round 32
+569,cat569,1,,65,0,,2,,4,,2,0,0,1,,0,2,,Twente,,0,20.04.2016 20:45,Eredivisie - Round 32,cat569,2,,35,1,,1,,7,,2,2,0,1,,1,0,,Excelsior,,1,20.04.2016 20:45,Eredivisie - Round 32
+570,cat570,1,,51,2,,2,,10,,5,1,0,0,,3,0,,Heerenveen,,1,20.04.2016 20:45,Eredivisie - Round 32,cat570,2,,49,3,,5,,6,,11,0,2,2,,5,3,,Ajax,,1,20.04.2016 20:45,Eredivisie - Round 32
+571,cat571,1,,45,1,,1,,7,,4,2,0,2,,2,1,,Heerenveen,,,20.04.2016 20:45,Eredivisie - Round 32,cat571,2,,55,1,,3,,7,,6,1,0,3,,3,2,,Ajax,,,20.04.2016 20:45,Eredivisie - Round 32
+572,cat572,1,,49,1,,4,,4,,5,0,0,0,,3,1,,Den Haag,,0,21.04.2016 18:30,Eredivisie - Round 32,cat572,2,,51,2,,3,,8,,5,1,1,1,,2,1,,AZ Alkmaar,,2,21.04.2016 18:30,Eredivisie - Round 32
+573,cat573,1,,53,0,,2,,5,,5,1,1,2,,2,3,,Den Haag,,1,21.04.2016 18:30,Eredivisie - Round 32,cat573,2,,47,1,,1,,9,,3,2,1,0,,0,2,,AZ Alkmaar,,0,21.04.2016 18:30,Eredivisie - Round 32
+574,cat574,1,,66,1,,5,,4,,10,1,0,1,1,6,3,,Cambuur,,,21.04.2016 18:30,Eredivisie - Round 32,cat574,2,,34,1,,1,,7,,3,3,0,1,0,1,1,,Willem II,,,21.04.2016 18:30,Eredivisie - Round 32
+575,cat575,1,,54,2,,3,,5,,10,0,1,0,,5,3,,Cambuur,,0,21.04.2016 18:30,Eredivisie - Round 32,cat575,2,,46,1,,1,,9,,5,2,1,4,,3,1,,Willem II,,1,21.04.2016 18:30,Eredivisie - Round 32
+576,cat576,1,,49,2,,0,,9,,9,0,0,0,,6,1,,Willem II,,2,01.05.2016 14:30,Eredivisie - Round 33,cat576,2,,51,1,,0,,12,,6,1,1,3,,4,1,,Feyenoord,,1,01.05.2016 14:30,Eredivisie - Round 33
+577,cat577,1,,47,2,,0,,5,,5,0,0,0,,3,0,,Willem II,,,01.05.2016 14:30,Eredivisie - Round 33,cat577,2,,53,1,,3,,7,,3,0,0,4,,2,0,,Feyenoord,,,01.05.2016 14:30,Eredivisie - Round 33
+578,cat578,1,,48,4,,4,,10,,11,2,0,0,,6,1,,Vitesse,,1,01.05.2016 14:30,Eredivisie - Round 33,cat578,2,,52,2,,6,,7,,9,1,3,5,,2,5,,Utrecht,,2,01.05.2016 14:30,Eredivisie - Round 33
+579,cat579,1,,64,5,,7,,4,,13,0,1,1,,2,6,,Vitesse,,,01.05.2016 14:30,Eredivisie - Round 33,cat579,2,,36,0,,3,,8,,1,5,0,1,,1,0,,Utrecht,,,01.05.2016 14:30,Eredivisie - Round 33
+580,cat580,1,,54,0,,6,,4,,13,2,3,2,,4,9,,PSV,,2,01.05.2016 14:30,Eredivisie - Round 33,cat580,2,,46,1,,1,,8,,5,6,0,1,,2,2,,Cambuur,,4,01.05.2016 14:30,Eredivisie - Round 33
+581,cat581,1,,64,3,,8,,3,,16,0,3,2,,5,8,,PSV,,0,01.05.2016 14:30,Eredivisie - Round 33,cat581,2,,36,4,,4,,13,,8,5,2,0,,2,2,,Cambuur,,1,01.05.2016 14:30,Eredivisie - Round 33
+582,cat582,1,,62,1,,2,,15,,3,3,0,1,,2,0,,Nijmegen,,2,01.05.2016 14:30,Eredivisie - Round 33,cat582,2,,38,0,,5,,5,,6,0,1,0,,2,4,,Roda,,1,01.05.2016 14:30,Eredivisie - Round 33
+583,cat583,1,,52,1,,2,,6,,7,1,1,2,,3,3,,Nijmegen,,0,01.05.2016 14:30,Eredivisie - Round 33,cat583,2,,48,1,,4,,4,,7,2,1,0,,4,2,,Roda,,1,01.05.2016 14:30,Eredivisie - Round 33
+584,cat584,1,,56,5,,4,,5,,13,3,1,1,,6,2,,Heracles,,0,01.05.2016 14:30,Eredivisie - Round 33,cat584,2,,44,0,,3,,6,,7,1,1,1,,3,4,,Den Haag,,1,01.05.2016 14:30,Eredivisie - Round 33
+585,cat585,1,,54,0,,2,,5,,7,0,0,0,,2,5,,Heracles,,0,01.05.2016 14:30,Eredivisie - Round 33,cat585,2,,46,0,,2,,11,,1,5,0,2,,1,0,,Den Haag,,1,01.05.2016 14:30,Eredivisie - Round 33
+586,cat586,1,,60,0,,2,,5,,3,0,0,1,,2,1,,Heerenveen,,1,01.05.2016 14:30,Eredivisie - Round 33,cat586,2,,40,0,,0,,4,,3,1,1,3,,2,1,,Groningen,,1,01.05.2016 14:30,Eredivisie - Round 33
+587,cat587,1,,58,1,,3,,4,,11,0,1,0,,5,5,,Heerenveen,,,01.05.2016 14:30,Eredivisie - Round 33,cat587,2,,42,1,,0,,3,,5,4,1,1,,3,1,,Groningen,,,01.05.2016 14:30,Eredivisie - Round 33
+588,cat588,1,,50,3,,7,,2,,13,3,2,1,,6,4,,Excelsior,,0,01.05.2016 14:30,Eredivisie - Round 33,cat588,2,,50,0,,5,,7,,6,2,1,0,,2,4,,Zwolle,,2,01.05.2016 14:30,Eredivisie - Round 33
+589,cat589,1,,44,0,,1,,8,,5,1,0,1,,5,0,,Excelsior,,,01.05.2016 14:30,Eredivisie - Round 33,cat589,2,,56,1,,0,,7,,6,0,1,0,,3,2,,Zwolle,,,01.05.2016 14:30,Eredivisie - Round 33
+590,cat590,1,,56,2,,3,,6,,12,1,1,4,,4,6,,AZ Alkmaar,,1,01.05.2016 14:30,Eredivisie - Round 33,cat590,2,,44,3,,1,,9,,5,5,0,1,,1,1,,Graafschap,,2,01.05.2016 14:30,Eredivisie - Round 33
+591,cat591,1,,62,2,,3,,6,,7,1,3,1,,2,3,,AZ Alkmaar,,,01.05.2016 14:30,Eredivisie - Round 33,cat591,2,,38,1,,1,,5,,3,0,1,1,,0,2,,Graafschap,,,01.05.2016 14:30,Eredivisie - Round 33
+592,cat592,1,,58,2,,5,,6,,12,3,3,2,,6,4,,Ajax,,0,01.05.2016 14:30,Eredivisie - Round 33,cat592,2,,42,0,,3,,6,,6,1,0,2,,3,3,,Twente,,2,01.05.2016 14:30,Eredivisie - Round 33
+593,cat593,1,,56,4,,2,,5,,10,2,1,0,,1,5,,Ajax,,1,01.05.2016 14:30,Eredivisie - Round 33,cat593,2,,44,0,,0,,6,,4,4,0,1,,2,2,,Twente,,0,01.05.2016 14:30,Eredivisie - Round 33
+594,cat594,1,,51,,,2,,,12,5,2,1,,,2,3,,Maastricht,,1,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals,cat594,2,,49,,,6,,,6,6,2,1,,,3,3,,FC Volendam,,2,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals
+595,cat595,1,,51,,,0,,,10,3,3,1,,,2,1,,Maastricht,,1,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals,cat595,2,,49,,,2,,,13,3,0,0,,,0,3,,FC Volendam,,0,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals
+596,cat596,1,,50,,,0,,,9,7,2,2,,,1,6,,Almere City,,2,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals,cat596,2,,50,,,3,,,10,5,4,0,,,3,2,,FC Emmen,,1,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals
+597,cat597,1,,58,,,2,,,8,8,0,2,,,3,5,,Almere City,,1,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals,cat597,2,,42,,,0,,,5,3,3,1,,,2,1,,FC Emmen,,1,02.05.2016 20:00,Eredivisie - Relegation - Quarter-finals
+598,cat598,1,,50,,,1,,,8,5,2,0,,1,3,2,,FC Emmen,,1,06.05.2016 18:30,Eredivisie - Relegation - Quarter-finals,cat598,2,,50,,,1,,,6,9,2,4,,0,3,6,,Almere City,,1,06.05.2016 18:30,Eredivisie - Relegation - Quarter-finals
+599,cat599,1,,52,,,3,,,8,8,0,1,,,6,2,,FC Emmen,,1,06.05.2016 18:30,Eredivisie - Relegation - Quarter-finals,cat599,2,,48,,,1,,,7,1,1,0,,,1,0,,Almere City,,1,06.05.2016 18:30,Eredivisie - Relegation - Quarter-finals
+600,cat600,1,,44,,,2,,,7,10,6,0,,,4,6,,FC Volendam,,0,06.05.2016 20:45,Eredivisie - Relegation - Quarter-finals,cat600,2,,56,,,4,,,7,11,5,0,,,4,7,,Maastricht,,2,06.05.2016 20:45,Eredivisie - Relegation - Quarter-finals
+601,cat601,1,,46,,,2,,,7,6,2,0,,,4,2,,FC Volendam,,2,06.05.2016 20:45,Eredivisie - Relegation - Quarter-finals,cat601,2,,54,,,2,,,8,9,2,1,,,6,3,,Maastricht,,0,06.05.2016 20:45,Eredivisie - Relegation - Quarter-finals
+602,cat602,1,,45,3,,4,,10,,5,4,1,0,,1,1,,Zwolle,,2,08.05.2016 14:30,Eredivisie - Round 34,cat602,2,,55,0,,1,,3,,8,0,1,1,,3,5,,PSV,,0,08.05.2016 14:30,Eredivisie - Round 34
+603,cat603,1,,45,2,,2,,7,,8,2,0,2,,3,3,,Zwolle,,1,08.05.2016 14:30,Eredivisie - Round 34,cat603,2,,55,3,,6,,6,,11,3,2,1,,4,4,,PSV,,1,08.05.2016 14:30,Eredivisie - Round 34
+604,cat604,1,,63,1,,4,,2,,10,3,0,1,,5,4,,Utrecht,,1,08.05.2016 14:30,Eredivisie - Round 34,cat604,2,,37,1,,4,,5,,8,3,0,3,,3,4,,AZ Alkmaar,,1,08.05.2016 14:30,Eredivisie - Round 34
+605,cat605,1,,63,1,,2,,2,,3,0,0,0,,1,1,,Utrecht,,,08.05.2016 14:30,Eredivisie - Round 34,cat605,2,,37,0,,3,,8,,2,1,2,3,,0,2,,AZ Alkmaar,,,08.05.2016 14:30,Eredivisie - Round 34
+606,cat606,1,,34,1,,0,,9,,7,6,1,3,,4,2,,Twente,,2,08.05.2016 14:30,Eredivisie - Round 34,cat606,2,,66,4,,4,,8,,15,1,1,1,,4,7,,Vitesse,,1,08.05.2016 14:30,Eredivisie - Round 34
+607,cat607,1,,44,0,,1,,6,,3,0,1,3,,2,1,,Twente,,0,08.05.2016 14:30,Eredivisie - Round 34,cat607,2,,56,2,,4,,8,,9,0,1,0,,6,1,,Vitesse,,1,08.05.2016 14:30,Eredivisie - Round 34
+608,cat608,1,,47,1,,0,,9,,6,3,0,0,,4,1,,Roda,,2,08.05.2016 14:30,Eredivisie - Round 34,cat608,2,,53,1,,3,,12,,7,1,2,0,,1,5,,Willem II,,0,08.05.2016 14:30,Eredivisie - Round 34
+609,cat609,1,,41,2,,2,,7,,4,0,2,0,,0,2,,Roda,,2,08.05.2016 14:30,Eredivisie - Round 34,cat609,2,,59,0,,0,,7,,4,0,1,1,,3,1,,Willem II,,1,08.05.2016 14:30,Eredivisie - Round 34
+610,cat610,1,,44,4,,5,,7,,12,3,2,0,,4,4,,Groningen,,,08.05.2016 14:30,Eredivisie - Round 34,cat610,2,,56,0,,3,,3,,6,2,1,2,,2,4,,Heracles,,,08.05.2016 14:30,Eredivisie - Round 34
+611,cat611,1,,50,2,,4,,6,,6,0,0,0,,4,0,,Groningen,,,08.05.2016 14:30,Eredivisie - Round 34,cat611,2,,50,1,,0,,3,,1,0,0,2,,0,0,,Heracles,,,08.05.2016 14:30,Eredivisie - Round 34
+612,cat612,1,,35,1,,2,,8,,7,4,1,3,,3,3,,Graafschap,,2,08.05.2016 14:30,Eredivisie - Round 34,cat612,2,,65,4,,6,,0,,13,2,0,1,,5,4,,Ajax,,0,08.05.2016 14:30,Eredivisie - Round 34
+613,cat613,1,,49,1,,3,,2,,2,1,0,2,,1,0,,Graafschap,,,08.05.2016 14:30,Eredivisie - Round 34,cat613,2,,51,2,,4,,5,,8,0,1,1,,4,2,,Ajax,,,08.05.2016 14:30,Eredivisie - Round 34
+614,cat614,1,,57,1,,2,,7,,8,2,1,0,,3,4,,Feyenoord,,0,08.05.2016 14:30,Eredivisie - Round 34,cat614,2,,43,0,,3,,7,,5,3,0,0,,3,2,,Nijmegen,,2,08.05.2016 14:30,Eredivisie - Round 34
+615,cat615,1,,69,1,,2,,6,,4,0,0,1,,2,1,,Feyenoord,,0,08.05.2016 14:30,Eredivisie - Round 34,cat615,2,,31,2,,2,,10,,3,1,0,3,,1,0,,Nijmegen,,1,08.05.2016 14:30,Eredivisie - Round 34
+616,cat616,1,,42,1,,4,,3,,10,0,0,2,,6,3,,Den Haag,,1,08.05.2016 14:30,Eredivisie - Round 34,cat616,2,,58,2,,2,,6,,6,3,1,1,,3,1,,Heerenveen,,1,08.05.2016 14:30,Eredivisie - Round 34
+617,cat617,1,,50,1,,5,,3,,8,0,1,4,,4,3,,Den Haag,,0,08.05.2016 14:30,Eredivisie - Round 34,cat617,2,,50,1,,0,,6,,2,2,0,0,,1,0,,Heerenveen,,1,08.05.2016 14:30,Eredivisie - Round 34
+618,cat618,1,,82,3,,4,,3,,9,2,0,0,,1,5,,Cambuur,,,08.05.2016 14:30,Eredivisie - Round 34,cat618,2,,18,0,,3,,7,,3,5,1,0,,0,3,,Excelsior,,,08.05.2016 14:30,Eredivisie - Round 34
+619,cat619,1,,70,3,,1,,9,,8,1,0,0,,2,3,,Cambuur,,1,08.05.2016 14:30,Eredivisie - Round 34,cat619,2,,30,0,,5,,11,,8,3,1,2,,6,2,,Excelsior,,1,08.05.2016 14:30,Eredivisie - Round 34
+620,cat620,1,,50,0,,2,,8,,5,1,1,0,,3,2,,Groningen,,1,12.05.2016 18:30,Eredivisie - Europa League - Play Offs - Semi-finals,cat620,2,,50,3,,2,,8,,6,1,0,1,,2,1,,Heracles,,1,12.05.2016 18:30,Eredivisie - Europa League - Play Offs - Semi-finals
+621,cat621,1,,46,0,,3,,4,,3,1,1,1,,2,1,,Groningen,,0,12.05.2016 18:30,Eredivisie - Europa League - Play Offs - Semi-finals,cat621,2,,54,1,,1,,4,,3,0,1,1,,0,2,,Heracles,,2,12.05.2016 18:30,Eredivisie - Europa League - Play Offs - Semi-finals
+622,cat622,1,,57,4,,6,,3,,6,2,2,3,,2,0,,Zwolle,,0,12.05.2016 20:45,Eredivisie - Europa League - Play Offs - Semi-finals,cat622,2,,43,0,,2,,10,,5,0,2,2,,3,2,,Utrecht,,2,12.05.2016 20:45,Eredivisie - Europa League - Play Offs - Semi-finals
+623,cat623,1,,55,1,,1,,8,,5,1,0,3,,4,0,,Zwolle,,1,12.05.2016 20:45,Eredivisie - Europa League - Play Offs - Semi-finals,cat623,2,,45,1,,1,,6,,4,0,3,2,,2,1,,Utrecht,,1,12.05.2016 20:45,Eredivisie - Europa League - Play Offs - Semi-finals
+624,cat624,1,,54,,,6,,,9,4,3,0,,,1,3,,Maastricht,,1,13.05.2016 18:30,Eredivisie - Relegation - Semi-finals,cat624,2,,46,,,4,,,10,7,3,1,,,3,4,,Graafschap,,1,13.05.2016 18:30,Eredivisie - Relegation - Semi-finals
+625,cat625,1,,46,,,2,,,10,5,1,0,,,2,3,,Maastricht,,,13.05.2016 18:30,Eredivisie - Relegation - Semi-finals,cat625,2,,54,,,3,,,8,4,3,0,,,3,1,,Graafschap,,,13.05.2016 18:30,Eredivisie - Relegation - Semi-finals
+626,cat626,1,,60,,,5,,,6,8,1,1,,0,6,2,,G.A. Eagles,,1,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals,cat626,2,,40,,,2,,,9,5,1,0,,1,4,1,,Venlo,,3,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals
+627,cat627,1,,58,,,3,,,7,2,1,0,,,1,1,,G.A. Eagles,,1,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals,cat627,2,,42,,,1,,,8,4,1,0,,,3,1,,Venlo,,0,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals
+628,cat628,1,,43,,,1,,,6,6,3,1,,,4,2,,Eindhoven FC,,1,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals,cat628,2,,57,,,0,,,7,10,1,0,,,7,3,,Breda,,0,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals
+629,cat629,1,,53,,,2,,,7,0,0,0,,,0,0,,Eindhoven FC,,3,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals,cat629,2,,47,,,1,,,8,2,0,0,,,2,0,,Breda,,1,13.05.2016 19:45,Eredivisie - Relegation - Semi-finals
+630,cat630,1,,55,0,,4,,,13,7,0,0,,0,7,0,,Almere City,,1,13.05.2016 20:45,Eredivisie - Relegation - Semi-finals,cat630,2,,45,0,,1,,,8,0,0,0,,1,0,0,,Willem II,,4,13.05.2016 20:45,Eredivisie - Relegation - Semi-finals
+631,cat631,1,,43,0,,1,,,8,3,2,0,,,2,1,,Almere City,,,13.05.2016 20:45,Eredivisie - Relegation - Semi-finals,cat631,2,,57,0,,2,,,10,6,1,1,,,3,3,,Willem II,,,13.05.2016 20:45,Eredivisie - Relegation - Semi-finals
+632,cat632,1,,59,4,,2,,5,,18,1,2,0,,7,7,,Heracles,,1,15.05.2016 12:30,Eredivisie - Europa League - Play Offs - Semi-finals,cat632,2,,41,0,,0,,7,,2,5,1,0,,0,2,,Groningen,,2,15.05.2016 12:30,Eredivisie - Europa League - Play Offs - Semi-finals
+633,cat633,1,,67,3,,5,,5,,11,1,0,0,,6,2,,Heracles,,0,15.05.2016 12:30,Eredivisie - Europa League - Play Offs - Semi-finals,cat633,2,,33,0,,1,,7,,4,2,0,0,,3,1,,Groningen,,1,15.05.2016 12:30,Eredivisie - Europa League - Play Offs - Semi-finals
+634,cat634,1,,55,2,,3,,8,,9,1,2,3,0,4,3,,Utrecht,,0,15.05.2016 14:30,Eredivisie - Europa League - Play Offs - Semi-finals,cat634,2,,45,1,,1,,6,,4,1,2,0,1,0,3,,Zwolle,,1,15.05.2016 14:30,Eredivisie - Europa League - Play Offs - Semi-finals
+635,cat635,1,,51,0,,4,,6,,6,1,3,0,,3,3,,Utrecht,,1,15.05.2016 14:30,Eredivisie - Europa League - Play Offs - Semi-finals,cat635,2,,49,2,,3,,8,,6,0,0,1,,3,1,,Zwolle,,2,15.05.2016 14:30,Eredivisie - Europa League - Play Offs - Semi-finals
+636,cat636,1,,67,3,,2,,10,,10,1,1,3,,3,4,,Graafschap,,4,16.05.2016 12:30,Eredivisie - Relegation - Semi-finals,cat636,2,,33,0,,4,,8,,4,3,0,0,,3,1,,Maastricht,,1,16.05.2016 12:30,Eredivisie - Relegation - Semi-finals
+637,cat637,1,,47,2,,3,,10,,8,0,1,1,,4,2,,Graafschap,,2,16.05.2016 12:30,Eredivisie - Relegation - Semi-finals,cat637,2,,53,0,,1,,12,,4,1,1,1,,3,1,,Maastricht,,2,16.05.2016 12:30,Eredivisie - Relegation - Semi-finals
+638,cat638,1,,65,2,,3,,8,,8,3,0,1,,5,1,,Venlo,,1,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals,cat638,2,,35,0,,1,,6,,5,1,1,1,,1,4,,G.A. Eagles,,1,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals
+639,cat639,1,,55,1,,2,,5,,12,2,2,0,,2,9,,Venlo,,1,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals,cat639,2,,45,0,,2,,8,,4,7,1,0,,1,3,,G.A. Eagles,,0,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals
+640,cat640,1,,41,0,,2,,5,,4,1,0,1,2,1,3,,Breda,,2,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals,cat640,2,,59,2,,3,,12,,4,3,0,0,0,1,1,,Eindhoven FC,,3,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals
+641,cat641,1,,54,,,2,,9,,5,0,2,1,,0,5,,Breda,,2,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals,cat641,2,,46,,,0,,9,,2,3,0,0,,2,0,,Eindhoven FC,,1,16.05.2016 14:30,Eredivisie - Relegation - Semi-finals
+642,cat642,1,,57,0,,3,,11,,11,4,4,2,,1,10,,Willem II,,,16.05.2016 16:45,Eredivisie - Relegation - Semi-finals,cat642,2,,43,0,,4,,8,,8,6,2,1,,2,6,,Almere City,,,16.05.2016 16:45,Eredivisie - Relegation - Semi-finals
+643,cat643,1,,53,0,,1,,9,,4,4,1,1,,3,1,,Willem II,,,16.05.2016 16:45,Eredivisie - Relegation - Semi-finals,cat643,2,,47,0,,3,,7,,7,0,0,0,,3,4,,Almere City,,,16.05.2016 16:45,Eredivisie - Relegation - Semi-finals
+644,cat644,1,,42,2,,1,,7,,7,1,2,2,,2,3,,Breda,,2,19.05.2016 18:30,Eredivisie - Relegation - Final,cat644,2,,58,0,,0,,9,,2,1,0,0,,1,1,,Willem II,,1,19.05.2016 18:30,Eredivisie - Relegation - Final
+645,cat645,1,,49,1,,2,,6,,4,0,0,2,,1,2,,Breda,,,19.05.2016 18:30,Eredivisie - Relegation - Final,cat645,2,,51,2,,2,,8,,3,2,1,0,,0,1,,Willem II,,,19.05.2016 18:30,Eredivisie - Relegation - Final
+646,cat646,1,,61,0,,5,,6,,9,0,1,0,,6,3,,G.A. Eagles,,0,19.05.2016 19:45,Eredivisie - Relegation - Final,cat646,2,,39,0,,1,,4,,2,2,0,0,,2,0,,Graafschap,,1,19.05.2016 19:45,Eredivisie - Relegation - Final
+647,cat647,1,,55,1,,2,,4,,11,3,3,0,0,5,5,,G.A. Eagles,,0,19.05.2016 19:45,Eredivisie - Relegation - Final,cat647,2,,45,1,,1,,8,,6,2,1,0,1,1,4,,Graafschap,,1,19.05.2016 19:45,Eredivisie - Relegation - Final
+648,cat648,1,,55,2,,2,,8,,11,1,0,1,,4,5,,Heracles,,1,19.05.2016 20:45,Eredivisie - Europa League - Play Offs - Final,cat648,2,,45,1,,0,,13,,4,5,1,0,,1,2,,Utrecht,,2,19.05.2016 20:45,Eredivisie - Europa League - Play Offs - Final
+649,cat649,1,,47,1,,1,,6,,6,1,1,4,,3,2,,Heracles,,,19.05.2016 20:45,Eredivisie - Europa League - Play Offs - Final,cat649,2,,53,1,,4,,4,,5,1,0,1,,3,1,,Utrecht,,,19.05.2016 20:45,Eredivisie - Europa League - Play Offs - Final
+650,cat650,1,,56,,,5,,4,,17,2,0,2,,10,7,,Graafschap,,1,22.05.2016 12:30,Eredivisie - Relegation - Final,cat650,2,,44,,,0,,5,,2,7,0,1,,0,2,,G.A. Eagles,,2,22.05.2016 12:30,Eredivisie - Relegation - Final
+651,cat651,1,,62,,,10,,6,,12,0,1,0,,10,2,,Graafschap,,2,22.05.2016 12:30,Eredivisie - Relegation - Final,cat651,2,,38,,,1,,3,,2,1,1,0,,1,1,,G.A. Eagles,,0,22.05.2016 12:30,Eredivisie - Relegation - Final
+652,cat652,1,,59,3,,3,,8,,8,5,0,0,,2,3,,Utrecht,,1,22.05.2016 14:30,Eredivisie - Europa League - Play Offs - Final,cat652,2,,41,3,,5,,9,,12,3,2,2,,2,7,,Heracles,,1,22.05.2016 14:30,Eredivisie - Europa League - Play Offs - Final
+653,cat653,1,,49,1,,2,,5,,5,2,0,1,,2,2,,Utrecht,,0,22.05.2016 14:30,Eredivisie - Europa League - Play Offs - Final,cat653,2,,51,1,,2,,8,,6,2,0,2,,3,2,,Heracles,,1,22.05.2016 14:30,Eredivisie - Europa League - Play Offs - Final
+654,cat654,1,,54,,,4,,9,,5,1,2,0,,2,3,,Willem II,,1,22.05.2016 16:45,Eredivisie - Relegation - Final,cat654,2,,46,,,3,,2,,4,1,1,3,,2,2,,Breda,,1,22.05.2016 16:45,Eredivisie - Relegation - Final
+655,cat655,1,,60,,,4,,10,,9,1,1,0,,6,3,,Willem II,,2,22.05.2016 16:45,Eredivisie - Relegation - Final,cat655,2,,40,,,1,,12,,4,2,0,3,,3,1,,Breda,,3,22.05.2016 16:45,Eredivisie - Relegation - Final

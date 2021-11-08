@@ -1,0 +1,307 @@
+,TEAMS,GOALS,xG,SHOTS,SHOTS ON TARGET,DEEP,PPDA,xPTS,A_TEAMS,A_GOALS,A_xG,A_SHOTS,A_SHOTS ON TARGET,A_DEEP,A_PPDA,A_xPTS
+0,Bayern Munich,2,2.48,17,7,17,10.50,2.36,Hertha Berlin,2,1.18,6,3,2,16.22,0.45
+1,Schalke 04,0,1.08,11,2,6,18.28,0.90,Bayern Munich,3,1.60,10,6,9,9.68,1.83
+2,Bayern Munich,6,3.35,18,10,8,5.35,2.81,Mainz 05,1,0.72,7,4,2,20.35,0.12
+3,RasenBallsport Leipzig,1,1.65,13,6,7,17.18,1.36,Bayern Munich,1,1.67,14,7,10,9.14,1.37
+4,Bayern Munich,4,2.92,25,5,12,7.92,2.55,FC Cologne,0,1.03,14,2,7,14.50,0.33
+5,Paderborn,2,0.28,10,5,2,16.80,0.04,Bayern Munich,3,3.47,18,6,17,9.86,2.93
+6,Bayern Munich,1,1.77,20,4,11,8.21,2.17,Hoffenheim,2,0.72,8,5,3,21.47,0.61
+7,Augsburg,2,2.14,9,7,3,33.54,0.79,Bayern Munich,2,3.06,24,9,20,6.29,2.00
+8,Bayern Munich,2,2.88,21,10,15,8.86,2.17,Union Berlin,1,1.73,6,4,0,15.54,0.62
+9,Eintracht Frankfurt,5,3.00,17,11,7,9.95,2.58,Bayern Munich,1,1.08,8,3,5,15.00,0.29
+10,Bayern Munich,4,3.91,17,5,8,10.00,2.93,Borussia Dortmund,0,0.61,2,0,1,18.27,0.04
+11,Fortuna Duesseldorf,0,0.44,13,1,3,32.38,0.03,Bayern Munich,4,3.82,17,5,14,5.57,2.95
+12,Bayern Munich,1,2.25,24,11,16,4.61,1.90,Bayer Leverkusen,2,1.45,11,7,3,20.50,0.89
+13,B. Monchengladbach,2,1.33,7,3,2,9.97,1.05,Bayern Munich,1,1.74,16,5,8,5.58,1.66
+14,Bayern Munich,6,5.84,28,14,15,4.84,2.99,Werder Bremen,1,0.54,10,2,3,33.08,0.00
+15,Freiburg,1,2.14,15,5,8,23.93,0.35,Bayern Munich,3,4.41,22,10,15,5.92,2.54
+16,Bayern Munich,2,1.58,18,8,11,7.75,1.92,Wolfsburg,0,0.89,10,3,5,19.83,0.82
+17,Hertha Berlin,0,0.83,7,1,3,25.53,0.19,Bayern Munich,4,2.96,20,11,12,4.54,2.70
+18,Bayern Munich,5,3.90,24,14,10,8.43,2.95,Schalke 04,0,0.40,7,1,2,35.62,0.03
+19,Mainz 05,1,0.33,8,3,3,19.13,0.27,Bayern Munich,3,2.04,13,5,9,6.86,2.58
+20,Bayern Munich,0,1.07,11,3,6,8.15,0.80,RasenBallsport Leipzig,0,1.76,9,1,5,16.19,1.95
+21,FC Cologne,1,2.04,13,5,5,14.08,0.79,Bayern Munich,4,3.04,24,8,18,7.59,2.02
+22,Bayern Munich,3,3.24,18,9,19,6.77,2.48,Paderborn,2,1.47,5,4,0,32.67,0.38
+23,Hoffenheim,0,0.55,4,1,2,22.88,0.02,Bayern Munich,6,4.78,25,11,13,8.68,2.97
+24,Bayern Munich,2,4.06,18,6,15,5.45,2.86,Augsburg,0,1.02,6,2,3,21.05,0.09
+25,Union Berlin,0,0.55,9,2,4,20.30,0.57,Bayern Munich,2,1.39,13,3,10,4.60,2.17
+26,Bayern Munich,5,3.59,23,10,6,6.20,2.72,Eintracht Frankfurt,2,1.03,12,4,2,23.94,0.20
+27,Borussia Dortmund,0,0.62,13,5,8,18.44,1.15,Bayern Munich,1,0.77,11,5,6,9.84,1.47
+28,Bayern Munich,5,3.03,21,8,15,8.04,2.72,Fortuna Duesseldorf,0,0.72,7,2,0,30.85,0.18
+29,Bayer Leverkusen,2,0.77,10,6,3,12.55,0.31,Bayern Munich,4,2.65,16,10,11,11.35,2.57
+30,Bayern Munich,2,1.78,10,5,8,13.50,2.00,B. Monchengladbach,1,0.98,9,2,4,20.69,0.74
+31,Werder Bremen,0,0.27,6,1,4,25.00,0.45,Bayern Munich,1,1.33,12,3,15,7.91,2.29
+32,Bayern Munich,3,2.15,23,9,16,10.87,1.91,Freiburg,1,1.43,11,3,5,18.74,0.84
+33,Wolfsburg,0,0.75,12,4,2,15.24,0.16,Bayern Munich,4,3.22,16,9,7,10.32,2.77
+34,Hertha Berlin,0,0.94,9,2,10,7.96,0.99,Wolfsburg,3,1.33,10,4,5,11.31,1.70
+35,Schalke 04,3,1.17,9,2,7,11.77,1.74,Hertha Berlin,0,0.77,10,3,6,21.38,0.95
+36,Mainz 05,2,1.12,12,5,4,10.52,0.71,Hertha Berlin,1,2.08,16,8,8,14.83,2.06
+37,Hertha Berlin,2,0.98,6,4,4,8.19,0.68,Paderborn,1,1.89,18,8,8,5.86,2.09
+38,FC Cologne,0,0.53,8,3,8,10.00,0.26,Hertha Berlin,4,2.20,10,6,4,18.88,2.60
+39,Hertha Berlin,3,2.02,17,3,6,11.18,2.02,Fortuna Duesseldorf,1,1.18,10,3,2,12.61,0.73
+40,Werder Bremen,1,0.97,16,5,10,15.11,1.90,Hertha Berlin,1,0.35,12,2,2,24.23,0.74
+41,Hertha Berlin,2,2.37,13,4,7,9.76,1.01,Hoffenheim,3,2.93,17,8,4,11.35,1.76
+42,Union Berlin,1,1.31,14,6,3,8.50,2.27,Hertha Berlin,0,0.42,7,3,4,27.22,0.48
+43,Hertha Berlin,2,0.46,7,3,2,16.13,0.24,RasenBallsport Leipzig,4,1.94,10,7,9,7.07,2.63
+44,Augsburg,4,1.77,14,5,2,11.13,2.15,Hertha Berlin,0,0.80,5,1,2,14.17,0.60
+45,Hertha Berlin,1,0.75,13,3,7,8.97,0.73,Borussia Dortmund,2,1.48,7,5,9,15.95,2.02
+46,Eintracht Frankfurt,2,2.69,25,6,9,6.00,2.24,Hertha Berlin,2,1.44,9,3,1,12.94,0.57
+47,Hertha Berlin,1,0.93,16,4,3,22.93,1.42,Freiburg,0,0.82,14,2,9,18.64,1.24
+48,Bayer Leverkusen,0,1.32,17,7,6,5.75,1.20,Hertha Berlin,1,1.51,10,5,1,16.92,1.53
+49,Hertha Berlin,0,0.80,7,0,2,19.06,1.57,B. Monchengladbach,0,0.63,11,5,8,10.00,1.06
+50,Wolfsburg,1,1.14,20,7,13,7.88,0.89,Hertha Berlin,2,1.72,9,4,4,22.85,1.85
+51,Hertha Berlin,0,0.42,9,0,2,17.21,0.67,Schalke 04,0,1.11,13,5,6,7.12,2.02
+52,Hertha Berlin,1,0.81,13,3,7,5.48,0.20,Mainz 05,3,2.85,11,3,7,16.81,2.70
+53,Paderborn,1,0.92,21,4,9,9.62,0.55,Hertha Berlin,2,2.11,16,6,3,7.65,2.26
+54,Hertha Berlin,0,0.45,9,1,7,4.63,0.13,FC Cologne,5,2.90,17,11,5,21.47,2.80
+55,Fortuna Duesseldorf,3,1.46,14,5,7,12.68,0.42,Hertha Berlin,3,3.04,15,7,10,12.58,2.44
+56,Hertha Berlin,2,0.90,19,5,4,7.21,0.82,Werder Bremen,2,1.51,7,3,2,15.25,1.92
+57,Hoffenheim,0,2.79,18,2,5,15.94,2.19,Hertha Berlin,3,1.55,13,6,6,10.50,0.64
+58,Hertha Berlin,4,2.52,15,7,5,9.86,2.78,Union Berlin,0,0.27,7,0,4,19.06,0.13
+59,RasenBallsport Leipzig,2,0.61,11,4,3,10.89,0.54,Hertha Berlin,2,1.57,12,3,5,9.50,2.22
+60,Hertha Berlin,2,3.05,11,5,2,8.48,2.55,Augsburg,0,1.13,8,3,3,32.00,0.32
+61,Borussia Dortmund,1,1.85,13,3,8,13.05,2.77,Hertha Berlin,0,0.11,4,1,6,17.42,0.13
+62,Hertha Berlin,1,0.60,5,4,2,16.21,0.12,Eintracht Frankfurt,4,2.94,18,7,9,9.52,2.81
+63,Freiburg,2,1.81,19,6,12,21.42,1.63,Hertha Berlin,1,1.43,11,5,5,16.50,1.11
+64,Hertha Berlin,2,2.36,14,5,5,16.23,2.60,Bayer Leverkusen,0,0.68,12,2,7,5.42,0.27
+65,B. Monchengladbach,2,3.07,23,8,9,13.14,2.69,Hertha Berlin,1,0.83,5,2,4,18.57,0.20
+66,Werder Bremen,1,2.01,24,10,14,11.87,2.10,Fortuna Duesseldorf,3,1.02,12,7,7,21.00,0.67
+67,Hoffenheim,3,1.05,10,3,4,10.50,1.54,Werder Bremen,2,0.84,18,6,3,16.53,1.13
+68,Werder Bremen,3,2.47,15,5,5,8.81,2.12,Augsburg,2,1.48,12,6,5,18.88,0.65
+69,Union Berlin,1,1.98,13,5,5,8.77,1.23,Werder Bremen,2,2.15,16,7,6,9.12,1.48
+70,Werder Bremen,0,0.58,8,1,9,13.95,0.50,RasenBallsport Leipzig,3,1.73,14,7,8,9.79,2.28
+71,Borussia Dortmund,2,1.76,19,7,8,11.67,1.98,Werder Bremen,2,0.98,11,5,3,22.41,0.77
+72,Eintracht Frankfurt,2,2.96,25,7,8,6.78,2.27,Werder Bremen,2,1.76,11,5,2,14.69,0.53
+73,Bayer Leverkusen,2,2.95,24,4,8,5.00,2.81,Werder Bremen,2,0.50,11,3,6,17.41,0.12
+74,Werder Bremen,2,2.03,20,9,9,15.20,2.23,Freiburg,2,0.87,13,3,5,11.25,0.57
+75,B. Monchengladbach,3,2.16,17,7,6,6.97,1.77,Werder Bremen,1,1.60,16,7,3,10.22,0.97
+76,Werder Bremen,1,1.73,18,5,7,8.58,2.30,Schalke 04,2,0.66,11,5,4,9.33,0.48
+77,Wolfsburg,2,2.71,20,6,7,5.58,2.38,Werder Bremen,3,1.29,10,3,2,12.29,0.44
+78,Werder Bremen,0,0.83,12,3,10,9.11,0.78,Paderborn,1,1.52,15,5,4,8.93,1.93
+79,Werder Bremen,0,0.49,14,5,6,6.46,0.31,Mainz 05,5,2.18,17,8,8,18.24,2.55
+80,FC Cologne,1,1.03,7,1,6,6.93,2.18,Werder Bremen,0,0.23,6,1,3,7.97,0.50
+81,Fortuna Duesseldorf,0,1.01,18,2,6,7.29,1.63,Werder Bremen,1,0.67,13,4,6,9.57,1.03
+82,Werder Bremen,0,0.91,16,3,7,8.52,1.13,Hoffenheim,3,1.17,11,5,5,12.05,1.57
+83,Augsburg,2,1.22,15,4,4,11.84,1.85,Werder Bremen,1,0.63,7,1,2,11.42,0.85
+84,Werder Bremen,0,1.25,14,3,10,7.39,0.65,Union Berlin,2,2.26,11,5,3,13.47,2.14
+85,RasenBallsport Leipzig,3,2.22,10,3,5,13.32,2.86,Werder Bremen,0,0.21,8,1,1,13.19,0.08
+86,Werder Bremen,0,0.22,8,2,2,21.87,0.37,Borussia Dortmund,2,1.36,12,6,7,15.87,2.38
+87,Werder Bremen,1,0.88,10,1,3,17.26,0.26,Bayer Leverkusen,4,2.88,13,6,11,10.88,2.63
+88,Freiburg,0,0.72,17,7,5,9.81,1.54,Werder Bremen,1,0.46,10,2,3,19.18,1.05
+89,Werder Bremen,0,0.84,12,7,3,12.03,1.79,B. Monchengladbach,0,0.36,8,4,3,10.46,0.82
+90,Schalke 04,0,0.79,12,1,6,10.00,1.77,Werder Bremen,1,0.35,6,2,6,4.97,0.83
+91,Werder Bremen,0,0.39,11,3,4,10.67,0.34,Eintracht Frankfurt,3,1.75,11,4,2,8.07,2.48
+92,Werder Bremen,0,0.42,13,2,5,7.83,0.34,Wolfsburg,1,1.84,17,3,6,12.82,2.49
+93,Paderborn,1,1.97,18,7,4,10.75,0.57,Werder Bremen,5,3.13,11,8,7,5.56,2.23
+94,Mainz 05,3,2.07,20,12,9,12.13,1.93,Werder Bremen,1,1.36,18,6,15,5.19,0.84
+95,Werder Bremen,6,3.25,18,9,5,9.30,2.76,FC Cologne,1,0.85,6,2,0,12.88,0.16
+96,Fortuna Duesseldorf,1,1.12,12,6,4,18.76,0.83,Bayer Leverkusen,3,1.82,12,7,7,5.14,1.92
+97,Eintracht Frankfurt,2,1.76,14,8,2,6.23,2.18,Fortuna Duesseldorf,1,0.76,14,4,3,12.41,0.60
+98,Fortuna Duesseldorf,1,0.68,12,3,4,14.90,0.30,Wolfsburg,1,2.29,15,6,3,6.89,2.56
+99,B. Monchengladbach,2,4.29,23,11,7,9.82,2.80,Fortuna Duesseldorf,1,1.28,18,4,5,18.40,0.14
+100,Fortuna Duesseldorf,1,2.02,18,7,3,20.23,1.62,Freiburg,2,1.67,9,3,2,12.16,1.11
+101,Fortuna Duesseldorf,1,2.02,20,4,6,11.71,2.71,Mainz 05,0,0.24,7,1,0,14.68,0.18
+102,Paderborn,2,0.74,14,6,3,8.88,0.79,Fortuna Duesseldorf,0,1.44,18,4,5,9.64,1.94
+103,Fortuna Duesseldorf,2,2.19,9,3,1,8.87,2.29,FC Cologne,0,1.03,8,1,10,6.65,0.51
+104,Schalke 04,3,1.23,12,5,3,10.20,0.69,Fortuna Duesseldorf,3,2.06,9,5,5,10.19,2.07
+105,Hoffenheim,1,2.69,12,6,6,14.85,2.59,Fortuna Duesseldorf,1,0.88,11,3,3,11.29,0.29
+106,Borussia Dortmund,5,3.95,23,10,24,8.12,2.98,Fortuna Duesseldorf,0,0.10,2,0,4,34.20,0.01
+107,Fortuna Duesseldorf,0,0.26,5,1,0,65.86,0.02,RasenBallsport Leipzig,3,3.99,22,7,10,9.37,2.97
+108,Augsburg,3,1.46,12,7,5,11.71,1.96,Fortuna Duesseldorf,0,0.76,6,2,0,10.87,0.75
+109,Fortuna Duesseldorf,2,1.17,22,8,7,16.56,0.76,Union Berlin,1,1.96,17,6,6,10.09,2.02
+110,Bayer Leverkusen,3,4.50,27,11,13,6.59,2.94,Fortuna Duesseldorf,0,0.71,12,3,4,14.50,0.04
+111,Fortuna Duesseldorf,1,0.25,8,1,1,13.16,0.37,Eintracht Frankfurt,1,1.35,6,4,6,15.11,2.40
+112,Wolfsburg,1,1.03,12,5,1,18.19,1.66,Fortuna Duesseldorf,1,0.70,10,2,5,11.45,1.01
+113,Fortuna Duesseldorf,1,0.80,9,4,6,12.21,0.28,B. Monchengladbach,4,2.77,17,6,5,14.15,2.60
+114,Freiburg,0,0.97,16,4,3,9.67,1.38,Fortuna Duesseldorf,2,0.87,9,4,4,14.14,1.29
+115,Mainz 05,1,0.97,3,1,1,22.86,0.66,Fortuna Duesseldorf,1,1.78,20,5,9,9.15,2.04
+116,Fortuna Duesseldorf,0,1.05,10,1,5,13.58,1.72,Paderborn,0,0.64,7,1,1,17.33,0.93
+117,FC Cologne,2,2.25,15,6,1,5.48,2.71,Fortuna Duesseldorf,2,0.44,10,4,5,12.96,0.18
+118,Fortuna Duesseldorf,2,1.73,13,8,6,7.00,2.27,Schalke 04,1,0.70,8,3,3,20.39,0.51
+119,Fortuna Duesseldorf,2,2.46,25,4,7,8.83,2.12,Hoffenheim,2,1.45,8,3,1,22.58,0.65
+120,Fortuna Duesseldorf,0,0.38,6,3,2,24.24,0.94,Borussia Dortmund,1,0.68,6,3,5,12.48,1.63
+121,RasenBallsport Leipzig,2,1.25,14,5,5,11.45,1.95,Fortuna Duesseldorf,2,0.59,12,2,4,29.80,0.76
+122,Fortuna Duesseldorf,1,0.35,8,2,2,9.08,0.73,Augsburg,1,0.99,11,3,5,17.41,1.92
+123,Union Berlin,3,1.19,11,5,4,12.05,1.57,Fortuna Duesseldorf,0,0.99,26,2,8,10.76,1.14
+124,Freiburg,3,1.88,19,8,3,20.20,2.26,Mainz 05,0,0.78,19,5,8,10.39,0.53
+125,Paderborn,1,1.81,16,2,4,5.56,0.94,Freiburg,3,2.38,9,4,7,14.47,1.84
+126,Freiburg,1,0.84,15,1,1,11.44,0.65,FC Cologne,2,1.63,10,3,3,6.59,2.10
+127,Hoffenheim,0,1.10,23,5,11,6.74,0.90,Freiburg,3,1.79,18,8,5,21.88,1.86
+128,Freiburg,1,1.70,17,5,5,7.10,2.04,Augsburg,1,0.88,13,2,6,10.68,0.71
+129,Freiburg,2,0.47,6,1,2,20.09,0.96,Borussia Dortmund,2,0.77,8,4,4,12.33,1.63
+130,Union Berlin,2,1.48,17,5,8,11.93,2.16,Freiburg,0,0.57,12,4,6,11.18,0.59
+131,Freiburg,2,1.78,14,3,3,12.96,0.82,RasenBallsport Leipzig,1,2.56,24,6,8,11.52,1.95
+132,Freiburg,1,0.77,13,7,6,10.44,1.00,Eintracht Frankfurt,0,1.13,17,6,7,19.00,1.67
+133,Bayer Leverkusen,1,3.97,27,9,7,6.85,2.80,Freiburg,1,1.25,8,2,4,19.70,0.13
+134,B. Monchengladbach,4,5.29,23,13,19,15.65,2.93,Freiburg,2,1.53,12,4,3,14.17,0.05
+135,Freiburg,1,0.43,10,3,2,8.86,0.44,Wolfsburg,0,1.59,10,0,2,7.21,2.36
+136,Schalke 04,2,1.70,20,6,9,8.58,0.74,Freiburg,2,2.56,19,7,3,12.50,2.03
+137,Mainz 05,1,1.63,24,8,5,7.83,1.04,Freiburg,2,2.11,13,5,4,10.82,1.73
+138,Freiburg,0,1.99,19,5,7,6.00,1.49,Paderborn,2,1.80,17,3,2,14.33,1.25
+139,FC Cologne,4,4.10,24,9,7,9.37,2.94,Freiburg,0,0.50,9,2,2,13.77,0.03
+140,Freiburg,1,2.25,12,6,8,15.19,1.64,Hoffenheim,0,1.86,20,6,10,14.72,1.13
+141,Augsburg,1,0.67,9,3,3,17.68,0.99,Freiburg,1,1.11,20,5,8,13.13,1.68
+142,Borussia Dortmund,1,1.60,16,2,10,14.63,1.99,Freiburg,0,0.83,13,4,3,22.48,0.76
+143,Freiburg,3,1.63,9,4,1,11.56,2.12,Union Berlin,1,0.81,14,4,7,9.82,0.63
+144,RasenBallsport Leipzig,1,1.92,23,8,18,10.56,2.52,Freiburg,1,0.33,6,1,3,24.40,0.31
+145,Eintracht Frankfurt,3,4.30,34,16,10,8.25,2.91,Freiburg,3,0.76,10,5,2,37.38,0.06
+146,Freiburg,0,0.69,9,1,2,31.93,1.60,Bayer Leverkusen,1,0.39,7,1,7,7.77,0.97
+147,Freiburg,1,1.56,15,6,5,15.61,0.94,B. Monchengladbach,0,2.15,18,3,7,8.42,1.83
+148,Wolfsburg,2,2.48,20,6,11,11.05,1.60,Freiburg,2,2.09,11,6,4,8.84,1.16
+149,Freiburg,4,1.88,15,8,10,11.53,2.31,Schalke 04,0,0.65,22,6,7,16.79,0.49
+150,Mainz 05,1,1.81,21,4,5,8.17,1.17,B. Monchengladbach,3,2.09,15,6,9,10.72,1.60
+151,Schalke 04,2,0.87,18,6,6,8.33,1.24,Mainz 05,1,0.99,14,3,6,7.13,1.44
+152,Mainz 05,0,1.28,15,5,5,7.61,1.56,Wolfsburg,1,0.99,4,3,7,9.46,1.12
+153,Paderborn,1,1.49,16,7,3,12.73,0.63,Mainz 05,2,2.64,16,7,7,11.26,2.17
+154,Mainz 05,3,1.55,18,6,4,7.64,1.40,FC Cologne,1,1.52,17,8,9,10.89,1.33
+155,RasenBallsport Leipzig,8,3.96,18,12,11,8.15,2.88,Mainz 05,0,0.86,9,2,4,23.63,0.08
+156,Mainz 05,2,2.05,16,5,8,6.31,1.75,Union Berlin,3,1.54,14,4,6,10.08,1.01
+157,Hoffenheim,1,2.15,22,9,9,9.12,1.42,Mainz 05,5,2.10,12,5,4,11.41,1.36
+158,Mainz 05,2,2.05,18,8,12,6.30,1.41,Eintracht Frankfurt,1,2.01,14,4,6,11.78,1.33
+159,Augsburg,2,3.04,18,5,9,9.85,2.88,Mainz 05,1,0.43,12,3,3,6.96,0.07
+160,Mainz 05,0,0.23,9,0,4,15.33,0.38,Borussia Dortmund,4,1.47,18,7,12,8.70,2.40
+161,Mainz 05,0,2.49,20,2,7,14.52,2.01,Bayer Leverkusen,1,1.56,14,4,5,5.53,0.77
+162,B. Monchengladbach,3,3.00,15,5,14,5.67,2.65,Mainz 05,1,0.89,13,9,4,15.17,0.25
+163,Mainz 05,0,1.60,15,5,8,12.74,1.72,Schalke 04,0,1.12,8,3,3,4.87,1.00
+164,Wolfsburg,4,2.86,17,6,7,7.29,2.68,Mainz 05,0,0.91,17,3,4,9.11,0.22
+165,Mainz 05,2,0.89,8,3,2,11.00,1.88,Paderborn,0,0.35,9,4,2,6.29,0.75
+166,FC Cologne,2,2.76,16,6,3,7.24,1.94,Mainz 05,2,1.97,11,5,13,10.52,0.84
+167,Mainz 05,0,0.32,4,1,3,21.15,0.00,RasenBallsport Leipzig,5,5.27,20,10,15,7.00,3.00
+168,Union Berlin,1,0.77,9,3,3,14.10,1.50,Mainz 05,1,0.59,10,2,4,7.95,1.12
+169,Mainz 05,0,1.08,18,2,8,10.32,0.84,Hoffenheim,1,1.71,12,6,1,9.75,1.91
+170,Eintracht Frankfurt,0,0.37,12,1,3,4.23,0.10,Mainz 05,2,2.91,17,4,6,13.54,2.85
+171,Mainz 05,0,1.43,17,4,10,5.63,1.80,Augsburg,1,0.89,9,3,4,12.30,0.91
+172,Borussia Dortmund,0,1.30,16,4,6,6.45,0.89,Mainz 05,2,1.87,9,5,1,33.29,1.86
+173,Bayer Leverkusen,1,1.88,13,2,14,5.47,2.56,Mainz 05,0,0.35,6,1,2,23.05,0.28
+174,Borussia Dortmund,5,3.26,22,10,14,5.91,2.74,Augsburg,1,0.90,5,1,3,22.67,0.17
+175,FC Cologne,1,0.94,13,1,2,16.63,0.52,Borussia Dortmund,3,2.08,14,6,6,4.57,2.27
+176,Union Berlin,3,1.42,15,7,2,23.74,1.18,Borussia Dortmund,1,1.60,13,2,12,8.23,1.52
+177,Borussia Dortmund,4,3.23,9,7,9,16.61,2.68,Bayer Leverkusen,0,1.15,12,2,3,6.92,0.22
+178,Eintracht Frankfurt,2,1.16,18,3,1,10.05,0.57,Borussia Dortmund,2,2.37,16,7,6,7.90,2.24
+179,Borussia Dortmund,1,1.63,16,7,6,9.32,0.43,B. Monchengladbach,0,3.22,14,3,11,12.62,2.43
+180,Schalke 04,0,1.09,14,3,3,11.00,2.08,Borussia Dortmund,0,0.35,8,3,4,8.00,0.62
+181,Borussia Dortmund,3,2.15,17,8,11,10.00,2.01,Wolfsburg,0,1.31,12,3,9,10.81,0.77
+182,Borussia Dortmund,3,1.91,17,7,14,6.00,1.20,Paderborn,3,2.11,9,4,3,31.86,1.55
+183,Borussia Dortmund,3,1.90,14,6,10,10.88,0.70,RasenBallsport Leipzig,3,2.91,12,8,5,15.11,2.10
+184,Hoffenheim,2,1.34,11,3,3,12.24,0.81,Borussia Dortmund,1,2.05,12,5,18,19.05,1.92
+185,Augsburg,3,1.81,13,5,6,24.64,0.28,Borussia Dortmund,5,3.75,17,8,11,9.10,2.60
+186,Borussia Dortmund,5,3.15,14,9,12,19.75,2.72,FC Cologne,1,0.86,11,5,5,21.95,0.19
+187,Borussia Dortmund,5,3.29,13,7,7,14.63,2.89,Union Berlin,0,0.56,5,0,0,19.61,0.07
+188,Bayer Leverkusen,4,1.10,8,5,4,10.00,1.55,Borussia Dortmund,3,0.88,12,6,9,10.91,1.13
+189,Borussia Dortmund,4,1.78,17,7,5,10.92,2.76,Eintracht Frankfurt,0,0.03,1,0,1,33.87,0.12
+190,B. Monchengladbach,1,2.62,10,3,2,13.07,2.38,Borussia Dortmund,2,1.20,10,4,3,13.32,0.46
+191,Borussia Dortmund,4,1.45,11,4,3,12.84,2.31,Schalke 04,0,0.35,10,3,3,14.42,0.45
+192,Wolfsburg,0,0.50,7,1,0,21.14,0.80,Borussia Dortmund,2,1.04,6,2,5,14.50,1.86
+193,Paderborn,1,1.14,9,1,1,27.13,0.06,Borussia Dortmund,6,4.50,16,11,13,12.94,2.91
+194,RasenBallsport Leipzig,0,1.04,16,4,11,12.37,0.24,Borussia Dortmund,2,3.12,11,7,10,14.05,2.66
+195,Borussia Dortmund,0,0.13,7,4,7,16.76,0.01,Hoffenheim,4,3.86,16,7,9,24.20,2.98
+196,Augsburg,1,1.38,12,4,3,6.11,1.78,Union Berlin,1,0.89,11,1,2,6.93,0.91
+197,Augsburg,2,1.59,8,6,3,18.40,1.94,Eintracht Frankfurt,1,0.90,22,3,9,6.17,0.81
+198,Augsburg,0,0.27,7,1,1,25.65,0.59,Bayer Leverkusen,3,0.98,11,5,6,11.00,2.09
+199,B. Monchengladbach,5,3.59,12,9,11,8.04,2.69,Augsburg,1,1.35,14,3,3,17.17,0.22
+200,Wolfsburg,0,0.96,14,3,7,7.13,1.54,Augsburg,0,0.74,10,5,5,10.65,1.12
+201,Augsburg,2,1.55,12,4,6,15.57,2.47,Schalke 04,3,0.36,10,3,5,6.76,0.34
+202,Paderborn,0,1.20,12,4,3,6.15,1.47,Augsburg,1,1.09,13,5,17,12.11,1.20
+203,FC Cologne,1,1.07,12,6,8,8.86,0.49,Augsburg,1,2.29,11,4,5,12.00,2.32
+204,Hoffenheim,2,1.76,19,8,12,5.87,0.99,Augsburg,4,2.23,6,4,5,31.43,1.76
+205,RasenBallsport Leipzig,3,3.85,22,7,10,4.32,2.94,Augsburg,1,0.60,6,2,1,11.17,0.04
+206,Union Berlin,2,1.20,12,3,3,10.36,0.51,Augsburg,0,2.48,24,7,3,10.69,2.32
+207,Eintracht Frankfurt,5,2.05,13,9,2,8.04,2.18,Augsburg,0,1.01,8,5,3,19.71,0.59
+208,Bayer Leverkusen,2,1.17,9,4,8,6.19,1.79,Augsburg,0,0.68,8,3,3,19.57,0.89
+209,Augsburg,2,1.10,8,3,4,17.43,0.26,B. Monchengladbach,3,3.18,15,7,10,12.00,2.63
+210,Augsburg,1,1.24,8,3,0,14.00,1.13,Wolfsburg,2,1.38,15,4,5,7.18,1.40
+211,Schalke 04,0,0.71,12,2,4,3.38,0.66,Augsburg,3,1.50,9,7,0,18.62,2.07
+212,Augsburg,0,0.50,12,2,4,12.50,0.69,Paderborn,0,1.19,15,2,0,23.25,2.01
+213,Augsburg,1,2.20,16,5,2,7.64,2.45,FC Cologne,1,0.79,9,2,2,6.83,0.38
+214,Augsburg,1,0.49,12,5,1,23.92,0.10,Hoffenheim,3,3.15,16,5,11,6.85,2.85
+215,Augsburg,1,0.16,5,1,3,11.63,0.16,RasenBallsport Leipzig,2,1.89,14,5,6,7.95,2.71
+216,Bayer Leverkusen,3,2.48,13,4,9,3.84,2.39,Paderborn,2,1.20,9,6,2,17.38,0.41
+217,Bayer Leverkusen,0,0.94,20,2,8,7.69,1.78,Hoffenheim,0,0.45,6,1,1,20.83,0.85
+218,Bayer Leverkusen,2,1.56,20,7,8,9.50,2.55,Union Berlin,0,0.13,4,0,1,22.52,0.26
+219,Bayer Leverkusen,1,1.66,11,8,9,7.81,0.79,RasenBallsport Leipzig,1,2.46,11,5,3,16.90,1.97
+220,Eintracht Frankfurt,3,2.74,10,5,9,16.61,2.15,Bayer Leverkusen,0,1.59,19,10,7,5.26,0.67
+221,Bayer Leverkusen,1,2.13,23,6,3,7.56,1.38,B. Monchengladbach,2,2.06,10,6,3,16.17,1.36
+222,Wolfsburg,0,0.57,10,1,4,10.34,0.80,Bayer Leverkusen,2,1.21,9,4,0,9.42,1.90
+223,Bayer Leverkusen,2,3.04,19,9,9,5.85,2.63,Schalke 04,1,1.00,5,3,2,7.75,0.26
+224,FC Cologne,2,1.95,13,5,4,11.66,2.68,Bayer Leverkusen,0,0.23,6,2,7,8.23,0.19
+225,Paderborn,1,1.38,13,7,2,12.86,0.81,Bayer Leverkusen,4,2.17,12,6,6,8.00,1.95
+226,Hoffenheim,2,2.58,14,6,7,11.44,1.05,Bayer Leverkusen,1,3.12,22,11,12,5.28,1.73
+227,Union Berlin,2,2.02,21,7,5,8.08,1.72,Bayer Leverkusen,3,1.55,13,5,7,6.55,1.04
+228,RasenBallsport Leipzig,1,0.93,9,2,10,14.69,1.15,Bayer Leverkusen,1,1.17,15,6,4,11.24,1.51
+229,Bayer Leverkusen,4,2.61,13,5,6,8.96,2.46,Eintracht Frankfurt,0,1.10,9,3,4,11.08,0.38
+230,B. Monchengladbach,1,2.27,18,7,6,10.00,0.66,Bayer Leverkusen,3,3.47,14,8,5,9.42,2.17
+231,Bayer Leverkusen,1,1.33,9,1,5,9.29,0.41,Wolfsburg,4,2.99,14,9,5,16.54,2.44
+232,Schalke 04,1,1.47,7,4,2,18.19,1.93,Bayer Leverkusen,1,0.89,15,5,6,4.64,0.80
+233,Bayer Leverkusen,3,2.19,13,6,7,9.06,2.55,FC Cologne,1,0.53,8,1,1,16.88,0.30
+234,Wolfsburg,1,1.00,16,5,9,4.78,1.83,Paderborn,1,0.49,8,3,6,10.26,0.84
+235,Paderborn,1,1.40,11,1,3,8.50,0.99,Schalke 04,5,1.92,17,11,14,7.74,1.75
+236,FC Cologne,3,2.42,17,6,3,15.71,2.58,Paderborn,0,0.57,9,1,2,9.28,0.28
+237,Hoffenheim,3,1.90,12,7,7,19.94,2.46,Paderborn,0,0.46,9,2,2,45.50,0.36
+238,Paderborn,2,1.56,8,4,4,9.19,1.23,RasenBallsport Leipzig,3,1.79,18,7,10,8.30,1.53
+239,Paderborn,1,1.38,13,3,2,4.68,1.08,Union Berlin,1,1.79,16,2,7,9.67,1.66
+240,B. Monchengladbach,2,2.80,17,6,6,6.70,2.77,Paderborn,0,0.51,12,2,4,8.61,0.15
+241,Paderborn,2,1.84,19,5,6,19.20,1.39,Eintracht Frankfurt,1,1.82,20,5,7,8.52,1.35
+242,Paderborn,2,1.20,10,7,4,8.22,0.87,Wolfsburg,4,1.83,9,5,8,6.48,1.87
+243,Schalke 04,1,1.03,15,4,15,4.29,1.75,Paderborn,1,0.56,15,4,4,14.77,0.91
+244,Paderborn,1,0.60,16,2,5,16.06,0.14,FC Cologne,2,2.68,15,3,5,6.61,2.78
+245,Paderborn,1,0.96,12,2,0,12.26,0.67,Hoffenheim,1,1.93,17,7,14,11.50,2.11
+246,RasenBallsport Leipzig,1,1.91,12,4,9,8.85,1.88,Paderborn,1,1.27,16,5,2,12.05,0.88
+247,Union Berlin,1,1.52,15,6,7,10.28,2.28,Paderborn,0,0.40,12,2,6,5.94,0.48
+248,Paderborn,1,0.67,11,1,3,19.14,0.22,B. Monchengladbach,3,2.75,22,11,10,8.71,2.68
+249,Eintracht Frankfurt,3,1.97,12,4,8,6.93,1.75,Paderborn,2,1.49,17,5,7,18.95,1.00
+250,Wolfsburg,2,0.98,15,5,5,8.56,1.62,FC Cologne,1,0.66,11,2,2,7.10,1.03
+251,Wolfsburg,1,0.94,12,4,6,10.07,1.51,Hoffenheim,1,0.74,9,5,8,10.14,1.15
+252,Wolfsburg,1,1.80,13,4,6,9.15,2.37,Union Berlin,0,0.51,14,3,2,7.68,0.44
+253,RasenBallsport Leipzig,1,1.36,15,5,6,7.07,1.08,Wolfsburg,1,1.69,13,6,6,10.12,1.63
+254,Eintracht Frankfurt,0,0.85,17,9,9,3.19,0.93,Wolfsburg,2,1.35,9,6,4,9.32,1.79
+255,Wolfsburg,2,0.97,18,7,7,7.59,1.71,B. Monchengladbach,1,0.50,5,5,3,14.72,0.93
+256,Wolfsburg,1,3.00,29,11,13,8.08,2.24,Schalke 04,1,1.73,8,2,8,6.42,0.57
+257,FC Cologne,3,1.53,12,7,5,8.21,1.25,Wolfsburg,1,1.73,18,8,5,5.56,1.49
+258,Hoffenheim,2,2.88,14,6,6,9.96,1.02,Wolfsburg,3,3.50,14,6,5,14.71,1.77
+259,Union Berlin,2,1.04,6,3,1,14.25,0.66,Wolfsburg,2,1.96,12,3,3,5.56,2.10
+260,Wolfsburg,0,0.60,16,4,2,13.04,0.90,RasenBallsport Leipzig,0,1.09,14,4,8,9.57,1.78
+261,Wolfsburg,1,2.10,19,4,7,5.70,1.46,Eintracht Frankfurt,2,1.95,7,3,5,4.82,1.27
+262,B. Monchengladbach,3,1.74,11,3,9,12.36,2.19,Wolfsburg,0,0.74,12,2,4,10.59,0.57
+263,Schalke 04,1,0.67,10,3,0,7.93,0.22,Wolfsburg,4,2.63,10,5,3,6.51,2.68
+264,FC Cologne,0,0.84,14,7,8,5.11,0.78,B. Monchengladbach,1,1.55,15,4,7,6.18,1.96
+265,Schalke 04,1,2.05,15,3,12,4.59,2.14,FC Cologne,1,1.05,9,5,2,10.13,0.64
+266,FC Cologne,1,0.64,11,3,12,8.80,0.54,Hoffenheim,2,1.62,15,5,8,10.00,2.23
+267,RasenBallsport Leipzig,4,2.57,21,8,22,9.83,2.52,FC Cologne,1,0.89,6,1,3,30.07,0.33
+268,Union Berlin,2,1.79,11,5,2,4.80,2.21,FC Cologne,0,0.77,14,4,1,7.43,0.58
+269,Eintracht Frankfurt,2,1.26,17,6,6,12.83,0.76,FC Cologne,4,2.13,21,9,6,6.96,2.03
+270,FC Cologne,3,1.18,11,6,4,11.48,1.85,Schalke 04,0,0.59,7,1,3,8.86,0.83
+271,B. Monchengladbach,2,1.33,12,5,9,13.90,1.39,FC Cologne,1,1.32,15,3,6,14.30,1.33
+272,Hoffenheim,3,1.26,8,6,5,20.86,0.68,FC Cologne,1,2.25,17,6,8,17.19,2.11
+273,FC Cologne,2,0.80,7,5,4,9.48,0.21,RasenBallsport Leipzig,4,3.21,19,9,9,22.92,2.70
+274,FC Cologne,1,1.34,10,6,7,6.28,2.11,Union Berlin,2,0.53,6,4,1,11.20,0.62
+275,FC Cologne,1,0.96,4,2,5,15.50,1.11,Eintracht Frankfurt,1,1.18,9,3,11,5.78,1.49
+276,B. Monchengladbach,0,1.43,16,4,7,5.76,1.94,Schalke 04,0,0.76,8,1,5,15.29,0.79
+277,B. Monchengladbach,1,1.46,12,3,4,8.29,0.38,RasenBallsport Leipzig,3,3.13,14,6,7,8.17,2.47
+278,Hoffenheim,0,1.31,17,4,5,13.24,0.47,B. Monchengladbach,3,2.84,12,5,6,10.38,2.37
+279,B. Monchengladbach,4,2.00,13,7,5,12.35,2.13,Eintracht Frankfurt,2,1.00,15,3,3,8.34,0.65
+280,Union Berlin,2,1.50,11,6,4,15.40,1.86,B. Monchengladbach,0,0.96,13,2,7,10.87,0.86
+281,Schalke 04,2,2.06,15,7,4,6.59,2.27,B. Monchengladbach,0,0.84,14,5,3,5.76,0.53
+282,RasenBallsport Leipzig,2,1.29,19,9,13,8.17,1.62,B. Monchengladbach,2,0.97,7,4,4,16.14,1.09
+283,B. Monchengladbach,1,2.40,16,10,7,14.87,1.69,Hoffenheim,1,1.98,21,4,5,13.05,1.07
+284,Eintracht Frankfurt,1,0.90,12,4,6,10.97,0.28,B. Monchengladbach,3,2.79,15,8,4,30.80,2.60
+285,B. Monchengladbach,4,2.16,15,9,5,14.44,2.44,Union Berlin,1,0.72,12,5,2,19.05,0.40
+286,RasenBallsport Leipzig,1,1.28,16,6,13,6.36,0.48,Schalke 04,3,2.65,13,8,10,9.61,2.35
+287,Hoffenheim,2,0.97,9,3,1,8.66,1.47,Schalke 04,0,0.86,11,1,14,6.06,1.17
+288,Schalke 04,2,1.27,17,8,9,11.15,1.06,Union Berlin,1,1.66,17,7,1,12.39,1.66
+289,Schalke 04,1,1.11,11,5,8,9.95,1.41,Eintracht Frankfurt,0,1.02,18,3,6,12.63,1.28
+290,Schalke 04,0,0.29,3,2,2,5.78,0.07,RasenBallsport Leipzig,5,3.13,24,8,5,9.25,2.89
+291,Schalke 04,1,1.11,14,4,3,19.42,1.56,Hoffenheim,1,0.80,4,1,2,11.45,1.09
+292,Union Berlin,1,2.40,13,5,2,9.04,2.83,Schalke 04,1,0.17,4,1,1,5.56,0.10
+293,Eintracht Frankfurt,2,2.51,14,4,5,4.85,2.34,Schalke 04,1,1.23,7,5,5,17.74,0.46
+294,Eintracht Frankfurt,1,1.82,15,8,4,11.45,2.33,Hoffenheim,0,0.63,9,1,4,6.44,0.47
+295,RasenBallsport Leipzig,2,1.78,12,5,2,13.86,2.07,Eintracht Frankfurt,1,0.94,10,5,4,9.30,0.69
+296,Union Berlin,1,0.76,11,5,4,13.64,0.33,Eintracht Frankfurt,2,2.31,17,6,2,9.88,2.53
+297,Hoffenheim,1,1.00,12,5,6,7.90,0.73,Eintracht Frankfurt,2,1.84,13,3,4,13.30,2.03
+298,Eintracht Frankfurt,2,1.30,7,5,2,11.57,1.28,RasenBallsport Leipzig,0,1.43,23,4,8,10.29,1.44
+299,Eintracht Frankfurt,1,2.42,21,3,9,3.39,2.40,Union Berlin,2,1.04,11,7,5,11.91,0.42
+300,RasenBallsport Leipzig,3,3.59,25,14,5,10.58,2.68,Hoffenheim,1,1.28,11,1,8,9.88,0.23
+301,Union Berlin,0,1.54,16,2,5,8.57,1.94,Hoffenheim,2,0.82,7,4,1,14.00,0.78
+302,Hoffenheim,0,1.76,24,6,8,8.68,1.65,RasenBallsport Leipzig,2,1.37,15,7,13,9.42,1.10
+303,Hoffenheim,4,2.44,16,8,9,13.40,2.46,Union Berlin,0,0.92,6,2,3,15.23,0.37
+304,Union Berlin,0,0.78,13,2,2,15.77,0.08,RasenBallsport Leipzig,4,3.93,14,8,12,8.23,2.89
+305,RasenBallsport Leipzig,3,1.35,19,8,12,8.82,1.61,Union Berlin,1,1.02,14,4,5,13.81,1.10

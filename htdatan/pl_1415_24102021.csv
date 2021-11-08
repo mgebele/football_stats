@@ -1,0 +1,761 @@
+,H_cat,H_type,H_Attacks,H_Ball Possession,H_Blocked Shots,H_Completed Passes,H_Corner Kicks,H_Dangerous Attacks,H_Fouls,H_Free Kicks,H_Goal Attempts,H_Goalkeeper Saves,H_Goals,H_Offsides,H_Red Cards,H_Shots off Goal,H_Shots on Goal,H_Tackles,H_Teamnames,H_Total Passes,H_Yellow Cards,H_datetime,H_gameinfo,A_cat,A_type,A_Attacks,A_Ball Possession,A_Blocked Shots,A_Completed Passes,A_Corner Kicks,A_Dangerous Attacks,A_Fouls,A_Free Kicks,A_Goal Attempts,A_Goalkeeper Saves,A_Goals,A_Offsides,A_Red Cards,A_Shots off Goal,A_Shots on Goal,A_Tackles,A_Teamnames,A_Total Passes,A_Yellow Cards,A_datetime,A_gameinfo
+0,cat0,1,,68,5,,4,,4,6,16,1,4,0,,1,10,,Arsenal,,,24.05.2015 16:00,Premier League - Round 38,cat0,2,,32,0,,0,,4,4,2,6,0,2,,1,1,,West Brom,,,24.05.2015 16:00,Premier League - Round 38
+1,cat1,1,,60,2,,3,,2,4,8,3,0,1,,3,3,,Arsenal,,1,24.05.2015 16:00,Premier League - Round 38,cat1,2,,40,3,,3,,3,3,12,3,1,1,,5,4,,West Brom,,0,24.05.2015 16:00,Premier League - Round 38
+2,cat2,1,,62,2,,4,,7,6,8,1,0,1,,4,2,,Aston Villa,,0,24.05.2015 16:00,Premier League - Round 38,cat2,2,,38,2,,0,,5,8,5,2,1,1,,1,2,,Burnley,,1,24.05.2015 16:00,Premier League - Round 38
+3,cat3,1,,66,0,,3,,2,1,8,1,0,1,,5,3,,Aston Villa,,1,24.05.2015 16:00,Premier League - Round 38,cat3,2,,34,0,,2,,1,4,1,3,0,0,,0,1,,Burnley,,1,24.05.2015 16:00,Premier League - Round 38
+4,cat4,1,,64,3,,3,,4,5,7,3,1,0,,2,2,,Chelsea,,1,24.05.2015 16:00,Premier League - Round 38,cat4,2,,36,0,,3,,5,4,5,1,1,1,,1,4,,Sunderland,,1,24.05.2015 16:00,Premier League - Round 38
+5,cat5,1,,62,6,,8,,8,3,17,5,2,1,,5,6,,Chelsea,,1,24.05.2015 16:00,Premier League - Round 38,cat5,2,,38,1,,0,,3,8,12,4,0,0,,6,5,,Sunderland,,0,24.05.2015 16:00,Premier League - Round 38
+6,cat6,1,,56,4,,4,,15,6,7,1,0,2,,1,2,,Crystal Palace,,,24.05.2015 16:00,Premier League - Round 38,cat6,2,,44,0,,1,,6,17,1,2,0,0,,0,1,,Swansea,,,24.05.2015 16:00,Premier League - Round 38
+7,cat7,1,,42,0,,3,,7,6,6,1,1,0,,1,5,,Crystal Palace,,,24.05.2015 16:00,Premier League - Round 38,cat7,2,,58,2,,2,,7,6,4,4,0,0,,1,1,,Swansea,,,24.05.2015 16:00,Premier League - Round 38
+8,cat8,1,,39,1,,1,,2,4,4,2,0,1,,2,1,,Everton,,,24.05.2015 16:00,Premier League - Round 38,cat8,2,,61,6,,2,,2,3,11,1,1,2,,2,3,,Tottenham,,,24.05.2015 16:00,Premier League - Round 38
+9,cat9,1,,41,1,,2,,10,9,5,0,0,1,,4,0,,Everton,,1,24.05.2015 16:00,Premier League - Round 38,cat9,2,,59,3,,3,,6,11,5,0,0,2,,2,0,,Tottenham,,2,24.05.2015 16:00,Premier League - Round 38
+10,cat10,1,,33,1,,4,,6,6,4,0,0,4,,1,2,,Hull,,,24.05.2015 16:00,Premier League - Round 38,cat10,2,,67,1,,0,,6,10,3,2,0,0,,2,0,,Manchester Utd,,,24.05.2015 16:00,Premier League - Round 38
+11,cat11,1,,49,4,,4,,6,8,12,1,0,2,0,4,4,,Hull,,2,24.05.2015 16:00,Premier League - Round 38,cat11,2,,51,2,,1,,9,10,4,4,0,0,1,1,1,,Manchester Utd,,2,24.05.2015 16:00,Premier League - Round 38
+12,cat12,1,,41,1,,0,,4,4,10,0,2,2,,5,4,,Leicester,,,24.05.2015 16:00,Premier League - Round 38,cat12,2,,59,4,,3,,3,6,8,2,0,1,,4,0,,QPR,,,24.05.2015 16:00,Premier League - Round 38
+13,cat13,1,,51,1,,5,,3,3,12,1,3,1,,8,3,,Leicester,,,24.05.2015 16:00,Premier League - Round 38,cat13,2,,49,3,,3,,3,4,10,0,1,0,,5,2,,QPR,,,24.05.2015 16:00,Premier League - Round 38
+14,cat14,1,,60,0,,4,,5,8,8,1,1,0,,4,4,,Manchester City,,,24.05.2015 16:00,Premier League - Round 38,cat14,2,,40,1,,2,,5,5,5,3,0,2,,3,1,,Southampton,,,24.05.2015 16:00,Premier League - Round 38
+15,cat15,1,,46,2,,4,,8,8,7,3,1,0,,3,2,,Manchester City,,,24.05.2015 16:00,Premier League - Round 38,cat15,2,,54,2,,2,,3,8,8,1,0,5,,3,3,,Southampton,,,24.05.2015 16:00,Premier League - Round 38
+16,cat16,1,,39,1,,0,,6,7,9,1,0,0,,6,2,,Newcastle,,,24.05.2015 16:00,Premier League - Round 38,cat16,2,,61,1,,1,,5,5,2,2,0,2,,0,1,,West Ham,,,24.05.2015 16:00,Premier League - Round 38
+17,cat17,1,,51,3,,2,,3,5,8,0,2,1,,3,2,,Newcastle,,2,24.05.2015 16:00,Premier League - Round 38,cat17,2,,49,0,,2,,4,4,2,0,0,1,,2,0,,West Ham,,1,24.05.2015 16:00,Premier League - Round 38
+18,cat18,1,,43,2,,1,,10,2,12,0,5,1,,3,7,,Stoke,,3,24.05.2015 16:00,Premier League - Round 38,cat18,2,,57,2,,5,,1,10,4,2,0,1,,2,0,,Liverpool,,1,24.05.2015 16:00,Premier League - Round 38
+19,cat19,1,,47,1,,2,,3,3,3,3,1,0,,0,2,,Stoke,,1,24.05.2015 16:00,Premier League - Round 38,cat19,2,,53,2,,4,,3,2,9,1,1,0,,3,4,,Liverpool,,1,24.05.2015 16:00,Premier League - Round 38
+20,cat20,1,,71,1,,2,,5,5,11,0,0,0,,7,3,,Arsenal,,1,20.05.2015 20:45,Premier League - Round 33,cat20,2,,29,0,,0,,5,5,1,3,0,0,,1,0,,Sunderland,,0,20.05.2015 20:45,Premier League - Round 33
+21,cat21,1,,81,6,,3,,1,4,17,3,0,0,,6,5,,Arsenal,,,20.05.2015 20:45,Premier League - Round 33,cat21,2,,19,1,,2,,3,1,6,5,0,1,,2,3,,Sunderland,,,20.05.2015 20:45,Premier League - Round 33
+22,cat22,1,,42,1,,2,,3,6,5,2,1,1,0,1,3,,West Brom,,2,18.05.2015 21:00,Premier League - Round 37,cat22,2,,58,4,,3,,6,4,7,2,0,0,1,1,2,,Chelsea,,1,18.05.2015 21:00,Premier League - Round 37
+23,cat23,1,,40,0,,1,,9,5,4,1,2,0,,2,2,,West Brom,,1,18.05.2015 21:00,Premier League - Round 37,cat23,2,,60,1,,1,,5,9,5,0,0,1,,3,1,,Chelsea,,1,18.05.2015 21:00,Premier League - Round 37
+24,cat24,1,,62,4,,3,,6,6,8,0,1,2,,2,2,,Manchester Utd,,,17.05.2015 17:00,Premier League - Round 37,cat24,2,,38,0,,0,,5,8,0,1,0,1,,0,0,,Arsenal,,,17.05.2015 17:00,Premier League - Round 37
+25,cat25,1,,48,1,,2,,10,4,4,2,0,6,,1,2,,Manchester Utd,,1,17.05.2015 17:00,Premier League - Round 37,cat25,2,,52,0,,5,,3,16,5,2,1,1,,2,3,,Arsenal,,0,17.05.2015 17:00,Premier League - Round 37
+26,cat26,1,,52,0,,4,,5,4,6,0,1,0,,2,4,,Swansea,,,17.05.2015 14:30,Premier League - Round 37,cat26,2,,48,5,,4,,2,6,10,3,2,2,,3,2,,Manchester City,,,17.05.2015 14:30,Premier League - Round 37
+27,cat27,1,,42,2,,7,,3,6,7,7,1,0,,0,5,,Swansea,,0,17.05.2015 14:30,Premier League - Round 37,cat27,2,,58,1,,3,,6,3,12,4,2,0,,2,9,,Manchester City,,3,17.05.2015 14:30,Premier League - Round 37
+28,cat28,1,,65,2,,2,,5,6,6,1,1,1,,2,2,,Liverpool,,1,16.05.2015 18:30,Premier League - Round 37,cat28,2,,35,1,,2,,5,6,6,1,1,1,,3,2,,Crystal Palace,,0,16.05.2015 18:30,Premier League - Round 37
+29,cat29,1,,67,3,,2,,5,14,12,2,0,0,,8,1,,Liverpool,,1,16.05.2015 18:30,Premier League - Round 37,cat29,2,,33,2,,3,,12,4,9,1,2,2,,3,4,,Crystal Palace,,3,16.05.2015 18:30,Premier League - Round 37
+30,cat30,1,,41,3,,3,,7,7,7,1,0,0,,0,4,,Burnley,,1,16.05.2015 16:00,Premier League - Round 37,cat30,2,,59,1,,2,,4,7,5,4,0,3,,3,1,,Stoke,,1,16.05.2015 16:00,Premier League - Round 37
+31,cat31,1,,49,4,,4,,7,5,4,2,0,1,,0,0,,Burnley,,0,16.05.2015 16:00,Premier League - Round 37,cat31,2,,51,2,,4,,5,8,6,0,0,0,,2,2,,Stoke,,1,16.05.2015 16:00,Premier League - Round 37
+32,cat32,1,,48,0,,0,,6,5,1,2,0,0,,0,1,,QPR,,,16.05.2015 16:00,Premier League - Round 37,cat32,2,,52,5,,6,,4,6,10,1,1,1,,2,3,,Newcastle,,,16.05.2015 16:00,Premier League - Round 37
+33,cat33,1,,46,1,,3,,6,4,7,5,2,1,,3,3,,QPR,,2,16.05.2015 16:00,Premier League - Round 37,cat33,2,,54,3,,6,,4,7,12,1,0,0,,4,5,,Newcastle,,0,16.05.2015 16:00,Premier League - Round 37
+34,cat34,1,,52,3,,2,,8,4,8,0,0,2,,3,2,,Sunderland,,,16.05.2015 16:00,Premier League - Round 37,cat34,2,,48,2,,6,,5,10,3,2,0,0,,1,0,,Leicester,,,16.05.2015 16:00,Premier League - Round 37
+35,cat35,1,,50,2,,6,,6,10,5,0,0,0,,2,1,,Sunderland,,,16.05.2015 16:00,Premier League - Round 37,cat35,2,,50,5,,3,,10,6,8,1,0,0,,3,0,,Leicester,,,16.05.2015 16:00,Premier League - Round 37
+36,cat36,1,,64,2,,2,,2,7,4,0,0,0,,2,0,,Tottenham,,1,16.05.2015 16:00,Premier League - Round 37,cat36,2,,36,1,,0,,4,2,4,0,0,3,,3,0,,Hull,,0,16.05.2015 16:00,Premier League - Round 37
+37,cat37,1,,48,2,,4,,8,4,6,2,2,0,,1,3,,Tottenham,,2,16.05.2015 16:00,Premier League - Round 37,cat37,2,,52,2,,8,,2,7,10,1,0,2,,6,2,,Hull,,1,16.05.2015 16:00,Premier League - Round 37
+38,cat38,1,,42,3,,4,,9,10,7,1,0,1,,2,2,,West Ham,,1,16.05.2015 16:00,Premier League - Round 37,cat38,2,,58,2,,2,,8,10,5,2,0,2,,2,1,,Everton,,2,16.05.2015 16:00,Premier League - Round 37
+39,cat39,1,,50,2,,3,,3,6,6,2,1,1,,3,1,,West Ham,,0,16.05.2015 16:00,Premier League - Round 37,cat39,2,,50,4,,6,,6,4,16,0,2,0,,8,4,,Everton,,2,16.05.2015 16:00,Premier League - Round 37
+40,cat40,1,,40,2,,1,,8,5,11,1,5,2,,0,9,,Southampton,,0,16.05.2015 13:45,Premier League - Round 37,cat40,2,,60,0,,1,,4,9,4,4,1,1,,2,2,,Aston Villa,,1,16.05.2015 13:45,Premier League - Round 37
+41,cat41,1,,30,1,,5,,11,3,7,2,1,1,,4,2,,Southampton,,1,16.05.2015 13:45,Premier League - Round 37,cat41,2,,70,1,,2,,3,12,5,1,0,0,,2,2,,Aston Villa,,0,16.05.2015 13:45,Premier League - Round 37
+42,cat42,1,,68,2,,1,,5,5,5,2,0,1,,3,0,,Arsenal,,0,11.05.2015 21:00,Premier League - Round 36,cat42,2,,32,2,,0,,5,6,6,0,0,0,,2,2,,Swansea,,1,11.05.2015 21:00,Premier League - Round 36
+43,cat43,1,,70,6,,5,,2,6,18,0,0,0,,3,9,,Arsenal,,,11.05.2015 21:00,Premier League - Round 36,cat43,2,,30,1,,1,,5,2,2,9,1,1,,0,1,,Swansea,,,11.05.2015 21:00,Premier League - Round 36
+44,cat44,1,,57,2,,4,,5,9,4,1,1,1,,0,2,,Chelsea,,2,10.05.2015 17:00,Premier League - Round 36,cat44,2,,43,2,,2,,7,6,6,1,1,2,,2,2,,Liverpool,,3,10.05.2015 17:00,Premier League - Round 36
+45,cat45,1,,39,2,,2,,8,5,4,2,0,0,,1,1,,Chelsea,,2,10.05.2015 17:00,Premier League - Round 36,cat45,2,,61,1,,2,,4,7,9,1,0,1,,6,2,,Liverpool,,0,10.05.2015 17:00,Premier League - Round 36
+46,cat46,1,,65,2,,4,,7,7,8,1,2,0,,3,3,,Manchester City,,,10.05.2015 14:30,Premier League - Round 36,cat46,2,,35,0,,1,,4,7,3,1,0,4,,2,1,,QPR,,,10.05.2015 14:30,Premier League - Round 36
+47,cat47,1,,55,1,,3,,5,4,15,2,4,1,,6,8,,Manchester City,,0,10.05.2015 14:30,Premier League - Round 36,cat47,2,,45,1,,3,,3,6,6,4,0,1,,3,2,,QPR,,1,10.05.2015 14:30,Premier League - Round 36
+48,cat48,1,,35,1,,2,,7,4,2,1,0,1,,1,0,,Crystal Palace,,,09.05.2015 18:30,Premier League - Round 36,cat48,2,,65,2,,3,,4,8,7,0,1,0,,3,2,,Manchester Utd,,,09.05.2015 18:30,Premier League - Round 36
+49,cat49,1,,39,2,,5,,6,9,11,1,1,3,,5,4,,Crystal Palace,,0,09.05.2015 18:30,Premier League - Round 36,cat49,2,,61,3,,3,,8,9,6,3,1,1,,1,2,,Manchester Utd,,1,09.05.2015 18:30,Premier League - Round 36
+50,cat50,1,,64,2,,1,,4,9,10,0,1,1,,4,4,,Aston Villa,,,09.05.2015 16:00,Premier League - Round 36,cat50,2,,36,1,,2,,8,5,1,3,0,1,,0,0,,West Ham,,,09.05.2015 16:00,Premier League - Round 36
+51,cat51,1,,54,0,,1,,2,7,4,1,0,0,,3,1,,Aston Villa,,,09.05.2015 16:00,Premier League - Round 36,cat51,2,,46,0,,4,,5,2,4,1,0,2,,3,1,,West Ham,,,09.05.2015 16:00,Premier League - Round 36
+52,cat52,1,,44,3,,5,,7,5,7,1,0,0,,4,0,,Hull,,,09.05.2015 16:00,Premier League - Round 36,cat52,2,,56,0,,2,,5,7,3,0,0,0,,2,1,,Burnley,,,09.05.2015 16:00,Premier League - Round 36
+53,cat53,1,,66,8,,4,,9,7,14,0,0,0,,3,3,,Hull,,1,09.05.2015 16:00,Premier League - Round 36,cat53,2,,34,1,,1,,8,9,5,3,1,0,,3,1,,Burnley,,1,09.05.2015 16:00,Premier League - Round 36
+54,cat54,1,,29,1,,2,,7,5,6,2,2,0,,2,3,,Leicester,,,09.05.2015 16:00,Premier League - Round 36,cat54,2,,71,1,,4,,5,7,4,1,0,0,,1,2,,Southampton,,,09.05.2015 16:00,Premier League - Round 36
+55,cat55,1,,33,0,,2,,5,6,4,1,0,0,,4,0,,Leicester,,1,09.05.2015 16:00,Premier League - Round 36,cat55,2,,67,3,,4,,5,5,6,0,0,1,,2,1,,Southampton,,0,09.05.2015 16:00,Premier League - Round 36
+56,cat56,1,,62,1,,2,,4,12,8,0,1,0,,4,3,,Newcastle,,,09.05.2015 16:00,Premier League - Round 36,cat56,2,,38,1,,2,,11,4,3,2,1,1,,1,1,,West Brom,,,09.05.2015 16:00,Premier League - Round 36
+57,cat57,1,,62,2,,5,,7,7,6,2,0,0,,3,1,,Newcastle,,,09.05.2015 16:00,Premier League - Round 36,cat57,2,,38,1,,0,,6,7,5,1,0,1,,2,2,,West Brom,,,09.05.2015 16:00,Premier League - Round 36
+58,cat58,1,,45,3,,4,,5,3,10,1,2,3,,1,6,,Stoke,,0,09.05.2015 16:00,Premier League - Round 36,cat58,2,,55,1,,2,,3,8,3,4,0,0,,1,1,,Tottenham,,1,09.05.2015 16:00,Premier League - Round 36
+59,cat59,1,,45,1,,2,,9,9,7,2,1,2,0,3,3,,Stoke,,0,09.05.2015 16:00,Premier League - Round 36,cat59,2,,55,2,,6,,9,10,6,2,0,1,1,2,2,,Tottenham,,1,09.05.2015 16:00,Premier League - Round 36
+60,cat60,1,,72,2,,5,,4,7,6,1,0,1,,3,1,,Everton,,0,09.05.2015 13:45,Premier League - Round 36,cat60,2,,28,2,,0,,5,5,4,1,0,1,,1,1,,Sunderland,,1,09.05.2015 13:45,Premier League - Round 36
+61,cat61,1,,74,7,,10,,6,4,16,0,0,1,,6,3,,Everton,,2,09.05.2015 13:45,Premier League - Round 36,cat61,2,,26,1,,1,,4,7,6,3,2,0,,3,2,,Sunderland,,2,09.05.2015 13:45,Premier League - Round 36
+62,cat62,1,,34,0,,0,,5,8,3,3,0,2,,3,0,,Hull,,2,04.05.2015 21:00,Premier League - Round 35,cat62,2,,66,2,,1,,7,7,9,0,3,1,,1,6,,Arsenal,,0,04.05.2015 21:00,Premier League - Round 35
+63,cat63,1,,29,1,,0,,3,4,5,3,1,2,,3,1,,Hull,,,04.05.2015 21:00,Premier League - Round 35,cat63,2,,71,5,,4,,4,5,13,0,0,0,,5,3,,Arsenal,,,04.05.2015 21:00,Premier League - Round 35
+64,cat64,1,,59,3,,5,,3,6,13,1,0,2,,8,2,,Tottenham,,2,03.05.2015 17:00,Premier League - Round 35,cat64,2,,41,1,,3,,5,4,7,2,1,1,,4,2,,Manchester City,,1,03.05.2015 17:00,Premier League - Round 35
+65,cat65,1,,49,2,,3,,3,6,8,2,0,1,,3,3,,Tottenham,,1,03.05.2015 17:00,Premier League - Round 35,cat65,2,,51,4,,4,,6,4,8,3,0,0,,2,2,,Manchester City,,3,03.05.2015 17:00,Premier League - Round 35
+66,cat66,1,,58,1,,2,,9,10,9,0,1,0,,2,6,,Chelsea,,2,03.05.2015 14:30,Premier League - Round 35,cat66,2,,42,2,,2,,9,9,3,5,0,2,,1,0,,Crystal Palace,,2,03.05.2015 14:30,Premier League - Round 35
+67,cat67,1,,66,1,,1,,3,4,8,1,0,1,,6,1,,Chelsea,,,03.05.2015 14:30,Premier League - Round 35,cat67,2,,34,1,,4,,4,4,5,1,0,0,,3,1,,Crystal Palace,,,03.05.2015 14:30,Premier League - Round 35
+68,cat68,1,,78,5,,4,,6,5,10,2,0,0,,2,3,,Manchester Utd,,,02.05.2015 18:30,Premier League - Round 35,cat68,2,,22,0,,2,,5,6,3,3,0,0,,1,2,,West Brom,,,02.05.2015 18:30,Premier League - Round 35
+69,cat69,1,,84,7,,5,,4,5,16,0,0,3,,3,6,,Manchester Utd,,1,02.05.2015 18:30,Premier League - Round 35,cat69,2,,16,1,,1,,6,7,3,6,1,0,,1,1,,West Brom,,0,02.05.2015 18:30,Premier League - Round 35
+70,cat70,1,,55,2,,3,,5,6,7,0,2,0,,2,3,,Aston Villa,,,02.05.2015 16:00,Premier League - Round 35,cat70,2,,45,0,,0,,4,5,0,1,0,2,,0,0,,Everton,,,02.05.2015 16:00,Premier League - Round 35
+71,cat71,1,,39,1,,2,,8,9,4,3,1,0,,2,1,,Aston Villa,,2,02.05.2015 16:00,Premier League - Round 35,cat71,2,,61,3,,3,,8,8,9,0,2,1,,1,5,,Everton,,1,02.05.2015 16:00,Premier League - Round 35
+72,cat72,1,,64,3,,2,,4,9,11,0,1,1,,5,3,,Liverpool,,1,02.05.2015 16:00,Premier League - Round 35,cat72,2,,36,0,,3,,7,5,5,2,0,2,,5,0,,QPR,,1,02.05.2015 16:00,Premier League - Round 35
+73,cat73,1,,50,4,,7,,5,11,14,1,1,2,0,5,5,,Liverpool,,1,02.05.2015 16:00,Premier League - Round 35,cat73,2,,50,1,,3,,11,7,5,4,1,1,1,2,2,,QPR,,4,02.05.2015 16:00,Premier League - Round 35
+74,cat74,1,,46,2,,0,,8,6,9,0,1,1,,3,4,,Sunderland,,1,02.05.2015 16:00,Premier League - Round 35,cat74,2,,54,1,,1,,6,9,6,3,1,1,,4,1,,Southampton,,0,02.05.2015 16:00,Premier League - Round 35
+75,cat75,1,,44,0,,1,,4,7,3,1,1,2,0,1,2,,Sunderland,,1,02.05.2015 16:00,Premier League - Round 35,cat75,2,,56,2,,0,,7,6,5,1,0,2,1,2,1,,Southampton,,2,02.05.2015 16:00,Premier League - Round 35
+76,cat76,1,,45,2,,1,,4,7,4,1,0,1,,1,1,,Swansea,,,02.05.2015 16:00,Premier League - Round 35,cat76,2,,55,2,,2,,9,4,5,1,0,0,,2,1,,Stoke,,,02.05.2015 16:00,Premier League - Round 35
+77,cat77,1,,51,4,,5,,5,9,13,2,2,0,0,6,3,,Swansea,,1,02.05.2015 16:00,Premier League - Round 35,cat77,2,,49,0,,0,,9,5,4,1,0,0,1,2,2,,Stoke,,4,02.05.2015 16:00,Premier League - Round 35
+78,cat78,1,,61,1,,3,,7,4,7,1,1,1,0,3,3,,West Ham,,2,02.05.2015 16:00,Premier League - Round 35,cat78,2,,39,1,,1,,4,9,5,2,0,2,1,3,1,,Burnley,,0,02.05.2015 16:00,Premier League - Round 35
+79,cat79,1,,59,13,,10,,4,4,21,1,0,1,,5,3,,West Ham,,1,02.05.2015 16:00,Premier League - Round 35,cat79,2,,41,0,,2,,3,4,3,3,0,0,,2,1,,Burnley,,2,02.05.2015 16:00,Premier League - Round 35
+80,cat80,1,,41,0,,5,,6,4,6,1,2,2,,2,4,,Leicester,,1,02.05.2015 13:45,Premier League - Round 35,cat80,2,,59,2,,4,,3,8,8,2,0,0,,5,1,,Newcastle,,2,02.05.2015 13:45,Premier League - Round 35
+81,cat81,1,,55,4,,5,,4,11,13,2,1,1,0,6,3,,Leicester,,0,02.05.2015 13:45,Premier League - Round 35,cat81,2,,45,0,,3,,10,6,4,2,0,1,2,2,2,,Newcastle,,4,02.05.2015 13:45,Premier League - Round 35
+82,cat82,1,,40,1,,1,,5,2,7,0,1,3,,4,2,,Leicester,,1,29.04.2015 20:45,Premier League - Round 27,cat82,2,,60,1,,3,,0,8,3,1,0,2,,2,0,,Chelsea,,0,29.04.2015 20:45,Premier League - Round 27
+83,cat83,1,,34,1,,1,,5,2,1,1,0,1,,0,0,,Leicester,,,29.04.2015 20:45,Premier League - Round 27,cat83,2,,66,1,,3,,1,7,8,0,3,1,,3,4,,Chelsea,,,29.04.2015 20:45,Premier League - Round 27
+84,cat84,1,,32,1,,3,,6,6,5,4,1,1,,0,4,,Hull,,,28.04.2015 20:45,Premier League - Round 33,cat84,2,,68,1,,2,,6,7,5,3,0,0,,0,4,,Liverpool,,,28.04.2015 20:45,Premier League - Round 33
+85,cat85,1,,30,0,,4,,4,4,2,5,0,0,,2,0,,Hull,,,28.04.2015 20:45,Premier League - Round 33,cat85,2,,70,1,,5,,4,4,7,0,0,0,,1,5,,Liverpool,,,28.04.2015 20:45,Premier League - Round 33
+86,cat86,1,,63,3,,3,,6,5,7,1,0,0,,3,1,,Arsenal,,1,26.04.2015 17:00,Premier League - Round 34,cat86,2,,37,1,,1,,5,6,3,1,0,0,,1,1,,Chelsea,,1,26.04.2015 17:00,Premier League - Round 34
+87,cat87,1,,51,1,,3,,11,6,5,1,0,0,,4,0,,Arsenal,,3,26.04.2015 17:00,Premier League - Round 34,cat87,2,,49,1,,1,,6,12,3,0,0,0,,1,1,,Chelsea,,2,26.04.2015 17:00,Premier League - Round 34
+88,cat88,1,,38,1,,5,,5,7,6,2,2,0,,1,4,,Everton,,0,26.04.2015 14:30,Premier League - Round 34,cat88,2,,62,5,,4,,6,5,9,2,0,1,,2,2,,Manchester Utd,,1,26.04.2015 14:30,Premier League - Round 34
+89,cat89,1,,30,0,,2,,1,5,3,2,1,1,,0,3,,Everton,,0,26.04.2015 14:30,Premier League - Round 34,cat89,2,,70,5,,3,,4,2,8,2,0,1,,1,2,,Manchester Utd,,1,26.04.2015 14:30,Premier League - Round 34
+90,cat90,1,,44,2,,3,,4,10,6,1,1,1,,2,2,,Manchester City,,,25.04.2015 18:30,Premier League - Round 34,cat90,2,,56,2,,4,,6,5,7,1,0,4,,4,1,,Aston Villa,,,25.04.2015 18:30,Premier League - Round 34
+91,cat91,1,,46,3,,4,,9,7,5,1,2,0,,0,2,,Manchester City,,1,25.04.2015 18:30,Premier League - Round 34,cat91,2,,54,1,,2,,5,9,6,0,2,2,,2,3,,Aston Villa,,2,25.04.2015 18:30,Premier League - Round 34
+92,cat92,1,,49,3,,1,,8,9,4,1,0,1,,0,1,,Burnley,,,25.04.2015 16:00,Premier League - Round 34,cat92,2,,51,0,,3,,9,9,2,1,0,0,,1,1,,Leicester,,,25.04.2015 16:00,Premier League - Round 34
+93,cat93,1,,71,3,,5,,8,7,8,2,0,0,,2,3,,Burnley,,3,25.04.2015 16:00,Premier League - Round 34,cat93,2,,29,0,,1,,7,8,6,3,1,2,,3,3,,Leicester,,0,25.04.2015 16:00,Premier League - Round 34
+94,cat94,1,,44,0,,0,,7,7,3,2,0,2,,0,3,,Crystal Palace,,,25.04.2015 16:00,Premier League - Round 34,cat94,2,,56,2,,6,,7,9,7,3,0,0,,3,2,,Hull,,,25.04.2015 16:00,Premier League - Round 34
+95,cat95,1,,50,1,,0,,8,3,4,3,0,3,,3,0,,Crystal Palace,,,25.04.2015 16:00,Premier League - Round 34,cat95,2,,50,2,,3,,3,11,14,0,2,0,,7,5,,Hull,,,25.04.2015 16:00,Premier League - Round 34
+96,cat96,1,,48,0,,3,,6,7,3,2,1,0,,1,2,,Newcastle,,,25.04.2015 16:00,Premier League - Round 34,cat96,2,,52,0,,3,,6,6,6,1,1,1,,3,3,,Swansea,,,25.04.2015 16:00,Premier League - Round 34
+97,cat97,1,,48,2,,6,,8,5,9,1,1,0,,5,2,,Newcastle,,,25.04.2015 16:00,Premier League - Round 34,cat97,2,,52,2,,3,,3,8,5,1,2,2,,0,3,,Swansea,,,25.04.2015 16:00,Premier League - Round 34
+98,cat98,1,,55,2,,0,,4,5,7,1,0,2,,3,2,,QPR,,,25.04.2015 16:00,Premier League - Round 34,cat98,2,,45,1,,5,,3,6,4,2,0,2,,2,1,,West Ham,,,25.04.2015 16:00,Premier League - Round 34
+99,cat99,1,,53,3,,6,,10,11,11,1,0,1,,3,5,,QPR,,,25.04.2015 16:00,Premier League - Round 34,cat99,2,,47,0,,1,,9,11,4,5,0,2,,3,1,,West Ham,,,25.04.2015 16:00,Premier League - Round 34
+100,cat100,1,,69,2,,6,,5,11,12,0,1,2,,4,6,,Stoke,,0,25.04.2015 16:00,Premier League - Round 34,cat100,2,,31,0,,1,,10,8,4,5,1,1,,3,1,,Sunderland,,1,25.04.2015 16:00,Premier League - Round 34
+101,cat101,1,,52,5,,3,,9,6,11,4,0,0,,4,2,,Stoke,,2,25.04.2015 16:00,Premier League - Round 34,cat101,2,,48,2,,7,,5,8,11,2,0,0,,5,4,,Sunderland,,2,25.04.2015 16:00,Premier League - Round 34
+102,cat102,1,,22,0,,0,,5,6,3,0,0,1,,3,0,,West Brom,,,25.04.2015 16:00,Premier League - Round 34,cat102,2,,78,3,,3,,6,6,8,0,0,0,,5,0,,Liverpool,,,25.04.2015 16:00,Premier League - Round 34
+103,cat103,1,,30,0,,2,,7,6,7,5,0,0,,3,4,,West Brom,,,25.04.2015 16:00,Premier League - Round 34,cat103,2,,70,5,,1,,5,7,14,4,0,1,,4,5,,Liverpool,,,25.04.2015 16:00,Premier League - Round 34
+104,cat104,1,,38,1,,3,,3,7,5,0,1,4,,2,2,,Southampton,,0,25.04.2015 13:45,Premier League - Round 34,cat104,2,,62,1,,2,,6,6,3,1,1,0,,1,1,,Tottenham,,2,25.04.2015 13:45,Premier League - Round 34
+105,cat105,1,,48,1,,5,,6,6,8,0,1,1,,5,2,,Southampton,,1,25.04.2015 13:45,Premier League - Round 34,cat105,2,,52,2,,1,,4,6,4,1,1,2,,1,1,,Tottenham,,1,25.04.2015 13:45,Premier League - Round 34
+106,cat106,1,,35,1,,0,,5,9,5,2,0,1,,1,3,,Newcastle,,1,19.04.2015 17:00,Premier League - Round 33,cat106,2,,65,0,,1,,7,6,4,3,1,2,,1,3,,Tottenham,,2,19.04.2015 17:00,Premier League - Round 33
+107,cat107,1,,41,2,,4,,6,9,6,3,1,0,,2,2,,Newcastle,,1,19.04.2015 17:00,Premier League - Round 33,cat107,2,,59,3,,2,,6,6,10,1,2,3,,2,5,,Tottenham,,2,19.04.2015 17:00,Premier League - Round 33
+108,cat108,1,,63,4,,2,,6,4,8,2,2,2,,2,2,,Manchester City,,1,19.04.2015 14:30,Premier League - Round 33,cat108,2,,37,1,,2,,3,8,3,0,0,1,,0,2,,West Ham,,0,19.04.2015 14:30,Premier League - Round 33
+109,cat109,1,,73,4,,4,,4,6,10,1,0,3,,5,1,,Manchester City,,1,19.04.2015 14:30,Premier League - Round 33,cat109,2,,27,2,,1,,3,7,6,1,0,3,,3,1,,West Ham,,2,19.04.2015 14:30,Premier League - Round 33
+110,cat110,1,,30,2,,2,,3,5,3,0,1,1,,0,1,,Chelsea,,,18.04.2015 18:30,Premier League - Round 33,cat110,2,,70,2,,5,,5,3,5,0,0,0,,3,0,,Manchester Utd,,,18.04.2015 18:30,Premier League - Round 33
+111,cat111,1,,30,1,,1,,10,9,4,2,0,1,,2,1,,Chelsea,,3,18.04.2015 18:30,Premier League - Round 33,cat111,2,,70,3,,2,,6,11,10,1,0,3,,5,2,,Manchester Utd,,1,18.04.2015 18:30,Premier League - Round 33
+112,cat112,1,,67,3,,3,,8,10,9,0,0,0,,3,3,,Crystal Palace,,,18.04.2015 16:00,Premier League - Round 33,cat112,2,,33,1,,2,,9,8,4,3,1,1,,2,1,,West Brom,,,18.04.2015 16:00,Premier League - Round 33
+113,cat113,1,,69,2,,4,,9,9,10,2,0,1,,7,1,,Crystal Palace,,,18.04.2015 16:00,Premier League - Round 33,cat113,2,,31,0,,4,,8,10,4,1,1,1,,1,3,,West Brom,,,18.04.2015 16:00,Premier League - Round 33
+114,cat114,1,,61,3,,2,,6,7,9,1,1,0,0,3,3,,Everton,,0,18.04.2015 16:00,Premier League - Round 33,cat114,2,,39,1,,2,,8,6,5,2,0,0,1,3,1,,Burnley,,2,18.04.2015 16:00,Premier League - Round 33
+115,cat115,1,,71,3,,3,,6,7,12,0,0,1,,4,5,,Everton,,1,18.04.2015 16:00,Premier League - Round 33,cat115,2,,29,3,,4,,7,7,5,5,0,0,,2,0,,Burnley,,2,18.04.2015 16:00,Premier League - Round 33
+116,cat116,1,,45,2,,4,,4,6,6,3,1,0,,3,1,,Leicester,,0,18.04.2015 16:00,Premier League - Round 33,cat116,2,,55,1,,1,,3,4,5,0,0,3,,1,3,,Swansea,,1,18.04.2015 16:00,Premier League - Round 33
+117,cat117,1,,37,0,,2,,2,2,12,3,1,0,,7,5,,Leicester,,0,18.04.2015 16:00,Premier League - Round 33,cat117,2,,63,1,,2,,2,2,5,4,0,0,,1,3,,Swansea,,1,18.04.2015 16:00,Premier League - Round 33
+118,cat118,1,,51,3,,1,,8,10,8,1,0,3,,5,0,,Stoke,,0,18.04.2015 16:00,Premier League - Round 33,cat118,2,,49,1,,2,,11,11,5,0,1,0,,2,2,,Southampton,,2,18.04.2015 16:00,Premier League - Round 33
+119,cat119,1,,47,1,,1,,9,8,7,4,2,0,,4,2,,Stoke,,0,18.04.2015 16:00,Premier League - Round 33,cat119,2,,53,2,,3,,6,8,7,0,0,2,,1,4,,Southampton,,2,18.04.2015 16:00,Premier League - Round 33
+120,cat120,1,,57,1,,0,,3,12,6,2,1,2,,1,4,,Liverpool,,,13.04.2015 21:00,Premier League - Round 32,cat120,2,,43,1,,2,,10,5,4,3,0,2,,1,2,,Newcastle,,,13.04.2015 21:00,Premier League - Round 32
+121,cat121,1,,67,2,,6,,5,7,8,1,1,1,0,4,2,,Liverpool,,2,13.04.2015 21:00,Premier League - Round 32,cat121,2,,33,1,,4,,7,6,6,1,0,0,1,4,1,,Newcastle,,2,13.04.2015 21:00,Premier League - Round 32
+122,cat122,1,,58,1,,0,,4,10,3,1,2,2,,0,2,,Manchester Utd,,0,12.04.2015 17:00,Premier League - Round 32,cat122,2,,42,3,,4,,9,5,7,0,1,1,,2,2,,Manchester City,,3,12.04.2015 17:00,Premier League - Round 32
+123,cat123,1,,60,2,,1,,5,9,8,0,2,1,,1,5,,Manchester Utd,,,12.04.2015 17:00,Premier League - Round 32,cat123,2,,40,1,,1,,7,6,3,3,1,2,,1,1,,Manchester City,,,12.04.2015 17:00,Premier League - Round 32
+124,cat124,1,,38,2,,3,,6,4,6,0,0,2,,3,1,,QPR,,,12.04.2015 14:30,Premier League - Round 32,cat124,2,,62,1,,2,,2,6,3,1,0,2,,2,0,,Chelsea,,,12.04.2015 14:30,Premier League - Round 32
+125,cat125,1,,42,4,,2,,6,5,9,0,0,2,,2,3,,QPR,,2,12.04.2015 14:30,Premier League - Round 32,cat125,2,,58,1,,4,,4,6,6,3,1,1,,4,1,,Chelsea,,1,12.04.2015 14:30,Premier League - Round 32
+126,cat126,1,,31,2,,0,,13,6,4,2,0,1,,0,2,,Burnley,,2,11.04.2015 18:30,Premier League - Round 32,cat126,2,,69,2,,1,,5,14,8,2,1,1,,3,3,,Arsenal,,0,11.04.2015 18:30,Premier League - Round 32
+127,cat127,1,,31,1,,1,,2,3,4,2,0,2,,1,2,,Burnley,,,11.04.2015 18:30,Premier League - Round 32,cat127,2,,69,4,,5,,2,4,9,2,0,1,,3,2,,Arsenal,,,11.04.2015 18:30,Premier League - Round 32
+128,cat128,1,,55,0,,2,,5,3,4,2,0,0,,2,2,,Southampton,,2,11.04.2015 16:00,Premier League - Round 32,cat128,2,,45,5,,2,,3,5,11,2,0,0,,4,2,,Hull,,0,11.04.2015 16:00,Premier League - Round 32
+129,cat129,1,,51,2,,0,,2,7,5,1,2,2,,1,2,,Southampton,,,11.04.2015 16:00,Premier League - Round 32,cat129,2,,49,0,,3,,8,4,3,0,0,0,,2,1,,Hull,,,11.04.2015 16:00,Premier League - Round 32
+130,cat130,1,,53,2,,3,,9,8,6,0,0,0,,3,1,,Sunderland,,2,11.04.2015 16:00,Premier League - Round 32,cat130,2,,47,4,,2,,8,9,5,1,0,0,,1,0,,Crystal Palace,,1,11.04.2015 16:00,Premier League - Round 32
+131,cat131,1,,55,2,,5,,6,8,6,1,1,0,,2,2,,Sunderland,,0,11.04.2015 16:00,Premier League - Round 32,cat131,2,,45,2,,2,,9,6,9,1,4,0,,2,5,,Crystal Palace,,1,11.04.2015 16:00,Premier League - Round 32
+132,cat132,1,,58,0,,4,,4,4,8,0,0,3,,5,3,,Tottenham,,,11.04.2015 16:00,Premier League - Round 32,cat132,2,,42,2,,1,,3,7,6,3,1,1,,3,1,,Aston Villa,,,11.04.2015 16:00,Premier League - Round 32
+133,cat133,1,,58,2,,5,,7,10,6,2,0,2,0,4,0,,Tottenham,,3,11.04.2015 16:00,Premier League - Round 32,cat133,2,,42,0,,5,,9,9,4,0,0,1,1,2,2,,Aston Villa,,4,11.04.2015 16:00,Premier League - Round 32
+134,cat134,1,,48,0,,2,,10,7,4,0,2,0,,1,3,,West Brom,,,11.04.2015 16:00,Premier League - Round 32,cat134,2,,52,0,,3,,6,10,4,1,1,1,,3,1,,Leicester,,,11.04.2015 16:00,Premier League - Round 32
+135,cat135,1,,40,1,,2,,5,10,4,1,0,0,,1,2,,West Brom,,,11.04.2015 16:00,Premier League - Round 32,cat135,2,,60,2,,3,,9,5,8,2,2,2,,3,3,,Leicester,,,11.04.2015 16:00,Premier League - Round 32
+136,cat136,1,,32,2,,1,,10,7,8,0,1,0,,4,2,,West Ham,,1,11.04.2015 16:00,Premier League - Round 32,cat136,2,,68,4,,6,,6,10,9,1,0,1,,5,0,,Stoke,,0,11.04.2015 16:00,Premier League - Round 32
+137,cat137,1,,36,1,,3,,7,10,3,1,0,2,,1,1,,West Ham,,2,11.04.2015 16:00,Premier League - Round 32,cat137,2,,64,2,,4,,7,9,9,1,1,3,,5,2,,Stoke,,1,11.04.2015 16:00,Premier League - Round 32
+138,cat138,1,,52,3,,2,,6,5,5,4,0,1,,1,1,,Swansea,,0,11.04.2015 13:45,Premier League - Round 32,cat138,2,,48,0,,4,,5,7,5,1,1,0,,0,5,,Everton,,1,11.04.2015 13:45,Premier League - Round 32
+139,cat139,1,,50,1,,1,,12,6,6,3,1,1,,3,2,,Swansea,,3,11.04.2015 13:45,Premier League - Round 32,cat139,2,,50,2,,2,,7,13,7,1,0,1,,2,3,,Everton,,2,11.04.2015 13:45,Premier League - Round 32
+140,cat140,1,,62,3,,6,,4,8,14,1,2,3,,6,5,,Aston Villa,,,07.04.2015 20:45,Premier League - Round 33,cat140,2,,38,2,,2,,8,7,6,3,1,0,,2,2,,QPR,,,07.04.2015 20:45,Premier League - Round 33
+141,cat141,1,,67,2,,1,,4,6,7,1,1,1,,3,2,,Aston Villa,,,07.04.2015 20:45,Premier League - Round 33,cat141,2,,33,1,,1,,4,5,5,1,2,2,,1,3,,QPR,,,07.04.2015 20:45,Premier League - Round 33
+142,cat142,1,,27,0,,1,,6,5,3,2,1,0,,1,2,,Crystal Palace,,1,06.04.2015 21:00,Premier League - Round 31,cat142,2,,73,2,,5,,5,6,10,1,0,0,,6,2,,Manchester City,,0,06.04.2015 21:00,Premier League - Round 31
+143,cat143,1,,35,1,,3,,5,6,2,1,1,2,,0,1,,Crystal Palace,,1,06.04.2015 21:00,Premier League - Round 31,cat143,2,,65,6,,8,,6,6,12,0,1,0,,4,2,,Manchester City,,1,06.04.2015 21:00,Premier League - Round 31
+144,cat144,1,,63,4,,6,,5,10,7,0,1,1,,0,3,,Sunderland,,1,05.04.2015 17:00,Premier League - Round 31,cat144,2,,37,1,,0,,10,6,2,2,0,0,,1,0,,Newcastle,,1,05.04.2015 17:00,Premier League - Round 31
+145,cat145,1,,43,3,,2,,9,9,9,1,0,1,,5,1,,Sunderland,,4,05.04.2015 17:00,Premier League - Round 31,cat145,2,,57,3,,4,,8,10,8,1,0,1,,4,1,,Newcastle,,1,05.04.2015 17:00,Premier League - Round 31
+146,cat146,1,,42,1,,1,,3,6,7,2,0,1,,3,3,,Burnley,,,05.04.2015 14:30,Premier League - Round 31,cat146,2,,58,0,,2,,4,4,6,3,0,1,,4,2,,Tottenham,,,05.04.2015 14:30,Premier League - Round 31
+147,cat147,1,,38,4,,4,,6,3,8,0,0,3,,3,1,,Burnley,,2,05.04.2015 14:30,Premier League - Round 31,cat147,2,,62,2,,1,,1,9,6,1,0,2,,4,0,,Tottenham,,0,05.04.2015 14:30,Premier League - Round 31
+148,cat148,1,,62,2,,6,,3,9,12,0,1,1,,6,4,,Chelsea,,,04.04.2015 18:30,Premier League - Round 31,cat148,2,,38,1,,0,,11,5,3,3,1,0,,1,1,,Stoke,,,04.04.2015 18:30,Premier League - Round 31
+149,cat149,1,,60,1,,3,,2,14,7,1,1,1,,0,6,,Chelsea,,,04.04.2015 18:30,Premier League - Round 31,cat149,2,,40,1,,0,,11,3,4,5,0,1,,2,1,,Stoke,,,04.04.2015 18:30,Premier League - Round 31
+150,cat150,1,,46,5,,4,,6,9,10,2,1,0,,4,1,,Everton,,0,04.04.2015 16:00,Premier League - Round 31,cat150,2,,54,1,,4,,8,6,7,0,0,1,,4,2,,Southampton,,1,04.04.2015 16:00,Premier League - Round 31
+151,cat151,1,,44,0,,0,,6,10,1,0,0,0,,1,0,,Everton,,,04.04.2015 16:00,Premier League - Round 31,cat151,2,,56,1,,6,,9,6,4,0,0,1,,3,0,,Southampton,,,04.04.2015 16:00,Premier League - Round 31
+152,cat152,1,,45,2,,2,,8,1,6,3,1,2,,2,2,,Leicester,,0,04.04.2015 16:00,Premier League - Round 31,cat152,2,,55,0,,3,,2,10,6,1,1,0,,2,4,,West Ham,,1,04.04.2015 16:00,Premier League - Round 31
+153,cat153,1,,55,2,,5,,4,9,14,3,1,1,,7,5,,Leicester,,0,04.04.2015 16:00,Premier League - Round 31,cat153,2,,45,0,,3,,8,5,8,4,0,1,,5,3,,West Ham,,3,04.04.2015 16:00,Premier League - Round 31
+154,cat154,1,,74,4,,5,,8,4,10,1,1,0,,2,4,,Manchester Utd,,,04.04.2015 16:00,Premier League - Round 31,cat154,2,,26,1,,0,,3,8,2,3,0,1,,0,1,,Aston Villa,,,04.04.2015 16:00,Premier League - Round 31
+155,cat155,1,,70,0,,5,,7,9,9,0,2,0,,6,3,,Manchester Utd,,0,04.04.2015 16:00,Premier League - Round 31,cat155,2,,30,0,,2,,9,7,2,1,1,1,,1,1,,Aston Villa,,1,04.04.2015 16:00,Premier League - Round 31
+156,cat156,1,,59,0,,1,,3,6,3,0,2,1,,0,3,,Swansea,,,04.04.2015 16:00,Premier League - Round 31,cat156,2,,41,1,,2,,7,4,2,1,0,1,,1,0,,Hull,,,04.04.2015 16:00,Premier League - Round 31
+157,cat157,1,,61,1,,3,,8,6,6,0,1,1,0,4,1,,Swansea,,1,04.04.2015 16:00,Premier League - Round 31,cat157,2,,39,4,,5,,7,8,8,0,1,0,1,3,1,,Hull,,5,04.04.2015 16:00,Premier League - Round 31
+158,cat158,1,,55,1,,1,,3,6,9,1,0,2,,7,1,,West Brom,,1,04.04.2015 16:00,Premier League - Round 31,cat158,2,,45,1,,2,,5,5,7,1,3,1,,2,4,,QPR,,1,04.04.2015 16:00,Premier League - Round 31
+159,cat159,1,,61,3,,1,,3,11,12,2,1,1,1,4,5,,West Brom,,1,04.04.2015 16:00,Premier League - Round 31,cat159,2,,39,2,,2,,10,4,5,4,1,2,0,0,3,,QPR,,2,04.04.2015 16:00,Premier League - Round 31
+160,cat160,1,,60,0,,3,,3,5,7,0,3,2,,2,5,,Arsenal,,,04.04.2015 13:45,Premier League - Round 31,cat160,2,,40,1,,1,,5,4,3,2,0,2,,2,0,,Liverpool,,,04.04.2015 13:45,Premier League - Round 31
+161,cat161,1,,38,1,,3,,4,7,8,1,1,2,0,2,5,,Arsenal,,1,04.04.2015 13:45,Premier League - Round 31,cat161,2,,62,1,,4,,4,5,10,4,1,1,1,7,2,,Liverpool,,2,04.04.2015 13:45,Premier League - Round 31
+162,cat162,1,,48,2,,3,,6,6,14,0,2,2,,7,5,,Hull,,0,22.03.2015 17:00,Premier League - Round 30,cat162,2,,52,0,,0,,6,8,3,3,2,0,,1,2,,Chelsea,,1,22.03.2015 17:00,Premier League - Round 30
+163,cat163,1,,44,0,,3,,8,5,5,0,0,3,,2,3,,Hull,,0,22.03.2015 17:00,Premier League - Round 30,cat163,2,,56,3,,6,,5,11,5,3,1,1,,1,1,,Chelsea,,1,22.03.2015 17:00,Premier League - Round 30
+164,cat164,1,,47,1,,0,,4,8,3,1,0,2,,2,0,,QPR,,1,22.03.2015 17:00,Premier League - Round 30,cat164,2,,53,3,,1,,7,6,6,0,1,2,,1,2,,Everton,,0,22.03.2015 17:00,Premier League - Round 30
+165,cat165,1,,59,4,,1,,7,8,11,0,1,2,,6,1,,QPR,,1,22.03.2015 17:00,Premier League - Round 30,cat165,2,,41,0,,2,,5,9,2,0,1,3,,1,1,,Everton,,1,22.03.2015 17:00,Premier League - Round 30
+166,cat166,1,,40,2,,0,,6,9,4,1,0,0,,2,0,,Liverpool,,1,22.03.2015 14:30,Premier League - Round 30,cat166,2,,60,1,,3,,6,6,3,0,1,3,,0,2,,Manchester Utd,,0,22.03.2015 14:30,Premier League - Round 30
+167,cat167,1,,44,1,,2,,8,11,3,1,1,0,1,1,1,,Liverpool,,1,22.03.2015 14:30,Premier League - Round 30,cat167,2,,56,1,,0,,11,7,3,0,1,0,0,0,2,,Manchester Utd,,2,22.03.2015 14:30,Premier League - Round 30
+168,cat168,1,,54,0,,5,,9,5,4,2,0,0,,2,2,,West Ham,,,21.03.2015 18:30,Premier League - Round 30,cat168,2,,46,0,,1,,5,9,3,2,0,0,,1,2,,Sunderland,,,21.03.2015 18:30,Premier League - Round 30
+169,cat169,1,,54,1,,1,,5,6,5,1,1,1,,2,2,,West Ham,,0,21.03.2015 18:30,Premier League - Round 30,cat169,2,,46,6,,3,,6,6,9,1,0,1,,2,1,,Sunderland,,1,21.03.2015 18:30,Premier League - Round 30
+170,cat170,1,,39,1,,0,,8,9,2,2,0,0,,0,1,,Aston Villa,,,21.03.2015 16:00,Premier League - Round 30,cat170,2,,61,2,,3,,5,8,4,1,0,4,,0,2,,Swansea,,,21.03.2015 16:00,Premier League - Round 30
+171,cat171,1,,47,0,,4,,5,7,7,3,0,1,,5,2,,Aston Villa,,,21.03.2015 16:00,Premier League - Round 30,cat171,2,,53,2,,6,,4,4,7,2,1,3,,1,4,,Swansea,,,21.03.2015 16:00,Premier League - Round 30
+172,cat172,1,,40,2,,3,,7,4,3,0,0,3,,1,0,,Newcastle,,,21.03.2015 16:00,Premier League - Round 30,cat172,2,,60,5,,2,,2,10,8,0,2,2,,1,2,,Arsenal,,,21.03.2015 16:00,Premier League - Round 30
+173,cat173,1,,62,0,,6,,4,6,7,1,1,0,,3,4,,Newcastle,,,21.03.2015 16:00,Premier League - Round 30,cat173,2,,38,3,,2,,5,4,4,3,0,2,,0,1,,Arsenal,,,21.03.2015 16:00,Premier League - Round 30
+174,cat174,1,,61,3,,7,,3,2,9,3,1,0,,4,2,,Southampton,,,21.03.2015 16:00,Premier League - Round 30,cat174,2,,39,5,,3,,2,3,10,1,0,0,,2,3,,Burnley,,,21.03.2015 16:00,Premier League - Round 30
+175,cat175,1,,61,1,,3,,7,4,7,1,1,1,,5,1,,Southampton,,,21.03.2015 16:00,Premier League - Round 30,cat175,2,,39,2,,2,,5,7,8,0,0,0,,5,1,,Burnley,,,21.03.2015 16:00,Premier League - Round 30
+176,cat176,1,,53,2,,2,,10,5,4,0,1,0,,1,1,,Stoke,,3,21.03.2015 16:00,Premier League - Round 30,cat176,2,,47,1,,1,,5,8,6,0,2,0,,3,2,,Crystal Palace,,1,21.03.2015 16:00,Premier League - Round 30
+177,cat177,1,,61,3,,6,,5,9,13,1,0,0,,7,3,,Stoke,,0,21.03.2015 16:00,Premier League - Round 30,cat177,2,,39,2,,3,,9,5,6,3,0,0,,3,1,,Crystal Palace,,3,21.03.2015 16:00,Premier League - Round 30
+178,cat178,1,,70,1,,1,,4,7,5,2,2,1,,2,2,,Tottenham,,1,21.03.2015 16:00,Premier League - Round 30,cat178,2,,30,1,,1,,5,5,7,0,1,2,,3,3,,Leicester,,0,21.03.2015 16:00,Premier League - Round 30
+179,cat179,1,,62,2,,3,,4,4,7,1,2,0,,3,2,,Tottenham,,1,21.03.2015 16:00,Premier League - Round 30,cat179,2,,38,0,,3,,4,4,5,0,2,1,,2,3,,Leicester,,1,21.03.2015 16:00,Premier League - Round 30
+180,cat180,1,,80,11,,4,,0,3,26,0,2,2,0,7,8,,Manchester City,,,21.03.2015 13:45,Premier League - Round 30,cat180,2,,20,0,,0,,3,2,0,6,0,0,1,0,0,,West Brom,,,21.03.2015 13:45,Premier League - Round 30
+181,cat181,1,,78,1,,5,,6,3,17,0,1,0,,8,8,,Manchester City,,,21.03.2015 13:45,Premier League - Round 30,cat181,2,,22,0,,2,,2,7,3,7,0,3,,3,0,,West Brom,,,21.03.2015 13:45,Premier League - Round 30
+182,cat182,1,,58,2,,3,,2,8,6,2,0,1,,2,2,,Swansea,,0,16.03.2015 21:00,Premier League - Round 29,cat182,2,,42,0,,2,,8,3,6,2,0,0,,4,2,,Liverpool,,2,16.03.2015 21:00,Premier League - Round 29
+183,cat183,1,,34,2,,1,,11,8,4,2,0,0,,1,1,,Swansea,,0,16.03.2015 21:00,Premier League - Round 29,cat183,2,,66,3,,3,,8,11,10,1,1,0,,4,3,,Liverpool,,1,16.03.2015 21:00,Premier League - Round 29
+184,cat184,1,,51,1,,3,,2,4,6,3,1,0,,2,3,,Everton,,0,15.03.2015 17:00,Premier League - Round 29,cat184,2,,49,2,,2,,4,2,7,2,0,0,,2,3,,Newcastle,,1,15.03.2015 17:00,Premier League - Round 29
+185,cat185,1,,57,1,,0,,9,5,8,0,2,0,0,2,5,,Everton,,1,15.03.2015 17:00,Premier League - Round 29,cat185,2,,43,2,,2,,5,9,4,3,0,0,1,2,0,,Newcastle,,1,15.03.2015 17:00,Premier League - Round 29
+186,cat186,1,,57,2,,2,,8,7,7,0,3,3,,2,3,,Manchester Utd,,1,15.03.2015 17:00,Premier League - Round 29,cat186,2,,43,0,,1,,5,11,0,0,0,2,,0,0,,Tottenham,,0,15.03.2015 17:00,Premier League - Round 29
+187,cat187,1,,47,1,,2,,4,7,4,1,0,2,,3,0,,Manchester Utd,,0,15.03.2015 17:00,Premier League - Round 29,cat187,2,,53,2,,1,,5,6,5,0,0,2,,2,1,,Tottenham,,1,15.03.2015 17:00,Premier League - Round 29
+188,cat188,1,,56,1,,1,,6,7,5,3,1,0,,3,1,,Chelsea,,1,15.03.2015 14:30,Premier League - Round 29,cat188,2,,44,1,,2,,5,5,7,0,1,2,,2,4,,Southampton,,1,15.03.2015 14:30,Premier League - Round 29
+189,cat189,1,,66,6,,8,,4,7,17,1,0,2,,5,6,,Chelsea,,2,15.03.2015 14:30,Premier League - Round 29,cat189,2,,34,3,,0,,6,6,5,6,0,2,,1,1,,Southampton,,2,15.03.2015 14:30,Premier League - Round 29
+190,cat190,1,,31,1,,2,,3,2,5,2,0,1,,3,1,,Burnley,,,14.03.2015 18:30,Premier League - Round 29,cat190,2,,69,3,,4,,2,4,7,1,0,0,,2,2,,Manchester City,,,14.03.2015 18:30,Premier League - Round 29
+191,cat191,1,,27,0,,0,,3,7,5,3,1,1,,2,3,,Burnley,,2,14.03.2015 18:30,Premier League - Round 29,cat191,2,,73,4,,2,,7,4,14,2,0,0,,7,3,,Manchester City,,1,14.03.2015 18:30,Premier League - Round 29
+192,cat192,1,,74,3,,5,,3,5,12,1,1,1,,3,6,,Arsenal,,1,14.03.2015 16:00,Premier League - Round 29,cat192,2,,26,1,,2,,5,4,3,5,0,2,,1,1,,West Ham,,0,14.03.2015 16:00,Premier League - Round 29
+193,cat193,1,,62,2,,2,,7,5,7,0,2,2,,2,3,,Arsenal,,0,14.03.2015 16:00,Premier League - Round 29,cat193,2,,38,1,,3,,4,9,4,1,0,1,,3,0,,West Ham,,1,14.03.2015 16:00,Premier League - Round 29
+194,cat194,1,,53,2,,3,,4,8,4,2,0,0,,1,1,,Leicester,,0,14.03.2015 16:00,Premier League - Round 29,cat194,2,,47,1,,2,,8,4,7,1,0,0,,4,2,,Hull,,2,14.03.2015 16:00,Premier League - Round 29
+195,cat195,1,,49,3,,4,,6,7,12,3,0,0,0,7,2,,Leicester,,0,14.03.2015 16:00,Premier League - Round 29,cat195,2,,51,1,,3,,7,6,5,2,0,0,1,1,3,,Hull,,4,14.03.2015 16:00,Premier League - Round 29
+196,cat196,1,,43,1,,2,,6,5,4,2,0,1,,3,0,,Sunderland,,0,14.03.2015 16:00,Premier League - Round 29,cat196,2,,57,2,,3,,5,7,10,0,4,0,,2,6,,Aston Villa,,1,14.03.2015 16:00,Premier League - Round 29
+197,cat197,1,,37,2,,0,,4,4,8,2,0,1,,4,2,,Sunderland,,1,14.03.2015 16:00,Premier League - Round 29,cat197,2,,63,0,,2,,4,5,4,2,0,0,,2,2,,Aston Villa,,0,14.03.2015 16:00,Premier League - Round 29
+198,cat198,1,,48,1,,3,,6,7,7,0,1,1,,3,3,,West Brom,,,14.03.2015 16:00,Premier League - Round 29,cat198,2,,52,1,,1,,5,7,3,2,0,2,,2,0,,Stoke,,,14.03.2015 16:00,Premier League - Round 29
+199,cat199,1,,38,3,,4,,1,12,7,2,0,0,,2,2,,West Brom,,1,14.03.2015 16:00,Premier League - Round 29,cat199,2,,62,3,,4,,11,1,6,2,0,1,,1,2,,Stoke,,2,14.03.2015 16:00,Premier League - Round 29
+200,cat200,1,,51,1,,3,,9,9,8,0,3,2,,4,3,,Crystal Palace,,,14.03.2015 13:45,Premier League - Round 29,cat200,2,,49,0,,0,,9,12,3,0,0,0,,3,0,,QPR,,,14.03.2015 13:45,Premier League - Round 29
+201,cat201,1,,35,3,,3,,8,7,7,3,0,3,,3,1,,Crystal Palace,,,14.03.2015 13:45,Premier League - Round 29,cat201,2,,65,2,,3,,7,11,8,1,1,0,,2,4,,QPR,,,14.03.2015 13:45,Premier League - Round 29
+202,cat202,1,,34,3,,0,,6,7,10,2,0,2,,4,3,,QPR,,,07.03.2015 16:00,Premier League - Round 27,cat202,2,,66,0,,4,,5,8,4,3,1,2,,1,3,,Tottenham,,,07.03.2015 16:00,Premier League - Round 27
+203,cat203,1,,40,3,,3,,9,8,7,2,1,1,,1,3,,QPR,,1,07.03.2015 16:00,Premier League - Round 27,cat203,2,,60,1,,1,,7,10,9,2,1,1,,5,3,,Tottenham,,2,07.03.2015 16:00,Premier League - Round 27
+204,cat204,1,,66,4,,4,,5,8,13,1,1,0,,5,4,,Liverpool,,,04.03.2015 21:00,Premier League - Round 28,cat204,2,,34,1,,2,,8,5,4,3,0,0,,2,1,,Burnley,,,04.03.2015 21:00,Premier League - Round 28
+205,cat205,1,,62,1,,2,,3,7,7,0,1,0,,2,4,,Liverpool,,0,04.03.2015 21:00,Premier League - Round 28,cat205,2,,38,3,,3,,6,3,5,3,0,1,,2,0,,Burnley,,1,04.03.2015 21:00,Premier League - Round 28
+206,cat206,1,,72,4,,3,,6,1,10,1,1,1,,2,4,,Manchester City,,0,04.03.2015 20:45,Premier League - Round 28,cat206,2,,28,1,,1,,1,7,2,3,0,0,,0,1,,Leicester,,1,04.03.2015 20:45,Premier League - Round 28
+207,cat207,1,,68,2,,7,,5,5,12,1,1,3,,5,5,,Manchester City,,,04.03.2015 20:45,Premier League - Round 28,cat207,2,,32,2,,2,,2,8,4,4,0,3,,1,1,,Leicester,,,04.03.2015 20:45,Premier League - Round 28
+208,cat208,1,,31,1,,2,,3,9,3,1,0,0,,2,0,,Newcastle,,,04.03.2015 20:45,Premier League - Round 28,cat208,2,,69,1,,1,,7,3,5,0,0,2,,3,1,,Manchester Utd,,,04.03.2015 20:45,Premier League - Round 28
+209,cat209,1,,33,1,,2,,3,11,6,3,0,1,,3,2,,Newcastle,,1,04.03.2015 20:45,Premier League - Round 28,cat209,2,,67,0,,0,,7,4,6,2,1,4,,2,4,,Manchester Utd,,2,04.03.2015 20:45,Premier League - Round 28
+210,cat210,1,,42,2,,1,,5,5,6,3,0,2,,2,2,,QPR,,1,04.03.2015 20:45,Premier League - Round 28,cat210,2,,58,4,,3,,4,7,8,2,0,1,,1,3,,Arsenal,,1,04.03.2015 20:45,Premier League - Round 28
+211,cat211,1,,44,1,,0,,5,5,4,4,1,3,,2,1,,QPR,,1,04.03.2015 20:45,Premier League - Round 28,cat211,2,,56,3,,3,,4,8,12,0,2,1,,3,6,,Arsenal,,0,04.03.2015 20:45,Premier League - Round 28
+212,cat212,1,,45,2,,2,,3,8,5,3,1,0,,1,2,,Stoke,,0,04.03.2015 20:45,Premier League - Round 28,cat212,2,,55,2,,4,,8,3,5,1,0,0,,0,3,,Everton,,1,04.03.2015 20:45,Premier League - Round 28
+213,cat213,1,,43,3,,3,,8,7,6,2,1,0,,2,1,,Stoke,,2,04.03.2015 20:45,Premier League - Round 28,cat213,2,,57,2,,2,,6,8,5,0,0,1,,1,2,,Everton,,1,04.03.2015 20:45,Premier League - Round 28
+214,cat214,1,,60,6,,4,,8,7,11,0,1,1,,1,4,,Tottenham,,,04.03.2015 20:45,Premier League - Round 28,cat214,2,,40,0,,0,,3,9,3,3,1,4,,2,1,,Swansea,,,04.03.2015 20:45,Premier League - Round 28
+215,cat215,1,,62,3,,2,,6,6,9,3,2,1,,3,3,,Tottenham,,1,04.03.2015 20:45,Premier League - Round 28,cat215,2,,38,3,,4,,4,7,7,1,1,2,,0,4,,Swansea,,0,04.03.2015 20:45,Premier League - Round 28
+216,cat216,1,,39,0,,2,,5,4,4,0,0,4,,2,2,,West Ham,,2,04.03.2015 20:45,Premier League - Round 28,cat216,2,,61,1,,4,,4,9,4,2,1,0,,2,1,,Chelsea,,2,04.03.2015 20:45,Premier League - Round 28
+217,cat217,1,,51,7,,3,,5,7,14,2,0,0,,4,3,,West Ham,,1,04.03.2015 20:45,Premier League - Round 28,cat217,2,,49,4,,0,,6,5,8,3,0,1,,2,2,,Chelsea,,2,04.03.2015 20:45,Premier League - Round 28
+218,cat218,1,,55,0,,0,,6,7,7,0,1,2,,3,4,,Aston Villa,,0,03.03.2015 20:45,Premier League - Round 28,cat218,2,,45,1,,1,,6,9,1,3,0,1,,0,0,,West Brom,,1,03.03.2015 20:45,Premier League - Round 28
+219,cat219,1,,61,2,,0,,9,7,9,0,1,1,,3,4,,Aston Villa,,2,03.03.2015 20:45,Premier League - Round 28,cat219,2,,39,0,,2,,7,10,2,3,1,1,,1,1,,West Brom,,3,03.03.2015 20:45,Premier League - Round 28
+220,cat220,1,,44,1,,3,,4,8,6,0,1,2,,3,2,,Hull,,1,03.03.2015 20:45,Premier League - Round 28,cat220,2,,56,0,,0,,8,6,2,1,0,0,,2,0,,Sunderland,,2,03.03.2015 20:45,Premier League - Round 28
+221,cat221,1,,40,1,,3,,5,8,9,2,0,0,,5,3,,Hull,,1,03.03.2015 20:45,Premier League - Round 28,cat221,2,,60,2,,4,,7,5,7,3,1,1,,2,3,,Sunderland,,4,03.03.2015 20:45,Premier League - Round 28
+222,cat222,1,,68,2,,5,,4,6,9,0,0,0,,6,1,,Southampton,,,03.03.2015 20:45,Premier League - Round 28,cat222,2,,32,0,,1,,6,4,1,1,0,0,,1,0,,Crystal Palace,,,03.03.2015 20:45,Premier League - Round 28
+223,cat223,1,,58,6,,5,,7,4,14,3,1,0,,6,2,,Southampton,,,03.03.2015 20:45,Premier League - Round 28,cat223,2,,42,1,,1,,4,7,8,1,0,0,,4,3,,Crystal Palace,,,03.03.2015 20:45,Premier League - Round 28
+224,cat224,1,,45,1,,4,,6,1,5,0,1,2,,2,2,,Arsenal,,,01.03.2015 15:05,Premier League - Round 27,cat224,2,,55,3,,0,,1,8,4,1,0,0,,1,0,,Everton,,,01.03.2015 15:05,Premier League - Round 27
+225,cat225,1,,51,1,,4,,6,5,8,2,1,0,,5,2,,Arsenal,,2,01.03.2015 15:05,Premier League - Round 27,cat225,2,,49,3,,9,,4,6,8,1,0,1,,3,2,,Everton,,0,01.03.2015 15:05,Premier League - Round 27
+226,cat226,1,,43,0,,2,,4,9,7,0,1,2,,3,4,,Liverpool,,,01.03.2015 13:00,Premier League - Round 27,cat226,2,,57,0,,0,,4,6,4,3,1,5,,3,1,,Manchester City,,,01.03.2015 13:00,Premier League - Round 27
+227,cat227,1,,53,0,,1,,4,12,3,0,1,1,,2,1,,Liverpool,,1,01.03.2015 13:00,Premier League - Round 27,cat227,2,,47,1,,0,,12,5,5,0,0,1,,4,0,,Manchester City,,3,01.03.2015 13:00,Premier League - Round 27
+228,cat228,1,,44,0,,4,,8,4,4,1,0,0,,2,2,,Burnley,,,28.02.2015 16:00,Premier League - Round 27,cat228,2,,56,0,,2,,3,8,4,2,0,1,,3,1,,Swansea,,,28.02.2015 16:00,Premier League - Round 27
+229,cat229,1,,48,0,,2,,6,6,8,0,0,2,,3,5,,Burnley,,,28.02.2015 16:00,Premier League - Round 27,cat229,2,,52,0,,2,,5,7,4,5,1,1,,3,1,,Swansea,,,28.02.2015 16:00,Premier League - Round 27
+230,cat230,1,,71,0,,5,,1,8,7,3,0,0,,5,2,,Manchester Utd,,1,28.02.2015 16:00,Premier League - Round 27,cat230,2,,29,4,,1,,7,1,9,2,0,2,,2,3,,Sunderland,,0,28.02.2015 16:00,Premier League - Round 27
+231,cat231,1,,79,0,,8,,5,2,14,0,2,1,0,6,8,,Manchester Utd,,0,28.02.2015 16:00,Premier League - Round 27,cat231,2,,21,5,,0,,4,6,5,6,0,0,1,0,0,,Sunderland,,1,28.02.2015 16:00,Premier League - Round 27
+232,cat232,1,,54,2,,3,,3,8,4,2,1,0,,1,1,,Newcastle,,0,28.02.2015 16:00,Premier League - Round 27,cat232,2,,46,1,,3,,6,3,5,0,0,2,,2,2,,Aston Villa,,2,28.02.2015 16:00,Premier League - Round 27
+233,cat233,1,,46,2,,6,,3,9,8,1,0,0,,2,4,,Newcastle,,1,28.02.2015 16:00,Premier League - Round 27,cat233,2,,54,5,,2,,10,3,10,4,0,1,,4,1,,Aston Villa,,3,28.02.2015 16:00,Premier League - Round 27
+234,cat234,1,,53,0,,5,,4,2,3,0,0,0,,2,1,,Stoke,,2,28.02.2015 16:00,Premier League - Round 27,cat234,2,,47,6,,0,,2,3,7,1,0,0,,1,0,,Hull,,0,28.02.2015 16:00,Premier League - Round 27
+235,cat235,1,,65,0,,0,,5,7,6,0,1,1,,5,1,,Stoke,,0,28.02.2015 16:00,Premier League - Round 27,cat235,2,,35,2,,2,,8,7,2,0,0,0,,0,0,,Hull,,2,28.02.2015 16:00,Premier League - Round 27
+236,cat236,1,,39,0,,2,,5,9,3,0,1,0,,0,3,,West Brom,,0,28.02.2015 16:00,Premier League - Round 27,cat236,2,,61,1,,1,,9,5,7,2,0,0,,6,0,,Southampton,,1,28.02.2015 16:00,Premier League - Round 27
+237,cat237,1,,33,0,,0,,5,9,2,2,0,2,,2,0,,West Brom,,2,28.02.2015 16:00,Premier League - Round 27,cat237,2,,67,1,,2,,8,5,7,0,0,2,,4,2,,Southampton,,0,28.02.2015 16:00,Premier League - Round 27
+238,cat238,1,,61,1,,4,,6,14,5,2,0,0,,4,0,,West Ham,,0,28.02.2015 13:45,Premier League - Round 27,cat238,2,,39,3,,5,,13,6,8,0,1,2,,2,3,,Crystal Palace,,1,28.02.2015 13:45,Premier League - Round 27
+239,cat239,1,,73,2,,7,,6,10,14,0,1,0,0,7,5,,West Ham,,2,28.02.2015 13:45,Premier League - Round 27,cat239,2,,27,3,,2,,6,5,6,4,2,4,1,1,2,,Crystal Palace,,3,28.02.2015 13:45,Premier League - Round 27
+240,cat240,1,,59,1,,4,,6,6,6,0,0,0,,2,3,,Southampton,,0,22.02.2015 17:15,Premier League - Round 26,cat240,2,,41,0,,0,,6,6,1,3,1,0,,0,1,,Liverpool,,1,22.02.2015 17:15,Premier League - Round 26
+241,cat241,1,,61,4,,2,,5,10,7,2,0,1,,1,2,,Southampton,,2,22.02.2015 17:15,Premier League - Round 26,cat241,2,,39,1,,1,,8,6,5,2,1,2,,1,3,,Liverpool,,2,22.02.2015 17:15,Premier League - Round 26
+242,cat242,1,,54,1,,0,,2,4,6,1,0,1,,4,1,,Everton,,0,22.02.2015 15:05,Premier League - Round 26,cat242,2,,46,3,,1,,3,3,7,1,0,1,,3,1,,Leicester,,1,22.02.2015 15:05,Premier League - Round 26
+243,cat243,1,,62,3,,4,,5,3,12,1,2,0,,7,2,,Everton,,,22.02.2015 15:05,Premier League - Round 26,cat243,2,,38,1,,6,,3,5,8,0,2,0,,4,3,,Leicester,,,22.02.2015 15:05,Premier League - Round 26
+244,cat244,1,,64,1,,2,,1,10,9,1,0,0,,6,2,,Tottenham,,0,22.02.2015 13:00,Premier League - Round 26,cat244,2,,36,2,,5,,7,1,7,2,1,4,,3,2,,West Ham,,1,22.02.2015 13:00,Premier League - Round 26
+245,cat245,1,,66,6,,5,,5,6,18,2,2,2,,6,6,,Tottenham,,0,22.02.2015 13:00,Premier League - Round 26,cat245,2,,34,1,,4,,5,7,5,4,1,0,,1,3,,West Ham,,1,22.02.2015 13:00,Premier League - Round 26
+246,cat246,1,,60,0,,1,,6,4,7,0,3,1,,3,4,,Manchester City,,,21.02.2015 18:30,Premier League - Round 26,cat246,2,,40,2,,1,,5,7,7,1,0,0,,5,0,,Newcastle,,,21.02.2015 18:30,Premier League - Round 26
+247,cat247,1,,54,1,,6,,3,5,9,1,2,0,,3,5,,Manchester City,,,21.02.2015 18:30,Premier League - Round 26,cat247,2,,46,0,,2,,3,3,1,3,0,2,,0,1,,Newcastle,,,21.02.2015 18:30,Premier League - Round 26
+248,cat248,1,,52,0,,5,,5,11,1,2,1,1,,0,1,,Aston Villa,,0,21.02.2015 16:00,Premier League - Round 26,cat248,2,,48,2,,2,,8,6,5,0,1,3,,0,3,,Stoke,,1,21.02.2015 16:00,Premier League - Round 26
+249,cat249,1,,52,1,,6,,6,8,2,2,0,0,1,0,1,,Aston Villa,,3,21.02.2015 16:00,Premier League - Round 26,cat249,2,,48,0,,1,,6,5,6,1,1,2,0,3,3,,Stoke,,2,21.02.2015 16:00,Premier League - Round 26
+250,cat250,1,,63,1,,5,,4,7,6,2,1,2,,2,3,,Chelsea,,0,21.02.2015 16:00,Premier League - Round 26,cat250,2,,37,0,,3,,5,6,4,2,0,2,,2,2,,Burnley,,1,21.02.2015 16:00,Premier League - Round 26
+251,cat251,1,,59,2,,2,,5,4,8,2,0,1,1,4,2,,Chelsea,,1,21.02.2015 16:00,Premier League - Round 26,cat251,2,,41,1,,4,,4,6,6,2,1,0,0,2,3,,Burnley,,1,21.02.2015 16:00,Premier League - Round 26
+252,cat252,1,,47,3,,2,,8,11,6,1,0,1,,3,0,,Crystal Palace,,1,21.02.2015 16:00,Premier League - Round 26,cat252,2,,53,1,,1,,8,8,6,0,2,2,,2,3,,Arsenal,,1,21.02.2015 16:00,Premier League - Round 26
+253,cat253,1,,59,7,,8,,7,7,16,1,1,2,,6,3,,Crystal Palace,,0,21.02.2015 16:00,Premier League - Round 26,cat253,2,,41,2,,0,,6,8,6,2,0,1,,3,1,,Arsenal,,2,21.02.2015 16:00,Premier League - Round 26
+254,cat254,1,,45,2,,1,,8,11,9,1,1,3,0,4,3,,Hull,,0,21.02.2015 16:00,Premier League - Round 26,cat254,2,,55,1,,5,,8,11,3,2,1,3,1,0,2,,QPR,,1,21.02.2015 16:00,Premier League - Round 26
+255,cat255,1,,63,0,,4,,10,8,7,1,1,5,,4,3,,Hull,,0,21.02.2015 16:00,Premier League - Round 26,cat255,2,,37,1,,2,,8,15,5,2,0,0,,3,1,,QPR,,3,21.02.2015 16:00,Premier League - Round 26
+256,cat256,1,,61,1,,5,,7,6,7,1,0,1,,5,1,,Sunderland,,1,21.02.2015 16:00,Premier League - Round 26,cat256,2,,39,1,,1,,5,8,4,1,0,1,,2,1,,West Brom,,2,21.02.2015 16:00,Premier League - Round 26
+257,cat257,1,,63,4,,6,,4,8,6,0,0,2,,1,1,,Sunderland,,,21.02.2015 16:00,Premier League - Round 26,cat257,2,,37,0,,1,,7,6,1,1,0,1,,1,0,,West Brom,,,21.02.2015 16:00,Premier League - Round 26
+258,cat258,1,,41,1,,3,,1,8,6,1,1,2,,2,3,,Swansea,,0,21.02.2015 16:00,Premier League - Round 26,cat258,2,,59,0,,1,,7,3,7,2,1,0,,5,2,,Manchester Utd,,1,21.02.2015 16:00,Premier League - Round 26
+259,cat259,1,,31,2,,1,,5,6,5,1,1,1,,0,3,,Swansea,,2,21.02.2015 16:00,Premier League - Round 26,cat259,2,,69,6,,9,,8,4,11,2,0,1,,4,1,,Manchester Utd,,3,21.02.2015 16:00,Premier League - Round 26
+260,cat260,1,,54,0,,1,,3,7,3,0,0,2,,2,1,,Crystal Palace,,,11.02.2015 21:00,Premier League - Round 25,cat260,2,,46,1,,1,,7,5,3,1,1,0,,1,1,,Newcastle,,,11.02.2015 21:00,Premier League - Round 25
+261,cat261,1,,54,1,,4,,7,4,4,0,1,4,,1,2,,Crystal Palace,,,11.02.2015 21:00,Premier League - Round 25,cat261,2,,46,0,,1,,4,11,2,1,0,0,,2,0,,Newcastle,,,11.02.2015 21:00,Premier League - Round 25
+262,cat262,1,,36,3,,3,,5,8,6,1,0,0,,2,1,,West Brom,,2,11.02.2015 21:00,Premier League - Round 25,cat262,2,,64,0,,3,,7,5,3,1,0,1,,2,1,,Swansea,,1,11.02.2015 21:00,Premier League - Round 25
+263,cat263,1,,34,1,,2,,6,5,5,2,2,0,,1,3,,West Brom,,,11.02.2015 21:00,Premier League - Round 25,cat263,2,,66,1,,1,,5,6,7,1,0,0,,4,2,,Swansea,,,11.02.2015 21:00,Premier League - Round 25
+264,cat264,1,,49,3,,4,,5,5,11,2,0,1,,6,2,,Chelsea,,1,11.02.2015 20:45,Premier League - Round 25,cat264,2,,51,0,,1,,5,6,3,2,0,0,,1,2,,Everton,,2,11.02.2015 20:45,Premier League - Round 25
+265,cat265,1,,63,3,,6,,3,9,10,2,1,1,0,2,5,,Chelsea,,2,11.02.2015 20:45,Premier League - Round 25,cat265,2,,37,1,,1,,8,4,4,4,0,1,1,1,2,,Everton,,3,11.02.2015 20:45,Premier League - Round 25
+266,cat266,1,,56,0,,3,,7,3,3,1,2,1,,0,3,,Manchester Utd,,0,11.02.2015 20:45,Premier League - Round 25,cat266,2,,44,2,,5,,3,8,10,1,1,0,,6,2,,Burnley,,1,11.02.2015 20:45,Premier League - Round 25
+267,cat267,1,,58,1,,2,,8,4,8,1,1,1,,3,4,,Manchester Utd,,4,11.02.2015 20:45,Premier League - Round 25,cat267,2,,42,2,,3,,5,9,3,3,0,0,,0,1,,Burnley,,2,11.02.2015 20:45,Premier League - Round 25
+268,cat268,1,,61,2,,1,,7,8,9,1,0,0,,5,2,,Southampton,,2,11.02.2015 20:45,Premier League - Round 25,cat268,2,,39,2,,1,,8,7,3,2,0,0,,0,1,,West Ham,,0,11.02.2015 20:45,Premier League - Round 25
+269,cat269,1,,75,1,,7,,5,1,8,0,0,3,0,2,5,,Southampton,,0,11.02.2015 20:45,Premier League - Round 25,cat269,2,,25,5,,1,,3,8,5,5,0,0,1,0,0,,West Ham,,1,11.02.2015 20:45,Premier League - Round 25
+270,cat270,1,,47,2,,2,,2,7,9,1,1,3,,2,5,,Stoke,,0,11.02.2015 20:45,Premier League - Round 25,cat270,2,,53,3,,1,,5,4,8,4,1,3,,3,2,,Manchester City,,1,11.02.2015 20:45,Premier League - Round 25
+271,cat271,1,,55,1,,1,,4,6,7,3,0,0,,6,0,,Stoke,,1,11.02.2015 20:45,Premier League - Round 25,cat271,2,,45,1,,1,,6,3,7,0,3,1,,0,6,,Manchester City,,1,11.02.2015 20:45,Premier League - Round 25
+272,cat272,1,,49,3,,2,,6,9,11,1,1,0,,4,4,,Liverpool,,2,10.02.2015 21:00,Premier League - Round 25,cat272,2,,51,3,,3,,8,6,7,3,1,1,,2,2,,Tottenham,,2,10.02.2015 21:00,Premier League - Round 25
+273,cat273,1,,51,3,,3,,7,7,7,2,2,1,,1,3,,Liverpool,,1,10.02.2015 21:00,Premier League - Round 25,cat273,2,,49,1,,4,,9,7,5,1,1,0,,1,3,,Tottenham,,4,10.02.2015 21:00,Premier League - Round 25
+274,cat274,1,,52,4,,2,,4,7,12,0,2,1,,2,6,,Arsenal,,,10.02.2015 20:45,Premier League - Round 25,cat274,2,,48,2,,4,,7,5,5,4,0,0,,3,0,,Leicester,,,10.02.2015 20:45,Premier League - Round 25
+275,cat275,1,,62,3,,4,,9,9,5,3,0,0,,1,1,,Arsenal,,2,10.02.2015 20:45,Premier League - Round 25,cat275,2,,38,0,,2,,7,8,6,1,1,2,,2,4,,Leicester,,2,10.02.2015 20:45,Premier League - Round 25
+276,cat276,1,,38,0,,1,,10,5,4,1,1,1,,2,2,,Hull,,0,10.02.2015 20:45,Premier League - Round 25,cat276,2,,62,0,,1,,5,11,5,1,0,0,,4,1,,Aston Villa,,1,10.02.2015 20:45,Premier League - Round 25
+277,cat277,1,,38,2,,2,,6,7,6,3,1,0,,2,2,,Hull,,1,10.02.2015 20:45,Premier League - Round 25,cat277,2,,62,2,,6,,6,6,6,1,0,1,,1,3,,Aston Villa,,1,10.02.2015 20:45,Premier League - Round 25
+278,cat278,1,,46,3,,1,,5,9,7,1,0,1,,3,1,,Sunderland,,1,10.02.2015 20:45,Premier League - Round 25,cat278,2,,54,4,,3,,8,5,13,1,2,1,,6,3,,QPR,,1,10.02.2015 20:45,Premier League - Round 25
+279,cat279,1,,58,5,,7,,3,5,9,1,0,1,,0,4,,Sunderland,,1,10.02.2015 20:45,Premier League - Round 25,cat279,2,,42,3,,1,,4,4,6,4,0,1,,2,1,,QPR,,2,10.02.2015 20:45,Premier League - Round 25
+280,cat280,1,,48,0,,5,,3,9,6,2,0,2,,3,3,,West Ham,,0,08.02.2015 17:15,Premier League - Round 24,cat280,2,,52,1,,5,,8,5,3,3,0,1,,0,2,,Manchester Utd,,1,08.02.2015 17:15,Premier League - Round 24
+281,cat281,1,,34,5,,4,,4,5,11,3,1,1,0,3,3,,West Ham,,2,08.02.2015 17:15,Premier League - Round 24,cat281,2,,66,0,,4,,5,2,10,2,1,1,1,6,4,,Manchester Utd,,3,08.02.2015 17:15,Premier League - Round 24
+282,cat282,1,,40,1,,3,,7,9,5,1,0,0,,2,2,,Newcastle,,1,08.02.2015 15:05,Premier League - Round 24,cat282,2,,60,0,,3,,9,7,2,2,0,0,,1,1,,Stoke,,3,08.02.2015 15:05,Premier League - Round 24
+283,cat283,1,,44,1,,2,,7,8,4,1,1,2,,2,1,,Newcastle,,1,08.02.2015 15:05,Premier League - Round 24,cat283,2,,56,2,,5,,8,9,5,0,1,1,,1,2,,Stoke,,1,08.02.2015 15:05,Premier League - Round 24
+284,cat284,1,,55,1,,0,,6,6,6,1,2,2,,2,3,,Burnley,,0,08.02.2015 13:00,Premier League - Round 24,cat284,2,,45,1,,2,,5,8,5,1,1,1,,2,2,,West Brom,,1,08.02.2015 13:00,Premier League - Round 24
+285,cat285,1,,57,3,,5,,4,11,5,2,0,1,,0,2,,Burnley,,0,08.02.2015 13:00,Premier League - Round 24,cat285,2,,43,4,,4,,10,5,8,2,1,1,,1,3,,West Brom,,3,08.02.2015 13:00,Premier League - Round 24
+286,cat286,1,,43,3,,1,,8,3,5,3,0,2,,2,0,,Everton,,1,07.02.2015 18:30,Premier League - Round 24,cat286,2,,57,0,,3,,3,10,5,0,0,0,,2,3,,Liverpool,,0,07.02.2015 18:30,Premier League - Round 24
+287,cat287,1,,47,4,,2,,3,5,7,3,0,3,,2,1,,Everton,,3,07.02.2015 18:30,Premier League - Round 24,cat287,2,,53,0,,3,,4,5,5,1,0,2,,2,3,,Liverpool,,1,07.02.2015 18:30,Premier League - Round 24
+288,cat288,1,,51,1,,4,,6,5,2,2,0,1,,1,0,,Aston Villa,,,07.02.2015 16:00,Premier League - Round 24,cat288,2,,49,0,,4,,3,7,4,0,1,2,,1,3,,Chelsea,,,07.02.2015 16:00,Premier League - Round 24
+289,cat289,1,,51,2,,3,,2,6,7,1,1,1,,4,1,,Aston Villa,,,07.02.2015 16:00,Premier League - Round 24,cat289,2,,49,2,,3,,4,3,7,0,1,2,,3,2,,Chelsea,,,07.02.2015 16:00,Premier League - Round 24
+290,cat290,1,,59,3,,6,,8,5,10,0,0,0,,4,3,,Leicester,,,07.02.2015 16:00,Premier League - Round 24,cat290,2,,41,2,,3,,3,8,7,3,0,2,,5,0,,Crystal Palace,,,07.02.2015 16:00,Premier League - Round 24
+291,cat291,1,,65,1,,2,,7,5,7,1,0,0,,4,2,,Leicester,,,07.02.2015 16:00,Premier League - Round 24,cat291,2,,35,4,,3,,3,5,9,2,1,2,,3,2,,Crystal Palace,,,07.02.2015 16:00,Premier League - Round 24
+292,cat292,1,,69,0,,1,,6,5,3,2,0,0,,2,1,,Manchester City,,,07.02.2015 16:00,Premier League - Round 24,cat292,2,,31,3,,1,,4,6,9,1,1,1,,3,3,,Hull,,,07.02.2015 16:00,Premier League - Round 24
+293,cat293,1,,79,1,,12,,3,1,8,0,1,3,,3,4,,Manchester City,,2,07.02.2015 16:00,Premier League - Round 24,cat293,2,,21,4,,0,,4,5,4,3,0,0,,0,0,,Hull,,4,07.02.2015 16:00,Premier League - Round 24
+294,cat294,1,,47,2,,1,,6,8,6,3,0,0,,3,1,,QPR,,,07.02.2015 16:00,Premier League - Round 24,cat294,2,,53,0,,1,,7,6,9,1,0,1,,6,3,,Southampton,,,07.02.2015 16:00,Premier League - Round 24
+295,cat295,1,,43,1,,2,,7,11,6,1,0,2,,3,2,,QPR,,,07.02.2015 16:00,Premier League - Round 24,cat295,2,,57,2,,3,,9,8,6,2,1,2,,2,2,,Southampton,,,07.02.2015 16:00,Premier League - Round 24
+296,cat296,1,,56,1,,2,,7,9,8,0,0,1,,4,3,,Swansea,,2,07.02.2015 16:00,Premier League - Round 24,cat296,2,,44,0,,0,,7,8,3,3,1,2,,2,1,,Sunderland,,0,07.02.2015 16:00,Premier League - Round 24
+297,cat297,1,,64,0,,5,,4,3,6,0,1,0,,2,4,,Swansea,,1,07.02.2015 16:00,Premier League - Round 24,cat297,2,,36,3,,1,,6,3,3,3,0,0,,0,0,,Sunderland,,4,07.02.2015 16:00,Premier League - Round 24
+298,cat298,1,,63,0,,7,,5,6,9,0,0,2,,6,3,,Tottenham,,1,07.02.2015 13:45,Premier League - Round 24,cat298,2,,37,2,,0,,4,7,4,3,1,2,,1,1,,Arsenal,,2,07.02.2015 13:45,Premier League - Round 24
+299,cat299,1,,49,1,,3,,3,8,10,2,2,4,,4,5,,Tottenham,,2,07.02.2015 13:45,Premier League - Round 24,cat299,2,,51,3,,3,,8,7,7,3,0,1,,2,2,,Arsenal,,3,07.02.2015 13:45,Premier League - Round 24
+300,cat300,1,,68,0,,5,,3,7,4,0,0,0,,3,1,,Southampton,,0,01.02.2015 17:00,Premier League - Round 23,cat300,2,,32,1,,0,,5,3,2,1,0,2,,1,0,,Swansea,,1,01.02.2015 17:00,Premier League - Round 23
+301,cat301,1,,60,2,,4,,8,5,8,0,0,0,1,1,5,,Southampton,,1,01.02.2015 17:00,Premier League - Round 23,cat301,2,,40,4,,0,,4,6,7,5,1,1,0,2,1,,Swansea,,0,01.02.2015 17:00,Premier League - Round 23
+302,cat302,1,,47,1,,5,,4,3,5,1,1,3,,2,2,,Arsenal,,,01.02.2015 14:30,Premier League - Round 23,cat302,2,,53,2,,4,,3,7,4,1,0,0,,1,1,,Aston Villa,,,01.02.2015 14:30,Premier League - Round 23
+303,cat303,1,,49,1,,2,,2,6,8,1,4,0,,1,6,,Arsenal,,0,01.02.2015 14:30,Premier League - Round 23,cat303,2,,51,0,,3,,7,1,5,2,0,0,,4,1,,Aston Villa,,2,01.02.2015 14:30,Premier League - Round 23
+304,cat304,1,,48,0,,1,,5,9,3,2,1,1,,1,2,,Chelsea,,,31.01.2015 18:30,Premier League - Round 23,cat304,2,,52,1,,4,,7,6,6,1,1,2,,2,3,,Manchester City,,,31.01.2015 18:30,Premier League - Round 23
+305,cat305,1,,38,0,,0,,7,8,0,2,0,1,,0,0,,Chelsea,,0,31.01.2015 18:30,Premier League - Round 23,cat305,2,,62,0,,4,,7,8,4,0,0,1,,2,2,,Manchester City,,2,31.01.2015 18:30,Premier League - Round 23
+306,cat306,1,,51,4,,4,,3,5,10,0,0,0,,4,2,,Crystal Palace,,,31.01.2015 16:00,Premier League - Round 23,cat306,2,,49,1,,0,,5,3,4,2,1,0,,2,1,,Everton,,,31.01.2015 16:00,Premier League - Round 23
+307,cat307,1,,59,1,,2,,9,9,3,1,0,0,,1,1,,Crystal Palace,,0,31.01.2015 16:00,Premier League - Round 23,cat307,2,,41,5,,1,,9,9,10,1,0,0,,4,1,,Everton,,3,31.01.2015 16:00,Premier League - Round 23
+308,cat308,1,,67,4,,5,,6,6,11,1,0,1,,4,3,,Liverpool,,,31.01.2015 16:00,Premier League - Round 23,cat308,2,,33,2,,4,,5,7,4,3,0,1,,1,1,,West Ham,,,31.01.2015 16:00,Premier League - Round 23
+309,cat309,1,,67,1,,0,,6,7,10,1,2,0,,5,4,,Liverpool,,1,31.01.2015 16:00,Premier League - Round 23,cat309,2,,33,1,,3,,7,6,3,2,0,0,,1,1,,West Ham,,1,31.01.2015 16:00,Premier League - Round 23
+310,cat310,1,,72,1,,2,,4,8,6,0,3,2,,2,3,,Manchester Utd,,0,31.01.2015 16:00,Premier League - Round 23,cat310,2,,28,0,,2,,7,6,1,0,0,1,,1,0,,Leicester,,1,31.01.2015 16:00,Premier League - Round 23
+311,cat311,1,,72,2,,2,,4,5,6,0,0,1,,2,2,,Manchester Utd,,,31.01.2015 16:00,Premier League - Round 23,cat311,2,,28,0,,1,,5,6,3,2,1,0,,2,1,,Leicester,,,31.01.2015 16:00,Premier League - Round 23
+312,cat312,1,,57,1,,3,,4,6,10,0,2,3,,7,2,,Stoke,,0,31.01.2015 16:00,Premier League - Round 23,cat312,2,,43,1,,0,,6,6,2,0,1,0,,0,1,,QPR,,1,31.01.2015 16:00,Premier League - Round 23
+313,cat313,1,,47,3,,0,,7,4,8,3,1,2,,4,1,,Stoke,,2,31.01.2015 16:00,Premier League - Round 23,cat313,2,,53,0,,5,,6,7,9,0,0,2,,6,3,,QPR,,1,31.01.2015 16:00,Premier League - Round 23
+314,cat314,1,,51,1,,1,,8,7,3,1,2,2,,0,2,,Sunderland,,,31.01.2015 16:00,Premier League - Round 23,cat314,2,,49,2,,0,,5,10,7,0,0,2,,4,1,,Burnley,,,31.01.2015 16:00,Premier League - Round 23
+315,cat315,1,,47,1,,5,,4,6,4,3,0,1,,2,1,,Sunderland,,3,31.01.2015 16:00,Premier League - Round 23,cat315,2,,53,1,,3,,7,5,7,1,0,1,,3,3,,Burnley,,1,31.01.2015 16:00,Premier League - Round 23
+316,cat316,1,,35,2,,3,,3,7,8,0,0,2,,3,3,,West Brom,,,31.01.2015 16:00,Premier League - Round 23,cat316,2,,65,1,,0,,6,5,4,3,2,1,,1,2,,Tottenham,,,31.01.2015 16:00,Premier League - Round 23
+317,cat317,1,,39,1,,3,,5,7,4,1,0,0,,2,1,,West Brom,,2,31.01.2015 16:00,Premier League - Round 23,cat317,2,,61,2,,3,,7,2,10,1,1,0,,6,2,,Tottenham,,1,31.01.2015 16:00,Premier League - Round 23
+318,cat318,1,,52,0,,0,,12,6,3,1,0,2,,1,2,,Hull,,2,31.01.2015 13:45,Premier League - Round 23,cat318,2,,48,2,,1,,6,14,8,2,1,0,,4,2,,Newcastle,,1,31.01.2015 13:45,Premier League - Round 23
+319,cat319,1,,54,2,,3,,3,7,10,1,0,2,,2,6,,Hull,,2,31.01.2015 13:45,Premier League - Round 23,cat319,2,,46,0,,2,,7,5,4,6,2,0,,1,3,,Newcastle,,0,31.01.2015 13:45,Premier League - Round 23
+320,cat320,1,,70,3,,2,,4,8,9,0,0,2,,3,3,,Everton,,,19.01.2015 21:00,Premier League - Round 22,cat320,2,,30,2,,0,,8,6,3,3,0,1,,1,0,,West Brom,,,19.01.2015 21:00,Premier League - Round 22
+321,cat321,1,,68,6,,6,,7,6,8,0,0,2,,1,1,,Everton,,3,19.01.2015 21:00,Premier League - Round 22,cat321,2,,32,1,,1,,4,9,2,1,0,2,,1,0,,West Brom,,2,19.01.2015 21:00,Premier League - Round 22
+322,cat322,1,,65,1,,4,,4,3,2,0,0,2,,1,0,,Manchester City,,,18.01.2015 17:00,Premier League - Round 22,cat322,2,,35,0,,1,,3,5,2,0,1,0,,1,1,,Arsenal,,,18.01.2015 17:00,Premier League - Round 22
+323,cat323,1,,65,1,,12,,8,2,7,1,0,0,,2,4,,Manchester City,,,18.01.2015 17:00,Premier League - Round 22,cat323,2,,35,5,,2,,2,8,10,4,1,0,,3,2,,Arsenal,,,18.01.2015 17:00,Premier League - Round 22
+324,cat324,1,,50,2,,2,,4,8,8,1,0,0,,4,2,,West Ham,,1,18.01.2015 14:30,Premier League - Round 22,cat324,2,,50,1,,6,,6,3,3,2,0,2,,1,1,,Hull,,1,18.01.2015 14:30,Premier League - Round 22
+325,cat325,1,,58,1,,2,,1,7,8,2,3,1,,3,4,,West Ham,,0,18.01.2015 14:30,Premier League - Round 22,cat325,2,,42,3,,1,,8,3,7,1,0,0,,2,2,,Hull,,2,18.01.2015 14:30,Premier League - Round 22
+326,cat326,1,,50,0,,2,,5,3,6,0,1,1,,3,3,,Newcastle,,,17.01.2015 18:30,Premier League - Round 22,cat326,2,,50,1,,0,,1,6,3,2,1,2,,1,1,,Southampton,,,17.01.2015 18:30,Premier League - Round 22
+327,cat327,1,,66,1,,7,,4,8,7,1,0,0,,6,0,,Newcastle,,0,17.01.2015 18:30,Premier League - Round 22,cat327,2,,34,3,,0,,7,3,5,0,1,1,,0,2,,Southampton,,2,17.01.2015 18:30,Premier League - Round 22
+328,cat328,1,,48,0,,3,,7,7,4,2,0,0,,2,2,,Aston Villa,,,17.01.2015 16:00,Premier League - Round 22,cat328,2,,52,0,,2,,7,6,5,2,1,3,,2,3,,Liverpool,,,17.01.2015 16:00,Premier League - Round 22
+329,cat329,1,,48,2,,6,,6,9,9,1,0,1,,5,2,,Aston Villa,,,17.01.2015 16:00,Premier League - Round 22,cat329,2,,52,4,,3,,4,8,9,2,1,2,,3,2,,Liverpool,,,17.01.2015 16:00,Premier League - Round 22
+330,cat330,1,,48,2,,3,,4,9,5,1,2,0,,1,2,,Burnley,,0,17.01.2015 16:00,Premier League - Round 22,cat330,2,,52,1,,4,,12,4,5,0,1,1,,2,2,,Crystal Palace,,1,17.01.2015 16:00,Premier League - Round 22
+331,cat331,1,,52,0,,2,,6,12,2,0,0,0,,0,2,,Burnley,,1,17.01.2015 16:00,Premier League - Round 22,cat331,2,,48,1,,3,,8,6,6,2,2,0,,3,2,,Crystal Palace,,2,17.01.2015 16:00,Premier League - Round 22
+332,cat332,1,,41,3,,4,,2,6,7,1,0,0,,2,2,,Leicester,,1,17.01.2015 16:00,Premier League - Round 22,cat332,2,,59,1,,1,,4,2,4,2,0,2,,2,1,,Stoke,,0,17.01.2015 16:00,Premier League - Round 22
+333,cat333,1,,45,1,,2,,7,3,3,1,0,0,,1,1,,Leicester,,,17.01.2015 16:00,Premier League - Round 22,cat333,2,,55,0,,4,,2,6,6,1,1,1,,4,2,,Stoke,,,17.01.2015 16:00,Premier League - Round 22
+334,cat334,1,,34,0,,1,,6,2,7,3,0,0,,5,2,,QPR,,1,17.01.2015 16:00,Premier League - Round 22,cat334,2,,66,2,,3,,2,5,6,2,0,1,,1,3,,Manchester Utd,,1,17.01.2015 16:00,Premier League - Round 22
+335,cat335,1,,42,3,,2,,6,10,10,2,0,1,,5,2,,QPR,,2,17.01.2015 16:00,Premier League - Round 22,cat335,2,,58,2,,0,,8,8,7,2,2,1,,1,4,,Manchester Utd,,1,17.01.2015 16:00,Premier League - Round 22
+336,cat336,1,,47,2,,0,,6,7,5,2,0,0,,3,0,,Swansea,,,17.01.2015 16:00,Premier League - Round 22,cat336,2,,53,4,,0,,5,6,16,0,4,2,,6,6,,Chelsea,,,17.01.2015 16:00,Premier League - Round 22
+337,cat337,1,,43,0,,1,,3,9,3,4,0,0,,3,0,,Swansea,,,17.01.2015 16:00,Premier League - Round 22,cat337,2,,57,1,,2,,8,3,8,0,1,1,,2,5,,Chelsea,,,17.01.2015 16:00,Premier League - Round 22
+338,cat338,1,,64,1,,4,,9,6,8,0,1,0,,2,5,,Tottenham,,1,17.01.2015 16:00,Premier League - Round 22,cat338,2,,36,3,,2,,3,8,5,4,1,4,,1,1,,Sunderland,,0,17.01.2015 16:00,Premier League - Round 22
+339,cat339,1,,68,1,,2,,5,6,9,3,1,3,,5,3,,Tottenham,,0,17.01.2015 16:00,Premier League - Round 22,cat339,2,,32,7,,4,,5,8,11,2,0,0,,1,3,,Sunderland,,2,17.01.2015 16:00,Premier League - Round 22
+340,cat340,1,,57,1,,2,,3,5,4,0,0,2,,3,0,,Manchester Utd,,0,11.01.2015 17:00,Premier League - Round 21,cat340,2,,43,0,,2,,5,5,2,0,0,0,,2,0,,Southampton,,1,11.01.2015 17:00,Premier League - Round 21
+341,cat341,1,,65,1,,1,,6,7,6,0,0,0,,5,0,,Manchester Utd,,2,11.01.2015 17:00,Premier League - Round 21,cat341,2,,35,3,,3,,5,6,7,0,1,2,,3,1,,Southampton,,2,11.01.2015 17:00,Premier League - Round 21
+342,cat342,1,,55,0,,6,,5,8,8,1,2,2,,3,5,,Arsenal,,,11.01.2015 14:30,Premier League - Round 21,cat342,2,,45,1,,0,,6,7,4,3,0,1,,2,1,,Stoke,,,11.01.2015 14:30,Premier League - Round 21
+343,cat343,1,,53,1,,3,,6,6,6,1,1,2,,4,1,,Arsenal,,0,11.01.2015 14:30,Premier League - Round 21,cat343,2,,47,0,,1,,5,8,3,0,0,1,,2,1,,Stoke,,3,11.01.2015 14:30,Premier League - Round 21
+344,cat344,1,,39,0,,1,,6,5,7,1,0,2,,6,1,,Crystal Palace,,2,10.01.2015 18:30,Premier League - Round 21,cat344,2,,61,0,,3,,5,8,4,1,0,0,,3,1,,Tottenham,,1,10.01.2015 18:30,Premier League - Round 21
+345,cat345,1,,43,7,,3,,3,9,14,3,2,2,,1,6,,Crystal Palace,,3,10.01.2015 18:30,Premier League - Round 21,cat345,2,,57,1,,3,,9,4,5,4,1,1,,0,4,,Tottenham,,2,10.01.2015 18:30,Premier League - Round 21
+346,cat346,1,,49,0,,3,,5,5,3,1,2,1,,0,3,,Burnley,,1,10.01.2015 16:00,Premier League - Round 21,cat346,2,,51,2,,3,,5,5,8,1,1,0,,4,2,,QPR,,1,10.01.2015 16:00,Premier League - Round 21
+347,cat347,1,,41,6,,7,,9,6,15,5,0,0,,5,4,,Burnley,,1,10.01.2015 16:00,Premier League - Round 21,cat347,2,,59,3,,3,,4,9,9,4,0,2,,1,5,,QPR,,1,10.01.2015 16:00,Premier League - Round 21
+348,cat348,1,,64,0,,4,,6,5,3,4,1,2,,1,2,,Chelsea,,0,10.01.2015 16:00,Premier League - Round 21,cat348,2,,36,2,,2,,5,8,8,1,0,0,,2,4,,Newcastle,,1,10.01.2015 16:00,Premier League - Round 21
+349,cat349,1,,64,1,,3,,7,8,5,0,1,5,,2,2,,Chelsea,,2,10.01.2015 16:00,Premier League - Round 21,cat349,2,,36,2,,2,,8,12,2,1,0,0,,0,0,,Newcastle,,2,10.01.2015 16:00,Premier League - Round 21
+350,cat350,1,,37,2,,2,,4,5,5,0,0,1,,2,1,,Everton,,,10.01.2015 16:00,Premier League - Round 21,cat350,2,,63,4,,5,,4,5,11,1,0,1,,7,0,,Manchester City,,,10.01.2015 16:00,Premier League - Round 21
+351,cat351,1,,39,1,,2,,5,6,5,1,1,2,,1,3,,Everton,,1,10.01.2015 16:00,Premier League - Round 21,cat351,2,,61,2,,4,,6,7,7,2,1,0,,3,2,,Manchester City,,2,10.01.2015 16:00,Premier League - Round 21
+352,cat352,1,,41,1,,3,,7,6,6,0,1,0,,4,1,,Leicester,,0,10.01.2015 16:00,Premier League - Round 21,cat352,2,,59,3,,2,,2,7,5,0,0,4,,2,0,,Aston Villa,,1,10.01.2015 16:00,Premier League - Round 21
+353,cat353,1,,35,2,,3,,11,6,5,1,0,2,1,1,2,,Leicester,,1,10.01.2015 16:00,Premier League - Round 21,cat353,2,,65,2,,4,,4,14,6,2,0,2,1,3,1,,Aston Villa,,2,10.01.2015 16:00,Premier League - Round 21
+354,cat354,1,,59,6,,2,,5,5,10,0,0,2,,2,2,,Swansea,,,10.01.2015 16:00,Premier League - Round 21,cat354,2,,41,0,,0,,5,8,3,2,1,1,,2,1,,West Ham,,,10.01.2015 16:00,Premier League - Round 21
+355,cat355,1,,63,5,,2,,4,2,9,3,1,0,,3,1,,Swansea,,0,10.01.2015 16:00,Premier League - Round 21,cat355,2,,37,1,,5,,2,4,7,0,0,0,,3,3,,West Ham,,1,10.01.2015 16:00,Premier League - Round 21
+356,cat356,1,,48,0,,2,,3,5,4,2,0,1,,2,2,,West Brom,,1,10.01.2015 16:00,Premier League - Round 21,cat356,2,,52,1,,2,,5,4,7,2,0,0,,4,2,,Hull,,0,10.01.2015 16:00,Premier League - Round 21
+357,cat357,1,,56,1,,3,,2,10,5,0,1,1,,3,1,,West Brom,,,10.01.2015 16:00,Premier League - Round 21,cat357,2,,44,2,,0,,8,3,5,0,0,2,,3,0,,Hull,,,10.01.2015 16:00,Premier League - Round 21
+358,cat358,1,,48,0,,2,,3,7,1,1,0,0,,0,1,,Sunderland,,2,10.01.2015 13:45,Premier League - Round 21,cat358,2,,52,2,,4,,7,3,8,1,1,0,,4,2,,Liverpool,,2,10.01.2015 13:45,Premier League - Round 21
+359,cat359,1,,46,2,,4,,9,4,4,2,0,2,1,2,0,,Sunderland,,1,10.01.2015 13:45,Premier League - Round 21,cat359,2,,54,5,,2,,4,11,13,0,0,0,0,6,2,,Liverpool,,2,10.01.2015 13:45,Premier League - Round 21
+360,cat360,1,,47,0,,3,,4,4,6,0,3,1,,1,5,,Tottenham,,,01.01.2015 18:30,Premier League - Round 20,cat360,2,,53,2,,0,,5,5,7,2,1,0,,4,1,,Chelsea,,,01.01.2015 18:30,Premier League - Round 20
+361,cat361,1,,45,1,,2,,10,4,5,4,2,0,,1,3,,Tottenham,,,01.01.2015 18:30,Premier League - Round 20,cat361,2,,55,1,,3,,5,9,12,1,2,0,,5,6,,Chelsea,,,01.01.2015 18:30,Premier League - Round 20
+362,cat362,1,,74,2,,0,,4,7,7,0,0,0,,3,2,,Aston Villa,,,01.01.2015 16:00,Premier League - Round 20,cat362,2,,26,0,,1,,6,4,3,2,0,1,,3,0,,Crystal Palace,,,01.01.2015 16:00,Premier League - Round 20
+363,cat363,1,,66,2,,5,,7,8,7,0,0,1,,4,1,,Aston Villa,,1,01.01.2015 16:00,Premier League - Round 20,cat363,2,,34,2,,1,,6,8,3,1,0,2,,1,0,,Crystal Palace,,1,01.01.2015 16:00,Premier League - Round 20
+364,cat364,1,,41,2,,3,,12,6,10,1,2,1,,3,5,,Hull,,2,01.01.2015 16:00,Premier League - Round 20,cat364,2,,59,0,,3,,5,12,2,3,0,1,,1,1,,Everton,,2,01.01.2015 16:00,Premier League - Round 20
+365,cat365,1,,47,1,,1,,4,10,4,2,0,1,0,3,0,,Hull,,1,01.01.2015 16:00,Premier League - Round 20,cat365,2,,53,1,,5,,10,5,7,0,0,0,1,4,2,,Everton,,3,01.01.2015 16:00,Premier League - Round 20
+366,cat366,1,,63,1,,2,,3,8,8,0,2,1,,5,2,,Liverpool,,,01.01.2015 16:00,Premier League - Round 20,cat366,2,,37,2,,1,,8,4,6,0,0,0,,4,0,,Leicester,,,01.01.2015 16:00,Premier League - Round 20
+367,cat367,1,,55,2,,2,,10,0,10,1,0,1,,4,4,,Liverpool,,,01.01.2015 16:00,Premier League - Round 20,cat367,2,,45,3,,4,,2,11,10,4,2,1,,4,3,,Leicester,,,01.01.2015 16:00,Premier League - Round 20
+368,cat368,1,,68,6,,4,,9,3,15,1,0,1,,7,2,,Manchester City,,0,01.01.2015 16:00,Premier League - Round 20,cat368,2,,32,0,,2,,3,10,1,2,0,0,,0,1,,Sunderland,,2,01.01.2015 16:00,Premier League - Round 20
+369,cat369,1,,62,3,,6,,5,8,17,1,3,0,,4,10,,Manchester City,,2,01.01.2015 16:00,Premier League - Round 20,cat369,2,,38,0,,2,,4,4,3,7,2,3,,0,3,,Sunderland,,1,01.01.2015 16:00,Premier League - Round 20
+370,cat370,1,,58,3,,5,,3,5,8,0,2,0,,2,3,,Newcastle,,,01.01.2015 16:00,Premier League - Round 20,cat370,2,,42,1,,0,,5,3,5,1,1,0,,3,1,,Burnley,,,01.01.2015 16:00,Premier League - Round 20
+371,cat371,1,,46,0,,0,,9,8,2,1,1,0,,1,1,,Newcastle,,2,01.01.2015 16:00,Premier League - Round 20,cat371,2,,54,2,,5,,8,9,10,0,2,0,,5,3,,Burnley,,4,01.01.2015 16:00,Premier League - Round 20
+372,cat372,1,,45,5,,2,,9,3,11,2,1,1,,4,2,,QPR,,,01.01.2015 16:00,Premier League - Round 20,cat372,2,,55,4,,2,,2,10,11,1,0,1,,5,2,,Swansea,,,01.01.2015 16:00,Premier League - Round 20
+373,cat373,1,,41,5,,2,,13,5,13,3,0,2,0,4,4,,QPR,,4,01.01.2015 16:00,Premier League - Round 20,cat373,2,,59,4,,7,,3,14,14,4,1,2,1,6,4,,Swansea,,0,01.01.2015 16:00,Premier League - Round 20
+374,cat374,1,,40,1,,2,,7,4,6,4,1,0,,2,3,,Southampton,,1,01.01.2015 16:00,Premier League - Round 20,cat374,2,,60,1,,2,,4,7,6,2,0,0,,1,4,,Arsenal,,0,01.01.2015 16:00,Premier League - Round 20
+375,cat375,1,,42,1,,0,,7,4,7,2,1,1,,3,3,,Southampton,,1,01.01.2015 16:00,Premier League - Round 20,cat375,2,,58,0,,5,,3,8,5,2,0,1,,3,2,,Arsenal,,1,01.01.2015 16:00,Premier League - Round 20
+376,cat376,1,,44,0,,0,,4,5,4,1,1,4,,1,3,,West Ham,,1,01.01.2015 16:00,Premier League - Round 20,cat376,2,,56,2,,0,,5,9,8,2,1,0,,4,2,,West Brom,,0,01.01.2015 16:00,Premier League - Round 20
+377,cat377,1,,48,2,,0,,2,8,4,1,0,2,,2,0,,West Ham,,,01.01.2015 16:00,Premier League - Round 20,cat377,2,,52,1,,1,,8,4,6,0,0,0,,4,1,,West Brom,,,01.01.2015 16:00,Premier League - Round 20
+378,cat378,1,,36,1,,5,,4,7,4,0,1,1,,2,1,,Stoke,,,01.01.2015 13:45,Premier League - Round 20,cat378,2,,64,0,,4,,6,5,2,0,1,1,,1,1,,Manchester Utd,,,01.01.2015 13:45,Premier League - Round 20
+379,cat379,1,,32,3,,6,,4,7,7,1,0,1,,3,1,,Stoke,,,01.01.2015 13:45,Premier League - Round 20,cat379,2,,68,0,,3,,6,5,4,1,0,1,,3,1,,Manchester Utd,,,01.01.2015 13:45,Premier League - Round 20
+380,cat380,1,,47,1,,4,,3,2,9,1,1,1,,2,6,,Liverpool,,,29.12.2014 21:00,Premier League - Round 19,cat380,2,,53,0,,0,,2,4,3,5,0,0,,2,1,,Swansea,,,29.12.2014 21:00,Premier League - Round 19
+381,cat381,1,,41,2,,2,,5,4,12,2,3,1,,5,5,,Liverpool,,1,29.12.2014 21:00,Premier League - Round 19,cat381,2,,59,2,,3,,3,6,8,2,1,1,,3,3,,Swansea,,0,29.12.2014 21:00,Premier League - Round 19
+382,cat382,1,,58,1,,6,,5,5,4,0,1,1,,2,1,,Newcastle,,,28.12.2014 17:15,Premier League - Round 19,cat382,2,,42,1,,1,,4,7,5,0,1,1,,3,1,,Everton,,,28.12.2014 17:15,Premier League - Round 19
+383,cat383,1,,48,2,,2,,8,5,9,0,2,1,,2,5,,Newcastle,,,28.12.2014 17:15,Premier League - Round 19,cat383,2,,52,0,,2,,4,9,4,3,1,1,,3,1,,Everton,,,28.12.2014 17:15,Premier League - Round 19
+384,cat384,1,,58,1,,0,,2,4,5,1,0,0,,3,1,,Aston Villa,,1,28.12.2014 16:00,Premier League - Round 19,cat384,2,,42,2,,2,,2,2,4,1,0,2,,1,1,,Sunderland,,0,28.12.2014 16:00,Premier League - Round 19
+385,cat385,1,,38,2,,4,,2,11,9,2,0,0,1,6,1,,Aston Villa,,0,28.12.2014 16:00,Premier League - Round 19,cat385,2,,62,4,,2,,9,2,10,1,0,2,0,4,2,,Sunderland,,4,28.12.2014 16:00,Premier League - Round 19
+386,cat386,1,,62,1,,3,,3,6,5,1,0,2,,2,2,,Hull,,0,28.12.2014 16:00,Premier League - Round 19,cat386,2,,38,0,,1,,5,5,2,2,1,1,,0,2,,Leicester,,1,28.12.2014 16:00,Premier League - Round 19
+387,cat387,1,,62,5,,4,,9,7,12,0,0,0,1,5,2,,Hull,,0,28.12.2014 16:00,Premier League - Round 19,cat387,2,,38,0,,0,,7,8,2,2,0,0,1,2,0,,Leicester,,2,28.12.2014 16:00,Premier League - Round 19
+388,cat388,1,,62,4,,7,,9,8,10,1,2,1,,3,3,,Manchester City,,,28.12.2014 16:00,Premier League - Round 19,cat388,2,,38,0,,1,,5,10,4,1,0,1,,3,1,,Burnley,,,28.12.2014 16:00,Premier League - Round 19
+389,cat389,1,,64,2,,3,,9,7,7,0,0,2,,2,3,,Manchester City,,,28.12.2014 16:00,Premier League - Round 19,cat389,2,,36,4,,2,,4,11,8,3,2,2,,2,2,,Burnley,,,28.12.2014 16:00,Premier League - Round 19
+390,cat390,1,,52,4,,1,,6,7,5,1,0,0,,0,1,,QPR,,1,28.12.2014 16:00,Premier League - Round 19,cat390,2,,48,0,,2,,7,6,4,1,0,0,,3,1,,Crystal Palace,,0,28.12.2014 16:00,Premier League - Round 19
+391,cat391,1,,56,2,,8,,5,10,6,2,0,1,,2,2,,QPR,,1,28.12.2014 16:00,Premier League - Round 19,cat391,2,,44,1,,2,,10,6,6,2,0,0,,3,2,,Crystal Palace,,1,28.12.2014 16:00,Premier League - Round 19
+392,cat392,1,,58,2,,3,,4,10,5,3,0,2,,2,1,,Stoke,,,28.12.2014 16:00,Premier League - Round 19,cat392,2,,42,1,,0,,8,6,8,1,0,2,,4,3,,West Brom,,,28.12.2014 16:00,Premier League - Round 19
+393,cat393,1,,44,2,,2,,7,7,8,1,2,2,,4,2,,Stoke,,0,28.12.2014 16:00,Premier League - Round 19,cat393,2,,56,3,,3,,6,9,7,0,0,2,,3,1,,West Brom,,2,28.12.2014 16:00,Premier League - Round 19
+394,cat394,1,,55,1,,4,,8,9,6,0,0,1,,4,1,,West Ham,,1,28.12.2014 16:00,Premier League - Round 19,cat394,2,,45,3,,5,,6,7,5,1,2,1,,0,2,,Arsenal,,0,28.12.2014 16:00,Premier League - Round 19
+395,cat395,1,,61,0,,3,,4,5,8,5,1,1,,5,3,,West Ham,,2,28.12.2014 16:00,Premier League - Round 19,cat395,2,,39,3,,3,,7,4,16,2,0,0,,8,5,,Arsenal,,3,28.12.2014 16:00,Premier League - Round 19
+396,cat396,1,,43,1,,2,,10,10,7,0,1,0,,5,1,,Southampton,,0,28.12.2014 15:05,Premier League - Round 19,cat396,2,,57,0,,4,,9,10,1,0,1,1,,0,1,,Chelsea,,1,28.12.2014 15:05,Premier League - Round 19
+397,cat397,1,,35,0,,2,,13,7,2,0,0,1,1,2,0,,Southampton,,4,28.12.2014 15:05,Premier League - Round 19,cat397,2,,65,4,,2,,5,15,6,0,0,2,0,2,0,,Chelsea,,1,28.12.2014 15:05,Premier League - Round 19
+398,cat398,1,,45,2,,0,,5,12,4,5,0,1,,1,1,,Tottenham,,2,28.12.2014 13:00,Premier League - Round 19,cat398,2,,55,1,,4,,7,6,6,1,0,5,,0,5,,Manchester Utd,,0,28.12.2014 13:00,Premier League - Round 19
+399,cat399,1,,53,0,,3,,6,13,5,0,0,0,,2,3,,Tottenham,,0,28.12.2014 13:00,Premier League - Round 19,cat399,2,,47,1,,2,,12,6,3,3,0,1,,2,0,,Manchester Utd,,4,28.12.2014 13:00,Premier League - Round 19
+400,cat400,1,,69,3,,5,,3,8,9,0,1,2,,3,3,,Arsenal,,0,26.12.2014 18:30,Premier League - Round 18,cat400,2,,31,2,,1,,9,5,3,2,0,0,,1,0,,QPR,,1,26.12.2014 18:30,Premier League - Round 18
+401,cat401,1,,43,1,,1,,3,6,6,1,1,1,1,3,2,,Arsenal,,1,26.12.2014 18:30,Premier League - Round 18,cat401,2,,57,6,,1,,6,3,13,1,1,0,0,5,2,,QPR,,3,26.12.2014 18:30,Premier League - Round 18
+402,cat402,1,,53,2,,2,,2,4,10,2,0,0,,8,0,,Burnley,,,26.12.2014 16:00,Premier League - Round 18,cat402,2,,47,1,,1,,3,2,4,0,0,1,,1,2,,Liverpool,,,26.12.2014 16:00,Premier League - Round 18
+403,cat403,1,,43,2,,6,,5,5,6,0,0,0,,4,0,,Burnley,,0,26.12.2014 16:00,Premier League - Round 18,cat403,2,,57,4,,1,,2,5,6,0,1,3,,1,1,,Liverpool,,1,26.12.2014 16:00,Premier League - Round 18
+404,cat404,1,,44,3,,5,,5,8,8,2,0,1,,3,2,,Crystal Palace,,,26.12.2014 16:00,Premier League - Round 18,cat404,2,,56,0,,2,,6,6,6,2,1,2,,3,3,,Southampton,,,26.12.2014 16:00,Premier League - Round 18
+405,cat405,1,,42,1,,3,,10,4,3,1,1,1,,0,2,,Crystal Palace,,1,26.12.2014 16:00,Premier League - Round 18,cat405,2,,58,2,,2,,4,11,7,1,2,0,,2,3,,Southampton,,0,26.12.2014 16:00,Premier League - Round 18
+406,cat406,1,,61,6,,5,,6,10,10,1,0,1,,2,2,,Everton,,1,26.12.2014 16:00,Premier League - Round 18,cat406,2,,39,1,,1,,8,6,6,2,1,2,,3,2,,Stoke,,1,26.12.2014 16:00,Premier League - Round 18
+407,cat407,1,,63,0,,4,,3,8,6,0,0,2,,3,3,,Everton,,1,26.12.2014 16:00,Premier League - Round 18,cat407,2,,37,4,,2,,7,5,6,3,0,1,,2,0,,Stoke,,2,26.12.2014 16:00,Premier League - Round 18
+408,cat408,1,,44,2,,3,,4,9,10,1,0,0,,5,3,,Leicester,,0,26.12.2014 16:00,Premier League - Round 18,cat408,2,,56,1,,1,,6,4,4,3,1,3,,1,2,,Tottenham,,1,26.12.2014 16:00,Premier League - Round 18
+409,cat409,1,,56,4,,8,,6,9,12,0,1,0,,5,3,,Leicester,,1,26.12.2014 16:00,Premier League - Round 18,cat409,2,,44,0,,0,,8,6,4,2,1,0,,3,1,,Tottenham,,1,26.12.2014 16:00,Premier League - Round 18
+410,cat410,1,,69,0,,1,,6,4,6,2,2,2,,3,3,,Manchester Utd,,,26.12.2014 16:00,Premier League - Round 18,cat410,2,,31,1,,3,,3,8,3,1,0,1,,0,2,,Newcastle,,,26.12.2014 16:00,Premier League - Round 18
+411,cat411,1,,55,1,,3,,10,6,3,1,1,2,,1,1,,Manchester Utd,,,26.12.2014 16:00,Premier League - Round 18,cat411,2,,45,1,,2,,6,11,5,0,1,0,,2,2,,Newcastle,,,26.12.2014 16:00,Premier League - Round 18
+412,cat412,1,,44,2,,6,,5,3,8,0,1,0,,3,3,,Sunderland,,2,26.12.2014 16:00,Premier League - Round 18,cat412,2,,56,1,,0,,3,5,4,2,1,0,,2,1,,Hull,,1,26.12.2014 16:00,Premier League - Round 18
+413,cat413,1,,50,4,,4,,7,3,4,2,0,0,,0,0,,Sunderland,,3,26.12.2014 16:00,Premier League - Round 18,cat413,2,,50,3,,4,,3,7,9,0,2,0,,2,4,,Hull,,1,26.12.2014 16:00,Premier League - Round 18
+414,cat414,1,,44,1,,2,,7,6,4,0,1,1,,2,1,,Swansea,,1,26.12.2014 16:00,Premier League - Round 18,cat414,2,,56,0,,0,,6,8,3,0,0,0,,3,0,,Aston Villa,,1,26.12.2014 16:00,Premier League - Round 18
+415,cat415,1,,42,1,,2,,10,8,3,3,0,2,,1,1,,Swansea,,0,26.12.2014 16:00,Premier League - Round 18,cat415,2,,58,1,,0,,6,11,8,1,0,2,,4,3,,Aston Villa,,3,26.12.2014 16:00,Premier League - Round 18
+416,cat416,1,,41,1,,5,,5,7,5,2,0,3,,2,2,,West Brom,,,26.12.2014 16:00,Premier League - Round 18,cat416,2,,59,0,,1,,5,7,6,2,3,2,,1,5,,Manchester City,,,26.12.2014 16:00,Premier League - Round 18
+417,cat417,1,,55,5,,5,,0,6,13,0,1,1,,4,4,,West Brom,,0,26.12.2014 16:00,Premier League - Round 18,cat417,2,,45,2,,5,,4,1,3,3,0,2,,1,0,,Manchester City,,1,26.12.2014 16:00,Premier League - Round 18
+418,cat418,1,,73,3,,5,,3,8,13,0,1,0,,5,5,,Chelsea,,0,26.12.2014 13:45,Premier League - Round 18,cat418,2,,27,0,,1,,7,4,2,4,0,1,,2,0,,West Ham,,2,26.12.2014 13:45,Premier League - Round 18
+419,cat419,1,,59,3,,3,,5,8,15,0,1,1,,8,4,,Chelsea,,0,26.12.2014 13:45,Premier League - Round 18,cat419,2,,41,0,,5,,7,6,4,3,0,1,,4,0,,West Ham,,1,26.12.2014 13:45,Premier League - Round 18
+420,cat420,1,,41,2,,3,,4,2,3,0,0,1,,0,1,,Stoke,,1,22.12.2014 21:00,Premier League - Round 17,cat420,2,,59,1,,3,,2,4,5,1,1,0,,3,1,,Chelsea,,0,22.12.2014 21:00,Premier League - Round 17
+421,cat421,1,,59,5,,3,,7,4,10,4,0,0,,4,1,,Stoke,,2,22.12.2014 21:00,Premier League - Round 17,cat421,2,,41,3,,2,,2,7,10,1,1,2,,2,5,,Chelsea,,0,22.12.2014 21:00,Premier League - Round 17
+422,cat422,1,,64,2,,3,,3,9,9,0,1,0,,4,3,,Liverpool,,0,21.12.2014 17:00,Premier League - Round 17,cat422,2,,36,0,,2,,8,3,2,2,1,1,,1,1,,Arsenal,,1,21.12.2014 17:00,Premier League - Round 17
+423,cat423,1,,64,2,,7,,3,7,18,1,1,0,1,9,7,,Liverpool,,2,21.12.2014 17:00,Premier League - Round 17,cat423,2,,36,1,,4,,6,2,5,6,1,0,0,2,2,,Arsenal,,2,21.12.2014 17:00,Premier League - Round 17
+424,cat424,1,,46,1,,2,,10,9,7,2,0,0,,4,2,,Newcastle,,3,21.12.2014 14:30,Premier League - Round 17,cat424,2,,54,1,,1,,7,10,7,2,0,2,,4,2,,Sunderland,,2,21.12.2014 14:30,Premier League - Round 17
+425,cat425,1,,58,0,,5,,5,9,8,0,0,1,,3,5,,Newcastle,,1,21.12.2014 14:30,Premier League - Round 17,cat425,2,,42,1,,0,,8,7,9,5,1,2,,7,1,,Sunderland,,2,21.12.2014 14:30,Premier League - Round 17
+426,cat426,1,,36,1,,0,,3,4,2,2,1,0,,0,1,,Aston Villa,,,20.12.2014 16:00,Premier League - Round 17,cat426,2,,64,1,,2,,3,3,5,0,0,1,,2,2,,Manchester Utd,,,20.12.2014 16:00,Premier League - Round 17
+427,cat427,1,,32,3,,3,,6,8,8,6,0,2,1,2,3,,Aston Villa,,1,20.12.2014 16:00,Premier League - Round 17,cat427,2,,68,3,,7,,7,8,11,3,1,1,0,1,7,,Manchester Utd,,1,20.12.2014 16:00,Premier League - Round 17
+428,cat428,1,,55,0,,2,,4,12,4,0,0,3,,3,1,,Hull,,1,20.12.2014 16:00,Premier League - Round 17,cat428,2,,45,2,,3,,7,7,5,1,1,4,,2,1,,Swansea,,1,20.12.2014 16:00,Premier League - Round 17
+429,cat429,1,,61,2,,2,,10,9,7,2,0,0,,3,2,,Hull,,1,20.12.2014 16:00,Premier League - Round 17,cat429,2,,39,2,,2,,9,9,8,2,0,0,,4,2,,Swansea,,1,20.12.2014 16:00,Premier League - Round 17
+430,cat430,1,,47,1,,1,,11,4,5,3,1,2,,1,3,,QPR,,1,20.12.2014 16:00,Premier League - Round 17,cat430,2,,53,1,,5,,4,13,7,2,2,1,,1,5,,West Brom,,0,20.12.2014 16:00,Premier League - Round 17
+431,cat431,1,,37,7,,4,,5,3,12,1,2,2,,1,4,,QPR,,,20.12.2014 16:00,Premier League - Round 17,cat431,2,,63,3,,6,,4,7,9,2,0,0,,5,1,,West Brom,,,20.12.2014 16:00,Premier League - Round 17
+432,cat432,1,,44,1,,2,,8,5,5,1,1,2,,3,1,,Southampton,,,20.12.2014 16:00,Premier League - Round 17,cat432,2,,56,0,,4,,3,10,3,0,0,2,,2,1,,Everton,,,20.12.2014 16:00,Premier League - Round 17
+433,cat433,1,,44,1,,2,,3,7,6,3,2,2,,3,2,,Southampton,,1,20.12.2014 16:00,Premier League - Round 17,cat433,2,,56,2,,2,,7,5,10,0,0,0,,5,3,,Everton,,1,20.12.2014 16:00,Premier League - Round 17
+434,cat434,1,,68,2,,2,,3,10,13,0,2,1,,8,3,,Tottenham,,1,20.12.2014 16:00,Premier League - Round 17,cat434,2,,32,0,,2,,7,4,4,1,1,3,,3,1,,Burnley,,0,20.12.2014 16:00,Premier League - Round 17
+435,cat435,1,,64,4,,7,,6,4,10,4,0,1,,3,3,,Tottenham,,,20.12.2014 16:00,Premier League - Round 17,cat435,2,,36,0,,4,,1,7,5,3,0,3,,1,4,,Burnley,,,20.12.2014 16:00,Premier League - Round 17
+436,cat436,1,,54,3,,6,,2,7,8,2,1,1,,4,1,,West Ham,,0,20.12.2014 16:00,Premier League - Round 17,cat436,2,,46,1,,2,,7,3,3,0,0,1,,0,2,,Leicester,,2,20.12.2014 16:00,Premier League - Round 17
+437,cat437,1,,40,0,,3,,6,10,2,2,1,2,,1,1,,West Ham,,0,20.12.2014 16:00,Premier League - Round 17,cat437,2,,60,3,,2,,10,8,7,0,0,0,,2,2,,Leicester,,1,20.12.2014 16:00,Premier League - Round 17
+438,cat438,1,,69,1,,3,,9,3,8,1,0,1,,7,0,,Manchester City,,1,20.12.2014 13:45,Premier League - Round 17,cat438,2,,31,1,,4,,3,10,4,0,0,0,,2,1,,Crystal Palace,,1,20.12.2014 13:45,Premier League - Round 17
+439,cat439,1,,77,0,,5,,8,3,4,0,3,2,,1,3,,Manchester City,,1,20.12.2014 13:45,Premier League - Round 17,cat439,2,,23,3,,2,,2,10,5,0,0,1,,2,0,,Crystal Palace,,0,20.12.2014 13:45,Premier League - Round 17
+440,cat440,1,,60,2,,1,,4,8,7,1,2,1,,2,3,,Everton,,,15.12.2014 21:00,Premier League - Round 16,cat440,2,,40,1,,3,,6,5,5,1,0,2,,3,1,,QPR,,,15.12.2014 21:00,Premier League - Round 16
+441,cat441,1,,40,2,,0,,7,8,6,2,1,3,,2,2,,Everton,,1,15.12.2014 21:00,Premier League - Round 16,cat441,2,,60,3,,5,,6,10,12,1,1,2,,6,3,,QPR,,1,15.12.2014 21:00,Premier League - Round 16
+442,cat442,1,,53,2,,2,,2,10,5,0,0,2,,2,1,,Swansea,,0,14.12.2014 17:00,Premier League - Round 16,cat442,2,,47,1,,2,,10,4,3,1,1,0,,1,1,,Tottenham,,3,14.12.2014 17:00,Premier League - Round 16
+443,cat443,1,,53,5,,5,,5,7,10,2,1,3,,3,2,,Swansea,,3,14.12.2014 17:00,Premier League - Round 16,cat443,2,,47,2,,7,,7,9,7,1,1,0,,2,3,,Tottenham,,1,14.12.2014 17:00,Premier League - Round 16
+444,cat444,1,,55,0,,1,,9,5,3,4,2,0,,1,2,,Manchester Utd,,4,14.12.2014 14:30,Premier League - Round 16,cat444,2,,45,2,,4,,4,10,7,0,0,1,,1,4,,Liverpool,,1,14.12.2014 14:30,Premier League - Round 16
+445,cat445,1,,55,2,,1,,4,11,8,5,1,1,,2,4,,Manchester Utd,,0,14.12.2014 14:30,Premier League - Round 16,cat445,2,,45,4,,3,,10,5,12,3,0,1,,3,5,,Liverpool,,2,14.12.2014 14:30,Premier League - Round 16
+446,cat446,1,,57,2,,8,,6,7,6,2,1,3,,3,1,,Arsenal,,1,13.12.2014 18:30,Premier League - Round 16,cat446,2,,43,1,,2,,6,9,4,0,0,1,,1,2,,Newcastle,,0,13.12.2014 18:30,Premier League - Round 16
+447,cat447,1,,47,3,,1,,8,8,11,1,3,0,,5,3,,Arsenal,,1,13.12.2014 18:30,Premier League - Round 16,cat447,2,,53,3,,4,,9,8,6,0,1,0,,1,2,,Newcastle,,2,13.12.2014 18:30,Premier League - Round 16
+448,cat448,1,,44,2,,1,,9,9,5,2,0,1,,3,0,,Burnley,,0,13.12.2014 16:00,Premier League - Round 16,cat448,2,,56,1,,1,,9,10,5,0,0,1,,2,2,,Southampton,,2,13.12.2014 16:00,Premier League - Round 16
+449,cat449,1,,36,0,,1,,6,3,2,2,1,1,,0,2,,Burnley,,1,13.12.2014 16:00,Premier League - Round 16,cat449,2,,64,0,,3,,2,6,10,1,0,1,,8,2,,Southampton,,1,13.12.2014 16:00,Premier League - Round 16
+450,cat450,1,,62,1,,2,,6,6,3,0,1,0,,1,1,,Chelsea,,2,13.12.2014 16:00,Premier League - Round 16,cat450,2,,38,1,,2,,5,6,6,0,0,1,,5,0,,Hull,,2,13.12.2014 16:00,Premier League - Round 16
+451,cat451,1,,58,5,,3,,7,8,9,0,1,0,0,2,2,,Chelsea,,1,13.12.2014 16:00,Premier League - Round 16,cat451,2,,42,1,,2,,8,7,2,1,0,0,1,1,0,,Hull,,2,13.12.2014 16:00,Premier League - Round 16
+452,cat452,1,,42,2,,5,,2,2,6,1,1,1,,2,2,,Crystal Palace,,,13.12.2014 16:00,Premier League - Round 16,cat452,2,,58,1,,3,,2,3,3,1,1,0,,0,2,,Stoke,,,13.12.2014 16:00,Premier League - Round 16
+453,cat453,1,,48,3,,4,,10,9,4,1,0,0,,0,1,,Crystal Palace,,2,13.12.2014 16:00,Premier League - Round 16,cat453,2,,52,3,,5,,9,10,4,1,0,0,,0,1,,Stoke,,0,13.12.2014 16:00,Premier League - Round 16
+454,cat454,1,,34,1,,4,,9,8,4,2,0,2,,2,1,,Leicester,,,13.12.2014 16:00,Premier League - Round 16,cat454,2,,66,1,,0,,6,11,6,1,1,2,,2,3,,Manchester City,,,13.12.2014 16:00,Premier League - Round 16
+455,cat455,1,,50,2,,4,,6,14,3,1,0,0,,1,0,,Leicester,,0,13.12.2014 16:00,Premier League - Round 16,cat455,2,,50,0,,2,,7,6,3,0,0,7,,2,1,,Manchester City,,2,13.12.2014 16:00,Premier League - Round 16
+456,cat456,1,,57,2,,1,,6,9,4,5,1,1,,1,1,,Sunderland,,0,13.12.2014 16:00,Premier League - Round 16,cat456,2,,43,1,,2,,9,8,10,0,1,1,,3,6,,West Ham,,1,13.12.2014 16:00,Premier League - Round 16
+457,cat457,1,,57,3,,5,,5,9,9,2,0,1,,3,3,,Sunderland,,2,13.12.2014 16:00,Premier League - Round 16,cat457,2,,43,4,,6,,9,6,9,3,0,0,,3,2,,West Ham,,1,13.12.2014 16:00,Premier League - Round 16
+458,cat458,1,,41,0,,1,,8,5,5,0,0,0,0,3,2,,West Brom,,1,13.12.2014 16:00,Premier League - Round 16,cat458,2,,59,2,,2,,5,8,2,2,0,0,1,0,0,,Aston Villa,,1,13.12.2014 16:00,Premier League - Round 16
+459,cat459,1,,57,2,,3,,9,9,8,2,1,1,,3,3,,West Brom,,3,13.12.2014 16:00,Premier League - Round 16,cat459,2,,43,0,,0,,7,10,5,2,0,2,,3,2,,Aston Villa,,1,13.12.2014 16:00,Premier League - Round 16
+460,cat460,1,,53,1,,2,,6,3,7,0,1,3,,4,2,,Southampton,,,08.12.2014 21:00,Premier League - Round 15,cat460,2,,47,0,,0,,3,8,2,1,1,0,,1,1,,Manchester Utd,,,08.12.2014 21:00,Premier League - Round 15
+461,cat461,1,,57,2,,3,,6,7,8,0,0,1,,4,2,,Southampton,,2,08.12.2014 21:00,Premier League - Round 15,cat461,2,,43,0,,1,,6,8,1,2,1,1,,0,1,,Manchester Utd,,1,08.12.2014 21:00,Premier League - Round 15
+462,cat462,1,,72,3,,1,,5,8,6,2,1,3,,2,1,,Aston Villa,,1,07.12.2014 17:00,Premier League - Round 15,cat462,2,,28,0,,1,,7,8,5,0,1,1,,2,3,,Leicester,,1,07.12.2014 17:00,Premier League - Round 15
+463,cat463,1,,58,1,,4,,4,7,10,1,1,3,0,3,6,,Aston Villa,,3,07.12.2014 17:00,Premier League - Round 15,cat463,2,,42,1,,4,,7,7,5,5,0,0,1,3,1,,Leicester,,3,07.12.2014 17:00,Premier League - Round 15
+464,cat464,1,,59,4,,4,,3,9,9,1,1,1,,2,3,,West Ham,,,07.12.2014 14:30,Premier League - Round 15,cat464,2,,41,1,,0,,9,4,5,2,1,0,,2,2,,Swansea,,,07.12.2014 14:30,Premier League - Round 15
+465,cat465,1,,53,1,,3,,8,10,6,0,2,2,0,1,4,,West Ham,,0,07.12.2014 14:30,Premier League - Round 15,cat465,2,,47,4,,4,,9,10,6,2,0,1,1,2,0,,Swansea,,1,07.12.2014 14:30,Premier League - Round 15
+466,cat466,1,,52,2,,6,,4,5,6,0,1,2,,3,1,,Manchester City,,2,06.12.2014 18:30,Premier League - Round 15,cat466,2,,48,7,,1,,5,6,7,0,0,2,,0,0,,Everton,,1,06.12.2014 18:30,Premier League - Round 15
+467,cat467,1,,52,3,,5,,4,9,6,2,0,0,,1,2,,Manchester City,,1,06.12.2014 18:30,Premier League - Round 15,cat467,2,,48,5,,6,,6,2,9,2,0,2,,2,2,,Everton,,2,06.12.2014 18:30,Premier League - Round 15
+468,cat468,1,,41,1,,2,,7,8,2,1,0,0,,1,0,,Hull,,,06.12.2014 16:00,Premier League - Round 15,cat468,2,,59,2,,2,,8,7,4,0,0,0,,1,1,,West Brom,,,06.12.2014 16:00,Premier League - Round 15
+469,cat469,1,,57,2,,1,,3,9,10,2,0,1,,6,2,,Hull,,1,06.12.2014 16:00,Premier League - Round 15,cat469,2,,43,0,,0,,8,6,2,2,0,1,,0,2,,West Brom,,1,06.12.2014 16:00,Premier League - Round 15
+470,cat470,1,,47,0,,3,,5,7,2,0,0,0,,2,0,,Liverpool,,0,06.12.2014 16:00,Premier League - Round 15,cat470,2,,53,0,,2,,6,5,2,0,0,1,,2,0,,Sunderland,,1,06.12.2014 16:00,Premier League - Round 15
+471,cat471,1,,59,7,,2,,7,10,13,1,0,1,,4,2,,Liverpool,,1,06.12.2014 16:00,Premier League - Round 15,cat471,2,,41,2,,5,,9,8,5,2,0,1,,2,1,,Sunderland,,2,06.12.2014 16:00,Premier League - Round 15
+472,cat472,1,,58,2,,1,,6,6,4,2,0,1,,0,2,,QPR,,1,06.12.2014 16:00,Premier League - Round 15,cat472,2,,42,4,,8,,5,7,10,2,0,1,,4,2,,Burnley,,0,06.12.2014 16:00,Premier League - Round 15
+473,cat473,1,,44,2,,2,,6,8,6,1,2,1,1,1,3,,QPR,,2,06.12.2014 16:00,Premier League - Round 15,cat473,2,,56,1,,3,,7,7,5,1,0,1,0,3,1,,Burnley,,1,06.12.2014 16:00,Premier League - Round 15
+474,cat474,1,,47,2,,2,,10,7,10,1,3,2,,4,4,,Stoke,,1,06.12.2014 16:00,Premier League - Round 15,cat474,2,,53,2,,3,,5,12,7,1,0,1,,4,1,,Arsenal,,0,06.12.2014 16:00,Premier League - Round 15
+475,cat475,1,,37,1,,1,,7,11,3,3,0,1,0,2,0,,Stoke,,2,06.12.2014 16:00,Premier League - Round 15,cat475,2,,63,2,,6,,9,5,8,0,2,2,1,1,5,,Arsenal,,4,06.12.2014 16:00,Premier League - Round 15
+476,cat476,1,,67,1,,1,,5,5,8,2,0,1,,5,2,,Tottenham,,,06.12.2014 16:00,Premier League - Round 15,cat476,2,,33,2,,7,,5,6,8,2,0,0,,4,2,,Crystal Palace,,,06.12.2014 16:00,Premier League - Round 15
+477,cat477,1,,69,2,,1,,6,9,5,2,0,0,,3,0,,Tottenham,,1,06.12.2014 16:00,Premier League - Round 15,cat477,2,,31,4,,5,,5,6,8,0,0,4,,2,2,,Crystal Palace,,0,06.12.2014 16:00,Premier League - Round 15
+478,cat478,1,,42,1,,0,,4,6,5,2,0,0,,3,1,,Newcastle,,,06.12.2014 13:45,Premier League - Round 15,cat478,2,,58,4,,2,,4,4,12,1,0,2,,6,2,,Chelsea,,,06.12.2014 13:45,Premier League - Round 15
+479,cat479,1,,22,1,,1,,4,4,4,5,2,1,1,1,2,,Newcastle,,4,06.12.2014 13:45,Premier League - Round 15,cat479,2,,78,1,,8,,2,5,14,0,1,2,0,7,6,,Chelsea,,3,06.12.2014 13:45,Premier League - Round 15
+480,cat480,1,,54,1,,5,,2,9,6,1,0,0,,3,2,,Arsenal,,0,03.12.2014 20:45,Premier League - Round 14,cat480,2,,46,0,,3,,8,2,2,2,0,1,,1,1,,Southampton,,1,03.12.2014 20:45,Premier League - Round 14
+481,cat481,1,,64,3,,4,,5,6,13,0,1,2,,4,6,,Arsenal,,0,03.12.2014 20:45,Premier League - Round 14,cat481,2,,36,2,,1,,6,7,4,5,0,0,,2,0,,Southampton,,1,03.12.2014 20:45,Premier League - Round 14
+482,cat482,1,,45,1,,0,,3,7,7,1,2,2,,1,5,,Chelsea,,,03.12.2014 20:45,Premier League - Round 14,cat482,2,,55,1,,2,,6,5,6,3,0,2,,4,1,,Tottenham,,,03.12.2014 20:45,Premier League - Round 14
+483,cat483,1,,31,0,,1,,6,4,5,1,1,1,,2,3,,Chelsea,,1,03.12.2014 20:45,Premier League - Round 14,cat483,2,,69,0,,4,,3,7,4,2,0,0,,3,1,,Tottenham,,1,03.12.2014 20:45,Premier League - Round 14
+484,cat484,1,,61,2,,4,,3,4,9,0,1,1,,3,4,,Everton,,0,03.12.2014 20:45,Premier League - Round 14,cat484,2,,39,2,,2,,4,4,3,3,0,0,,1,0,,Hull,,1,03.12.2014 20:45,Premier League - Round 14
+485,cat485,1,,55,2,,2,,5,8,4,0,0,0,,1,1,,Everton,,1,03.12.2014 20:45,Premier League - Round 14,cat485,2,,45,1,,2,,8,5,5,1,1,0,,3,1,,Hull,,0,03.12.2014 20:45,Premier League - Round 14
+486,cat486,1,,35,3,,1,,6,3,4,0,1,1,,0,1,,Sunderland,,,03.12.2014 20:45,Premier League - Round 14,cat486,2,,65,0,,0,,3,7,8,0,2,0,,6,2,,Manchester City,,,03.12.2014 20:45,Premier League - Round 14
+487,cat487,1,,35,2,,1,,3,6,4,0,0,0,,1,1,,Sunderland,,,03.12.2014 20:45,Premier League - Round 14,cat487,2,,65,1,,0,,5,3,7,1,2,1,,4,2,,Manchester City,,,03.12.2014 20:45,Premier League - Round 14
+488,cat488,1,,32,4,,4,,8,8,10,1,0,1,,1,5,,Crystal Palace,,,02.12.2014 21:00,Premier League - Round 14,cat488,2,,68,1,,1,,8,9,4,5,1,0,,1,2,,Aston Villa,,,02.12.2014 21:00,Premier League - Round 14
+489,cat489,1,,60,2,,4,,8,9,7,1,0,2,,5,0,,Crystal Palace,,,02.12.2014 21:00,Premier League - Round 14,cat489,2,,40,0,,1,,7,10,1,0,0,2,,0,1,,Aston Villa,,,02.12.2014 21:00,Premier League - Round 14
+490,cat490,1,,46,4,,3,,2,6,9,4,1,0,,3,2,,West Brom,,1,02.12.2014 21:00,Premier League - Round 14,cat490,2,,54,3,,3,,6,2,10,1,2,0,,1,6,,West Ham,,1,02.12.2014 21:00,Premier League - Round 14
+491,cat491,1,,72,5,,4,,9,14,14,0,0,0,,6,3,,West Brom,,1,02.12.2014 21:00,Premier League - Round 14,cat491,2,,28,1,,0,,11,9,1,3,0,3,,0,0,,West Ham,,0,02.12.2014 21:00,Premier League - Round 14
+492,cat492,1,,50,1,,1,,7,7,6,2,1,1,,3,2,,Burnley,,0,02.12.2014 20:45,Premier League - Round 14,cat492,2,,50,0,,2,,6,8,3,1,0,1,,1,2,,Newcastle,,1,02.12.2014 20:45,Premier League - Round 14
+493,cat493,1,,34,2,,1,,5,8,6,1,0,1,,4,0,,Burnley,,2,02.12.2014 20:45,Premier League - Round 14,cat493,2,,66,2,,3,,6,6,8,0,1,1,,4,2,,Newcastle,,1,02.12.2014 20:45,Premier League - Round 14
+494,cat494,1,,46,0,,3,,4,8,8,0,1,0,,6,2,,Leicester,,0,02.12.2014 20:45,Premier League - Round 14,cat494,2,,54,3,,2,,4,4,5,1,1,4,,1,1,,Liverpool,,1,02.12.2014 20:45,Premier League - Round 14
+495,cat495,1,,46,5,,4,,7,6,11,1,0,0,1,4,2,,Leicester,,1,02.12.2014 20:45,Premier League - Round 14,cat495,2,,54,3,,2,,6,7,8,2,2,2,0,2,3,,Liverpool,,1,02.12.2014 20:45,Premier League - Round 14
+496,cat496,1,,63,1,,1,,2,2,5,0,1,0,,2,2,,Manchester Utd,,0,02.12.2014 20:45,Premier League - Round 14,cat496,2,,37,0,,1,,2,2,1,1,1,0,,0,1,,Stoke,,1,02.12.2014 20:45,Premier League - Round 14
+497,cat497,1,,65,1,,1,,6,11,5,3,1,1,,3,1,,Manchester Utd,,2,02.12.2014 20:45,Premier League - Round 14,cat497,2,,35,0,,1,,11,7,4,0,0,0,,1,3,,Stoke,,3,02.12.2014 20:45,Premier League - Round 14
+498,cat498,1,,52,3,,4,,4,6,10,1,0,4,,4,3,,Swansea,,0,02.12.2014 20:45,Premier League - Round 14,cat498,2,,48,0,,0,,6,8,3,3,0,0,,2,1,,QPR,,1,02.12.2014 20:45,Premier League - Round 14
+499,cat499,1,,66,3,,5,,4,6,8,0,2,2,,1,4,,Swansea,,2,02.12.2014 20:45,Premier League - Round 14,cat499,2,,34,1,,2,,6,6,2,2,0,0,,1,0,,QPR,,1,02.12.2014 20:45,Premier League - Round 14
+500,cat500,1,,42,1,,1,,6,4,7,2,2,1,,1,5,,Tottenham,,0,30.11.2014 17:00,Premier League - Round 13,cat500,2,,58,1,,1,,2,7,5,3,1,2,,1,3,,Everton,,1,30.11.2014 17:00,Premier League - Round 13
+501,cat501,1,,36,2,,2,,9,5,6,2,0,1,,3,1,,Tottenham,,5,30.11.2014 17:00,Premier League - Round 13,cat501,2,,64,1,,3,,3,9,5,1,0,2,,2,2,,Everton,,0,30.11.2014 17:00,Premier League - Round 13
+502,cat502,1,,45,1,,4,,7,6,4,2,0,2,,1,2,,Southampton,,1,30.11.2014 14:30,Premier League - Round 13,cat502,2,,55,0,,3,,6,8,5,2,0,0,,3,2,,Manchester City,,2,30.11.2014 14:30,Premier League - Round 13
+503,cat503,1,,59,3,,4,,3,8,9,0,0,3,0,4,2,,Southampton,,0,30.11.2014 14:30,Premier League - Round 13,cat503,2,,41,1,,3,,7,6,9,2,3,0,1,5,3,,Manchester City,,2,30.11.2014 14:30,Premier League - Round 13
+504,cat504,1,,33,1,,1,,5,5,4,2,0,0,,2,1,,Sunderland,,,29.11.2014 18:30,Premier League - Round 13,cat504,2,,67,6,,4,,5,5,12,1,0,0,,4,2,,Chelsea,,,29.11.2014 18:30,Premier League - Round 13
+505,cat505,1,,33,3,,1,,8,4,8,4,0,0,,3,2,,Sunderland,,3,29.11.2014 18:30,Premier League - Round 13,cat505,2,,67,4,,4,,5,8,12,2,0,0,,4,4,,Chelsea,,2,29.11.2014 18:30,Premier League - Round 13
+506,cat506,1,,49,2,,0,,3,6,5,3,0,1,,1,2,,Burnley,,3,29.11.2014 16:00,Premier League - Round 13,cat506,2,,51,8,,5,,5,4,13,2,1,1,,1,4,,Aston Villa,,2,29.11.2014 16:00,Premier League - Round 13
+507,cat507,1,,45,1,,1,,5,3,6,3,1,0,,3,2,,Burnley,,0,29.11.2014 16:00,Premier League - Round 13,cat507,2,,55,1,,0,,3,5,5,1,0,1,,1,3,,Aston Villa,,2,29.11.2014 16:00,Premier League - Round 13
+508,cat508,1,,47,0,,2,,8,5,3,0,0,0,,3,0,,Liverpool,,0,29.11.2014 16:00,Premier League - Round 13,cat508,2,,53,2,,1,,5,8,3,0,0,0,,1,0,,Stoke,,1,29.11.2014 16:00,Premier League - Round 13
+509,cat509,1,,47,6,,3,,3,6,13,4,1,0,,4,3,,Liverpool,,0,29.11.2014 16:00,Premier League - Round 13,cat509,2,,53,3,,4,,4,3,10,2,0,1,,3,4,,Stoke,,2,29.11.2014 16:00,Premier League - Round 13
+510,cat510,1,,76,3,,5,,7,6,8,0,2,2,,2,3,,Manchester Utd,,,29.11.2014 16:00,Premier League - Round 13,cat510,2,,24,0,,0,,6,9,1,1,0,0,,1,0,,Hull,,,29.11.2014 16:00,Premier League - Round 13
+511,cat511,1,,78,0,,2,,5,8,4,2,1,3,,2,2,,Manchester Utd,,2,29.11.2014 16:00,Premier League - Round 13,cat511,2,,22,0,,0,,6,8,3,1,0,2,,1,2,,Hull,,2,29.11.2014 16:00,Premier League - Round 13
+512,cat512,1,,65,8,,4,,4,11,18,1,2,1,,8,2,,QPR,,1,29.11.2014 16:00,Premier League - Round 13,cat512,2,,35,1,,1,,9,5,6,0,1,3,,3,2,,Leicester,,0,29.11.2014 16:00,Premier League - Round 13
+513,cat513,1,,53,6,,7,,4,9,14,1,1,2,,5,3,,QPR,,2,29.11.2014 16:00,Premier League - Round 13,cat513,2,,47,4,,4,,8,6,13,2,1,3,,7,2,,Leicester,,2,29.11.2014 16:00,Premier League - Round 13
+514,cat514,1,,65,2,,3,,3,7,10,2,1,0,,6,2,,Swansea,,0,29.11.2014 16:00,Premier League - Round 13,cat514,2,,35,1,,3,,8,2,4,1,1,0,,0,3,,Crystal Palace,,1,29.11.2014 16:00,Premier League - Round 13
+515,cat515,1,,65,1,,1,,3,5,8,2,0,0,,5,2,,Swansea,,0,29.11.2014 16:00,Premier League - Round 13,cat515,2,,35,2,,3,,4,3,7,2,0,1,,3,2,,Crystal Palace,,1,29.11.2014 16:00,Premier League - Round 13
+516,cat516,1,,48,1,,0,,1,8,3,0,0,1,,1,1,,West Ham,,0,29.11.2014 16:00,Premier League - Round 13,cat516,2,,52,0,,0,,7,2,3,1,0,1,,3,0,,Newcastle,,1,29.11.2014 16:00,Premier League - Round 13
+517,cat517,1,,48,2,,6,,8,10,9,1,1,3,0,5,2,,West Ham,,3,29.11.2014 16:00,Premier League - Round 13,cat517,2,,52,0,,2,,9,11,4,1,0,1,1,3,1,,Newcastle,,3,29.11.2014 16:00,Premier League - Round 13
+518,cat518,1,,50,0,,1,,3,3,0,4,0,2,,0,0,,West Brom,,,29.11.2014 13:45,Premier League - Round 13,cat518,2,,50,2,,0,,2,5,8,0,0,1,,2,4,,Arsenal,,,29.11.2014 13:45,Premier League - Round 13
+519,cat519,1,,46,3,,3,,6,8,9,0,0,2,,5,1,,West Brom,,2,29.11.2014 13:45,Premier League - Round 13,cat519,2,,54,4,,4,,8,8,9,1,1,0,,4,1,,Arsenal,,1,29.11.2014 13:45,Premier League - Round 13
+520,cat520,1,,35,3,,2,,8,8,5,2,1,0,,1,1,,Aston Villa,,,24.11.2014 21:00,Premier League - Round 12,cat520,2,,65,4,,7,,6,8,9,0,0,2,,3,2,,Southampton,,,24.11.2014 21:00,Premier League - Round 12
+521,cat521,1,,43,1,,0,,7,11,2,1,0,1,,1,0,,Aston Villa,,1,24.11.2014 21:00,Premier League - Round 12,cat521,2,,57,2,,1,,11,8,6,0,1,1,,2,2,,Southampton,,2,24.11.2014 21:00,Premier League - Round 12
+522,cat522,1,,36,5,,3,,8,5,10,3,1,3,,3,2,,Hull,,0,23.11.2014 17:00,Premier League - Round 12,cat522,2,,64,2,,4,,5,10,5,1,0,0,,0,3,,Tottenham,,1,23.11.2014 17:00,Premier League - Round 12
+523,cat523,1,,16,4,,0,,7,5,7,1,0,1,1,3,0,,Hull,,3,23.11.2014 17:00,Premier League - Round 12,cat523,2,,84,0,,5,,4,7,11,0,2,1,0,8,3,,Tottenham,,0,23.11.2014 17:00,Premier League - Round 12
+524,cat524,1,,37,0,,3,,10,5,6,0,1,1,,3,3,,Crystal Palace,,,23.11.2014 14:30,Premier League - Round 12,cat524,2,,63,2,,0,,5,12,6,2,1,1,,3,1,,Liverpool,,,23.11.2014 14:30,Premier League - Round 12
+525,cat525,1,,35,2,,1,,11,4,5,0,2,1,,1,2,,Crystal Palace,,1,23.11.2014 14:30,Premier League - Round 12,cat525,2,,65,4,,3,,5,9,10,0,0,0,,6,0,,Liverpool,,2,23.11.2014 14:30,Premier League - Round 12
+526,cat526,1,,54,1,,4,,7,4,11,0,0,0,,5,5,,Arsenal,,,22.11.2014 18:30,Premier League - Round 12,cat526,2,,46,4,,4,,3,7,7,5,0,1,,3,0,,Manchester Utd,,,22.11.2014 18:30,Premier League - Round 12
+527,cat527,1,,70,3,,7,,5,7,10,0,1,1,,3,4,,Arsenal,,2,22.11.2014 18:30,Premier League - Round 12,cat527,2,,30,2,,1,,5,5,7,3,2,3,,3,2,,Manchester Utd,,1,22.11.2014 18:30,Premier League - Round 12
+528,cat528,1,,72,0,,7,,2,5,10,1,2,2,0,3,7,,Chelsea,,,22.11.2014 16:00,Premier League - Round 12,cat528,2,,28,4,,0,,4,4,8,5,0,2,1,3,1,,West Brom,,,22.11.2014 16:00,Premier League - Round 12
+529,cat529,1,,78,0,,8,,5,3,6,0,0,3,,5,1,,Chelsea,,1,22.11.2014 16:00,Premier League - Round 12,cat529,2,,22,1,,0,,5,7,2,1,0,0,,1,0,,West Brom,,0,22.11.2014 16:00,Premier League - Round 12
+530,cat530,1,,63,2,,0,,5,5,6,1,1,3,,2,2,,Everton,,1,22.11.2014 16:00,Premier League - Round 12,cat530,2,,37,2,,0,,5,8,8,1,0,0,,5,1,,West Ham,,1,22.11.2014 16:00,Premier League - Round 12
+531,cat531,1,,49,0,,1,,5,9,6,1,1,0,,4,2,,Everton,,1,22.11.2014 16:00,Premier League - Round 12,cat531,2,,51,2,,5,,8,5,8,1,1,1,,4,2,,West Ham,,2,22.11.2014 16:00,Premier League - Round 12
+532,cat532,1,,40,1,,3,,8,6,5,2,0,0,,3,1,,Leicester,,0,22.11.2014 16:00,Premier League - Round 12,cat532,2,,60,1,,4,,3,9,4,1,0,2,,1,2,,Sunderland,,1,22.11.2014 16:00,Premier League - Round 12
+533,cat533,1,,50,2,,3,,10,10,9,3,0,0,,4,3,,Leicester,,2,22.11.2014 16:00,Premier League - Round 12,cat533,2,,50,1,,5,,8,8,6,3,0,3,,2,3,,Sunderland,,2,22.11.2014 16:00,Premier League - Round 12
+534,cat534,1,,61,0,,3,,3,4,7,0,1,0,,2,5,,Manchester City,,1,22.11.2014 16:00,Premier League - Round 12,cat534,2,,39,0,,0,,4,3,1,4,1,0,,0,1,,Swansea,,1,22.11.2014 16:00,Premier League - Round 12
+535,cat535,1,,59,2,,4,,10,7,11,2,1,0,,4,5,,Manchester City,,1,22.11.2014 16:00,Premier League - Round 12,cat535,2,,41,7,,3,,5,8,12,4,0,2,,3,2,,Swansea,,0,22.11.2014 16:00,Premier League - Round 12
+536,cat536,1,,55,2,,7,,4,11,6,2,0,1,,1,3,,Newcastle,,,22.11.2014 16:00,Premier League - Round 12,cat536,2,,45,3,,4,,10,5,7,3,0,1,,2,2,,QPR,,,22.11.2014 16:00,Premier League - Round 12
+537,cat537,1,,53,3,,9,,8,6,9,2,1,2,,3,3,,Newcastle,,,22.11.2014 16:00,Premier League - Round 12,cat537,2,,47,1,,3,,5,10,5,2,0,2,,2,2,,QPR,,,22.11.2014 16:00,Premier League - Round 12
+538,cat538,1,,68,0,,5,,8,7,5,1,1,0,,2,3,,Stoke,,1,22.11.2014 16:00,Premier League - Round 12,cat538,2,,32,2,,0,,6,7,6,2,2,0,,1,3,,Burnley,,1,22.11.2014 16:00,Premier League - Round 12
+539,cat539,1,,80,0,,9,,2,1,12,1,0,2,,11,1,,Stoke,,1,22.11.2014 16:00,Premier League - Round 12,cat539,2,,20,6,,0,,3,5,7,1,0,0,,0,1,,Burnley,,1,22.11.2014 16:00,Premier League - Round 12
+540,cat540,1,,51,1,,5,,3,7,5,1,0,2,,2,2,,Swansea,,2,09.11.2014 17:00,Premier League - Round 11,cat540,2,,49,2,,4,,7,5,6,2,0,0,,3,1,,Arsenal,,1,09.11.2014 17:00,Premier League - Round 11
+541,cat541,1,,45,1,,1,,7,6,6,2,2,2,,2,3,,Swansea,,3,09.11.2014 17:00,Premier League - Round 11,cat541,2,,55,3,,6,,9,8,6,1,1,0,,0,3,,Arsenal,,4,09.11.2014 17:00,Premier League - Round 11
+542,cat542,1,,43,2,,4,,3,4,6,3,0,0,,3,1,,Sunderland,,1,09.11.2014 14:30,Premier League - Round 11,cat542,2,,57,3,,1,,3,4,11,1,0,1,,5,3,,Everton,,1,09.11.2014 14:30,Premier League - Round 11
+543,cat543,1,,41,1,,1,,8,10,4,3,1,2,,1,2,,Sunderland,,0,09.11.2014 14:30,Premier League - Round 11,cat543,2,,59,0,,3,,10,9,5,1,1,0,,1,4,,Everton,,1,09.11.2014 14:30,Premier League - Round 11
+544,cat544,1,,58,2,,3,,9,10,7,0,0,1,,3,2,,Tottenham,,1,09.11.2014 14:30,Premier League - Round 11,cat544,2,,42,3,,3,,7,9,7,2,2,2,,2,2,,Stoke,,2,09.11.2014 14:30,Premier League - Round 11
+545,cat545,1,,63,1,,2,,11,6,7,2,1,0,1,4,2,,Tottenham,,2,09.11.2014 14:30,Premier League - Round 11,cat545,2,,37,0,,2,,6,11,4,1,0,0,0,2,2,,Stoke,,0,09.11.2014 14:30,Premier League - Round 11
+546,cat546,1,,53,2,,3,,7,3,6,0,0,1,,2,2,,West Brom,,,09.11.2014 14:30,Premier League - Round 11,cat546,2,,47,1,,1,,2,8,5,2,1,1,,3,1,,Newcastle,,,09.11.2014 14:30,Premier League - Round 11
+547,cat547,1,,63,1,,4,,5,4,4,1,0,0,,3,0,,West Brom,,,09.11.2014 14:30,Premier League - Round 11,cat547,2,,37,1,,3,,4,6,3,0,1,0,,0,2,,Newcastle,,,09.11.2014 14:30,Premier League - Round 11
+548,cat548,1,,39,4,,3,,5,6,7,1,1,2,,0,3,,QPR,,4,08.11.2014 18:30,Premier League - Round 11,cat548,2,,61,4,,3,,6,7,13,2,1,0,,7,2,,Manchester City,,1,08.11.2014 18:30,Premier League - Round 11
+549,cat549,1,,45,2,,4,,4,4,10,3,1,1,,7,1,,QPR,,0,08.11.2014 18:30,Premier League - Round 11,cat549,2,,55,4,,4,,4,5,10,0,1,0,,2,4,,Manchester City,,1,08.11.2014 18:30,Premier League - Round 11
+550,cat550,1,,60,6,,5,,6,7,9,0,0,1,,2,1,,Burnley,,2,08.11.2014 16:00,Premier League - Round 11,cat550,2,,40,2,,1,,6,7,5,1,0,1,,3,0,,Hull,,1,08.11.2014 16:00,Premier League - Round 11
+551,cat551,1,,34,2,,2,,11,12,5,1,1,1,,1,2,,Burnley,,4,08.11.2014 16:00,Premier League - Round 11,cat551,2,,66,1,,0,,11,11,7,1,0,1,,5,1,,Hull,,3,08.11.2014 16:00,Premier League - Round 11
+552,cat552,1,,73,4,,5,,5,6,8,0,0,0,,2,2,,Manchester Utd,,0,08.11.2014 16:00,Premier League - Round 11,cat552,2,,27,0,,2,,6,5,1,2,0,0,,1,0,,Crystal Palace,,2,08.11.2014 16:00,Premier League - Round 11
+553,cat553,1,,61,7,,6,,3,5,15,1,1,0,,5,3,,Manchester Utd,,1,08.11.2014 16:00,Premier League - Round 11,cat553,2,,39,3,,2,,6,3,5,2,0,0,,1,1,,Crystal Palace,,1,08.11.2014 16:00,Premier League - Round 11
+554,cat554,1,,63,3,,5,,6,5,7,0,0,4,,3,1,,Southampton,,1,08.11.2014 16:00,Premier League - Round 11,cat554,2,,37,0,,2,,5,10,1,1,0,0,,1,0,,Leicester,,0,08.11.2014 16:00,Premier League - Round 11
+555,cat555,1,,67,3,,8,,4,9,11,0,2,2,,3,5,,Southampton,,1,08.11.2014 16:00,Premier League - Round 11,cat555,2,,33,1,,2,,7,6,4,3,0,2,,3,0,,Leicester,,2,08.11.2014 16:00,Premier League - Round 11
+556,cat556,1,,60,4,,8,,3,5,10,3,0,4,,4,2,,West Ham,,,08.11.2014 16:00,Premier League - Round 11,cat556,2,,40,2,,0,,5,7,9,2,0,0,,4,3,,Aston Villa,,,08.11.2014 16:00,Premier League - Round 11
+557,cat557,1,,58,5,,5,,6,6,11,1,0,1,,3,3,,West Ham,,0,08.11.2014 16:00,Premier League - Round 11,cat557,2,,42,0,,2,,5,7,3,3,0,1,,2,1,,Aston Villa,,3,08.11.2014 16:00,Premier League - Round 11
+558,cat558,1,,56,3,,3,,4,8,6,3,1,3,,0,3,,Liverpool,,1,08.11.2014 13:45,Premier League - Round 11,cat558,2,,44,5,,5,,6,7,10,2,1,1,,1,4,,Chelsea,,0,08.11.2014 13:45,Premier League - Round 11
+559,cat559,1,,60,4,,2,,5,5,6,0,0,3,,1,1,,Liverpool,,1,08.11.2014 13:45,Premier League - Round 11,cat559,2,,40,2,,2,,6,8,5,1,1,0,,2,1,,Chelsea,,5,08.11.2014 13:45,Premier League - Round 11
+560,cat560,1,,47,0,,3,,6,10,2,3,0,0,,2,0,,Crystal Palace,,,03.11.2014 21:00,Premier League - Round 10,cat560,2,,53,1,,1,,9,6,5,0,1,0,,0,4,,Sunderland,,,03.11.2014 21:00,Premier League - Round 10
+561,cat561,1,,61,5,,8,,6,10,7,1,1,0,1,1,1,,Crystal Palace,,2,03.11.2014 21:00,Premier League - Round 10,cat561,2,,39,0,,1,,10,6,3,0,2,0,0,0,3,,Sunderland,,3,03.11.2014 21:00,Premier League - Round 10
+562,cat562,1,,42,1,,2,,3,4,9,2,1,0,,7,1,,Aston Villa,,1,02.11.2014 17:00,Premier League - Round 10,cat562,2,,58,4,,5,,3,3,10,0,0,1,,4,2,,Tottenham,,1,02.11.2014 17:00,Premier League - Round 10
+563,cat563,1,,44,1,,1,,9,8,3,3,0,1,1,2,0,,Aston Villa,,2,02.11.2014 17:00,Premier League - Round 10,cat563,2,,56,1,,4,,8,11,8,0,2,0,0,2,5,,Tottenham,,2,02.11.2014 17:00,Premier League - Round 10
+564,cat564,1,,47,0,,2,,8,10,6,0,0,1,0,2,4,,Manchester City,,0,02.11.2014 14:30,Premier League - Round 10,cat564,2,,53,0,,0,,8,9,2,4,0,2,1,2,0,,Manchester Utd,,3,02.11.2014 14:30,Premier League - Round 10
+565,cat565,1,,57,4,,5,,7,2,10,2,1,2,,4,2,,Manchester City,,3,02.11.2014 14:30,Premier League - Round 10,cat565,2,,43,2,,4,,1,10,7,1,0,1,,3,2,,Manchester Utd,,0,02.11.2014 14:30,Premier League - Round 10
+566,cat566,1,,71,5,,7,,4,6,13,0,0,2,,4,4,,Arsenal,,0,01.11.2014 16:00,Premier League - Round 10,cat566,2,,29,1,,1,,4,6,3,4,0,2,,2,0,,Burnley,,1,01.11.2014 16:00,Premier League - Round 10
+567,cat567,1,,67,4,,11,,1,7,17,2,3,0,,6,7,,Arsenal,,,01.11.2014 16:00,Premier League - Round 10,cat567,2,,33,0,,0,,5,1,3,4,0,2,,1,2,,Burnley,,,01.11.2014 16:00,Premier League - Round 10
+568,cat568,1,,63,2,,10,,4,1,8,0,1,1,,3,3,,Chelsea,,,01.11.2014 16:00,Premier League - Round 10,cat568,2,,37,1,,1,,1,5,1,2,0,0,,0,0,,QPR,,,01.11.2014 16:00,Premier League - Round 10
+569,cat569,1,,69,1,,3,,4,10,10,0,1,1,,4,5,,Chelsea,,,01.11.2014 16:00,Premier League - Round 10,cat569,2,,31,3,,1,,11,5,6,4,1,0,,2,1,,QPR,,,01.11.2014 16:00,Premier League - Round 10
+570,cat570,1,,71,4,,8,,3,7,11,0,0,0,,4,3,,Everton,,1,01.11.2014 16:00,Premier League - Round 10,cat570,2,,29,3,,0,,7,4,5,3,0,0,,2,0,,Swansea,,2,01.11.2014 16:00,Premier League - Round 10
+571,cat571,1,,63,2,,3,,7,9,6,0,0,1,0,4,0,,Everton,,1,01.11.2014 16:00,Premier League - Round 10,cat571,2,,37,1,,0,,8,7,3,0,0,1,1,2,0,,Swansea,,3,01.11.2014 16:00,Premier League - Round 10
+572,cat572,1,,44,1,,3,,4,5,3,1,0,1,,1,1,,Hull,,,01.11.2014 16:00,Premier League - Round 10,cat572,2,,56,0,,1,,5,5,3,1,1,0,,1,2,,Southampton,,,01.11.2014 16:00,Premier League - Round 10
+573,cat573,1,,50,2,,4,,2,4,5,1,0,0,,3,0,,Hull,,1,01.11.2014 16:00,Premier League - Round 10,cat573,2,,50,2,,3,,4,2,7,0,0,1,,4,1,,Southampton,,0,01.11.2014 16:00,Premier League - Round 10
+574,cat574,1,,54,2,,5,,2,9,6,2,0,1,,2,2,,Leicester,,,01.11.2014 16:00,Premier League - Round 10,cat574,2,,46,0,,2,,5,3,4,2,0,4,,2,2,,West Brom,,,01.11.2014 16:00,Premier League - Round 10
+575,cat575,1,,58,0,,3,,3,9,8,0,0,3,,5,3,,Leicester,,0,01.11.2014 16:00,Premier League - Round 10,cat575,2,,42,3,,1,,7,6,4,3,1,2,,0,1,,West Brom,,1,01.11.2014 16:00,Premier League - Round 10
+576,cat576,1,,59,4,,4,,5,4,13,0,1,0,,7,2,,Stoke,,,01.11.2014 16:00,Premier League - Round 10,cat576,2,,41,2,,0,,3,4,4,1,0,2,,2,0,,West Ham,,,01.11.2014 16:00,Premier League - Round 10
+577,cat577,1,,61,1,,5,,9,10,8,0,1,0,,3,4,,Stoke,,1,01.11.2014 16:00,Premier League - Round 10,cat577,2,,39,2,,2,,10,8,6,3,2,0,,2,2,,West Ham,,1,01.11.2014 16:00,Premier League - Round 10
+578,cat578,1,,35,4,,6,,5,9,8,0,0,0,,3,1,,Newcastle,,1,01.11.2014 13:45,Premier League - Round 10,cat578,2,,65,0,,1,,6,5,1,1,0,3,,1,0,,Liverpool,,1,01.11.2014 13:45,Premier League - Round 10
+579,cat579,1,,37,1,,1,,8,6,5,3,1,0,,3,1,,Newcastle,,3,01.11.2014 13:45,Premier League - Round 10,cat579,2,,63,1,,1,,2,8,5,0,0,4,,1,3,,Liverpool,,2,01.11.2014 13:45,Premier League - Round 10
+580,cat580,1,,39,1,,2,,5,7,4,4,1,0,,2,1,,QPR,,,27.10.2014 21:00,Premier League - Round 9,cat580,2,,61,3,,2,,5,5,8,0,0,2,,1,4,,Aston Villa,,,27.10.2014 21:00,Premier League - Round 9
+581,cat581,1,,28,2,,0,,6,12,7,2,1,2,,2,3,,QPR,,0,27.10.2014 21:00,Premier League - Round 9,cat581,2,,72,2,,2,,9,9,7,2,0,3,,3,2,,Aston Villa,,2,27.10.2014 21:00,Premier League - Round 9
+582,cat582,1,,51,1,,0,,6,7,9,1,0,0,,5,3,,Manchester Utd,,1,26.10.2014 17:00,Premier League - Round 9,cat582,2,,49,2,,6,,7,6,4,3,0,0,,1,1,,Chelsea,,2,26.10.2014 17:00,Premier League - Round 9
+583,cat583,1,,51,1,,4,,7,9,10,2,1,0,0,5,4,,Manchester Utd,,2,26.10.2014 17:00,Premier League - Round 9,cat583,2,,49,0,,1,,7,7,5,3,1,2,1,2,3,,Chelsea,,5,26.10.2014 17:00,Premier League - Round 9
+584,cat584,1,,38,4,,4,,4,3,9,0,1,2,,4,1,,Burnley,,1,26.10.2014 14:30,Premier League - Round 9,cat584,2,,62,1,,0,,3,6,5,0,2,0,,2,2,,Everton,,1,26.10.2014 14:30,Premier League - Round 9
+585,cat585,1,,38,1,,1,,8,6,5,3,0,0,,2,2,,Burnley,,3,26.10.2014 14:30,Premier League - Round 9,cat585,2,,62,4,,4,,4,8,10,2,1,3,,2,4,,Everton,,1,26.10.2014 14:30,Premier League - Round 9
+586,cat586,1,,69,3,,4,,5,7,9,0,1,1,,5,1,,Tottenham,,0,26.10.2014 14:30,Premier League - Round 9,cat586,2,,31,1,,2,,5,5,4,0,0,2,,3,0,,Newcastle,,1,26.10.2014 14:30,Premier League - Round 9
+587,cat587,1,,65,4,,6,,4,7,8,0,0,0,,3,1,,Tottenham,,2,26.10.2014 14:30,Premier League - Round 9,cat587,2,,35,0,,0,,7,5,3,1,2,0,,1,2,,Newcastle,,3,26.10.2014 14:30,Premier League - Round 9
+588,cat588,1,,58,0,,1,,3,4,4,0,1,0,,2,2,,Swansea,,,25.10.2014 18:30,Premier League - Round 9,cat588,2,,42,0,,1,,4,3,0,1,0,0,,0,0,,Leicester,,,25.10.2014 18:30,Premier League - Round 9
+589,cat589,1,,38,0,,1,,4,7,3,4,1,1,,2,1,,Swansea,,,25.10.2014 18:30,Premier League - Round 9,cat589,2,,62,1,,1,,6,5,9,0,0,1,,4,4,,Leicester,,,25.10.2014 18:30,Premier League - Round 9
+590,cat590,1,,60,2,,4,,4,8,6,1,0,1,,2,2,,Liverpool,,0,25.10.2014 16:00,Premier League - Round 9,cat590,2,,40,1,,1,,7,5,4,2,0,1,,2,1,,Hull,,1,25.10.2014 16:00,Premier League - Round 9
+591,cat591,1,,73,5,,10,,8,10,11,2,0,0,,4,2,,Liverpool,,3,25.10.2014 16:00,Premier League - Round 9,cat591,2,,27,0,,0,,10,8,2,2,0,0,,0,2,,Hull,,1,25.10.2014 16:00,Premier League - Round 9
+592,cat592,1,,66,4,,4,,4,6,13,1,1,0,,7,2,,Southampton,,0,25.10.2014 16:00,Premier League - Round 9,cat592,2,,34,1,,0,,5,4,3,1,0,1,,1,1,,Stoke,,1,25.10.2014 16:00,Premier League - Round 9
+593,cat593,1,,56,0,,2,,6,7,7,0,0,1,,7,0,,Southampton,,0,25.10.2014 16:00,Premier League - Round 9,cat593,2,,44,2,,3,,7,6,5,0,0,2,,3,0,,Stoke,,1,25.10.2014 16:00,Premier League - Round 9
+594,cat594,1,,37,2,,3,,3,5,3,1,0,0,,1,0,,Sunderland,,1,25.10.2014 16:00,Premier League - Round 9,cat594,2,,63,0,,2,,5,3,7,0,1,0,,5,2,,Arsenal,,1,25.10.2014 16:00,Premier League - Round 9
+595,cat595,1,,50,1,,0,,8,4,8,2,0,2,,4,3,,Sunderland,,2,25.10.2014 16:00,Premier League - Round 9,cat595,2,,50,2,,1,,4,10,8,3,1,0,,3,3,,Arsenal,,2,25.10.2014 16:00,Premier League - Round 9
+596,cat596,1,,70,1,,4,,8,3,5,2,0,1,,3,1,,West Brom,,1,25.10.2014 16:00,Premier League - Round 9,cat596,2,,30,2,,2,,2,9,6,1,2,1,,0,4,,Crystal Palace,,0,25.10.2014 16:00,Premier League - Round 9
+597,cat597,1,,68,3,,2,,6,7,12,2,2,0,,6,3,,West Brom,,2,25.10.2014 16:00,Premier League - Round 9,cat597,2,,32,0,,1,,6,5,2,1,0,3,,0,2,,Crystal Palace,,1,25.10.2014 16:00,Premier League - Round 9
+598,cat598,1,,33,1,,3,,10,9,6,1,1,1,,3,2,,West Ham,,1,25.10.2014 13:45,Premier League - Round 9,cat598,2,,67,2,,4,,7,11,8,1,0,2,,5,1,,Manchester City,,1,25.10.2014 13:45,Premier League - Round 9
+599,cat599,1,,27,0,,1,,2,5,5,3,1,2,,3,2,,West Ham,,1,25.10.2014 13:45,Premier League - Round 9,cat599,2,,73,3,,4,,7,2,13,1,1,0,,6,4,,Manchester City,,0,25.10.2014 13:45,Premier League - Round 9
+600,cat600,1,,40,1,,0,,2,4,5,3,1,0,,3,1,,West Brom,,1,20.10.2014 21:00,Premier League - Round 8,cat600,2,,60,1,,4,,4,2,5,0,0,0,,1,3,,Manchester Utd,,0,20.10.2014 21:00,Premier League - Round 8
+601,cat601,1,,32,1,,0,,4,5,3,2,1,0,,1,1,,West Brom,,0,20.10.2014 21:00,Premier League - Round 8,cat601,2,,68,6,,7,,4,4,17,0,2,1,,7,4,,Manchester Utd,,2,20.10.2014 21:00,Premier League - Round 8
+602,cat602,1,,40,4,,0,,10,1,11,2,1,0,,5,2,,Stoke,,3,19.10.2014 17:00,Premier League - Round 8,cat602,2,,60,1,,1,,2,9,5,1,1,0,,1,3,,Swansea,,0,19.10.2014 17:00,Premier League - Round 8
+603,cat603,1,,46,2,,3,,7,5,6,1,1,0,,3,1,,Stoke,,1,19.10.2014 17:00,Premier League - Round 8,cat603,2,,54,3,,4,,5,7,7,0,0,0,,3,1,,Swansea,,1,19.10.2014 17:00,Premier League - Round 8
+604,cat604,1,,47,1,,1,,6,9,7,1,0,1,,5,1,,QPR,,1,19.10.2014 14:30,Premier League - Round 8,cat604,2,,53,1,,1,,8,7,6,1,0,1,,4,1,,Liverpool,,0,19.10.2014 14:30,Premier League - Round 8
+605,cat605,1,,41,0,,6,,4,8,8,1,2,0,,3,5,,QPR,,1,19.10.2014 14:30,Premier League - Round 8,cat605,2,,59,2,,1,,7,4,9,3,3,1,,3,4,,Liverpool,,3,19.10.2014 14:30,Premier League - Round 8
+606,cat606,1,,69,6,,3,,4,8,14,1,1,0,,3,5,,Arsenal,,0,18.10.2014 16:00,Premier League - Round 8,cat606,2,,31,0,,0,,8,3,2,4,1,0,,0,2,,Hull,,1,18.10.2014 16:00,Premier League - Round 8
+607,cat607,1,,65,4,,7,,5,5,11,1,1,0,,3,4,,Arsenal,,2,18.10.2014 16:00,Premier League - Round 8,cat607,2,,35,0,,0,,5,6,2,3,1,0,,0,2,,Hull,,1,18.10.2014 16:00,Premier League - Round 8
+608,cat608,1,,48,2,,1,,0,5,8,0,0,1,,5,1,,Burnley,,0,18.10.2014 16:00,Premier League - Round 8,cat608,2,,52,2,,1,,5,1,7,1,0,0,,5,0,,West Ham,,1,18.10.2014 16:00,Premier League - Round 8
+609,cat609,1,,44,1,,4,,3,6,8,2,1,1,,5,2,,Burnley,,,18.10.2014 16:00,Premier League - Round 8,cat609,2,,56,4,,6,,5,5,13,1,3,1,,4,5,,West Ham,,,18.10.2014 16:00,Premier League - Round 8
+610,cat610,1,,28,0,,2,,6,5,4,1,0,1,1,2,2,,Crystal Palace,,3,18.10.2014 16:00,Premier League - Round 8,cat610,2,,72,1,,1,,4,7,8,2,1,0,1,5,2,,Chelsea,,1,18.10.2014 16:00,Premier League - Round 8
+611,cat611,1,,28,0,,1,,7,2,3,2,1,1,,1,2,,Crystal Palace,,,18.10.2014 16:00,Premier League - Round 8,cat611,2,,72,0,,1,,3,7,6,1,1,0,,3,3,,Chelsea,,,18.10.2014 16:00,Premier League - Round 8
+612,cat612,1,,65,4,,3,,5,9,9,1,1,2,,2,3,,Everton,,0,18.10.2014 16:00,Premier League - Round 8,cat612,2,,35,0,,3,,8,7,3,2,0,1,,2,1,,Aston Villa,,2,18.10.2014 16:00,Premier League - Round 8
+613,cat613,1,,55,3,,0,,6,6,6,1,2,0,,0,3,,Everton,,2,18.10.2014 16:00,Premier League - Round 8,cat613,2,,45,4,,1,,8,6,7,1,0,0,,2,1,,Aston Villa,,0,18.10.2014 16:00,Premier League - Round 8
+614,cat614,1,,59,3,,3,,9,8,7,1,0,0,,3,1,,Newcastle,,0,18.10.2014 16:00,Premier League - Round 8,cat614,2,,41,2,,1,,8,9,3,1,0,0,,0,1,,Leicester,,3,18.10.2014 16:00,Premier League - Round 8
+615,cat615,1,,41,4,,7,,4,7,12,1,1,2,,3,5,,Newcastle,,,18.10.2014 16:00,Premier League - Round 8,cat615,2,,59,2,,6,,7,6,4,4,0,1,,1,1,,Leicester,,,18.10.2014 16:00,Premier League - Round 8
+616,cat616,1,,46,0,,4,,5,5,6,1,3,2,,3,3,,Southampton,,0,18.10.2014 16:00,Premier League - Round 8,cat616,2,,54,1,,4,,6,8,8,0,0,0,,6,1,,Sunderland,,2,18.10.2014 16:00,Premier League - Round 8
+617,cat617,1,,60,1,,1,,6,3,14,2,5,1,,5,8,,Southampton,,1,18.10.2014 16:00,Premier League - Round 8,cat617,2,,40,2,,2,,2,5,6,3,0,0,,2,2,,Sunderland,,1,18.10.2014 16:00,Premier League - Round 8
+618,cat618,1,,60,0,,2,,7,6,10,3,2,2,,3,7,,Manchester City,,0,18.10.2014 13:45,Premier League - Round 8,cat618,2,,40,4,,2,,5,7,10,5,1,1,,2,4,,Tottenham,,2,18.10.2014 13:45,Premier League - Round 8
+619,cat619,1,,64,4,,1,,4,2,10,3,2,1,0,1,5,,Manchester City,,1,18.10.2014 13:45,Premier League - Round 8,cat619,2,,36,4,,2,,4,3,9,3,0,1,1,2,3,,Tottenham,,0,18.10.2014 13:45,Premier League - Round 8
+620,cat620,1,,49,2,,4,,1,6,6,1,1,3,,3,1,,West Ham,,0,05.10.2014 17:15,Premier League - Round 7,cat620,2,,51,0,,1,,4,4,1,0,0,2,,0,1,,QPR,,1,05.10.2014 17:15,Premier League - Round 7
+621,cat621,1,,47,1,,3,,9,7,5,3,1,1,,2,2,,West Ham,,2,05.10.2014 17:15,Premier League - Round 7,cat621,2,,53,4,,4,,7,9,10,1,0,0,,3,3,,QPR,,1,05.10.2014 17:15,Premier League - Round 7
+622,cat622,1,,49,0,,1,,8,6,2,0,1,2,,0,2,,Chelsea,,1,05.10.2014 15:05,Premier League - Round 7,cat622,2,,51,0,,0,,7,10,1,1,0,0,,1,0,,Arsenal,,2,05.10.2014 15:05,Premier League - Round 7
+623,cat623,1,,45,1,,1,,6,2,3,0,1,1,,1,1,,Chelsea,,3,05.10.2014 15:05,Premier League - Round 7,cat623,2,,55,4,,2,,3,7,9,0,0,0,,5,0,,Arsenal,,1,05.10.2014 15:05,Premier League - Round 7
+624,cat624,1,,49,1,,6,,4,5,7,2,1,3,,2,4,,Tottenham,,,05.10.2014 15:05,Premier League - Round 7,cat624,2,,51,2,,2,,4,7,4,3,0,1,,0,2,,Southampton,,,05.10.2014 15:05,Premier League - Round 7
+625,cat625,1,,41,1,,4,,11,6,2,1,0,3,,1,0,,Tottenham,,2,05.10.2014 15:05,Premier League - Round 7,cat625,2,,59,1,,3,,5,12,3,0,0,1,,1,1,,Southampton,,1,05.10.2014 15:05,Premier League - Round 7
+626,cat626,1,,52,2,,6,,9,6,10,1,1,0,,5,3,,Manchester Utd,,2,05.10.2014 13:00,Premier League - Round 7,cat626,2,,48,0,,2,,6,8,2,2,0,0,,1,1,,Everton,,2,05.10.2014 13:00,Premier League - Round 7
+627,cat627,1,,46,1,,5,,9,7,5,4,1,1,,3,1,,Manchester Utd,,2,05.10.2014 13:00,Premier League - Round 7,cat627,2,,54,2,,4,,5,10,8,0,1,3,,1,5,,Everton,,1,05.10.2014 13:00,Premier League - Round 7
+628,cat628,1,,31,1,,0,,3,5,2,0,0,0,,1,0,,Aston Villa,,0,04.10.2014 18:30,Premier League - Round 7,cat628,2,,69,10,,6,,4,3,13,0,0,1,,3,0,,Manchester City,,1,04.10.2014 18:30,Premier League - Round 7
+629,cat629,1,,33,0,,0,,1,4,4,5,0,1,,3,1,,Aston Villa,,,04.10.2014 18:30,Premier League - Round 7,cat629,2,,67,2,,1,,2,2,14,1,2,2,,5,7,,Manchester City,,,04.10.2014 18:30,Premier League - Round 7
+630,cat630,1,,62,3,,4,,3,5,8,0,0,0,,5,0,,Hull,,,04.10.2014 16:00,Premier League - Round 7,cat630,2,,38,1,,2,,5,3,3,0,0,0,,2,0,,Crystal Palace,,,04.10.2014 16:00,Premier League - Round 7
+631,cat631,1,,56,4,,2,,3,7,7,2,2,0,,1,2,,Hull,,,04.10.2014 16:00,Premier League - Round 7,cat631,2,,44,3,,5,,9,3,8,0,0,0,,3,2,,Crystal Palace,,,04.10.2014 16:00,Premier League - Round 7
+632,cat632,1,,48,4,,5,,5,7,11,1,2,0,,3,4,,Leicester,,0,04.10.2014 16:00,Premier League - Round 7,cat632,2,,52,1,,2,,7,5,4,2,1,0,,1,2,,Burnley,,1,04.10.2014 16:00,Premier League - Round 7
+633,cat633,1,,60,1,,4,,11,6,3,1,0,1,,0,2,,Leicester,,2,04.10.2014 16:00,Premier League - Round 7,cat633,2,,40,0,,1,,5,8,5,2,1,1,,3,2,,Burnley,,1,04.10.2014 16:00,Premier League - Round 7
+634,cat634,1,,56,3,,4,,7,5,7,2,1,1,,1,3,,Liverpool,,2,04.10.2014 16:00,Premier League - Round 7,cat634,2,,44,0,,4,,5,8,5,2,0,0,,3,2,,West Brom,,1,04.10.2014 16:00,Premier League - Round 7
+635,cat635,1,,54,4,,1,,5,12,12,1,1,2,,4,4,,Liverpool,,0,04.10.2014 16:00,Premier League - Round 7,cat635,2,,46,0,,1,,10,6,3,3,1,2,,1,2,,West Brom,,1,04.10.2014 16:00,Premier League - Round 7
+636,cat636,1,,38,2,,4,,2,6,4,3,2,2,,0,2,,Sunderland,,0,04.10.2014 16:00,Premier League - Round 7,cat636,2,,62,2,,1,,6,4,8,0,1,0,,2,4,,Stoke,,1,04.10.2014 16:00,Premier League - Round 7
+637,cat637,1,,40,3,,3,,8,13,4,1,1,1,,0,1,,Sunderland,,3,04.10.2014 16:00,Premier League - Round 7,cat637,2,,60,0,,3,,11,10,3,0,0,2,,2,1,,Stoke,,3,04.10.2014 16:00,Premier League - Round 7
+638,cat638,1,,58,1,,2,,5,7,6,0,1,3,,3,2,,Swansea,,,04.10.2014 16:00,Premier League - Round 7,cat638,2,,42,0,,1,,7,8,3,1,1,0,,2,1,,Newcastle,,,04.10.2014 16:00,Premier League - Round 7
+639,cat639,1,,70,0,,1,,6,10,5,2,1,0,,2,3,,Swansea,,1,04.10.2014 16:00,Premier League - Round 7,cat639,2,,30,1,,0,,8,6,6,2,1,3,,2,3,,Newcastle,,3,04.10.2014 16:00,Premier League - Round 7
+640,cat640,1,,43,1,,1,,10,4,4,1,1,2,,2,1,,Stoke,,0,29.09.2014 21:00,Premier League - Round 6,cat640,2,,57,5,,7,,4,12,11,0,0,0,,5,1,,Newcastle,,1,29.09.2014 21:00,Premier League - Round 6
+641,cat641,1,,45,4,,1,,10,11,8,0,0,2,,2,2,,Stoke,,1,29.09.2014 21:00,Premier League - Round 6,cat641,2,,55,3,,3,,11,11,5,2,0,0,,2,0,,Newcastle,,1,29.09.2014 21:00,Premier League - Round 6
+642,cat642,1,,66,4,,9,,3,4,11,0,2,0,,3,4,,West Brom,,,28.09.2014 17:00,Premier League - Round 6,cat642,2,,34,2,,1,,2,2,3,2,0,1,,1,0,,Burnley,,,28.09.2014 17:00,Premier League - Round 6
+643,cat643,1,,60,4,,1,,4,8,9,2,2,2,,3,2,,West Brom,,1,28.09.2014 17:00,Premier League - Round 6,cat643,2,,40,2,,1,,7,6,7,0,0,1,,3,2,,Burnley,,2,28.09.2014 17:00,Premier League - Round 6
+644,cat644,1,,63,3,,3,,4,8,6,2,0,0,,0,3,,Arsenal,,2,27.09.2014 18:30,Premier League - Round 6,cat644,2,,37,0,,4,,5,4,3,3,0,1,,1,2,,Tottenham,,1,27.09.2014 18:30,Premier League - Round 6
+645,cat645,1,,75,4,,12,,3,9,10,1,1,3,,3,3,,Arsenal,,1,27.09.2014 18:30,Premier League - Round 6,cat645,2,,25,0,,1,,11,6,3,2,1,1,,1,2,,Tottenham,,5,27.09.2014 18:30,Premier League - Round 6
+646,cat646,1,,62,1,,5,,5,3,9,0,1,1,,5,3,,Chelsea,,1,27.09.2014 16:00,Premier League - Round 6,cat646,2,,38,2,,1,,3,6,4,2,0,0,,2,0,,Aston Villa,,0,27.09.2014 16:00,Premier League - Round 6
+647,cat647,1,,64,2,,4,,6,6,8,1,2,4,,1,5,,Chelsea,,1,27.09.2014 16:00,Premier League - Round 6,cat647,2,,36,0,,1,,6,11,3,3,0,0,,2,1,,Aston Villa,,2,27.09.2014 16:00,Premier League - Round 6
+648,cat648,1,,37,3,,3,,7,4,8,1,0,1,,2,3,,Crystal Palace,,,27.09.2014 16:00,Premier League - Round 6,cat648,2,,63,1,,3,,4,8,4,3,0,0,,2,1,,Leicester,,,27.09.2014 16:00,Premier League - Round 6
+649,cat649,1,,43,1,,3,,7,5,8,0,2,0,,4,3,,Crystal Palace,,0,27.09.2014 16:00,Premier League - Round 6,cat649,2,,57,3,,3,,5,7,3,1,0,0,,0,0,,Leicester,,2,27.09.2014 16:00,Premier League - Round 6
+650,cat650,1,,41,0,,1,,7,3,2,1,2,0,,0,2,,Hull,,0,27.09.2014 16:00,Premier League - Round 6,cat650,2,,59,2,,3,,4,7,8,0,2,0,,3,3,,Manchester City,,1,27.09.2014 16:00,Premier League - Round 6
+651,cat651,1,,39,1,,2,,3,1,8,1,0,0,,4,3,,Hull,,0,27.09.2014 16:00,Premier League - Round 6,cat651,2,,61,3,,5,,2,4,12,3,2,0,,6,3,,Manchester City,,1,27.09.2014 16:00,Premier League - Round 6
+652,cat652,1,,63,2,,3,,3,7,7,1,2,1,,3,2,,Manchester Utd,,0,27.09.2014 16:00,Premier League - Round 6,cat652,2,,37,2,,3,,5,4,7,0,1,2,,3,2,,West Ham,,1,27.09.2014 16:00,Premier League - Round 6
+653,cat653,1,,51,0,,4,,7,9,1,2,0,1,1,0,1,,Manchester Utd,,1,27.09.2014 16:00,Premier League - Round 6,cat653,2,,49,2,,7,,7,8,6,1,0,2,0,2,2,,West Ham,,2,27.09.2014 16:00,Premier League - Round 6
+654,cat654,1,,56,1,,0,,7,6,6,0,0,3,,2,3,,Southampton,,2,27.09.2014 16:00,Premier League - Round 6,cat654,2,,44,0,,0,,6,8,3,3,0,1,,3,0,,QPR,,1,27.09.2014 16:00,Premier League - Round 6
+655,cat655,1,,54,3,,6,,5,6,13,1,2,1,,4,6,,Southampton,,,27.09.2014 16:00,Premier League - Round 6,cat655,2,,46,0,,3,,5,9,7,4,1,0,,5,2,,QPR,,,27.09.2014 16:00,Premier League - Round 6
+656,cat656,1,,35,3,,7,,5,8,8,0,0,2,,3,2,,Sunderland,,1,27.09.2014 16:00,Premier League - Round 6,cat656,2,,65,0,,1,,8,7,4,2,0,0,,4,0,,Swansea,,0,27.09.2014 16:00,Premier League - Round 6
+657,cat657,1,,63,3,,3,,8,9,7,1,0,0,0,3,1,,Sunderland,,1,27.09.2014 16:00,Premier League - Round 6,cat657,2,,37,0,,0,,7,8,3,1,0,2,1,2,1,,Swansea,,3,27.09.2014 16:00,Premier League - Round 6
+658,cat658,1,,50,6,,7,,4,5,16,2,0,2,,4,6,,Liverpool,,0,27.09.2014 13:45,Premier League - Round 6,cat658,2,,50,0,,0,,3,6,3,6,0,2,,1,2,,Everton,,1,27.09.2014 13:45,Premier League - Round 6
+659,cat659,1,,42,3,,1,,4,6,8,2,1,0,,3,2,,Liverpool,,2,27.09.2014 13:45,Premier League - Round 6,cat659,2,,58,1,,2,,6,4,8,1,1,0,,4,3,,Everton,,0,27.09.2014 13:45,Premier League - Round 6
+660,cat660,1,,76,3,,3,,3,5,8,0,1,0,,2,3,,Everton,,,21.09.2014 17:00,Premier League - Round 5,cat660,2,,24,4,,0,,5,2,5,2,1,0,,0,1,,Crystal Palace,,,21.09.2014 17:00,Premier League - Round 5
+661,cat661,1,,76,2,,5,,5,7,9,0,1,2,,4,3,,Everton,,2,21.09.2014 17:00,Premier League - Round 5,cat661,2,,24,1,,1,,8,7,5,2,2,1,,2,2,,Crystal Palace,,2,21.09.2014 17:00,Premier League - Round 5
+662,cat662,1,,60,2,,9,,9,8,7,0,0,0,,4,1,,Manchester City,,4,21.09.2014 17:00,Premier League - Round 5,cat662,2,,40,1,,2,,8,9,1,1,0,0,,0,0,,Chelsea,,2,21.09.2014 17:00,Premier League - Round 5
+663,cat663,1,,56,2,,5,,7,5,9,1,1,1,1,4,3,,Manchester City,,1,21.09.2014 17:00,Premier League - Round 5,cat663,2,,44,1,,0,,4,7,5,2,1,1,0,2,2,,Chelsea,,2,21.09.2014 17:00,Premier League - Round 5
+664,cat664,1,,43,0,,1,,8,7,3,2,1,3,,2,1,,Leicester,,1,21.09.2014 14:30,Premier League - Round 5,cat664,2,,57,1,,4,,4,11,8,0,2,2,,3,4,,Manchester Utd,,0,21.09.2014 14:30,Premier League - Round 5
+665,cat665,1,,41,4,,1,,3,5,12,0,4,1,0,4,4,,Leicester,,0,21.09.2014 14:30,Premier League - Round 5,cat665,2,,59,3,,0,,5,4,8,0,1,2,1,4,1,,Manchester Utd,,1,21.09.2014 14:30,Premier League - Round 5
+666,cat666,1,,64,1,,3,,6,4,3,1,0,0,,2,0,,Tottenham,,,21.09.2014 14:30,Premier League - Round 5,cat666,2,,36,2,,5,,2,6,5,0,0,2,,2,1,,West Brom,,,21.09.2014 14:30,Premier League - Round 5
+667,cat667,1,,62,1,,6,,6,6,4,2,0,0,,2,1,,Tottenham,,2,21.09.2014 14:30,Premier League - Round 5,cat667,2,,38,0,,2,,5,6,5,1,1,0,,2,3,,West Brom,,2,21.09.2014 14:30,Premier League - Round 5
+668,cat668,1,,44,2,,6,,8,6,10,0,2,0,,2,6,,West Ham,,3,20.09.2014 18:30,Premier League - Round 5,cat668,2,,56,2,,1,,6,7,3,4,1,0,,0,1,,Liverpool,,1,20.09.2014 18:30,Premier League - Round 5
+669,cat669,1,,30,1,,1,,8,5,3,4,1,1,,1,1,,West Ham,,1,20.09.2014 18:30,Premier League - Round 5,cat669,2,,70,1,,4,,5,9,8,0,0,0,,3,4,,Liverpool,,0,20.09.2014 18:30,Premier League - Round 5
+670,cat670,1,,35,1,,4,,5,6,5,0,0,1,,2,2,,Aston Villa,,0,20.09.2014 16:00,Premier League - Round 5,cat670,2,,65,2,,3,,5,6,9,2,3,1,,4,3,,Arsenal,,1,20.09.2014 16:00,Premier League - Round 5
+671,cat671,1,,21,1,,1,,6,6,1,1,0,0,,0,0,,Aston Villa,,1,20.09.2014 16:00,Premier League - Round 5,cat671,2,,79,0,,2,,4,6,1,0,0,1,,0,1,,Arsenal,,2,20.09.2014 16:00,Premier League - Round 5
+672,cat672,1,,40,1,,1,,7,8,6,3,0,1,,1,4,,Burnley,,,20.09.2014 16:00,Premier League - Round 5,cat672,2,,60,0,,0,,7,8,4,4,0,1,,1,3,,Sunderland,,,20.09.2014 16:00,Premier League - Round 5
+673,cat673,1,,48,2,,4,,7,7,11,3,0,1,,7,2,,Burnley,,1,20.09.2014 16:00,Premier League - Round 5,cat673,2,,52,2,,1,,7,8,10,2,0,0,,5,3,,Sunderland,,2,20.09.2014 16:00,Premier League - Round 5
+674,cat674,1,,64,4,,0,,5,10,12,1,0,0,,5,3,,Newcastle,,,20.09.2014 16:00,Premier League - Round 5,cat674,2,,36,0,,0,,5,5,4,3,0,5,,3,1,,Hull,,,20.09.2014 16:00,Premier League - Round 5
+675,cat675,1,,64,6,,4,,6,5,14,0,2,1,,4,4,,Newcastle,,4,20.09.2014 16:00,Premier League - Round 5,cat675,2,,36,2,,2,,6,7,6,2,2,0,,2,2,,Hull,,2,20.09.2014 16:00,Premier League - Round 5
+676,cat676,1,,63,1,,1,,8,7,4,1,0,0,1,2,1,,Swansea,,2,20.09.2014 16:00,Premier League - Round 5,cat676,2,,37,0,,1,,9,8,1,1,0,0,0,0,1,,Southampton,,2,20.09.2014 16:00,Premier League - Round 5
+677,cat677,1,,23,1,,1,,3,10,2,2,0,0,,0,1,,Swansea,,0,20.09.2014 16:00,Premier League - Round 5,cat677,2,,77,1,,3,,6,2,9,1,1,2,,5,3,,Southampton,,2,20.09.2014 16:00,Premier League - Round 5
+678,cat678,1,,58,2,,5,,2,10,8,1,1,0,,4,2,,QPR,,0,20.09.2014 13:45,Premier League - Round 5,cat678,2,,42,0,,1,,10,2,2,1,1,0,,0,2,,Stoke,,1,20.09.2014 13:45,Premier League - Round 5
+679,cat679,1,,48,4,,5,,4,6,13,1,1,0,,6,3,,QPR,,2,20.09.2014 13:45,Premier League - Round 5,cat679,2,,52,0,,0,,5,3,5,2,1,1,,3,2,,Stoke,,3,20.09.2014 13:45,Premier League - Round 5
+680,cat680,1,,43,0,,0,,4,5,4,0,1,1,,2,2,,Hull,,,15.09.2014 21:00,Premier League - Round 4,cat680,2,,57,5,,5,,4,5,8,1,0,0,,3,0,,West Ham,,,15.09.2014 21:00,Premier League - Round 4
+681,cat681,1,,39,1,,3,,8,4,7,2,1,0,,2,4,,Hull,,3,15.09.2014 21:00,Premier League - Round 4,cat681,2,,61,3,,5,,3,8,8,3,2,1,,1,4,,West Ham,,1,15.09.2014 21:00,Premier League - Round 4
+682,cat682,1,,67,2,,2,,7,4,7,1,3,0,,2,3,,Manchester Utd,,1,14.09.2014 17:00,Premier League - Round 4,cat682,2,,33,0,,0,,3,7,1,0,0,1,,0,1,,QPR,,0,14.09.2014 17:00,Premier League - Round 4
+683,cat683,1,,73,0,,1,,4,5,11,0,1,0,,5,6,,Manchester Utd,,,14.09.2014 17:00,Premier League - Round 4,cat683,2,,27,3,,1,,5,4,7,5,0,1,,4,0,,QPR,,,14.09.2014 17:00,Premier League - Round 4
+684,cat684,1,,72,2,,2,,5,4,5,0,0,1,,3,0,,Liverpool,,1,13.09.2014 18:30,Premier League - Round 4,cat684,2,,28,0,,6,,4,6,5,0,1,0,,4,1,,Aston Villa,,0,13.09.2014 18:30,Premier League - Round 4
+685,cat685,1,,78,5,,5,,4,7,13,0,0,2,,7,1,,Liverpool,45,1,13.09.2014 18:30,Premier League - Round 4,cat685,2,,22,0,,0,,6,6,0,1,0,1,,0,0,,Aston Villa,0,1,13.09.2014 18:30,Premier League - Round 4
+686,cat686,1,,49,0,,4,,4,7,8,-1,1,0,,5,3,,Chelsea,,0,13.09.2014 16:00,Premier League - Round 4,cat686,2,,51,3,,1,,9,4,7,2,1,0,,4,0,,Swansea,,2,13.09.2014 16:00,Premier League - Round 4
+687,cat687,1,,64,0,,3,,8,2,14,1,3,0,,7,7,,Chelsea,,0,13.09.2014 16:00,Premier League - Round 4,cat687,2,,36,3,,3,,2,7,8,4,1,0,,3,2,,Swansea,,1,13.09.2014 16:00,Premier League - Round 4
+688,cat688,1,,43,2,,3,,6,5,9,0,0,0,,4,3,,Crystal Palace,,0,13.09.2014 16:00,Premier League - Round 4,cat688,2,,57,2,,3,,2,5,3,3,0,1,,1,0,,Burnley,,1,13.09.2014 16:00,Premier League - Round 4
+689,cat689,1,,48,2,,2,,6,6,6,3,0,0,,4,0,,Crystal Palace,,2,13.09.2014 16:00,Premier League - Round 4,cat689,2,,52,1,,3,,8,5,7,0,0,0,,3,3,,Burnley,,2,13.09.2014 16:00,Premier League - Round 4
+690,cat690,1,,45,1,,3,,6,4,5,2,2,2,,1,3,,Southampton,,0,13.09.2014 16:00,Premier League - Round 4,cat690,2,,55,0,,2,,4,8,2,1,0,0,,0,2,,Newcastle,,1,13.09.2014 16:00,Premier League - Round 4
+691,cat691,1,,51,1,,2,,9,3,7,2,2,0,,2,4,,Southampton,,0,13.09.2014 16:00,Premier League - Round 4,cat691,2,,49,0,,3,,3,10,5,2,0,0,,3,2,,Newcastle,,1,13.09.2014 16:00,Premier League - Round 4
+692,cat692,1,,65,1,,5,,4,9,11,0,0,0,,8,2,,Stoke,,1,13.09.2014 16:00,Premier League - Round 4,cat692,2,,35,3,,0,,7,4,4,2,0,0,,1,0,,Leicester,,0,13.09.2014 16:00,Premier League - Round 4
+693,cat693,1,,53,0,,11,,4,5,6,0,0,0,,4,2,,Stoke,,2,13.09.2014 16:00,Premier League - Round 4,cat693,2,,47,3,,3,,8,4,8,2,1,0,,4,1,,Leicester,,0,13.09.2014 16:00,Premier League - Round 4
+694,cat694,1,,29,3,,1,,6,8,5,4,1,0,,1,1,,Sunderland,,,13.09.2014 16:00,Premier League - Round 4,cat694,2,,71,2,,4,,7,6,9,0,1,1,,2,5,,Tottenham,,,13.09.2014 16:00,Premier League - Round 4
+695,cat695,1,,46,3,,4,,4,6,4,1,1,0,,1,0,,Sunderland,,5,13.09.2014 16:00,Premier League - Round 4,cat695,2,,54,1,,1,,6,4,4,-1,1,0,,1,2,,Tottenham,,1,13.09.2014 16:00,Premier League - Round 4
+696,cat696,1,,46,0,,6,,6,5,2,0,0,1,,2,0,,West Brom,,1,13.09.2014 16:00,Premier League - Round 4,cat696,2,,54,5,,0,,5,5,8,0,1,2,,2,1,,Everton,,0,13.09.2014 16:00,Premier League - Round 4
+697,cat697,1,,46,1,,3,,6,3,3,2,0,0,,1,1,,West Brom,,1,13.09.2014 16:00,Premier League - Round 4,cat697,2,,54,2,,1,,3,6,8,1,1,1,,3,3,,Everton,,3,13.09.2014 16:00,Premier League - Round 4
+698,cat698,1,,48,1,,0,,4,10,9,2,0,0,,6,2,,Arsenal,,0,13.09.2014 13:45,Premier League - Round 4,cat698,2,,52,0,,1,,9,4,4,2,1,1,,1,3,,Manchester City,,2,13.09.2014 13:45,Premier League - Round 4
+699,cat699,1,,42,1,,0,,7,5,8,4,2,2,,3,4,,Arsenal,,3,13.09.2014 13:45,Premier League - Round 4,cat699,2,,58,0,,2,,6,9,9,2,1,1,,4,5,,Manchester City,,2,13.09.2014 13:45,Premier League - Round 4
+700,cat700,1,,32,0,,4,,6,4,3,3,1,1,,2,1,,Leicester,,,31.08.2014 17:00,Premier League - Round 3,cat700,2,,68,9,,5,,3,7,13,0,1,1,,0,4,,Arsenal,,,31.08.2014 17:00,Premier League - Round 3
+701,cat701,1,,30,2,,1,,8,4,6,2,0,2,,2,2,,Leicester,,3,31.08.2014 17:00,Premier League - Round 3,cat701,2,,70,4,,5,,3,9,11,2,0,1,,5,2,,Arsenal,,1,31.08.2014 17:00,Premier League - Round 3
+702,cat702,1,,56,1,,2,,6,4,7,0,2,0,,3,3,,Aston Villa,,0,31.08.2014 14:30,Premier League - Round 3,cat702,2,,44,2,,3,,4,6,2,1,0,0,,0,0,,Hull,,1,31.08.2014 14:30,Premier League - Round 3
+703,cat703,1,,33,0,,1,,3,8,4,2,0,1,,3,1,,Aston Villa,,1,31.08.2014 14:30,Premier League - Round 3,cat703,2,,67,1,,4,,6,4,7,1,1,2,,3,3,,Hull,,3,31.08.2014 14:30,Premier League - Round 3
+704,cat704,1,,52,0,,4,,7,5,4,2,0,2,,3,1,,Tottenham,,0,31.08.2014 14:30,Premier League - Round 3,cat704,2,,48,0,,1,,5,9,8,1,1,0,,5,3,,Liverpool,,2,31.08.2014 14:30,Premier League - Round 3
+705,cat705,1,,70,2,,3,,7,7,3,3,0,1,,1,0,,Tottenham,,0,31.08.2014 14:30,Premier League - Round 3,cat705,2,,30,1,,2,,6,7,9,0,2,1,,3,5,,Liverpool,,2,31.08.2014 14:30,Premier League - Round 3
+706,cat706,1,,59,2,,3,,5,5,7,0,1,6,,2,3,,Everton,,,30.08.2014 18:30,Premier League - Round 3,cat706,2,,41,3,,0,,5,12,5,2,2,1,,0,2,,Chelsea,,,30.08.2014 18:30,Premier League - Round 3
+707,cat707,1,,65,4,,5,,2,9,11,2,2,1,,2,5,,Everton,,1,30.08.2014 18:30,Premier League - Round 3,cat707,2,,35,0,,2,,11,2,7,3,4,0,,1,6,,Chelsea,,3,30.08.2014 18:30,Premier League - Round 3
+708,cat708,1,,74,1,,3,,6,5,4,1,0,1,,2,1,,Manchester City,,0,30.08.2014 16:00,Premier League - Round 3,cat708,2,,26,0,,1,,4,8,3,1,0,1,,2,1,,Stoke,,1,30.08.2014 16:00,Premier League - Round 3
+709,cat709,1,,70,8,,8,,8,1,12,0,0,0,,3,1,,Manchester City,,2,30.08.2014 16:00,Premier League - Round 3,cat709,2,,30,1,,3,,1,7,4,1,1,1,,2,1,,Stoke,,0,30.08.2014 16:00,Premier League - Round 3
+710,cat710,1,,67,3,,8,,5,,8,1,1,0,,4,1,,Newcastle,,0,30.08.2014 16:00,Premier League - Round 3,cat710,2,,33,0,,3,,14,,4,0,1,1,,2,2,,Crystal Palace,,2,30.08.2014 16:00,Premier League - Round 3
+711,cat711,1,,61,1,,3,,7,,10,3,2,0,,6,3,,Newcastle,,1,30.08.2014 16:00,Premier League - Round 3,cat711,2,,39,1,,1,,5,,8,1,2,1,,2,5,,Crystal Palace,,1,30.08.2014 16:00,Premier League - Round 3
+712,cat712,1,,48,5,,4,,5,2,11,1,1,0,,3,3,,QPR,,0,30.08.2014 16:00,Premier League - Round 3,cat712,2,,52,1,,2,,4,3,6,2,0,0,,4,1,,Sunderland,,1,30.08.2014 16:00,Premier League - Round 3
+713,cat713,1,,32,1,,0,,3,7,7,5,0,0,,4,2,,QPR,,1,30.08.2014 16:00,Premier League - Round 3,cat713,2,,68,4,,4,,5,5,10,2,0,0,,1,5,,Sunderland,,1,30.08.2014 16:00,Premier League - Round 3
+714,cat714,1,,65,0,,0,,4,5,8,1,2,2,,4,4,,Swansea,,0,30.08.2014 16:00,Premier League - Round 3,cat714,2,,35,1,,0,,4,6,4,2,0,1,,2,1,,West Brom,,1,30.08.2014 16:00,Premier League - Round 3
+715,cat715,1,,47,0,,0,,6,4,7,1,1,0,,3,4,,Swansea,0,1,30.08.2014 16:00,Premier League - Round 3,cat715,2,,53,6,,7,,4,5,12,3,0,0,,5,1,,West Brom,0,1,30.08.2014 16:00,Premier League - Round 3
+716,cat716,1,,37,1,,2,,4,6,3,1,1,1,,0,2,,West Ham,,,30.08.2014 16:00,Premier League - Round 3,cat716,2,,63,1,,4,,5,4,6,1,1,1,,3,2,,Southampton,,,30.08.2014 16:00,Premier League - Round 3
+717,cat717,1,,37,0,,0,,7,8,1,4,0,1,,1,0,,West Ham,,2,30.08.2014 16:00,Premier League - Round 3,cat717,2,,63,5,,5,,8,7,12,0,2,1,,1,6,,Southampton,,1,30.08.2014 16:00,Premier League - Round 3
+718,cat718,1,,42,2,,2,,5,10,6,1,0,1,,2,2,,Burnley,,0,30.08.2014 13:45,Premier League - Round 3,cat718,2,,58,0,,1,,10,5,1,2,0,1,,0,1,,Manchester Utd,,1,30.08.2014 13:45,Premier League - Round 3
+719,cat719,1,,30,0,,1,,5,3,3,1,0,1,,2,1,,Burnley,,2,30.08.2014 13:45,Premier League - Round 3,cat719,2,,70,2,,5,,4,7,6,1,0,0,,3,1,,Manchester Utd,,1,30.08.2014 13:45,Premier League - Round 3
+720,cat720,1,,53,0,,2,,9,5,4,1,1,0,,2,2,,Manchester City,,1,25.08.2014 21:00,Premier League - Round 2,cat720,2,,47,3,,4,,5,9,5,1,0,0,,1,1,,Liverpool,,0,25.08.2014 21:00,Premier League - Round 2
+721,cat721,1,,53,1,,4,,4,3,5,1,2,1,,2,2,,Manchester City,,0,25.08.2014 21:00,Premier League - Round 2,cat721,2,,47,1,,3,,2,5,6,0,1,1,,3,2,,Liverpool,,1,25.08.2014 21:00,Premier League - Round 2
+722,cat722,1,,46,1,,1,,6,8,6,0,1,1,,3,2,,Sunderland,,,24.08.2014 17:00,Premier League - Round 2,cat722,2,,54,0,,1,,8,7,3,1,1,0,,2,1,,Manchester Utd,,,24.08.2014 17:00,Premier League - Round 2
+723,cat723,1,,44,1,,3,,4,8,5,2,0,0,,3,1,,Sunderland,,0,24.08.2014 17:00,Premier League - Round 2,cat723,2,,56,3,,3,,7,4,7,1,0,1,,2,2,,Manchester Utd,,2,24.08.2014 17:00,Premier League - Round 2
+724,cat724,1,,44,3,,1,,4,10,6,0,1,0,1,1,2,,Hull,,0,24.08.2014 14:30,Premier League - Round 2,cat724,2,,56,3,,4,,9,4,7,1,0,1,0,4,0,,Stoke,,2,24.08.2014 14:30,Premier League - Round 2
+725,cat725,1,,42,1,,3,,6,2,3,2,0,0,,2,0,,Hull,,1,24.08.2014 14:30,Premier League - Round 2,cat725,2,,58,2,,1,,1,6,12,0,1,1,,7,3,,Stoke,,1,24.08.2014 14:30,Premier League - Round 2
+726,cat726,1,,71,4,,4,,5,4,11,0,3,0,,3,4,,Tottenham,,,24.08.2014 14:30,Premier League - Round 2,cat726,2,,29,0,,1,,2,6,2,1,0,2,,2,0,,QPR,,,24.08.2014 14:30,Premier League - Round 2
+727,cat727,1,,61,3,,3,,7,6,7,1,1,1,,3,1,,Tottenham,,0,24.08.2014 14:30,Premier League - Round 2,cat727,2,,39,1,,5,,4,8,7,0,0,2,,5,1,,QPR,,1,24.08.2014 14:30,Premier League - Round 2
+728,cat728,1,,53,1,,1,,3,8,6,0,2,0,,3,2,,Everton,,1,23.08.2014 18:30,Premier League - Round 2,cat728,2,,47,0,,0,,8,3,5,0,0,0,,5,0,,Arsenal,,1,23.08.2014 18:30,Premier League - Round 2
+729,cat729,1,,39,1,,2,,7,10,2,1,0,2,,1,0,,Everton,,0,23.08.2014 18:30,Premier League - Round 2,cat729,2,,61,1,,3,,10,9,8,0,2,0,,4,3,,Arsenal,,3,23.08.2014 18:30,Premier League - Round 2
+730,cat730,1,,55,4,,4,,6,8,9,1,0,1,,5,0,,Chelsea,,,23.08.2014 16:00,Premier League - Round 2,cat730,2,,45,2,,3,,7,7,3,0,0,1,,0,1,,Leicester,,,23.08.2014 16:00,Premier League - Round 2
+731,cat731,1,,73,4,,4,,5,6,18,3,2,1,,4,10,,Chelsea,,0,23.08.2014 16:00,Premier League - Round 2,cat731,2,,27,0,,4,,4,6,3,8,0,1,,0,3,,Leicester,,1,23.08.2014 16:00,Premier League - Round 2
+732,cat732,1,,42,1,,1,,9,8,4,4,0,0,,2,1,,Crystal Palace,,0,23.08.2014 16:00,Premier League - Round 2,cat732,2,,58,4,,5,,6,9,12,1,2,2,,2,6,,West Ham,,2,23.08.2014 16:00,Premier League - Round 2
+733,cat733,1,,50,1,,5,,5,6,5,1,1,1,,1,3,,Crystal Palace,,1,23.08.2014 16:00,Premier League - Round 2,cat733,2,,50,1,,4,,5,6,5,2,1,1,,2,2,,West Ham,,1,23.08.2014 16:00,Premier League - Round 2
+734,cat734,1,,62,1,,0,,6,9,3,0,0,1,,1,1,,Southampton,,0,23.08.2014 16:00,Premier League - Round 2,cat734,2,,38,1,,3,,8,7,2,1,0,1,,1,0,,West Brom,,1,23.08.2014 16:00,Premier League - Round 2
+735,cat735,1,,54,1,,1,,8,7,5,2,0,0,,3,1,,Southampton,,1,23.08.2014 16:00,Premier League - Round 2,cat735,2,,46,1,,2,,7,8,6,1,0,0,,3,2,,West Brom,,1,23.08.2014 16:00,Premier League - Round 2
+736,cat736,1,,64,1,,1,,2,5,6,0,1,1,,1,4,,Swansea,,,23.08.2014 16:00,Premier League - Round 2,cat736,2,,36,1,,1,,5,3,3,3,0,0,,2,0,,Burnley,,,23.08.2014 16:00,Premier League - Round 2
+737,cat737,1,,46,1,,1,,12,9,4,1,0,2,,2,1,,Swansea,,,23.08.2014 16:00,Premier League - Round 2,cat737,2,,54,4,,2,,8,14,9,1,0,1,,4,1,,Burnley,,,23.08.2014 16:00,Premier League - Round 2
+738,cat738,1,,45,3,,3,,6,2,7,2,0,0,,4,0,,Aston Villa,,,23.08.2014 13:45,Premier League - Round 2,cat738,2,,55,1,,2,,4,4,6,0,0,0,,3,2,,Newcastle,,,23.08.2014 13:45,Premier League - Round 2
+739,cat739,1,,35,1,,4,,5,6,2,2,0,4,0,1,0,,Aston Villa,,4,23.08.2014 13:45,Premier League - Round 2,cat739,2,,65,1,,5,,4,11,5,0,0,0,1,2,2,,Newcastle,,2,23.08.2014 13:45,Premier League - Round 2
+740,cat740,1,,37,1,,2,,3,4,5,0,1,2,,3,1,,Burnley,,0,18.08.2014 21:00,Premier League - Round 1,cat740,2,,63,3,,3,,4,5,8,0,3,0,,2,3,,Chelsea,,1,18.08.2014 21:00,Premier League - Round 1
+741,cat741,1,,39,0,,2,,3,4,4,0,0,1,,3,1,,Burnley,,1,18.08.2014 21:00,Premier League - Round 1,cat741,2,,61,1,,0,,3,4,3,1,0,1,,2,0,,Chelsea,,0,18.08.2014 21:00,Premier League - Round 1
+742,cat742,1,,42,0,,0,,5,4,4,2,0,0,,4,0,,Newcastle,,0,17.08.2014 17:00,Premier League - Round 1,cat742,2,,58,2,,2,,3,4,5,0,1,0,,0,3,,Manchester City,,1,17.08.2014 17:00,Premier League - Round 1
+743,cat743,1,,48,3,,3,,3,8,8,1,0,0,,5,0,,Newcastle,,1,17.08.2014 17:00,Premier League - Round 1,cat743,2,,52,1,,1,,8,3,8,0,1,0,,5,2,,Manchester City,,4,17.08.2014 17:00,Premier League - Round 1
+744,cat744,1,,59,1,,2,,5,8,8,2,1,1,,3,4,,Liverpool,,1,17.08.2014 14:30,Premier League - Round 1,cat744,2,,41,0,,4,,6,6,3,3,0,2,,1,2,,Southampton,,0,17.08.2014 14:30,Premier League - Round 1
+745,cat745,1,,53,1,,0,,3,5,4,3,1,1,,2,1,,Liverpool,,0,17.08.2014 14:30,Premier League - Round 1,cat745,2,,47,2,,2,,5,4,9,0,1,0,,3,4,,Southampton,,2,17.08.2014 14:30,Premier League - Round 1
+746,cat746,1,,73,3,,4,,7,8,9,0,1,0,,4,2,,Arsenal,,1,16.08.2014 18:30,Premier League - Round 1,cat746,2,,27,1,,1,,8,7,2,1,1,1,,0,1,,Crystal Palace,,0,16.08.2014 18:30,Premier League - Round 1
+747,cat747,1,,79,0,,5,,6,10,5,1,1,0,0,1,4,,Arsenal,,1,16.08.2014 18:30,Premier League - Round 1,cat747,2,,21,1,,2,,11,6,2,3,0,0,1,0,1,,Crystal Palace,,4,16.08.2014 18:30,Premier League - Round 1
+748,cat748,1,,38,0,,2,,8,5,4,1,1,0,,2,2,,Leicester,,,16.08.2014 16:00,Premier League - Round 1,cat748,2,,62,4,,4,,4,7,11,1,2,0,,4,3,,Everton,,,16.08.2014 16:00,Premier League - Round 1
+749,cat749,1,,34,3,,1,,8,6,7,0,1,0,,3,1,,Leicester,,1,16.08.2014 16:00,Premier League - Round 1,cat749,2,,66,1,,2,,6,9,2,0,0,0,,1,0,,Everton,,1,16.08.2014 16:00,Premier League - Round 1
+750,cat750,1,,48,3,,3,,4,5,9,0,0,0,,3,3,,QPR,,0,16.08.2014 16:00,Premier League - Round 1,cat750,2,,52,2,,4,,4,4,3,3,0,1,,1,0,,Hull,,1,16.08.2014 16:00,Premier League - Round 1
+751,cat751,1,,54,3,,5,,6,7,10,3,0,0,,4,3,,QPR,,1,16.08.2014 16:00,Premier League - Round 1,cat751,2,,46,2,,5,,6,6,8,3,1,1,,2,4,,Hull,,1,16.08.2014 16:00,Premier League - Round 1
+752,cat752,1,,59,0,,0,,8,5,4,1,0,1,,2,2,,Stoke,,0,16.08.2014 16:00,Premier League - Round 1,cat752,2,,41,1,,3,,4,10,4,2,0,1,,2,1,,Aston Villa,,1,16.08.2014 16:00,Premier League - Round 1
+753,cat753,1,,65,6,,2,,6,3,8,-1,0,0,,2,0,,Stoke,,0,16.08.2014 16:00,Premier League - Round 1,cat753,2,,35,1,,5,,5,5,3,0,1,0,,2,0,,Aston Villa,,2,16.08.2014 16:00,Premier League - Round 1
+754,cat754,1,,64,0,,4,,9,2,7,0,1,0,,4,3,,West Brom,,3,16.08.2014 16:00,Premier League - Round 1,cat754,2,,36,1,,0,,3,9,2,2,1,0,,0,1,,Sunderland,,1,16.08.2014 16:00,Premier League - Round 1
+755,cat755,1,,52,0,,2,,9,10,3,0,1,0,,1,2,,West Brom,,,16.08.2014 16:00,Premier League - Round 1,cat755,2,,48,2,,3,,6,8,5,1,1,3,,2,1,,Sunderland,,,16.08.2014 16:00,Premier League - Round 1
+756,cat756,1,,46,3,,5,,5,5,11,1,0,0,0,7,1,,West Ham,,,16.08.2014 16:00,Premier League - Round 1,cat756,2,,54,0,,1,,6,5,2,1,0,0,1,1,1,,Tottenham,,,16.08.2014 16:00,Premier League - Round 1
+757,cat757,1,,48,1,,3,,7,4,7,2,0,1,1,3,3,,West Ham,,3,16.08.2014 16:00,Premier League - Round 1,cat757,2,,52,4,,4,,4,9,8,3,1,0,0,1,3,,Tottenham,,0,16.08.2014 16:00,Premier League - Round 1
+758,cat758,1,,56,2,,2,,7,8,6,1,0,0,,1,3,,Manchester Utd,,0,16.08.2014 13:45,Premier League - Round 1,cat758,2,,44,0,,0,,8,7,2,3,1,0,,0,2,,Swansea,,1,16.08.2014 13:45,Premier League - Round 1
+759,cat759,1,,64,2,,2,,7,14,8,1,1,1,,4,2,,Manchester Utd,,2,16.08.2014 13:45,Premier League - Round 1,cat759,2,,36,1,,0,,12,8,3,1,1,1,,0,2,,Swansea,,3,16.08.2014 13:45,Premier League - Round 1

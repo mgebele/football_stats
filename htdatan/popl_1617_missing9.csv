@@ -1,0 +1,599 @@
+,H_cat,H_type,H_Attacks,H_Ball Possession,H_Blocked Shots,H_Completed Passes,H_Corner Kicks,H_Dangerous Attacks,H_Fouls,H_Free Kicks,H_Goal Attempts,H_Goalkeeper Saves,H_Goals,H_Offsides,H_Red Cards,H_Shots off Goal,H_Shots on Goal,H_Tackles,H_Teamnames,H_Total Passes,H_Yellow Cards,H_datetime,H_gameinfo,A_cat,A_type,A_Attacks,A_Ball Possession,A_Blocked Shots,A_Completed Passes,A_Corner Kicks,A_Dangerous Attacks,A_Fouls,A_Free Kicks,A_Goal Attempts,A_Goalkeeper Saves,A_Goals,A_Offsides,A_Red Cards,A_Shots off Goal,A_Shots on Goal,A_Tackles,A_Teamnames,A_Total Passes,A_Yellow Cards,A_datetime,A_gameinfo
+0,cat0,1,,53,,,2,,3,,8,2,0,0,1,5,3,,Rio Ave,,1,12.08.2016 21:30,Primeira Liga - Round 1,cat0,2,,47,,,2,,10,,6,3,2,0,1,2,4,,FC Porto,,1,12.08.2016 21:30,Primeira Liga - Round 1
+1,cat1,1,,47,,,3,,6,,5,3,1,0,,2,3,,Rio Ave,,1,12.08.2016 21:30,Primeira Liga - Round 1,cat1,2,,53,,,1,,7,,6,2,1,0,,2,4,,FC Porto,,2,12.08.2016 21:30,Primeira Liga - Round 1
+2,cat2,1,,58,,,3,,6,,7,1,1,2,,4,3,,Moreirense,,,13.08.2016 17:00,Primeira Liga - Round 1,cat2,2,,42,,,2,,11,,5,2,0,1,,4,1,,Ferreira,,,13.08.2016 17:00,Primeira Liga - Round 1
+3,cat3,1,,56,,,3,,11,,7,0,0,0,,5,2,,Moreirense,,,13.08.2016 17:00,Primeira Liga - Round 1,cat3,2,,44,,,1,,9,,4,2,1,0,,3,1,,Ferreira,,,13.08.2016 17:00,Primeira Liga - Round 1
+4,cat4,1,,59,,,4,,6,,10,0,1,1,,5,5,,Sporting,,1,13.08.2016 19:15,Primeira Liga - Round 1,cat4,2,,41,,,1,,10,,2,4,0,2,,2,0,,Maritimo,,1,13.08.2016 19:15,Primeira Liga - Round 1
+5,cat5,1,,61,,,5,,8,,7,3,1,0,,3,4,,Sporting,,0,13.08.2016 19:15,Primeira Liga - Round 1,cat5,2,,39,,,1,,8,,5,3,0,2,,2,3,,Maritimo,,1,13.08.2016 19:15,Primeira Liga - Round 1
+6,cat6,1,,46,,,1,,6,,6,2,0,2,,4,2,,Tondela,,0,13.08.2016 21:30,Primeira Liga - Round 1,cat6,2,,54,,,1,,4,,6,2,1,1,,3,3,,Benfica,,2,13.08.2016 21:30,Primeira Liga - Round 1
+7,cat7,1,,38,,,2,,8,,3,3,0,1,,2,1,,Tondela,,2,13.08.2016 21:30,Primeira Liga - Round 1,cat7,2,,62,,,3,,5,,6,1,1,3,,2,4,,Benfica,,0,13.08.2016 21:30,Primeira Liga - Round 1
+8,cat8,1,,41,,,4,,9,,5,3,0,3,,5,0,,Boavista,,1,14.08.2016 17:00,Primeira Liga - Round 1,cat8,2,,59,,,5,,4,,7,0,0,0,,4,3,,Arouca,,2,14.08.2016 17:00,Primeira Liga - Round 1
+9,cat9,1,,47,,,2,,12,,5,3,2,2,,3,2,,Boavista,,0,14.08.2016 17:00,Primeira Liga - Round 1,cat9,2,,53,,,1,,10,,4,0,0,0,,1,3,,Arouca,,2,14.08.2016 17:00,Primeira Liga - Round 1
+10,cat10,1,,59,,,5,,8,,6,1,1,1,0,3,3,,Vitoria Setubal,,1,14.08.2016 19:00,Primeira Liga - Round 1,cat10,2,,41,,,2,,10,,6,2,0,0,1,5,1,,Belenenses,,6,14.08.2016 19:00,Primeira Liga - Round 1
+11,cat11,1,,55,,,0,,5,,4,1,1,0,,3,1,,Vitoria Setubal,,1,14.08.2016 19:00,Primeira Liga - Round 1,cat11,2,,45,,,1,,7,,5,0,0,1,,4,1,,Belenenses,,1,14.08.2016 19:00,Primeira Liga - Round 1
+12,cat12,1,,56,,,3,,8,,6,0,0,4,,4,2,,Vitoria Guimaraes,,1,14.08.2016 21:15,Primeira Liga - Round 1,cat12,2,,44,,,2,,10,,2,2,0,1,,2,0,,Braga,,2,14.08.2016 21:15,Primeira Liga - Round 1
+13,cat13,1,,56,,,1,,12,,5,1,0,2,,2,3,,Vitoria Guimaraes,,1,14.08.2016 21:15,Primeira Liga - Round 1,cat13,2,,44,,,0,,11,,5,3,1,0,,3,2,,Braga,,2,14.08.2016 21:15,Primeira Liga - Round 1
+14,cat14,1,,64,,,4,,8,,6,0,0,1,,5,1,,Estoril,,1,15.08.2016 21:00,Primeira Liga - Round 1,cat14,2,,36,,,5,,13,,3,1,1,4,,2,1,,Feirense,,0,15.08.2016 21:00,Primeira Liga - Round 1
+15,cat15,1,,64,,,1,,4,,7,1,0,0,,6,1,,Estoril,,,15.08.2016 21:00,Primeira Liga - Round 1,cat15,2,,36,,,2,,11,,5,1,1,0,,3,2,,Feirense,,,15.08.2016 21:00,Primeira Liga - Round 1
+16,cat16,1,,48,,,1,,7,,7,1,0,3,,3,4,,Belenenses,,1,19.08.2016 21:30,Primeira Liga - Round 2,cat16,2,,52,,,2,,8,,4,4,0,0,,3,1,,Boavista,,1,19.08.2016 21:30,Primeira Liga - Round 2
+17,cat17,1,,54,,,2,,5,,8,1,0,0,,4,4,,Belenenses,,,19.08.2016 21:30,Primeira Liga - Round 2,cat17,2,,46,,,1,,3,,2,4,0,0,,1,1,,Boavista,,,19.08.2016 21:30,Primeira Liga - Round 2
+18,cat18,1,,58,,,4,,8,,5,4,0,1,,4,1,,Maritimo,,3,20.08.2016 12:45,Primeira Liga - Round 2,cat18,2,,42,,,6,,13,,5,1,0,0,,1,4,,Vitoria Guimaraes,,2,20.08.2016 12:45,Primeira Liga - Round 2
+19,cat19,1,,56,,,3,,4,,4,2,0,1,,2,2,,Maritimo,,1,20.08.2016 12:45,Primeira Liga - Round 2,cat19,2,,44,,,2,,10,,6,2,2,1,,2,4,,Vitoria Guimaraes,,1,20.08.2016 12:45,Primeira Liga - Round 2
+20,cat20,1,,50,,,2,,12,,2,1,0,0,,1,1,,Chaves,,2,20.08.2016 17:00,Primeira Liga - Round 2,cat20,2,,50,,,1,,7,,6,1,1,2,,4,2,,Tondela,,2,20.08.2016 17:00,Primeira Liga - Round 2
+21,cat21,1,,34,,,2,,8,,8,1,1,0,,6,2,,Chaves,,,20.08.2016 17:00,Primeira Liga - Round 2,cat21,2,,66,,,2,,8,,1,1,0,2,,0,1,,Tondela,,,20.08.2016 17:00,Primeira Liga - Round 2
+22,cat22,1,,51,,,1,,7,,4,1,0,3,,3,1,,Ferreira,,1,20.08.2016 19:15,Primeira Liga - Round 2,cat22,2,,49,,,3,,11,,4,1,0,3,,3,1,,Sporting,,1,20.08.2016 19:15,Primeira Liga - Round 2
+23,cat23,1,,41,,,1,,9,,2,3,0,1,,1,1,,Ferreira,,0,20.08.2016 19:15,Primeira Liga - Round 2,cat23,2,,59,,,5,,7,,10,1,1,1,,6,4,,Sporting,,1,20.08.2016 19:15,Primeira Liga - Round 2
+24,cat24,1,,64,,,8,,6,,12,1,1,1,,6,6,,FC Porto,,,20.08.2016 21:30,Primeira Liga - Round 2,cat24,2,,36,,,0,,2,,3,5,0,0,,2,1,,Estoril,,,20.08.2016 21:30,Primeira Liga - Round 2
+25,cat25,1,,67,,,9,,4,,13,2,0,0,,8,5,,FC Porto,,,20.08.2016 21:30,Primeira Liga - Round 2,cat25,2,,33,,,0,,1,,3,5,0,0,,1,2,,Estoril,,,20.08.2016 21:30,Primeira Liga - Round 2
+26,cat26,1,,55,,,5,,13,,6,1,0,1,,3,3,,Feirense,,3,21.08.2016 17:00,Primeira Liga - Round 2,cat26,2,,45,,,1,,8,,6,3,2,0,,3,3,,Moreirense,,2,21.08.2016 17:00,Primeira Liga - Round 2
+27,cat27,1,,47,,,3,,8,,4,2,0,3,,0,4,,Feirense,,,21.08.2016 17:00,Primeira Liga - Round 2,cat27,2,,53,,,0,,7,,7,4,1,1,,4,3,,Moreirense,,,21.08.2016 17:00,Primeira Liga - Round 2
+28,cat28,1,,42,,,0,,8,,2,2,0,2,,0,2,,Arouca,,,21.08.2016 19:00,Primeira Liga - Round 2,cat28,2,,58,,,8,,9,,9,2,0,0,,7,2,,Nacional,,,21.08.2016 19:00,Primeira Liga - Round 2
+29,cat29,1,,52,,,4,,6,,8,0,2,0,,4,4,,Arouca,,1,21.08.2016 19:00,Primeira Liga - Round 2,cat29,2,,48,,,3,,7,,4,2,0,0,,4,0,,Nacional,,0,21.08.2016 19:00,Primeira Liga - Round 2
+30,cat30,1,,66,,,5,,9,,13,1,1,1,,8,5,,Benfica,,2,21.08.2016 21:15,Primeira Liga - Round 2,cat30,2,,34,,,4,,10,,3,4,1,3,,1,2,,Vitoria Setubal,,2,21.08.2016 21:15,Primeira Liga - Round 2
+31,cat31,1,,64,,,3,,8,,9,0,0,0,,4,5,,Benfica,,0,21.08.2016 21:15,Primeira Liga - Round 2,cat31,2,,36,,,2,,4,,5,5,0,0,,5,0,,Vitoria Setubal,,1,21.08.2016 21:15,Primeira Liga - Round 2
+32,cat32,1,,63,,,7,,9,,7,3,1,1,,5,2,,Braga,,1,22.08.2016 21:00,Primeira Liga - Round 2,cat32,2,,37,,,3,,9,,7,1,0,0,,4,3,,Rio Ave,,4,22.08.2016 21:00,Primeira Liga - Round 2
+33,cat33,1,,67,,,3,,7,,12,0,0,0,,5,7,,Braga,,1,22.08.2016 21:00,Primeira Liga - Round 2,cat33,2,,33,,,0,,8,,1,7,1,0,,0,1,,Rio Ave,,1,22.08.2016 21:00,Primeira Liga - Round 2
+34,cat34,1,,42,,,1,,7,,6,0,3,2,,3,3,,Vitoria Guimaraes,,1,26.08.2016 21:30,Primeira Liga - Round 3,cat34,2,,58,,,2,,12,,9,0,2,1,,7,2,,Ferreira,,1,26.08.2016 21:30,Primeira Liga - Round 3
+35,cat35,1,,48,,,3,,4,,4,1,2,2,,2,2,,Vitoria Guimaraes,,0,26.08.2016 21:30,Primeira Liga - Round 3,cat35,2,,52,,,2,,8,,5,0,1,0,,3,2,,Ferreira,,1,26.08.2016 21:30,Primeira Liga - Round 3
+36,cat36,1,,54,,,2,,7,,10,1,0,1,0,5,5,,Tondela,,2,27.08.2016 17:00,Primeira Liga - Round 3,cat36,2,,46,,,2,,8,,8,5,1,3,1,6,2,,Belenenses,,2,27.08.2016 17:00,Primeira Liga - Round 3
+37,cat37,1,,54,,,1,,6,,5,2,0,1,,4,1,,Tondela,,3,27.08.2016 17:00,Primeira Liga - Round 3,cat37,2,,46,,,2,,10,,7,1,0,0,,5,2,,Belenenses,,2,27.08.2016 17:00,Primeira Liga - Round 3
+38,cat38,1,,38,,,2,,8,,6,3,1,2,1,3,3,,Estoril,,3,27.08.2016 19:15,Primeira Liga - Round 3,cat38,2,,62,,,3,,7,,7,2,1,0,0,3,4,,Braga,,1,27.08.2016 19:15,Primeira Liga - Round 3
+39,cat39,1,,52,,,1,,7,,2,0,0,0,,2,0,,Estoril,,,27.08.2016 19:15,Primeira Liga - Round 3,cat39,2,,48,,,2,,1,,6,0,2,0,,4,2,,Braga,,,27.08.2016 19:15,Primeira Liga - Round 3
+40,cat40,1,,52,,,3,,5,,8,3,1,2,,5,3,,Nacional,,1,27.08.2016 21:30,Primeira Liga - Round 3,cat40,2,,48,,,7,,6,,8,2,2,0,,3,5,,Benfica,,3,27.08.2016 21:30,Primeira Liga - Round 3
+41,cat41,1,,34,,,4,,6,,3,1,0,3,,2,1,,Nacional,,0,27.08.2016 21:30,Primeira Liga - Round 3,cat41,2,,66,,,6,,7,,10,1,1,0,,8,2,,Benfica,,1,27.08.2016 21:30,Primeira Liga - Round 3
+42,cat42,1,,63,,,10,,5,,11,1,0,0,,6,5,,Moreirense,,0,28.08.2016 17:00,Primeira Liga - Round 3,cat42,2,,37,,,1,,7,,4,5,0,0,,3,1,,Maritimo,,2,28.08.2016 17:00,Primeira Liga - Round 3
+43,cat43,1,,65,,,5,,8,,8,0,0,1,,6,2,,Moreirense,,,28.08.2016 17:00,Primeira Liga - Round 3,cat43,2,,35,,,3,,4,,6,2,1,0,,5,1,,Maritimo,,,28.08.2016 17:00,Primeira Liga - Round 3
+44,cat44,1,,49,,,1,,7,,3,2,1,0,,2,1,,Boavista,,2,28.08.2016 17:00,Primeira Liga - Round 3,cat44,2,,51,,,3,,13,,5,0,2,2,,1,4,,Chaves,,4,28.08.2016 17:00,Primeira Liga - Round 3
+45,cat45,1,,49,,,4,,7,,8,0,1,1,,3,5,,Boavista,,,28.08.2016 17:00,Primeira Liga - Round 3,cat45,2,,51,,,4,,6,,7,4,0,0,,7,0,,Chaves,,,28.08.2016 17:00,Primeira Liga - Round 3
+46,cat46,1,,55,,,4,,11,,6,0,0,0,,3,3,,Sporting,,4,28.08.2016 19:00,Primeira Liga - Round 3,cat46,2,,45,,,1,,10,,2,3,0,1,,2,0,,FC Porto,,0,28.08.2016 19:00,Primeira Liga - Round 3
+47,cat47,1,,57,,,3,,10,,7,2,2,0,,2,5,,Sporting,,2,28.08.2016 19:00,Primeira Liga - Round 3,cat47,2,,43,,,3,,10,,6,3,1,0,,3,3,,FC Porto,,3,28.08.2016 19:00,Primeira Liga - Round 3
+48,cat48,1,,63,,,6,,8,,8,1,1,0,,5,3,,Rio Ave,,0,28.08.2016 21:15,Primeira Liga - Round 3,cat48,2,,37,,,5,,9,,2,2,0,4,,1,1,,Feirense,,1,28.08.2016 21:15,Primeira Liga - Round 3
+49,cat49,1,,57,,,7,,8,,8,1,0,0,,6,2,,Rio Ave,,,28.08.2016 21:15,Primeira Liga - Round 3,cat49,2,,43,,,0,,13,,2,2,0,1,,1,1,,Feirense,,,28.08.2016 21:15,Primeira Liga - Round 3
+50,cat50,1,,47,,,5,,6,,8,1,1,1,,3,5,,Vitoria Setubal,,1,28.08.2016 22:00,Primeira Liga - Round 3,cat50,2,,53,,,0,,9,,3,4,0,1,,2,1,,Arouca,,3,28.08.2016 22:00,Primeira Liga - Round 3
+51,cat51,1,,49,,,3,,6,,4,2,1,0,,0,4,,Vitoria Setubal,,0,28.08.2016 22:00,Primeira Liga - Round 3,cat51,2,,51,,,0,,8,,2,3,0,1,,0,2,,Arouca,,1,28.08.2016 22:00,Primeira Liga - Round 3
+52,cat52,1,,53,,,5,,7,,7,1,0,2,1,5,2,,Nacional,,3,04.09.2016 17:00,Primeira Liga - Round 1,cat52,2,,47,,,1,,9,,7,2,0,0,0,6,1,,Chaves,,3,04.09.2016 17:00,Primeira Liga - Round 1
+53,cat53,1,,67,,,5,,5,,10,1,0,2,,6,4,,Nacional,,1,04.09.2016 17:00,Primeira Liga - Round 1,cat53,2,,33,,,0,,8,,5,4,1,0,,3,2,,Chaves,,0,04.09.2016 17:00,Primeira Liga - Round 1
+54,cat54,1,,49,,,0,,7,,3,4,1,1,1,2,1,,Arouca,,4,09.09.2016 21:30,Primeira Liga - Round 4,cat54,2,,51,,,4,,8,,9,0,1,2,0,4,5,,Benfica,,4,09.09.2016 21:30,Primeira Liga - Round 4
+55,cat55,1,,47,,,1,,8,,4,2,0,2,,4,0,,Arouca,,2,09.09.2016 21:30,Primeira Liga - Round 4,cat55,2,,53,,,2,,9,,14,0,1,2,,11,3,,Benfica,,0,09.09.2016 21:30,Primeira Liga - Round 4
+56,cat56,1,,63,,,5,,10,,9,1,2,0,0,5,4,,Belenenses,,0,10.09.2016 17:00,Primeira Liga - Round 4,cat56,2,,37,,,4,,11,,4,2,0,0,1,3,1,,Nacional,,3,10.09.2016 17:00,Primeira Liga - Round 4
+57,cat57,1,,57,,,6,,5,,7,1,0,1,,6,1,,Belenenses,,1,10.09.2016 17:00,Primeira Liga - Round 4,cat57,2,,43,,,2,,9,,5,1,1,2,,3,2,,Nacional,,1,10.09.2016 17:00,Primeira Liga - Round 4
+58,cat58,1,,68,,,1,,7,,8,3,2,1,,2,6,,Sporting,,2,10.09.2016 19:15,Primeira Liga - Round 4,cat58,2,,32,,,2,,7,,4,4,0,1,,1,3,,Moreirense,,1,10.09.2016 19:15,Primeira Liga - Round 4
+59,cat59,1,,56,,,3,,4,,3,0,1,1,0,1,2,,Sporting,,1,10.09.2016 19:15,Primeira Liga - Round 4,cat59,2,,44,,,1,,13,,3,1,0,0,1,3,0,,Moreirense,,3,10.09.2016 19:15,Primeira Liga - Round 4
+60,cat60,1,,48,,,4,,4,,7,0,2,1,,5,2,,FC Porto,,1,10.09.2016 21:30,Primeira Liga - Round 4,cat60,2,,52,,,7,,6,,3,0,0,0,,3,0,,Vitoria Guimaraes,,1,10.09.2016 21:30,Primeira Liga - Round 4
+61,cat61,1,,60,,,6,,8,,6,2,1,0,,2,4,,FC Porto,,0,10.09.2016 21:30,Primeira Liga - Round 4,cat61,2,,40,,,6,,11,,3,3,0,0,,1,2,,Vitoria Guimaraes,,2,10.09.2016 21:30,Primeira Liga - Round 4
+62,cat62,1,,56,,,2,,10,,9,2,0,0,,6,3,,Ferreira,,3,11.09.2016 12:45,Primeira Liga - Round 4,cat62,2,,44,,,2,,8,,4,3,0,1,,2,2,,Estoril,,2,11.09.2016 12:45,Primeira Liga - Round 4
+63,cat63,1,,48,,,3,,7,,4,3,0,0,,2,2,,Ferreira,,,11.09.2016 12:45,Primeira Liga - Round 4,cat63,2,,52,,,5,,9,,6,2,0,0,,3,3,,Estoril,,,11.09.2016 12:45,Primeira Liga - Round 4
+64,cat64,1,,61,,,4,,11,,9,1,0,2,,6,3,,Maritimo,,1,11.09.2016 17:00,Primeira Liga - Round 4,cat64,2,,39,,,3,,12,,3,3,0,0,,2,1,,Rio Ave,,2,11.09.2016 17:00,Primeira Liga - Round 4
+65,cat65,1,,41,,,0,,11,,5,3,0,0,,3,2,,Maritimo,,0,11.09.2016 17:00,Primeira Liga - Round 4,cat65,2,,59,,,3,,7,,9,2,1,2,,5,4,,Rio Ave,,2,11.09.2016 17:00,Primeira Liga - Round 4
+66,cat66,1,,58,,,0,,14,,4,1,2,1,,2,2,,Braga,,3,11.09.2016 19:00,Primeira Liga - Round 4,cat66,2,,42,,,3,,8,,6,0,0,0,,5,1,,Boavista,,2,11.09.2016 19:00,Primeira Liga - Round 4
+67,cat67,1,,56,,,4,,8,,5,2,1,2,,4,1,,Braga,,0,11.09.2016 19:00,Primeira Liga - Round 4,cat67,2,,44,,,2,,9,,4,0,0,2,,2,2,,Boavista,,1,11.09.2016 19:00,Primeira Liga - Round 4
+68,cat68,1,,59,,,3,,16,,4,0,0,1,,3,1,,Chaves,,2,11.09.2016 21:15,Primeira Liga - Round 4,cat68,2,,41,,,0,,7,,1,1,0,0,,1,0,,Vitoria Setubal,,0,11.09.2016 21:15,Primeira Liga - Round 4
+69,cat69,1,,49,,,4,,14,,4,0,0,0,,3,1,,Chaves,,1,11.09.2016 21:15,Primeira Liga - Round 4,cat69,2,,51,,,0,,9,,2,1,0,1,,2,0,,Vitoria Setubal,,0,11.09.2016 21:15,Primeira Liga - Round 4
+70,cat70,1,,37,,,3,,11,,4,2,1,3,,2,2,,Feirense,,4,12.09.2016 21:00,Primeira Liga - Round 4,cat70,2,,63,,,2,,11,,8,1,1,1,,5,3,,Tondela,,2,12.09.2016 21:00,Primeira Liga - Round 4
+71,cat71,1,,51,,,4,,10,,4,0,1,1,,2,2,,Feirense,,1,12.09.2016 21:00,Primeira Liga - Round 4,cat71,2,,49,,,3,,12,,0,1,0,1,,0,0,,Tondela,,3,12.09.2016 21:00,Primeira Liga - Round 4
+72,cat72,1,,46,,,1,,5,,4,3,1,1,,3,1,,Nacional,,1,16.09.2016 21:30,Primeira Liga - Round 5,cat72,2,,54,,,1,,5,,4,0,0,1,,1,3,,Maritimo,,0,16.09.2016 21:30,Primeira Liga - Round 5
+73,cat73,1,,46,,,5,,5,,12,2,1,2,,7,5,,Nacional,,0,16.09.2016 21:30,Primeira Liga - Round 5,cat73,2,,54,,,4,,8,,12,4,0,0,,10,2,,Maritimo,,1,16.09.2016 21:30,Primeira Liga - Round 5
+74,cat74,1,,37,,,4,,2,,10,2,0,1,,6,4,,Estoril,,,17.09.2016 17:00,Primeira Liga - Round 5,cat74,2,,63,,,5,,5,,10,3,0,0,,8,2,,Moreirense,,,17.09.2016 17:00,Primeira Liga - Round 5
+75,cat75,1,,51,,,5,,9,,2,0,1,1,,1,1,,Estoril,,1,17.09.2016 17:00,Primeira Liga - Round 5,cat75,2,,49,,,0,,10,,3,0,0,0,,3,0,,Moreirense,,1,17.09.2016 17:00,Primeira Liga - Round 5
+76,cat76,1,,60,,,4,,4,0,6,3,0,0,,5,1,,Vitoria Setubal,,0,17.09.2016 19:15,Primeira Liga - Round 5,cat76,2,,40,,,2,,5,3,7,1,0,0,,3,4,,Ferreira,,1,17.09.2016 19:15,Primeira Liga - Round 5
+77,cat77,1,,52,,,1,,5,0,6,0,1,0,,4,2,,Vitoria Setubal,,2,17.09.2016 19:15,Primeira Liga - Round 5,cat77,2,,48,,,1,,6,6,7,1,3,2,,4,3,,Ferreira,,0,17.09.2016 19:15,Primeira Liga - Round 5
+78,cat78,1,,60,,,1,,6,,7,4,0,0,,5,2,,Vitoria Guimaraes,,4,17.09.2016 21:30,Primeira Liga - Round 5,cat78,2,,40,,,2,,12,,7,2,1,0,,2,5,,Belenenses,,2,17.09.2016 21:30,Primeira Liga - Round 5
+79,cat79,1,,58,,,3,,5,,8,0,1,1,,5,3,,Vitoria Guimaraes,,0,17.09.2016 21:30,Primeira Liga - Round 5,cat79,2,,42,,,5,,10,,1,2,0,0,,1,0,,Belenenses,,1,17.09.2016 21:30,Primeira Liga - Round 5
+80,cat80,1,,59,,,6,,8,,12,1,1,1,1,9,3,,Boavista,,1,18.09.2016 17:00,Primeira Liga - Round 5,cat80,2,,41,,,2,,8,,4,2,1,1,0,2,2,,Feirense,,2,18.09.2016 17:00,Primeira Liga - Round 5
+81,cat81,1,,57,,,7,,8,,7,0,0,1,,5,2,,Boavista,,1,18.09.2016 17:00,Primeira Liga - Round 5,cat81,2,,43,,,1,,12,,2,2,1,0,,1,1,,Feirense,,2,18.09.2016 17:00,Primeira Liga - Round 5
+82,cat82,1,,56,,,3,,11,,6,3,0,0,,5,1,,Arouca,,0,18.09.2016 17:00,Primeira Liga - Round 5,cat82,2,,44,,,4,,9,,7,1,0,1,,4,3,,Chaves,,1,18.09.2016 17:00,Primeira Liga - Round 5
+83,cat83,1,,62,,,4,,5,,8,5,0,1,,5,3,,Arouca,,,18.09.2016 17:00,Primeira Liga - Round 5,cat83,2,,38,,,4,,9,,7,3,1,0,,1,6,,Chaves,,,18.09.2016 17:00,Primeira Liga - Round 5
+84,cat84,1,,53,,,0,,11,,6,2,0,0,,3,3,,Tondela,,3,18.09.2016 19:00,Primeira Liga - Round 5,cat84,2,,47,,,3,,7,,7,3,0,3,,5,2,,FC Porto,,1,18.09.2016 19:00,Primeira Liga - Round 5
+85,cat85,1,,13,,,1,,11,,2,0,0,1,,2,0,,Tondela,,,18.09.2016 19:00,Primeira Liga - Round 5,cat85,2,,87,,,1,,5,,6,0,0,2,,6,0,,FC Porto,,,18.09.2016 19:00,Primeira Liga - Round 5
+86,cat86,1,,35,,,0,,9,,0,1,0,0,,0,0,,Rio Ave,,1,18.09.2016 21:15,Primeira Liga - Round 5,cat86,2,,65,,,2,,4,,7,0,1,3,,5,2,,Sporting,,2,18.09.2016 21:15,Primeira Liga - Round 5
+87,cat87,1,,45,,,1,,8,,6,4,3,0,,1,5,,Rio Ave,,,18.09.2016 21:15,Primeira Liga - Round 5,cat87,2,,55,,,5,,7,,6,2,0,1,,2,4,,Sporting,,,18.09.2016 21:15,Primeira Liga - Round 5
+88,cat88,1,,55,,,3,,5,,7,1,2,3,,2,5,,Benfica,,0,19.09.2016 21:00,Primeira Liga - Round 5,cat88,2,,45,,,3,,6,,5,3,1,1,,3,2,,Braga,,3,19.09.2016 21:00,Primeira Liga - Round 5
+89,cat89,1,,53,,,2,,4,,10,3,1,0,,5,5,,Benfica,,0,19.09.2016 21:00,Primeira Liga - Round 5,cat89,2,,47,,,6,,6,,6,4,0,2,,3,3,,Braga,,1,19.09.2016 21:00,Primeira Liga - Round 5
+90,cat90,1,,52,,,1,,8,,5,1,1,1,,1,4,,FC Porto,,1,23.09.2016 20:00,Primeira Liga - Round 6,cat90,2,,48,,,0,,7,,3,3,0,0,,2,1,,Boavista,,1,23.09.2016 20:00,Primeira Liga - Round 6
+91,cat91,1,,76,,,6,,3,,6,0,2,0,,3,3,,FC Porto,,0,23.09.2016 20:00,Primeira Liga - Round 6,cat91,2,,24,,,1,,6,,2,1,1,0,,1,1,,Boavista,,1,23.09.2016 20:00,Primeira Liga - Round 6
+92,cat92,1,,61,,,6,,10,,8,0,3,1,,4,4,,Sporting,,,23.09.2016 22:00,Primeira Liga - Round 6,cat92,2,,39,,,2,,6,,4,1,2,2,,2,2,,Estoril,,,23.09.2016 22:00,Primeira Liga - Round 6
+93,cat93,1,,59,,,2,,6,,5,0,1,2,,2,3,,Sporting,,,23.09.2016 22:00,Primeira Liga - Round 6,cat93,2,,41,,,0,,8,,2,2,0,2,,2,0,,Estoril,,,23.09.2016 22:00,Primeira Liga - Round 6
+94,cat94,1,,51,,,6,,3,,6,0,0,1,0,5,1,,Feirense,,2,24.09.2016 17:00,Primeira Liga - Round 6,cat94,2,,49,,,2,,5,,4,1,2,2,1,2,2,,Nacional,,3,24.09.2016 17:00,Primeira Liga - Round 6
+95,cat95,1,,45,,,3,,5,,8,2,0,0,,4,4,,Feirense,,1,24.09.2016 17:00,Primeira Liga - Round 6,cat95,2,,55,,,3,,5,,10,4,1,2,,7,3,,Nacional,,3,24.09.2016 17:00,Primeira Liga - Round 6
+96,cat96,1,,42,,,0,,11,,3,2,0,0,,2,1,,Chaves,,3,24.09.2016 19:15,Primeira Liga - Round 6,cat96,2,,58,,,2,,8,,6,1,2,1,,2,4,,Benfica,,0,24.09.2016 19:15,Primeira Liga - Round 6
+97,cat97,1,,36,,,2,,12,,6,4,0,3,,4,2,,Chaves,,0,24.09.2016 19:15,Primeira Liga - Round 6,cat97,2,,64,,,2,,5,,8,2,0,1,,4,4,,Benfica,,1,24.09.2016 19:15,Primeira Liga - Round 6
+98,cat98,1,,52,,,5,,11,,12,1,2,0,,8,4,,Braga,,3,24.09.2016 21:30,Primeira Liga - Round 6,cat98,2,,48,,,2,,8,,4,2,0,3,,3,1,,Vitoria Setubal,,1,24.09.2016 21:30,Primeira Liga - Round 6
+99,cat99,1,,64,,,1,,3,,10,2,0,1,,9,1,,Braga,,0,24.09.2016 21:30,Primeira Liga - Round 6,cat99,2,,36,,,3,,6,,8,1,1,3,,5,3,,Vitoria Setubal,,1,24.09.2016 21:30,Primeira Liga - Round 6
+100,cat100,1,,62,,,2,,5,,5,1,0,0,,5,0,,Maritimo,,0,25.09.2016 17:00,Primeira Liga - Round 6,cat100,2,,38,,,0,,10,,3,0,0,2,,2,1,,Tondela,,2,25.09.2016 17:00,Primeira Liga - Round 6
+101,cat101,1,,52,,,2,,8,,6,0,2,1,0,0,6,,Maritimo,,0,25.09.2016 17:00,Primeira Liga - Round 6,cat101,2,,48,,,2,,11,,2,4,0,0,1,2,0,,Tondela,,4,25.09.2016 17:00,Primeira Liga - Round 6
+102,cat102,1,,42,,,5,,11,,5,1,0,2,,3,2,,Ferreira,,1,25.09.2016 19:00,Primeira Liga - Round 6,cat102,2,,58,,,7,,7,,10,2,1,0,,8,2,,Rio Ave,,1,25.09.2016 19:00,Primeira Liga - Round 6
+103,cat103,1,,37,,,2,,8,,2,1,2,0,,0,2,,Ferreira,,1,25.09.2016 19:00,Primeira Liga - Round 6,cat103,2,,63,,,3,,5,,4,0,0,1,,3,1,,Rio Ave,,0,25.09.2016 19:00,Primeira Liga - Round 6
+104,cat104,1,,50,,,4,,6,,8,3,0,1,,4,4,,Moreirense,,1,25.09.2016 21:15,Primeira Liga - Round 6,cat104,2,,50,,,0,,10,,6,4,1,2,,2,4,,Vitoria Guimaraes,,2,25.09.2016 21:15,Primeira Liga - Round 6
+105,cat105,1,,38,,,1,,7,,2,2,0,0,1,2,0,,Moreirense,,1,25.09.2016 21:15,Primeira Liga - Round 6,cat105,2,,62,,,3,,7,,6,0,0,2,0,4,2,,Vitoria Guimaraes,,2,25.09.2016 21:15,Primeira Liga - Round 6
+106,cat106,1,,46,,,3,,9,,6,0,0,0,,5,1,,Belenenses,,2,26.09.2016 21:00,Primeira Liga - Round 6,cat106,2,,54,,,3,,5,,5,1,1,1,,4,1,,Arouca,,0,26.09.2016 21:00,Primeira Liga - Round 6
+107,cat107,1,,56,,,4,,4,,5,0,1,1,,3,2,,Belenenses,,0,26.09.2016 21:00,Primeira Liga - Round 6,cat107,2,,44,,,4,,7,,2,1,0,0,,2,0,,Arouca,,2,26.09.2016 21:00,Primeira Liga - Round 6
+108,cat108,1,,41,,,3,,8,,2,2,1,1,,1,1,,Tondela,,3,30.09.2016 21:30,Primeira Liga - Round 7,cat108,2,,59,,,1,,7,,4,0,1,0,,1,3,,Ferreira,,1,30.09.2016 21:30,Primeira Liga - Round 7
+109,cat109,1,,51,,,2,,9,,6,1,1,0,1,5,1,,Tondela,,0,30.09.2016 21:30,Primeira Liga - Round 7,cat109,2,,49,,,2,,8,,3,0,0,2,1,2,1,,Ferreira,,3,30.09.2016 21:30,Primeira Liga - Round 7
+110,cat110,1,,60,,,8,,4,,7,2,0,0,,5,2,,Rio Ave,,3,01.10.2016 12:45,Primeira Liga - Round 7,cat110,2,,40,,,3,,8,,5,2,0,0,,3,2,,Estoril,,1,01.10.2016 12:45,Primeira Liga - Round 7
+111,cat111,1,,62,,,2,,3,,8,1,1,0,,6,2,,Rio Ave,,0,01.10.2016 12:45,Primeira Liga - Round 7,cat111,2,,38,,,2,,4,,3,1,2,1,,0,3,,Estoril,,1,01.10.2016 12:45,Primeira Liga - Round 7
+112,cat112,1,,66,,,12,,7,,10,0,3,3,,4,6,,Chaves,,1,01.10.2016 17:00,Primeira Liga - Round 7,cat112,2,,34,,,0,,7,,2,3,0,0,,2,0,,Belenenses,,2,01.10.2016 17:00,Primeira Liga - Round 7
+113,cat113,1,,56,,,1,,7,,7,0,0,1,,5,2,,Chaves,,0,01.10.2016 17:00,Primeira Liga - Round 7,cat113,2,,44,,,2,,8,,1,2,1,2,,0,1,,Belenenses,,1,01.10.2016 17:00,Primeira Liga - Round 7
+114,cat114,1,,43,,,3,,9,,4,2,3,1,,0,4,,Vitoria Guimaraes,,1,01.10.2016 19:15,Primeira Liga - Round 7,cat114,2,,57,,,2,,7,,10,1,1,3,,7,3,,Sporting,,2,01.10.2016 19:15,Primeira Liga - Round 7
+115,cat115,1,,33,,,0,,10,,2,2,0,2,,1,1,,Vitoria Guimaraes,,2,01.10.2016 19:15,Primeira Liga - Round 7,cat115,2,,67,,,5,,11,,8,1,2,1,,4,4,,Sporting,,1,01.10.2016 19:15,Primeira Liga - Round 7
+116,cat116,1,,47,,,0,,4,,4,2,0,1,1,4,0,,Nacional,,2,01.10.2016 21:30,Primeira Liga - Round 7,cat116,2,,53,,,3,,12,,8,0,1,3,0,5,3,,FC Porto,,2,01.10.2016 21:30,Primeira Liga - Round 7
+117,cat117,1,,40,,,7,,3,,3,4,0,0,,3,0,,Nacional,,1,01.10.2016 21:30,Primeira Liga - Round 7,cat117,2,,60,,,4,,4,,10,0,3,3,,3,7,,FC Porto,,0,01.10.2016 21:30,Primeira Liga - Round 7
+118,cat118,1,,58,,,0,,15,,5,2,0,0,,1,4,,Vitoria Setubal,,3,02.10.2016 17:00,Primeira Liga - Round 7,cat118,2,,42,,,1,,12,,8,4,1,3,,5,3,,Maritimo,,2,02.10.2016 17:00,Primeira Liga - Round 7
+119,cat119,1,,51,,,2,,8,,6,2,0,0,,5,1,,Vitoria Setubal,,,02.10.2016 17:00,Primeira Liga - Round 7,cat119,2,,49,,,3,,8,,12,1,0,2,,10,2,,Maritimo,,,02.10.2016 17:00,Primeira Liga - Round 7
+120,cat120,1,,69,,,2,,1,,10,1,3,0,,5,5,,Benfica,,0,02.10.2016 17:00,Primeira Liga - Round 7,cat120,2,,31,,,0,,11,,5,2,0,2,,4,1,,Feirense,,3,02.10.2016 17:00,Primeira Liga - Round 7
+121,cat121,1,,71,,,6,,3,,9,0,1,2,,8,1,,Benfica,,,02.10.2016 17:00,Primeira Liga - Round 7,cat121,2,,29,,,1,,5,,1,0,0,4,,1,0,,Feirense,,,02.10.2016 17:00,Primeira Liga - Round 7
+122,cat122,1,,47,,,3,,11,,5,2,0,0,,3,2,,Boavista,,2,02.10.2016 19:00,Primeira Liga - Round 7,cat122,2,,53,,,2,,10,,5,1,0,1,,3,2,,Moreirense,,2,02.10.2016 19:00,Primeira Liga - Round 7
+123,cat123,1,,53,,,2,,6,,7,3,1,1,,3,4,,Boavista,,1,02.10.2016 19:00,Primeira Liga - Round 7,cat123,2,,47,,,4,,9,,4,3,0,1,,1,3,,Moreirense,,1,02.10.2016 19:00,Primeira Liga - Round 7
+124,cat124,1,,60,,,3,,8,,8,0,1,2,,5,3,,Arouca,,1,02.10.2016 21:15,Primeira Liga - Round 7,cat124,2,,40,,,1,,13,,2,2,1,1,,1,1,,Braga,,1,02.10.2016 21:15,Primeira Liga - Round 7
+125,cat125,1,,42,,,2,,8,,3,0,0,1,,1,2,,Arouca,,2,02.10.2016 21:15,Primeira Liga - Round 7,cat125,2,,58,,,2,,7,,3,2,0,0,,3,0,,Braga,,2,02.10.2016 21:15,Primeira Liga - Round 7
+126,cat126,1,,56,,,8,,11,,12,1,1,1,,9,3,,Ferreira,,0,21.10.2016 20:00,Primeira Liga - Round 8,cat126,2,,44,,,0,,7,,4,2,0,0,,3,1,,Nacional,,2,21.10.2016 20:00,Primeira Liga - Round 8
+127,cat127,1,,64,,,7,,7,,5,3,0,1,,5,0,,Ferreira,,1,21.10.2016 20:00,Primeira Liga - Round 8,cat127,2,,36,,,3,,11,,7,0,1,0,,3,4,,Nacional,,1,21.10.2016 20:00,Primeira Liga - Round 8
+128,cat128,1,,58,,,4,,5,,8,1,0,1,,4,4,,Maritimo,,1,21.10.2016 22:00,Primeira Liga - Round 8,cat128,2,,42,,,2,,9,,4,4,1,0,,2,2,,Boavista,,3,21.10.2016 22:00,Primeira Liga - Round 8
+129,cat129,1,,48,,,4,,7,,7,1,1,1,,4,3,,Maritimo,,0,21.10.2016 22:00,Primeira Liga - Round 8,cat129,2,,52,,,2,,9,,5,2,0,1,,4,1,,Boavista,,2,21.10.2016 22:00,Primeira Liga - Round 8
+130,cat130,1,,52,,,3,,12,,7,4,1,0,,4,3,,Feirense,,1,22.10.2016 17:00,Primeira Liga - Round 8,cat130,2,,48,,,2,,10,,8,2,1,0,,3,5,,Vitoria Setubal,,0,22.10.2016 17:00,Primeira Liga - Round 8
+131,cat131,1,,41,,,2,,12,,3,2,0,2,,1,2,,Feirense,,1,22.10.2016 17:00,Primeira Liga - Round 8,cat131,2,,59,,,2,,9,,7,2,0,1,,5,2,,Vitoria Setubal,,2,22.10.2016 17:00,Primeira Liga - Round 8
+132,cat132,1,,66,,,3,,6,,5,1,1,2,,4,1,,Sporting,,3,22.10.2016 19:15,Primeira Liga - Round 8,cat132,2,,34,,,0,,12,,4,0,1,1,,2,2,,Tondela,,2,22.10.2016 19:15,Primeira Liga - Round 8
+133,cat133,1,,76,,,1,,10,,4,1,0,0,,2,2,,Sporting,,1,22.10.2016 19:15,Primeira Liga - Round 8,cat133,2,,24,,,2,,12,,3,2,0,2,,2,1,,Tondela,,0,22.10.2016 19:15,Primeira Liga - Round 8
+134,cat134,1,,55,,,5,,3,,7,1,2,0,,4,3,,FC Porto,,,22.10.2016 21:30,Primeira Liga - Round 8,cat134,2,,45,,,1,,8,,3,1,0,0,,2,1,,Arouca,,,22.10.2016 21:30,Primeira Liga - Round 8
+135,cat135,1,,73,,,4,,4,,10,0,1,1,,6,4,,FC Porto,,0,22.10.2016 21:30,Primeira Liga - Round 8,cat135,2,,27,,,0,,3,,0,3,0,1,,0,0,,Arouca,,1,22.10.2016 21:30,Primeira Liga - Round 8
+136,cat136,1,,47,,,1,,14,,5,0,0,3,0,3,2,,Moreirense,,5,23.10.2016 17:00,Primeira Liga - Round 8,cat136,2,,53,,,4,,9,,3,1,0,0,2,2,1,,Rio Ave,,3,23.10.2016 17:00,Primeira Liga - Round 8
+137,cat137,1,,45,,,4,,7,,5,2,0,0,,4,1,,Moreirense,,1,23.10.2016 17:00,Primeira Liga - Round 8,cat137,2,,55,,,4,,7,,4,1,0,1,,2,2,,Rio Ave,,1,23.10.2016 17:00,Primeira Liga - Round 8
+138,cat138,1,,52,,,3,,12,,4,2,0,1,,2,2,,Estoril,,3,23.10.2016 19:00,Primeira Liga - Round 8,cat138,2,,48,,,4,,8,,7,2,1,2,,4,3,,Vitoria Guimaraes,,0,23.10.2016 19:00,Primeira Liga - Round 8
+139,cat139,1,,56,,,1,,8,,6,2,0,1,,5,1,,Estoril,,0,23.10.2016 19:00,Primeira Liga - Round 8,cat139,2,,44,,,2,,11,,9,1,0,2,,6,3,,Vitoria Guimaraes,,1,23.10.2016 19:00,Primeira Liga - Round 8
+140,cat140,1,,46,,,3,,9,,5,3,0,0,,3,2,,Belenenses,,2,23.10.2016 21:15,Primeira Liga - Round 8,cat140,2,,54,,,2,,12,,8,2,0,0,,4,4,,Benfica,,1,23.10.2016 21:15,Primeira Liga - Round 8
+141,cat141,1,,42,,,2,,7,,3,5,0,2,,2,1,,Belenenses,,1,23.10.2016 21:15,Primeira Liga - Round 8,cat141,2,,58,,,6,,6,,9,1,1,3,,3,6,,Benfica,,1,23.10.2016 21:15,Primeira Liga - Round 8
+142,cat142,1,,47,,,1,,9,,7,4,1,1,,5,2,,Braga,,1,24.10.2016 21:00,Primeira Liga - Round 8,cat142,2,,53,,,1,,10,,10,1,0,1,,6,4,,Chaves,,3,24.10.2016 21:00,Primeira Liga - Round 8
+143,cat143,1,,67,,,0,,6,,3,0,0,1,,0,3,,Braga,,2,24.10.2016 21:00,Primeira Liga - Round 8,cat143,2,,33,,,1,,13,,2,3,0,0,,2,0,,Chaves,,0,24.10.2016 21:00,Primeira Liga - Round 8
+144,cat144,1,,53,,,2,,8,,6,0,2,1,,3,3,,Benfica,,,28.10.2016 20:00,Primeira Liga - Round 9,cat144,2,,47,,,4,,9,,3,1,0,2,,4,-1,,Ferreira,,,28.10.2016 20:00,Primeira Liga - Round 9
+145,cat145,1,,67,,,5,,2,,18,3,1,0,,14,4,,Benfica,,,28.10.2016 20:00,Primeira Liga - Round 9,cat145,2,,33,,,1,,10,,5,3,0,0,,2,3,,Ferreira,,,28.10.2016 20:00,Primeira Liga - Round 9
+146,cat146,1,,39,,,1,,5,,8,2,0,1,,7,1,,Nacional,,1,28.10.2016 22:00,Primeira Liga - Round 9,cat146,2,,61,,,6,,9,,8,1,0,0,,6,2,,Sporting,,0,28.10.2016 22:00,Primeira Liga - Round 9
+147,cat147,1,,37,,,3,,7,,1,2,0,0,,0,1,,Nacional,,1,28.10.2016 22:00,Primeira Liga - Round 9,cat147,2,,63,,,6,,7,,2,1,0,0,,0,2,,Sporting,,1,28.10.2016 22:00,Primeira Liga - Round 9
+148,cat148,1,,47,,,0,,11,,5,1,0,2,,5,0,,Tondela,,0,29.10.2016 17:00,Primeira Liga - Round 9,cat148,2,,53,,,3,,14,,5,0,1,0,,3,2,,Moreirense,,2,29.10.2016 17:00,Primeira Liga - Round 9
+149,cat149,1,,49,,,1,,12,,4,3,1,0,,2,2,,Tondela,,,29.10.2016 17:00,Primeira Liga - Round 9,cat149,2,,51,,,0,,5,,8,1,1,2,,4,4,,Moreirense,,,29.10.2016 17:00,Primeira Liga - Round 9
+150,cat150,1,,38,,,2,,7,,1,1,0,1,,1,0,,Vitoria Setubal,,2,29.10.2016 19:15,Primeira Liga - Round 9,cat150,2,,62,,,3,,11,,7,0,0,0,,6,1,,FC Porto,,3,29.10.2016 19:15,Primeira Liga - Round 9
+151,cat151,1,,44,,,2,,5,,1,2,0,0,,1,0,,Vitoria Setubal,,1,29.10.2016 19:15,Primeira Liga - Round 9,cat151,2,,56,,,5,,7,,12,0,0,0,,10,2,,FC Porto,,0,29.10.2016 19:15,Primeira Liga - Round 9
+152,cat152,1,,54,,,1,,5,,7,0,0,0,,6,1,,Boavista,,1,29.10.2016 21:30,Primeira Liga - Round 9,cat152,2,,46,,,1,,7,,0,1,0,3,,0,0,,Estoril,,0,29.10.2016 21:30,Primeira Liga - Round 9
+153,cat153,1,,50,,,1,,10,,2,0,0,0,,1,1,,Boavista,,,29.10.2016 21:30,Primeira Liga - Round 9,cat153,2,,50,,,2,,5,,3,1,0,1,,3,0,,Estoril,,,29.10.2016 21:30,Primeira Liga - Round 9
+154,cat154,1,,55,,,3,,5,,5,0,1,1,,4,1,,Arouca,,2,30.10.2016 17:00,Primeira Liga - Round 9,cat154,2,,45,,,1,,8,,3,0,0,0,,3,0,,Maritimo,,1,30.10.2016 17:00,Primeira Liga - Round 9
+155,cat155,1,,53,,,2,,9,,5,0,0,2,,5,0,,Arouca,,0,30.10.2016 17:00,Primeira Liga - Round 9,cat155,2,,47,,,1,,12,,2,0,0,0,,2,0,,Maritimo,,1,30.10.2016 17:00,Primeira Liga - Round 9
+156,cat156,1,,68,,,10,,4,,15,1,0,3,,12,3,,Rio Ave,,0,30.10.2016 19:00,Primeira Liga - Round 9,cat156,2,,32,,,1,,11,,4,3,2,0,,1,3,,Vitoria Guimaraes,,3,30.10.2016 19:00,Primeira Liga - Round 9
+157,cat157,1,,68,,,5,,4,,8,0,0,0,,7,1,,Rio Ave,,2,30.10.2016 19:00,Primeira Liga - Round 9,cat157,2,,32,,,1,,10,,4,1,1,2,,3,1,,Vitoria Guimaraes,,1,30.10.2016 19:00,Primeira Liga - Round 9
+158,cat158,1,,46,,,2,,15,,5,0,1,0,,1,4,,Braga,,1,30.10.2016 21:15,Primeira Liga - Round 9,cat158,2,,54,,,5,,13,,5,3,1,1,,4,1,,Belenenses,,0,30.10.2016 21:15,Primeira Liga - Round 9
+159,cat159,1,,56,,,1,,9,,6,1,1,2,,4,2,,Braga,,3,30.10.2016 21:15,Primeira Liga - Round 9,cat159,2,,44,,,3,,10,,4,1,0,1,,3,1,,Belenenses,,2,30.10.2016 21:15,Primeira Liga - Round 9
+160,cat160,1,,69,,,4,,7,,13,0,1,2,,7,6,,Chaves,,1,31.10.2016 21:00,Primeira Liga - Round 9,cat160,2,,31,,,0,,11,,1,5,0,2,,1,0,,Feirense,,4,31.10.2016 21:00,Primeira Liga - Round 9
+161,cat161,1,,53,,,1,,9,,7,0,0,1,,6,1,,Chaves,,2,31.10.2016 21:00,Primeira Liga - Round 9,cat161,2,,47,,,0,,10,,3,1,1,0,,2,1,,Feirense,,3,31.10.2016 21:00,Primeira Liga - Round 9
+162,cat162,1,,50,,,2,,5,,7,2,2,0,,3,4,,Vitoria Guimaraes,,3,04.11.2016 21:30,Primeira Liga - Round 10,cat162,2,,50,,,2,,14,,7,2,1,1,,4,3,,Nacional,,6,04.11.2016 21:30,Primeira Liga - Round 10
+163,cat163,1,,52,,,4,,8,,4,0,0,1,1,0,4,,Vitoria Guimaraes,,,04.11.2016 21:30,Primeira Liga - Round 10,cat163,2,,48,,,4,,7,,7,4,0,6,0,7,0,,Nacional,,,04.11.2016 21:30,Primeira Liga - Round 10
+164,cat164,1,,56,,,2,,10,,8,0,1,0,,4,4,,Ferreira,,1,05.11.2016 17:00,Primeira Liga - Round 10,cat164,2,,44,,,5,,20,,5,3,1,0,,4,1,,Chaves,,2,05.11.2016 17:00,Primeira Liga - Round 10
+165,cat165,1,,58,,,3,,11,,5,0,0,2,,3,2,,Ferreira,,1,05.11.2016 17:00,Primeira Liga - Round 10,cat165,2,,42,,,1,,10,,3,2,0,0,,3,0,,Chaves,,0,05.11.2016 17:00,Primeira Liga - Round 10
+166,cat166,1,,54,,,1,,9,,5,2,2,1,0,0,5,,Estoril,,1,05.11.2016 17:00,Primeira Liga - Round 10,cat166,2,,46,,,3,,9,,5,3,0,2,1,3,2,,Tondela,,1,05.11.2016 17:00,Primeira Liga - Round 10
+167,cat167,1,,50,,,1,,6,,3,1,0,0,,3,0,,Estoril,,1,05.11.2016 17:00,Primeira Liga - Round 10,cat167,2,,50,,,3,,8,,6,0,0,0,,5,1,,Tondela,,0,05.11.2016 17:00,Primeira Liga - Round 10
+168,cat168,1,,64,,,6,,10,,9,0,0,1,,4,5,,Feirense,,1,05.11.2016 19:15,Primeira Liga - Round 10,cat168,2,,36,,,0,,13,,2,5,0,0,,2,0,,Belenenses,,4,05.11.2016 19:15,Primeira Liga - Round 10
+169,cat169,1,,58,,,2,,12,,4,2,0,0,,2,2,,Feirense,,2,05.11.2016 19:15,Primeira Liga - Round 10,cat169,2,,42,,,1,,12,,3,2,1,0,,0,3,,Belenenses,,0,05.11.2016 19:15,Primeira Liga - Round 10
+170,cat170,1,,66,,,7,,4,,5,0,0,1,,4,1,,Rio Ave,,1,05.11.2016 21:30,Primeira Liga - Round 10,cat170,2,,34,,,1,,12,,1,1,1,1,,0,1,,Boavista,,3,05.11.2016 21:30,Primeira Liga - Round 10
+171,cat171,1,,56,,,3,,6,,6,1,1,3,,2,4,,Rio Ave,,1,05.11.2016 21:30,Primeira Liga - Round 10,cat171,2,,44,,,2,,8,,5,3,1,0,,3,2,,Boavista,,0,05.11.2016 21:30,Primeira Liga - Round 10
+172,cat172,1,,56,,,4,,9,,7,0,1,0,1,2,5,,Moreirense,,3,06.11.2016 17:00,Primeira Liga - Round 10,cat172,2,,44,,,1,,5,,6,4,2,0,0,4,2,,Vitoria Setubal,,1,06.11.2016 17:00,Primeira Liga - Round 10
+173,cat173,1,,44,,,1,,13,,7,1,0,0,,5,2,,Moreirense,,1,06.11.2016 17:00,Primeira Liga - Round 10,cat173,2,,56,,,3,,5,,5,2,0,0,,4,1,,Vitoria Setubal,,0,06.11.2016 17:00,Primeira Liga - Round 10
+174,cat174,1,,43,,,2,,8,,6,2,1,2,,3,3,,FC Porto,,0,06.11.2016 19:00,Primeira Liga - Round 10,cat174,2,,57,,,6,,10,,8,2,1,0,,5,3,,Benfica,,4,06.11.2016 19:00,Primeira Liga - Round 10
+175,cat175,1,,59,,,5,,5,,10,0,0,2,,5,5,,FC Porto,,1,06.11.2016 19:00,Primeira Liga - Round 10,cat175,2,,41,,,3,,5,,4,5,0,0,,4,0,,Benfica,,0,06.11.2016 19:00,Primeira Liga - Round 10
+176,cat176,1,,65,,,7,,3,,9,0,2,0,0,6,3,,Sporting,,1,06.11.2016 21:15,Primeira Liga - Round 10,cat176,2,,35,,,0,,4,,0,1,0,0,1,0,0,,Arouca,,1,06.11.2016 21:15,Primeira Liga - Round 10
+177,cat177,1,,55,,,4,,15,,3,0,1,3,,2,1,,Sporting,,2,06.11.2016 21:15,Primeira Liga - Round 10,cat177,2,,45,,,0,,8,,1,0,0,0,,1,0,,Arouca,,2,06.11.2016 21:15,Primeira Liga - Round 10
+178,cat178,1,,36,,,3,,7,,4,2,0,0,,4,0,,Maritimo,,2,06.11.2016 21:30,Primeira Liga - Round 10,cat178,2,,64,,,1,,8,,7,0,0,4,,5,2,,Braga,,0,06.11.2016 21:30,Primeira Liga - Round 10
+179,cat179,1,,40,,,2,,10,,9,0,1,1,,7,2,,Maritimo,,1,06.11.2016 21:30,Primeira Liga - Round 10,cat179,2,,60,,,0,,7,,0,1,0,1,,0,0,,Braga,,0,06.11.2016 21:30,Primeira Liga - Round 10
+180,cat180,1,,54,,,5,,11,,3,1,0,1,0,2,1,,Vitoria Setubal,,3,25.11.2016 21:30,Primeira Liga - Round 11,cat180,2,,46,,,4,,5,,4,1,0,0,1,3,1,,Rio Ave,,2,25.11.2016 21:30,Primeira Liga - Round 11
+181,cat181,1,,50,,,6,,7,,7,0,0,1,,6,1,,Vitoria Setubal,,3,25.11.2016 21:30,Primeira Liga - Round 11,cat181,2,,50,,,0,,8,,6,1,1,0,,5,1,,Rio Ave,,2,25.11.2016 21:30,Primeira Liga - Round 11
+182,cat182,1,,31,,,1,,7,,5,2,0,1,1,4,1,,Chaves,,3,26.11.2016 12:45,Primeira Liga - Round 11,cat182,2,,69,,,1,,10,,7,1,0,2,0,5,2,,Maritimo,,2,26.11.2016 12:45,Primeira Liga - Round 11
+183,cat183,1,,46,,,4,,14,,1,3,0,1,,1,0,,Chaves,,1,26.11.2016 12:45,Primeira Liga - Round 11,cat183,2,,54,,,1,,3,,8,0,0,1,,5,3,,Maritimo,,0,26.11.2016 12:45,Primeira Liga - Round 11
+184,cat184,1,,52,,,1,,8,,10,0,0,2,,8,2,,Nacional,,1,26.11.2016 17:00,Primeira Liga - Round 11,cat184,2,,48,,,1,,10,,0,2,0,0,,0,0,,Estoril,,3,26.11.2016 17:00,Primeira Liga - Round 11
+185,cat185,1,,63,,,5,,6,,7,0,0,0,,4,3,,Nacional,,0,26.11.2016 17:00,Primeira Liga - Round 11,cat185,2,,37,,,3,,6,,5,3,1,0,,4,1,,Estoril,,1,26.11.2016 17:00,Primeira Liga - Round 11
+186,cat186,1,,39,,,2,,10,,2,3,0,0,0,2,0,,Boavista,,1,26.11.2016 19:15,Primeira Liga - Round 11,cat186,2,,61,,,5,,11,,5,0,0,1,1,2,3,,Sporting,,4,26.11.2016 19:15,Primeira Liga - Round 11
+187,cat187,1,,41,,,4,,10,,1,2,0,1,,1,0,,Boavista,,2,26.11.2016 19:15,Primeira Liga - Round 11,cat187,2,,59,,,2,,9,,10,0,1,1,,7,3,,Sporting,,2,26.11.2016 19:15,Primeira Liga - Round 11
+188,cat188,1,,46,,,1,,6,,8,2,0,0,,4,4,,Belenenses,,1,26.11.2016 21:30,Primeira Liga - Round 11,cat188,2,,54,,,5,,7,,7,4,0,1,,5,2,,FC Porto,,1,26.11.2016 21:30,Primeira Liga - Round 11
+189,cat189,1,,50,,,1,,10,,6,0,0,2,,4,2,,Belenenses,,2,26.11.2016 21:30,Primeira Liga - Round 11,cat189,2,,50,,,1,,7,,6,2,0,3,,6,0,,FC Porto,,2,26.11.2016 21:30,Primeira Liga - Round 11
+190,cat190,1,,47,,,1,,14,,3,2,0,2,,2,1,,Arouca,,2,27.11.2016 17:00,Primeira Liga - Round 11,cat190,2,,53,,,3,,9,,7,1,0,1,,5,2,,Ferreira,,2,27.11.2016 17:00,Primeira Liga - Round 11
+191,cat191,1,,58,,,4,,9,,4,1,1,2,,3,1,,Arouca,,0,27.11.2016 17:00,Primeira Liga - Round 11,cat191,2,,42,,,1,,14,,2,0,0,1,,1,1,,Ferreira,,1,27.11.2016 17:00,Primeira Liga - Round 11
+192,cat192,1,,65,,,6,,8,,13,0,2,1,,8,5,,Benfica,,1,27.11.2016 19:00,Primeira Liga - Round 11,cat192,2,,35,,,0,,7,,1,3,0,0,,1,0,,Moreirense,,1,27.11.2016 19:00,Primeira Liga - Round 11
+193,cat193,1,,69,,,4,,7,,8,1,1,0,,5,3,,Benfica,,0,27.11.2016 19:00,Primeira Liga - Round 11,cat193,2,,31,,,2,,9,,1,2,0,1,,0,1,,Moreirense,,3,27.11.2016 19:00,Primeira Liga - Round 11
+194,cat194,1,,33,,,4,,10,,6,4,2,0,,4,2,,Tondela,,2,27.11.2016 21:15,Primeira Liga - Round 11,cat194,2,,67,,,4,,7,,13,0,1,0,,8,5,,Vitoria Guimaraes,,2,27.11.2016 21:15,Primeira Liga - Round 11
+195,cat195,1,,65,,,8,,9,,10,0,0,1,,8,2,,Tondela,,,27.11.2016 21:15,Primeira Liga - Round 11,cat195,2,,35,,,1,,5,,1,2,0,0,,1,0,,Vitoria Guimaraes,,,27.11.2016 21:15,Primeira Liga - Round 11
+196,cat196,1,,51,,,2,,6,,6,1,3,1,,3,3,,Braga,,1,28.11.2016 21:00,Primeira Liga - Round 11,cat196,2,,49,,,1,,3,,7,0,1,0,,5,2,,Feirense,,1,28.11.2016 21:00,Primeira Liga - Round 11
+197,cat197,1,,53,,,1,,11,,7,0,3,2,,2,5,,Braga,,1,28.11.2016 21:00,Primeira Liga - Round 11,cat197,2,,47,,,0,,8,,3,2,1,1,,2,1,,Feirense,,1,28.11.2016 21:00,Primeira Liga - Round 11
+198,cat198,1,,29,,,2,,5,,2,3,1,1,,1,1,,Maritimo,,5,02.12.2016 21:30,Primeira Liga - Round 12,cat198,2,,71,,,5,,5,,14,0,0,1,,11,3,,Benfica,,1,02.12.2016 21:30,Primeira Liga - Round 12
+199,cat199,1,,27,,,2,,15,,5,2,1,2,,1,4,,Maritimo,,1,02.12.2016 21:30,Primeira Liga - Round 12,cat199,2,,73,,,4,,6,,8,3,1,0,,5,3,,Benfica,,0,02.12.2016 21:30,Primeira Liga - Round 12
+200,cat200,1,,56,,,0,,11,,7,3,2,0,,4,3,,Rio Ave,,2,03.12.2016 17:00,Primeira Liga - Round 12,cat200,2,,44,,,2,,12,,8,1,1,2,,4,4,,Tondela,,2,03.12.2016 17:00,Primeira Liga - Round 12
+201,cat201,1,,58,,,0,,7,,5,0,1,0,,3,2,,Rio Ave,,1,03.12.2016 17:00,Primeira Liga - Round 12,cat201,2,,42,,,0,,6,,0,1,0,4,,0,0,,Tondela,,2,03.12.2016 17:00,Primeira Liga - Round 12
+202,cat202,1,,57,,,3,,11,,2,2,0,1,,1,1,,Sporting,,1,03.12.2016 19:15,Primeira Liga - Round 12,cat202,2,,43,,,2,,9,,4,1,0,2,,2,2,,Vitoria Setubal,,1,03.12.2016 19:15,Primeira Liga - Round 12
+203,cat203,1,,71,,,7,,9,,9,0,2,1,,3,6,,Sporting,,0,03.12.2016 19:15,Primeira Liga - Round 12,cat203,2,,29,,,0,,7,,1,4,0,1,,1,0,,Vitoria Setubal,,1,03.12.2016 19:15,Primeira Liga - Round 12
+204,cat204,1,,75,,,2,,7,,18,0,1,4,,12,6,,FC Porto,,1,03.12.2016 21:30,Primeira Liga - Round 12,cat204,2,,25,,,0,,5,,1,5,0,0,,1,0,,Braga,,1,03.12.2016 21:30,Primeira Liga - Round 12
+205,cat205,1,,58,,,5,,8,,12,0,0,1,0,5,7,,FC Porto,,1,03.12.2016 21:30,Primeira Liga - Round 12,cat205,2,,42,,,0,,9,,1,7,0,0,1,1,0,,Braga,,2,03.12.2016 21:30,Primeira Liga - Round 12
+206,cat206,1,,45,,,2,,7,,9,3,2,0,0,2,7,,Moreirense,,1,04.12.2016 17:00,Primeira Liga - Round 12,cat206,2,,55,,,4,,6,,6,5,1,0,1,2,4,,Nacional,,2,04.12.2016 17:00,Primeira Liga - Round 12
+207,cat207,1,,47,,,6,,6,,11,0,1,0,,6,5,,Moreirense,,1,04.12.2016 17:00,Primeira Liga - Round 12,cat207,2,,53,,,4,,5,,5,4,0,1,,5,0,,Nacional,,1,04.12.2016 17:00,Primeira Liga - Round 12
+208,cat208,1,,60,,,4,,9,,8,1,0,2,,6,2,,Feirense,,2,04.12.2016 17:00,Primeira Liga - Round 12,cat208,2,,40,,,2,,4,,7,2,2,4,,4,3,,Arouca,,2,04.12.2016 17:00,Primeira Liga - Round 12
+209,cat209,1,,46,,,1,,9,,7,0,0,1,,4,3,,Feirense,,2,04.12.2016 17:00,Primeira Liga - Round 12,cat209,2,,54,,,3,,13,,0,3,0,3,,0,0,,Arouca,,1,04.12.2016 17:00,Primeira Liga - Round 12
+210,cat210,1,,49,,,1,,8,,6,4,1,0,,5,1,,Estoril,,1,04.12.2016 19:00,Primeira Liga - Round 12,cat210,2,,51,,,2,,3,,12,0,1,0,,7,5,,Belenenses,,1,04.12.2016 19:00,Primeira Liga - Round 12
+211,cat211,1,,51,,,1,,16,,1,2,0,1,,0,1,,Estoril,,1,04.12.2016 19:00,Primeira Liga - Round 12,cat211,2,,49,,,1,,5,,4,1,0,1,,2,2,,Belenenses,,0,04.12.2016 19:00,Primeira Liga - Round 12
+212,cat212,1,,49,,,2,,11,,4,0,0,1,1,2,2,,Vitoria Guimaraes,,2,04.12.2016 21:15,Primeira Liga - Round 12,cat212,2,,51,,,1,,11,,3,2,1,2,1,2,1,,Chaves,,3,04.12.2016 21:15,Primeira Liga - Round 12
+213,cat213,1,,43,,,3,,12,,7,3,1,0,,5,2,,Vitoria Guimaraes,,1,04.12.2016 21:15,Primeira Liga - Round 12,cat213,2,,57,,,8,,6,,10,1,0,2,,7,3,,Chaves,,1,04.12.2016 21:15,Primeira Liga - Round 12
+214,cat214,1,,45,,,2,,7,,5,0,0,2,1,1,4,,Ferreira,,3,05.12.2016 21:00,Primeira Liga - Round 12,cat214,2,,55,,,1,,15,,6,4,1,0,0,5,1,,Boavista,,3,05.12.2016 21:00,Primeira Liga - Round 12
+215,cat215,1,,45,,,3,,13,,5,0,0,0,,2,3,,Ferreira,,1,05.12.2016 21:00,Primeira Liga - Round 12,cat215,2,,55,,,5,,6,,5,1,0,0,,5,0,,Boavista,,1,05.12.2016 21:00,Primeira Liga - Round 12
+216,cat216,1,,46,,,1,,12,,5,0,1,1,,3,2,,Vitoria Setubal,,2,09.12.2016 21:30,Primeira Liga - Round 13,cat216,2,,54,,,1,,8,,4,1,0,2,,4,0,,Estoril,,2,09.12.2016 21:30,Primeira Liga - Round 13
+217,cat217,1,,57,,,2,,7,,3,0,1,0,,1,2,,Vitoria Setubal,,0,09.12.2016 21:30,Primeira Liga - Round 13,cat217,2,,43,,,3,,7,,4,1,0,3,,4,0,,Estoril,,1,09.12.2016 21:30,Primeira Liga - Round 13
+218,cat218,1,,47,,,2,,12,,7,1,0,2,,7,0,,Belenenses,,2,10.12.2016 12:45,Primeira Liga - Round 13,cat218,2,,53,,,2,,9,,4,0,0,0,,3,1,,Maritimo,,3,10.12.2016 12:45,Primeira Liga - Round 13
+219,cat219,1,,56,,,2,,13,,9,1,1,0,,5,4,,Belenenses,,2,10.12.2016 12:45,Primeira Liga - Round 13,cat219,2,,44,,,0,,8,,4,3,0,3,,3,1,,Maritimo,,1,10.12.2016 12:45,Primeira Liga - Round 13
+220,cat220,1,,50,,,2,,12,,6,4,1,0,,4,2,,Chaves,,0,10.12.2016 19:15,Primeira Liga - Round 13,cat220,2,,50,,,2,,8,,7,1,0,0,,3,4,,Moreirense,,1,10.12.2016 19:15,Primeira Liga - Round 13
+221,cat221,1,,50,,,3,,6,,3,1,1,2,,2,1,,Chaves,,0,10.12.2016 19:15,Primeira Liga - Round 13,cat221,2,,50,,,3,,9,,5,0,1,0,,3,2,,Moreirense,,2,10.12.2016 19:15,Primeira Liga - Round 13
+222,cat222,1,,57,,,2,,9,,8,2,0,0,,7,1,,Boavista,,1,10.12.2016 21:30,Primeira Liga - Round 13,cat222,2,,43,,,4,,11,,5,1,1,1,,2,3,,Vitoria Guimaraes,,3,10.12.2016 21:30,Primeira Liga - Round 13
+223,cat223,1,,51,,,5,,9,,5,0,1,0,,2,3,,Boavista,,,10.12.2016 21:30,Primeira Liga - Round 13,cat223,2,,49,,,1,,11,,2,2,1,1,,1,1,,Vitoria Guimaraes,,,10.12.2016 21:30,Primeira Liga - Round 13
+224,cat224,1,,57,,,7,,6,,8,1,3,0,,5,3,,Nacional,,2,11.12.2016 17:00,Primeira Liga - Round 13,cat224,2,,43,,,2,,9,,5,0,0,1,,4,1,,Tondela,,3,11.12.2016 17:00,Primeira Liga - Round 13
+225,cat225,1,,51,,,2,,9,,6,2,0,1,,6,0,,Nacional,,,11.12.2016 17:00,Primeira Liga - Round 13,cat225,2,,49,,,4,,4,,7,0,2,2,,3,4,,Tondela,,,11.12.2016 17:00,Primeira Liga - Round 13
+226,cat226,1,,31,,,2,,7,,3,3,0,0,,2,1,,Feirense,,,11.12.2016 17:00,Primeira Liga - Round 13,cat226,2,,69,,,5,,6,,9,1,2,2,,4,5,,FC Porto,,,11.12.2016 17:00,Primeira Liga - Round 13
+227,cat227,1,,39,,,2,,10,,3,1,0,0,1,2,1,,Feirense,,2,11.12.2016 17:00,Primeira Liga - Round 13,cat227,2,,61,,,6,,7,,4,1,0,2,0,1,3,,FC Porto,,0,11.12.2016 17:00,Primeira Liga - Round 13
+228,cat228,1,,36,,,1,,8,,4,3,1,1,,3,1,,Benfica,,2,11.12.2016 19:00,Primeira Liga - Round 13,cat228,2,,64,,,4,,14,,10,0,1,1,,6,4,,Sporting,,2,11.12.2016 19:00,Primeira Liga - Round 13
+229,cat229,1,,48,,,2,,2,,3,3,1,1,,0,3,,Benfica,,1,11.12.2016 19:00,Primeira Liga - Round 13,cat229,2,,52,,,4,,12,,3,2,0,1,,0,3,,Sporting,,1,11.12.2016 19:00,Primeira Liga - Round 13
+230,cat230,1,,45,,,3,,10,,6,0,1,0,,5,1,,Braga,,4,11.12.2016 21:15,Primeira Liga - Round 13,cat230,2,,55,,,4,,9,,11,0,0,2,,11,0,,Ferreira,,2,11.12.2016 21:15,Primeira Liga - Round 13
+231,cat231,1,,51,,,0,,13,,2,1,2,2,,0,2,,Braga,,,11.12.2016 21:15,Primeira Liga - Round 13,cat231,2,,49,,,1,,8,,1,0,0,2,,0,1,,Ferreira,,,11.12.2016 21:15,Primeira Liga - Round 13
+232,cat232,1,,52,,,2,,8,,5,2,0,1,1,5,0,,Arouca,,1,12.12.2016 21:00,Primeira Liga - Round 13,cat232,2,,48,,,3,,8,,8,0,2,0,0,4,4,,Rio Ave,,0,12.12.2016 21:00,Primeira Liga - Round 13
+233,cat233,1,,48,,,7,,10,,5,0,0,1,,3,2,,Arouca,,,12.12.2016 21:00,Primeira Liga - Round 13,cat233,2,,52,,,4,,7,,2,2,0,0,,2,0,,Rio Ave,,,12.12.2016 21:00,Primeira Liga - Round 13
+234,cat234,1,,57,,,2,,9,,5,0,1,0,,3,2,,FC Porto,,1,15.12.2016 21:30,Primeira Liga - Round 15,cat234,2,,43,,,2,,13,,4,1,1,0,,3,1,,Maritimo,,3,15.12.2016 21:30,Primeira Liga - Round 15
+235,cat235,1,,71,,,3,,6,,10,0,1,2,,7,3,,FC Porto,,0,15.12.2016 21:30,Primeira Liga - Round 15,cat235,2,,29,,,0,,9,,1,2,0,1,,1,0,,Maritimo,,2,15.12.2016 21:30,Primeira Liga - Round 15
+236,cat236,1,,51,,,2,,10,,3,1,0,2,,1,2,,Ferreira,,3,16.12.2016 21:30,Primeira Liga - Round 14,cat236,2,,49,,,5,,10,,4,1,0,0,,3,1,,Belenenses,,2,16.12.2016 21:30,Primeira Liga - Round 14
+237,cat237,1,,51,,,5,,12,,2,2,0,0,,1,1,,Ferreira,,1,16.12.2016 21:30,Primeira Liga - Round 14,cat237,2,,49,,,5,,5,,7,1,0,1,,5,2,,Belenenses,,0,16.12.2016 21:30,Primeira Liga - Round 14
+238,cat238,1,,57,,,2,,9,,10,0,1,1,,8,2,,Moreirense,,1,17.12.2016 19:15,Primeira Liga - Round 14,cat238,2,,43,,,3,,10,,5,1,2,1,,3,2,,Arouca,,2,17.12.2016 19:15,Primeira Liga - Round 14
+239,cat239,1,,65,,,4,,5,,9,0,0,0,,7,2,,Moreirense,,1,17.12.2016 19:15,Primeira Liga - Round 14,cat239,2,,35,,,0,,6,,2,2,2,1,,0,2,,Arouca,,1,17.12.2016 19:15,Primeira Liga - Round 14
+240,cat240,1,,40,,,4,,7,,6,3,0,1,,4,2,,Estoril,,2,17.12.2016 21:30,Primeira Liga - Round 14,cat240,2,,60,,,6,,3,,6,2,1,0,,2,4,,Benfica,,0,17.12.2016 21:30,Primeira Liga - Round 14
+241,cat241,1,,40,,,0,,6,,1,1,0,5,,0,1,,Estoril,,1,17.12.2016 21:30,Primeira Liga - Round 14,cat241,2,,60,,,4,,6,,5,1,0,1,,4,1,,Benfica,,0,17.12.2016 21:30,Primeira Liga - Round 14
+242,cat242,1,,46,,,4,,9,,3,3,0,2,,2,1,,Tondela,,0,18.12.2016 17:00,Primeira Liga - Round 14,cat242,2,,54,,,5,,7,,5,1,1,2,,1,4,,Boavista,,4,18.12.2016 17:00,Primeira Liga - Round 14
+243,cat243,1,,46,,,4,,5,,12,0,1,1,,7,5,,Tondela,,2,18.12.2016 17:00,Primeira Liga - Round 14,cat243,2,,54,,,0,,12,,1,4,0,2,,1,0,,Boavista,,0,18.12.2016 17:00,Primeira Liga - Round 14
+244,cat244,1,,49,,,3,,11,,6,4,2,0,,3,3,,Rio Ave,,0,18.12.2016 17:00,Primeira Liga - Round 14,cat244,2,,51,,,5,,11,,6,1,1,4,,1,5,,Nacional,,3,18.12.2016 17:00,Primeira Liga - Round 14
+245,cat245,1,,65,,,3,,4,,0,3,0,2,,0,0,,Rio Ave,,1,18.12.2016 17:00,Primeira Liga - Round 14,cat245,2,,35,,,1,,6,,5,0,0,1,,2,3,,Nacional,,1,18.12.2016 17:00,Primeira Liga - Round 14
+246,cat246,1,,43,,,1,,13,,4,2,0,4,,1,3,,Vitoria Guimaraes,,2,18.12.2016 19:00,Primeira Liga - Round 14,cat246,2,,57,,,2,,9,,5,1,0,1,,2,3,,Vitoria Setubal,,2,18.12.2016 19:00,Primeira Liga - Round 14
+247,cat247,1,,43,,,0,,7,,4,1,1,3,,2,2,,Vitoria Guimaraes,,0,18.12.2016 19:00,Primeira Liga - Round 14,cat247,2,,57,,,2,,4,,2,1,0,2,,1,1,,Vitoria Setubal,,2,18.12.2016 19:00,Primeira Liga - Round 14
+248,cat248,1,,64,,,8,,10,,11,2,0,0,,5,6,,Sporting,,1,18.12.2016 21:15,Primeira Liga - Round 14,cat248,2,,36,,,3,,14,,5,6,1,0,,2,3,,Braga,,2,18.12.2016 21:15,Primeira Liga - Round 14
+249,cat249,1,,66,,,4,,7,,2,2,0,0,,1,1,,Sporting,,0,18.12.2016 21:15,Primeira Liga - Round 14,cat249,2,,34,,,0,,3,,3,1,0,1,,1,2,,Braga,,1,18.12.2016 21:15,Primeira Liga - Round 14
+250,cat250,1,,50,,,2,,8,,3,1,0,0,0,1,2,,Maritimo,,2,19.12.2016 18:30,Primeira Liga - Round 14,cat250,2,,50,,,5,,4,,3,2,0,1,1,2,1,,Feirense,,3,19.12.2016 18:30,Primeira Liga - Round 14
+251,cat251,1,,64,,,2,,3,,8,1,2,2,,5,3,,Maritimo,,1,19.12.2016 18:30,Primeira Liga - Round 14,cat251,2,,36,,,1,,11,,3,1,0,0,,2,1,,Feirense,,2,19.12.2016 18:30,Primeira Liga - Round 14
+252,cat252,1,,65,,,3,,5,,12,1,2,1,0,6,6,,FC Porto,,3,19.12.2016 21:00,Primeira Liga - Round 14,cat252,2,,35,,,0,,14,,4,4,0,0,1,3,1,,Chaves,,3,19.12.2016 21:00,Primeira Liga - Round 14
+253,cat253,1,,61,,,4,,8,,7,3,0,1,,5,2,,FC Porto,,1,19.12.2016 21:00,Primeira Liga - Round 14,cat253,2,,39,,,4,,11,,6,2,1,0,,2,4,,Chaves,,0,19.12.2016 21:00,Primeira Liga - Round 14
+254,cat254,1,,55,,,0,,13,,1,2,0,4,1,1,0,,Benfica,,2,21.12.2016 19:00,Primeira Liga - Round 15,cat254,2,,45,,,3,,10,,6,0,0,4,0,4,2,,Rio Ave,,0,21.12.2016 19:00,Primeira Liga - Round 15
+255,cat255,1,,57,,,2,,8,,7,0,2,1,,3,4,,Benfica,,,21.12.2016 19:00,Primeira Liga - Round 15,cat255,2,,43,,,1,,8,,0,2,0,1,,0,0,,Rio Ave,,,21.12.2016 19:00,Primeira Liga - Round 15
+256,cat256,1,,55,,,2,,10,,13,1,0,1,,10,3,,Nacional,,1,22.12.2016 18:00,Primeira Liga - Round 15,cat256,2,,45,,,2,,9,,7,3,0,2,,6,1,,Boavista,,1,22.12.2016 18:00,Primeira Liga - Round 15
+257,cat257,1,,63,,,2,,8,,1,2,0,0,,0,1,,Nacional,,0,22.12.2016 18:00,Primeira Liga - Round 15,cat257,2,,37,,,1,,10,,5,1,0,3,,1,4,,Boavista,,1,22.12.2016 18:00,Primeira Liga - Round 15
+258,cat258,1,,43,,,3,,13,,4,2,1,0,,2,2,,Feirense,,1,22.12.2016 20:00,Primeira Liga - Round 15,cat258,2,,57,,,3,,7,,5,1,0,1,,3,2,,Ferreira,,2,22.12.2016 20:00,Primeira Liga - Round 15
+259,cat259,1,,45,,,3,,13,,3,4,1,0,,2,1,,Feirense,,1,22.12.2016 20:00,Primeira Liga - Round 15,cat259,2,,55,,,2,,7,,9,0,0,0,,5,4,,Ferreira,,1,22.12.2016 20:00,Primeira Liga - Round 15
+260,cat260,1,,58,,,4,,6,,4,1,1,0,0,3,1,,Braga,,1,22.12.2016 20:00,Primeira Liga - Round 15,cat260,2,,42,,,2,,9,,5,0,0,0,1,4,1,,Moreirense,,2,22.12.2016 20:00,Primeira Liga - Round 15
+261,cat261,1,,60,,,2,,9,,1,1,1,0,,0,1,,Braga,,1,22.12.2016 20:00,Primeira Liga - Round 15,cat261,2,,40,,,2,,6,,3,0,1,0,,1,2,,Moreirense,,0,22.12.2016 20:00,Primeira Liga - Round 15
+262,cat262,1,,53,,,6,,5,,10,1,1,1,,6,4,,Chaves,,0,22.12.2016 22:00,Primeira Liga - Round 15,cat262,2,,47,,,2,,5,,3,3,0,1,,2,1,,Estoril,,1,22.12.2016 22:00,Primeira Liga - Round 15
+263,cat263,1,,51,,,4,,9,,6,2,0,1,,5,1,,Chaves,,2,22.12.2016 22:00,Primeira Liga - Round 15,cat263,2,,49,,,3,,8,,2,1,0,1,,0,2,,Estoril,,1,22.12.2016 22:00,Primeira Liga - Round 15
+264,cat264,1,,45,,,1,,9,,7,2,0,3,,4,3,,Belenenses,,4,22.12.2016 22:00,Primeira Liga - Round 15,cat264,2,,55,,,4,,8,,4,3,1,0,,1,3,,Sporting,,2,22.12.2016 22:00,Primeira Liga - Round 15
+265,cat265,1,,39,,,4,,7,,2,2,0,3,,1,1,,Belenenses,,1,22.12.2016 22:00,Primeira Liga - Round 15,cat265,2,,61,,,9,,10,,8,1,0,0,,6,2,,Sporting,,1,22.12.2016 22:00,Primeira Liga - Round 15
+266,cat266,1,,46,,,4,,9,,9,1,1,0,,6,3,,Vitoria Setubal,,,23.12.2016 20:00,Primeira Liga - Round 15,cat266,2,,54,,,2,,9,,5,2,0,2,,4,1,,Tondela,,,23.12.2016 20:00,Primeira Liga - Round 15
+267,cat267,1,,61,,,1,,7,,5,2,2,1,,3,2,,Vitoria Setubal,,1,23.12.2016 20:00,Primeira Liga - Round 15,cat267,2,,39,,,2,,9,,6,0,0,3,,4,2,,Tondela,,1,23.12.2016 20:00,Primeira Liga - Round 15
+268,cat268,1,,49,,,1,,10,,6,2,0,1,,3,3,,Arouca,,1,23.12.2016 22:00,Primeira Liga - Round 15,cat268,2,,51,,,3,,5,,8,3,1,2,,5,3,,Vitoria Guimaraes,,1,23.12.2016 22:00,Primeira Liga - Round 15
+269,cat269,1,,45,,,4,,9,,2,1,0,1,,1,1,,Arouca,,1,23.12.2016 22:00,Primeira Liga - Round 15,cat269,2,,55,,,3,,6,,4,1,0,1,,3,1,,Vitoria Guimaraes,,1,23.12.2016 22:00,Primeira Liga - Round 15
+270,cat270,1,,43,,,3,,9,,7,0,0,0,,5,2,,Nacional,,3,07.01.2017 12:45,Primeira Liga - Round 16,cat270,2,,57,,,2,,9,,5,2,0,1,,5,0,,Braga,,3,07.01.2017 12:45,Primeira Liga - Round 16
+271,cat271,1,,47,,,1,,4,,4,1,0,1,,3,1,,Nacional,,0,07.01.2017 12:45,Primeira Liga - Round 16,cat271,2,,53,,,2,,10,,2,1,0,0,,1,1,,Braga,,3,07.01.2017 12:45,Primeira Liga - Round 16
+272,cat272,1,,63,,,0,,11,,7,1,0,2,,6,1,,Estoril,,1,07.01.2017 17:00,Primeira Liga - Round 16,cat272,2,,37,,,3,,10,,4,1,0,0,,3,1,,Maritimo,,2,07.01.2017 17:00,Primeira Liga - Round 16
+273,cat273,1,,55,,,2,,8,,5,0,0,0,,2,3,,Estoril,,0,07.01.2017 17:00,Primeira Liga - Round 16,cat273,2,,45,,,2,,9,,4,3,1,0,,3,1,,Maritimo,,1,07.01.2017 17:00,Primeira Liga - Round 16
+274,cat274,1,,55,,,6,,10,,11,3,0,2,,9,2,,Vitoria Guimaraes,,1,07.01.2017 19:15,Primeira Liga - Round 16,cat274,2,,45,,,1,,11,,5,2,0,0,,2,3,,Benfica,,0,07.01.2017 19:15,Primeira Liga - Round 16
+275,cat275,1,,43,,,7,,7,,6,1,0,2,,4,2,,Vitoria Guimaraes,,0,07.01.2017 19:15,Primeira Liga - Round 16,cat275,2,,57,,,2,,10,,3,2,2,0,,0,3,,Benfica,,2,07.01.2017 19:15,Primeira Liga - Round 16
+276,cat276,1,,40,,,0,,9,,2,4,0,0,,2,0,,Ferreira,,4,07.01.2017 21:30,Primeira Liga - Round 16,cat276,2,,60,,,4,,9,,10,0,0,1,,6,4,,FC Porto,,2,07.01.2017 21:30,Primeira Liga - Round 16
+277,cat277,1,,40,,,3,,7,,4,3,0,0,,3,1,,Ferreira,,1,07.01.2017 21:30,Primeira Liga - Round 16,cat277,2,,60,,,10,,8,,12,1,0,2,,9,3,,FC Porto,,1,07.01.2017 21:30,Primeira Liga - Round 16
+278,cat278,1,,56,,,5,,12,,7,1,1,3,,3,4,,Tondela,,4,08.01.2017 17:00,Primeira Liga - Round 16,cat278,2,,44,,,2,,6,,2,3,1,0,,0,2,,Arouca,,2,08.01.2017 17:00,Primeira Liga - Round 16
+279,cat279,1,,48,,,2,,4,,5,4,0,0,,3,2,,Tondela,,,08.01.2017 17:00,Primeira Liga - Round 16,cat279,2,,52,,,5,,7,,10,2,0,0,,5,5,,Arouca,,,08.01.2017 17:00,Primeira Liga - Round 16
+280,cat280,1,,59,,,7,,9,,7,2,0,1,,5,2,,Rio Ave,,3,08.01.2017 17:00,Primeira Liga - Round 16,cat280,2,,41,,,2,,12,,7,1,0,0,,3,4,,Chaves,,1,08.01.2017 17:00,Primeira Liga - Round 16
+281,cat281,1,,57,,,3,,10,,7,1,1,0,,6,1,,Rio Ave,,,08.01.2017 17:00,Primeira Liga - Round 16,cat281,2,,43,,,3,,7,,3,0,0,3,,2,1,,Chaves,,,08.01.2017 17:00,Primeira Liga - Round 16
+282,cat282,1,,52,,,4,,14,,4,3,0,0,,3,1,,Boavista,,2,08.01.2017 19:00,Primeira Liga - Round 16,cat282,2,,48,,,3,,7,,7,1,0,1,,4,3,,Vitoria Setubal,,3,08.01.2017 19:00,Primeira Liga - Round 16
+283,cat283,1,,50,,,2,,10,,8,1,0,0,,5,3,,Boavista,,1,08.01.2017 19:00,Primeira Liga - Round 16,cat283,2,,50,,,2,,5,,2,2,0,1,,1,1,,Vitoria Setubal,,1,08.01.2017 19:00,Primeira Liga - Round 16
+284,cat284,1,,49,,,2,,6,,6,0,0,3,1,3,3,,Sporting,,3,08.01.2017 21:15,Primeira Liga - Round 16,cat284,2,,51,,,1,,10,,3,3,1,0,0,2,1,,Feirense,,1,08.01.2017 21:15,Primeira Liga - Round 16
+285,cat285,1,,65,,,4,,6,,10,0,0,1,,6,4,,Sporting,,0,08.01.2017 21:15,Primeira Liga - Round 16,cat285,2,,35,,,4,,3,,2,2,0,0,,2,0,,Feirense,,1,08.01.2017 21:15,Primeira Liga - Round 16
+286,cat286,1,,48,,,3,,9,,8,3,1,1,,7,1,,Moreirense,,1,09.01.2017 21:00,Primeira Liga - Round 16,cat286,2,,52,,,1,,11,,6,0,0,2,,3,3,,Belenenses,,2,09.01.2017 21:00,Primeira Liga - Round 16
+287,cat287,1,,42,,,1,,11,,1,1,0,0,,1,0,,Moreirense,,2,09.01.2017 21:00,Primeira Liga - Round 16,cat287,2,,58,,,6,,9,,6,0,0,1,,5,1,,Belenenses,,0,09.01.2017 21:00,Primeira Liga - Round 16
+288,cat288,1,,52,,,4,,5,,10,2,2,2,,5,5,,Arouca,,1,13.01.2017 21:30,Primeira Liga - Round 17,cat288,2,,48,,,4,,8,,5,3,1,1,,2,3,,Estoril,,0,13.01.2017 21:30,Primeira Liga - Round 17
+289,cat289,1,,56,,,2,,8,,2,1,0,3,,1,1,,Arouca,,,13.01.2017 21:30,Primeira Liga - Round 17,cat289,2,,44,,,0,,6,,4,1,0,1,,3,1,,Estoril,,,13.01.2017 21:30,Primeira Liga - Round 17
+290,cat290,1,,60,,,4,,6,,8,3,1,2,,4,4,,Vitoria Setubal,,0,14.01.2017 17:00,Primeira Liga - Round 17,cat290,2,,40,,,2,,9,,11,3,0,1,,8,3,,Nacional,,1,14.01.2017 17:00,Primeira Liga - Round 17
+291,cat291,1,,56,,,4,,7,,5,0,0,0,,3,2,,Vitoria Setubal,,1,14.01.2017 17:00,Primeira Liga - Round 17,cat291,2,,44,,,3,,10,,0,2,0,4,,0,0,,Nacional,,1,14.01.2017 17:00,Primeira Liga - Round 17
+292,cat292,1,,68,,,4,,4,,6,2,2,0,,4,2,,Benfica,,1,14.01.2017 17:00,Primeira Liga - Round 17,cat292,2,,32,,,0,,4,,4,0,0,2,,2,2,,Boavista,,5,14.01.2017 17:00,Primeira Liga - Round 17
+293,cat293,1,,62,,,4,,8,,16,0,1,2,,12,4,,Benfica,,1,14.01.2017 17:00,Primeira Liga - Round 17,cat293,2,,38,,,0,,6,,3,3,3,2,,0,3,,Boavista,,0,14.01.2017 17:00,Primeira Liga - Round 17
+294,cat294,1,,50,,,1,,9,,6,3,1,2,0,5,1,,Chaves,,0,14.01.2017 19:15,Primeira Liga - Round 17,cat294,2,,50,,,3,,7,,5,0,1,2,1,1,4,,Sporting,,1,14.01.2017 19:15,Primeira Liga - Round 17
+295,cat295,1,,32,,,3,,9,,3,0,1,1,,2,1,,Chaves,,1,14.01.2017 19:15,Primeira Liga - Round 17,cat295,2,,68,,,4,,9,,5,0,1,1,,4,1,,Sporting,,1,14.01.2017 19:15,Primeira Liga - Round 17
+296,cat296,1,,46,,,2,,11,,5,2,0,0,,4,1,,Feirense,,2,14.01.2017 21:30,Primeira Liga - Round 17,cat296,2,,54,,,5,,6,,6,1,0,1,,4,2,,Vitoria Guimaraes,,1,14.01.2017 21:30,Primeira Liga - Round 17
+297,cat297,1,,40,,,3,,7,,3,2,0,2,,2,1,,Feirense,,1,14.01.2017 21:30,Primeira Liga - Round 17,cat297,2,,60,,,3,,5,,4,1,0,1,,2,2,,Vitoria Guimaraes,,0,14.01.2017 21:30,Primeira Liga - Round 17
+298,cat298,1,,52,,,0,,6,,5,4,1,0,,3,2,,Maritimo,,2,15.01.2017 17:00,Primeira Liga - Round 17,cat298,2,,48,,,3,,12,,4,1,0,0,,0,4,,Ferreira,,6,15.01.2017 17:00,Primeira Liga - Round 17
+299,cat299,1,,49,,,2,,6,,5,0,2,1,,3,2,,Maritimo,,1,15.01.2017 17:00,Primeira Liga - Round 17,cat299,2,,51,,,0,,9,,5,0,1,1,,4,1,,Ferreira,,1,15.01.2017 17:00,Primeira Liga - Round 17
+300,cat300,1,,73,,,4,,8,,13,0,1,0,,9,4,,FC Porto,,,15.01.2017 19:00,Primeira Liga - Round 17,cat300,2,,27,,,2,,5,,2,3,0,3,,2,0,,Moreirense,,,15.01.2017 19:00,Primeira Liga - Round 17
+301,cat301,1,,67,,,7,,11,,11,1,2,0,0,5,6,,FC Porto,,1,15.01.2017 19:00,Primeira Liga - Round 17,cat301,2,,33,,,1,,11,,1,4,0,0,1,0,1,,Moreirense,,3,15.01.2017 19:00,Primeira Liga - Round 17
+302,cat302,1,,46,,,4,,7,,4,1,1,4,,2,2,,Belenenses,,0,15.01.2017 21:15,Primeira Liga - Round 17,cat302,2,,54,,,1,,6,,2,1,0,1,,1,1,,Rio Ave,,3,15.01.2017 21:15,Primeira Liga - Round 17
+303,cat303,1,,50,,,1,,9,,4,0,0,4,,4,0,,Belenenses,,0,15.01.2017 21:15,Primeira Liga - Round 17,cat303,2,,50,,,1,,8,,3,0,0,1,,3,0,,Rio Ave,,1,15.01.2017 21:15,Primeira Liga - Round 17
+304,cat304,1,,44,,,3,,7,,9,0,2,3,,3,6,,Braga,,,16.01.2017 21:00,Primeira Liga - Round 17,cat304,2,,56,,,1,,3,,5,4,0,4,,5,0,,Tondela,,,16.01.2017 21:00,Primeira Liga - Round 17
+305,cat305,1,,56,,,5,,11,,4,2,0,0,,4,0,,Braga,,1,16.01.2017 21:00,Primeira Liga - Round 17,cat305,2,,44,,,4,,12,,4,0,0,0,,2,2,,Tondela,,1,16.01.2017 21:00,Primeira Liga - Round 17
+306,cat306,1,,64,,,1,,7,,7,0,0,0,,3,4,,Ferreira,,2,20.01.2017 21:30,Primeira Liga - Round 18,cat306,2,,36,,,1,,10,,4,4,1,2,,3,1,,Moreirense,,1,20.01.2017 21:30,Primeira Liga - Round 18
+307,cat307,1,,60,,,4,,8,,5,0,0,0,,3,2,,Ferreira,,,20.01.2017 21:30,Primeira Liga - Round 18,cat307,2,,40,,,2,,7,,4,2,1,1,,3,1,,Moreirense,,,20.01.2017 21:30,Primeira Liga - Round 18
+308,cat308,1,,49,,,4,,7,,8,0,3,3,,4,4,,FC Porto,,1,21.01.2017 17:00,Primeira Liga - Round 18,cat308,2,,51,,,3,,8,,5,1,1,0,,5,0,,Rio Ave,,1,21.01.2017 17:00,Primeira Liga - Round 18
+309,cat309,1,,49,,,1,,10,,5,1,1,3,,1,4,,FC Porto,,1,21.01.2017 17:00,Primeira Liga - Round 18,cat309,2,,51,,,0,,11,,3,3,1,1,,1,2,,Rio Ave,,0,21.01.2017 17:00,Primeira Liga - Round 18
+310,cat310,1,,43,,,1,,10,,3,0,0,1,,3,0,,Maritimo,,0,21.01.2017 19:15,Primeira Liga - Round 18,cat310,2,,57,,,1,,13,,4,0,1,2,,3,1,,Sporting,,2,21.01.2017 19:15,Primeira Liga - Round 18
+311,cat311,1,,39,,,0,,10,,4,0,2,0,,0,4,,Maritimo,,,21.01.2017 19:15,Primeira Liga - Round 18,cat311,2,,61,,,3,,9,,3,2,1,1,,2,1,,Sporting,,,21.01.2017 19:15,Primeira Liga - Round 18
+312,cat312,1,,69,,,6,,10,,8,2,0,1,,6,2,,Arouca,,2,21.01.2017 21:30,Primeira Liga - Round 18,cat312,2,,31,,,1,,8,,4,2,1,0,,1,3,,Boavista,,3,21.01.2017 21:30,Primeira Liga - Round 18
+313,cat313,1,,61,,,7,,5,,2,1,1,1,,1,1,,Arouca,,,21.01.2017 21:30,Primeira Liga - Round 18,cat313,2,,39,,,3,,10,,3,0,1,0,,1,2,,Boavista,,,21.01.2017 21:30,Primeira Liga - Round 18
+314,cat314,1,,40,,,2,,10,,4,1,0,0,,2,2,,Feirense,,3,22.01.2017 17:00,Primeira Liga - Round 18,cat314,2,,60,,,6,,8,,5,2,0,1,,4,1,,Estoril,,3,22.01.2017 17:00,Primeira Liga - Round 18
+315,cat315,1,,55,,,4,,10,,3,1,1,1,,2,1,,Feirense,,0,22.01.2017 17:00,Primeira Liga - Round 18,cat315,2,,45,,,1,,9,,3,0,0,0,,2,1,,Estoril,,1,22.01.2017 17:00,Primeira Liga - Round 18
+316,cat316,1,,66,,,4,,3,,13,1,4,3,0,6,7,,Benfica,,0,22.01.2017 17:00,Primeira Liga - Round 18,cat316,2,,34,,,1,,6,,1,3,0,2,1,0,1,,Tondela,,2,22.01.2017 17:00,Primeira Liga - Round 18
+317,cat317,1,,59,,,5,,4,,7,1,0,5,,5,2,,Benfica,,,22.01.2017 17:00,Primeira Liga - Round 18,cat317,2,,41,,,3,,10,,4,2,0,2,,3,1,,Tondela,,,22.01.2017 17:00,Primeira Liga - Round 18
+318,cat318,1,,61,,,9,,8,,9,3,1,2,,7,2,,Belenenses,,1,22.01.2017 19:00,Primeira Liga - Round 18,cat318,2,,39,,,1,,10,,5,1,1,2,,1,4,,Vitoria Setubal,,1,22.01.2017 19:00,Primeira Liga - Round 18
+319,cat319,1,,55,,,6,,11,,7,0,0,0,,6,1,,Belenenses,,,22.01.2017 19:00,Primeira Liga - Round 18,cat319,2,,45,,,2,,2,,6,1,1,2,,5,1,,Vitoria Setubal,,,22.01.2017 19:00,Primeira Liga - Round 18
+320,cat320,1,,59,,,3,,12,,10,1,1,1,1,8,2,,Braga,,5,22.01.2017 21:15,Primeira Liga - Round 18,cat320,2,,41,,,3,,9,,1,1,0,1,0,0,1,,Vitoria Guimaraes,,2,22.01.2017 21:15,Primeira Liga - Round 18
+321,cat321,1,,63,,,5,,8,,4,2,0,2,,3,1,,Braga,,1,22.01.2017 21:15,Primeira Liga - Round 18,cat321,2,,37,,,1,,9,,5,1,2,2,,1,4,,Vitoria Guimaraes,,2,22.01.2017 21:15,Primeira Liga - Round 18
+322,cat322,1,,46,,,1,,6,,9,1,0,1,,6,3,,Chaves,,1,23.01.2017 21:00,Primeira Liga - Round 18,cat322,2,,54,,,4,,9,,4,3,0,1,,3,1,,Nacional,,1,23.01.2017 21:00,Primeira Liga - Round 18
+323,cat323,1,,56,,,5,,7,,9,1,2,0,,6,3,,Chaves,,1,23.01.2017 21:00,Primeira Liga - Round 18,cat323,2,,44,,,1,,7,,5,1,0,1,,4,1,,Nacional,,0,23.01.2017 21:00,Primeira Liga - Round 18
+324,cat324,1,,58,,,7,,10,,7,1,0,1,,6,1,,Boavista,,0,27.01.2017 21:30,Primeira Liga - Round 19,cat324,2,,42,,,1,,10,,4,1,1,1,,2,2,,Belenenses,,5,27.01.2017 21:30,Primeira Liga - Round 19
+325,cat325,1,,48,,,0,,8,,4,1,0,0,,4,0,,Boavista,,1,27.01.2017 21:30,Primeira Liga - Round 19,cat325,2,,52,,,4,,11,,5,0,0,1,,4,1,,Belenenses,,1,27.01.2017 21:30,Primeira Liga - Round 19
+326,cat326,1,,42,,,3,,8,,7,3,0,0,,6,1,,Tondela,,3,28.01.2017 12:45,Primeira Liga - Round 19,cat326,2,,58,,,3,,7,,8,1,0,0,,5,3,,Chaves,,1,28.01.2017 12:45,Primeira Liga - Round 19
+327,cat327,1,,48,,,1,,9,,5,2,2,0,,2,3,,Tondela,,1,28.01.2017 12:45,Primeira Liga - Round 19,cat327,2,,52,,,1,,7,,5,1,0,0,,3,2,,Chaves,,2,28.01.2017 12:45,Primeira Liga - Round 19
+328,cat328,1,,66,,,3,,4,,6,1,0,0,,5,1,,Vitoria Guimaraes,,1,28.01.2017 17:00,Primeira Liga - Round 19,cat328,2,,34,,,1,,14,,6,1,0,1,,5,1,,Maritimo,,2,28.01.2017 17:00,Primeira Liga - Round 19
+329,cat329,1,,60,,,7,,9,,9,2,0,1,,7,2,,Vitoria Guimaraes,,1,28.01.2017 17:00,Primeira Liga - Round 19,cat329,2,,40,,,2,,13,,5,2,0,0,,3,2,,Maritimo,,0,28.01.2017 17:00,Primeira Liga - Round 19
+330,cat330,1,,58,,,5,,7,,14,0,1,3,0,9,5,,Nacional,,1,28.01.2017 17:00,Primeira Liga - Round 19,cat330,2,,42,,,3,,9,,4,4,1,1,1,3,1,,Arouca,,5,28.01.2017 17:00,Primeira Liga - Round 19
+331,cat331,1,,60,,,3,,8,,8,1,0,1,,7,1,,Nacional,,0,28.01.2017 17:00,Primeira Liga - Round 19,cat331,2,,40,,,4,,6,,4,1,0,0,,3,1,,Arouca,,1,28.01.2017 17:00,Primeira Liga - Round 19
+332,cat332,1,,47,,,1,,13,,2,2,1,0,1,0,2,,Estoril,,7,28.01.2017 19:15,Primeira Liga - Round 19,cat332,2,,53,,,0,,9,,8,1,2,3,0,4,4,,FC Porto,,3,28.01.2017 19:15,Primeira Liga - Round 19
+333,cat333,1,,44,,,0,,18,,1,0,0,0,,1,0,,Estoril,,1,28.01.2017 19:15,Primeira Liga - Round 19,cat333,2,,56,,,4,,9,,4,0,0,3,,4,0,,FC Porto,,0,28.01.2017 19:15,Primeira Liga - Round 19
+334,cat334,1,,49,,,3,,9,,2,2,1,1,,1,1,,Sporting,,2,28.01.2017 21:30,Primeira Liga - Round 19,cat334,2,,51,,,4,,5,,8,0,2,1,,4,4,,Ferreira,,0,28.01.2017 21:30,Primeira Liga - Round 19
+335,cat335,1,,59,,,2,,11,,7,2,3,2,,4,3,,Sporting,,1,28.01.2017 21:30,Primeira Liga - Round 19,cat335,2,,41,,,3,,10,,5,0,0,1,,3,2,,Ferreira,,3,28.01.2017 21:30,Primeira Liga - Round 19
+336,cat336,1,,28,,,1,,10,,0,3,0,1,,0,0,,Vitoria Setubal,,2,30.01.2017 21:00,Primeira Liga - Round 19,cat336,2,,72,,,6,,11,,11,0,0,1,,8,3,,Benfica,,0,30.01.2017 21:00,Primeira Liga - Round 19
+337,cat337,1,,34,,,1,,7,,3,2,1,1,,2,1,,Vitoria Setubal,,0,30.01.2017 21:00,Primeira Liga - Round 19,cat337,2,,66,,,4,,8,,9,0,0,0,,7,2,,Benfica,,1,30.01.2017 21:00,Primeira Liga - Round 19
+338,cat338,1,,50,,,1,,10,,4,1,0,0,0,3,1,,Moreirense,,2,02.02.2017 20:00,Primeira Liga - Round 19,cat338,2,,50,,,3,,9,,7,1,1,0,1,5,2,,Feirense,,4,02.02.2017 20:00,Primeira Liga - Round 19
+339,cat339,1,,54,,,4,,12,,7,2,1,0,,3,4,,Moreirense,,2,02.02.2017 20:00,Primeira Liga - Round 19,cat339,2,,46,,,3,,6,,6,3,0,0,,4,2,,Feirense,,1,02.02.2017 20:00,Primeira Liga - Round 19
+340,cat340,1,,48,,,4,,11,,6,1,1,0,0,3,3,,Rio Ave,,2,02.02.2017 22:00,Primeira Liga - Round 19,cat340,2,,52,,,2,,7,,1,2,0,3,1,0,1,,Braga,,3,02.02.2017 22:00,Primeira Liga - Round 19
+341,cat341,1,,66,,,4,,4,,2,1,0,0,,2,0,,Rio Ave,,1,02.02.2017 22:00,Primeira Liga - Round 19,cat341,2,,34,,,1,,10,,3,0,0,5,,2,1,,Braga,,0,02.02.2017 22:00,Primeira Liga - Round 19
+342,cat342,1,,44,,,4,,15,,8,5,2,0,,3,5,,Ferreira,,2,03.02.2017 21:30,Primeira Liga - Round 20,cat342,2,,56,,,3,,5,,6,3,0,0,,1,5,,Vitoria Guimaraes,,0,03.02.2017 21:30,Primeira Liga - Round 20
+343,cat343,1,,46,,,1,,7,,0,1,0,1,,0,0,,Ferreira,,1,03.02.2017 21:30,Primeira Liga - Round 20,cat343,2,,54,,,3,,9,,4,0,0,1,,3,1,,Vitoria Guimaraes,,2,03.02.2017 21:30,Primeira Liga - Round 20
+344,cat344,1,,63,,,2,,12,,7,1,0,0,,5,2,,Chaves,,1,04.02.2017 17:00,Primeira Liga - Round 20,cat344,2,,37,,,0,,11,,3,2,0,0,,2,1,,Boavista,,2,04.02.2017 17:00,Primeira Liga - Round 20
+345,cat345,1,,49,,,7,,5,,11,0,0,1,,6,5,,Chaves,,,04.02.2017 17:00,Primeira Liga - Round 20,cat345,2,,51,,,1,,8,,2,5,0,0,,2,0,,Boavista,,,04.02.2017 17:00,Primeira Liga - Round 20
+346,cat346,1,,36,,,1,,15,,4,4,0,1,,4,0,,FC Porto,,3,04.02.2017 21:30,Primeira Liga - Round 20,cat346,2,,64,,,5,,15,,10,0,1,0,,5,5,,Sporting,,2,04.02.2017 21:30,Primeira Liga - Round 20
+347,cat347,1,,42,,,1,,13,,4,0,2,0,,1,3,,FC Porto,,1,04.02.2017 21:30,Primeira Liga - Round 20,cat347,2,,58,,,3,,11,,2,1,0,0,,2,0,,Sporting,,1,04.02.2017 21:30,Primeira Liga - Round 20
+348,cat348,1,,33,,,0,,5,,3,1,0,0,,2,1,,Arouca,,1,05.02.2017 17:00,Primeira Liga - Round 20,cat348,2,,67,,,2,,9,,3,1,0,1,,2,1,,Vitoria Setubal,,3,05.02.2017 17:00,Primeira Liga - Round 20
+349,cat349,1,,45,,,2,,12,,9,4,2,1,,5,4,,Arouca,,,05.02.2017 17:00,Primeira Liga - Round 20,cat349,2,,55,,,4,,2,,12,2,1,0,,7,5,,Vitoria Setubal,,,05.02.2017 17:00,Primeira Liga - Round 20
+350,cat350,1,,63,,,3,,10,,4,0,1,2,,1,3,,Benfica,,1,05.02.2017 19:00,Primeira Liga - Round 20,cat350,2,,37,,,1,,6,,2,2,0,2,,2,0,,Nacional,,3,05.02.2017 19:00,Primeira Liga - Round 20
+351,cat351,1,,65,,,5,,7,,7,0,2,1,,2,5,,Benfica,,1,05.02.2017 19:00,Primeira Liga - Round 20,cat351,2,,35,,,1,,11,,2,3,0,4,,2,0,,Nacional,,2,05.02.2017 19:00,Primeira Liga - Round 20
+352,cat352,1,,60,,,3,,12,,7,2,0,0,0,4,3,,Belenenses,,2,05.02.2017 21:15,Primeira Liga - Round 20,cat352,2,,40,,,2,,11,,6,3,0,0,2,4,2,,Tondela,,2,05.02.2017 21:15,Primeira Liga - Round 20
+353,cat353,1,,60,,,1,,7,,3,0,0,0,,1,2,,Belenenses,,1,05.02.2017 21:15,Primeira Liga - Round 20,cat353,2,,40,,,0,,16,,4,2,0,1,,4,0,,Tondela,,4,05.02.2017 21:15,Primeira Liga - Round 20
+354,cat354,1,,50,,,5,,9,,7,0,0,0,,6,1,,Maritimo,,2,06.02.2017 20:00,Primeira Liga - Round 20,cat354,2,,50,,,2,,15,,3,1,0,1,,3,0,,Moreirense,,1,06.02.2017 20:00,Primeira Liga - Round 20
+355,cat355,1,,54,,,0,,5,,3,1,1,1,,1,2,,Maritimo,,1,06.02.2017 20:00,Primeira Liga - Round 20,cat355,2,,46,,,4,,10,,2,1,0,0,,1,1,,Moreirense,,1,06.02.2017 20:00,Primeira Liga - Round 20
+356,cat356,1,,17,,,1,,9,,3,2,1,4,,2,1,,Feirense,,3,06.02.2017 22:00,Primeira Liga - Round 20,cat356,2,,83,,,6,,10,,8,0,1,1,,5,3,,Rio Ave,,1,06.02.2017 22:00,Primeira Liga - Round 20
+357,cat357,1,,33,,,1,,11,,4,2,1,1,,2,2,,Feirense,,,06.02.2017 22:00,Primeira Liga - Round 20,cat357,2,,67,,,5,,8,,4,1,0,1,,2,2,,Rio Ave,,,06.02.2017 22:00,Primeira Liga - Round 20
+358,cat358,1,,63,,,4,,14,,9,1,1,3,,5,4,,Braga,,2,06.02.2017 22:00,Primeira Liga - Round 20,cat358,2,,37,,,1,,12,,3,3,0,0,,2,1,,Estoril,,3,06.02.2017 22:00,Primeira Liga - Round 20
+359,cat359,1,,53,,,7,,6,,3,1,0,1,,1,2,,Braga,,1,06.02.2017 22:00,Primeira Liga - Round 20,cat359,2,,47,,,5,,9,,3,2,1,1,,1,2,,Estoril,,1,06.02.2017 22:00,Primeira Liga - Round 20
+360,cat360,1,,44,,,1,,5,,3,1,1,0,,2,1,,Benfica,,0,10.02.2017 21:30,Primeira Liga - Round 21,cat360,2,,56,,,2,,12,,5,0,0,1,,4,1,,Arouca,,1,10.02.2017 21:30,Primeira Liga - Round 21
+361,cat361,1,,70,,,2,,7,,10,2,2,1,1,3,7,,Benfica,,0,10.02.2017 21:30,Primeira Liga - Round 21,cat361,2,,30,,,2,,5,,3,5,0,4,0,1,2,,Arouca,,1,10.02.2017 21:30,Primeira Liga - Round 21
+362,cat362,1,,57,,,3,,11,,7,1,0,0,0,6,1,,Tondela,,2,11.02.2017 12:45,Primeira Liga - Round 21,cat362,2,,43,,,3,,5,,4,1,1,2,1,2,2,,Feirense,,2,11.02.2017 12:45,Primeira Liga - Round 21
+363,cat363,1,,57,,,5,,8,,8,1,0,2,,2,6,,Tondela,,1,11.02.2017 12:45,Primeira Liga - Round 21,cat363,2,,43,,,2,,13,,4,6,0,0,,3,1,,Feirense,,1,11.02.2017 12:45,Primeira Liga - Round 21
+364,cat364,1,,49,,,1,,2,,6,2,0,0,,3,3,,Vitoria Setubal,,0,11.02.2017 17:00,Primeira Liga - Round 21,cat364,2,,51,,,5,,8,,9,3,0,1,,7,2,,Chaves,,3,11.02.2017 17:00,Primeira Liga - Round 21
+365,cat365,1,,57,,,4,,8,,5,0,0,2,,4,1,,Vitoria Setubal,,1,11.02.2017 17:00,Primeira Liga - Round 21,cat365,2,,43,,,3,,9,,2,1,0,1,,2,0,,Chaves,,2,11.02.2017 17:00,Primeira Liga - Round 21
+366,cat366,1,,39,,,4,,9,,1,0,0,1,,1,0,,Estoril,,2,11.02.2017 19:15,Primeira Liga - Round 21,cat366,2,,61,,,2,,12,,3,0,0,1,,3,0,,Ferreira,,1,11.02.2017 19:15,Primeira Liga - Round 21
+367,cat367,1,,51,,,0,,9,,6,2,2,1,,4,2,,Estoril,,0,11.02.2017 19:15,Primeira Liga - Round 21,cat367,2,,49,,,0,,9,,6,0,1,1,,3,3,,Ferreira,,2,11.02.2017 19:15,Primeira Liga - Round 21
+368,cat368,1,,63,,,4,,12,,2,2,0,0,,2,0,,Vitoria Guimaraes,,1,11.02.2017 21:30,Primeira Liga - Round 21,cat368,2,,37,,,3,,10,,6,0,1,0,,3,3,,FC Porto,,1,11.02.2017 21:30,Primeira Liga - Round 21
+369,cat369,1,,53,,,5,,7,,4,1,0,1,,4,0,,Vitoria Guimaraes,,0,11.02.2017 21:30,Primeira Liga - Round 21,cat369,2,,47,,,1,,14,,2,0,1,0,,0,2,,FC Porto,,1,11.02.2017 21:30,Primeira Liga - Round 21
+370,cat370,1,,38,,,3,,11,,5,2,0,1,,5,0,,Nacional,,3,12.02.2017 17:00,Primeira Liga - Round 21,cat370,2,,62,,,1,,11,,7,0,1,3,,4,3,,Belenenses,,1,12.02.2017 17:00,Primeira Liga - Round 21
+371,cat371,1,,52,,,2,,7,,5,2,1,1,,3,2,,Nacional,,1,12.02.2017 17:00,Primeira Liga - Round 21,cat371,2,,48,,,3,,9,,5,1,0,1,,3,2,,Belenenses,,0,12.02.2017 17:00,Primeira Liga - Round 21
+372,cat372,1,,42,,,0,,6,,2,4,0,2,,2,0,,Moreirense,,2,12.02.2017 19:00,Primeira Liga - Round 21,cat372,2,,58,,,6,,8,,12,0,2,0,,6,6,,Sporting,,1,12.02.2017 19:00,Primeira Liga - Round 21
+373,cat373,1,,28,,,0,,11,,3,1,2,1,,0,3,,Moreirense,,1,12.02.2017 19:00,Primeira Liga - Round 21,cat373,2,,72,,,4,,6,,2,1,1,2,,0,2,,Sporting,,1,12.02.2017 19:00,Primeira Liga - Round 21
+374,cat374,1,,47,,,3,,12,,9,3,0,0,,7,2,,Boavista,,1,12.02.2017 21:15,Primeira Liga - Round 21,cat374,2,,53,,,7,,10,,7,2,0,1,,4,3,,Braga,,0,12.02.2017 21:15,Primeira Liga - Round 21
+375,cat375,1,,51,,,0,,7,,5,0,1,0,,3,2,,Boavista,,0,12.02.2017 21:15,Primeira Liga - Round 21,cat375,2,,49,,,1,,9,,3,1,1,1,,2,1,,Braga,,1,12.02.2017 21:15,Primeira Liga - Round 21
+376,cat376,1,,63,,,6,,13,,11,5,0,0,,7,4,,Rio Ave,,3,13.02.2017 21:00,Primeira Liga - Round 21,cat376,2,,37,,,4,,11,,5,4,0,1,,0,5,,Maritimo,,2,13.02.2017 21:00,Primeira Liga - Round 21
+377,cat377,1,,57,,,4,,12,,7,0,0,1,,5,2,,Rio Ave,,1,13.02.2017 21:00,Primeira Liga - Round 21,cat377,2,,43,,,2,,5,,2,2,0,1,,2,0,,Maritimo,,1,13.02.2017 21:00,Primeira Liga - Round 21
+378,cat378,1,,66,,,6,,4,,12,0,3,0,,9,3,,FC Porto,,,17.02.2017 21:30,Primeira Liga - Round 22,cat378,2,,34,,,1,,6,,0,0,0,0,,0,0,,Tondela,,,17.02.2017 21:30,Primeira Liga - Round 22
+379,cat379,1,,58,,,2,,12,,8,3,1,0,0,3,5,,FC Porto,,3,17.02.2017 21:30,Primeira Liga - Round 22,cat379,2,,42,,,0,,13,,4,4,0,2,1,1,3,,Tondela,,3,17.02.2017 21:30,Primeira Liga - Round 22
+380,cat380,1,,50,,,1,,8,,3,1,1,3,,0,3,,Moreirense,,3,18.02.2017 17:00,Primeira Liga - Round 22,cat380,2,,50,,,0,,3,,9,2,1,0,,7,2,,Estoril,,1,18.02.2017 17:00,Primeira Liga - Round 22
+381,cat381,1,,48,,,2,,9,,3,0,0,9,,1,2,,Moreirense,,1,18.02.2017 17:00,Primeira Liga - Round 22,cat381,2,,52,,,1,,9,,3,2,0,1,,3,0,,Estoril,,0,18.02.2017 17:00,Primeira Liga - Round 22
+382,cat382,1,,39,,,3,,12,,9,3,1,0,,6,3,,Chaves,,2,18.02.2017 17:00,Primeira Liga - Round 22,cat382,2,,61,,,4,,5,,8,2,0,1,,5,3,,Arouca,,2,18.02.2017 17:00,Primeira Liga - Round 22
+383,cat383,1,,47,,,2,,7,,3,4,1,2,,1,2,,Chaves,,0,18.02.2017 17:00,Primeira Liga - Round 22,cat383,2,,53,,,4,,12,,5,1,0,0,,1,4,,Arouca,,1,18.02.2017 17:00,Primeira Liga - Round 22
+384,cat384,1,,51,,,5,,6,,7,3,0,0,0,5,2,,Feirense,,1,18.02.2017 19:15,Primeira Liga - Round 22,cat384,2,,49,,,3,,16,,6,2,1,1,1,2,4,,Boavista,,4,18.02.2017 19:15,Primeira Liga - Round 22
+385,cat385,1,,51,,,2,,9,,2,1,0,0,,2,0,,Feirense,,0,18.02.2017 19:15,Primeira Liga - Round 22,cat385,2,,49,,,4,,9,,6,0,0,2,,5,1,,Boavista,,1,18.02.2017 19:15,Primeira Liga - Round 22
+386,cat386,1,,43,,,1,,17,,2,1,0,2,,2,0,,Sporting,,3,18.02.2017 21:30,Primeira Liga - Round 22,cat386,2,,57,,,0,,9,,3,0,0,2,,2,1,,Rio Ave,,2,18.02.2017 21:30,Primeira Liga - Round 22
+387,cat387,1,,47,,,4,,9,,4,5,1,1,,1,3,,Sporting,,1,18.02.2017 21:30,Primeira Liga - Round 22,cat387,2,,53,,,4,,8,,8,2,0,0,,3,5,,Rio Ave,,1,18.02.2017 21:30,Primeira Liga - Round 22
+388,cat388,1,,39,,,1,,12,,4,2,1,0,,2,2,,Ferreira,,1,19.02.2017 17:00,Primeira Liga - Round 22,cat388,2,,61,,,3,,7,,8,1,1,2,,5,3,,Vitoria Setubal,,1,19.02.2017 17:00,Primeira Liga - Round 22
+389,cat389,1,,47,,,0,,3,,3,1,1,0,,2,1,,Ferreira,,,19.02.2017 17:00,Primeira Liga - Round 22,cat389,2,,53,,,6,,4,,3,0,0,0,,2,1,,Vitoria Setubal,,,19.02.2017 17:00,Primeira Liga - Round 22
+390,cat390,1,,49,,,1,,6,,7,0,0,1,,5,2,,Belenenses,,1,19.02.2017 19:00,Primeira Liga - Round 22,cat390,2,,51,,,6,,4,,6,2,0,0,,6,0,,Vitoria Guimaraes,,1,19.02.2017 19:00,Primeira Liga - Round 22
+391,cat391,1,,47,,,4,,10,,7,3,1,1,,4,3,,Belenenses,,,19.02.2017 19:00,Primeira Liga - Round 22,cat391,2,,53,,,4,,6,,9,2,1,1,,5,4,,Vitoria Guimaraes,,,19.02.2017 19:00,Primeira Liga - Round 22
+392,cat392,1,,48,,,4,,11,,5,0,0,1,,1,4,,Braga,,2,19.02.2017 21:15,Primeira Liga - Round 22,cat392,2,,52,,,1,,12,,2,4,1,0,,1,1,,Benfica,,3,19.02.2017 21:15,Primeira Liga - Round 22
+393,cat393,1,,46,,,3,,6,,8,0,0,3,,6,2,,Braga,,1,19.02.2017 21:15,Primeira Liga - Round 22,cat393,2,,54,,,2,,13,,2,2,0,2,,2,0,,Benfica,,0,19.02.2017 21:15,Primeira Liga - Round 22
+394,cat394,1,,60,,,5,,9,,2,1,0,0,,0,2,,Maritimo,,2,20.02.2017 21:00,Primeira Liga - Round 22,cat394,2,,40,,,4,,14,,3,2,0,2,,2,1,,Nacional,,3,20.02.2017 21:00,Primeira Liga - Round 22
+395,cat395,1,,58,,,1,,11,,2,3,0,2,,2,0,,Maritimo,,,20.02.2017 21:00,Primeira Liga - Round 22,cat395,2,,42,,,4,,9,,6,0,0,0,,3,3,,Nacional,,,20.02.2017 21:00,Primeira Liga - Round 22
+396,cat396,1,,48,,,1,,10,,9,2,0,0,,9,0,,Vitoria Guimaraes,,3,24.02.2017 20:00,Primeira Liga - Round 23,cat396,2,,52,,,8,,13,,11,0,0,0,,9,2,,Moreirense,,0,24.02.2017 20:00,Primeira Liga - Round 23
+397,cat397,1,,64,,,6,,13,,1,1,0,0,,0,1,,Vitoria Guimaraes,,1,24.02.2017 20:00,Primeira Liga - Round 23,cat397,2,,36,,,1,,17,,2,0,0,1,,1,1,,Moreirense,,2,24.02.2017 20:00,Primeira Liga - Round 23
+398,cat398,1,,62,,,1,,6,,11,2,2,1,,8,3,,Benfica,,1,24.02.2017 22:00,Primeira Liga - Round 23,cat398,2,,38,,,3,,6,,4,1,0,1,,2,2,,Chaves,,2,24.02.2017 22:00,Primeira Liga - Round 23
+399,cat399,1,,62,,,1,,7,,6,3,1,2,,4,2,,Benfica,,,24.02.2017 22:00,Primeira Liga - Round 23,cat399,2,,38,,,1,,7,,5,1,1,4,,1,4,,Chaves,,,24.02.2017 22:00,Primeira Liga - Round 23
+400,cat400,1,,32,,,2,,7,,4,2,0,1,,1,3,,Tondela,,1,25.02.2017 17:00,Primeira Liga - Round 23,cat400,2,,68,,,4,,5,,9,3,1,1,,6,3,,Maritimo,,2,25.02.2017 17:00,Primeira Liga - Round 23
+401,cat401,1,,44,,,1,,9,,3,0,1,1,,1,2,,Tondela,,1,25.02.2017 17:00,Primeira Liga - Round 23,cat401,2,,56,,,1,,6,,8,1,0,0,,8,0,,Maritimo,,1,25.02.2017 17:00,Primeira Liga - Round 23
+402,cat402,1,,52,,,4,,11,,6,0,0,0,,6,0,,Estoril,,1,25.02.2017 19:15,Primeira Liga - Round 23,cat402,2,,48,,,2,,4,,7,0,1,1,,6,1,,Sporting,,0,25.02.2017 19:15,Primeira Liga - Round 23
+403,cat403,1,,46,,,3,,6,,5,0,0,1,,2,3,,Estoril,,,25.02.2017 19:15,Primeira Liga - Round 23,cat403,2,,54,,,3,,11,,3,3,1,1,,2,1,,Sporting,,,25.02.2017 19:15,Primeira Liga - Round 23
+404,cat404,1,,62,,,5,,11,,13,0,0,0,0,8,5,,Rio Ave,,2,25.02.2017 21:30,Primeira Liga - Round 23,cat404,2,,38,,,0,,10,,2,5,0,0,1,2,0,,Ferreira,,3,25.02.2017 21:30,Primeira Liga - Round 23
+405,cat405,1,,60,,,1,,7,,9,1,0,1,,7,2,,Rio Ave,,0,25.02.2017 21:30,Primeira Liga - Round 23,cat405,2,,40,,,1,,8,,2,2,0,2,,1,1,,Ferreira,,2,25.02.2017 21:30,Primeira Liga - Round 23
+406,cat406,1,,62,,,5,,11,,2,3,0,3,,2,0,,Nacional,,3,26.02.2017 17:00,Primeira Liga - Round 23,cat406,2,,38,,,3,,6,,4,0,0,2,,1,3,,Feirense,,2,26.02.2017 17:00,Primeira Liga - Round 23
+407,cat407,1,,52,,,4,,8,,7,2,0,0,,4,3,,Nacional,,0,26.02.2017 17:00,Primeira Liga - Round 23,cat407,2,,48,,,3,,5,,3,3,0,0,,1,2,,Feirense,,1,26.02.2017 17:00,Primeira Liga - Round 23
+408,cat408,1,,46,,,5,,13,,6,1,1,1,,3,3,,Vitoria Setubal,,1,26.02.2017 19:00,Primeira Liga - Round 23,cat408,2,,54,,,1,,11,,7,2,1,0,,5,2,,Braga,,3,26.02.2017 19:00,Primeira Liga - Round 23
+409,cat409,1,,46,,,3,,7,,6,2,0,0,,4,2,,Vitoria Setubal,,,26.02.2017 19:00,Primeira Liga - Round 23,cat409,2,,54,,,2,,7,,4,2,0,0,,2,2,,Braga,,,26.02.2017 19:00,Primeira Liga - Round 23
+410,cat410,1,,48,,,2,,15,,1,1,0,0,0,1,0,,Boavista,,5,26.02.2017 21:15,Primeira Liga - Round 23,cat410,2,,52,,,3,,10,,2,0,0,1,1,1,1,,FC Porto,,3,26.02.2017 21:15,Primeira Liga - Round 23
+411,cat411,1,,42,,,4,,7,,4,3,0,0,,2,2,,Boavista,,2,26.02.2017 21:15,Primeira Liga - Round 23,cat411,2,,58,,,0,,7,,8,2,1,1,,4,4,,FC Porto,,2,26.02.2017 21:15,Primeira Liga - Round 23
+412,cat412,1,,55,,,3,,8,,7,0,0,0,,6,1,,Arouca,,2,27.02.2017 21:00,Primeira Liga - Round 23,cat412,2,,45,,,5,,4,,5,1,2,2,,3,2,,Belenenses,,0,27.02.2017 21:00,Primeira Liga - Round 23
+413,cat413,1,,59,,,3,,5,,8,3,1,0,,5,3,,Arouca,,2,27.02.2017 21:00,Primeira Liga - Round 23,cat413,2,,41,,,1,,10,,7,2,0,0,,4,3,,Belenenses,,2,27.02.2017 21:00,Primeira Liga - Round 23
+414,cat414,1,,55,,,6,,11,,6,3,0,2,,2,4,,Moreirense,,1,03.03.2017 21:30,Primeira Liga - Round 24,cat414,2,,45,,,0,,13,,7,4,0,0,,4,3,,Boavista,,1,03.03.2017 21:30,Primeira Liga - Round 24
+415,cat415,1,,57,,,1,,9,,4,1,0,2,,3,1,,Moreirense,,2,03.03.2017 21:30,Primeira Liga - Round 24,cat415,2,,43,,,0,,12,,3,1,0,0,,2,1,,Boavista,,1,03.03.2017 21:30,Primeira Liga - Round 24
+416,cat416,1,,58,,,3,,10,,4,2,2,1,,0,4,,Braga,,1,04.03.2017 17:00,Primeira Liga - Round 24,cat416,2,,42,,,4,,14,,5,2,0,1,,3,2,,Arouca,,2,04.03.2017 17:00,Primeira Liga - Round 24
+417,cat417,1,,68,,,6,,4,,9,1,1,0,,6,3,,Braga,,0,04.03.2017 17:00,Primeira Liga - Round 24,cat417,2,,32,,,1,,13,,4,2,1,3,,2,2,,Arouca,,2,04.03.2017 17:00,Primeira Liga - Round 24
+418,cat418,1,,57,,,1,,9,,13,1,5,2,0,3,10,,FC Porto,,0,04.03.2017 19:15,Primeira Liga - Round 24,cat418,2,,43,,,1,,4,,4,5,0,0,1,3,1,,Nacional,,2,04.03.2017 19:15,Primeira Liga - Round 24
+419,cat419,1,,65,,,3,,4,,9,0,2,1,,5,4,,FC Porto,,0,04.03.2017 19:15,Primeira Liga - Round 24,cat419,2,,35,,,3,,4,,0,2,0,1,,0,0,,Nacional,,1,04.03.2017 19:15,Primeira Liga - Round 24
+420,cat420,1,,43,,,2,,9,,6,0,0,2,,3,3,,Feirense,,1,04.03.2017 21:30,Primeira Liga - Round 24,cat420,2,,57,,,4,,12,,5,3,0,2,,5,0,,Benfica,,1,04.03.2017 21:30,Primeira Liga - Round 24
+421,cat421,1,,37,,,4,,7,,4,3,0,0,,4,0,,Feirense,,3,04.03.2017 21:30,Primeira Liga - Round 24,cat421,2,,63,,,2,,9,,4,0,1,2,,0,4,,Benfica,,1,04.03.2017 21:30,Primeira Liga - Round 24
+422,cat422,1,,52,,,2,,8,,8,0,0,0,,4,4,,Ferreira,,3,05.03.2017 12:45,Primeira Liga - Round 24,cat422,2,,48,,,1,,16,,3,4,0,2,,3,0,,Tondela,,3,05.03.2017 12:45,Primeira Liga - Round 24
+423,cat423,1,,60,,,4,,8,,7,1,0,0,,4,3,,Ferreira,,,05.03.2017 12:45,Primeira Liga - Round 24,cat423,2,,40,,,0,,8,,3,3,0,1,,2,1,,Tondela,,,05.03.2017 12:45,Primeira Liga - Round 24
+424,cat424,1,,38,,,1,,7,,4,3,0,1,,2,2,,Maritimo,,3,05.03.2017 17:00,Primeira Liga - Round 24,cat424,2,,62,,,3,,10,,5,2,0,2,,2,3,,Vitoria Setubal,,2,05.03.2017 17:00,Primeira Liga - Round 24
+425,cat425,1,,48,,,7,,13,,6,2,1,1,,3,3,,Maritimo,,0,05.03.2017 17:00,Primeira Liga - Round 24,cat425,2,,52,,,4,,4,,4,2,0,1,,2,2,,Vitoria Setubal,,1,05.03.2017 17:00,Primeira Liga - Round 24
+426,cat426,1,,50,,,2,,8,,12,1,2,1,,6,6,,Belenenses,,3,05.03.2017 19:00,Primeira Liga - Round 24,cat426,2,,50,,,2,,6,,8,4,0,1,,7,1,,Chaves,,0,05.03.2017 19:00,Primeira Liga - Round 24
+427,cat427,1,,42,,,1,,6,,7,4,0,1,,2,5,,Belenenses,,0,05.03.2017 19:00,Primeira Liga - Round 24,cat427,2,,58,,,3,,7,,7,5,1,1,,2,5,,Chaves,,1,05.03.2017 19:00,Primeira Liga - Round 24
+428,cat428,1,,50,,,2,,9,,5,0,0,1,,2,3,,Sporting,,0,05.03.2017 21:15,Primeira Liga - Round 24,cat428,2,,50,,,3,,15,,3,3,1,0,,2,1,,Vitoria Guimaraes,,2,05.03.2017 21:15,Primeira Liga - Round 24
+429,cat429,1,,58,,,3,,12,,6,2,1,2,,4,2,,Sporting,,2,05.03.2017 21:15,Primeira Liga - Round 24,cat429,2,,42,,,1,,7,,4,1,0,2,,2,2,,Vitoria Guimaraes,,1,05.03.2017 21:15,Primeira Liga - Round 24
+430,cat430,1,,50,,,3,,8,,6,3,0,1,,5,1,,Estoril,,3,06.03.2017 21:00,Primeira Liga - Round 24,cat430,2,,50,,,1,,5,,9,1,1,1,,5,4,,Rio Ave,,0,06.03.2017 21:00,Primeira Liga - Round 24
+431,cat431,1,,48,,,0,,5,,6,1,0,1,,4,2,,Estoril,,3,06.03.2017 21:00,Primeira Liga - Round 24,cat431,2,,52,,,5,,6,,4,2,1,2,,2,2,,Rio Ave,,0,06.03.2017 21:00,Primeira Liga - Round 24
+432,cat432,1,,39,,,0,,7,,1,2,0,0,,1,0,,Arouca,,2,10.03.2017 21:30,Primeira Liga - Round 25,cat432,2,,61,,,4,,10,,7,0,2,0,,3,4,,FC Porto,,2,10.03.2017 21:30,Primeira Liga - Round 25
+433,cat433,1,,43,,,2,,11,,5,1,0,1,,5,0,,Arouca,,,10.03.2017 21:30,Primeira Liga - Round 25,cat433,2,,57,,,2,,9,,5,0,0,2,,2,3,,FC Porto,,,10.03.2017 21:30,Primeira Liga - Round 25
+434,cat434,1,,53,,,4,,8,,6,0,0,3,,4,2,,Vitoria Setubal,,1,11.03.2017 17:00,Primeira Liga - Round 25,cat434,2,,47,,,5,,13,,3,2,2,1,,1,2,,Feirense,,1,11.03.2017 17:00,Primeira Liga - Round 25
+435,cat435,1,,49,,,3,,11,,4,1,1,0,,2,2,,Vitoria Setubal,,,11.03.2017 17:00,Primeira Liga - Round 25,cat435,2,,51,,,2,,7,,1,1,0,1,,0,1,,Feirense,,,11.03.2017 17:00,Primeira Liga - Round 25
+436,cat436,1,,39,,,3,,9,,6,1,0,1,,2,4,,Chaves,,1,11.03.2017 19:15,Primeira Liga - Round 25,cat436,2,,61,,,5,,9,,3,4,0,0,,2,1,,Braga,,2,11.03.2017 19:15,Primeira Liga - Round 25
+437,cat437,1,,41,,,4,,10,,6,2,0,1,,5,1,,Chaves,,1,11.03.2017 19:15,Primeira Liga - Round 25,cat437,2,,59,,,1,,5,,6,1,0,0,,4,2,,Braga,,0,11.03.2017 19:15,Primeira Liga - Round 25
+438,cat438,1,,47,,,1,,11,,6,1,1,0,,3,3,,Tondela,,3,11.03.2017 21:30,Primeira Liga - Round 25,cat438,2,,53,,,0,,10,,5,2,3,0,,1,4,,Sporting,,2,11.03.2017 21:30,Primeira Liga - Round 25
+439,cat439,1,,33,,,3,,12,,4,2,0,1,,2,2,,Tondela,,,11.03.2017 21:30,Primeira Liga - Round 25,cat439,2,,67,,,3,,12,,4,2,1,1,,1,3,,Sporting,,,11.03.2017 21:30,Primeira Liga - Round 25
+440,cat440,1,,52,,,1,,7,,1,3,0,2,,1,0,,Moreirense,,1,18.03.2017 17:00,Primeira Liga - Round 26,cat440,2,,48,,,4,,9,,5,0,1,0,,1,4,,Tondela,,0,18.03.2017 17:00,Primeira Liga - Round 26
+441,cat440,1,,52,,,1,,7,,1,3,0,2,,1,0,,Moreirense,,1,18.03.2017 17:00,Primeira Liga - Round 26,cat440,2,,48,,,4,,9,,5,0,1,0,,1,4,,Tondela,,0,18.03.2017 17:00,Primeira Liga - Round 26
+442,cat441,1,,55,,,5,,7,,11,0,1,2,,9,2,,Belenenses,,0,18.03.2017 17:00,Primeira Liga - Round 26,cat441,2,,45,,,1,,10,,7,1,2,0,,5,2,,Braga,,1,18.03.2017 17:00,Primeira Liga - Round 26
+443,cat442,1,,51,,,5,,4,,5,1,0,0,,3,2,,Sporting,,0,18.03.2017 19:15,Primeira Liga - Round 26,cat442,2,,49,,,1,,8,,5,2,0,2,,4,1,,Nacional,,2,18.03.2017 19:15,Primeira Liga - Round 26
+444,cat443,1,,53,,,3,,8,,4,1,2,1,,2,2,,Sporting,,2,18.03.2017 19:15,Primeira Liga - Round 26,cat443,2,,47,,,2,,4,,6,0,0,2,,5,1,,Nacional,,1,18.03.2017 19:15,Primeira Liga - Round 26
+445,cat444,1,,41,,,4,,8,,4,3,0,1,,2,2,,Ferreira,,4,18.03.2017 21:30,Primeira Liga - Round 26,cat444,2,,59,,,5,,4,,7,2,0,0,,4,3,,Benfica,,1,18.03.2017 21:30,Primeira Liga - Round 26
+446,cat445,1,,25,,,0,,8,,1,1,0,0,,1,0,,Ferreira,,,18.03.2017 21:30,Primeira Liga - Round 26,cat445,2,,75,,,5,,7,,5,0,0,0,,4,1,,Benfica,,,18.03.2017 21:30,Primeira Liga - Round 26
+447,cat446,1,,54,,,4,,5,,13,1,2,0,,7,6,,Maritimo,,0,19.03.2017 17:00,Primeira Liga - Round 26,cat446,2,,46,,,1,,8,,2,4,0,1,,1,1,,Arouca,,1,19.03.2017 17:00,Primeira Liga - Round 26
+448,cat447,1,,54,,,5,,8,,9,0,1,1,,8,1,,Maritimo,,,19.03.2017 17:00,Primeira Liga - Round 26,cat447,2,,46,,,0,,10,,1,0,1,3,,0,1,,Arouca,,,19.03.2017 17:00,Primeira Liga - Round 26
+449,cat448,1,,44,,,2,,9,,10,0,3,1,,5,5,,Feirense,,1,19.03.2017 17:00,Primeira Liga - Round 26,cat448,2,,56,,,1,,12,,5,2,1,0,,4,1,,Chaves,,4,19.03.2017 17:00,Primeira Liga - Round 26
+450,cat449,1,,46,,,2,,9,,6,1,0,0,,3,3,,Feirense,,,19.03.2017 17:00,Primeira Liga - Round 26,cat449,2,,54,,,4,,12,,7,3,1,0,,5,2,,Chaves,,,19.03.2017 17:00,Primeira Liga - Round 26
+451,cat450,1,,67,,,6,,9,,10,0,0,2,,7,3,,FC Porto,,2,19.03.2017 19:00,Primeira Liga - Round 26,cat450,2,,33,,,0,,8,,1,3,1,0,,0,1,,Vitoria Setubal,,3,19.03.2017 19:00,Primeira Liga - Round 26
+452,cat451,1,,65,,,6,,7,,9,3,1,1,,4,5,,FC Porto,,1,19.03.2017 19:00,Primeira Liga - Round 26,cat451,2,,35,,,0,,7,,3,4,0,0,,0,3,,Vitoria Setubal,,2,19.03.2017 19:00,Primeira Liga - Round 26
+453,cat452,1,,58,,,2,,7,,10,3,3,2,0,3,7,,Vitoria Guimaraes,,0,19.03.2017 21:15,Primeira Liga - Round 26,cat452,2,,42,,,1,,8,,4,4,0,1,1,1,3,,Rio Ave,,4,19.03.2017 21:15,Primeira Liga - Round 26
+454,cat453,1,,45,,,2,,9,,6,0,0,0,,2,4,,Vitoria Guimaraes,,2,19.03.2017 21:15,Primeira Liga - Round 26,cat453,2,,55,,,5,,11,,6,4,0,0,,6,0,,Rio Ave,,2,19.03.2017 21:15,Primeira Liga - Round 26
+455,cat454,1,,34,,,1,,13,,3,2,0,1,,1,2,,Chaves,,2,31.03.2017 20:00,Primeira Liga - Round 27,cat454,2,,66,,,4,,8,,8,2,0,1,,6,2,,Ferreira,,2,31.03.2017 20:00,Primeira Liga - Round 27
+456,cat455,1,,56,,,3,,9,,7,3,0,0,,6,1,,Chaves,,0,31.03.2017 20:00,Primeira Liga - Round 27,cat455,2,,44,,,2,,8,,6,0,0,1,,3,3,,Ferreira,,1,31.03.2017 20:00,Primeira Liga - Round 27
+457,cat456,1,,58,,,0,,11,,10,1,0,0,1,7,3,,Nacional,,4,31.03.2017 22:00,Primeira Liga - Round 27,cat456,2,,42,,,4,,5,,4,2,0,2,0,2,2,,Vitoria Guimaraes,,1,31.03.2017 22:00,Primeira Liga - Round 27
+458,cat457,1,,46,,,1,,9,,6,3,0,0,,5,1,,Nacional,,,31.03.2017 22:00,Primeira Liga - Round 27,cat457,2,,54,,,3,,6,,4,1,1,1,,0,4,,Vitoria Guimaraes,,,31.03.2017 22:00,Primeira Liga - Round 27
+459,cat458,1,,53,,,1,,11,,1,0,0,4,1,1,0,,Tondela,,3,01.04.2017 17:00,Primeira Liga - Round 27,cat458,2,,47,,,0,,10,,2,0,1,2,0,1,1,,Estoril,,1,01.04.2017 17:00,Primeira Liga - Round 27
+460,cat459,1,,59,,,4,,9,,3,0,0,1,,2,1,,Tondela,,2,01.04.2017 17:00,Primeira Liga - Round 27,cat459,2,,41,,,1,,6,,2,1,1,3,,1,1,,Estoril,,0,01.04.2017 17:00,Primeira Liga - Round 27
+461,cat460,1,,53,,,3,,6,,6,2,0,2,,5,1,,Boavista,,0,01.04.2017 19:15,Primeira Liga - Round 27,cat460,2,,47,,,1,,8,,9,1,1,0,,6,3,,Rio Ave,,2,01.04.2017 19:15,Primeira Liga - Round 27
+462,cat461,1,,49,,,3,,6,,4,2,0,1,,3,1,,Boavista,,,01.04.2017 19:15,Primeira Liga - Round 27,cat461,2,,51,,,4,,4,,3,1,0,0,,1,2,,Rio Ave,,,01.04.2017 19:15,Primeira Liga - Round 27
+463,cat462,1,,66,,,5,,4,,12,1,0,0,,7,5,,Benfica,,0,01.04.2017 21:30,Primeira Liga - Round 27,cat462,2,,34,,,1,,11,,4,5,1,2,,2,2,,FC Porto,,3,01.04.2017 21:30,Primeira Liga - Round 27
+464,cat463,1,,44,,,1,,9,,4,1,1,0,,2,2,,Benfica,,0,01.04.2017 21:30,Primeira Liga - Round 27,cat463,2,,56,,,2,,7,,3,1,0,2,,2,1,,FC Porto,,2,01.04.2017 21:30,Primeira Liga - Round 27
+465,cat464,1,,43,,,1,,9,,2,0,0,0,,2,0,,Vitoria Setubal,,2,02.04.2017 17:00,Primeira Liga - Round 27,cat464,2,,57,,,0,,6,,2,0,0,2,,2,0,,Moreirense,,2,02.04.2017 17:00,Primeira Liga - Round 27
+466,cat465,1,,49,,,0,,7,,2,0,2,0,,0,2,,Vitoria Setubal,,,02.04.2017 17:00,Primeira Liga - Round 27,cat465,2,,51,,,0,,14,,6,0,0,0,,6,0,,Moreirense,,,02.04.2017 17:00,Primeira Liga - Round 27
+467,cat466,1,,52,,,5,,8,,8,0,0,2,,4,4,,Belenenses,,2,02.04.2017 17:00,Primeira Liga - Round 27,cat466,2,,48,,,2,,5,,8,4,2,0,,6,2,,Feirense,,2,02.04.2017 17:00,Primeira Liga - Round 27
+468,cat467,1,,54,,,4,,10,,3,1,0,1,,2,1,,Belenenses,,1,02.04.2017 17:00,Primeira Liga - Round 27,cat467,2,,46,,,2,,9,,3,0,0,2,,2,1,,Feirense,,2,02.04.2017 17:00,Primeira Liga - Round 27
+469,cat468,1,,58,,,3,,15,,3,0,0,0,,3,0,,Arouca,,1,02.04.2017 19:00,Primeira Liga - Round 27,cat468,2,,42,,,0,,11,,0,0,0,2,,0,0,,Sporting,,3,02.04.2017 19:00,Primeira Liga - Round 27
+470,cat469,1,,34,,,1,,15,,1,4,1,0,,0,1,,Arouca,,2,02.04.2017 19:00,Primeira Liga - Round 27,cat469,2,,66,,,3,,8,,8,0,2,1,,2,6,,Sporting,,1,02.04.2017 19:00,Primeira Liga - Round 27
+471,cat470,1,,0,,,,,,,,,0,,,,,,Braga,,,02.04.2017 21:15,Primeira Liga - Round 27,cat470,2,,0,,,,,,,,,1,,,,,,Maritimo,,,02.04.2017 21:15,Primeira Liga - Round 27
+472,cat471,1,,52,,,0,,7,,10,2,3,0,,5,5,,Braga,,0,02.04.2017 21:15,Primeira Liga - Round 27,cat471,2,,48,,,3,,12,,7,2,2,1,,3,4,,Maritimo,,1,02.04.2017 21:15,Primeira Liga - Round 27
+473,cat472,1,,53,,,2,,10,,4,2,0,0,,1,3,,Feirense,,3,07.04.2017 21:30,Primeira Liga - Round 28,cat472,2,,47,,,3,,9,,6,3,0,0,,4,2,,Braga,,3,07.04.2017 21:30,Primeira Liga - Round 28
+474,cat473,1,,49,,,2,,11,,3,1,0,0,,3,0,,Feirense,,1,07.04.2017 21:30,Primeira Liga - Round 28,cat473,2,,51,,,2,,13,,7,0,1,0,,5,2,,Braga,,1,07.04.2017 21:30,Primeira Liga - Round 28
+475,cat474,1,,40,,,4,,7,,10,2,0,3,,7,3,,Ferreira,,1,08.04.2017 17:00,Primeira Liga - Round 28,cat474,2,,60,,,3,,9,,9,3,1,1,,6,3,,Arouca,,1,08.04.2017 17:00,Primeira Liga - Round 28
+476,cat475,1,,44,,,2,,6,,3,1,1,1,,0,3,,Ferreira,,,08.04.2017 17:00,Primeira Liga - Round 28,cat475,2,,56,,,2,,9,,1,2,0,0,,0,1,,Arouca,,,08.04.2017 17:00,Primeira Liga - Round 28
+477,cat476,1,,62,,,5,,8,,3,1,1,1,,0,3,,FC Porto,,1,08.04.2017 19:15,Primeira Liga - Round 28,cat476,2,,38,,,0,,8,,1,2,0,2,,0,1,,Belenenses,,0,08.04.2017 19:15,Primeira Liga - Round 28
+478,cat477,1,,62,,,6,,10,,14,0,2,2,,7,7,,Sporting,,0,08.04.2017 21:30,Primeira Liga - Round 28,cat477,2,,38,,,0,,10,,3,5,0,0,,3,0,,Boavista,,1,08.04.2017 21:30,Primeira Liga - Round 28
+479,cat478,1,,56,,,3,,5,,6,1,2,1,,3,3,,Sporting,,0,08.04.2017 21:30,Primeira Liga - Round 28,cat478,2,,44,,,3,,7,,1,1,0,0,,0,1,,Boavista,,1,08.04.2017 21:30,Primeira Liga - Round 28
+480,cat479,1,,55,,,2,,12,,7,3,0,2,1,5,2,,Rio Ave,,3,09.04.2017 17:00,Primeira Liga - Round 28,cat479,2,,45,,,2,,4,,6,2,0,2,0,3,3,,Vitoria Setubal,,2,09.04.2017 17:00,Primeira Liga - Round 28
+481,cat480,1,,59,,,2,,5,,6,0,0,0,,5,1,,Rio Ave,,1,09.04.2017 17:00,Primeira Liga - Round 28,cat480,2,,41,,,1,,10,,1,1,0,0,,1,0,,Vitoria Setubal,,1,09.04.2017 17:00,Primeira Liga - Round 28
+482,cat481,1,,60,,,4,,6,,8,3,0,1,,7,1,,Estoril,,3,09.04.2017 17:00,Primeira Liga - Round 28,cat481,2,,40,,,3,,8,,8,1,1,0,,4,4,,Nacional,,2,09.04.2017 17:00,Primeira Liga - Round 28
+483,cat482,1,,60,,,1,,6,,2,2,0,2,,2,0,,Estoril,,1,09.04.2017 17:00,Primeira Liga - Round 28,cat482,2,,40,,,3,,9,,5,0,0,1,,3,2,,Nacional,,0,09.04.2017 17:00,Primeira Liga - Round 28
+484,cat483,1,,51,,,0,,1,,5,1,0,2,,4,1,,Vitoria Guimaraes,,1,09.04.2017 19:00,Primeira Liga - Round 28,cat483,2,,49,,,1,,10,,8,1,1,2,,6,2,,Tondela,,3,09.04.2017 19:00,Primeira Liga - Round 28
+485,cat484,1,,63,,,1,,12,,12,1,2,4,,8,4,,Vitoria Guimaraes,,,09.04.2017 19:00,Primeira Liga - Round 28,cat484,2,,37,,,8,,8,,8,2,0,0,,7,1,,Tondela,,,09.04.2017 19:00,Primeira Liga - Round 28
+486,cat485,1,,40,,,3,,6,,9,1,0,2,,9,0,,Moreirense,,1,09.04.2017 21:15,Primeira Liga - Round 28,cat485,2,,60,,,1,,9,,6,0,0,0,,5,1,,Benfica,,2,09.04.2017 21:15,Primeira Liga - Round 28
+487,cat486,1,,34,,,0,,11,,3,2,0,4,,3,0,,Moreirense,,2,09.04.2017 21:15,Primeira Liga - Round 28,cat486,2,,66,,,0,,11,,5,0,1,0,,2,3,,Benfica,,2,09.04.2017 21:15,Primeira Liga - Round 28
+488,cat487,1,,40,,,1,,6,,8,4,1,1,,4,4,,Maritimo,,1,10.04.2017 21:00,Primeira Liga - Round 28,cat487,2,,60,,,2,,7,,12,3,1,1,,7,5,,Chaves,,1,10.04.2017 21:00,Primeira Liga - Round 28
+489,cat488,1,,48,,,2,,14,,5,3,1,3,,4,1,,Maritimo,,,10.04.2017 21:00,Primeira Liga - Round 28,cat488,2,,52,,,2,,9,,7,0,0,1,,4,3,,Chaves,,,10.04.2017 21:00,Primeira Liga - Round 28
+490,cat489,1,,41,,,0,,9,,3,2,0,0,,2,1,,Boavista,,2,14.04.2017 17:00,Primeira Liga - Round 29,cat489,2,,59,,,2,,8,,8,1,0,1,,6,2,,Ferreira,,0,14.04.2017 17:00,Primeira Liga - Round 29
+491,cat490,1,,41,,,2,,11,,4,1,0,0,1,3,1,,Boavista,,3,14.04.2017 17:00,Primeira Liga - Round 29,cat490,2,,59,,,2,,11,,5,1,0,2,0,4,1,,Ferreira,,1,14.04.2017 17:00,Primeira Liga - Round 29
+492,cat491,1,,64,,,4,,13,,4,4,0,1,1,2,2,,Belenenses,,3,14.04.2017 17:00,Primeira Liga - Round 29,cat491,2,,36,,,0,,6,,9,2,1,2,0,4,5,,Estoril,,1,14.04.2017 17:00,Primeira Liga - Round 29
+493,cat492,1,,48,,,4,,7,,9,3,1,0,,8,1,,Belenenses,,1,14.04.2017 17:00,Primeira Liga - Round 29,cat492,2,,52,,,1,,5,,7,0,2,0,,2,5,,Estoril,,3,14.04.2017 17:00,Primeira Liga - Round 29
+494,cat493,1,,49,,,4,,13,,6,1,0,1,,6,0,,Benfica,,,14.04.2017 19:15,Primeira Liga - Round 29,cat493,2,,51,,,2,,8,,2,0,0,3,,1,1,,Maritimo,,,14.04.2017 19:15,Primeira Liga - Round 29
+495,cat494,1,,71,,,4,,9,,10,0,3,2,,3,7,,Benfica,,,14.04.2017 19:15,Primeira Liga - Round 29,cat494,2,,29,,,3,,4,,2,4,0,2,,2,0,,Maritimo,,,14.04.2017 19:15,Primeira Liga - Round 29
+496,cat495,1,,41,,,0,,7,,3,1,0,3,,0,3,,Vitoria Setubal,,1,14.04.2017 21:30,Primeira Liga - Round 29,cat495,2,,59,,,2,,10,,6,3,2,0,,3,3,,Sporting,,1,14.04.2017 21:30,Primeira Liga - Round 29
+497,cat496,1,,51,,,6,,11,,3,1,0,3,,3,0,,Vitoria Setubal,,2,14.04.2017 21:30,Primeira Liga - Round 29,cat496,2,,49,,,0,,11,,4,0,1,0,,2,2,,Sporting,,2,14.04.2017 21:30,Primeira Liga - Round 29
+498,cat497,1,,61,,,8,,5,,16,1,2,2,,8,8,,Chaves,,1,15.04.2017 17:00,Primeira Liga - Round 29,cat497,2,,39,,,0,,6,,1,6,0,1,,0,1,,Vitoria Guimaraes,,0,15.04.2017 17:00,Primeira Liga - Round 29
+499,cat498,1,,63,,,4,,5,,13,1,0,0,,10,3,,Chaves,,1,15.04.2017 17:00,Primeira Liga - Round 29,cat498,2,,37,,,0,,6,,4,3,3,1,,0,4,,Vitoria Guimaraes,,1,15.04.2017 17:00,Primeira Liga - Round 29
+500,cat499,1,,32,,,0,,10,,4,1,1,1,,2,2,,Arouca,,1,15.04.2017 17:00,Primeira Liga - Round 29,cat499,2,,68,,,6,,9,,7,1,0,1,,6,1,,Feirense,,1,15.04.2017 17:00,Primeira Liga - Round 29
+501,cat500,1,,54,,,1,,14,,1,0,1,0,,0,1,,Arouca,,1,15.04.2017 17:00,Primeira Liga - Round 29,cat500,2,,46,,,2,,8,,0,0,0,1,,0,0,,Feirense,,2,15.04.2017 17:00,Primeira Liga - Round 29
+502,cat501,1,,49,,,5,,11,,8,3,1,1,,5,3,,Tondela,,1,15.04.2017 19:15,Primeira Liga - Round 29,cat501,2,,51,,,3,,7,,8,2,0,0,,5,3,,Rio Ave,,0,15.04.2017 19:15,Primeira Liga - Round 29
+503,cat502,1,,45,,,4,,10,,6,2,1,2,0,4,2,,Tondela,,1,15.04.2017 19:15,Primeira Liga - Round 29,cat502,2,,55,,,3,,3,,5,1,1,1,1,2,3,,Rio Ave,,0,15.04.2017 19:15,Primeira Liga - Round 29
+504,cat503,1,,32,,,1,,14,,0,2,0,1,0,0,0,,Braga,,3,15.04.2017 21:30,Primeira Liga - Round 29,cat503,2,,68,,,6,,11,,13,0,1,1,1,10,3,,FC Porto,,4,15.04.2017 21:30,Primeira Liga - Round 29
+505,cat504,1,,44,,,0,,20,,5,2,1,0,,1,4,,Braga,,2,15.04.2017 21:30,Primeira Liga - Round 29,cat504,2,,56,,,1,,10,,3,3,0,0,,1,2,,FC Porto,,1,15.04.2017 21:30,Primeira Liga - Round 29
+506,cat505,1,,53,,,4,,4,,9,1,0,0,,5,4,,Nacional,,2,17.04.2017 21:00,Primeira Liga - Round 29,cat505,2,,47,,,7,,2,,4,4,0,1,,3,1,,Moreirense,,1,17.04.2017 21:00,Primeira Liga - Round 29
+507,cat506,1,,68,,,4,,5,,2,2,0,1,,2,0,,Nacional,,,17.04.2017 21:00,Primeira Liga - Round 29,cat506,2,,32,,,3,,10,,6,0,1,1,,3,3,,Moreirense,,,17.04.2017 21:00,Primeira Liga - Round 29
+508,cat507,1,,51,,,1,,7,,4,0,1,6,,1,3,,Rio Ave,,3,21.04.2017 21:30,Primeira Liga - Round 30,cat507,2,,49,,,2,,5,,2,2,0,1,,3,0,,Arouca,,2,21.04.2017 21:30,Primeira Liga - Round 30
+509,cat508,1,,49,,,1,,10,,4,1,2,5,,3,1,,Rio Ave,,1,21.04.2017 21:30,Primeira Liga - Round 30,cat508,2,,51,,,0,,7,,4,0,0,0,,3,1,,Arouca,,1,21.04.2017 21:30,Primeira Liga - Round 30
+510,cat509,1,,37,,,1,,5,16,5,2,2,2,,3,2,,Tondela,,1,22.04.2017 17:00,Primeira Liga - Round 30,cat509,2,,63,,,6,,9,13,5,0,0,0,,3,2,,Nacional,,2,22.04.2017 17:00,Primeira Liga - Round 30
+511,cat510,1,,47,,,4,,6,,9,1,0,0,,3,6,,Tondela,,,22.04.2017 17:00,Primeira Liga - Round 30,cat510,2,,53,,,2,,8,,2,6,0,0,,1,1,,Nacional,,,22.04.2017 17:00,Primeira Liga - Round 30
+512,cat511,1,,45,,,3,,7,22,8,0,0,0,,5,3,,Maritimo,,1,22.04.2017 17:00,Primeira Liga - Round 30,cat511,2,,55,,,1,,9,23,2,1,0,3,,2,0,,Belenenses,,0,22.04.2017 17:00,Primeira Liga - Round 30
+513,cat512,1,,47,,,2,,13,,3,1,2,2,,1,2,,Maritimo,,3,22.04.2017 17:00,Primeira Liga - Round 30,cat512,2,,53,,,2,,10,,5,1,0,0,,4,1,,Belenenses,,2,22.04.2017 17:00,Primeira Liga - Round 30
+514,cat513,1,,39,,,1,,9,13,4,2,1,0,,1,3,,Estoril,,1,22.04.2017 19:15,Primeira Liga - Round 30,cat513,2,,61,,,7,,5,17,6,2,0,3,,4,2,,Vitoria Setubal,,1,22.04.2017 19:15,Primeira Liga - Round 30
+515,cat514,1,,49,,,2,,9,,5,3,2,0,,3,2,,Estoril,,2,22.04.2017 19:15,Primeira Liga - Round 30,cat514,2,,51,,,3,,3,,8,0,0,1,,5,3,,Vitoria Setubal,,3,22.04.2017 19:15,Primeira Liga - Round 30
+516,cat515,1,,56,,,2,,12,27,3,1,0,1,,3,0,,Sporting,,1,22.04.2017 21:30,Primeira Liga - Round 30,cat515,2,,44,,,0,,14,30,4,0,1,2,,2,2,,Benfica,,3,22.04.2017 21:30,Primeira Liga - Round 30
+517,cat516,1,,44,,,1,,13,,3,1,1,4,,2,1,,Sporting,,,22.04.2017 21:30,Primeira Liga - Round 30,cat516,2,,56,,,3,,9,,3,0,0,3,,2,1,,Benfica,,,22.04.2017 21:30,Primeira Liga - Round 30
+518,cat517,1,,47,,,2,,9,,7,1,2,1,,3,4,,Ferreira,,0,23.04.2017 17:00,Primeira Liga - Round 30,cat517,2,,53,,,1,,7,,7,2,1,1,,5,2,,Braga,,1,23.04.2017 17:00,Primeira Liga - Round 30
+519,cat518,1,,49,,,0,,10,,7,1,1,0,,5,2,,Ferreira,,1,23.04.2017 17:00,Primeira Liga - Round 30,cat518,2,,51,,,2,,9,,4,1,0,0,,3,1,,Braga,,0,23.04.2017 17:00,Primeira Liga - Round 30
+520,cat519,1,,55,,,5,,5,,9,1,1,1,,5,4,,Vitoria Guimaraes,,0,23.04.2017 19:00,Primeira Liga - Round 30,cat519,2,,45,,,4,,8,,4,3,0,0,,3,1,,Boavista,,1,23.04.2017 19:00,Primeira Liga - Round 30
+521,cat520,1,,65,,,4,,3,,9,1,1,0,,6,3,,Vitoria Guimaraes,,2,23.04.2017 19:00,Primeira Liga - Round 30,cat520,2,,35,,,2,,10,,6,2,0,0,,5,1,,Boavista,,2,23.04.2017 19:00,Primeira Liga - Round 30
+522,cat521,1,,72,,,5,,9,,17,0,0,0,,13,4,,FC Porto,,0,23.04.2017 21:15,Primeira Liga - Round 30,cat521,2,,28,,,1,,11,,1,4,0,0,,1,0,,Feirense,,5,23.04.2017 21:15,Primeira Liga - Round 30
+523,cat522,1,,64,,,6,,10,,9,2,0,1,,4,5,,FC Porto,,,23.04.2017 21:15,Primeira Liga - Round 30,cat522,2,,36,,,1,,12,,3,5,0,0,,1,2,,Feirense,,,23.04.2017 21:15,Primeira Liga - Round 30
+524,cat523,1,,51,,,0,,6,,6,2,0,3,,5,1,,Moreirense,,2,24.04.2017 21:00,Primeira Liga - Round 30,cat523,2,,49,,,0,,9,,4,1,0,0,,2,2,,Chaves,,2,24.04.2017 21:00,Primeira Liga - Round 30
+525,cat524,1,,51,,,1,,10,,8,1,0,2,,3,5,,Moreirense,,1,24.04.2017 21:00,Primeira Liga - Round 30,cat524,2,,49,,,0,,8,,3,5,0,0,,2,1,,Chaves,,0,24.04.2017 21:00,Primeira Liga - Round 30
+526,cat525,1,,56,,,2,,6,17,5,2,0,0,,4,1,,Vitoria Setubal,,0,28.04.2017 21:30,Primeira Liga - Round 31,cat525,2,,44,,,1,,11,17,6,1,2,2,,2,4,,Vitoria Guimaraes,,1,28.04.2017 21:30,Primeira Liga - Round 31
+527,cat526,1,,58,,,2,,11,,8,2,0,0,,6,2,,Vitoria Setubal,,,28.04.2017 21:30,Primeira Liga - Round 31,cat526,2,,42,,,1,,4,,4,2,0,0,,2,2,,Vitoria Guimaraes,,,28.04.2017 21:30,Primeira Liga - Round 31
+528,cat527,1,,41,,,5,,6,,14,4,0,5,,7,7,,Nacional,,4,29.04.2017 17:00,Primeira Liga - Round 31,cat527,2,,59,,,4,,2,,10,7,2,0,,4,6,,Rio Ave,,0,29.04.2017 17:00,Primeira Liga - Round 31
+529,cat528,1,,45,,,5,,10,,4,3,0,1,,2,2,,Nacional,,,29.04.2017 17:00,Primeira Liga - Round 31,cat528,2,,55,,,2,,7,,6,2,0,2,,3,3,,Rio Ave,,,29.04.2017 17:00,Primeira Liga - Round 31
+530,cat529,1,,55,0,,4,,13,,8,1,1,2,,3,5,,Boavista,,1,29.04.2017 17:00,Primeira Liga - Round 31,cat529,2,,45,0,,2,,16,,2,4,0,0,,1,1,,Tondela,,3,29.04.2017 17:00,Primeira Liga - Round 31
+531,cat530,1,,59,,,4,,11,,9,0,0,2,,5,4,,Boavista,,,29.04.2017 17:00,Primeira Liga - Round 31,cat530,2,,41,,,0,,8,,1,4,0,1,,1,0,,Tondela,,,29.04.2017 17:00,Primeira Liga - Round 31
+532,cat531,1,,48,,,0,,10,,5,4,1,1,,4,1,,Benfica,,0,29.04.2017 19:15,Primeira Liga - Round 31,cat531,2,,52,,,5,,7,,8,0,1,2,,3,5,,Estoril,,1,29.04.2017 19:15,Primeira Liga - Round 31
+533,cat532,1,,66,,,4,,9,,6,0,1,0,,4,2,,Benfica,,1,29.04.2017 19:15,Primeira Liga - Round 31,cat532,2,,34,,,2,,5,,3,1,0,5,,3,0,,Estoril,,1,29.04.2017 19:15,Primeira Liga - Round 31
+534,cat533,1,,42,,,0,,12,,7,4,0,1,0,6,1,,Chaves,,3,29.04.2017 21:30,Primeira Liga - Round 31,cat533,2,,58,,,2,,5,,11,1,2,0,1,5,6,,FC Porto,,0,29.04.2017 21:30,Primeira Liga - Round 31
+535,cat534,1,,48,,,1,,7,,3,3,0,0,,2,1,,Chaves,,2,29.04.2017 21:30,Primeira Liga - Round 31,cat534,2,,52,,,3,,8,,7,1,0,1,,4,3,,FC Porto,,1,29.04.2017 21:30,Primeira Liga - Round 31
+536,cat535,1,,31,,,2,,10,,2,3,0,0,,1,1,,Feirense,,2,30.04.2017 17:00,Primeira Liga - Round 31,cat535,2,,69,,,3,,8,,7,1,0,1,,4,3,,Maritimo,,2,30.04.2017 17:00,Primeira Liga - Round 31
+537,cat536,1,,54,,,2,,11,,3,1,2,0,1,0,3,,Feirense,,3,30.04.2017 17:00,Primeira Liga - Round 31,cat536,2,,46,,,1,,9,,6,1,1,0,0,4,2,,Maritimo,,1,30.04.2017 17:00,Primeira Liga - Round 31
+538,cat537,1,,56,,,4,,13,,2,2,0,0,,2,0,,Arouca,,0,30.04.2017 17:00,Primeira Liga - Round 31,cat537,2,,44,,,2,,6,,6,0,2,4,,2,4,,Moreirense,,1,30.04.2017 17:00,Primeira Liga - Round 31
+539,cat538,1,,58,,,1,,7,,5,2,2,0,,3,2,,Arouca,,1,30.04.2017 17:00,Primeira Liga - Round 31,cat538,2,,42,,,2,,7,,4,0,0,1,,2,2,,Moreirense,,1,30.04.2017 17:00,Primeira Liga - Round 31
+540,cat539,1,,51,,,3,,8,,7,2,1,0,,2,5,,Braga,,2,30.04.2017 19:00,Primeira Liga - Round 31,cat539,2,,49,,,0,,16,,7,4,3,0,,2,5,,Sporting,,6,30.04.2017 19:00,Primeira Liga - Round 31
+541,cat540,1,,38,,,1,,9,,5,3,1,1,,2,3,,Braga,,2,30.04.2017 19:00,Primeira Liga - Round 31,cat540,2,,62,,,8,,8,,7,2,0,1,,4,3,,Sporting,,0,30.04.2017 19:00,Primeira Liga - Round 31
+542,cat541,1,,57,,,3,,10,,8,1,1,2,,5,3,,Belenenses,,1,30.04.2017 21:15,Primeira Liga - Round 31,cat541,2,,43,,,1,,8,,3,2,2,0,,0,3,,Ferreira,,1,30.04.2017 21:15,Primeira Liga - Round 31
+543,cat542,1,,47,,,2,,4,,4,1,0,0,,2,2,,Belenenses,,,30.04.2017 21:15,Primeira Liga - Round 31,cat542,2,,53,,,1,,11,,4,2,0,1,,3,1,,Ferreira,,,30.04.2017 21:15,Primeira Liga - Round 31
+544,cat543,1,,60,,,5,,13,20,14,1,2,1,,10,4,,Moreirense,,3,05.05.2017 21:30,Primeira Liga - Round 32,cat543,2,,40,,,0,,8,21,3,2,0,2,,2,1,,Braga,,1,05.05.2017 21:30,Primeira Liga - Round 32
+545,cat544,1,,48,,,3,,8,,8,1,0,0,0,4,4,,Moreirense,,0,05.05.2017 21:30,Primeira Liga - Round 32,cat544,2,,52,,,0,,10,,4,4,1,0,1,2,2,,Braga,,3,05.05.2017 21:30,Primeira Liga - Round 32
+546,cat545,1,,39,,,0,,7,14,3,2,0,1,,2,1,,Boavista,,1,06.05.2017 17:00,Primeira Liga - Round 32,cat545,2,,61,,,9,,7,18,6,1,0,0,,4,2,,Nacional,,1,06.05.2017 17:00,Primeira Liga - Round 32
+547,cat546,1,,45,,,2,,7,,5,0,2,2,,3,2,,Boavista,,0,06.05.2017 17:00,Primeira Liga - Round 32,cat546,2,,55,,,2,,8,,6,0,2,0,,4,2,,Nacional,,2,06.05.2017 17:00,Primeira Liga - Round 32
+548,cat547,1,,62,,,5,,7,18,6,2,0,1,1,4,2,,Ferreira,,1,06.05.2017 19:15,Primeira Liga - Round 32,cat547,2,,38,,,4,,11,20,8,2,1,0,1,5,3,,Feirense,,2,06.05.2017 19:15,Primeira Liga - Round 32
+549,cat548,1,,52,,,2,,11,,6,1,0,1,,3,3,,Ferreira,,0,06.05.2017 19:15,Primeira Liga - Round 32,cat548,2,,48,,,2,,8,,6,3,0,0,,5,1,,Feirense,,1,06.05.2017 19:15,Primeira Liga - Round 32
+550,cat549,1,,47,,,1,,8,22,6,1,1,0,,5,1,,Maritimo,,2,06.05.2017 21:30,Primeira Liga - Round 32,cat549,2,,53,,,2,,10,18,7,0,0,0,,6,1,,FC Porto,,1,06.05.2017 21:30,Primeira Liga - Round 32
+551,cat550,1,,49,,,0,,10,,2,1,0,0,,2,0,,Maritimo,,,06.05.2017 21:30,Primeira Liga - Round 32,cat550,2,,51,,,2,,10,,6,0,1,1,,4,2,,FC Porto,,,06.05.2017 21:30,Primeira Liga - Round 32
+552,cat551,1,,64,,,0,,9,21,7,0,1,4,,5,2,,Sporting,,,07.05.2017 12:45,Primeira Liga - Round 32,cat551,2,,36,,,1,,6,24,5,1,3,4,,2,3,,Belenenses,,,07.05.2017 12:45,Primeira Liga - Round 32
+553,cat552,1,,64,,,3,,12,,1,1,0,0,,1,0,,Sporting,,,07.05.2017 12:45,Primeira Liga - Round 32,cat552,2,,36,,,1,,9,,3,0,0,2,,2,1,,Belenenses,,,07.05.2017 12:45,Primeira Liga - Round 32
+554,cat553,1,,35,,,1,,13,17,1,3,0,0,1,0,1,,Tondela,,2,07.05.2017 17:00,Primeira Liga - Round 32,cat553,2,,65,,,3,,7,21,11,1,1,0,0,7,4,,Vitoria Setubal,,1,07.05.2017 17:00,Primeira Liga - Round 32
+555,cat554,1,,39,,,2,,7,,6,1,2,1,,4,2,,Tondela,,0,07.05.2017 17:00,Primeira Liga - Round 32,cat554,2,,61,,,1,,10,,4,0,0,1,,3,1,,Vitoria Setubal,,2,07.05.2017 17:00,Primeira Liga - Round 32
+556,cat555,1,,58,,,5,,4,17,9,1,1,3,,7,2,,Vitoria Guimaraes,,0,07.05.2017 19:00,Primeira Liga - Round 32,cat555,2,,42,,,3,,7,18,5,1,0,0,,4,1,,Arouca,,1,07.05.2017 19:00,Primeira Liga - Round 32
+557,cat556,1,,64,,,3,,6,,5,1,0,5,,4,1,,Vitoria Guimaraes,,1,07.05.2017 19:00,Primeira Liga - Round 32,cat556,2,,36,,,2,,7,,3,1,0,2,,2,1,,Arouca,,1,07.05.2017 19:00,Primeira Liga - Round 32
+558,cat557,1,,52,,,2,,7,19,7,3,0,0,,6,1,,Rio Ave,,2,07.05.2017 21:15,Primeira Liga - Round 32,cat557,2,,48,,,2,,7,16,8,1,1,1,,4,4,,Benfica,,1,07.05.2017 21:15,Primeira Liga - Round 32
+559,cat558,1,,52,,,2,,7,,2,4,0,2,,1,1,,Rio Ave,,,07.05.2017 21:15,Primeira Liga - Round 32,cat558,2,,48,,,3,,11,,7,1,0,0,,3,4,,Benfica,,,07.05.2017 21:15,Primeira Liga - Round 32
+560,cat559,1,,54,,,1,,5,21,10,2,2,1,0,5,5,,Estoril,,2,08.05.2017 21:00,Primeira Liga - Round 32,cat559,2,,46,,,3,,13,15,4,3,0,1,1,2,2,,Chaves,,0,08.05.2017 21:00,Primeira Liga - Round 32
+561,cat560,1,,54,,,4,,9,,4,0,0,0,,2,2,,Estoril,,1,08.05.2017 21:00,Primeira Liga - Round 32,cat560,2,,46,,,3,,6,,3,2,1,1,,2,1,,Chaves,,0,08.05.2017 21:00,Primeira Liga - Round 32
+562,cat561,1,,56,,,2,,8,12,9,0,0,1,0,7,2,,Belenenses,,1,12.05.2017 21:30,Primeira Liga - Round 33,cat561,2,,44,,,0,,5,11,5,2,1,2,1,4,1,,Moreirense,,2,12.05.2017 21:30,Primeira Liga - Round 33
+563,cat562,1,,46,,,1,,2,,5,1,1,0,,3,2,,Belenenses,,,12.05.2017 21:30,Primeira Liga - Round 33,cat562,2,,54,,,4,,4,,3,1,0,2,,2,1,,Moreirense,,,12.05.2017 21:30,Primeira Liga - Round 33
+564,cat563,1,,36,,,2,,13,,7,0,0,0,,6,1,,Arouca,,3,13.05.2017 17:00,Primeira Liga - Round 33,cat563,2,,64,,,1,,5,,3,1,1,0,,2,1,,Tondela,,2,13.05.2017 17:00,Primeira Liga - Round 33
+565,cat564,1,,56,,,1,,8,,5,1,1,0,,3,2,,Arouca,,1,13.05.2017 17:00,Primeira Liga - Round 33,cat564,2,,44,,,4,,6,,4,1,1,2,,2,2,,Tondela,,0,13.05.2017 17:00,Primeira Liga - Round 33
+566,cat565,1,,67,,,3,,7,,16,0,1,1,,9,7,,Benfica,,2,13.05.2017 19:15,Primeira Liga - Round 33,cat565,2,,33,,,1,,6,,2,6,0,0,,2,0,,Vitoria Guimaraes,,2,13.05.2017 19:15,Primeira Liga - Round 33
+567,cat566,1,,59,,,1,,6,,10,0,4,1,,4,6,,Benfica,,1,13.05.2017 19:15,Primeira Liga - Round 33,cat566,2,,41,,,0,,5,,1,2,0,1,,1,0,,Vitoria Guimaraes,,1,13.05.2017 19:15,Primeira Liga - Round 33
+568,cat567,1,,31,,,2,,10,,5,3,0,1,,3,2,,Feirense,,2,13.05.2017 21:30,Primeira Liga - Round 33,cat567,2,,69,,,5,,12,,6,1,0,1,,3,3,,Sporting,,5,13.05.2017 21:30,Primeira Liga - Round 33
+569,cat568,1,,29,,,1,,10,,7,4,1,3,,4,3,,Feirense,,,13.05.2017 21:30,Primeira Liga - Round 33,cat568,2,,71,,,1,,7,,6,2,1,1,,1,5,,Sporting,,,13.05.2017 21:30,Primeira Liga - Round 33
+570,cat569,1,,46,,,2,,13,,2,3,0,0,1,1,1,,Maritimo,,4,14.05.2017 17:00,Primeira Liga - Round 33,cat569,2,,54,,,0,,13,,5,0,0,1,0,1,4,,Estoril,,3,14.05.2017 17:00,Primeira Liga - Round 33
+571,cat570,1,,52,,,3,,7,,6,5,0,1,,5,1,,Maritimo,,1,14.05.2017 17:00,Primeira Liga - Round 33,cat570,2,,48,,,0,,12,,6,1,0,2,,1,5,,Estoril,,0,14.05.2017 17:00,Primeira Liga - Round 33
+572,cat571,1,,43,,,1,,6,,7,0,1,1,,4,3,,Chaves,,1,14.05.2017 17:00,Primeira Liga - Round 33,cat571,2,,57,,,6,,8,,6,2,2,0,,4,2,,Rio Ave,,2,14.05.2017 17:00,Primeira Liga - Round 33
+573,cat572,1,,39,,,4,,16,,5,0,1,0,,3,2,,Chaves,,3,14.05.2017 17:00,Primeira Liga - Round 33,cat572,2,,61,,,2,,6,,6,1,0,0,,6,0,,Rio Ave,,1,14.05.2017 17:00,Primeira Liga - Round 33
+574,cat573,1,,55,,,1,,7,,8,2,2,2,,6,2,,FC Porto,,1,14.05.2017 19:00,Primeira Liga - Round 33,cat573,2,,45,,,2,,4,,4,0,0,1,,2,2,,Ferreira,,1,14.05.2017 19:00,Primeira Liga - Round 33
+575,cat574,1,,64,,,6,,6,,10,0,2,0,,7,3,,FC Porto,,1,14.05.2017 19:00,Primeira Liga - Round 33,cat574,2,,36,,,1,,13,,4,1,1,0,,3,1,,Ferreira,,1,14.05.2017 19:00,Primeira Liga - Round 33
+576,cat575,1,,47,,,2,,10,,8,1,1,1,,6,2,,Braga,,1,14.05.2017 21:15,Primeira Liga - Round 33,cat575,2,,53,,,5,,5,,8,1,0,0,,7,1,,Nacional,,2,14.05.2017 21:15,Primeira Liga - Round 33
+577,cat576,1,,49,,,0,,8,,6,1,3,4,,2,4,,Braga,,1,14.05.2017 21:15,Primeira Liga - Round 33,cat576,2,,51,,,4,,8,,7,1,0,1,,6,1,,Nacional,,1,14.05.2017 21:15,Primeira Liga - Round 33
+578,cat577,1,,67,,,5,,7,,6,0,0,0,0,5,1,,Vitoria Setubal,,1,15.05.2017 21:00,Primeira Liga - Round 33,cat577,2,,33,,,1,,9,,2,1,0,1,1,2,0,,Boavista,,3,15.05.2017 21:00,Primeira Liga - Round 33
+579,cat578,1,,52,,,3,,8,,5,0,0,0,,5,0,,Vitoria Setubal,,1,15.05.2017 21:00,Primeira Liga - Round 33,cat578,2,,48,,,2,,11,,2,0,1,3,,1,1,,Boavista,,2,15.05.2017 21:00,Primeira Liga - Round 33
+580,cat579,1,,44,,,1,,8,19,5,2,1,0,,2,3,,Rio Ave,,1,20.05.2017 17:00,Primeira Liga - Round 34,cat579,2,,56,,,2,,9,13,6,2,0,1,,4,2,,Belenenses,,2,20.05.2017 17:00,Primeira Liga - Round 34
+581,cat580,1,,56,,,2,,5,,6,1,1,0,,4,2,,Rio Ave,,,20.05.2017 17:00,Primeira Liga - Round 34,cat580,2,,44,,,1,,6,,3,1,0,2,,2,1,,Belenenses,,,20.05.2017 17:00,Primeira Liga - Round 34
+582,cat581,1,,56,,,3,,9,13,6,2,1,0,,4,2,,Nacional,,1,20.05.2017 17:00,Primeira Liga - Round 34,cat581,2,,44,,,3,,6,14,4,1,2,0,,0,4,,Vitoria Setubal,,0,20.05.2017 17:00,Primeira Liga - Round 34
+583,cat582,1,,44,,,0,,5,,2,3,0,0,,2,0,,Nacional,,,20.05.2017 17:00,Primeira Liga - Round 34,cat582,2,,56,,,7,,7,,9,0,0,1,,6,3,,Vitoria Setubal,,,20.05.2017 17:00,Primeira Liga - Round 34
+584,cat583,1,,47,,,2,,15,,3,0,0,0,,2,1,,Ferreira,,0,20.05.2017 17:00,Primeira Liga - Round 34,cat583,2,,53,,,1,,5,,5,1,0,0,,5,0,,Maritimo,,1,20.05.2017 17:00,Primeira Liga - Round 34
+585,cat584,1,,63,,,2,,11,,9,1,0,1,,6,3,,Ferreira,,0,20.05.2017 17:00,Primeira Liga - Round 34,cat584,2,,37,,,1,,8,,2,3,0,0,,1,1,,Maritimo,,1,20.05.2017 17:00,Primeira Liga - Round 34
+586,cat585,1,,63,,,4,,8,19,6,2,0,2,,4,2,,Vitoria Guimaraes,,,20.05.2017 19:15,Primeira Liga - Round 34,cat585,2,,37,,,4,,6,20,7,2,1,0,,4,3,,Feirense,,,20.05.2017 19:15,Primeira Liga - Round 34
+587,cat586,1,,63,,,0,,9,,4,0,0,0,,2,2,,Vitoria Guimaraes,,2,20.05.2017 19:15,Primeira Liga - Round 34,cat586,2,,37,,,1,,13,,4,2,0,0,,4,0,,Feirense,,0,20.05.2017 19:15,Primeira Liga - Round 34
+588,cat587,1,,36,,,1,,10,11,5,0,0,2,,3,2,,Boavista,,2,20.05.2017 21:30,Primeira Liga - Round 34,cat587,2,,64,,,2,,4,19,8,1,0,0,,6,2,,Benfica,,2,20.05.2017 21:30,Primeira Liga - Round 34
+589,cat588,1,,42,,,1,,6,,6,0,1,1,,5,1,,Boavista,,0,20.05.2017 21:30,Primeira Liga - Round 34,cat588,2,,58,,,3,,7,,4,0,0,0,,4,0,,Benfica,,2,20.05.2017 21:30,Primeira Liga - Round 34
+590,cat589,1,,44,,,3,,10,,6,3,1,1,,3,3,,Tondela,,3,21.05.2017 19:00,Primeira Liga - Round 34,cat589,2,,56,,,2,,7,,9,2,0,1,,6,3,,Braga,,0,21.05.2017 19:00,Primeira Liga - Round 34
+591,cat590,1,,42,,,1,,9,,6,0,1,0,,2,4,,Tondela,,1,21.05.2017 19:00,Primeira Liga - Round 34,cat590,2,,58,,,2,,7,,3,3,0,0,,3,0,,Braga,,0,21.05.2017 19:00,Primeira Liga - Round 34
+592,cat591,1,,32,,,2,,6,,6,4,1,0,,2,4,,Moreirense,,3,21.05.2017 19:00,Primeira Liga - Round 34,cat591,2,,68,,,2,,3,,9,3,1,0,,4,5,,FC Porto,,1,21.05.2017 19:00,Primeira Liga - Round 34
+593,cat592,1,,34,,,1,,9,,3,2,2,0,,0,3,,Moreirense,,1,21.05.2017 19:00,Primeira Liga - Round 34,cat592,2,,66,,,2,,3,,4,1,0,1,,2,2,,FC Porto,,0,21.05.2017 19:00,Primeira Liga - Round 34
+594,cat593,1,,66,,,5,,9,,8,0,1,1,,4,4,,Estoril,,2,21.05.2017 19:00,Primeira Liga - Round 34,cat593,2,,34,,,1,,9,,2,3,0,0,,2,0,,Arouca,,4,21.05.2017 19:00,Primeira Liga - Round 34
+595,cat594,1,,58,,,0,,9,,7,0,3,0,0,2,5,,Estoril,,1,21.05.2017 19:00,Primeira Liga - Round 34,cat594,2,,42,,,1,,9,,5,2,2,0,1,3,2,,Arouca,,1,21.05.2017 19:00,Primeira Liga - Round 34
+596,cat595,1,,55,,,1,,5,,4,3,1,2,,1,3,,Sporting,,3,21.05.2017 21:15,Primeira Liga - Round 34,cat595,2,,45,,,3,,10,,10,2,1,0,,6,4,,Chaves,,3,21.05.2017 21:15,Primeira Liga - Round 34
+597,cat596,1,,65,,,3,,9,,7,1,3,1,,1,6,,Sporting,,1,21.05.2017 21:15,Primeira Liga - Round 34,cat596,2,,35,,,0,,7,,2,3,0,1,,1,1,,Chaves,,0,21.05.2017 21:15,Primeira Liga - Round 34
