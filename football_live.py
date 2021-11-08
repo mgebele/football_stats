@@ -4,9 +4,6 @@
 import glob
 import pandas as pd
 import numpy as np
-import MySQLdb
-import mysql.connector
-import pandas.io.sql as psql
 import re
 import plotly_express as px
 import datetime
