@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 global teamnamedict
 # C:\Users\mg\JupyterLabDir\Rest\Pr Winning\teamnamedict_streamlit.json
-with open('{}\\Rest\\Pr Winning\\teamnamedict_streamlit.json'.format(os.getcwd().split("JupyterLabDir")[0] + "JupyterLabDir\\")) as f:
+with open('teamnamedict_streamlit.json') as f:
     teamnamedict = json.load(f)
 
 # def _max_width_():
