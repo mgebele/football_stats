@@ -48,7 +48,7 @@ tables = list(glob.glob("htdatan/*"))
 global saissons
 saissons = []
 for x in range(0, len(tables)):
-    saissons.append(tables[x].split("\\")[1])
+    saissons.append(tables[x].split("/")[1])
 
 print(saissons)
 global saison
