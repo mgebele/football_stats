@@ -42,7 +42,7 @@ heightfig = 500
 
 # get all the gamestatistics from in dropdown specified league and season
 # setup the database connection.  There's no need to setup cursors with pandas psql.
-tables = list(glob.glob("/htdatan/*"))
+tables = list(glob.glob("htdatan/*"))
 
 # take only the 0 part of the every list entry
 global saissons
