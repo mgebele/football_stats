@@ -42,13 +42,13 @@ heightfig = 500
 
 # get all the gamestatistics from in dropdown specified league and season
 # setup the database connection.  There's no need to setup cursors with pandas psql.
-tables = list(glob.glob("htdatan/*"))
+tables = list(glob.glob("/htdatan/*"))
 
 # take only the 0 part of the every list entry
 global saissons
 saissons = []
 for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
-    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
+    saissons.append(tables[x].split("/")[1].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
@@ -134,7 +134,6 @@ def process_team_names_of_df(x_df):
 
 
 def convert_hts_to_complete_games(df):
-
     # fill nane values of these not numeric columns
     df[['FK-H', 'FK-A']].fillna(0)
     # convert not numeric columns to numeric columns
