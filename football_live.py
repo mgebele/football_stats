@@ -47,16 +47,58 @@ tables = list(glob.glob("htdatan/*"))
 # take only the 0 part of the every list entry
 global saissons
 saissons = []
-for x in range(0, len(tables)):
-    saissons.append(tables[x].split("/")[1])
+for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
+    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
 
-print(saissons)
+
+cleaned_names_saissons = []
+for saisson in saissons:
+    saisson = saisson.replace("_", " ")
+    saisson = saisson.replace(".csv", "")
+    # saison = saison.strip()
+    cleaned_names_saissons.append(saisson)
+
+# map league shortcuts to real names:
+shortcut_league_dict = {
+    "ll": "La-Liga",
+    "pl": "Premier-League",
+    "sa": "Serie-A",
+    "pl": "Premier-League",
+    "l1": "League-1",
+    "b": "Bundesliga",
+}
+# list(map(cleaned_names_saissons, shortcut_league_dict) )
+cleaned_names_saissons = [e.replace(
+    key, val) for e in cleaned_names_saissons for key, val in shortcut_league_dict.items() if key in e]
+
+# sort list by int substring
+cleaned_names_saissons = sorted(cleaned_names_saissons, key=lambda x: int(
+    x.split(" ")[-1]), reverse=True)
+
 global saison
-saison = st.sidebar.selectbox("Saison", list(saissons), 8)
-
+saison = st.sidebar.selectbox("Saison", list(
+    cleaned_names_saissons), 0)
 print(saison)
-df_complete_saison = pd.read_csv(
-    "htdatan/"+saison, index_col=0, encoding='utf-8')
+# map names back for reading the correct csv name
+
+
+def find_key(input_dict, value):
+    for key, val in input_dict.items():
+        if val == value:
+            return key
+    return "None"
+
+
+saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
+                        saison.split(" ")[1]
+                        )
+
+try:
+    df_complete_saison = pd.read_csv(
+        "htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
+except:
+    df_complete_saison = pd.read_csv(
+        "htdatan/"+saison+"_24102021.csv", index_col=0, encoding='utf-8')
 
 dfallteamnamesl = df_complete_saison.H_Teamnames.unique()
 
@@ -398,7 +440,7 @@ df4Complete = create_df4Complete(df4Home, df4OpponentReversed)
 
 slidertext = 'Show last x halftimes'
 nrGames = st.sidebar.slider(slidertext, max_value=len(
-    df4Complete), value=len(df4Complete))
+    df4Complete), value=len(df4Complete), step=2)
 
 # change rows of df depending on userinput
 df4Complete = df4Complete[:nrGames]
@@ -425,7 +467,6 @@ df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A"] - \
 df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A-SoG-H"].clip(
     lower=0)
 
-
 figScatter = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
     x='BP-H',
@@ -435,14 +476,22 @@ figScatter = px.scatter(
     text="Opponent",
     width=widthfig,
     # height=heightfig,
-    title="SoGH-SoGA - Halftimes",
+    # title="SoGH-SoGA - Halftimes",
     # color_continuous_scale= 'Viridis',
     # color_discrete_map={"W": "green", "D": "gray", "L": "red"}
 
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center')
-
+figScatter.update_xaxes(range=[5, 95])
+figScatter.update_layout(
+    title_text='Halftimes: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    ))
 
 figScatter1 = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
@@ -459,24 +508,39 @@ figScatter1 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center')
+figScatter1.update_xaxes(range=[5, 95])
+figScatter1.update_layout(
+    title_text='Halftimes: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    )
+)
 
 
+naming1x2 = {"W": "Win", "D": "Draw", "L": "Loss"}
+df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
+    naming1x2)
 # Create data for histogram 2
 figHist2 = px.bar(
     df4CompleteGraph,
     x='BPTypes',
-    # y='1x2',
     text=df4CompleteGraph.index,
-    title="BP-Styles - Halftimes",
-    color='1x2',
-    color_discrete_map={"W": "green", "D": "gray", "L": "red"},
+    # title="BP-Styles - Halftimes",
+    color='Halftime result',
+    color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
     width=widthfig,
     # height=heightfig,
-
-
     # opacity=0.5,
     # text="Opponent",
 ).update_xaxes(categoryorder="array",  categoryarray=['<45', '45-55', '>55'])
+figHist2.update_layout(
+    title_text='Ballpossesionstyles - results per halftime', title_x=0.5, xaxis=dict(
+        tickmode='array', showticklabels=True,
+    )
+)
 
 
 # create scatterplot with XG - bubble size
@@ -516,11 +580,19 @@ figScatter3 = px.scatter(
     text="Opponent",
     width=widthfig,
     # height=heightfig,
-    title="xG-A_xG - Complete games",
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center', marker_symbol="cross")
+figScatter3.update_xaxes(range=[5, 95])
+figScatter3.update_layout(
+    title_text='Expectedgoals - Expectedgoals Opponent', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    ))
 
 figScatter4 = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
@@ -531,10 +603,18 @@ figScatter4 = px.scatter(
     text="Opponent",
     width=widthfig,
     # height=heightfig,
-    title="A_xG-xG - Complete games",
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center')
+figScatter4.update_xaxes(range=[5, 95])
+figScatter4.update_layout(
+    title_text='Expectedgoals Opponent - Expectedgoals', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    ))
 
 
 # Streamlit encourages well-structured code, like starting execution in a main() function.
@@ -550,7 +630,8 @@ col1.plotly_chart(figScatter)
 
 col2.plotly_chart(figScatter1)
 
-st.plotly_chart(figHist2)
+col1.plotly_chart(figHist2)
+
 
 # C_WPercText, N_WPercText, BP_WPercText = calc_stats(df4Complete)
 # col2.write("% W < 0.45:   {}   \n % W 0.45 - 0.55:  {}   \n % W > 0.55:  {}".format(
@@ -562,3 +643,5 @@ st.dataframe(df4Complete_show.style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'S
                                             'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
                                             'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
                                             }))
+
+# %%
