@@ -526,7 +526,7 @@ df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
 figHist2 = px.bar(
     df4CompleteGraph,
     x='BPTypes',
-    text=df4CompleteGraph.index,
+    # text=df4CompleteGraph.index,
     # title="BP-Styles - Halftimes",
     color='Halftime result',
     color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
