@@ -619,6 +619,8 @@ figScatter4.update_layout(
 # Streamlit encourages well-structured code, like starting execution in a main() function.
 st.title("Football statistics - {}".format(team))
 
+st.markdown('The following two diagrams display the new metric Expected Goals (**xGoals**), which is a qualitative measurement on base of the shots on goal.  \nThe expected goal model shows how high the chance of the goal really was and calculates a value for each completion based on several factors.   \nF.I. a penalty has generally a probably of 75 % to result in a goal, which would increase the xGoal value for 0.75 regardless of the penalty-outcame in this case.', unsafe_allow_html=False)
+
 col1, col2 = st.columns(2)
 
 col1.plotly_chart(figScatter3)
