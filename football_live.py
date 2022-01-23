@@ -521,6 +521,67 @@ figScatter1.update_layout(
 )
 
 
+# wie oft passierts das team hinten ist und noch gewinnt / nicht verliert:´
+# sortier nach sieg x loss
+# mach diagramm halftimes für 1te und 2te hz
+
+# delete games where there is no two halftimes!
+df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby(
+    'Opponent')['Opponent'].transform('size') >= 2]
+df4CompleteGraph = df4CompleteGraph.sort_index()
+# second half is second entry always!
+df4CompleteGraph["halftime"] = "0"
+df4CompleteGraph.iloc[::2]["halftime"] = "2"
+df4CompleteGraph.iloc[1::2]["halftime"] = "1"
+
+figScatter5 = px.scatter(
+    df4CompleteGraph,  # .query(f'Date.between{end_date}'),
+    x='BP-H',
+    y='GoalDiff',
+    color="halftime",
+    size="SoG-H-SoG-A",
+    text="Opponent",
+    width=widthfig,
+    # height=heightfig,
+    # color_continuous_scale= 'Viridis',
+    # facet_row="time", # makes seperate plot for value
+    # marginal_x="histogram",
+).update_traces(textposition='top center', marker_symbol="cross")
+figScatter5.update_xaxes(range=[5, 95])
+figScatter5.update_layout(
+    title_text='Halftime 1 and 2: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    ))
+
+
+figScatter6 = px.scatter(
+    df4CompleteGraph,  # .query(f'Date.between{end_date}'),
+    x='BP-H',
+    y='GoalDiff',
+    color="halftime",
+    size="SoG-A-SoG-H",
+    text="Opponent",
+    width=widthfig,
+    # height=heightfig,
+    # color_continuous_scale= 'Viridis',
+    # facet_row="time", # makes seperate plot for value
+    # marginal_x="histogram",
+).update_traces(textposition='top center')
+figScatter6.update_xaxes(range=[5, 95])
+figScatter6.update_layout(
+    title_text='Halftime 1 and 2: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    ))
+
+
 naming1x2 = {"W": "Win", "D": "Draw", "L": "Loss"}
 df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
     naming1x2)
@@ -632,6 +693,10 @@ col2.plotly_chart(figScatter4)
 col1.plotly_chart(figScatter)
 
 col2.plotly_chart(figScatter1)
+
+col1.plotly_chart(figScatter5)
+
+col2.plotly_chart(figScatter6)
 
 col1.plotly_chart(figHist2)
 
