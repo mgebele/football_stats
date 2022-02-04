@@ -50,7 +50,7 @@ saissons = []
 
 # ENV is BTCPRED
 for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
-    saissons.append(tables[x].split("/")[1].split("_24102021.csv")[0])
+    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
@@ -102,6 +102,7 @@ except:
     df_complete_saison = pd.read_csv(
         "htdatan/"+saison+"_24102021.csv", index_col=0, encoding='utf-8')
 
+df_complete_saison = df_complete_saison.replace(teamnamedict)
 dfallteamnamesl = df_complete_saison.H_Teamnames.unique()
 
 # take only the 0 part of the every list entry
@@ -535,10 +536,10 @@ df4CompleteGraph.iloc[::2]["halftime"] = "2"
 df4CompleteGraph.iloc[1::2]["halftime"] = "1"
 
 figScatter5 = px.scatter(
-    df4CompleteGraph,  # .query(f'Date.between{end_date}'),
+    # .query(f'Date.between{end_date}'),
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
     x='BP-H',
     y='GoalDiff',
-    color="halftime",
     size="SoG-H-SoG-A",
     text="Opponent",
     width=widthfig,
@@ -549,7 +550,7 @@ figScatter5 = px.scatter(
 ).update_traces(textposition='top center', marker_symbol="cross")
 figScatter5.update_xaxes(range=[5, 95])
 figScatter5.update_layout(
-    title_text='Halftime 1 and 2: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    title_text='Halftime 1: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
     yaxis=dict(
         tickmode='linear',
         tick0=1,
@@ -559,10 +560,10 @@ figScatter5.update_layout(
 
 
 figScatter6 = px.scatter(
-    df4CompleteGraph,  # .query(f'Date.between{end_date}'),
+    # .query(f'Date.between{end_date}'),
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
     x='BP-H',
     y='GoalDiff',
-    color="halftime",
     size="SoG-A-SoG-H",
     text="Opponent",
     width=widthfig,
@@ -573,7 +574,58 @@ figScatter6 = px.scatter(
 ).update_traces(textposition='top center')
 figScatter6.update_xaxes(range=[5, 95])
 figScatter6.update_layout(
-    title_text='Halftime 1 and 2: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    title_text='Halftime 1: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    ))
+
+
+figScatter7 = px.scatter(
+    # .query(f'Date.between{end_date}'),
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    x='BP-H',
+    y='GoalDiff',
+    size="SoG-H-SoG-A",
+    text="Opponent",
+    width=widthfig,
+    # height=heightfig,
+    # color_continuous_scale= 'Viridis',
+    # facet_row="time", # makes seperate plot for value
+    # marginal_x="histogram",
+).update_traces(textposition='top center', marker_symbol="cross", marker=dict(
+    color='red'))
+figScatter7.update_xaxes(range=[5, 95])
+figScatter7.update_layout(
+    title_text='Halftime 2: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    yaxis=dict(
+        tickmode='linear',
+        tick0=1,
+        dtick=1,
+        title="Goal difference"
+    )
+)
+
+
+figScatter8 = px.scatter(
+    # .query(f'Date.between{end_date}'),
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    x='BP-H',
+    y='GoalDiff',
+    size="SoG-A-SoG-H",
+    text="Opponent",
+    width=widthfig,
+    # height=heightfig,
+    # color_continuous_scale= 'Viridis',
+    # facet_row="time", # makes seperate plot for value
+    # marginal_x="histogram",
+).update_traces(textposition='top center', marker=dict(
+    color='red'))
+figScatter8.update_xaxes(range=[5, 95])
+figScatter8.update_layout(
+    title_text='Halftime 2: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
     yaxis=dict(
         tickmode='linear',
         tick0=1,
@@ -697,6 +749,10 @@ col2.plotly_chart(figScatter1)
 col1.plotly_chart(figScatter5)
 
 col2.plotly_chart(figScatter6)
+
+col1.plotly_chart(figScatter7)
+
+col2.plotly_chart(figScatter8)
 
 col1.plotly_chart(figHist2)
 
