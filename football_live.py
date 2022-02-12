@@ -485,10 +485,12 @@ figScatter = px.scatter(
 
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center')
+).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+    marker=dict(color='green'), selector={'type': 'histogram'}
+)
 figScatter.update_xaxes(range=[5, 95])
 figScatter.update_layout(
-    title_text='Halftimes: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    title_text='All halftimes: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
     yaxis=dict(
         tickmode='linear',
         tick0=1,
@@ -511,10 +513,13 @@ figScatter1 = px.scatter(
 
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center')
+).update_traces(
+    textposition='top center', selector={'type': 'scatter'}).update_traces(
+        marker=dict(color='red'), selector={'type': 'histogram'}
+)
 figScatter1.update_xaxes(range=[5, 95])
 figScatter1.update_layout(
-    title_text='Halftimes: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    title_text='All halftimes: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
     yaxis=dict(
         tickmode='linear',
         tick0=1,
@@ -542,15 +547,19 @@ figScatter5 = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
     x='BP-H',
     y='GoalDiff',
-    marginal_x="histogram",
     size="SoG-H-SoG-A",
     text="Opponent",
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
-    # marginal_x="histogram",
-).update_traces(textposition='top center', marker_symbol="cross")
+    marginal_x="histogram",
+).update_traces(textposition='top center', marker_symbol="cross", marker=dict(
+    color='green'), selector={'type': 'scatter'}
+).update_traces(marker=dict(
+    color='green'), selector={'type': 'histogram'}
+)
+
 figScatter5.update_xaxes(range=[5, 95])
 figScatter5.update_layout(
     title_text='Halftime 1: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
@@ -567,15 +576,19 @@ figScatter6 = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
     x='BP-H',
     y='GoalDiff',
-    marginal_x="histogram",
     size="SoG-A-SoG-H",
     text="Opponent",
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
-    # marginal_x="histogram",
-).update_traces(textposition='top center')
+    marginal_x="histogram",
+).update_traces(textposition='top center', marker=dict(
+    color='red'), selector={'type': 'scatter'}
+).update_traces(marker=dict(
+    color='red'), selector={'type': 'histogram'}
+)
+
 figScatter6.update_xaxes(range=[5, 95])
 figScatter6.update_layout(
     title_text='Halftime 1: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
@@ -599,9 +612,13 @@ figScatter7 = px.scatter(
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
-    # marginal_x="histogram",
+
 ).update_traces(textposition='top center', marker_symbol="cross", marker=dict(
-    color='red'))
+    color='green'), selector={'type': 'scatter'}
+).update_traces(marker=dict(
+    color='green'), selector={'type': 'histogram'}
+)
+
 figScatter7.update_xaxes(range=[5, 95])
 figScatter7.update_layout(
     title_text='Halftime 2: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
@@ -628,7 +645,12 @@ figScatter8 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
-    color='red'))
+    color='red'), selector={'type': 'scatter'}
+).update_traces(marker=dict(
+    color='red'), selector={'type': 'histogram'}
+)
+
+
 figScatter8.update_xaxes(range=[5, 95])
 figScatter8.update_layout(
     title_text='Halftime 2: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
@@ -643,9 +665,12 @@ figScatter8.update_layout(
 naming1x2 = {"W": "Win", "D": "Draw", "L": "Loss"}
 df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
     naming1x2)
+
+highest_count_yaxis = df4CompleteGraph.groupby(["BPTypes", "halftime"]).agg(
+    'count').sort_values("Opponent", ascending=False).iloc[0].Home
 # Create data for histogram 2
-figHist2 = px.bar(
-    df4CompleteGraph,
+BarBallpossesionstylesResultsHalftime1 = px.bar(
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
     x='BPTypes',
     # text=df4CompleteGraph.index,
     # title="BP-Styles - Halftimes",
@@ -654,10 +679,32 @@ figHist2 = px.bar(
     width=widthfig,
     # height=heightfig,
     # opacity=0.5,
-    # text="Opponent",
-).update_xaxes(categoryorder="array",  categoryarray=['<45', '45-55', '>55'])
-figHist2.update_layout(
-    title_text='Ballpossesionstyles - results per halftime', title_x=0.5, xaxis=dict(
+    text="Opponent",
+).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55'],).update_yaxes(
+    range=[0, highest_count_yaxis])
+
+BarBallpossesionstylesResultsHalftime1.update_layout(
+    title_text='Ballpossesionstyles - results halftime 1', title_x=0.5, xaxis=dict(
+        tickmode='array', showticklabels=True,
+    )
+)
+
+# Create data for histogram 2
+BarBallpossesionstylesResultsHalftime2 = px.bar(
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    x='BPTypes',
+    # text=df4CompleteGraph.index,
+    # title="BP-Styles - Halftimes",
+    color='Halftime result',
+    color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
+    width=widthfig,
+    # height=heightfig,
+    # opacity=0.5,
+    text="Opponent",
+).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
+    range=[0, highest_count_yaxis])
+BarBallpossesionstylesResultsHalftime2.update_layout(
+    title_text='Ballpossesionstyles - results halftime 2', title_x=0.5, xaxis=dict(
         tickmode='array', showticklabels=True,
     )
 )
@@ -695,7 +742,7 @@ figScatter3 = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
-    marginal_x="histogram",
+    # marginal_x="histogram",
     color="timestamp",
     size="xG-A_xG",
     text="Opponent",
@@ -719,7 +766,7 @@ figScatter4 = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
-    marginal_x="histogram",
+    # marginal_x="histogram",
     color="timestamp",
     size="A_xG-xG",
     text="Opponent",
@@ -762,7 +809,9 @@ col1.plotly_chart(figScatter7)
 
 col2.plotly_chart(figScatter8)
 
-col1.plotly_chart(figHist2)
+col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
+
+col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
 
 
 # C_WPercText, N_WPercText, BP_WPercText = calc_stats(df4Complete)
