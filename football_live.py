@@ -742,7 +742,7 @@ figScatter3 = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
-    # marginal_x="histogram",
+    marginal_x="histogram",
     color="timestamp",
     size="xG-A_xG",
     text="Opponent",
@@ -751,7 +751,10 @@ figScatter3 = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', marker_symbol="cross")
+).update_traces(textposition='top center', marker_symbol="cross", selector={'type': 'scatter'} ).update_traces(
+    marker=dict(color='green'), selector={'type': 'histogram'}
+)
+
 figScatter3.update_xaxes(range=[5, 95])
 figScatter3.update_layout(
     title_text='Expectedgoals - Expectedgoals Opponent', title_x=0.5,
@@ -766,7 +769,7 @@ figScatter4 = px.scatter(
     df4CompleteGraph,  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
-    # marginal_x="histogram",
+    marginal_x="histogram",
     color="timestamp",
     size="A_xG-xG",
     text="Opponent",
@@ -774,7 +777,12 @@ figScatter4 = px.scatter(
     # height=heightfig,
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center')
+).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+    marker=dict(color='red'), selector={'type': 'histogram'}
+)
+
+
+
 figScatter4.update_xaxes(range=[5, 95])
 figScatter4.update_layout(
     title_text='Expectedgoals Opponent - Expectedgoals', title_x=0.5,
