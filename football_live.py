@@ -12,10 +12,11 @@ import os
 import json
 import streamlit as st
 st.set_page_config(layout="wide")
-
 pd.options.display.float_format = "{:,.1f}".format
-
 warnings.filterwarnings('ignore')
+
+
+# TEAMNAMES value in teamnamedict must match the htdatan teamname!
 
 global teamnamedict
 # C:\Users\mg\JupyterLabDir\Rest\Pr Winning\teamnamedict_streamlit.json
