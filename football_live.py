@@ -38,7 +38,7 @@ with open('teamnamedict_streamlit.json') as f:
 # _max_width_()
 global widthfig
 widthfig = 700
-heightfig = 500
+heightfig = 600
 
 # get all the gamestatistics from in dropdown specified league and season
 # setup the database connection.  There's no need to setup cursors with pandas psql.
