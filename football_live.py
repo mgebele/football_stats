@@ -222,7 +222,6 @@ def df_cleaning_converting(df):
     df = df.reset_index(drop=True)
     df["R"] = 'X'
 
-        
     df['timing_chart_xg'] = df['timing_chart_xg'].astype('str') 
 
     # calculate halftime xG for both teams!
@@ -443,11 +442,11 @@ def load_xg_gamestats_sql(saison, team):
     df_complete_saison = pd.read_csv(
         "xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
 
+    df_complete_saison = process_team_names_of_df(df_complete_saison)
+
     # execute the query and assign it to a pandas dataframe
     dfxg = df_complete_saison[(df_complete_saison.TEAMS == team) | (
         df_complete_saison.A_TEAMS == team)]
-
-    dfxg = process_team_names_of_df(dfxg)
 
     return dfxg
 
@@ -701,8 +700,12 @@ naming1x2 = {"W": "Win", "D": "Draw", "L": "Loss"}
 df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
     naming1x2)
 
-highest_count_yaxis = df4CompleteGraph.groupby(["BPTypes", "halftime"]).agg(
-    'count').sort_values("Opponent", ascending=False).iloc[0].Home
+try:
+    highest_count_yaxis = df4CompleteGraph.groupby(["BPTypes", "halftime"]).agg(
+        'count').sort_values("Opponent", ascending=False).iloc[0].Home
+except:
+    highest_count_yaxis = 0
+
 # Create data for histogram 2
 BarBallpossesionstylesResultsHalftime1 = px.bar(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
