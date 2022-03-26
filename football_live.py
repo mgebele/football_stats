@@ -212,11 +212,11 @@ def process_team_names_of_df(x_df):
 
 def df_cleaning_converting(df):
     df = df[['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
-             'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',
+             'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',"H_Red Cards", "A_Red Cards",
              'A_Free Kicks', 'H_Corner Kicks', 'A_Corner Kicks', 'H_Offsides', 'A_Offsides', 'H_Goalkeeper Saves', 'A_Goalkeeper Saves',
              'H_Fouls', 'A_Fouls', 'A_gameinfo', 'A_datetime', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'timing_chart_xg']]
     df = df.drop_duplicates(subset=['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
-             'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',
+             'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',"H_Red Cards", "A_Red Cards",
              'A_Free Kicks', 'H_Corner Kicks', 'A_Corner Kicks', 'H_Offsides', 'A_Offsides', 'H_Goalkeeper Saves', 'A_Goalkeeper Saves',
              'H_Fouls', 'A_Fouls', 'A_gameinfo', 'A_datetime', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS'], keep='first')
     df = df.reset_index(drop=True)
@@ -258,19 +258,19 @@ def df_cleaning_converting(df):
             print("error?")
     print("!!!", df.columns)
     df.columns = ['Home', 'Opponent', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-                'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',
+                'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
                 'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A',
                 'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', "timing_chart_xg", 'R',  'xg_halftime', 'Axg_halftime',]
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-             'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',
+             'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
              'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'xg_halftime', 'Axg_halftime',]]
 
     df["IsHome"] = 0
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-             'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',
+             'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
              'F-A', 'Round', 'Date', 'IsHome', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS','xg_halftime', 'Axg_halftime',]]
     return df
@@ -303,21 +303,26 @@ def df_specific_team(df, team):
     # change the halftime-xg with halftime-Axg:
     # switched the two columns
     # Change the columns for the Opponentmatches of the specific team
-    OpponentTeamReversedColumns = ['Opponent', 'Home',  '1x2', 'R',  'G-A', 'G-H',
-                                   'BP-A', 'BP-H', 'GA-A', 'GA-H',  'SoG-A', 'SoG-H', 'SoffG-A', 'SoffG-H',  'FK-A', 'FK-H',
-                                   'C-A', 'C-H',  'Off-A', 'Off-H', 'GoKeSa-A', 'GoKeSa-H', 'F-A', 'F-H',
-                                   'Round', 'Date', 'IsHome',
-                                   'A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 'Axg_halftime', 'xg_halftime' ]  # , 'IsHome'
+    print("df4Opponent.columns before reassignment oppo", df4Opponent.columns)
+
+    OpponentTeamReversedColumns = ['Opponent', 'Home',  '1x2', 'R',  'G-A', 'G-H', 'BP-A', 'BP-H', 'GA-A', 'GA-H',  
+                                    'SoG-A', 'SoG-H', 'SoffG-A', 'SoffG-H',  'FK-A',  "A_Red Cards", "H_Red Cards",
+                                    'FK-H','C-A', 'C-H',  'Off-A', 'Off-H', 'GoKeSa-A', 'GoKeSa-H', 'F-A', 
+                                    'F-H', 'Round', 'Date', 'IsHome','A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 'Axg_halftime', 'xg_halftime' ]  # , 'IsHome'
+    # Change the columns for the Opponentmatches of the specific team
+
+    
 
     df4OpponentReversed = df4Opponent.reindex(
         columns=OpponentTeamReversedColumns)
 
-    df4OpponentReversed.columns = ['Home', 'Opponent', '1x2', 'R', 'G-H',
-                                   'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-                                   'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',
+    df4OpponentReversed.columns = ['Home', 'Opponent', '1x2', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
+                                   'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H', "H_Red Cards", "A_Red Cards",
                                    'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-                                   'F-A', 'Round', 'Date', 'IsHome',
-                                   'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS", 'xg_halftime', 'Axg_halftime',]
+                                   'F-A', 'Round', 'Date', 'IsHome', 'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS", 'xg_halftime', 'Axg_halftime']
+
+    print("df4OpponentReversed.columns after reassignment oppo", df4OpponentReversed.columns)
+
     return df4Home, df4OpponentReversed
 
 
@@ -483,13 +488,19 @@ df4Complete = df4Complete[:nrGames]
 df4Complete = df4Complete.sort_values("Date", ascending=False)
 df4Complete = df4Complete.round(1)
 
-df4Complete[['xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS']] = df4Complete[['xG',
-                                                                                                                              'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS']].apply(pd.to_numeric, errors='coerce', axis=1)
+df4Complete[['xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]] = df4Complete[['xG',
+                                                                                                                              'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]].apply(pd.to_numeric, errors='coerce', axis=1)
+
+df4Complete['A_Red Cards'] = df4Complete['A_Red Cards'].fillna(0)
+df4Complete['H_Red Cards'] = df4Complete['H_Red Cards'].fillna(0)
 
 df4Complete_show = df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-                                'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime',]]
+                                'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards"]]
 
 
+
+print("df4Complete_show")
+print(df4Complete_show)
 # create df for visualizing
 df4CompleteGraph = df4Complete.copy()
 
@@ -509,6 +520,7 @@ figScatter = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-H-SoG-A",
     text="Opponent",
     width=widthfig,
@@ -538,6 +550,7 @@ figScatter1 = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-A-SoG-H",
     text="Opponent",
     width=widthfig,
@@ -583,6 +596,7 @@ figScatter5 = px.scatter(
     y='GoalDiff',
     size="SoG-H-SoG-A",
     text="Opponent",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
@@ -612,11 +626,13 @@ figScatter6 = px.scatter(
     y='GoalDiff',
     size="SoG-A-SoG-H",
     text="Opponent",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
+    
 ).update_traces(textposition='top center', marker=dict(
     color='red'), selector={'type': 'scatter'}
 ).update_traces(marker=dict(
@@ -640,6 +656,7 @@ figScatter7 = px.scatter(
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-H-SoG-A",
     text="Opponent",
     width=widthfig,
@@ -671,6 +688,7 @@ figScatter8 = px.scatter(
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-A-SoG-H",
     text="Opponent",
     width=widthfig,
@@ -809,6 +827,7 @@ figHistogramxG_A_xG_1Ht = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="xg_halftime-Axg_halftime",
     text="Opponent",
     width=widthfig,
@@ -835,6 +854,7 @@ figHistogramA_xG_xG_1Ht = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="Axg_halftime-xg_halftime",
     text="Opponent",
     width=widthfig,
@@ -861,6 +881,7 @@ figHistogramxG_A_xG_2Ht = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="xg_halftime2-Axg_halftime2",
     text="Opponent",
     width=widthfig,
@@ -888,6 +909,7 @@ figHistogramA_xG_xG_2Ht = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
+    hover_data=['H_Red Cards', 'A_Red Cards'],
     size="Axg_halftime2-xg_halftime2",
     text="Opponent",
     width=widthfig,
