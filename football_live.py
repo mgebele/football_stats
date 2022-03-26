@@ -504,6 +504,11 @@ print(df4Complete_show)
 # create df for visualizing
 df4CompleteGraph = df4Complete.copy()
 
+
+teamname_to_search = st.sidebar.text_input("Search for Opponent", )
+df4CompleteGraph = df4CompleteGraph[df4CompleteGraph["Opponent"].str.contains("{}".format(teamname_to_search), na=False, case=False)]
+
+
 df4CompleteGraph["SoG-H-SoG-A"] = df4CompleteGraph["SoG-H"] - \
     df4CompleteGraph["SoG-A"]
 df4CompleteGraph["SoG-H-SoG-A"] = df4CompleteGraph["SoG-H-SoG-A"].clip(
@@ -514,13 +519,17 @@ df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A"] - \
 df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A-SoG-H"].clip(
     lower=0)
 
+df4CompleteGraph.sort_values("IsHome", ascending=False)
+
 figScatter = px.scatter(
-    df4CompleteGraph,  # .query(f'Date.between{end_date}'),
+    df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
     hover_data=['H_Red Cards', 'A_Red Cards'],
+    symbol = 'IsHome',
+    symbol_sequence= ['diamond-cross', 'diamond'],
     size="SoG-H-SoG-A",
     text="Opponent",
     width=widthfig,
@@ -531,7 +540,7 @@ figScatter = px.scatter(
 
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', marker_symbol="cross", selector={'type': 'scatter'}).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figScatter.update_xaxes(range=[5, 95])
@@ -543,15 +552,23 @@ figScatter.update_layout(
         dtick=1,
         title="Goal difference"
     ))
+figScatter.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 figScatter1 = px.scatter(
-    df4CompleteGraph,  # .query(f'Date.between{end_date}'),
+    df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-A-SoG-H",
+    symbol = 'IsHome',
+    symbol_sequence= ['circle-x', 'circle'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
@@ -574,6 +591,12 @@ figScatter1.update_layout(
         title="Goal difference"
     )
 )
+figScatter1.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 
 # wie oft passierts das team hinten ist und noch gewinnt / nicht verliert:´
@@ -591,23 +614,24 @@ df4CompleteGraph.iloc[1::2]["halftime"] = "1"
 
 figScatter5 = px.scatter(
     # .query(f'Date.between{end_date}'),
-    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
     x='BP-H',
     y='GoalDiff',
     size="SoG-H-SoG-A",
     text="Opponent",
     hover_data=['H_Red Cards', 'A_Red Cards'],
+    symbol = 'IsHome',
+    symbol_sequence= ['diamond-cross', 'diamond'],
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
-).update_traces(textposition='top center', marker_symbol="cross", marker=dict(
+).update_traces(textposition='top center',  marker=dict(
     color='green'), selector={'type': 'scatter'}
 ).update_traces(marker=dict(
     color='green'), selector={'type': 'histogram'}
 )
-
 figScatter5.update_xaxes(range=[5, 95])
 figScatter5.update_layout(
     title_text='Halftime 1: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
@@ -617,28 +641,34 @@ figScatter5.update_layout(
         dtick=1,
         title="Goal difference"
     ))
+figScatter5.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 
 figScatter6 = px.scatter(
     # .query(f'Date.between{end_date}'),
-    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
     x='BP-H',
     y='GoalDiff',
     size="SoG-A-SoG-H",
     text="Opponent",
     hover_data=['H_Red Cards', 'A_Red Cards'],
+    symbol = 'IsHome',
+    symbol_sequence= ['circle-x', 'circle'],
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
-    
 ).update_traces(textposition='top center', marker=dict(
     color='red'), selector={'type': 'scatter'}
 ).update_traces(marker=dict(
     color='red'), selector={'type': 'histogram'}
 )
-
 figScatter6.update_xaxes(range=[5, 95])
 figScatter6.update_layout(
     title_text='Halftime 1: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
@@ -648,28 +678,34 @@ figScatter6.update_layout(
         dtick=1,
         title="Goal difference"
     ))
+figScatter6.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 
 figScatter7 = px.scatter(
     # .query(f'Date.between{end_date}'),
-    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"].sort_values("IsHome", ascending=False),
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-H-SoG-A",
+    symbol = 'IsHome',
+    symbol_sequence= ['diamond-cross', 'diamond'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
-
-).update_traces(textposition='top center', marker_symbol="cross", marker=dict(
+).update_traces(textposition='top center',  marker=dict(
     color='green'), selector={'type': 'scatter'}
 ).update_traces(marker=dict(
     color='green'), selector={'type': 'histogram'}
 )
-
 figScatter7.update_xaxes(range=[5, 95])
 figScatter7.update_layout(
     title_text='Halftime 2: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
@@ -680,16 +716,24 @@ figScatter7.update_layout(
         title="Goal difference"
     )
 )
+figScatter7.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 
 figScatter8 = px.scatter(
     # .query(f'Date.between{end_date}'),
-    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"].sort_values("IsHome", ascending=False),
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="SoG-A-SoG-H",
+    symbol = 'IsHome',
+    symbol_sequence= ['circle-x', 'circle'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
@@ -701,8 +745,6 @@ figScatter8 = px.scatter(
 ).update_traces(marker=dict(
     color='red'), selector={'type': 'histogram'}
 )
-
-
 figScatter8.update_xaxes(range=[5, 95])
 figScatter8.update_layout(
     title_text='Halftime 2: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
@@ -712,7 +754,12 @@ figScatter8.update_layout(
         dtick=1,
         title="Goal difference"
     ))
-
+figScatter8.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 naming1x2 = {"W": "Win", "D": "Draw", "L": "Loss"}
 df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
@@ -829,13 +876,15 @@ figHistogramxG_A_xG_1Ht = px.scatter(
     color="timestamp",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="xg_halftime-Axg_halftime",
+    symbol = 'IsHome',
+    symbol_sequence= ['diamond-cross', 'diamond'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', marker_symbol="cross", selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figHistogramxG_A_xG_1Ht.update_xaxes(range=[5, 95])
@@ -847,6 +896,12 @@ figHistogramxG_A_xG_1Ht.update_layout(
         dtick=1,
         title="Goal difference"
     ))
+figHistogramxG_A_xG_1Ht.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 figHistogramA_xG_xG_1Ht = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],  # .query(f'Date.between{end_date}'),
@@ -856,6 +911,8 @@ figHistogramA_xG_xG_1Ht = px.scatter(
     color="timestamp",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="Axg_halftime-xg_halftime",
+    symbol = 'IsHome',
+    symbol_sequence= ['circle-x', 'circle'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
@@ -873,6 +930,12 @@ figHistogramA_xG_xG_1Ht.update_layout(
         dtick=1,
         title="Goal difference"
     ))
+figHistogramA_xG_xG_1Ht.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 
 figHistogramxG_A_xG_2Ht = px.scatter(
@@ -883,16 +946,17 @@ figHistogramxG_A_xG_2Ht = px.scatter(
     color="timestamp",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="xg_halftime2-Axg_halftime2",
+    symbol = 'IsHome',
+    symbol_sequence= ['diamond-cross', 'diamond'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', marker_symbol="cross", selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
-
 figHistogramxG_A_xG_2Ht.update_xaxes(range=[5, 95])
 figHistogramxG_A_xG_2Ht.update_layout(
     title_text='Ht2: Expectedgoals - Expectedgoals Opponent', title_x=0.5,
@@ -902,6 +966,12 @@ figHistogramxG_A_xG_2Ht.update_layout(
         dtick=1,
         title="Goal difference"
     ))
+figHistogramxG_A_xG_2Ht.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 figHistogramA_xG_xG_2Ht = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],  # .query(f'Date.between{end_date}'),
@@ -911,6 +981,8 @@ figHistogramA_xG_xG_2Ht = px.scatter(
     color="timestamp",
     hover_data=['H_Red Cards', 'A_Red Cards'],
     size="Axg_halftime2-xg_halftime2",
+    symbol = 'IsHome',
+    symbol_sequence= ['circle-x', 'circle'],
     text="Opponent",
     width=widthfig,
     # height=heightfig,
@@ -919,7 +991,6 @@ figHistogramA_xG_xG_2Ht = px.scatter(
 ).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
     marker=dict(color='red'), selector={'type': 'histogram'}
 )
-
 figHistogramA_xG_xG_2Ht.update_xaxes(range=[5, 95])
 figHistogramA_xG_xG_2Ht.update_layout(
     title_text='Ht2: Expectedgoals Opponent - Expectedgoals', title_x=0.5,
@@ -929,7 +1000,12 @@ figHistogramA_xG_xG_2Ht.update_layout(
         dtick=1,
         title="Goal difference"
     ))
-
+figHistogramA_xG_xG_2Ht.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
 
 
 
