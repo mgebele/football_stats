@@ -610,7 +610,7 @@ fig_xg_perminute_home = px.line(
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
-fig_xg_perminute_home.add_scatter(y=dfxg_awayxg_complete_game.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_perminute_home.add_scatter(y=dfxg_awayxg_complete_game.mean(), mode='lines', name='Opponent xG')
 fig_xg_perminute_home.update_layout(
     title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=0.5,
     yaxis=dict(
@@ -625,7 +625,7 @@ fig_xg_homexg_complete_game_all_bpse = px.line(
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
-fig_xg_homexg_complete_game_all_bpse.add_scatter(y=dfxg_awayxg_complete_game_all_bps.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_homexg_complete_game_all_bpse.add_scatter(y=dfxg_awayxg_complete_game_all_bps.mean(), mode='lines', name='Opponent xG')
 fig_xg_homexg_complete_game_all_bpse.update_layout(
     title_text='Expectedgoals per minute', title_x=0.5,
     yaxis=dict(
@@ -640,7 +640,7 @@ fig_xg_perminute_home_bigger_55 = px.line(
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
-fig_xg_perminute_home_bigger_55.add_scatter(y=dfxg_awayxg_complete_game_bigger_55.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_perminute_home_bigger_55.add_scatter(y=dfxg_awayxg_complete_game_bigger_55.mean(), mode='lines', name='Opponent xG')
 fig_xg_perminute_home_bigger_55.update_layout(
     title_text='Expectedgoals per minute: bp > 55', title_x=0.5,
     yaxis=dict(
@@ -654,7 +654,7 @@ fig_xg_perminute_home_smaller_45 = px.line(
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
-fig_xg_perminute_home_smaller_45.add_scatter(y=dfxg_awayxg_complete_game_smaller_45.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_perminute_home_smaller_45.add_scatter(y=dfxg_awayxg_complete_game_smaller_45.mean(), mode='lines', name='Opponent xG')
 fig_xg_perminute_home_smaller_45.update_layout(
     title_text='Expectedgoals per minute: bp < 45', title_x=0.5,
     yaxis=dict(
