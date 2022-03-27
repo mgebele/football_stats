@@ -214,7 +214,7 @@ def df_cleaning_converting(df):
     df = df[['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
              'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',"H_Red Cards", "A_Red Cards",
              'A_Free Kicks', 'H_Corner Kicks', 'A_Corner Kicks', 'H_Offsides', 'A_Offsides', 'H_Goalkeeper Saves', 'A_Goalkeeper Saves',
-             'H_Fouls', 'A_Fouls', 'A_gameinfo', 'A_datetime', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'timing_chart_xg']]
+             'H_Fouls', 'A_Fouls', 'A_gameinfo', 'A_datetime', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'timing_chart_xg', "homexg_complete_game", "awayxg_complete_game"]]
     df = df.drop_duplicates(subset=['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
              'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',"H_Red Cards", "A_Red Cards",
              'A_Free Kicks', 'H_Corner Kicks', 'A_Corner Kicks', 'H_Offsides', 'A_Offsides', 'H_Goalkeeper Saves', 'A_Goalkeeper Saves',
@@ -260,19 +260,19 @@ def df_cleaning_converting(df):
     df.columns = ['Home', 'Opponent', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                 'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
                 'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A',
-                'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', "timing_chart_xg", 'R',  'xg_halftime', 'Axg_halftime',]
+                'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', "timing_chart_xg", "homexg_complete_game", "awayxg_complete_game", 'R',  'xg_halftime', 'Axg_halftime',]
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
              'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-             'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'xg_halftime', 'Axg_halftime',]]
+             'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", ]]
 
     df["IsHome"] = 0
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
              'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-             'F-A', 'Round', 'Date', 'IsHome', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS','xg_halftime', 'Axg_halftime',]]
+             'F-A', 'Round', 'Date', 'IsHome', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS','xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", ]]
     return df
 
 
@@ -308,10 +308,8 @@ def df_specific_team(df, team):
     OpponentTeamReversedColumns = ['Opponent', 'Home',  '1x2', 'R',  'G-A', 'G-H', 'BP-A', 'BP-H', 'GA-A', 'GA-H',  
                                     'SoG-A', 'SoG-H', 'SoffG-A', 'SoffG-H',  'FK-A',  "A_Red Cards", "H_Red Cards",
                                     'FK-H','C-A', 'C-H',  'Off-A', 'Off-H', 'GoKeSa-A', 'GoKeSa-H', 'F-A', 
-                                    'F-H', 'Round', 'Date', 'IsHome','A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 'Axg_halftime', 'xg_halftime' ]  # , 'IsHome'
+                                    'F-H', 'Round', 'Date', 'IsHome','A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 'Axg_halftime', 'xg_halftime',"awayxg_complete_game", "homexg_complete_game",   ]  # , 'IsHome'
     # Change the columns for the Opponentmatches of the specific team
-
-    
 
     df4OpponentReversed = df4Opponent.reindex(
         columns=OpponentTeamReversedColumns)
@@ -319,12 +317,11 @@ def df_specific_team(df, team):
     df4OpponentReversed.columns = ['Home', 'Opponent', '1x2', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                                    'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H', "H_Red Cards", "A_Red Cards",
                                    'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-                                   'F-A', 'Round', 'Date', 'IsHome', 'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS", 'xg_halftime', 'Axg_halftime']
+                                   'F-A', 'Round', 'Date', 'IsHome', 'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS", 'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", ]
 
     print("df4OpponentReversed.columns after reassignment oppo", df4OpponentReversed.columns)
 
     return df4Home, df4OpponentReversed
-
 
 @st.cache(suppress_st_warning=True)
 def create_df4Complete(df4Home, df4OpponentReversed):
@@ -472,6 +469,42 @@ dfxg_df_merged = dfxg_df_merged.drop_duplicates()
 # %%
 df = dfxg_df_merged
 
+df["homexg_complete_game"] = ""
+df["awayxg_complete_game"] = ""
+df["last_game_minute"] = -1
+df["start_min_game"] = -1
+
+for game_loc in df.index:
+    
+    homexg_complete_game = []
+    awayxg_complete_game = []
+
+    last_game_minute = df["timing_chart_xg"].loc[game_loc].rsplit("'")[-2].rsplit(";")[1]
+    start_min_game = int( re.sub("[^0-9]", "", df["timing_chart_xg"].loc[game_loc][:2]) )
+
+    for x in range(start_min_game,int(last_game_minute)+1):
+        homexgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x))[1].split(";")[0][:4]  # [:4] - only last 4 digits so no goalscorer infos
+        awayxgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x), 2)[2].split(";")[0][:4]
+        homexg_complete_game.append(homexgperminute)
+        awayxg_complete_game.append(awayxgperminute)
+        
+    df["homexg_complete_game"].loc[game_loc] = homexg_complete_game
+    df["awayxg_complete_game"].loc[game_loc] = awayxg_complete_game
+    df["last_game_minute"].loc[game_loc] = last_game_minute
+    df["start_min_game"].loc[game_loc] = start_min_game
+
+
+for x in range(len(df)):
+    df.homexg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
+    df.awayxg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
+
+
+df_homexg_complete_game = pd.DataFrame(df.homexg_complete_game.tolist(), index= df.index)
+df_awayxg_complete_game = pd.DataFrame(df.awayxg_complete_game.tolist(), index= df.index)
+
+df_homexg_complete_game = df_homexg_complete_game.apply(pd.to_numeric)
+df_awayxg_complete_game = df_awayxg_complete_game.apply(pd.to_numeric)
+
 dfxg_df_merged_cleaned = df_cleaning_converting(df)
 
 df4Home, df4OpponentReversed = df_specific_team(
@@ -497,6 +530,50 @@ df4Complete['H_Red Cards'] = df4Complete['H_Red Cards'].fillna(0)
 df4Complete_show = df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                                 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards"]]
 
+# calc the xg per minute over all games to get the mean over all minutes from all games!
+
+values = st.sidebar.slider(
+    'BP-Range for xG per minute',
+    0.0, 100.0, (0.0, 100.0))
+
+smaller_bp = values[1]
+bigger_bp = values[0]
+dfxg_homexg_complete_game = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>bigger_bp) & (df4Complete["BP-H"]<smaller_bp)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>bigger_bp) & (df4Complete["BP-H"]<smaller_bp)].index)
+dfxg_awayxg_complete_game = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>bigger_bp) & (df4Complete["BP-H"]<smaller_bp)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>bigger_bp) & (df4Complete["BP-H"]<smaller_bp)].index)
+dfxg_homexg_complete_game = dfxg_homexg_complete_game.apply(pd.to_numeric)
+dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.apply(pd.to_numeric)
+dfxg_homexg_complete_game = dfxg_homexg_complete_game.T.diff()
+dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.T.diff()
+dfxg_homexg_complete_game = dfxg_homexg_complete_game.T
+dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.T
+
+dfxg_homexg_complete_game_all_bps = pd.DataFrame(df4Complete.homexg_complete_game.tolist(), index= df4Complete.index)
+dfxg_awayxg_complete_game_all_bps = pd.DataFrame(df4Complete.awayxg_complete_game.tolist(), index= df4Complete.index)
+dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.apply(pd.to_numeric)
+dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.apply(pd.to_numeric)
+dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.T.diff()
+dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.T.diff()
+dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.T
+dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.T
+
+dfxg_homexg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
+dfxg_awayxg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
+dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.apply(pd.to_numeric)
+dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.apply(pd.to_numeric)
+dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.T.diff()
+dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.T.diff()
+dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.T
+dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.T
+
+dfxg_homexg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
+dfxg_awayxg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
+dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.apply(pd.to_numeric)
+dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.apply(pd.to_numeric)
+dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.T.diff()
+dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.T.diff()
+dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.T
+dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.T
+
 
 
 print("df4Complete_show")
@@ -520,6 +597,74 @@ df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A-SoG-H"].clip(
     lower=0)
 
 df4CompleteGraph.sort_values("IsHome", ascending=False)
+
+# calculate the y axis to display for the xg per minute per ball position
+if dfxg_homexg_complete_game.mean().max() > dfxg_awayxg_complete_game.mean().max():
+    dfxg_y_axis_max = dfxg_homexg_complete_game.mean().max()
+else:
+    dfxg_y_axis_max = dfxg_awayxg_complete_game.mean().max()
+
+fig_xg_perminute_home = px.line(
+    dfxg_homexg_complete_game.mean(),
+    width=widthfig,
+    markers=True,
+).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+    marker=dict(color='green'), selector={'type': 'histogram'}
+)
+fig_xg_perminute_home.add_scatter(y=dfxg_awayxg_complete_game.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_perminute_home.update_layout(
+    title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=0.5,
+    yaxis=dict(
+        title="xG"
+    ))
+fig_xg_perminute_home.update_yaxes(range=[0, dfxg_y_axis_max+0.02])
+# Only thing I figured is - I could do this 
+
+fig_xg_homexg_complete_game_all_bpse = px.line(
+    dfxg_homexg_complete_game_all_bps.mean(),
+    width=widthfig,
+    markers=True,
+).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+    marker=dict(color='green'), selector={'type': 'histogram'}
+)
+fig_xg_homexg_complete_game_all_bpse.add_scatter(y=dfxg_awayxg_complete_game_all_bps.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_homexg_complete_game_all_bpse.update_layout(
+    title_text='Expectedgoals per minute', title_x=0.5,
+    yaxis=dict(
+        title="xG"
+    ))
+fig_xg_homexg_complete_game_all_bpse.update_yaxes(range=[0, dfxg_awayxg_complete_game_all_bps.mean()+0.02])
+
+
+fig_xg_perminute_home_bigger_55 = px.line(
+    dfxg_homexg_complete_game_bigger_55.mean(),
+    width=widthfig,
+    markers=True,
+).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+    marker=dict(color='green'), selector={'type': 'histogram'}
+)
+fig_xg_perminute_home_bigger_55.add_scatter(y=dfxg_awayxg_complete_game_bigger_55.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_perminute_home_bigger_55.update_layout(
+    title_text='Expectedgoals per minute: bp > 55', title_x=0.5,
+    yaxis=dict(
+        title="xG"
+    ))
+fig_xg_perminute_home_bigger_55.update_yaxes(range=[0, dfxg_awayxg_complete_game_bigger_55.mean()+0.02])
+
+fig_xg_perminute_home_smaller_45 = px.line(
+    dfxg_homexg_complete_game_smaller_45.mean(),
+    width=widthfig,
+    markers=True,
+).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+    marker=dict(color='green'), selector={'type': 'histogram'}
+)
+fig_xg_perminute_home_smaller_45.add_scatter(y=dfxg_awayxg_complete_game_smaller_45.mean(), mode='lines+markers', name='Opponent xG')
+fig_xg_perminute_home_smaller_45.update_layout(
+    title_text='Expectedgoals per minute: bp < 45', title_x=0.5,
+    yaxis=dict(
+        title="xG"
+    ))
+fig_xg_perminute_home_smaller_45.update_yaxes(range=[0, dfxg_awayxg_complete_game_smaller_45.mean()+0.02])
 
 figScatter = px.scatter(
     df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
@@ -1022,6 +1167,14 @@ col2.plotly_chart(figHistogramA_xG_xG_1Ht)
 col1.plotly_chart(figHistogramxG_A_xG_2Ht)
 
 col2.plotly_chart(figHistogramA_xG_xG_2Ht)
+
+col1.plotly_chart(fig_xg_perminute_home)
+
+col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
+
+col1.plotly_chart(fig_xg_perminute_home_bigger_55)
+
+col2.plotly_chart(fig_xg_perminute_home_smaller_45)
 
 col1.plotly_chart(figScatter)
 
