@@ -607,7 +607,6 @@ else:
 fig_xg_perminute_home = px.line(
     dfxg_homexg_complete_game.mean(),
     width=widthfig,
-    markers=True,
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
@@ -623,7 +622,6 @@ fig_xg_perminute_home.update_yaxes(range=[0, dfxg_y_axis_max+0.02])
 fig_xg_homexg_complete_game_all_bpse = px.line(
     dfxg_homexg_complete_game_all_bps.mean(),
     width=widthfig,
-    markers=True,
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
@@ -639,7 +637,6 @@ fig_xg_homexg_complete_game_all_bpse.update_yaxes(range=[0, dfxg_awayxg_complete
 fig_xg_perminute_home_bigger_55 = px.line(
     dfxg_homexg_complete_game_bigger_55.mean(),
     width=widthfig,
-    markers=True,
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
@@ -654,7 +651,6 @@ fig_xg_perminute_home_bigger_55.update_yaxes(range=[0, dfxg_awayxg_complete_game
 fig_xg_perminute_home_smaller_45 = px.line(
     dfxg_homexg_complete_game_smaller_45.mean(),
     width=widthfig,
-    markers=True,
 ).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
