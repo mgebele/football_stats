@@ -551,30 +551,29 @@ dfxg_homexg_complete_game_all_bps = pd.DataFrame(df4Complete.homexg_complete_gam
 dfxg_awayxg_complete_game_all_bps = pd.DataFrame(df4Complete.awayxg_complete_game.tolist(), index= df4Complete.index)
 dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.apply(pd.to_numeric)
 dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.apply(pd.to_numeric)
-dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.T.diff()
-dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.T.diff()
-dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.T
-dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.T
+dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.fillna(0)
+dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.fillna(0)
+dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.diff(axis=1)
+dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.diff(axis=1)
 
 dfxg_homexg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
 dfxg_awayxg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
 dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.apply(pd.to_numeric)
 dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.apply(pd.to_numeric)
-dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.T.diff()
-dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.T.diff()
-dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.T
-dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.T
+dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.fillna(0)
+dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.fillna(0)
+dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.diff(axis=1)
+dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.diff(axis=1)
+
 
 dfxg_homexg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
 dfxg_awayxg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
 dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.apply(pd.to_numeric)
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.apply(pd.to_numeric)
-dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.T.diff()
-dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.T.diff()
-dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.T
-dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.T
-
-
+dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.fillna(0)
+dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.fillna(0)
+dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.diff(axis=1)
+dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.diff(axis=1)
 
 print("df4Complete_show")
 print(df4Complete_show)
