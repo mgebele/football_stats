@@ -542,10 +542,10 @@ dfxg_homexg_complete_game = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>bigger
 dfxg_awayxg_complete_game = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>bigger_bp) & (df4Complete["BP-H"]<smaller_bp)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>bigger_bp) & (df4Complete["BP-H"]<smaller_bp)].index)
 dfxg_homexg_complete_game = dfxg_homexg_complete_game.apply(pd.to_numeric)
 dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.apply(pd.to_numeric)
-dfxg_homexg_complete_game = dfxg_homexg_complete_game.T.diff()
-dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.T.diff()
-dfxg_homexg_complete_game = dfxg_homexg_complete_game.T
-dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.T
+dfxg_homexg_complete_game = dfxg_homexg_complete_game.fillna(0)
+dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.fillna(0)
+dfxg_homexg_complete_game = dfxg_homexg_complete_game.diff(axis=1)
+dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.diff(axis=1)
 
 dfxg_homexg_complete_game_all_bps = pd.DataFrame(df4Complete.homexg_complete_game.tolist(), index= df4Complete.index)
 dfxg_awayxg_complete_game_all_bps = pd.DataFrame(df4Complete.awayxg_complete_game.tolist(), index= df4Complete.index)
