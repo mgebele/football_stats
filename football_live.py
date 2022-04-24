@@ -577,6 +577,8 @@ dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.appl
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.apply(pd.to_numeric)
 dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.fillna(0)
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.fillna(0)
+dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.diff(axis=1)
+dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.diff(axis=1)
 dfxg_homexg_complete_game_smaller_45[dfxg_homexg_complete_game_smaller_45 < 0] = 0
 dfxg_awayxg_complete_game_smaller_45[dfxg_awayxg_complete_game_smaller_45 < 0] = 0
 
