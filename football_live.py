@@ -231,9 +231,9 @@ def df_cleaning_converting(df):
         print(index)
         try:    
             # away team xg at halfime!
-            df['Axg_halftime'].loc[index] = df["timing_chart_xg"].loc[index].split("45' ")[0].split("Total xG: ")[-1].split("\n")[0].replace(";", "")  
+            df['Axg_halftime'].loc[index] = df["timing_chart_xg"].loc[index].split("46' Total xG:")[0].split("Total xG: ")[-1].split("\n")[0].replace(";", "")  
             # home team xg at halfime!
-            df['xg_halftime'].loc[index] = df["timing_chart_xg"].loc[index].split("45' ")[1].split("Total xG: ")[1].split("\n")[0].replace(";", "") 
+            df['xg_halftime'].loc[index] = df["timing_chart_xg"].loc[index].split("45' Total xG: ")[1].split(";45' Total xG:")[0].split("\n")[0].replace(";", "") 
         except Exception:
             print("WRONG! index: ", index)
             # print(row)
