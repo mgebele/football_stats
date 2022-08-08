@@ -1,0 +1,61 @@
+,H_datetime,H_Gameinfo,H_Teamnames,H_Goals,H_Ball Possession,H_Goal Attempts,H_Shots on Goal,H_Shots off Goal,H_Blocked Shots,H_Free Kicks,H_Corner Kicks,H_Offsides,H_Goalkeeper Saves,H_Fouls,H_Yellow Cards,H_Red Cards,H_Total Passes,H_Completed Passes,H_Tackles,H_Attacks,H_Dangerous Attacks,A_datetime,A_gameinfo,A_Teamnames,A_Goals,A_Ball Possession,A_Goal Attempts,A_Shots on Goal,A_Shots off Goal,A_Blocked Shots,A_Free Kicks,A_Corner Kicks,A_Offsides,A_Goalkeeper Saves,A_Fouls,A_Yellow Cards,A_Red Cards,A_Total Passes,A_Completed Passes,A_Tackles,A_Attacks,A_Dangerous Attacks,H_cat,gameurl
+0,05.08.2022 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Crystal Palace,0,68,7,1,2,4,6,2,0,0,8,1,,332,293,6,57,44,05.08.2022 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Arsenal,1,32,5,0,3,2,7,3,1,1,6,1,,150,117,11,25,15,cat0,https://www.flashscore.com/match/QZqX1icF/#/match-summary/match-statistics/2
+1,05.08.2022 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Crystal Palace,0,44,3,1,0,2,5,1,1,1,8,0,,230,194,12,53,16,05.08.2022 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Arsenal,1,56,5,2,1,2,8,2,1,1,5,1,,288,243,18,61,35,cat1,https://www.flashscore.com/match/QZqX1icF/#/match-summary/match-statistics/1
+2,06.08.2022 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Fulham,1,38,4,2,1,1,7,1,2,2,2,1,,159,97,15,53,20,06.08.2022 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Liverpool,2,62,8,4,3,1,3,3,3,1,5,0,,251,177,7,54,42,cat2,https://www.flashscore.com/match/MgRapPRs/#/match-summary/match-statistics/2
+3,06.08.2022 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Fulham,1,28,5,1,1,3,4,3,2,0,5,1,,135,84,9,45,23,06.08.2022 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Liverpool,0,72,3,0,2,1,7,1,1,0,4,0,,361,296,4,68,21,cat3,https://www.flashscore.com/match/MgRapPRs/#/match-summary/match-statistics/1
+4,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Tottenham,2,57,9,3,4,2,3,4,2,1,4,2,,278,239,11,83,55,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Southampton,0,43,7,1,3,3,7,1,0,1,3,0,,216,184,8,76,36,cat4,https://www.flashscore.com/match/Yc8Lu1tD/#/match-summary/match-statistics/2
+5,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Tottenham,2,59,9,5,2,2,3,6,0,0,7,1,,276,231,13,12,12,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Southampton,1,41,3,1,2,0,6,1,0,3,3,0,,194,153,6,14,9,cat5,https://www.flashscore.com/match/Yc8Lu1tD/#/match-summary/match-statistics/1
+6,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Newcastle,2,59,9,4,3,2,6,4,2,0,3,0,,208,173,10,62,47,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Nottingham,0,41,2,0,2,0,5,1,0,2,6,1,,154,116,9,35,14,cat6,https://www.flashscore.com/match/jZIGtsR6/#/match-summary/match-statistics/2
+7,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Newcastle,0,65,14,6,5,3,7,7,0,0,6,0,,261,205,10,79,53,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Nottingham,0,35,3,0,1,2,6,0,0,6,8,2,,140,90,7,33,12,cat7,https://www.flashscore.com/match/jZIGtsR6/#/match-summary/match-statistics/1
+8,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Leeds,1,31,5,1,3,1,8,3,0,2,8,1,,157,117,14,30,18,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Wolves,0,69,8,2,3,3,8,4,0,0,6,0,,324,286,7,72,43,cat8,https://www.flashscore.com/match/r9F8r3df/#/match-summary/match-statistics/2
+9,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Leeds,1,47,7,3,2,2,2,3,0,3,5,1,,198,152,7,67,30,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Wolves,1,53,7,4,3,0,5,0,1,2,3,0,,222,177,9,42,20,cat9,https://www.flashscore.com/match/r9F8r3df/#/match-summary/match-statistics/1
+10,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Bournemouth,1,34,3,1,1,1,8,3,1,0,9,1,,149,108,9,67,28,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Aston Villa,0,66,7,0,3,4,11,1,1,0,6,1,,287,240,5,127,78,cat10,https://www.flashscore.com/match/4IG4qqsl/#/match-summary/match-statistics/2
+11,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Bournemouth,1,34,4,2,1,1,13,2,0,2,9,2,,152,103,11,4,5,06.08.2022 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Aston Villa,0,66,8,2,4,2,8,4,3,1,10,2,,284,239,5,16,4,cat11,https://www.flashscore.com/match/4IG4qqsl/#/match-summary/match-statistics/1
+12,06.08.2022 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Everton,0,42,5,3,1,1,6,2,0,1,8,2,,192,137,11,59,22,06.08.2022 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Chelsea,0,58,5,1,2,2,8,3,1,3,5,2,,267,220,9,43,23,cat12,https://www.flashscore.com/match/n1CPvLeJ/#/match-summary/match-statistics/2
+13,06.08.2022 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Everton,0,32,3,1,2,0,6,2,0,4,6,1,,143,109,14,41,24,06.08.2022 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Chelsea,1,68,10,5,1,4,5,13,1,1,6,0,,299,270,9,54,62,cat13,https://www.flashscore.com/match/n1CPvLeJ/#/match-summary/match-statistics/1
+14,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester Utd,1,64,12,3,3,6,6,6,2,1,3,2,,284,241,7,61,41,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brighton,0,36,3,1,2,0,4,1,0,2,7,1,,165,120,3,39,21,cat14,https://www.flashscore.com/match/040734YJ/#/match-summary/match-statistics/2
+15,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester Utd,0,62,5,2,2,1,7,0,1,1,4,2,,253,204,5,34,23,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brighton,2,38,12,3,4,5,4,1,1,2,5,0,,155,106,11,45,22,cat15,https://www.flashscore.com/match/040734YJ/#/match-summary/match-statistics/1
+16,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Leicester,1,48,6,2,2,2,5,1,1,0,5,,,197,157,3,42,11,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brentford,2,52,6,2,3,1,6,4,2,1,3,,,218,186,2,48,12,cat16,https://www.flashscore.com/match/CrKCsNB0/#/match-summary/match-statistics/2
+17,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Leicester,1,62,8,3,4,1,2,4,1,1,1,,,364,331,9,72,24,07.08.2022 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brentford,0,38,2,1,1,0,2,2,0,2,2,,,226,189,9,44,8,cat17,https://www.flashscore.com/match/CrKCsNB0/#/match-summary/match-statistics/1
+18,07.08.2022 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",West Ham,0,27,3,1,1,1,1,0,3,0,5,,,151,126,10,23,7,07.08.2022 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester City,1,73,8,1,5,2,8,3,0,1,1,,,428,399,3,68,28,cat18,https://www.flashscore.com/match/veaB2OmQ/#/match-summary/match-statistics/2
+19,07.08.2022 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",West Ham,0,21,3,0,1,2,3,1,1,0,3,0,,106,74,4,25,12,07.08.2022 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester City,1,79,6,1,3,2,2,1,1,0,3,1,,403,373,2,66,31,cat19,https://www.flashscore.com/match/veaB2OmQ/#/match-summary/match-statistics/1
