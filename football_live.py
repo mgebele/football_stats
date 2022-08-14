@@ -12,6 +12,8 @@ import os
 import json
 import traceback
 import streamlit as st
+import plotly.graph_objects as go
+
 st.set_page_config(layout="wide")
 pd.options.display.float_format = "{:,.1f}".format
 warnings.filterwarnings('ignore')
@@ -604,69 +606,131 @@ df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A-SoG-H"].clip(
 
 df4CompleteGraph.sort_values("IsHome", ascending=False)
 
-# calculate the y axis to display for the xg per minute per ball position
-if dfxg_homexg_complete_game.mean().max() > dfxg_awayxg_complete_game.mean().max():
-    dfxg_y_axis_max = dfxg_homexg_complete_game.mean().max()
-else:
-    dfxg_y_axis_max = dfxg_awayxg_complete_game.mean().max()
 
-fig_xg_perminute_home = px.line(
-    dfxg_homexg_complete_game.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_perminute_home.add_scatter(y=dfxg_awayxg_complete_game.mean(), mode='lines', name='Opponent xG')
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game = dfxg_homexg_complete_game.clip(lower=0).mean() - dfxg_awayxg_complete_game.clip(lower=0).mean()
+fig_xg_perminute_home = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_perminute_home.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_perminute_home.update_layout(
     title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_perminute_home.update_yaxes(range=[0, dfxg_y_axis_max+0.02])
-# Only thing I figured is - I could do this 
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_perminute_home.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
-fig_xg_homexg_complete_game_all_bpse = px.line(
-    dfxg_homexg_complete_game_all_bps.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_homexg_complete_game_all_bpse.add_scatter(y=dfxg_awayxg_complete_game_all_bps.mean(), mode='lines', name='Opponent xG')
+# # Only thing I figured is - I could do this 
+
+
+
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.clip(lower=0).mean() - dfxg_awayxg_complete_game_all_bps.clip(lower=0).mean()
+fig_xg_homexg_complete_game_all_bpse = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game_all_bps.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game_all_bps.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_homexg_complete_game_all_bpse.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game_all_bps,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_homexg_complete_game_all_bpse.update_layout(
     title_text='Expectedgoals per minute', title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_homexg_complete_game_all_bpse.update_yaxes(range=[0, dfxg_awayxg_complete_game_all_bps.mean()+0.02])
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_homexg_complete_game_all_bpse.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
 
-fig_xg_perminute_home_bigger_55 = px.line(
-    dfxg_homexg_complete_game_bigger_55.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_perminute_home_bigger_55.add_scatter(y=dfxg_awayxg_complete_game_bigger_55.mean(), mode='lines', name='Opponent xG')
+
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.clip(lower=0).mean() - dfxg_awayxg_complete_game_bigger_55.clip(lower=0).mean()
+fig_xg_perminute_home_bigger_55 = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game_bigger_55.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game_bigger_55.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_perminute_home_bigger_55.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game_bigger_55,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_perminute_home_bigger_55.update_layout(
     title_text='Expectedgoals per minute: bp > 55', title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_perminute_home_bigger_55.update_yaxes(range=[0, dfxg_awayxg_complete_game_bigger_55.mean()+0.02])
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_perminute_home_bigger_55.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
-fig_xg_perminute_home_smaller_45 = px.line(
-    dfxg_homexg_complete_game_smaller_45.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_perminute_home_smaller_45.add_scatter(y=dfxg_awayxg_complete_game_smaller_45.mean(), mode='lines', name='Opponent xG')
+
+
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.clip(lower=0).mean() - dfxg_awayxg_complete_game_smaller_45.clip(lower=0).mean()
+fig_xg_perminute_home_smaller_45 = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game_smaller_45.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game_smaller_45.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_perminute_home_smaller_45.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game_smaller_45,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_perminute_home_smaller_45.update_layout(
     title_text='Expectedgoals per minute: bp < 45', title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_perminute_home_smaller_45.update_yaxes(range=[0, dfxg_awayxg_complete_game_smaller_45.mean()+0.02])
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_perminute_home_smaller_45.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
+
 
 figScatter = px.scatter(
     df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
@@ -1170,13 +1234,6 @@ col1.plotly_chart(figHistogramxG_A_xG_2Ht)
 
 col2.plotly_chart(figHistogramA_xG_xG_2Ht)
 
-col1.plotly_chart(fig_xg_perminute_home)
-
-col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
-
-col1.plotly_chart(fig_xg_perminute_home_bigger_55)
-
-col2.plotly_chart(fig_xg_perminute_home_smaller_45)
 
 col1.plotly_chart(figScatter)
 
@@ -1193,6 +1250,14 @@ col2.plotly_chart(figScatter8)
 col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
 
 col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
+
+st.plotly_chart(fig_xg_perminute_home)
+
+st.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
+
+st.plotly_chart(fig_xg_perminute_home_bigger_55)
+
+st.plotly_chart(fig_xg_perminute_home_smaller_45)
 
 # C_WPercText, N_WPercText, BP_WPercText = calc_stats(df4Complete)
 # col2.write("% W < 0.45:   {}   \n % W 0.45 - 0.55:  {}   \n % W > 0.55:  {}".format(
