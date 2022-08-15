@@ -821,8 +821,7 @@ df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby(
 df4CompleteGraph = df4CompleteGraph.sort_index()
 # second half is second entry always!
 df4CompleteGraph["halftime"] = "0"
-df4CompleteGraph.iloc[::2]["halftime"] = "2"
-df4CompleteGraph.iloc[1::2]["halftime"] = "1"
+df4CompleteGraph['halftime'] = np.where(df4CompleteGraph.index % 2, '1', '2')
 
 figScatter5 = px.scatter(
     # .query(f'Date.between{end_date}'),
@@ -1080,6 +1079,65 @@ print(ht1[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Oppon
 ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == "2"]
 print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
+
+
+# Create barchart for xg per bptypes 1
+BarBallpossesionstylesXGHalftime1 = px.bar(
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
+    x='BPTypes',
+    y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
+    # text=df4CompleteGraph.index,
+    # title="BP-Styles - Halftimes",
+    # color='Halftime result',
+    color_discrete_map={"xg_halftime-Axg_halftime": "green", "Axg_halftime-xg_halftime": "red"},
+    width=widthfig,
+    # height=heightfig,
+    # opacity=0.5,
+    text="Opponent",
+).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
+    range=[0, highest_count_yaxis])
+BarBallpossesionstylesXGHalftime1.update_layout(
+    title_text='Ballpossesionstyles - xG halftime 1', title_x=0.5, xaxis=dict(
+        tickmode='array', showticklabels=True,
+    )
+)
+BarBallpossesionstylesXGHalftime1.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
+
+
+# Create barchart for xg per bptypes 2
+BarBallpossesionstylesXGHalftime2 = px.bar(
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    x='BPTypes',
+    y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
+    # text=df4CompleteGraph.index,
+    # title="BP-Styles - Halftimes",
+    # color='Halftime result',
+    color_discrete_map={"xg_halftime-Axg_halftime": "green", "Axg_halftime-xg_halftime": "red"},
+    width=widthfig,
+    # height=heightfig,
+    # opacity=0.5,
+    text="Opponent",
+).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
+    range=[0, highest_count_yaxis])
+BarBallpossesionstylesXGHalftime2.update_layout(
+    title_text='Ballpossesionstyles - xG halftime 2', title_x=0.5, xaxis=dict(
+        tickmode='array', showticklabels=True,
+    )
+)
+BarBallpossesionstylesXGHalftime2.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
+
+
+
 figHistogramxG_A_xG_1Ht = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],  # .query(f'Date.between{end_date}'),
     x='BP-H',
@@ -1230,6 +1288,11 @@ col1, col2 = st.columns(2)
 col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
 
 col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
+
+col1.plotly_chart(BarBallpossesionstylesXGHalftime1)
+
+col2.plotly_chart(BarBallpossesionstylesXGHalftime2)
+
 
 col1.plotly_chart(figHistogramxG_A_xG_1Ht)
 
