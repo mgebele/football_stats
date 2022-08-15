@@ -751,7 +751,8 @@ figScatter = px.scatter(
 
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
+).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figScatter.update_xaxes(range=[5, 95])
@@ -789,7 +790,7 @@ figScatter1 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(
-    textposition='top center', selector={'type': 'scatter'}).update_traces(
+    textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray").update_traces(
         marker=dict(color='red'), selector={'type': 'histogram'}
 )
 figScatter1.update_xaxes(range=[5, 95])
@@ -839,7 +840,7 @@ figScatter5 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
 ).update_traces(textposition='top center',  marker=dict(
-    color='green'), selector={'type': 'scatter'}
+    color='green'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='green'), selector={'type': 'histogram'}
 )
@@ -876,7 +877,7 @@ figScatter6 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
-    color='red'), selector={'type': 'scatter'}
+    color='red'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='red'), selector={'type': 'histogram'}
 )
@@ -913,7 +914,7 @@ figScatter7 = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
 ).update_traces(textposition='top center',  marker=dict(
-    color='green'), selector={'type': 'scatter'}
+    color='green'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='green'), selector={'type': 'histogram'}
 )
@@ -952,7 +953,7 @@ figScatter8 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
-    color='red'), selector={'type': 'scatter'}
+    color='red'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='red'), selector={'type': 'histogram'}
 )
@@ -1095,7 +1096,7 @@ figHistogramxG_A_xG_1Ht = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figHistogramxG_A_xG_1Ht.update_xaxes(range=[5, 95])
@@ -1129,7 +1130,7 @@ figHistogramA_xG_xG_1Ht = px.scatter(
     # height=heightfig,
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='red'), selector={'type': 'histogram'}
 )
 figHistogramA_xG_xG_1Ht.update_xaxes(range=[5, 95])
@@ -1165,7 +1166,7 @@ figHistogramxG_A_xG_2Ht = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figHistogramxG_A_xG_2Ht.update_xaxes(range=[5, 95])
@@ -1199,7 +1200,7 @@ figHistogramA_xG_xG_2Ht = px.scatter(
     # height=heightfig,
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='red'), selector={'type': 'histogram'}
 )
 figHistogramA_xG_xG_2Ht.update_xaxes(range=[5, 95])
@@ -1226,6 +1227,10 @@ st.markdown('The following two diagrams display the new metric Expected Goals (*
 
 col1, col2 = st.columns(2)
 
+col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
+
+col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
+
 col1.plotly_chart(figHistogramxG_A_xG_1Ht)
 
 col2.plotly_chart(figHistogramA_xG_xG_1Ht)
@@ -1247,9 +1252,6 @@ col1.plotly_chart(figScatter7)
 
 col2.plotly_chart(figScatter8)
 
-col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
-
-col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
 
 st.plotly_chart(fig_xg_perminute_home)
 
