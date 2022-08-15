@@ -54,7 +54,7 @@ saissons = []
 
 # ENV is BTCPRED
 for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
-    saissons.append(tables[x].split("/")[1].split("_24102021.csv")[0])
+    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
@@ -476,17 +476,24 @@ df["awayxg_complete_game"] = ""
 df["last_game_minute"] = -1
 df["start_min_game"] = -1
 
+        
 for game_loc in df.index:
-    
+
     homexg_complete_game = []
     awayxg_complete_game = []
 
     last_game_minute = df["timing_chart_xg"].loc[game_loc].rsplit("'")[-2].rsplit(";")[1]
     start_min_game = int( re.sub("[^0-9]", "", df["timing_chart_xg"].loc[game_loc][:2]) )
 
+    # nehmen hier minute für minute und schauen nach dem xg wert für diese minute
     for x in range(start_min_game,int(last_game_minute)+1):
-        homexgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x))[1].split(";")[0][:4]  # [:4] - only last 4 digits so no goalscorer infos
-        awayxgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x), 2)[2].split(";")[0][:4]
+        try:
+            homexgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x))[1].split(";")[0][:4]  # [:4] - only last 4 digits so no goalscorer infos
+            awayxgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x), 2)[2].split(";")[0][:4]
+        except:
+            # falls die minute fehlt nehmen wir einfach den xg wert von der vorherigen minute!
+            print("min {} is missing in xg".format(x))
+
         homexg_complete_game.append(homexgperminute)
         awayxg_complete_game.append(awayxgperminute)
         
@@ -495,10 +502,10 @@ for game_loc in df.index:
     df["last_game_minute"].loc[game_loc] = last_game_minute
     df["start_min_game"].loc[game_loc] = start_min_game
 
-
 for x in range(len(df)):
     df.homexg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
     df.awayxg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
+
 
 
 df_homexg_complete_game = pd.DataFrame(df.homexg_complete_game.tolist(), index= df.index)
@@ -546,10 +553,11 @@ dfxg_homexg_complete_game = dfxg_homexg_complete_game.apply(pd.to_numeric)
 dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.apply(pd.to_numeric)
 dfxg_homexg_complete_game = dfxg_homexg_complete_game.fillna(0)
 dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.fillna(0)
-dfxg_homexg_complete_game = dfxg_homexg_complete_game.diff(axis=1)
-dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.diff(axis=1)
-dfxg_homexg_complete_game[dfxg_homexg_complete_game < 0] = 0
-dfxg_awayxg_complete_game[dfxg_awayxg_complete_game < 0] = 0
+if len(dfxg_homexg_complete_game) > 0 and len(dfxg_awayxg_complete_game) > 0:
+    dfxg_homexg_complete_game = dfxg_homexg_complete_game.diff(axis=1)
+    dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.diff(axis=1)
+    dfxg_homexg_complete_game[dfxg_homexg_complete_game < 0] = 0
+    dfxg_awayxg_complete_game[dfxg_awayxg_complete_game < 0] = 0
 
 dfxg_homexg_complete_game_all_bps = pd.DataFrame(df4Complete.homexg_complete_game.tolist(), index= df4Complete.index)
 dfxg_awayxg_complete_game_all_bps = pd.DataFrame(df4Complete.awayxg_complete_game.tolist(), index= df4Complete.index)
@@ -557,10 +565,11 @@ dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.apply(pd.t
 dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.apply(pd.to_numeric)
 dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.fillna(0)
 dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.fillna(0)
-dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.diff(axis=1)
-dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.diff(axis=1)
-dfxg_homexg_complete_game_all_bps[dfxg_homexg_complete_game_all_bps < 0] = 0
-dfxg_awayxg_complete_game_all_bps[dfxg_awayxg_complete_game_all_bps < 0] = 0
+if len(dfxg_homexg_complete_game_all_bps) > 0 and len(dfxg_awayxg_complete_game_all_bps) > 0:
+    dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.diff(axis=1)
+    dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.diff(axis=1)
+    dfxg_homexg_complete_game_all_bps[dfxg_homexg_complete_game_all_bps < 0] = 0
+    dfxg_awayxg_complete_game_all_bps[dfxg_awayxg_complete_game_all_bps < 0] = 0
 
 dfxg_homexg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
 dfxg_awayxg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
@@ -568,10 +577,11 @@ dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.apply(
 dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.apply(pd.to_numeric)
 dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.fillna(0)
 dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.fillna(0)
-dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.diff(axis=1)
-dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.diff(axis=1)
-dfxg_homexg_complete_game_bigger_55[dfxg_homexg_complete_game_bigger_55 < 0] = 0
-dfxg_awayxg_complete_game_bigger_55[dfxg_awayxg_complete_game_bigger_55 < 0] = 0
+if len(dfxg_homexg_complete_game_bigger_55) > 0 and len(dfxg_awayxg_complete_game_bigger_55) > 0:
+    dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.diff(axis=1)
+    dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.diff(axis=1)
+    dfxg_homexg_complete_game_bigger_55[dfxg_homexg_complete_game_bigger_55 < 0] = 0
+    dfxg_awayxg_complete_game_bigger_55[dfxg_awayxg_complete_game_bigger_55 < 0] = 0
 
 dfxg_homexg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
 dfxg_awayxg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
@@ -579,10 +589,12 @@ dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.appl
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.apply(pd.to_numeric)
 dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.fillna(0)
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.fillna(0)
-dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.diff(axis=1)
-dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.diff(axis=1)
-dfxg_homexg_complete_game_smaller_45[dfxg_homexg_complete_game_smaller_45 < 0] = 0
-dfxg_awayxg_complete_game_smaller_45[dfxg_awayxg_complete_game_smaller_45 < 0] = 0
+if len(dfxg_homexg_complete_game_smaller_45) > 0 and len(dfxg_awayxg_complete_game_smaller_45) > 0:
+    dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.diff(axis=1)
+    dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.diff(axis=1)
+    dfxg_homexg_complete_game_smaller_45[dfxg_homexg_complete_game_smaller_45 < 0] = 0
+    dfxg_awayxg_complete_game_smaller_45[dfxg_awayxg_complete_game_smaller_45 < 0] = 0
+
 
 print("df4Complete_show")
 print(df4Complete_show)
