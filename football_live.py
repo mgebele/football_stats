@@ -54,7 +54,7 @@ saissons = []
 
 # ENV is BTCPRED
 for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
-    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
+    saissons.append(tables[x].split("/")[1].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
