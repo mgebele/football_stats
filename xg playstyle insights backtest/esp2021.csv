@@ -329,7 +329,83 @@
 390  2.800        20  
 414  2.250        22  
 718  5.500        36  
-740  4.330        38  ]","[array(['Alaves', 'Celta Vigo', 'Barcelona'], dtype=object), array(['Valencia', 'Granada CF', 'Cadiz CF'], dtype=object), 900, -120.00000000000003, -295.0, -415.0, -46.111111111111114, '',            H_datetime                                H_gameinfo H_Teamnames  \
+740  4.330        38  ]","[array(['Alaves', 'Celta Vigo', 'Barcelona'], dtype=object), array(['Valencia', 'Granada CF', 'Cadiz CF'], dtype=object), 900, -225.0, 1683.0, 1458.0, 162.0, '',            H_datetime                            H_gameinfo H_Teamnames  \
+454  13.02.2022 14:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 24      Alaves   
+560  19.03.2022 14:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 29      Alaves   
+636  18.04.2022 21:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 32   Barcelona   
+752  22.05.2022 20:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 38      Alaves   
+
+     H_Goals  H_Ball Possession  H_Goal Attempts  H_Shots on Goal  \
+454        1                 46                3                1   
+560        2                 44                5                3   
+636        0                 74               11                5   
+752        0                 48                0                0   
+
+     H_Shots off Goal  H_Blocked Shots  H_Free Kicks  H_Corner Kicks  \
+454                 2                0             9               3   
+560                 1                1             9               2   
+636                 3                3             6               5   
+752                 0                0             8               1   
+
+     H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  H_Red Cards  \
+454           0                   1        9           2.000          NaN   
+560           0                   0        6           2.000        0.000   
+636           0                   3        9           3.000          NaN   
+752           0                   2        3             NaN          NaN   
+
+     H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+454         130.000              81.000      4.000         47   
+560         138.000              69.000      6.000         42   
+636         306.000             268.000      4.000         82   
+752         209.000             162.000      8.000         59   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+454                   29      14.000  13.02.2022 14:00   
+560                   14      13.000  19.03.2022 14:00   
+636                   51      10.000  18.04.2022 21:00   
+752                   16         NaN  22.05.2022 20:00   
+
+                               A_gameinfo A_Teamnames  A_Goals  \
+454  FOOTBALL\r\nSPAIN: LALIGA - ROUND 24    Valencia        1   
+560  FOOTBALL\r\nSPAIN: LALIGA - ROUND 29  Granada CF        3   
+636  FOOTBALL\r\nSPAIN: LALIGA - ROUND 32    Cadiz CF        1   
+752  FOOTBALL\r\nSPAIN: LALIGA - ROUND 38    Cadiz CF        1   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+454                 54                4                2                 2   
+560                 56                7                3                 2   
+636                 26                5                4                 1   
+752                 52                8                3                 4   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+454                0             8               3           2   
+560                2             7               2           3   
+636                0             9               1           1   
+752                1             3               2           1   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+454                   0        9           3.000          NaN         146.000   
+560                   1        3           4.000        1.000         186.000   
+636                   5        5           1.000          NaN         112.000   
+752                   0        7             NaN          NaN         210.000   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+454             100.000      5.000         50                   32   
+560             118.000      3.000         73                   18   
+636              67.000      5.000         25                    7   
+752             168.000      5.000         46                   23   
+
+     A_Throw-in  H_cat        Date   HomeTeam    AwayTeam FTR  B365H  B365D  \
+454      12.000  cat20  13/02/2022     Alaves    Valencia   H  2.800  3.200   
+560      16.000   cat2  19/03/2022     Alaves  Granada CF   A  2.000  3.300   
+636       5.000  cat36  18/04/2022  Barcelona    Cadiz CF   A  1.200  6.500   
+752         NaN  cat54  22/05/2022     Alaves    Cadiz CF   A  4.200  3.700   
+
+     B365A  H_gamenr  
+454  2.600        24  
+560  4.000        29  
+636 15.000        32  
+752  1.830        38  ,            H_datetime                                H_gameinfo H_Teamnames  \
 386  08.01.2022 18:30  FootballFootballSPAIN: LaLiga - Round 20  Granada CF   
 450  12.02.2022 14:00      FOOTBALL\r\nSPAIN: LALIGA - ROUND 24    Cadiz CF   
 474  20.02.2022 16:15      FOOTBALL\r\nSPAIN: LALIGA - ROUND 25    Valencia   
@@ -418,80 +494,4 @@
 450  2.050        24  
 474  2.050        25  
 671  2.620        34  
-744  2.620        38  ,            H_datetime                            H_gameinfo H_Teamnames  \
-454  13.02.2022 14:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 24      Alaves   
-560  19.03.2022 14:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 29      Alaves   
-636  18.04.2022 21:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 32   Barcelona   
-752  22.05.2022 20:00  FOOTBALL\r\nSPAIN: LALIGA - ROUND 38      Alaves   
-
-     H_Goals  H_Ball Possession  H_Goal Attempts  H_Shots on Goal  \
-454        1                 46                3                1   
-560        2                 44                5                3   
-636        0                 74               11                5   
-752        0                 48                0                0   
-
-     H_Shots off Goal  H_Blocked Shots  H_Free Kicks  H_Corner Kicks  \
-454                 2                0             9               3   
-560                 1                1             9               2   
-636                 3                3             6               5   
-752                 0                0             8               1   
-
-     H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  H_Red Cards  \
-454           0                   1        9           2.000          NaN   
-560           0                   0        6           2.000        0.000   
-636           0                   3        9           3.000          NaN   
-752           0                   2        3             NaN          NaN   
-
-     H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
-454         130.000              81.000      4.000         47   
-560         138.000              69.000      6.000         42   
-636         306.000             268.000      4.000         82   
-752         209.000             162.000      8.000         59   
-
-     H_Dangerous Attacks  H_Throw-in        A_datetime  \
-454                   29      14.000  13.02.2022 14:00   
-560                   14      13.000  19.03.2022 14:00   
-636                   51      10.000  18.04.2022 21:00   
-752                   16         NaN  22.05.2022 20:00   
-
-                               A_gameinfo A_Teamnames  A_Goals  \
-454  FOOTBALL\r\nSPAIN: LALIGA - ROUND 24    Valencia        1   
-560  FOOTBALL\r\nSPAIN: LALIGA - ROUND 29  Granada CF        3   
-636  FOOTBALL\r\nSPAIN: LALIGA - ROUND 32    Cadiz CF        1   
-752  FOOTBALL\r\nSPAIN: LALIGA - ROUND 38    Cadiz CF        1   
-
-     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
-454                 54                4                2                 2   
-560                 56                7                3                 2   
-636                 26                5                4                 1   
-752                 52                8                3                 4   
-
-     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
-454                0             8               3           2   
-560                2             7               2           3   
-636                0             9               1           1   
-752                1             3               2           1   
-
-     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
-454                   0        9           3.000          NaN         146.000   
-560                   1        3           4.000        1.000         186.000   
-636                   5        5           1.000          NaN         112.000   
-752                   0        7             NaN          NaN         210.000   
-
-     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
-454             100.000      5.000         50                   32   
-560             118.000      3.000         73                   18   
-636              67.000      5.000         25                    7   
-752             168.000      5.000         46                   23   
-
-     A_Throw-in  H_cat        Date   HomeTeam    AwayTeam FTR  B365H  B365D  \
-454      12.000  cat20  13/02/2022     Alaves    Valencia   H  2.800  3.200   
-560      16.000   cat2  19/03/2022     Alaves  Granada CF   A  2.000  3.300   
-636       5.000  cat36  18/04/2022  Barcelona    Cadiz CF   A  1.200  6.500   
-752         NaN  cat54  22/05/2022     Alaves    Cadiz CF   A  4.200  3.700   
-
-     B365A  H_gamenr  
-454  2.600        24  
-560  4.000        29  
-636 15.000        32  
-752  1.830        38  ]"
+744  2.620        38  ]"

@@ -342,83 +342,7 @@
      B365A  H_gamenr  
 464  8.000        24  
 626  4.750        32  
-716  5.750        36  ]","[array(['Lyon', 'Nice', 'Paris SG'], dtype=object), array(['Brest', 'Lorient', 'Nantes'], dtype=object), 800, 207.0, 20.0, 227.0, 28.375, '',            H_datetime                                  H_gameinfo H_Teamnames  \
-378  09.01.2022 13:00  FootballFootballFRANCE: Ligue 1 - Round 20       Brest   
-509  04.03.2022 21:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 27     Lorient   
-533  19.02.2022 21:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 25      Nantes   
-656  20.04.2022 21:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 33       Brest   
-
-     H_Goals  H_Ball Possession  H_Goal Attempts  H_Shots on Goal  \
-378        0                 70               15                4   
-509        1                 35                8                3   
-533        3                 27                9                6   
-656        1                 35                5                1   
-
-     H_Shots off Goal  H_Blocked Shots  H_Free Kicks  H_Corner Kicks  \
-378                 7                4        14.000               9   
-509                 5                0         7.000               4   
-533                 2                1         4.000               3   
-656                 4                0         4.000               1   
-
-     H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  H_Red Cards  \
-378           1                   0        3           0.000          NaN   
-509           1                   2        4             NaN          NaN   
-533           0                   5       10           2.000          NaN   
-656           0                   3        5           1.000          NaN   
-
-     H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
-378             280             245.000         13         79   
-509             183             142.000          9         53   
-533             142             115.000         15         35   
-656             161             112.000         12         41   
-
-     H_Dangerous Attacks  H_Throw-in        A_datetime  \
-378                   51      14.000  09.01.2022 13:00   
-509                   21       9.000  04.03.2022 21:00   
-533                   15         NaN  19.02.2022 21:00   
-656                   23       9.000  20.04.2022 21:00   
-
-                                     A_gameinfo A_Teamnames  A_Goals  \
-378  FootballFootballFRANCE: Ligue 1 - Round 20        Nice        2   
-509      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 27        Lyon        2   
-533      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 25    Paris SG        0   
-656      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 33        Lyon        1   
-
-     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
-378                 30                5                2                 3   
-509                 65                8                4                 2   
-533                 73                7                5                 0   
-656                 65               11                4                 3   
-
-     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
-378                0         5.000               0           1   
-509                2         5.000               1           0   
-533                2        10.000               1           0   
-656                4         0.000               1           2   
-
-     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
-378                   4        5           2.000          NaN             113   
-509                   2        7             NaN          NaN             345   
-533                   3        4           2.000          NaN             393   
-656                   0        5           1.000          NaN             311   
-
-     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
-378              73.000          3         30                    2   
-509             298.000         11         64                   23   
-533             361.000          4         67                   23   
-656             272.000          5         92                   36   
-
-     A_Throw-in  H_cat        Date HomeTeam  AwayTeam FTR  B365H  B365D  \
-378       6.000   cat4  09/01/2022    Brest      Nice   A  2.870  3.500   
-509       6.000  cat69  04/03/2022  Lorient      Lyon   A  4.330  3.800   
-533         NaN  cat10  19/02/2022   Nantes  Paris SG   H  6.500  4.330   
-656      13.000  cat16  20/04/2022    Brest      Lyon   H  4.000  4.330   
-
-     B365A  H_gamenr  
-378  2.400        20  
-509  1.800        27  
-533  1.500        25  
-656  1.750        33  ,            H_datetime                                  H_gameinfo H_Teamnames  \
+716  5.750        36  ]","[array(['Lyon', 'Nice', 'Paris SG'], dtype=object), array(['Brest', 'Lorient', 'Nantes'], dtype=object), 800, 650.0, -400, 250.0, 31.25, '',            H_datetime                                  H_gameinfo H_Teamnames  \
 388  14.01.2022 21:00  FootballFootballFRANCE: Ligue 1 - Round 21        Nice   
 598  03.04.2022 20:45      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 30    Paris SG   
 626  17.04.2022 13:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 32        Nice   
@@ -494,4 +418,80 @@
 388  5.000        21  
 598 13.000        30  
 626  4.750        32  
-736  5.750        37  ]"
+736  5.750        37  ,            H_datetime                                  H_gameinfo H_Teamnames  \
+378  09.01.2022 13:00  FootballFootballFRANCE: Ligue 1 - Round 20       Brest   
+509  04.03.2022 21:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 27     Lorient   
+533  19.02.2022 21:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 25      Nantes   
+656  20.04.2022 21:00      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 33       Brest   
+
+     H_Goals  H_Ball Possession  H_Goal Attempts  H_Shots on Goal  \
+378        0                 70               15                4   
+509        1                 35                8                3   
+533        3                 27                9                6   
+656        1                 35                5                1   
+
+     H_Shots off Goal  H_Blocked Shots  H_Free Kicks  H_Corner Kicks  \
+378                 7                4        14.000               9   
+509                 5                0         7.000               4   
+533                 2                1         4.000               3   
+656                 4                0         4.000               1   
+
+     H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  H_Red Cards  \
+378           1                   0        3           0.000          NaN   
+509           1                   2        4             NaN          NaN   
+533           0                   5       10           2.000          NaN   
+656           0                   3        5           1.000          NaN   
+
+     H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+378             280             245.000         13         79   
+509             183             142.000          9         53   
+533             142             115.000         15         35   
+656             161             112.000         12         41   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+378                   51      14.000  09.01.2022 13:00   
+509                   21       9.000  04.03.2022 21:00   
+533                   15         NaN  19.02.2022 21:00   
+656                   23       9.000  20.04.2022 21:00   
+
+                                     A_gameinfo A_Teamnames  A_Goals  \
+378  FootballFootballFRANCE: Ligue 1 - Round 20        Nice        2   
+509      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 27        Lyon        2   
+533      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 25    Paris SG        0   
+656      FOOTBALL\r\nFRANCE: LIGUE 1 - ROUND 33        Lyon        1   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+378                 30                5                2                 3   
+509                 65                8                4                 2   
+533                 73                7                5                 0   
+656                 65               11                4                 3   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+378                0         5.000               0           1   
+509                2         5.000               1           0   
+533                2        10.000               1           0   
+656                4         0.000               1           2   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+378                   4        5           2.000          NaN             113   
+509                   2        7             NaN          NaN             345   
+533                   3        4           2.000          NaN             393   
+656                   0        5           1.000          NaN             311   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+378              73.000          3         30                    2   
+509             298.000         11         64                   23   
+533             361.000          4         67                   23   
+656             272.000          5         92                   36   
+
+     A_Throw-in  H_cat        Date HomeTeam  AwayTeam FTR  B365H  B365D  \
+378       6.000   cat4  09/01/2022    Brest      Nice   A  2.870  3.500   
+509       6.000  cat69  04/03/2022  Lorient      Lyon   A  4.330  3.800   
+533         NaN  cat10  19/02/2022   Nantes  Paris SG   H  6.500  4.330   
+656      13.000  cat16  20/04/2022    Brest      Lyon   H  4.000  4.330   
+
+     B365A  H_gamenr  
+378  2.400        20  
+509  1.800        27  
+533  1.500        25  
+656  1.750        33  ]"
