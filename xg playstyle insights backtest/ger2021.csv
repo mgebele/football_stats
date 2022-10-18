@@ -1,0 +1,469 @@
+"[array(['Bayern Munich', 'Borussia Dortmund', 'Bayer Leverkusen'],
+      dtype=object), array(['Greuther Fuerth', 'Hertha Berlin', 'Arminia Bielefeld'],
+      dtype=object), 900, -103.0, -16.99999999999999, -119.99999999999999, -13.333333333333332,     count_<45  count_>55  Wins_<45  Wins_>55  Losss_<45  Losss_>55  \
+0           7         16         2         5          1          5   
+0           8         16         2         7          3          6   
+0          22          2         8         0          6          1   
+..        ...        ...       ...       ...        ...        ...   
+0           9         16         5         8          2          2   
+0           6         17         2         6          2          7   
+0           1         28         1        15          0          5   
+
+    Losss_45-55  Wins_45-55  >55_halftime_xg  <45_halftime_xg  \
+0             8           4            0.150           -0.400   
+0             8           0            0.300           -0.150   
+0             3           3            0.900            0.300   
+..          ...         ...              ...              ...   
+0             4           6            0.200           -0.300   
+0             3           9            0.100           -0.850   
+0             0           7            0.900            1.500   
+
+                  Team  Wins_<45_perc  Wins_>55_perc  Losss_<45_perc  \
+0   B. Monchengladbach         28.571         31.250          14.286   
+0            Wolfsburg         25.000         43.750          37.500   
+0         Union Berlin         36.364          0.000          27.273   
+..                 ...            ...            ...             ...   
+0     Bayer Leverkusen         55.556         50.000          22.222   
+0           Hoffenheim         33.333         35.294          33.333   
+0        Bayern Munich        100.000         53.571           0.000   
+
+    Losss_>55_perc  
+0           31.250  
+0           37.500  
+0           50.000  
+..             ...  
+0           12.500  
+0           41.176  
+0           17.857  
+
+[18 rows x 15 columns],            H_datetime                                      H_gameinfo  \
+358  23.01.2022 17:30  FootballFootballGERMANY: Bundesliga - Round 20   
+532  17.04.2022 15:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 30   
+544  23.04.2022 15:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 31   
+579  07.05.2022 15:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 33   
+
+           H_Teamnames  H_Goals  H_Ball Possession  H_Goal Attempts  \
+358      Hertha Berlin        1                 38                3   
+532  Arminia Bielefeld        0                 34                3   
+544    Greuther Fuerth        0                 54                6   
+579    Greuther Fuerth        1                 49                4   
+
+     H_Shots on Goal  H_Shots off Goal  H_Blocked Shots  H_Free Kicks  \
+358                1                 2              NaN             3   
+532                2                 1              NaN             4   
+544                2                 4              NaN             6   
+579                2                 2              NaN             9   
+
+     H_Corner Kicks  H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  \
+358               3           0                   8        4           1.000   
+532               2           1                   4        6           0.000   
+544               4           2                   0        1             NaN   
+579               3           0                   0        9           1.000   
+
+     H_Red Cards  H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+358          NaN             167                 NaN        NaN         24   
+532          NaN              99                 NaN        NaN         39   
+544          NaN             244                 NaN        NaN         71   
+579          NaN             217                 NaN        NaN         44   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+358                    9       4.000  23.01.2022 17:30   
+532                   21       8.000  17.04.2022 15:30   
+544                   32      10.000  23.04.2022 15:30   
+579                   13      10.000  07.05.2022 15:30   
+
+                                         A_gameinfo        A_Teamnames  \
+358  FootballFootballGERMANY: Bundesliga - Round 20      Bayern Munich   
+532      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 30      Bayern Munich   
+544      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 31   Bayer Leverkusen   
+579      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 33  Borussia Dortmund   
+
+     A_Goals  A_Ball Possession  A_Goal Attempts  A_Shots on Goal  \
+358        2                 62               13               10   
+532        1                 66               13                5   
+544        2                 46                4                2   
+579        2                 51                6                2   
+
+     A_Shots off Goal  A_Blocked Shots  A_Free Kicks  A_Corner Kicks  \
+358                 3              NaN             2               2   
+532                 8              NaN             7               2   
+544                 2              NaN             2               0   
+579                 4              NaN             9               2   
+
+     A_Offsides  A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  \
+358           2                   0        6           0.000          NaN   
+532           0                   2        5           1.000          NaN   
+544           2                   2        4             NaN          NaN   
+579           3                   1        6           1.000          NaN   
+
+     A_Total Passes  A_Completed Passes  A_Tackles  A_Attacks  \
+358             363                 NaN        NaN         81   
+532             323                 NaN        NaN         65   
+544             224                 NaN        NaN         33   
+579             227                 NaN        NaN         44   
+
+     A_Dangerous Attacks  A_Throw-in  H_cat        Date         HomeTeam  \
+358                   31      10.000  cat16  23/01/2022    Hertha Berlin   
+532                   32       5.000  cat26         NaN              NaN   
+544                    6       8.000   cat2  23/04/2022  Greuther Fuerth   
+579                    9       4.000   cat3  07/05/2022  Greuther Fuerth   
+
+              AwayTeam  FTR  B365H  B365D  B365A  H_gamenr  
+358      Bayern Munich    A 11.000  6.500  1.200        20  
+532                NaN  NaN    NaN    NaN    NaN        30  
+544   Bayer Leverkusen    A  8.500  5.250  1.330        31  
+579  Borussia Dortmund    A  9.000  6.000  1.300        33  ,            H_datetime                                  H_gameinfo  \
+400  20.02.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 23   
+408  26.02.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 24   
+460  13.03.2022 17:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 26   
+492  02.04.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 28   
+602  14.05.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 34   
+
+           H_Teamnames  H_Goals  H_Ball Possession  H_Goal Attempts  \
+400      Bayern Munich        3                 70               16   
+408   Bayer Leverkusen        2                 65                9   
+460  Borussia Dortmund        0                 59               10   
+492   Bayer Leverkusen        0                 66                7   
+602  Borussia Dortmund        2                 64                6   
+
+     H_Shots on Goal  H_Shots off Goal  H_Blocked Shots  H_Free Kicks  \
+400                6                10              NaN            10   
+408                5                 4              NaN             5   
+460                1                 9              NaN             4   
+492                2                 5              NaN             8   
+602                2                 4              NaN            11   
+
+     H_Corner Kicks  H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  \
+400               5           2                   1        4           1.000   
+408               3           1                   2        4           0.000   
+460               2           0                   2        3           1.000   
+492               2           1                   2        7             NaN   
+602               1           0                   0        5           0.000   
+
+     H_Red Cards  H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+400          NaN             326                 NaN        NaN         57   
+408          NaN             371                 NaN        NaN         75   
+460          NaN             226                 NaN        NaN         59   
+492          NaN             299                 NaN        NaN         60   
+602          NaN             272                 NaN        NaN         67   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+400                   35       6.000  20.02.2022 15:30   
+408                   24       6.000  26.02.2022 15:30   
+460                   35       7.000  13.03.2022 17:30   
+492                   34       7.000  02.04.2022 15:30   
+602                   30         NaN  14.05.2022 15:30   
+
+                                     A_gameinfo        A_Teamnames  A_Goals  \
+400  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 23    Greuther Fuerth        0   
+408  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 24  Arminia Bielefeld        0   
+460  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 26  Arminia Bielefeld        0   
+492  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 28      Hertha Berlin        0   
+602  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 34      Hertha Berlin        0   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+400                 30                6                1                 5   
+408                 35                2                2                 0   
+460                 41                8                2                 6   
+492                 34                2                2                 0   
+602                 36                3                0                 3   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+400              NaN             5               2           2   
+408              NaN             5               2           1   
+460              NaN             1               3           1   
+492              NaN             8               1           0   
+602              NaN             5               0           1   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+400                   2       10           1.000          NaN              93   
+408                   3        4           1.000          NaN             172   
+460                   1        5           0.000          NaN             168   
+492                   2        9             NaN          NaN             133   
+602                   0       11           2.000          NaN             118   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+400                 NaN        NaN         27                   12   
+408                 NaN        NaN         41                   17   
+460                 NaN        NaN         44                   34   
+492                 NaN        NaN         54                   16   
+602                 NaN        NaN         33                   11   
+
+     A_Throw-in  H_cat        Date           HomeTeam         AwayTeam  FTR  \
+400       5.000  cat40  20/02/2022      Bayern Munich  Greuther Fuerth    H   
+408       9.000  cat48         NaN                NaN              NaN  NaN   
+460      10.000  cat12         NaN                NaN              NaN  NaN   
+492      13.000   cat8  02/04/2022   Bayer Leverkusen    Hertha Berlin    H   
+602         NaN   cat9  14/05/2022  Borussia Dortmund    Hertha Berlin    H   
+
+     B365H  B365D  B365A  H_gamenr  
+400  1.070 13.000 26.000        23  
+408    NaN    NaN    NaN        24  
+460    NaN    NaN    NaN        26  
+492  1.400  5.250  6.000        28  
+602  1.500  5.000  5.250        34  ]","[array(['B. Monchengladbach', 'Wolfsburg', 'RB Leipzig'], dtype=object), array(['Hoffenheim', 'RB Leipzig', 'Bayern Munich'], dtype=object), 600, 93.0, -145.00000000000003, -52.00000000000003, -8.666666666666671, '',            H_datetime                                  H_gameinfo  \
+390  19.02.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 23   
+520  10.04.2022 19:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 29   
+574  02.05.2022 20:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 32   
+594  14.05.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 34   
+
+            H_Teamnames  H_Goals  H_Ball Possession  H_Goal Attempts  \
+390           Wolfsburg        0                 57                7   
+520          RB Leipzig        0                 44                5   
+574  B. Monchengladbach        1                 43                2   
+594           Wolfsburg        1                 45                4   
+
+     H_Shots on Goal  H_Shots off Goal  H_Blocked Shots  H_Free Kicks  \
+390                3                 4              NaN             8   
+520                0                 5              NaN            10   
+574                2                 0              NaN             9   
+594                1                 3              NaN             5   
+
+     H_Corner Kicks  H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  \
+390               3           3                   2        5           0.000   
+520               2           1                   0        5           1.000   
+574               2           0                   5        7           3.000   
+594               0           1                   3        3           0.000   
+
+     H_Red Cards  H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+390          NaN             296                 NaN        NaN         69   
+520          NaN             206                 NaN        NaN         29   
+574        1.000             176                 NaN        NaN         26   
+594          NaN             188                 NaN        NaN         47   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+390                   28       9.000  19.02.2022 15:30   
+520                   13      13.000  10.04.2022 19:30   
+574                    5       4.000  02.05.2022 20:30   
+594                   11         NaN  14.05.2022 15:30   
+
+                                     A_gameinfo    A_Teamnames  A_Goals  \
+390  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 23     Hoffenheim        2   
+520  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 29     Hoffenheim        0   
+574  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 32     RB Leipzig        0   
+594  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 34  Bayern Munich        0   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+390                 43                7                4                 3   
+520                 56                2                0                 2   
+574                 57                8                5                 3   
+594                 55               12                3                 9   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+390              NaN             8               2           2   
+520              NaN             5               1           2   
+574              NaN             6               7           2   
+594              NaN             4               7           0   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+390                   3        8           2.000          NaN             203   
+520                   0        7           2.000          NaN             285   
+574                   1        7           0.000        0.000             304   
+594                   0        5           2.000          NaN             354   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+390                 NaN        NaN         67                   18   
+520                 NaN        NaN         73                   38   
+574                 NaN        NaN         76                   71   
+594                 NaN        NaN         81                   45   
+
+     A_Throw-in  H_cat        Date            HomeTeam       AwayTeam FTR  \
+390       9.000  cat30  19/02/2022           Wolfsburg     Hoffenheim   A   
+520      18.000  cat14  10/04/2022          RB Leipzig     Hoffenheim   H   
+574       8.000  cat16  02/05/2022  B. Monchengladbach     RB Leipzig   H   
+594         NaN   cat1  14/05/2022           Wolfsburg  Bayern Munich   D   
+
+     B365H  B365D  B365A  H_gamenr  
+390  2.700  3.500  2.550        23  
+520  1.500  4.750  6.000        29  
+574  4.330  4.000  1.750        32  
+594  5.000  4.750  1.550        34  ,            H_datetime                                      H_gameinfo  \
+356  23.01.2022 15:30  FootballFootballGERMANY: Bundesliga - Round 20   
+444  05.02.2022 18:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 21   
+
+       H_Teamnames  H_Goals  H_Ball Possession  H_Goal Attempts  \
+356     RB Leipzig        2                 54                9   
+444  Bayern Munich        2                 54               16   
+
+     H_Shots on Goal  H_Shots off Goal  H_Blocked Shots  H_Free Kicks  \
+356                3                 6              NaN            11   
+444                7                 9              NaN             4   
+
+     H_Corner Kicks  H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  \
+356               3           1                   1        9           3.000   
+444               2           2                   2        9           1.000   
+
+     H_Red Cards  H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+356          NaN             203                 NaN        NaN         60   
+444          NaN             293                 NaN        NaN         71   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+356                   26       3.000  23.01.2022 15:30   
+444                   16         NaN  05.02.2022 18:30   
+
+                                         A_gameinfo A_Teamnames  A_Goals  \
+356  FootballFootballGERMANY: Bundesliga - Round 20   Wolfsburg        0   
+444      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 21  RB Leipzig        1   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+356                 46                3                1                 2   
+444                 46                6                3                 3   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+356              NaN             7               1           4   
+444              NaN            11               0           1   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+356                   1        8           1.000          NaN             180   
+444                   5        4           1.000          NaN             232   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+356                 NaN        NaN         52                   25   
+444                 NaN        NaN         47                    8   
+
+     A_Throw-in  H_cat        Date       HomeTeam    AwayTeam FTR  B365H  \
+356       9.000  cat14  23/01/2022     RB Leipzig   Wolfsburg   H  1.530   
+444         NaN  cat16  05/02/2022  Bayern Munich  RB Leipzig   H  1.400   
+
+     B365D  B365A  H_gamenr  
+356  4.330  6.000        20  
+444  5.500  6.000        21  ]","[array(['Hoffenheim', 'FC Koln', 'RB Leipzig'], dtype=object), array(['Union Berlin', 'Mainz', 'Bochum'], dtype=object), 700, 85.0, 1000.0, 1085.0, 155.0, '',            H_datetime                                  H_gameinfo H_Teamnames  \
+486  02.04.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 28  Hoffenheim   
+510  09.04.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 29     FC Koln   
+542  23.04.2022 15:30  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 31  RB Leipzig   
+
+     H_Goals  H_Ball Possession  H_Goal Attempts  H_Shots on Goal  \
+486        1                 58                8                4   
+510        3                 53                8                4   
+542        1                 51                5                1   
+
+     H_Shots off Goal  H_Blocked Shots  H_Free Kicks  H_Corner Kicks  \
+486                 4              NaN             9               4   
+510                 4              NaN            11               7   
+542                 4              NaN             4               2   
+
+     H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  H_Red Cards  \
+486           1                   2        3           2.000          NaN   
+510           0                   1       11           1.000          NaN   
+542           0                   0        7           2.000          NaN   
+
+     H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+486             259                 NaN        NaN         77   
+510             169                 NaN        NaN         48   
+542             225                 NaN        NaN         47   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+486                   38       9.000  02.04.2022 15:30   
+510                   27      15.000  09.04.2022 15:30   
+542                   25       9.000  23.04.2022 15:30   
+
+                                     A_gameinfo   A_Teamnames  A_Goals  \
+486  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 28        Bochum        1   
+510  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 29         Mainz        1   
+542  FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 31  Union Berlin        2   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+486                 42                8                3                 5   
+510                 47                3                2                 1   
+542                 49                4                2                 2   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+486              NaN             4               2           2   
+510              NaN            10               2           0   
+542              NaN             3               2           0   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+486                   3        7           2.000          NaN             152   
+510                   1       11           1.000          NaN             168   
+542                   0        4           2.000          NaN             187   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+486                 NaN        NaN         30                   22   
+510                 NaN        NaN         54                   17   
+542                 NaN        NaN         58                   19   
+
+     A_Throw-in H_cat        Date    HomeTeam      AwayTeam FTR  B365H  B365D  \
+486      11.000  cat2  02/04/2022  Hoffenheim        Bochum   A  1.500  4.330   
+510       9.000  cat4  09/04/2022     FC Koln         Mainz   H  2.450  3.400   
+542       9.000  cat0  23/04/2022  RB Leipzig  Union Berlin   A  1.550  4.000   
+
+     B365A  H_gamenr  
+486  6.500        28  
+510  2.900        29  
+542  6.500        31  ,            H_datetime                                      H_gameinfo  \
+354  22.01.2022 18:30  FootballFootballGERMANY: Bundesliga - Round 20   
+362  05.02.2022 15:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 21   
+412  27.02.2022 15:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 24   
+484  01.04.2022 20:30      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 28   
+
+      H_Teamnames  H_Goals  H_Ball Possession  H_Goal Attempts  \
+354        Bochum        1                 59                8   
+362         Mainz        0                 43                7   
+412        Bochum        0                 55               11   
+484  Union Berlin        1                 42                6   
+
+     H_Shots on Goal  H_Shots off Goal  H_Blocked Shots  H_Free Kicks  \
+354                3                 5              NaN             6   
+362                3                 4              NaN             5   
+412                2                 9              NaN             7   
+484                3                 3              NaN             8   
+
+     H_Corner Kicks  H_Offsides  H_Goalkeeper Saves  H_Fouls  H_Yellow Cards  \
+354               0           1                   0        7           0.000   
+362               4           0                   2        9           0.000   
+412               3           4                   0        8           1.000   
+484               1           2                   0       11           1.000   
+
+     H_Red Cards  H_Total Passes  H_Completed Passes  H_Tackles  H_Attacks  \
+354          NaN             225                 NaN        NaN         61   
+362          NaN             160                 NaN        NaN         38   
+412          NaN             168                 NaN        NaN         71   
+484          NaN             137                 NaN        NaN         49   
+
+     H_Dangerous Attacks  H_Throw-in        A_datetime  \
+354                   34      10.000  22.01.2022 18:30   
+362                   22       7.000  05.02.2022 15:30   
+412                   31      17.000  27.02.2022 15:30   
+484                   25      12.000  01.04.2022 20:30   
+
+                                         A_gameinfo A_Teamnames  A_Goals  \
+354  FootballFootballGERMANY: Bundesliga - Round 20     FC Koln        0   
+362      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 21  Hoffenheim        0   
+412      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 24  RB Leipzig        1   
+484      FOOTBALL\r\nGERMANY: BUNDESLIGA - ROUND 28     FC Koln        0   
+
+     A_Ball Possession  A_Goal Attempts  A_Shots on Goal  A_Shots off Goal  \
+354                 41                1                0                 1   
+362                 57                6                2                 4   
+412                 45                5                1                 4   
+484                 58                1                0                 1   
+
+     A_Blocked Shots  A_Free Kicks  A_Corner Kicks  A_Offsides  \
+354              NaN             9               1           2   
+362              NaN            10               2           1   
+412              NaN            12               0           1   
+484              NaN            15               1           0   
+
+     A_Goalkeeper Saves  A_Fouls  A_Yellow Cards  A_Red Cards  A_Total Passes  \
+354                   2        6           3.000          NaN             152   
+362                   1        7           1.000          NaN             249   
+412                   2        5           1.000          NaN             141   
+484                   2        6           2.000          NaN             261   
+
+     A_Completed Passes  A_Tackles  A_Attacks  A_Dangerous Attacks  \
+354                 NaN        NaN         41                   11   
+362                 NaN        NaN         64                   31   
+412                 NaN        NaN         38                   13   
+484                 NaN        NaN         64                   13   
+
+     A_Throw-in  H_cat        Date      HomeTeam    AwayTeam FTR  B365H  \
+354      12.000  cat12  22/01/2022        Bochum     FC Koln   D  3.200   
+362      10.000   cat2  05/02/2022         Mainz  Hoffenheim   H  2.600   
+412      12.000  cat52  27/02/2022        Bochum  RB Leipzig   A  5.000   
+484       9.000   cat0  01/04/2022  Union Berlin     FC Koln   H  2.250   
+
+     B365D  B365A  H_gamenr  
+354  3.400  2.250        20  
+362  3.400  2.700        21  
+412  4.000  1.650        24  
+484  3.300  3.300        28  ]"

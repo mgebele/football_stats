@@ -12,6 +12,8 @@ import os
 import json
 import traceback
 import streamlit as st
+import plotly.graph_objects as go
+
 st.set_page_config(layout="wide")
 pd.options.display.float_format = "{:,.1f}".format
 warnings.filterwarnings('ignore')
@@ -474,17 +476,24 @@ df["awayxg_complete_game"] = ""
 df["last_game_minute"] = -1
 df["start_min_game"] = -1
 
+        
 for game_loc in df.index:
-    
+
     homexg_complete_game = []
     awayxg_complete_game = []
 
     last_game_minute = df["timing_chart_xg"].loc[game_loc].rsplit("'")[-2].rsplit(";")[1]
     start_min_game = int( re.sub("[^0-9]", "", df["timing_chart_xg"].loc[game_loc][:2]) )
 
+    # nehmen hier minute für minute und schauen nach dem xg wert für diese minute
     for x in range(start_min_game,int(last_game_minute)+1):
-        homexgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x))[1].split(";")[0][:4]  # [:4] - only last 4 digits so no goalscorer infos
-        awayxgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x), 2)[2].split(";")[0][:4]
+        try:
+            homexgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x))[1].split(";")[0][:4]  # [:4] - only last 4 digits so no goalscorer infos
+            awayxgperminute = df["timing_chart_xg"].loc[game_loc].split("{}' Total xG: ".format(x), 2)[2].split(";")[0][:4]
+        except:
+            # falls die minute fehlt nehmen wir einfach den xg wert von der vorherigen minute!
+            print("min {} is missing in xg".format(x))
+
         homexg_complete_game.append(homexgperminute)
         awayxg_complete_game.append(awayxgperminute)
         
@@ -493,10 +502,10 @@ for game_loc in df.index:
     df["last_game_minute"].loc[game_loc] = last_game_minute
     df["start_min_game"].loc[game_loc] = start_min_game
 
-
 for x in range(len(df)):
     df.homexg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
     df.awayxg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
+
 
 
 df_homexg_complete_game = pd.DataFrame(df.homexg_complete_game.tolist(), index= df.index)
@@ -544,10 +553,11 @@ dfxg_homexg_complete_game = dfxg_homexg_complete_game.apply(pd.to_numeric)
 dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.apply(pd.to_numeric)
 dfxg_homexg_complete_game = dfxg_homexg_complete_game.fillna(0)
 dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.fillna(0)
-dfxg_homexg_complete_game = dfxg_homexg_complete_game.diff(axis=1)
-dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.diff(axis=1)
-dfxg_homexg_complete_game[dfxg_homexg_complete_game < 0] = 0
-dfxg_awayxg_complete_game[dfxg_awayxg_complete_game < 0] = 0
+if len(dfxg_homexg_complete_game) > 0 and len(dfxg_awayxg_complete_game) > 0:
+    dfxg_homexg_complete_game = dfxg_homexg_complete_game.diff(axis=1)
+    dfxg_awayxg_complete_game = dfxg_awayxg_complete_game.diff(axis=1)
+    dfxg_homexg_complete_game[dfxg_homexg_complete_game < 0] = 0
+    dfxg_awayxg_complete_game[dfxg_awayxg_complete_game < 0] = 0
 
 dfxg_homexg_complete_game_all_bps = pd.DataFrame(df4Complete.homexg_complete_game.tolist(), index= df4Complete.index)
 dfxg_awayxg_complete_game_all_bps = pd.DataFrame(df4Complete.awayxg_complete_game.tolist(), index= df4Complete.index)
@@ -555,10 +565,11 @@ dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.apply(pd.t
 dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.apply(pd.to_numeric)
 dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.fillna(0)
 dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.fillna(0)
-dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.diff(axis=1)
-dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.diff(axis=1)
-dfxg_homexg_complete_game_all_bps[dfxg_homexg_complete_game_all_bps < 0] = 0
-dfxg_awayxg_complete_game_all_bps[dfxg_awayxg_complete_game_all_bps < 0] = 0
+if len(dfxg_homexg_complete_game_all_bps) > 0 and len(dfxg_awayxg_complete_game_all_bps) > 0:
+    dfxg_homexg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.diff(axis=1)
+    dfxg_awayxg_complete_game_all_bps = dfxg_awayxg_complete_game_all_bps.diff(axis=1)
+    dfxg_homexg_complete_game_all_bps[dfxg_homexg_complete_game_all_bps < 0] = 0
+    dfxg_awayxg_complete_game_all_bps[dfxg_awayxg_complete_game_all_bps < 0] = 0
 
 dfxg_homexg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
 dfxg_awayxg_complete_game_bigger_55 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]>55)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]>55)].index)
@@ -566,10 +577,11 @@ dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.apply(
 dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.apply(pd.to_numeric)
 dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.fillna(0)
 dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.fillna(0)
-dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.diff(axis=1)
-dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.diff(axis=1)
-dfxg_homexg_complete_game_bigger_55[dfxg_homexg_complete_game_bigger_55 < 0] = 0
-dfxg_awayxg_complete_game_bigger_55[dfxg_awayxg_complete_game_bigger_55 < 0] = 0
+if len(dfxg_homexg_complete_game_bigger_55) > 0 and len(dfxg_awayxg_complete_game_bigger_55) > 0:
+    dfxg_homexg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.diff(axis=1)
+    dfxg_awayxg_complete_game_bigger_55 = dfxg_awayxg_complete_game_bigger_55.diff(axis=1)
+    dfxg_homexg_complete_game_bigger_55[dfxg_homexg_complete_game_bigger_55 < 0] = 0
+    dfxg_awayxg_complete_game_bigger_55[dfxg_awayxg_complete_game_bigger_55 < 0] = 0
 
 dfxg_homexg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].homexg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
 dfxg_awayxg_complete_game_smaller_45 = pd.DataFrame(df4Complete[(df4Complete["BP-H"]<45)].awayxg_complete_game.tolist(), index= df4Complete[(df4Complete["BP-H"]<45)].index)
@@ -577,10 +589,12 @@ dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.appl
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.apply(pd.to_numeric)
 dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.fillna(0)
 dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.fillna(0)
-dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.diff(axis=1)
-dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.diff(axis=1)
-dfxg_homexg_complete_game_smaller_45[dfxg_homexg_complete_game_smaller_45 < 0] = 0
-dfxg_awayxg_complete_game_smaller_45[dfxg_awayxg_complete_game_smaller_45 < 0] = 0
+if len(dfxg_homexg_complete_game_smaller_45) > 0 and len(dfxg_awayxg_complete_game_smaller_45) > 0:
+    dfxg_homexg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.diff(axis=1)
+    dfxg_awayxg_complete_game_smaller_45 = dfxg_awayxg_complete_game_smaller_45.diff(axis=1)
+    dfxg_homexg_complete_game_smaller_45[dfxg_homexg_complete_game_smaller_45 < 0] = 0
+    dfxg_awayxg_complete_game_smaller_45[dfxg_awayxg_complete_game_smaller_45 < 0] = 0
+
 
 print("df4Complete_show")
 print(df4Complete_show)
@@ -604,69 +618,131 @@ df4CompleteGraph["SoG-A-SoG-H"] = df4CompleteGraph["SoG-A-SoG-H"].clip(
 
 df4CompleteGraph.sort_values("IsHome", ascending=False)
 
-# calculate the y axis to display for the xg per minute per ball position
-if dfxg_homexg_complete_game.mean().max() > dfxg_awayxg_complete_game.mean().max():
-    dfxg_y_axis_max = dfxg_homexg_complete_game.mean().max()
-else:
-    dfxg_y_axis_max = dfxg_awayxg_complete_game.mean().max()
 
-fig_xg_perminute_home = px.line(
-    dfxg_homexg_complete_game.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_perminute_home.add_scatter(y=dfxg_awayxg_complete_game.mean(), mode='lines', name='Opponent xG')
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game = dfxg_homexg_complete_game.clip(lower=0).mean() - dfxg_awayxg_complete_game.clip(lower=0).mean()
+fig_xg_perminute_home = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_perminute_home.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_perminute_home.update_layout(
     title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_perminute_home.update_yaxes(range=[0, dfxg_y_axis_max+0.02])
-# Only thing I figured is - I could do this 
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_perminute_home.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
-fig_xg_homexg_complete_game_all_bpse = px.line(
-    dfxg_homexg_complete_game_all_bps.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_homexg_complete_game_all_bpse.add_scatter(y=dfxg_awayxg_complete_game_all_bps.mean(), mode='lines', name='Opponent xG')
+# # Only thing I figured is - I could do this 
+
+
+
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.clip(lower=0).mean() - dfxg_awayxg_complete_game_all_bps.clip(lower=0).mean()
+fig_xg_homexg_complete_game_all_bpse = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game_all_bps.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game_all_bps.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_homexg_complete_game_all_bpse.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game_all_bps,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_homexg_complete_game_all_bpse.update_layout(
     title_text='Expectedgoals per minute', title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_homexg_complete_game_all_bpse.update_yaxes(range=[0, dfxg_awayxg_complete_game_all_bps.mean()+0.02])
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_homexg_complete_game_all_bpse.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
 
-fig_xg_perminute_home_bigger_55 = px.line(
-    dfxg_homexg_complete_game_bigger_55.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_perminute_home_bigger_55.add_scatter(y=dfxg_awayxg_complete_game_bigger_55.mean(), mode='lines', name='Opponent xG')
+
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game_bigger_55 = dfxg_homexg_complete_game_bigger_55.clip(lower=0).mean() - dfxg_awayxg_complete_game_bigger_55.clip(lower=0).mean()
+fig_xg_perminute_home_bigger_55 = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game_bigger_55.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game_bigger_55.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_perminute_home_bigger_55.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game_bigger_55,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_perminute_home_bigger_55.update_layout(
     title_text='Expectedgoals per minute: bp > 55', title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_perminute_home_bigger_55.update_yaxes(range=[0, dfxg_awayxg_complete_game_bigger_55.mean()+0.02])
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_perminute_home_bigger_55.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
-fig_xg_perminute_home_smaller_45 = px.line(
-    dfxg_homexg_complete_game_smaller_45.mean(),
-    width=widthfig,
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
-    marker=dict(color='green'), selector={'type': 'histogram'}
-)
-fig_xg_perminute_home_smaller_45.add_scatter(y=dfxg_awayxg_complete_game_smaller_45.mean(), mode='lines', name='Opponent xG')
+
+
+# calculate the difference of team xg vs oppo xg
+dfxg_complete_game_smaller_45 = dfxg_homexg_complete_game_smaller_45.clip(lower=0).mean() - dfxg_awayxg_complete_game_smaller_45.clip(lower=0).mean()
+fig_xg_perminute_home_smaller_45 = go.Figure(data=[
+    go.Bar(
+        name='xG', y=dfxg_homexg_complete_game_smaller_45.clip(lower=0).mean(), marker_color='green'
+        ),
+    # -1 to show the bars to the below instead of above!
+    go.Bar(
+        name='Opponent xG', y=dfxg_awayxg_complete_game_smaller_45.clip(lower=0).mean()*-1, marker_color='red' 
+        ),
+])
+fig_xg_perminute_home_smaller_45.add_trace(
+    go.Scatter(
+        name='Diff xG',
+        y=dfxg_complete_game_smaller_45,
+        line=dict(color='gold', width=3)
+        )
+    )
 fig_xg_perminute_home_smaller_45.update_layout(
     title_text='Expectedgoals per minute: bp < 45', title_x=0.5,
     yaxis=dict(
         title="xG"
-    ))
-fig_xg_perminute_home_smaller_45.update_yaxes(range=[0, dfxg_awayxg_complete_game_smaller_45.mean()+0.02])
+    ),
+    autosize=False,
+    width=1400,
+    height=400,
+    )
+fig_xg_perminute_home_smaller_45.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
+
 
 figScatter = px.scatter(
     df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
@@ -687,7 +763,8 @@ figScatter = px.scatter(
 
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'}).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
+).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figScatter.update_xaxes(range=[5, 95])
@@ -725,7 +802,7 @@ figScatter1 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(
-    textposition='top center', selector={'type': 'scatter'}).update_traces(
+    textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray").update_traces(
         marker=dict(color='red'), selector={'type': 'histogram'}
 )
 figScatter1.update_xaxes(range=[5, 95])
@@ -756,8 +833,7 @@ df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby(
 df4CompleteGraph = df4CompleteGraph.sort_index()
 # second half is second entry always!
 df4CompleteGraph["halftime"] = "0"
-df4CompleteGraph.iloc[::2]["halftime"] = "2"
-df4CompleteGraph.iloc[1::2]["halftime"] = "1"
+df4CompleteGraph['halftime'] = np.where(df4CompleteGraph.index % 2, '1', '2')
 
 figScatter5 = px.scatter(
     # .query(f'Date.between{end_date}'),
@@ -775,7 +851,7 @@ figScatter5 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
 ).update_traces(textposition='top center',  marker=dict(
-    color='green'), selector={'type': 'scatter'}
+    color='green'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='green'), selector={'type': 'histogram'}
 )
@@ -812,7 +888,7 @@ figScatter6 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
-    color='red'), selector={'type': 'scatter'}
+    color='red'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='red'), selector={'type': 'histogram'}
 )
@@ -849,7 +925,7 @@ figScatter7 = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
 ).update_traces(textposition='top center',  marker=dict(
-    color='green'), selector={'type': 'scatter'}
+    color='green'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='green'), selector={'type': 'histogram'}
 )
@@ -888,7 +964,7 @@ figScatter8 = px.scatter(
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
-    color='red'), selector={'type': 'scatter'}
+    color='red'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
     color='red'), selector={'type': 'histogram'}
 )
@@ -1015,6 +1091,67 @@ print(ht1[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Oppon
 ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == "2"]
 print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
+
+
+# Create barchart for xg per bptypes 1
+BarBallpossesionstylesXGHalftime1 = px.bar(
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
+    x='BPTypes',
+    y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
+    barmode='group',
+    # text=df4CompleteGraph.index,
+    # title="BP-Styles - Halftimes",
+    # color='Halftime result',
+    color_discrete_map={"xg_halftime-Axg_halftime": "green", "Axg_halftime-xg_halftime": "red"},
+    width=widthfig,
+    # height=heightfig,
+    # opacity=0.5,
+    text="Opponent",
+).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
+    range=[0, highest_count_yaxis])
+BarBallpossesionstylesXGHalftime1.update_layout(
+    title_text='Ballpossesionstyles - xG halftime 1', title_x=0.5, xaxis=dict(
+        tickmode='array', showticklabels=True,
+    )
+)
+BarBallpossesionstylesXGHalftime1.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
+
+
+# Create barchart for xg per bptypes 2
+BarBallpossesionstylesXGHalftime2 = px.bar(
+    df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+    x='BPTypes',
+    y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
+    barmode='group',
+    # text=df4CompleteGraph.index,
+    # title="BP-Styles - Halftimes",
+    # color='Halftime result',
+    color_discrete_map={"xg_halftime-Axg_halftime": "green", "Axg_halftime-xg_halftime": "red"},
+    width=widthfig,
+    # height=heightfig,
+    # opacity=0.5,
+    text="Opponent",
+).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
+    range=[0, highest_count_yaxis])
+BarBallpossesionstylesXGHalftime2.update_layout(
+    title_text='Ballpossesionstyles - xG halftime 2', title_x=0.5, xaxis=dict(
+        tickmode='array', showticklabels=True,
+    )
+)
+BarBallpossesionstylesXGHalftime2.update_layout(legend=dict(
+    yanchor="top",
+    y=1.2,
+    xanchor="right",
+    x=1.12
+))
+
+
+
 figHistogramxG_A_xG_1Ht = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],  # .query(f'Date.between{end_date}'),
     x='BP-H',
@@ -1031,7 +1168,7 @@ figHistogramxG_A_xG_1Ht = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figHistogramxG_A_xG_1Ht.update_xaxes(range=[5, 95])
@@ -1065,7 +1202,7 @@ figHistogramA_xG_xG_1Ht = px.scatter(
     # height=heightfig,
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='red'), selector={'type': 'histogram'}
 )
 figHistogramA_xG_xG_1Ht.update_xaxes(range=[5, 95])
@@ -1101,7 +1238,7 @@ figHistogramxG_A_xG_2Ht = px.scatter(
     # color_continuous_scale= 'Viridis',
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
 )
 figHistogramxG_A_xG_2Ht.update_xaxes(range=[5, 95])
@@ -1135,7 +1272,7 @@ figHistogramA_xG_xG_2Ht = px.scatter(
     # height=heightfig,
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
-).update_traces(textposition='top center', selector={'type': 'scatter'} ).update_traces(
+).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
     marker=dict(color='red'), selector={'type': 'histogram'}
 )
 figHistogramA_xG_xG_2Ht.update_xaxes(range=[5, 95])
@@ -1162,6 +1299,15 @@ st.markdown('The following two diagrams display the new metric Expected Goals (*
 
 col1, col2 = st.columns(2)
 
+col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
+
+col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
+
+col1.plotly_chart(BarBallpossesionstylesXGHalftime1)
+
+col2.plotly_chart(BarBallpossesionstylesXGHalftime2)
+
+
 col1.plotly_chart(figHistogramxG_A_xG_1Ht)
 
 col2.plotly_chart(figHistogramA_xG_xG_1Ht)
@@ -1170,13 +1316,6 @@ col1.plotly_chart(figHistogramxG_A_xG_2Ht)
 
 col2.plotly_chart(figHistogramA_xG_xG_2Ht)
 
-col1.plotly_chart(fig_xg_perminute_home)
-
-col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
-
-col1.plotly_chart(fig_xg_perminute_home_bigger_55)
-
-col2.plotly_chart(fig_xg_perminute_home_smaller_45)
 
 col1.plotly_chart(figScatter)
 
@@ -1190,9 +1329,14 @@ col1.plotly_chart(figScatter7)
 
 col2.plotly_chart(figScatter8)
 
-col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
 
-col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
+st.plotly_chart(fig_xg_perminute_home)
+
+st.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
+
+st.plotly_chart(fig_xg_perminute_home_bigger_55)
+
+st.plotly_chart(fig_xg_perminute_home_smaller_45)
 
 # C_WPercText, N_WPercText, BP_WPercText = calc_stats(df4Complete)
 # col2.write("% W < 0.45:   {}   \n % W 0.45 - 0.55:  {}   \n % W > 0.55:  {}".format(
