@@ -27,7 +27,7 @@ origin = repo.remote(name='origin')
 
 origin.pull()
 
-time.sleep(1)
+time.sleep(6)
 origin.push()
 time.sleep(1)
 origin.push()
