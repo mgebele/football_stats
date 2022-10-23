@@ -24,6 +24,9 @@ time.sleep(1)
 repo.index.commit(COMMIT_MESSAGE)
 time.sleep(1)
 origin = repo.remote(name='origin')
+
+origin.pull()
+
 time.sleep(1)
 origin.push()
 time.sleep(1)
