@@ -1,0 +1,1201 @@
+,H_datetime,H_gameinfo,H_Teamnames,H_Goals,H_Ball Possession,H_Goal Attempts,H_Shots on Goal,H_Shots off Goal,H_Blocked Shots,H_Free Kicks,H_Corner Kicks,H_Offsides,H_Goalkeeper Saves,H_Fouls,H_Yellow Cards,H_Red Cards,H_Total Passes,H_Completed Passes,H_Tackles,H_Attacks,H_Dangerous Attacks,A_datetime,A_gameinfo,A_Teamnames,A_Goals,A_Ball Possession,A_Goal Attempts,A_Shots on Goal,A_Shots off Goal,A_Blocked Shots,A_Free Kicks,A_Corner Kicks,A_Offsides,A_Goalkeeper Saves,A_Fouls,A_Yellow Cards,A_Red Cards,A_Total Passes,A_Completed Passes,A_Tackles,A_Attacks,A_Dangerous Attacks,H_cat,gameurl
+0,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Sampdoria,0,53,7,0,5,2,13,3,0,0,9,3,,214,172,8,55,35,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Atalanta,1,47,4,1,1,2,9,2,1,0,11,4,,137,97,12,30,22,cat0,https://www.flashscore.com/match/jg76wtl4/#/match-summary/match-statistics/2
+1,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Sampdoria,0,51,4,1,0,3,10,0,1,1,4,1,,238,188,10,55,17,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Atalanta,1,49,5,2,2,1,5,0,0,1,10,2,,233,186,7,52,15,cat1,https://www.flashscore.com/match/jg76wtl4/#/match-summary/match-statistics/1
+2,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",AC Milan,2,70,9,2,5,2,7,3,0,2,10,0,,259,225,11,49,15,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Udinese,0,30,5,2,3,0,11,0,0,0,8,2,,202,176,4,43,22,cat2,https://www.flashscore.com/match/4x5ftr4o/#/match-summary/match-statistics/2
+3,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",AC Milan,2,60,5,3,2,0,5,2,0,0,6,1,,242,205,11,47,28,13.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Udinese,2,40,4,2,1,1,6,1,1,1,5,2,,142,102,9,36,9,cat3,https://www.flashscore.com/match/4x5ftr4o/#/match-summary/match-statistics/1
+4,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Monza,1,53,8,2,3,3,10,2,1,2,3,1,,230,184,7,45,16,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Torino,1,47,7,3,3,1,4,2,3,1,7,0,,210,171,5,61,14,cat4,https://www.flashscore.com/match/rT3bu2Ji/#/match-summary/match-statistics/2
+5,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Monza,0,55,7,2,4,1,12,0,0,2,3,0,,219,180,6,43,9,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Torino,1,45,6,3,0,3,3,5,2,2,10,2,,168,135,7,40,20,cat5,https://www.flashscore.com/match/rT3bu2Ji/#/match-summary/match-statistics/1
+6,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Lecce,1,31,5,3,2,0,10,3,2,5,13,3,,118,81,3,37,9,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Inter,1,69,14,6,4,4,15,6,2,2,8,2,,255,211,5,64,35,cat6,https://www.flashscore.com/match/4paJHbRp/#/match-summary/match-statistics/2
+7,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Lecce,0,29,5,1,2,2,12,3,0,2,8,1,,138,103,7,33,13,13.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Inter,1,71,5,3,1,1,8,2,1,1,11,0,,345,305,7,58,22,cat7,https://www.flashscore.com/match/4paJHbRp/#/match-summary/match-statistics/1
+8,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Lazio,2,46,5,3,1,1,11,2,2,1,8,2,,171,141,9,45,31,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Bologna,0,54,5,1,2,2,15,1,0,1,8,2,,218,178,5,33,16,cat8,https://www.flashscore.com/match/2yDiMvJT/#/match-summary/match-statistics/2
+9,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Lazio,0,36,4,3,1,0,12,1,1,1,3,0,1,134,107,6,36,16,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Bologna,1,64,6,2,4,0,3,1,2,3,10,4,1,233,203,8,53,11,cat9,https://www.flashscore.com/match/2yDiMvJT/#/match-summary/match-statistics/1
+10,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Fiorentina,1,79,13,6,4,3,22,6,0,2,6,0,,320,292,6,70,36,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Cremonese,1,21,9,3,3,3,10,2,0,5,11,2,,88,59,13,22,11,cat10,https://www.flashscore.com/match/CnKvPtZA/#/match-summary/match-statistics/2
+11,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Fiorentina,2,71,14,5,3,6,9,5,1,0,4,0,0,247,215,6,66,29,14.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Cremonese,1,29,4,1,0,3,5,2,1,3,8,1,1,102,65,11,44,10,cat11,https://www.flashscore.com/match/CnKvPtZA/#/match-summary/match-statistics/1
+12,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Spezia,0,30,3,0,3,0,8,2,1,2,8,1,,139,97,10,36,15,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Empoli,0,70,11,2,5,4,17,2,1,0,3,0,,315,261,10,87,50,cat12,https://www.flashscore.com/match/YHdBx03A/#/match-summary/match-statistics/2
+13,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Spezia,1,52,6,2,3,1,5,4,2,3,7,1,,216,178,14,52,20,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Empoli,0,48,7,3,3,1,7,2,0,1,5,1,,204,155,5,46,13,cat13,https://www.flashscore.com/match/YHdBx03A/#/match-summary/match-statistics/1
+14,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Salernitana,0,61,8,0,4,4,15,2,1,1,7,0,,263,226,9,65,22,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",AS Roma,0,39,8,1,4,3,15,0,3,0,7,2,,173,136,10,35,22,cat14,https://www.flashscore.com/match/xj32vMYc/#/match-summary/match-statistics/2
+15,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Salernitana,0,43,5,2,1,2,2,2,0,3,11,3,,186,149,8,39,19,14.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",AS Roma,1,57,12,4,5,3,11,2,0,2,2,0,,244,210,8,39,15,cat15,https://www.flashscore.com/match/xj32vMYc/#/match-summary/match-statistics/1
+16,15.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Verona,1,48,3,1,2,0,10,3,0,1,5,1,,176,133,6,56,22,15.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Napoli,3,52,8,4,4,0,12,3,2,0,6,2,,190,152,5,36,14,cat16,https://www.flashscore.com/match/fB9qO0lH/#/match-summary/match-statistics/2
+17,15.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Verona,1,20,3,2,1,0,0,1,1,2,10,1,,84,54,13,29,11,15.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Napoli,2,80,17,4,7,6,11,5,0,1,0,0,,326,287,6,74,39,cat17,https://www.flashscore.com/match/fB9qO0lH/#/match-summary/match-statistics/1
+18,15.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Juventus,1,40,8,1,4,3,2,2,1,3,2,0,,190,159,3,32,20,15.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Sassuolo,0,60,11,3,3,5,3,2,0,0,2,1,,273,248,4,57,29,cat18,https://www.flashscore.com/match/8EDmNK3N/#/match-summary/match-statistics/2
+19,15.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Juventus,2,44,6,3,3,0,4,1,3,4,5,1,,196,165,7,29,10,15.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 1",Sassuolo,0,56,8,4,3,1,6,0,2,1,3,2,,257,229,5,62,24,cat19,https://www.flashscore.com/match/8EDmNK3N/#/match-summary/match-statistics/1
+20,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Udinese,0,44,6,0,3,3,8,4,0,3,1,0,,176,121,9,53,20,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Salernitana,0,56,8,3,4,1,1,3,1,0,7,3,,211,184,7,57,32,cat0,https://www.flashscore.com/match/6qzhkwmG/#/match-summary/match-statistics/2
+21,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Udinese,0,50,9,2,2,5,4,2,0,3,8,2,1,205,160,9,42,30,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Salernitana,0,50,9,3,4,2,8,3,0,2,5,1,0,201,153,8,49,22,cat1,https://www.flashscore.com/match/6qzhkwmG/#/match-summary/match-statistics/1
+22,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Torino,0,55,5,1,4,0,7,3,1,1,6,0,,213,172,3,62,13,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Lazio,0,45,6,1,2,3,7,4,0,1,7,5,,184,137,9,42,18,cat2,https://www.flashscore.com/match/CMzljJX9/#/match-summary/match-statistics/2
+23,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Torino,0,53,5,0,3,2,5,3,3,1,5,,,266,231,4,65,21,20.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Lazio,0,47,1,1,0,0,8,0,0,0,5,,,241,198,8,39,8,cat3,https://www.flashscore.com/match/CMzljJX9/#/match-summary/match-statistics/1
+24,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Sassuolo,0,49,3,0,1,2,11,1,0,0,10,4,,199,160,0,42,16,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Lecce,0,51,3,0,2,1,10,1,2,0,9,1,,196,162,11,55,25,cat4,https://www.flashscore.com/match/YVypiaI3/#/match-summary/match-statistics/2
+25,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Sassuolo,1,68,9,3,3,3,5,4,0,1,4,1,,310,279,4,53,38,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Lecce,0,32,4,1,2,1,4,3,2,2,3,0,,138,117,7,30,16,cat5,https://www.flashscore.com/match/YVypiaI3/#/match-summary/match-statistics/1
+26,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Inter,2,45,6,3,2,1,3,3,1,0,8,,,236,203,8,34,18,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Spezia,0,55,2,0,1,1,9,2,0,1,3,,,269,235,5,49,16,cat6,https://www.flashscore.com/match/QFyjVHep/#/match-summary/match-statistics/2
+27,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Inter,1,65,13,5,6,2,5,7,4,0,3,,,264,243,9,62,41,20.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Spezia,0,35,0,0,0,0,7,2,1,4,4,,,155,120,9,23,7,cat7,https://www.flashscore.com/match/QFyjVHep/#/match-summary/match-statistics/1
+28,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Napoli,2,45,8,2,3,3,7,4,1,0,5,2,,239,209,7,48,21,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Monza,0,55,1,0,1,0,8,3,0,0,6,0,,261,227,6,44,17,cat8,https://www.flashscore.com/match/O0fgUyBj/#/match-summary/match-statistics/2
+29,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Napoli,2,63,14,3,5,6,9,6,0,1,6,0,,250,226,5,60,29,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Monza,0,37,3,1,2,0,6,1,0,1,7,1,,146,119,11,25,11,cat9,https://www.flashscore.com/match/O0fgUyBj/#/match-summary/match-statistics/1
+30,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Empoli,0,35,1,1,0,0,6,0,0,1,8,0,1,119,88,4,31,9,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Fiorentina,0,65,13,1,6,6,8,6,1,1,5,1,0,214,193,6,56,48,cat10,https://www.flashscore.com/match/KYbNZcmT/#/match-summary/match-statistics/2
+31,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Empoli,0,39,3,1,2,0,6,1,1,1,5,1,,176,133,10,41,9,21.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Fiorentina,0,61,6,1,3,2,6,3,0,1,6,2,,268,228,9,61,28,cat11,https://www.flashscore.com/match/KYbNZcmT/#/match-summary/match-statistics/1
+32,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Bologna,0,52,10,4,4,2,13,7,0,0,8,3,1,133,90,6,42,20,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Verona,0,48,7,0,3,4,8,4,5,4,8,1,0,131,95,6,56,16,cat12,https://www.flashscore.com/match/tr0JzvYM/#/match-summary/match-statistics/2
+33,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Bologna,1,54,7,1,3,3,6,2,1,2,2,0,,219,162,6,47,15,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Verona,1,46,12,3,5,4,3,4,0,0,6,2,,178,123,7,65,23,cat13,https://www.flashscore.com/match/tr0JzvYM/#/match-summary/match-statistics/1
+34,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Atalanta,0,39,5,1,3,1,3,4,0,4,9,3,,138,98,6,33,20,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",AC Milan,1,61,8,5,3,0,9,3,1,1,2,2,,250,204,7,65,29,cat14,https://www.flashscore.com/match/C8eFyKIG/#/match-summary/match-statistics/2
+35,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Atalanta,1,43,6,1,4,1,6,0,0,2,6,1,,204,172,8,36,7,21.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",AC Milan,0,57,10,2,6,2,5,3,2,0,4,1,,271,244,3,65,27,cat15,https://www.flashscore.com/match/C8eFyKIG/#/match-summary/match-statistics/1
+36,22.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",AS Roma,1,52,12,5,2,5,8,2,1,2,4,0,,182,138,11,64,36,22.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Cremonese,0,48,8,2,5,1,5,4,1,4,7,2,,156,122,9,48,19,cat16,https://www.flashscore.com/match/x4rygLmi/#/match-summary/match-statistics/2
+37,22.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",AS Roma,0,46,15,7,4,4,7,3,0,1,3,0,,209,167,5,45,18,22.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Cremonese,0,54,6,1,4,1,3,2,0,7,7,1,,239,198,10,62,17,cat17,https://www.flashscore.com/match/x4rygLmi/#/match-summary/match-statistics/1
+38,22.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Sampdoria,0,42,4,0,4,0,12,0,0,1,4,2,,160,125,3,47,7,22.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Juventus,0,58,6,1,4,1,4,3,3,0,9,1,,210,185,9,40,15,cat18,https://www.flashscore.com/match/Gfsuhu3c/#/match-summary/match-statistics/2
+39,22.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Sampdoria,0,52,6,1,3,2,5,3,0,3,4,1,,238,209,3,52,17,22.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 2",Juventus,0,48,4,3,1,0,4,1,0,1,5,1,,228,196,9,32,11,cat19,https://www.flashscore.com/match/Gfsuhu3c/#/match-summary/match-statistics/1
+40,26.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Monza,0,58,6,2,1,3,7,2,2,1,8,2,,243,213,5,48,35,26.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Udinese,1,42,7,2,2,3,15,2,2,2,2,1,,179,137,9,55,30,cat0,https://www.flashscore.com/match/06eR3x29/#/match-summary/match-statistics/2
+41,26.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Monza,1,54,4,3,0,1,10,1,2,1,8,1,,226,203,7,39,27,26.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Udinese,1,46,8,2,2,4,10,3,2,2,8,1,,189,168,13,38,35,cat1,https://www.flashscore.com/match/06eR3x29/#/match-summary/match-statistics/1
+42,26.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Lazio,2,52,6,4,2,0,5,1,0,3,4,2,,262,225,12,43,28,26.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Inter,1,48,13,4,7,2,4,3,0,2,5,1,,229,193,10,40,46,cat2,https://www.flashscore.com/match/jyEzsFfd/#/match-summary/match-statistics/2
+43,26.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Lazio,1,44,5,3,1,1,7,1,0,3,1,,,241,217,6,35,19,26.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Inter,0,56,6,3,3,0,1,1,0,2,7,,,310,288,5,57,34,cat3,https://www.flashscore.com/match/jyEzsFfd/#/match-summary/match-statistics/1
+44,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Juventus,0,65,4,0,3,1,2,3,0,2,6,1,,307,271,10,68,33,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",AS Roma,1,35,5,3,0,2,6,3,1,0,1,1,,186,151,8,46,13,cat4,https://www.flashscore.com/match/CpFWseuj/#/match-summary/match-statistics/2
+45,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Juventus,1,49,10,3,5,2,6,1,0,1,10,1,,195,171,8,57,23,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",AS Roma,0,51,3,1,2,0,10,2,0,2,6,1,,206,167,4,43,17,cat5,https://www.flashscore.com/match/CpFWseuj/#/match-summary/match-statistics/1
+46,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Cremonese,1,55,10,4,3,3,23,3,0,2,5,0,,178,127,14,45,39,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Torino,1,45,8,3,2,3,8,3,0,3,12,3,,156,107,6,48,25,cat6,https://www.flashscore.com/match/Knvdlc2M/#/match-summary/match-statistics/2
+47,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Cremonese,0,51,6,2,2,2,9,0,1,1,4,,,199,143,7,53,22,27.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Torino,1,49,6,2,2,2,5,0,0,2,9,,,190,127,5,54,26,cat7,https://www.flashscore.com/match/Knvdlc2M/#/match-summary/match-statistics/1
+48,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Spezia,0,33,2,0,1,1,5,1,1,3,11,2,1,167,119,7,36,14,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Sassuolo,1,67,16,4,8,4,12,6,0,0,5,0,0,320,275,5,69,40,cat8,https://www.flashscore.com/match/dYlz2GWL/#/match-summary/match-statistics/2
+49,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Spezia,2,51,5,2,3,0,5,1,2,3,6,0,,232,182,7,46,17,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Sassuolo,1,49,5,4,1,0,9,0,1,0,5,1,,223,176,10,51,20,cat9,https://www.flashscore.com/match/dYlz2GWL/#/match-summary/match-statistics/1
+50,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",AC Milan,1,48,8,3,2,3,8,2,2,0,7,2,,202,176,11,40,18,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Bologna,0,52,4,0,3,1,9,1,1,2,7,1,,233,192,9,47,11,cat10,https://www.flashscore.com/match/6qdN4In3/#/match-summary/match-statistics/2
+51,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",AC Milan,1,48,11,4,4,3,3,3,0,0,6,,,219,175,10,77,22,27.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Bologna,0,52,4,0,3,1,6,0,1,3,2,,,242,197,12,47,10,cat11,https://www.flashscore.com/match/6qdN4In3/#/match-summary/match-statistics/1
+52,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Verona,0,50,9,2,6,1,3,4,0,5,9,3,,191,135,11,62,33,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Atalanta,1,50,11,6,4,1,8,3,0,2,3,1,,190,148,8,58,25,cat12,https://www.flashscore.com/match/4KFSryQq/#/match-summary/match-statistics/2
+53,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Verona,0,48,5,0,4,1,4,3,2,1,6,0,,181,132,6,72,24,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Atalanta,0,52,4,1,1,2,9,3,0,0,4,2,,189,125,7,33,6,cat13,https://www.flashscore.com/match/4KFSryQq/#/match-summary/match-statistics/1
+54,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Salernitana,2,44,4,2,2,0,12,1,1,2,7,1,,203,159,10,37,10,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Sampdoria,0,56,8,2,4,2,8,2,3,0,9,1,,259,223,8,61,28,cat14,https://www.flashscore.com/match/vcfV2dHF/#/match-summary/match-statistics/2
+55,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Salernitana,2,46,5,4,0,1,6,5,0,4,12,1,,183,150,3,49,25,28.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Sampdoria,0,54,9,4,2,3,12,1,1,2,5,1,,229,190,15,44,11,cat15,https://www.flashscore.com/match/vcfV2dHF/#/match-summary/match-statistics/1
+56,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Lecce,0,43,11,2,5,4,2,2,2,1,6,0,,180,144,3,64,30,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Empoli,0,57,4,1,2,1,8,2,0,2,2,1,,251,197,6,47,11,cat16,https://www.flashscore.com/match/hthJ5bXd/#/match-summary/match-statistics/2
+57,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Lecce,1,37,4,3,0,1,4,1,2,1,4,1,,122,90,12,53,21,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Empoli,1,63,5,2,3,0,6,3,1,2,3,1,,213,173,5,45,13,cat17,https://www.flashscore.com/match/hthJ5bXd/#/match-summary/match-statistics/1
+58,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Fiorentina,0,44,7,3,4,0,8,0,1,2,7,2,,207,175,11,53,17,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Napoli,0,56,9,2,4,3,8,1,1,3,7,2,,270,233,10,46,23,cat18,https://www.flashscore.com/match/2BT0mHHS/#/match-summary/match-statistics/2
+59,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Fiorentina,0,54,3,2,0,1,8,2,0,0,5,0,,262,216,13,49,17,28.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 3",Napoli,0,46,4,0,1,3,5,2,1,2,7,1,,225,191,10,45,18,cat19,https://www.flashscore.com/match/2BT0mHHS/#/match-summary/match-statistics/1
+60,30.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Sassuolo,0,38,3,1,0,2,11,1,2,1,7,5,,136,98,4,27,14,30.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",AC Milan,0,62,3,1,1,1,17,7,0,1,7,0,,222,171,4,61,39,cat0,https://www.flashscore.com/match/n1xwamGs/#/match-summary/match-statistics/2
+61,30.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Sassuolo,0,38,5,2,3,0,6,2,1,1,7,0,,131,94,5,34,19,30.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",AC Milan,0,62,7,1,4,2,8,1,1,2,6,2,,228,189,6,56,18,cat1,https://www.flashscore.com/match/n1xwamGs/#/match-summary/match-statistics/1
+62,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Inter,1,53,10,4,3,3,9,2,2,1,1,0,,230,200,7,48,20,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Cremonese,1,47,9,2,4,3,4,2,1,3,8,3,,194,161,8,52,19,cat2,https://www.flashscore.com/match/n3TEfYOe/#/match-summary/match-statistics/2
+63,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Inter,2,53,8,3,4,1,7,4,0,2,5,,,229,199,3,43,26,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Cremonese,0,47,2,2,0,0,5,4,1,1,6,,,207,168,8,51,16,cat3,https://www.flashscore.com/match/n3TEfYOe/#/match-summary/match-statistics/1
+64,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",AS Roma,1,37,9,4,1,4,3,4,1,1,2,0,,178,145,13,24,20,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Monza,0,63,9,1,6,2,3,2,1,3,2,1,,288,271,6,66,35,cat4,https://www.flashscore.com/match/h0K4HeW8/#/match-summary/match-statistics/2
+65,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",AS Roma,2,41,5,3,2,0,5,1,1,0,8,0,,214,184,6,33,15,30.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Monza,0,59,4,0,2,2,9,2,0,1,5,2,,304,274,5,61,23,cat5,https://www.flashscore.com/match/h0K4HeW8/#/match-summary/match-statistics/1
+66,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Udinese,0,14,2,1,1,0,14,1,3,0,9,1,,107,74,11,28,9,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Fiorentina,0,86,4,0,3,1,21,4,0,1,7,2,,336,303,4,74,44,cat6,https://www.flashscore.com/match/tOysb7Vm/#/match-summary/match-statistics/2
+67,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Udinese,1,38,6,2,2,2,3,2,3,2,4,,,125,91,10,51,21,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Fiorentina,0,62,8,2,2,4,5,3,0,1,2,,,330,290,6,60,16,cat7,https://www.flashscore.com/match/tOysb7Vm/#/match-summary/match-statistics/1
+68,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Sampdoria,1,44,7,2,2,3,14,2,2,2,6,0,,272,234,3,68,16,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Lazio,0,56,7,2,2,3,11,1,1,1,4,2,,332,299,4,48,25,cat8,https://www.flashscore.com/match/zP99GFoF/#/match-summary/match-statistics/2
+69,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Sampdoria,0,44,3,1,2,0,5,3,0,3,4,,,215,185,3,36,17,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Lazio,1,56,6,4,1,1,5,6,1,1,3,,,288,253,5,42,32,cat9,https://www.flashscore.com/match/zP99GFoF/#/match-summary/match-statistics/1
+70,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Empoli,0,47,7,1,1,5,21,2,2,2,2,0,,170,115,13,49,22,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Verona,1,53,8,3,3,2,5,8,0,1,9,2,,171,120,16,42,27,cat10,https://www.flashscore.com/match/4vvAeE9k/#/match-summary/match-statistics/2
+71,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Empoli,1,55,9,3,3,3,13,5,0,0,3,0,,179,129,5,49,36,31.08.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Verona,0,45,1,0,1,0,3,2,1,2,12,2,,156,112,8,33,20,cat11,https://www.flashscore.com/match/4vvAeE9k/#/match-summary/match-statistics/1
+72,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Napoli,0,74,12,4,6,2,24,4,4,1,0,0,,296,254,12,82,53,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Lecce,0,26,1,1,0,0,10,1,2,4,0,2,,112,71,13,34,12,cat12,https://www.flashscore.com/match/E9L0IyH2/#/match-summary/match-statistics/2
+73,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Napoli,1,68,7,3,2,2,10,2,0,2,1,1,,358,315,8,60,15,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Lecce,1,32,8,3,4,1,3,3,1,2,3,2,,154,123,13,46,16,cat13,https://www.flashscore.com/match/E9L0IyH2/#/match-summary/match-statistics/1
+74,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Juventus,1,47,9,2,5,2,10,5,1,0,0,0,,191,153,12,40,19,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Spezia,0,53,5,0,2,3,15,1,0,1,0,1,,227,186,8,64,18,cat14,https://www.flashscore.com/match/QgSIghv2/#/match-summary/match-statistics/2
+75,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Juventus,1,55,6,1,2,3,7,2,0,0,1,0,,275,234,10,55,12,31.08.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Spezia,0,45,4,0,0,4,3,2,1,0,4,1,,217,178,13,64,19,cat15,https://www.flashscore.com/match/QgSIghv2/#/match-summary/match-statistics/1
+76,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Bologna,1,46,6,2,3,1,8,0,1,1,7,2,,179,136,7,46,18,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Salernitana,1,54,10,2,3,5,11,2,0,1,7,2,,215,155,2,50,28,cat0,https://www.flashscore.com/match/h4z6dffq/#/match-summary/match-statistics/2
+77,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Bologna,0,48,5,2,2,1,4,1,0,2,3,,,193,147,8,38,19,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Salernitana,0,52,10,2,5,3,3,6,0,2,4,,,204,159,11,69,36,cat1,https://www.flashscore.com/match/h4z6dffq/#/match-summary/match-statistics/1
+78,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Atalanta,2,32,4,2,1,1,9,4,3,0,7,0,,164,118,5,51,14,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Torino,1,68,4,1,3,0,16,1,1,0,6,2,,281,236,7,53,28,cat2,https://www.flashscore.com/match/zPmv1znS/#/match-summary/match-statistics/2
+79,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Atalanta,1,48,8,3,4,1,7,3,2,1,7,1,,190,136,9,47,20,01.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 4",Torino,0,52,4,1,2,1,9,1,2,2,7,1,,241,188,10,62,25,cat3,https://www.flashscore.com/match/zPmv1znS/#/match-summary/match-statistics/1
+80,03.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Fiorentina,0,67,8,1,4,3,7,6,0,0,5,0,,272,249,11,72,58,03.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Juventus,0,33,0,0,0,0,9,1,1,1,4,2,,148,124,7,27,6,cat4,https://www.flashscore.com/match/ny7sdo00/#/match-summary/match-statistics/2
+81,03.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Fiorentina,1,53,9,4,2,3,10,4,0,0,8,1,,207,186,7,67,44,03.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Juventus,1,47,4,1,2,1,9,1,0,3,8,1,,193,166,4,22,9,cat5,https://www.flashscore.com/match/ny7sdo00/#/match-summary/match-statistics/1
+82,03.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",AC Milan,2,45,8,2,4,2,7,1,2,3,7,3,,165,128,4,42,13,03.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Inter,1,55,11,4,3,4,9,3,1,0,6,0,,198,151,5,54,24,cat6,https://www.flashscore.com/match/Yi9ggqpJ/#/match-summary/match-statistics/2
+83,03.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",AC Milan,1,51,13,3,8,2,7,1,0,0,3,2,,216,188,7,61,14,03.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Inter,1,49,5,1,1,3,3,2,1,2,6,2,,210,181,3,38,6,cat7,https://www.flashscore.com/match/Yi9ggqpJ/#/match-summary/match-statistics/1
+84,03.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Lazio,0,45,5,1,3,1,9,5,0,4,8,4,,206,170,7,46,20,03.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Napoli,1,55,13,5,4,4,9,4,0,1,7,0,,259,221,10,59,20,cat8,https://www.flashscore.com/match/Kl5kfPUC/#/match-summary/match-statistics/2
+85,03.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Lazio,1,33,3,1,2,0,8,1,0,1,4,,,185,150,7,15,6,03.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Napoli,1,67,6,2,2,2,5,4,1,0,7,,,363,330,7,76,25,cat9,https://www.flashscore.com/match/Kl5kfPUC/#/match-summary/match-statistics/1
+86,04.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Cremonese,0,46,4,0,4,0,4,0,0,3,10,1,,196,158,12,39,12,04.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Sassuolo,0,54,7,3,3,1,10,1,2,0,2,1,,230,188,6,53,24,cat10,https://www.flashscore.com/match/KEzocRpf/#/match-summary/match-statistics/2
+87,04.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Cremonese,0,46,6,0,5,1,4,2,3,4,6,,,186,147,6,38,20,04.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Sassuolo,0,54,10,4,3,3,9,2,0,0,4,,,226,181,7,49,33,cat11,https://www.flashscore.com/match/KEzocRpf/#/match-summary/match-statistics/1
+88,04.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Spezia,1,32,2,0,1,1,6,0,0,1,7,3,,119,79,6,45,15,04.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Bologna,1,68,8,2,6,0,7,2,2,0,4,1,,273,226,10,66,22,cat12,https://www.flashscore.com/match/6uv8C6ps/#/match-summary/match-statistics/2
+89,04.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Spezia,1,58,13,5,3,5,4,7,0,3,5,1,,232,195,5,57,40,04.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Bologna,1,42,5,4,1,0,6,0,3,4,1,0,,181,136,11,33,8,cat13,https://www.flashscore.com/match/6uv8C6ps/#/match-summary/match-statistics/1
+90,04.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Verona,0,43,11,6,1,4,6,3,3,0,10,2,,140,84,12,45,23,04.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Sampdoria,0,57,3,0,3,0,12,1,2,6,4,1,,197,135,10,63,26,cat14,https://www.flashscore.com/match/QR5oe5F6/#/match-summary/match-statistics/2
+91,04.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Verona,2,57,6,3,2,1,7,4,1,2,6,0,,210,147,8,59,18,04.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Sampdoria,1,43,8,3,2,3,7,1,0,1,7,1,,168,106,6,53,13,cat15,https://www.flashscore.com/match/QR5oe5F6/#/match-summary/match-statistics/1
+92,04.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Udinese,3,38,5,3,1,1,6,2,0,1,8,3,,173,139,11,43,25,04.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",AS Roma,0,62,5,1,2,2,8,5,2,0,4,1,,277,247,6,70,24,cat16,https://www.flashscore.com/match/SfSGApFg/#/match-summary/match-statistics/2
+93,04.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Udinese,1,48,6,2,4,0,9,1,0,1,8,0,,213,181,7,44,11,04.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",AS Roma,0,52,7,1,4,2,8,2,0,1,9,1,,238,200,2,65,16,cat17,https://www.flashscore.com/match/SfSGApFg/#/match-summary/match-statistics/1
+94,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Salernitana,1,65,10,3,2,5,7,5,1,1,2,1,,283,234,12,72,34,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Empoli,1,35,4,2,2,0,3,2,1,2,6,2,,162,113,9,36,10,cat18,https://www.flashscore.com/match/EmntHnxQ/#/match-summary/match-statistics/2
+95,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Salernitana,1,39,5,1,1,3,3,1,3,2,5,2,,138,112,9,36,13,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Empoli,1,61,7,3,1,3,8,5,0,0,3,0,,221,186,10,38,24,cat19,https://www.flashscore.com/match/EmntHnxQ/#/match-summary/match-statistics/1
+96,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Monza,0,64,5,1,4,0,6,2,0,3,8,1,,311,253,7,59,15,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Atalanta,2,36,10,5,5,0,8,5,0,1,6,1,,190,145,4,46,27,cat20,https://www.flashscore.com/match/zcmxISMJ/#/match-summary/match-statistics/2
+97,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Monza,0,56,6,2,3,1,5,2,0,1,1,,,247,205,9,56,19,05.09.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Atalanta,0,44,3,1,2,0,1,4,1,2,4,,,176,141,10,59,27,cat21,https://www.flashscore.com/match/zcmxISMJ/#/match-summary/match-statistics/1
+98,05.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Torino,0,58,5,1,3,1,5,2,1,0,10,2,,227,178,4,0,0,05.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Lecce,0,42,5,0,2,3,11,3,0,1,5,1,,171,111,12,2,0,cat22,https://www.flashscore.com/match/pWxCBQam/#/match-summary/match-statistics/2
+99,05.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Torino,1,60,8,3,3,2,5,2,1,2,6,,,252,215,11,52,20,05.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 5",Lecce,0,40,5,2,3,0,7,1,2,2,3,,,157,122,15,56,14,cat23,https://www.flashscore.com/match/pWxCBQam/#/match-summary/match-statistics/1
+100,10.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Napoli,1,63,15,3,5,7,6,6,3,0,4,1,,264,242,6,55,44,10.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Spezia,0,37,7,0,3,4,7,1,1,2,5,1,,152,124,10,35,18,cat0,https://www.flashscore.com/match/tbhjPqUn/#/match-summary/match-statistics/2
+101,10.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Napoli,0,65,13,3,3,7,9,4,2,1,2,0,,252,227,7,55,32,10.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Spezia,0,35,3,1,1,1,4,4,0,3,9,1,,133,108,5,31,8,cat1,https://www.flashscore.com/match/tbhjPqUn/#/match-summary/match-statistics/1
+102,10.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Inter,1,58,10,3,4,3,15,4,0,6,5,1,,471,411,12,58,37,10.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Torino,0,42,8,6,0,2,10,3,0,2,17,2,,146,280,6,51,17,cat2,https://www.flashscore.com/match/UJOX62EI/#/match-summary/match-statistics/2
+103,10.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Inter,0,56,6,0,3,3,9,2,1,1,3,,,9,6,6,46,15,10.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Torino,0,44,1,1,0,0,4,2,1,0,0,,,207,10,8,44,21,cat3,https://www.flashscore.com/match/UJOX62EI/#/match-summary/match-statistics/1
+104,10.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Sampdoria,1,71,6,4,2,0,7,1,0,1,9,5,0,314,294,6,66,29,10.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",AC Milan,1,29,6,2,2,2,14,2,1,3,3,1,1,121,104,9,30,14,cat4,https://www.flashscore.com/match/KlifO3qg/#/match-summary/match-statistics/2
+105,10.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Sampdoria,0,42,4,0,3,1,8,1,0,1,3,0,,159,121,8,38,15,10.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",AC Milan,1,58,9,2,5,2,3,2,1,0,7,1,,231,187,10,58,26,cat5,https://www.flashscore.com/match/KlifO3qg/#/match-summary/match-statistics/1
+106,11.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Atalanta,1,63,7,4,1,2,8,3,1,1,4,2,,218,186,8,75,25,11.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Cremonese,1,37,2,2,0,0,5,0,0,3,8,5,,104,81,14,42,8,cat6,https://www.flashscore.com/match/vVVK94Ua/#/match-summary/match-statistics/2
+107,11.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Atalanta,0,53,7,2,2,3,8,0,1,2,5,,,217,165,5,54,27,11.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Cremonese,0,47,5,2,1,2,6,3,0,2,9,,,195,144,11,42,16,cat7,https://www.flashscore.com/match/vVVK94Ua/#/match-summary/match-statistics/1
+108,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Sassuolo,0,21,1,0,1,0,14,0,0,1,3,1,,56,39,10,31,4,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Udinese,3,79,9,4,4,1,4,2,2,0,9,1,,321,301,5,61,43,cat8,https://www.flashscore.com/match/SEjbNNba/#/match-summary/match-statistics/2
+109,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Sassuolo,1,44,4,2,0,2,9,5,0,0,4,0,1,176,137,7,37,18,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Udinese,0,56,8,0,5,3,4,4,2,1,6,2,0,228,198,7,49,21,cat9,https://www.flashscore.com/match/SEjbNNba/#/match-summary/match-statistics/1
+110,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Lecce,1,58,4,3,0,1,13,6,0,0,10,2,,177,159,8,38,18,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Monza,0,42,0,0,0,0,10,1,0,2,13,1,,116,100,9,42,14,cat10,https://www.flashscore.com/match/bZ2oQPEt/#/match-summary/match-statistics/2
+111,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Lecce,0,48,3,0,1,2,9,2,1,0,8,1,,180,144,6,32,24,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Monza,1,52,2,1,0,1,9,4,0,0,9,2,,203,160,6,46,21,cat11,https://www.flashscore.com/match/bZ2oQPEt/#/match-summary/match-statistics/1
+112,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Bologna,2,36,7,4,3,0,8,0,0,0,4,1,0,118,97,8,27,9,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Fiorentina,1,64,8,1,3,4,4,5,0,2,8,4,1,209,192,6,61,30,cat12,https://www.flashscore.com/match/YiVO8Oq6/#/match-summary/match-statistics/2
+113,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Bologna,0,42,5,0,2,3,5,6,3,1,4,,,162,131,12,33,16,11.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Fiorentina,0,58,5,1,4,0,7,3,0,0,5,,,224,188,8,56,28,cat13,https://www.flashscore.com/match/YiVO8Oq6/#/match-summary/match-statistics/1
+114,11.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Lazio,2,57,9,4,4,1,13,2,2,1,4,2,,168,141,6,42,20,11.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Verona,0,43,3,1,1,1,6,2,2,2,10,3,,120,106,9,50,20,cat14,https://www.flashscore.com/match/MDBJU56P/#/match-summary/match-statistics/2
+115,11.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Lazio,0,63,6,2,2,2,13,1,1,0,1,0,,314,261,5,48,22,11.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Verona,0,37,4,0,3,1,2,3,1,2,13,2,,174,122,6,49,17,cat15,https://www.flashscore.com/match/MDBJU56P/#/match-summary/match-statistics/1
+116,11.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Juventus,2,60,17,5,9,3,7,4,3,2,5,2,2,261,236,5,58,37,11.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Salernitana,0,40,5,2,1,2,6,2,1,3,7,3,1,165,141,6,46,17,cat16,https://www.flashscore.com/match/8ANy6MTO/#/match-summary/match-statistics/2
+117,11.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Juventus,0,62,5,2,2,1,9,4,3,1,8,3,,305,269,5,34,11,11.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Salernitana,2,38,6,3,2,1,10,0,1,2,8,1,,191,151,9,27,5,cat17,https://www.flashscore.com/match/8ANy6MTO/#/match-summary/match-statistics/1
+118,12.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Empoli,0,50,1,0,1,0,4,4,0,0,8,2,1,191,146,14,52,27,12.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",AS Roma,1,50,1,1,0,0,7,5,0,0,4,1,0,168,118,9,42,29,cat18,https://www.flashscore.com/match/CrUS7raC/#/match-summary/match-statistics/2
+119,12.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",Empoli,1,52,10,1,5,4,8,3,0,2,5,1,,212,182,9,51,24,12.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 6",AS Roma,1,48,7,3,3,1,5,2,0,0,8,0,,200,166,18,38,14,cat19,https://www.flashscore.com/match/CrUS7raC/#/match-summary/match-statistics/1
+120,16.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Salernitana,1,63,5,4,1,0,8,2,3,0,4,0,,253,214,4,51,34,16.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Lecce,1,37,7,1,3,3,7,2,0,3,8,3,,145,106,8,31,15,cat0,https://www.flashscore.com/match/EBCTx3bn/#/match-summary/match-statistics/2
+121,16.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Salernitana,0,52,3,0,3,0,3,2,3,2,5,1,,239,203,7,65,21,16.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Lecce,1,48,6,3,3,0,8,3,0,0,3,0,,221,188,8,45,22,cat1,https://www.flashscore.com/match/EBCTx3bn/#/match-summary/match-statistics/1
+122,17.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Bologna,0,65,10,1,6,3,5,5,4,1,5,2,,212,179,3,53,26,17.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Empoli,1,35,5,2,1,2,7,3,0,1,8,3,,110,64,8,40,14,cat2,https://www.flashscore.com/match/65k2MsE5/#/match-summary/match-statistics/2
+123,17.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Bologna,0,55,6,2,3,1,11,0,0,3,6,,,184,134,11,54,22,17.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Empoli,0,45,7,3,3,1,8,5,0,2,8,,,143,103,10,43,30,cat3,https://www.flashscore.com/match/65k2MsE5/#/match-summary/match-statistics/1
+124,17.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Spezia,1,39,5,3,1,1,7,3,2,6,14,3,,171,110,16,44,33,17.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Sampdoria,0,61,9,6,2,1,11,3,1,2,9,3,,251,186,11,68,26,cat4,https://www.flashscore.com/match/8YBXyNDh/#/match-summary/match-statistics/2
+125,17.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Spezia,1,65,1,0,1,0,8,0,2,1,3,1,,202,166,16,49,27,17.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Sampdoria,1,35,2,2,0,0,10,3,0,0,5,2,,109,72,4,34,17,cat5,https://www.flashscore.com/match/8YBXyNDh/#/match-summary/match-statistics/1
+126,17.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Torino,0,62,5,1,1,3,6,2,1,2,6,2,,269,225,9,46,21,17.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Sassuolo,1,38,6,3,2,1,12,1,0,1,4,1,,168,123,12,39,15,cat6,https://www.flashscore.com/match/6JUzysTb/#/match-summary/match-statistics/2
+127,17.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Torino,0,54,7,2,1,4,3,2,2,2,7,2,,252,217,6,41,22,17.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Sassuolo,0,46,4,2,0,2,9,2,0,2,3,0,,211,170,3,47,16,cat7,https://www.flashscore.com/match/6JUzysTb/#/match-summary/match-statistics/1
+128,18.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Udinese,2,35,13,6,2,5,7,5,1,1,7,2,,93,69,13,45,17,18.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Inter,0,65,9,1,5,3,8,3,1,4,6,1,,226,179,10,54,28,cat8,https://www.flashscore.com/match/lrKuz1r5/#/match-summary/match-statistics/2
+129,18.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Udinese,1,53,7,0,3,4,8,2,0,1,4,1,,222,182,9,54,20,18.09.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Inter,1,47,5,2,3,0,4,1,1,0,7,3,,194,157,7,38,14,cat9,https://www.flashscore.com/match/lrKuz1r5/#/match-summary/match-statistics/1
+130,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Monza,1,62,10,3,5,2,3,2,4,1,9,2,,279,255,6,49,19,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Juventus,0,38,4,1,2,1,13,2,0,2,3,0,,151,128,1,59,20,cat10,https://www.flashscore.com/match/zosJIaDU/#/match-summary/match-statistics/2
+131,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Monza,0,58,7,1,4,2,14,3,2,1,7,0,0,255,217,5,51,33,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Juventus,0,42,6,1,4,1,10,1,0,1,14,1,1,182,140,7,46,15,cat11,https://www.flashscore.com/match/zosJIaDU/#/match-summary/match-statistics/1
+132,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Fiorentina,1,38,3,2,1,0,9,1,1,1,9,2,,109,78,11,39,16,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Verona,0,62,3,1,1,1,10,1,2,1,7,2,,175,137,8,72,29,cat12,https://www.flashscore.com/match/2XrBKLrI/#/match-summary/match-statistics/2
+133,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Fiorentina,1,48,12,7,3,2,11,6,1,0,9,2,,151,118,8,55,25,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Verona,0,52,5,0,3,2,10,2,2,6,10,2,,164,121,10,37,20,cat13,https://www.flashscore.com/match/2XrBKLrI/#/match-summary/match-statistics/1
+134,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Cremonese,0,45,13,3,6,4,4,5,1,1,3,1,,186,157,4,56,39,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Lazio,1,55,7,2,4,1,4,1,0,3,4,0,,242,207,4,39,19,cat14,https://www.flashscore.com/match/lUv7L1TB/#/match-summary/match-statistics/2
+135,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Cremonese,0,43,5,0,4,1,5,3,2,1,9,0,,172,143,6,36,14,18.09.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Lazio,3,57,7,4,0,3,10,4,0,0,5,1,,228,194,12,51,20,cat15,https://www.flashscore.com/match/lUv7L1TB/#/match-summary/match-statistics/1
+136,18.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",AS Roma,0,58,12,2,8,2,12,2,0,0,4,0,,225,196,9,59,23,18.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Atalanta,0,42,2,0,1,1,4,1,0,2,12,6,,140,114,8,50,25,cat16,https://www.flashscore.com/match/zLDPwqqt/#/match-summary/match-statistics/2
+137,18.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",AS Roma,0,54,9,3,4,2,7,3,1,0,5,0,,241,205,4,46,16,18.09.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Atalanta,1,46,2,1,0,1,6,0,0,3,7,1,,216,166,15,55,22,cat17,https://www.flashscore.com/match/zLDPwqqt/#/match-summary/match-statistics/1
+138,18.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",AC Milan,1,54,11,3,3,5,8,4,1,1,12,2,,209,174,7,52,38,18.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Napoli,2,46,6,3,2,1,12,2,0,2,9,3,,184,151,12,41,14,cat18,https://www.flashscore.com/match/dfrFJubO/#/match-summary/match-statistics/2
+139,18.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",AC Milan,0,48,11,2,7,2,2,5,0,1,6,2,,217,176,9,45,33,18.09.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 7",Napoli,0,52,3,1,1,1,6,2,0,2,2,0,,239,201,6,61,52,cat19,https://www.flashscore.com/match/dfrFJubO/#/match-summary/match-statistics/1
+140,01.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Napoli,0,50,8,2,4,2,8,2,0,1,2,0,,212,167,10,35,19,01.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Torino,0,50,7,1,1,5,2,3,0,2,8,2,,199,153,16,70,38,cat0,https://www.flashscore.com/match/Sl77l0cb/#/match-summary/match-statistics/2
+141,01.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Napoli,3,48,7,5,1,1,9,2,0,1,2,,,246,204,5,33,9,01.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Torino,1,52,9,2,4,3,2,1,0,2,9,,,264,222,4,52,23,cat1,https://www.flashscore.com/match/Sl77l0cb/#/match-summary/match-statistics/1
+142,01.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Inter,0,61,8,0,4,4,16,2,0,1,11,4,,255,221,7,58,24,01.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",AS Roma,1,39,6,2,4,0,16,0,0,0,11,3,,163,137,6,40,12,cat2,https://www.flashscore.com/match/INBdWIsU/#/match-summary/match-statistics/2
+143,01.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Inter,1,55,7,2,4,1,5,3,1,0,4,,,286,244,4,64,20,01.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",AS Roma,1,45,4,1,2,1,6,1,0,1,3,,,241,198,7,33,7,cat3,https://www.flashscore.com/match/INBdWIsU/#/match-summary/match-statistics/1
+144,01.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Empoli,1,46,11,3,5,3,6,2,0,1,9,3,,129,92,6,30,22,01.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",AC Milan,3,54,12,4,3,5,9,5,0,2,6,1,,155,120,9,48,14,cat4,https://www.flashscore.com/match/d8NmYvDH/#/match-summary/match-statistics/2
+145,01.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Empoli,0,40,5,1,0,4,7,1,2,2,6,1,,150,109,13,38,19,01.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",AC Milan,0,60,7,2,3,2,8,2,3,1,4,1,,222,178,13,73,31,cat5,https://www.flashscore.com/match/d8NmYvDH/#/match-summary/match-statistics/1
+146,02.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Lazio,2,59,6,4,1,1,18,1,0,1,2,,,301,271,8,56,18,02.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Spezia,0,41,9,1,4,4,6,3,4,2,6,,,203,169,5,39,17,cat6,https://www.flashscore.com/match/8ni6jMSo/#/match-summary/match-statistics/2
+147,02.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Lazio,2,63,7,2,4,1,9,2,2,1,1,0,,275,244,7,36,23,02.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Spezia,0,37,5,1,2,2,3,3,2,0,8,2,,154,118,6,43,12,cat7,https://www.flashscore.com/match/8ni6jMSo/#/match-summary/match-statistics/1
+148,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Sassuolo,3,45,10,6,2,2,8,0,1,0,9,1,,222,200,5,41,13,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Salernitana,0,55,3,0,3,0,14,1,2,3,3,1,,271,241,5,55,27,cat8,https://www.flashscore.com/match/025FnvSA/#/match-summary/match-statistics/2
+149,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Sassuolo,2,43,7,5,2,0,5,1,0,1,1,,,204,165,6,42,25,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Salernitana,0,57,3,1,2,0,1,1,1,3,5,,,266,218,11,67,22,cat9,https://www.flashscore.com/match/025FnvSA/#/match-summary/match-statistics/1
+150,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Sampdoria,0,44,1,0,1,0,26,0,2,1,8,0,,194,133,7,69,27,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Monza,2,56,8,3,3,2,15,2,2,0,14,1,,229,182,11,43,17,cat10,https://www.flashscore.com/match/6u6BmKC4/#/match-summary/match-statistics/2
+151,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Sampdoria,0,55,2,1,1,0,13,2,1,2,8,2,,202,161,6,54,28,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Monza,1,45,5,3,1,1,9,2,3,1,10,1,,166,128,10,39,16,cat11,https://www.flashscore.com/match/6u6BmKC4/#/match-summary/match-statistics/1
+152,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Lecce,0,56,3,0,2,1,13,0,0,2,7,2,,186,132,7,55,23,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Cremonese,0,44,9,2,5,2,10,6,2,0,5,0,,145,95,13,38,30,cat12,https://www.flashscore.com/match/nwjAktrh/#/match-summary/match-statistics/2
+153,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Lecce,1,54,3,1,1,1,10,1,0,1,4,1,,215,165,5,61,25,02.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Cremonese,1,46,4,2,2,0,3,2,1,0,10,1,,175,126,12,37,20,cat13,https://www.flashscore.com/match/nwjAktrh/#/match-summary/match-statistics/1
+154,02.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Atalanta,1,36,3,2,0,1,5,1,1,3,4,1,,165,121,4,47,27,02.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Fiorentina,0,64,11,3,4,4,5,3,0,1,5,1,,290,249,13,63,36,cat14,https://www.flashscore.com/match/SYIqZKcB/#/match-summary/match-statistics/2
+155,02.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Atalanta,0,40,7,3,3,1,3,0,1,2,8,1,,166,123,13,45,22,02.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Fiorentina,0,60,5,2,3,0,9,2,0,3,5,1,,250,205,10,46,27,cat15,https://www.flashscore.com/match/SYIqZKcB/#/match-summary/match-statistics/1
+156,02.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Juventus,2,38,11,3,6,2,8,2,1,0,3,0,,174,150,5,44,16,02.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Bologna,0,62,6,0,3,3,4,3,1,1,8,1,,294,264,4,52,14,cat16,https://www.flashscore.com/match/fq3ORxjo/#/match-summary/match-statistics/2
+157,02.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Juventus,1,58,6,3,1,2,7,0,0,1,8,,,281,231,6,74,28,02.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Bologna,0,42,3,1,1,1,8,1,0,2,7,,,199,152,9,48,7,cat17,https://www.flashscore.com/match/fq3ORxjo/#/match-summary/match-statistics/1
+158,03.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Verona,0,30,2,0,1,1,7,1,3,2,9,2,,114,73,4,36,18,03.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Udinese,2,70,8,4,2,2,9,3,0,0,8,3,,283,240,8,60,28,cat18,https://www.flashscore.com/match/zaMiXbSN/#/match-summary/match-statistics/2
+159,03.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Verona,1,32,5,2,2,1,5,3,1,4,6,1,,120,84,4,33,17,03.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 8",Udinese,0,68,13,4,6,3,10,6,1,1,3,0,,273,232,8,62,23,cat19,https://www.flashscore.com/match/zaMiXbSN/#/match-summary/match-statistics/1
+160,08.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Sassuolo,1,51,8,1,4,3,17,3,0,2,9,2,,241,197,4,44,10,08.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Inter,1,49,7,3,3,1,14,2,1,0,11,1,,227,191,11,64,30,cat0,https://www.flashscore.com/match/jkglYaUE/#/match-summary/match-statistics/2
+161,08.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Sassuolo,0,53,7,2,1,4,8,3,0,0,5,1,,255,225,0,53,25,08.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Inter,1,47,9,1,6,2,8,3,0,2,6,1,,225,198,6,34,17,cat1,https://www.flashscore.com/match/jkglYaUE/#/match-summary/match-statistics/1
+162,08.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",AC Milan,1,37,9,2,5,2,7,4,1,2,4,2,,158,106,9,53,24,08.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Juventus,0,63,5,2,0,3,8,3,0,1,3,2,,280,241,8,68,18,cat2,https://www.flashscore.com/match/2TQeS9td/#/match-summary/match-statistics/2
+163,08.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",AC Milan,1,43,12,1,6,5,4,5,0,1,3,0,,189,144,7,65,22,08.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Juventus,0,57,5,1,3,1,2,0,0,0,4,1,,264,222,7,51,16,cat3,https://www.flashscore.com/match/2TQeS9td/#/match-summary/match-statistics/1
+164,08.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Bologna,0,50,1,1,0,0,18,0,2,2,12,2,,196,151,12,38,18,08.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Sampdoria,1,50,6,3,1,2,23,2,1,1,11,2,,197,150,16,61,23,cat4,https://www.flashscore.com/match/E59JobsH/#/match-summary/match-statistics/2
+165,08.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Bologna,1,52,9,2,4,3,10,2,3,0,5,0,,191,147,6,42,24,08.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Sampdoria,0,48,3,0,2,1,7,3,0,1,10,1,,183,128,6,43,22,cat5,https://www.flashscore.com/match/E59JobsH/#/match-summary/match-statistics/1
+166,09.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Torino,1,70,12,3,8,1,13,3,1,1,7,1,,287,258,3,63,51,09.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Empoli,1,30,2,2,0,0,10,0,1,2,5,3,,127,90,2,29,1,cat6,https://www.flashscore.com/match/UuhhXJqL/#/match-summary/match-statistics/2
+167,09.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Torino,0,62,8,4,3,1,4,3,2,0,8,1,,226,199,4,56,36,09.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Empoli,0,38,4,0,3,1,10,1,0,4,4,1,,138,101,4,34,10,cat7,https://www.flashscore.com/match/UuhhXJqL/#/match-summary/match-statistics/1
+168,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Udinese,2,58,7,2,4,1,7,4,0,1,7,1,,230,194,8,56,25,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Atalanta,1,42,5,2,2,1,6,2,1,0,6,1,,168,128,14,46,24,cat8,https://www.flashscore.com/match/nHncWwaR/#/match-summary/match-statistics/2
+169,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Udinese,0,60,3,0,2,1,6,1,0,2,4,1,,273,224,10,63,19,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Atalanta,1,40,4,3,1,0,4,1,0,0,6,2,,182,142,13,56,20,cat9,https://www.flashscore.com/match/nHncWwaR/#/match-summary/match-statistics/1
+170,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Salernitana,1,36,7,2,2,3,6,0,0,0,6,1,1,147,96,10,36,9,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Verona,1,64,8,1,5,2,6,4,1,1,5,1,1,239,194,5,68,41,cat10,https://www.flashscore.com/match/dSgpZuF8/#/match-summary/match-statistics/2
+171,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Salernitana,1,44,7,2,4,1,12,1,1,1,3,1,,175,133,15,38,12,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Verona,0,56,4,1,1,2,4,2,2,1,10,2,,217,176,8,63,19,cat11,https://www.flashscore.com/match/dSgpZuF8/#/match-summary/match-statistics/1
+172,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Monza,1,39,3,1,1,1,10,2,2,1,6,2,,149,92,10,41,11,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Spezia,0,61,7,1,2,4,8,6,2,0,8,1,,237,191,8,63,34,cat12,https://www.flashscore.com/match/tKPaRTe2/#/match-summary/match-statistics/2
+173,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Monza,1,57,4,3,1,0,15,1,1,0,4,1,,262,225,9,47,15,09.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Spezia,0,43,2,0,2,0,5,0,2,2,12,1,,200,168,8,48,16,cat13,https://www.flashscore.com/match/tKPaRTe2/#/match-summary/match-statistics/1
+174,09.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Cremonese,1,32,9,1,5,3,2,3,1,5,9,1,,129,93,11,38,25,09.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Napoli,3,68,14,8,4,2,10,2,1,0,1,0,,282,245,9,49,26,cat14,https://www.flashscore.com/match/f3NmUVBq/#/match-summary/match-statistics/2
+175,09.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Cremonese,0,28,3,0,2,1,5,2,3,1,9,1,,126,91,10,28,19,09.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Napoli,1,72,7,2,5,0,11,0,0,0,5,0,,341,310,8,68,27,cat15,https://www.flashscore.com/match/f3NmUVBq/#/match-summary/match-statistics/1
+176,09.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",AS Roma,1,64,9,4,1,4,3,5,1,1,7,2,,275,247,6,58,36,09.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Lecce,0,36,1,1,0,0,8,2,1,3,3,1,,158,117,14,41,12,cat16,https://www.flashscore.com/match/phjtzMa2/#/match-summary/match-statistics/2
+177,09.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",AS Roma,1,70,11,2,6,3,8,8,0,1,5,,0,261,230,10,61,32,09.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Lecce,1,30,5,2,2,1,5,2,0,1,8,,1,118,79,4,24,6,cat17,https://www.flashscore.com/match/phjtzMa2/#/match-summary/match-statistics/1
+178,10.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Fiorentina,0,67,12,0,5,7,9,2,2,1,8,2,,277,240,9,58,36,10.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Lazio,2,33,7,3,3,1,10,1,2,0,7,1,,141,100,9,31,10,cat18,https://www.flashscore.com/match/YgMiTkRk/#/match-summary/match-statistics/2
+179,10.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Fiorentina,0,57,12,3,8,1,2,7,2,1,9,2,,238,205,10,58,46,10.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 9",Lazio,2,43,3,3,0,0,11,1,0,3,2,0,,191,151,4,27,15,cat19,https://www.flashscore.com/match/YgMiTkRk/#/match-summary/match-statistics/1
+180,15.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Empoli,0,35,6,2,3,1,8,0,1,4,7,2,0,151,110,14,34,15,15.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Monza,0,65,8,4,2,2,8,4,1,2,7,2,1,275,237,20,77,50,cat0,https://www.flashscore.com/match/rmYSQHMl/#/match-summary/match-statistics/2
+181,15.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Empoli,1,37,5,3,2,0,7,2,0,0,10,3,,160,123,13,34,11,15.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Monza,0,63,8,0,5,3,10,5,0,2,7,1,,268,235,8,77,32,cat1,https://www.flashscore.com/match/rmYSQHMl/#/match-summary/match-statistics/1
+182,15.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Torino,0,59,10,1,5,4,6,3,0,3,4,2,,253,216,4,57,37,15.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Juventus,1,41,9,4,3,2,7,5,0,1,4,0,,179,142,8,43,19,cat2,https://www.flashscore.com/match/OK81uHyr/#/match-summary/match-statistics/2
+183,15.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Torino,0,48,5,1,2,2,4,0,0,4,7,,,224,184,9,52,17,15.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Juventus,0,52,5,4,1,0,7,1,0,1,4,,,240,194,14,65,17,cat3,https://www.flashscore.com/match/OK81uHyr/#/match-summary/match-statistics/1
+184,15.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Atalanta,1,36,6,2,2,2,5,0,1,2,6,0,,202,162,8,48,21,15.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Sassuolo,0,64,7,2,4,1,6,1,2,1,2,1,,321,283,10,72,32,cat4,https://www.flashscore.com/match/lQYORc7r/#/match-summary/match-statistics/2
+185,15.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Atalanta,1,60,10,2,7,1,6,3,2,0,4,1,,276,229,7,54,27,15.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Sassuolo,1,40,4,1,2,1,6,2,0,1,6,3,,189,144,6,41,15,cat5,https://www.flashscore.com/match/lQYORc7r/#/match-summary/match-statistics/1
+186,16.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Inter,1,63,7,2,4,1,19,3,0,2,7,,,263,234,3,55,22,16.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Salernitana,0,37,5,2,2,1,13,1,3,1,7,,,159,130,9,30,9,cat6,https://www.flashscore.com/match/vFRyPei1/#/match-summary/match-statistics/2
+187,16.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Inter,1,61,9,4,3,2,8,3,0,1,5,0,,268,233,6,60,21,16.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Salernitana,0,39,3,1,2,0,5,3,1,3,7,1,,171,137,3,33,13,cat7,https://www.flashscore.com/match/vFRyPei1/#/match-summary/match-statistics/1
+188,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Spezia,0,57,7,3,1,3,8,2,1,1,7,2,,220,162,8,58,30,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Cremonese,1,43,16,2,8,6,8,4,0,3,8,0,,158,113,19,49,16,cat8,https://www.flashscore.com/match/6uMZqcTQ/#/match-summary/match-statistics/2
+189,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Spezia,2,51,8,3,2,3,5,4,2,1,5,,,187,131,5,42,45,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Cremonese,1,49,8,2,3,3,7,4,2,1,3,,,189,130,10,50,20,cat9,https://www.flashscore.com/match/6uMZqcTQ/#/match-summary/match-statistics/1
+190,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Lazio,0,57,5,1,3,1,7,3,0,1,6,1,,225,187,5,57,16,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Udinese,0,43,6,1,4,1,6,1,0,1,8,3,,167,133,13,39,17,cat10,https://www.flashscore.com/match/I5QuOF67/#/match-summary/match-statistics/2
+191,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Lazio,0,53,3,2,1,0,4,4,0,1,2,0,,248,201,13,72,20,16.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Udinese,0,47,6,1,3,2,2,2,1,2,3,1,,223,183,6,29,17,cat11,https://www.flashscore.com/match/I5QuOF67/#/match-summary/match-statistics/1
+192,16.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Napoli,2,42,19,8,5,6,7,3,1,1,4,0,,195,155,1,63,41,16.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Bologna,1,58,10,2,5,3,5,3,0,6,7,3,,279,232,17,50,15,cat12,https://www.flashscore.com/match/ADSQoJbE/#/match-summary/match-statistics/2
+193,16.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Napoli,1,54,11,3,3,5,4,3,1,0,2,0,,291,253,14,61,38,16.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Bologna,1,46,6,1,2,3,3,1,1,2,3,1,,245,208,12,37,14,cat13,https://www.flashscore.com/match/ADSQoJbE/#/match-summary/match-statistics/1
+194,16.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Verona,0,43,9,3,5,1,4,6,0,4,4,3,,134,83,3,56,24,16.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",AC Milan,1,57,11,5,3,3,4,0,0,3,4,2,,188,141,11,50,20,cat14,https://www.flashscore.com/match/djxXPyxe/#/match-summary/match-statistics/2
+195,16.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Verona,1,49,10,2,2,6,5,3,0,0,3,,,200,146,6,54,23,16.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",AC Milan,1,51,5,1,2,2,3,3,1,1,5,,,211,162,9,49,11,cat15,https://www.flashscore.com/match/djxXPyxe/#/match-summary/match-statistics/1
+196,17.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Sampdoria,0,56,2,0,2,0,10,1,0,2,12,4,,215,168,10,52,25,17.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",AS Roma,0,44,5,2,2,1,12,1,2,0,8,2,,165,118,7,49,23,cat16,https://www.flashscore.com/match/hxIVpwEK/#/match-summary/match-statistics/2
+197,17.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Sampdoria,0,62,6,1,3,2,13,3,0,1,8,1,,232,181,6,49,19,17.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 10",AS Roma,1,38,2,2,0,0,7,2,1,1,12,1,,144,105,6,41,11,cat17,https://www.flashscore.com/match/hxIVpwEK/#/match-summary/match-statistics/1
+198,17.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Lecce,0,40,2,0,2,0,10,2,0,3,9,4,1,130,83,5,33,14,17.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Fiorentina,1,60,9,4,0,5,9,6,1,0,9,3,0,198,141,4,62,35,cat18,https://www.flashscore.com/match/WMTMnaq8/#/match-summary/match-statistics/2
+199,17.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Lecce,1,42,4,2,2,0,8,0,3,1,6,1,,171,128,15,60,22,17.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 10",Fiorentina,0,58,1,1,0,0,9,2,1,1,7,2,,245,196,8,44,22,cat19,https://www.flashscore.com/match/WMTMnaq8/#/match-summary/match-statistics/1
+200,21.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Juventus,3,51,11,5,3,3,8,5,2,2,5,1,,207,175,4,43,28,21.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Empoli,0,49,2,2,0,0,7,1,1,2,8,2,,215,187,6,41,13,cat0,https://www.flashscore.com/match/4z4MzgjD/#/match-summary/match-statistics/2
+201,21.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Juventus,1,35,10,2,3,5,4,1,0,2,8,1,,172,144,9,36,27,21.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Empoli,0,65,10,2,6,2,8,3,0,1,3,0,,318,282,9,54,33,cat1,https://www.flashscore.com/match/4z4MzgjD/#/match-summary/match-statistics/1
+202,22.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Salernitana,1,43,10,4,2,4,10,3,0,0,7,1,,135,88,15,40,17,22.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Spezia,0,57,5,0,4,1,14,1,1,3,5,3,,191,142,8,65,22,cat2,https://www.flashscore.com/match/E5oDcGcQ/#/match-summary/match-statistics/2
+203,22.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Salernitana,0,45,7,0,4,3,4,1,1,2,2,1,,184,158,10,38,15,22.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Spezia,0,55,9,2,5,2,3,6,1,0,3,1,,218,185,9,50,28,cat3,https://www.flashscore.com/match/E5oDcGcQ/#/match-summary/match-statistics/1
+204,22.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",AC Milan,2,52,8,4,3,1,8,0,0,2,9,0,,243,213,8,60,13,22.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Monza,1,48,11,3,3,5,13,2,0,2,6,1,,219,183,10,53,15,cat4,https://www.flashscore.com/match/6ur5axTD/#/match-summary/match-statistics/2
+205,22.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",AC Milan,2,46,4,3,1,0,5,2,0,3,9,1,,220,176,9,49,25,22.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Monza,0,54,5,3,1,1,15,0,0,1,3,0,,252,214,10,47,24,cat5,https://www.flashscore.com/match/6ur5axTD/#/match-summary/match-statistics/1
+206,22.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Fiorentina,2,60,6,3,1,2,12,1,0,2,6,2,,265,219,5,68,40,22.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Inter,2,40,4,4,0,0,5,2,2,1,9,2,,167,121,8,39,23,cat6,https://www.flashscore.com/match/h00IyZz7/#/match-summary/match-statistics/2
+207,22.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Fiorentina,1,56,4,1,3,0,6,0,0,1,9,2,,224,184,5,39,15,22.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Inter,2,44,4,3,1,0,9,0,2,0,5,1,,177,131,8,40,6,cat7,https://www.flashscore.com/match/h00IyZz7/#/match-summary/match-statistics/1
+208,23.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Udinese,0,53,11,2,7,2,17,5,1,0,7,1,,198,164,11,54,37,23.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Torino,1,47,8,0,7,1,13,1,2,2,6,3,,175,131,12,49,18,cat8,https://www.flashscore.com/match/bwNqhfLm/#/match-summary/match-statistics/2
+209,23.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Udinese,1,55,5,2,3,0,9,2,1,3,5,1,,220,178,8,44,22,23.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Torino,1,45,7,4,2,1,6,3,0,1,9,1,,179,140,7,41,19,cat9,https://www.flashscore.com/match/bwNqhfLm/#/match-summary/match-statistics/1
+210,23.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Bologna,0,45,8,0,8,0,12,3,1,3,5,3,,158,107,8,54,26,23.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Lecce,0,55,8,3,5,0,15,3,1,0,7,2,,206,155,9,52,23,cat10,https://www.flashscore.com/match/Kn2Awe6f/#/match-summary/match-statistics/2
+211,23.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Bologna,2,63,4,3,1,0,7,6,1,0,6,2,,250,205,6,49,23,23.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Lecce,0,37,1,0,0,1,8,1,1,1,7,0,,152,114,2,48,15,cat11,https://www.flashscore.com/match/Kn2Awe6f/#/match-summary/match-statistics/1
+212,23.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Atalanta,0,56,5,0,2,3,5,4,1,3,4,2,1,276,243,6,62,50,23.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Lazio,1,44,6,4,1,1,5,6,0,0,5,2,0,231,194,10,29,18,cat12,https://www.flashscore.com/match/2B75vyil/#/match-summary/match-statistics/2
+213,23.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Atalanta,0,38,2,0,2,0,4,1,0,0,11,2,,205,156,9,49,15,23.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Lazio,1,62,6,1,4,1,11,2,0,0,4,0,,331,295,10,62,16,cat13,https://www.flashscore.com/match/2B75vyil/#/match-summary/match-statistics/1
+214,23.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",AS Roma,0,35,2,0,1,1,7,0,2,2,9,2,,151,103,16,37,10,23.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Napoli,1,65,8,3,3,2,11,3,0,0,7,3,,274,231,8,60,33,cat14,https://www.flashscore.com/match/pWt9bdrK/#/match-summary/match-statistics/2
+215,23.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",AS Roma,0,45,4,0,2,2,5,3,1,2,5,1,,206,165,14,25,10,23.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Napoli,0,55,4,2,1,1,6,1,0,0,5,1,,255,222,10,71,20,cat15,https://www.flashscore.com/match/pWt9bdrK/#/match-summary/match-statistics/1
+216,24.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Cremonese,0,56,13,2,8,3,9,1,0,1,13,3,,198,148,10,64,31,24.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Sampdoria,1,44,5,2,3,0,13,0,1,2,8,2,,163,112,6,56,17,cat16,https://www.flashscore.com/match/bw1ExFL0/#/match-summary/match-statistics/2
+217,24.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Cremonese,0,48,8,2,3,3,7,4,4,2,3,0,,183,141,5,45,18,24.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Sampdoria,0,52,3,2,0,1,7,1,1,2,7,2,,205,162,11,41,21,cat17,https://www.flashscore.com/match/bw1ExFL0/#/match-summary/match-statistics/1
+218,24.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Sassuolo,1,44,10,1,3,6,10,3,1,2,3,1,,184,140,5,49,15,24.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Verona,0,56,7,2,3,2,4,3,2,0,8,2,,217,174,4,59,23,cat18,https://www.flashscore.com/match/GEXvgz6s/#/match-summary/match-statistics/2
+219,24.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Sassuolo,1,58,4,2,0,2,13,1,1,2,4,0,,229,181,11,47,24,24.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 11",Verona,1,42,6,3,3,0,5,2,2,1,11,1,,161,122,12,44,22,cat19,https://www.flashscore.com/match/GEXvgz6s/#/match-summary/match-statistics/1
+220,29.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Napoli,1,68,8,2,3,3,4,4,1,3,1,0,0,363,334,9,53,33,29.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Sassuolo,0,32,6,3,3,0,2,2,0,1,4,3,1,158,128,4,33,26,cat0,https://www.flashscore.com/match/xpAB6gzs/#/match-summary/match-statistics/2
+221,29.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Napoli,3,66,10,4,5,1,2,7,2,3,4,,,304,280,9,43,28,29.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Sassuolo,0,34,4,3,1,0,6,3,0,1,2,,,159,126,10,37,8,cat1,https://www.flashscore.com/match/xpAB6gzs/#/match-summary/match-statistics/1
+222,29.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Lecce,0,37,5,0,4,1,7,4,1,2,9,3,,156,101,12,46,11,29.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Juventus,1,63,7,3,2,2,15,2,0,0,5,1,,265,207,6,69,33,cat2,https://www.flashscore.com/match/IaTvCFCJ/#/match-summary/match-statistics/2
+223,29.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Lecce,0,35,0,0,0,0,11,3,1,2,7,0,,147,105,7,48,16,29.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Juventus,0,65,6,2,2,2,12,5,0,0,8,4,,284,243,7,67,26,cat3,https://www.flashscore.com/match/IaTvCFCJ/#/match-summary/match-statistics/1
+224,29.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Inter,1,44,10,5,3,2,5,1,0,2,0,1,,211,171,9,32,12,29.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Sampdoria,0,56,7,2,4,1,0,3,0,4,5,4,,265,224,11,67,43,cat4,https://www.flashscore.com/match/Q5tglCKC/#/match-summary/match-statistics/2
+225,29.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Inter,2,60,7,3,4,0,8,2,0,0,5,0,,279,226,5,46,20,29.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Sampdoria,0,40,2,0,1,1,5,0,0,1,8,2,,191,150,5,48,17,cat5,https://www.flashscore.com/match/Q5tglCKC/#/match-summary/match-statistics/1
+226,30.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Empoli,0,51,8,2,3,3,10,5,2,2,3,0,,202,168,7,41,31,30.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Atalanta,1,49,8,3,2,3,5,0,2,2,8,1,,207,180,10,43,20,cat6,https://www.flashscore.com/match/63QijYk0/#/match-summary/match-statistics/2
+227,30.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Empoli,0,53,5,1,1,3,5,2,2,2,7,2,,228,185,11,61,18,30.10.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Atalanta,1,47,12,3,1,8,7,2,0,1,5,0,,203,161,9,49,32,cat7,https://www.flashscore.com/match/63QijYk0/#/match-summary/match-statistics/1
+228,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Spezia,0,45,3,1,1,1,7,2,0,3,11,3,1,149,89,6,61,19,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Fiorentina,1,55,15,4,4,7,10,3,0,1,7,1,0,175,129,9,46,20,cat8,https://www.flashscore.com/match/Gz9F5Dkm/#/match-summary/match-statistics/2
+229,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Spezia,1,53,7,5,2,0,8,3,2,0,8,2,,163,125,3,33,23,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Fiorentina,1,47,12,1,4,7,10,2,1,4,7,2,,153,101,9,48,17,cat9,https://www.flashscore.com/match/Gz9F5Dkm/#/match-summary/match-statistics/1
+230,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Cremonese,0,42,7,1,2,4,5,4,1,1,2,,,185,141,9,53,30,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Udinese,0,58,5,1,2,2,3,2,1,1,4,,,285,227,7,65,22,cat10,https://www.flashscore.com/match/CtRmiEzf/#/match-summary/match-statistics/2
+231,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Cremonese,0,40,6,1,4,1,7,3,1,2,6,1,,157,126,20,26,26,30.10.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Udinese,0,60,8,2,5,1,7,2,2,1,5,0,,247,214,8,65,40,cat11,https://www.flashscore.com/match/CtRmiEzf/#/match-summary/match-statistics/1
+232,30.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Lazio,0,65,7,2,4,1,6,2,1,3,7,3,,317,275,9,68,31,30.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Salernitana,3,35,8,6,1,1,8,2,2,2,4,3,,169,132,10,32,10,cat12,https://www.flashscore.com/match/4ducmWZI/#/match-summary/match-statistics/2
+233,30.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Lazio,1,57,6,2,2,2,5,2,2,0,3,,,343,313,7,71,22,30.10.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Salernitana,0,43,2,0,2,0,4,3,2,1,3,,,253,212,6,30,15,cat13,https://www.flashscore.com/match/4ducmWZI/#/match-summary/match-statistics/1
+234,30.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Torino,0,43,2,0,1,1,7,3,2,0,6,3,,158,103,5,49,21,30.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",AC Milan,1,57,7,1,4,2,8,1,0,0,7,1,,223,163,14,57,15,cat14,https://www.flashscore.com/match/pADJ4X4g/#/match-summary/match-statistics/2
+235,30.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Torino,2,45,5,4,1,0,9,3,1,0,5,2,,165,133,5,57,18,30.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",AC Milan,0,55,5,0,4,1,6,0,0,2,9,1,,204,170,13,36,9,cat15,https://www.flashscore.com/match/pADJ4X4g/#/match-summary/match-statistics/1
+236,31.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Verona,0,23,2,1,0,1,6,1,0,3,4,2,,99,59,9,29,10,31.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",AS Roma,2,77,10,5,1,4,4,3,0,1,6,0,,310,276,8,57,35,cat16,https://www.flashscore.com/match/pfPekh56/#/match-summary/match-statistics/2
+237,31.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Verona,1,41,5,2,3,0,2,1,0,0,5,1,1,159,124,5,47,22,31.10.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 12",AS Roma,1,59,4,1,3,0,5,1,0,1,3,1,0,244,195,14,42,12,cat17,https://www.flashscore.com/match/pfPekh56/#/match-summary/match-statistics/1
+238,31.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Monza,1,66,5,1,2,2,5,2,2,1,9,4,,286,248,5,68,29,31.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Bologna,2,34,4,3,1,0,12,0,0,0,7,1,,139,97,10,40,6,cat18,https://www.flashscore.com/match/W2XrBZRP/#/match-summary/match-statistics/2
+239,31.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Monza,0,44,4,2,2,0,11,2,0,2,4,0,,225,191,7,37,16,31.10.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 12",Bologna,0,56,6,2,4,0,5,5,0,2,11,1,,280,249,3,47,23,cat19,https://www.flashscore.com/match/W2XrBZRP/#/match-summary/match-statistics/1
+240,04.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Udinese,1,58,9,4,2,3,5,2,2,0,3,0,,228,179,6,48,26,04.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Lecce,0,42,4,0,2,2,5,2,0,3,5,3,,157,103,14,63,22,cat0,https://www.flashscore.com/match/tfI24OAA/#/match-summary/match-statistics/2
+241,04.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Udinese,0,56,7,1,3,3,12,1,0,0,9,2,,226,171,10,59,26,04.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Lecce,1,44,5,1,2,2,9,0,0,1,13,0,,180,123,13,53,17,cat1,https://www.flashscore.com/match/tfI24OAA/#/match-summary/match-statistics/1
+242,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Salernitana,0,47,4,0,3,1,9,1,0,2,9,1,,195,142,3,41,15,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Cremonese,1,53,6,3,3,0,8,0,3,0,6,0,,219,169,12,53,21,cat2,https://www.flashscore.com/match/pSOg6ptb/#/match-summary/match-statistics/2
+243,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Salernitana,2,57,7,2,4,1,7,1,0,1,5,1,,238,204,4,43,10,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Cremonese,1,43,5,2,2,1,5,2,3,0,4,2,,178,141,12,48,21,cat3,https://www.flashscore.com/match/pSOg6ptb/#/match-summary/match-statistics/1
+244,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Empoli,1,43,7,1,3,3,6,1,3,1,7,1,,186,146,23,37,15,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Sassuolo,0,57,7,1,3,3,11,3,0,0,6,0,,239,196,9,52,37,cat4,https://www.flashscore.com/match/4AKV1VlC/#/match-summary/match-statistics/2
+245,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Empoli,0,51,10,0,6,4,5,2,1,2,4,1,,232,201,11,44,29,05.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Sassuolo,0,49,3,2,1,0,5,3,0,0,5,0,,225,194,9,39,28,cat5,https://www.flashscore.com/match/4AKV1VlC/#/match-summary/match-statistics/1
+246,05.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Atalanta,0,54,7,2,2,3,12,2,1,2,3,4,,265,217,11,63,38,05.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Napoli,0,46,3,2,1,0,7,1,1,2,7,1,,234,180,9,51,19,cat6,https://www.flashscore.com/match/O0CN3iKa/#/match-summary/match-statistics/2
+247,05.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Atalanta,1,38,10,2,1,7,2,3,1,1,7,1,,184,142,18,40,22,05.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Napoli,2,62,4,3,1,0,8,1,1,1,2,0,,309,265,4,50,25,cat7,https://www.flashscore.com/match/O0CN3iKa/#/match-summary/match-statistics/1
+248,05.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",AC Milan,1,56,8,4,0,4,14,1,0,1,8,5,1,176,118,8,56,31,05.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Spezia,1,44,7,2,3,2,13,2,0,3,7,4,0,147,85,8,57,16,cat8,https://www.flashscore.com/match/zcs3qNYp/#/match-summary/match-statistics/2
+249,05.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",AC Milan,1,62,15,7,3,5,6,2,0,3,4,1,,251,211,13,51,22,05.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Spezia,0,38,6,3,2,1,4,4,0,6,6,0,,153,110,12,60,20,cat9,https://www.flashscore.com/match/zcs3qNYp/#/match-summary/match-statistics/1
+250,06.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Bologna,2,56,5,3,2,0,12,2,1,0,6,2,,206,151,11,38,18,06.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Torino,0,44,5,0,2,3,7,1,5,1,9,3,,166,122,10,38,20,cat10,https://www.flashscore.com/match/6P1S2BZ5/#/match-summary/match-statistics/2
+251,06.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Bologna,0,56,4,2,2,0,8,1,0,1,8,1,,298,234,3,47,24,06.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Torino,1,44,2,2,0,0,7,0,0,2,8,0,,234,177,3,45,26,cat11,https://www.flashscore.com/match/6P1S2BZ5/#/match-summary/match-statistics/1
+252,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Sampdoria,0,42,5,1,3,1,8,1,2,1,4,,,204,157,5,54,25,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Fiorentina,1,58,3,2,1,0,6,3,1,1,7,,,272,220,11,45,35,cat12,https://www.flashscore.com/match/bVSc54e4/#/match-summary/match-statistics/2
+253,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Sampdoria,0,53,9,1,3,5,11,3,0,1,6,1,,205,156,6,47,26,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Fiorentina,1,47,2,2,0,0,6,1,1,1,11,0,,180,137,9,46,10,cat13,https://www.flashscore.com/match/bVSc54e4/#/match-summary/match-statistics/1
+254,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Monza,2,75,8,3,5,0,5,1,0,2,5,1,,348,305,14,64,25,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Verona,0,25,3,2,1,0,5,1,0,1,5,0,,104,65,4,44,18,cat14,https://www.flashscore.com/match/CEQo86Bo/#/match-summary/match-statistics/2
+255,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Monza,0,75,6,0,3,3,6,4,1,0,5,2,0,293,248,9,49,30,06.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Verona,0,25,4,0,3,1,6,1,2,0,5,1,1,95,53,3,24,18,cat15,https://www.flashscore.com/match/CEQo86Bo/#/match-summary/match-statistics/1
+256,06.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",AS Roma,0,61,3,0,2,1,11,4,2,1,10,1,,266,212,13,74,50,06.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Lazio,0,39,2,1,0,1,12,1,2,0,9,2,,177,124,12,40,6,cat16,https://www.flashscore.com/match/j5Pk7QQi/#/match-summary/match-statistics/2
+257,06.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",AS Roma,0,57,5,2,2,1,5,0,1,1,8,1,,288,249,9,54,26,06.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Lazio,1,43,3,2,0,1,9,1,0,2,5,1,,218,179,9,43,11,cat17,https://www.flashscore.com/match/j5Pk7QQi/#/match-summary/match-statistics/1
+258,06.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Juventus,2,43,4,3,1,0,11,1,1,2,10,1,,198,143,8,60,14,06.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Inter,0,57,7,2,3,2,9,5,0,1,9,3,,252,208,5,62,28,cat18,https://www.flashscore.com/match/bXJZ0k4I/#/match-summary/match-statistics/2
+259,06.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Juventus,0,51,4,0,2,2,5,1,0,2,6,,,277,248,4,45,11,06.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 13",Inter,0,49,7,2,3,2,6,3,1,0,4,,,269,241,5,66,24,cat19,https://www.flashscore.com/match/bXJZ0k4I/#/match-summary/match-statistics/1
+260,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Spezia,0,48,7,0,4,3,6,4,0,0,8,1,,199,153,15,52,24,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Udinese,0,52,6,0,4,2,9,0,1,0,5,2,,217,179,3,59,26,cat0,https://www.flashscore.com/match/E7xtIsuA/#/match-summary/match-statistics/2
+261,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Spezia,1,50,14,6,3,5,11,5,0,1,4,2,,210,158,10,46,31,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Udinese,1,50,4,2,2,0,4,0,3,5,7,1,,218,173,10,55,19,cat1,https://www.flashscore.com/match/E7xtIsuA/#/match-summary/match-statistics/1
+262,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Napoli,2,75,13,3,6,4,9,3,0,1,7,1,0,346,312,3,69,62,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Empoli,0,25,6,1,4,1,7,0,1,1,9,3,1,122,86,9,31,8,cat2,https://www.flashscore.com/match/IuqXJ3Ac/#/match-summary/match-statistics/2
+263,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Napoli,0,75,5,1,2,2,7,2,0,0,5,0,,337,297,7,78,53,08.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Empoli,0,25,0,0,0,0,5,0,0,1,7,3,,113,76,6,22,5,cat3,https://www.flashscore.com/match/IuqXJ3Ac/#/match-summary/match-statistics/1
+264,08.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Cremonese,0,26,4,1,1,2,7,2,0,1,10,4,,101,65,12,28,11,08.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",AC Milan,0,74,6,1,3,2,11,2,1,1,6,3,,273,247,6,79,30,cat4,https://www.flashscore.com/match/KpH63rQG/#/match-summary/match-statistics/2
+265,08.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Cremonese,0,28,2,0,1,1,5,0,2,4,6,,,131,81,11,44,18,08.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",AC Milan,0,72,10,4,4,2,8,2,1,0,4,,,362,299,6,83,32,cat5,https://www.flashscore.com/match/KpH63rQG/#/match-summary/match-statistics/1
+266,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Sassuolo,1,51,6,3,2,1,11,1,0,1,6,4,,224,192,6,47,26,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",AS Roma,1,49,4,2,1,1,9,1,1,2,7,2,,202,169,18,47,27,cat6,https://www.flashscore.com/match/zHwxJNP3/#/match-summary/match-statistics/2
+267,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Sassuolo,0,41,8,3,4,1,7,2,0,2,5,1,,182,145,12,36,19,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",AS Roma,0,59,6,2,3,1,5,1,4,3,4,1,,268,236,13,58,27,cat7,https://www.flashscore.com/match/zHwxJNP3/#/match-summary/match-statistics/1
+268,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Lecce,0,39,9,0,5,4,6,2,1,1,5,1,,149,88,12,65,19,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Atalanta,0,61,6,1,2,3,6,3,1,0,6,2,,234,168,11,66,36,cat8,https://www.flashscore.com/match/vkpTKqei/#/match-summary/match-statistics/2
+269,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Lecce,2,39,6,3,1,2,7,2,0,2,6,,,177,124,11,67,24,09.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Atalanta,1,61,6,3,0,3,6,0,1,1,6,,,282,224,10,47,31,cat9,https://www.flashscore.com/match/vkpTKqei/#/match-summary/match-statistics/1
+270,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Torino,1,47,4,3,0,1,13,2,2,0,6,0,,205,157,3,49,26,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Sampdoria,0,53,8,0,4,4,8,3,1,2,12,2,,210,164,6,49,24,cat10,https://www.flashscore.com/match/8UypH1fG/#/match-summary/match-statistics/2
+271,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Torino,1,54,4,2,0,2,12,2,2,1,8,1,,235,182,12,48,16,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Sampdoria,0,46,3,1,1,1,10,0,3,1,9,1,,194,146,12,60,17,cat11,https://www.flashscore.com/match/8UypH1fG/#/match-summary/match-statistics/1
+272,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Inter,3,59,8,4,1,3,4,2,1,2,5,0,,315,290,5,45,16,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Bologna,0,41,6,2,3,1,6,1,0,1,5,2,,215,186,4,32,11,cat12,https://www.flashscore.com/match/Crhsct3p/#/match-summary/match-statistics/2
+273,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Inter,3,55,5,3,1,1,6,2,1,1,5,1,,224,179,5,54,24,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Bologna,1,45,4,2,2,0,6,3,0,0,6,3,,181,132,5,36,4,cat13,https://www.flashscore.com/match/Crhsct3p/#/match-summary/match-statistics/1
+274,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Fiorentina,1,63,10,2,6,2,7,1,1,0,4,0,,303,258,7,73,46,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Salernitana,1,37,1,1,0,0,5,1,2,1,5,1,,165,117,10,43,11,cat14,https://www.flashscore.com/match/SAGA22uN/#/match-summary/match-statistics/2
+275,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Fiorentina,1,53,8,5,3,0,7,3,3,0,6,,,261,226,6,53,29,09.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Salernitana,0,47,3,0,1,2,8,2,1,4,6,,,230,182,7,28,6,cat15,https://www.flashscore.com/match/SAGA22uN/#/match-summary/match-statistics/1
+276,10.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Verona,0,53,11,0,8,3,7,3,0,0,9,3,0,175,137,9,60,31,10.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Juventus,1,47,7,1,6,0,8,2,0,0,7,1,1,147,101,5,33,20,cat0,https://www.flashscore.com/match/61FE1MfT/#/match-summary/match-statistics/2
+277,10.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Verona,0,33,4,2,2,0,6,2,1,2,5,0,,143,107,7,46,28,10.11.2022 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Juventus,0,67,4,2,2,0,6,2,0,2,6,1,,290,250,13,49,17,cat1,https://www.flashscore.com/match/61FE1MfT/#/match-summary/match-statistics/1
+278,10.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Lazio,1,50,7,4,1,2,9,2,0,0,8,2,,256,234,3,60,21,10.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Monza,0,50,2,0,2,0,9,0,0,3,9,0,,266,234,13,41,16,cat2,https://www.flashscore.com/match/Qodod0Ij/#/match-summary/match-statistics/2
+279,10.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Lazio,0,44,5,0,4,1,6,2,0,0,7,0,,234,215,6,53,20,10.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 14",Monza,0,56,6,0,5,1,7,3,1,0,5,1,,297,274,2,30,22,cat3,https://www.flashscore.com/match/Qodod0Ij/#/match-summary/match-statistics/1
+280,11.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Empoli,2,40,8,3,3,2,9,2,0,3,7,1,,132,93,13,26,16,11.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Cremonese,0,60,14,3,5,6,7,8,1,1,8,1,,232,193,6,70,54,cat4,https://www.flashscore.com/match/4xHKAaXq/#/match-summary/match-statistics/2
+281,11.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Empoli,0,60,5,3,1,1,6,2,1,2,2,0,,304,256,9,63,24,11.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Cremonese,0,40,5,2,1,2,3,1,0,3,6,1,,186,141,12,43,20,cat5,https://www.flashscore.com/match/4xHKAaXq/#/match-summary/match-statistics/1
+282,12.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Napoli,1,61,9,3,3,3,16,5,0,0,6,1,,269,216,14,51,25,12.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Udinese,2,39,6,2,2,2,13,3,0,2,8,1,,186,140,8,51,21,cat6,https://www.flashscore.com/match/MX1JV099/#/match-summary/match-statistics/2
+283,12.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Napoli,2,67,6,2,2,2,10,0,0,2,6,1,,373,336,8,75,17,12.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Udinese,0,33,4,2,0,2,10,0,1,0,5,2,,183,155,6,44,9,cat7,https://www.flashscore.com/match/MX1JV099/#/match-summary/match-statistics/1
+284,12.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Sampdoria,0,63,7,1,3,3,21,5,3,1,3,0,,245,183,2,80,40,12.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Lecce,1,37,4,2,2,0,13,0,1,1,11,2,,163,99,8,61,15,cat8,https://www.flashscore.com/match/SpXJTvvM/#/match-summary/match-statistics/2
+285,12.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Sampdoria,0,51,4,1,1,2,12,4,3,0,11,2,,148,80,10,52,15,12.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Lecce,1,49,7,1,3,3,14,0,4,1,8,1,,147,84,7,52,15,cat9,https://www.flashscore.com/match/SpXJTvvM/#/match-summary/match-statistics/1
+286,12.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Bologna,2,38,2,2,0,0,4,0,0,2,8,,,155,113,13,25,10,12.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Sassuolo,0,62,6,2,3,1,12,2,0,0,3,,,287,253,3,61,36,cat10,https://www.flashscore.com/match/2TUhFuPS/#/match-summary/match-statistics/2
+287,12.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Bologna,1,66,6,2,1,3,4,4,2,1,4,1,,339,302,6,56,16,12.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Sassuolo,0,34,3,1,1,1,6,4,1,1,3,0,,167,128,5,31,10,cat11,https://www.flashscore.com/match/2TUhFuPS/#/match-summary/match-statistics/1
+288,13.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Atalanta,1,49,11,4,5,2,14,3,0,0,4,0,,206,156,9,51,15,13.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Inter,2,51,7,1,5,1,9,3,0,3,8,3,,198,158,8,57,24,cat12,https://www.flashscore.com/match/K4ulGL9M/#/match-summary/match-statistics/2
+289,13.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Atalanta,1,43,8,3,2,3,4,2,1,1,6,,,195,153,6,41,18,13.11.2022 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Inter,1,57,7,2,3,2,9,1,0,2,3,,,265,226,10,49,19,cat13,https://www.flashscore.com/match/K4ulGL9M/#/match-summary/match-statistics/1
+290,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Verona,0,50,12,3,6,3,7,2,3,3,4,1,,159,104,6,57,35,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Spezia,2,50,9,5,2,2,4,6,0,3,11,2,,165,99,6,49,16,cat14,https://www.flashscore.com/match/YBLO9Jnj/#/match-summary/match-statistics/2
+291,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Verona,1,38,6,2,3,1,14,0,1,4,9,1,,149,93,1,45,15,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Spezia,0,62,7,4,2,1,13,4,0,1,10,2,,231,166,4,65,19,cat15,https://www.flashscore.com/match/YBLO9Jnj/#/match-summary/match-statistics/1
+292,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Monza,1,54,11,4,2,5,6,3,2,0,5,0,0,273,240,5,57,24,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Salernitana,0,46,3,0,3,0,13,0,1,3,4,1,1,215,185,8,53,22,cat16,https://www.flashscore.com/match/SA2FWtf3/#/match-summary/match-statistics/2
+293,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Monza,2,60,8,3,2,3,7,3,2,0,4,0,,291,262,7,52,19,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Salernitana,0,40,2,0,1,1,6,1,0,1,7,1,,199,167,6,47,13,cat17,https://www.flashscore.com/match/SA2FWtf3/#/match-summary/match-statistics/1
+294,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",AS Roma,1,49,10,4,2,4,10,3,0,1,10,3,,228,179,7,53,32,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Torino,1,51,3,2,1,0,20,0,1,3,7,2,,241,193,9,56,17,cat18,https://www.flashscore.com/match/0O0NUKOF/#/match-summary/match-statistics/2
+295,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",AS Roma,0,47,3,0,3,0,3,4,0,0,3,,,213,156,7,39,20,13.11.2022 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Torino,0,53,7,0,3,4,3,0,0,0,3,,,250,200,6,68,17,cat19,https://www.flashscore.com/match/0O0NUKOF/#/match-summary/match-statistics/1
+296,13.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",AC Milan,1,54,8,1,2,5,6,2,2,2,2,0,,224,182,8,51,18,13.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Fiorentina,0,46,3,2,1,0,4,5,0,0,6,4,,184,143,11,58,21,cat20,https://www.flashscore.com/match/E7bBXMvc/#/match-summary/match-statistics/2
+297,13.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",AC Milan,1,44,4,2,1,1,7,3,1,2,11,1,,176,134,9,41,16,13.11.2022 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Fiorentina,1,56,8,3,3,2,11,2,2,1,5,0,,225,176,10,61,27,cat21,https://www.flashscore.com/match/E7bBXMvc/#/match-summary/match-statistics/1
+298,13.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Juventus,2,43,9,7,0,2,5,2,1,3,6,,,242,198,14,57,19,13.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Lazio,0,57,4,3,1,0,6,4,1,5,4,,,319,285,8,43,19,cat22,https://www.flashscore.com/match/C2KS8w2d/#/match-summary/match-statistics/2
+299,13.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Juventus,1,39,4,2,1,1,4,0,0,0,4,2,,221,186,6,39,18,13.11.2022 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 15",Lazio,0,61,6,0,2,4,5,2,0,1,4,1,,356,316,6,47,16,cat23,https://www.flashscore.com/match/C2KS8w2d/#/match-summary/match-statistics/1
+300,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Sassuolo,1,74,13,4,3,6,11,6,1,1,9,2,,282,242,11,63,34,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Sampdoria,0,26,1,1,0,0,10,0,2,3,10,2,,95,56,5,37,25,cat0,https://www.flashscore.com/match/Qu3lqKw9/#/match-summary/match-statistics/2
+301,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Sassuolo,0,60,3,0,3,0,13,3,0,1,7,0,,273,225,7,66,20,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Sampdoria,2,40,8,3,4,1,7,1,4,0,9,1,,172,134,14,38,17,cat1,https://www.flashscore.com/match/Qu3lqKw9/#/match-summary/match-statistics/1
+302,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Salernitana,1,46,3,1,2,0,6,1,0,5,14,4,,154,119,15,36,13,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",AC Milan,0,54,8,5,0,3,14,1,1,0,5,1,,179,135,9,51,26,cat2,https://www.flashscore.com/match/nk4pp0O2/#/match-summary/match-statistics/2
+303,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Salernitana,0,42,5,0,3,2,11,5,1,3,7,,,159,123,7,48,22,04.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",AC Milan,2,58,8,5,1,2,8,1,3,0,8,,,220,183,12,41,27,cat3,https://www.flashscore.com/match/nk4pp0O2/#/match-summary/match-statistics/1
+304,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Torino,1,65,5,2,1,2,8,3,0,1,4,1,,282,218,4,68,22,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Verona,0,35,8,1,6,1,4,1,0,1,8,1,,154,100,7,54,13,cat4,https://www.flashscore.com/match/Kvdcsb8L/#/match-summary/match-statistics/2
+305,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Torino,0,69,4,1,1,2,9,3,2,0,3,,,296,241,6,62,24,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Verona,1,31,2,1,0,1,5,2,0,1,9,,,136,79,7,42,15,cat5,https://www.flashscore.com/match/Kvdcsb8L/#/match-summary/match-statistics/1
+306,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Spezia,0,41,3,0,3,0,6,2,1,0,6,3,,178,122,12,56,23,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Atalanta,2,59,9,2,3,4,7,2,0,0,6,2,,250,205,12,66,31,cat6,https://www.flashscore.com/match/84hgrvgF/#/match-summary/match-statistics/2
+307,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Spezia,2,29,4,3,0,1,5,1,0,1,5,0,,136,87,17,48,12,04.01.2023 14:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Atalanta,0,71,10,1,6,3,5,6,1,1,5,1,,326,268,11,79,51,cat7,https://www.flashscore.com/match/84hgrvgF/#/match-summary/match-statistics/1
+308,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Lecce,2,42,9,4,3,2,6,2,2,0,8,2,,205,148,7,73,34,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Lazio,0,58,2,0,1,1,10,1,1,2,5,1,,296,229,12,47,15,cat8,https://www.flashscore.com/match/KrCbMdWe/#/match-summary/match-statistics/2
+309,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Lecce,0,38,2,0,1,1,9,2,1,1,8,1,,171,118,12,52,22,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Lazio,1,62,6,2,2,2,9,2,1,0,8,1,,281,231,4,59,17,cat9,https://www.flashscore.com/match/KrCbMdWe/#/match-summary/match-statistics/1
+310,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",AS Roma,0,33,4,1,1,2,5,1,1,2,2,1,,151,107,6,50,12,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Bologna,0,67,6,2,1,3,3,3,1,1,4,3,,331,281,11,71,31,cat10,https://www.flashscore.com/match/bZA2LGo2/#/match-summary/match-statistics/2
+311,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",AS Roma,1,45,10,3,3,4,5,2,0,0,8,1,,229,194,7,39,8,04.01.2023 16:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Bologna,0,55,4,0,2,2,8,0,0,2,6,0,,268,226,8,51,13,cat11,https://www.flashscore.com/match/bZA2LGo2/#/match-summary/match-statistics/1
+312,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Fiorentina,0,53,12,3,6,3,7,6,1,2,3,1,,199,170,12,58,30,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Monza,1,47,6,3,3,0,4,1,1,3,6,3,,181,152,8,39,21,cat12,https://www.flashscore.com/match/OGIkOI1q/#/match-summary/match-statistics/2
+313,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Fiorentina,1,53,10,3,4,3,10,3,0,0,8,,,218,179,4,58,32,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Monza,0,47,4,0,2,2,8,0,3,2,7,,,201,146,7,27,12,cat13,https://www.flashscore.com/match/OGIkOI1q/#/match-summary/match-statistics/1
+314,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Cremonese,0,46,8,2,3,3,8,2,1,5,6,5,,156,115,6,57,32,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Juventus,1,54,13,6,5,2,6,6,1,2,6,3,,186,153,14,42,27,cat14,https://www.flashscore.com/match/6yWNSbgS/#/match-summary/match-statistics/2
+315,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Cremonese,0,42,5,1,3,1,7,1,1,2,6,,,177,125,11,43,16,04.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Juventus,0,58,6,2,3,1,8,2,1,1,6,,,240,191,9,66,14,cat15,https://www.flashscore.com/match/6yWNSbgS/#/match-summary/match-statistics/1
+316,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Udinese,1,59,10,1,4,5,7,2,0,0,7,1,0,249,220,13,58,38,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Empoli,0,41,4,0,0,4,8,1,0,0,7,2,1,177,142,13,33,17,cat16,https://www.flashscore.com/match/E1e1tINR/#/match-summary/match-statistics/2
+317,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Udinese,0,61,11,2,6,3,9,6,0,0,8,1,,249,221,12,63,32,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Empoli,1,39,2,1,0,1,8,0,2,2,7,1,,167,131,10,37,12,cat17,https://www.flashscore.com/match/E1e1tINR/#/match-summary/match-statistics/1
+318,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Inter,1,39,2,1,1,0,3,4,1,2,8,2,,162,121,15,50,23,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Napoli,0,61,5,2,2,1,9,1,0,0,3,2,,272,226,9,68,21,cat18,https://www.flashscore.com/match/xKMgNxHk/#/match-summary/match-statistics/2
+319,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Inter,0,35,4,0,4,0,6,1,3,0,4,1,,177,149,8,26,12,04.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 16",Napoli,0,65,4,0,2,2,7,3,2,0,4,0,,328,298,4,72,29,cat19,https://www.flashscore.com/match/xKMgNxHk/#/match-summary/match-statistics/1
+320,07.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Fiorentina,2,50,8,5,1,2,11,2,1,0,7,3,,189,141,7,67,22,07.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Sassuolo,1,50,7,1,2,4,11,1,1,3,5,1,,205,143,14,44,16,cat0,https://www.flashscore.com/match/YoxYzdok/#/match-summary/match-statistics/2
+321,07.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Fiorentina,0,57,6,0,4,2,7,4,0,3,7,1,,220,170,6,57,20,07.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Sassuolo,0,43,10,3,5,2,8,2,0,0,4,2,,169,130,9,38,11,cat1,https://www.flashscore.com/match/YoxYzdok/#/match-summary/match-statistics/1
+322,07.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Juventus,1,54,7,2,3,2,9,4,1,1,9,0,,244,209,9,62,34,07.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Udinese,0,46,6,1,2,3,9,0,0,1,9,2,,200,173,7,35,20,cat2,https://www.flashscore.com/match/6aztZZF1/#/match-summary/match-statistics/2
+323,07.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Juventus,0,46,7,2,4,1,4,2,2,2,7,1,,215,182,10,44,23,07.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Udinese,0,54,5,2,1,2,9,4,0,2,4,0,,252,219,7,54,38,cat3,https://www.flashscore.com/match/6aztZZF1/#/match-summary/match-statistics/1
+324,07.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Monza,1,61,9,3,3,3,12,2,0,0,7,0,,288,244,12,63,27,07.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Inter,0,39,3,0,3,0,7,0,0,2,12,3,,195,149,6,51,25,cat4,https://www.flashscore.com/match/6cu0vVis/#/match-summary/match-statistics/2
+325,07.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Monza,1,49,4,1,3,0,11,1,0,1,7,,,224,181,5,31,15,07.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Inter,2,51,8,3,4,1,7,5,3,0,8,,,229,199,5,55,20,cat5,https://www.flashscore.com/match/6cu0vVis/#/match-summary/match-statistics/1
+326,08.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Salernitana,1,40,5,3,1,1,9,1,1,2,8,1,,162,112,6,49,16,08.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Torino,0,60,9,2,4,3,8,2,0,2,8,2,,248,201,2,58,22,cat6,https://www.flashscore.com/match/plv4wk7m/#/match-summary/match-statistics/2
+327,08.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Salernitana,0,38,6,1,2,3,8,5,0,5,2,1,,154,107,6,36,17,08.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Torino,1,62,14,6,4,4,2,5,1,1,7,1,,254,206,5,64,36,cat7,https://www.flashscore.com/match/plv4wk7m/#/match-summary/match-statistics/1
+328,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Spezia,0,56,5,1,4,0,8,0,1,1,7,0,,221,143,3,63,35,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Lecce,0,44,6,1,2,3,8,1,1,1,7,1,,176,110,7,43,16,cat8,https://www.flashscore.com/match/tGXCyTy0/#/match-summary/match-statistics/2
+329,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Spezia,0,60,5,1,3,1,8,5,0,3,7,,,208,158,7,39,26,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Lecce,0,40,9,3,4,2,7,6,0,1,8,,,135,91,11,41,20,cat9,https://www.flashscore.com/match/tGXCyTy0/#/match-summary/match-statistics/1
+330,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Lazio,1,55,7,2,3,2,5,5,1,0,11,3,,281,244,10,68,27,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Empoli,2,45,5,2,1,2,12,3,1,1,4,1,,229,199,8,44,16,cat10,https://www.flashscore.com/match/K2vpYgV7/#/match-summary/match-statistics/2
+331,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Lazio,1,53,11,2,5,4,6,5,1,0,6,1,,307,279,8,50,18,08.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Empoli,0,47,0,0,0,0,7,0,0,1,6,0,,276,245,5,42,11,cat11,https://www.flashscore.com/match/K2vpYgV7/#/match-summary/match-statistics/1
+332,08.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Sampdoria,0,25,2,0,0,2,7,0,0,2,7,1,,145,103,11,33,15,08.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Napoli,1,75,12,3,6,3,6,3,2,0,5,2,,414,384,6,75,48,cat12,https://www.flashscore.com/match/SCT8x9Mg/#/match-summary/match-statistics/2
+333,08.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Sampdoria,0,43,7,2,4,1,9,2,0,4,8,2,1,185,143,11,7,2,08.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Napoli,1,57,12,5,4,3,7,2,2,2,7,0,0,250,224,7,9,6,cat13,https://www.flashscore.com/match/SCT8x9Mg/#/match-summary/match-statistics/1
+334,08.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",AC Milan,1,53,6,3,2,1,6,0,0,1,11,3,,210,174,14,53,14,08.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",AS Roma,2,47,8,3,2,3,11,2,1,2,5,3,,195,161,7,54,21,cat14,https://www.flashscore.com/match/0bHWecNE/#/match-summary/match-statistics/2
+335,08.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",AC Milan,1,70,6,2,4,0,8,3,0,0,8,1,,298,264,14,79,25,08.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",AS Roma,0,30,4,0,2,2,8,2,0,1,8,4,,126,95,5,39,10,cat15,https://www.flashscore.com/match/0bHWecNE/#/match-summary/match-statistics/1
+336,09.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Verona,0,40,1,0,1,0,5,1,2,4,10,2,,161,102,10,65,20,09.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Cremonese,0,60,10,4,3,3,12,2,0,0,5,3,,254,199,11,71,27,cat16,https://www.flashscore.com/match/CxyxzG0e/#/match-summary/match-statistics/2
+337,09.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Verona,2,54,8,4,2,2,7,2,0,1,6,1,,228,174,8,54,22,09.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Cremonese,0,46,5,1,2,2,6,3,1,2,6,1,,185,117,10,54,20,cat17,https://www.flashscore.com/match/CxyxzG0e/#/match-summary/match-statistics/1
+338,09.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Bologna,0,58,5,1,2,2,7,2,0,1,12,3,,304,250,9,43,16,09.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Atalanta,2,42,3,3,0,0,12,0,1,1,6,0,,229,182,12,23,16,cat18,https://www.flashscore.com/match/GAsTyxWr/#/match-summary/match-statistics/2
+339,09.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Bologna,1,44,7,2,5,0,9,2,1,0,4,0,,230,172,11,40,18,09.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 17",Atalanta,0,56,4,0,4,0,5,0,0,1,9,2,,286,230,5,73,43,cat19,https://www.flashscore.com/match/GAsTyxWr/#/match-summary/match-statistics/1
+340,13.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Napoli,3,55,8,6,1,1,10,1,0,0,3,,,254,221,12,48,17,13.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Juventus,0,45,6,0,2,4,4,4,0,3,6,,,195,166,14,44,25,cat0,https://www.flashscore.com/match/p2JxhlMt/#/match-summary/match-statistics/2
+341,13.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Napoli,2,65,6,4,1,1,5,1,1,1,7,0,,314,279,15,62,20,13.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Juventus,1,35,5,2,2,1,9,1,0,2,3,1,,167,131,13,50,13,cat1,https://www.flashscore.com/match/p2JxhlMt/#/match-summary/match-statistics/1
+342,14.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Cremonese,2,55,8,7,0,1,15,3,1,0,8,1,,210,155,12,60,32,14.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Monza,1,45,3,1,1,1,12,0,2,5,6,2,,187,135,7,43,13,cat2,https://www.flashscore.com/match/ETVKZ66C/#/match-summary/match-statistics/2
+343,14.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Cremonese,0,45,3,0,3,0,6,1,4,0,4,1,,190,137,14,38,19,14.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Monza,2,55,5,2,3,0,7,2,0,0,6,2,,233,180,9,40,18,cat3,https://www.flashscore.com/match/ETVKZ66C/#/match-summary/match-statistics/1
+344,14.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Lecce,0,38,7,1,2,4,9,4,0,1,7,1,,138,92,12,47,16,14.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",AC Milan,2,62,5,3,1,1,7,2,1,1,9,2,,226,170,12,59,26,cat4,https://www.flashscore.com/match/ObDBdUDP/#/match-summary/match-statistics/2
+345,14.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Lecce,2,34,10,2,5,3,5,4,0,2,4,,,137,92,10,46,23,14.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",AC Milan,0,66,7,2,3,2,4,2,2,0,3,,,275,226,11,66,21,cat5,https://www.flashscore.com/match/ObDBdUDP/#/match-summary/match-statistics/1
+346,14.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Inter,0,64,4,1,3,0,12,2,0,1,5,0,,264,221,15,41,15,14.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Verona,0,36,3,1,2,0,5,2,1,1,11,3,,146,104,6,57,24,cat6,https://www.flashscore.com/match/AePTXpyP/#/match-summary/match-statistics/2
+347,14.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Inter,1,50,7,2,3,2,1,1,0,0,6,,,243,201,6,35,16,14.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Verona,0,50,3,0,1,2,6,2,0,1,2,,,231,186,7,72,29,cat7,https://www.flashscore.com/match/AePTXpyP/#/match-summary/match-statistics/1
+348,15.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Sassuolo,0,49,6,0,6,0,7,4,0,0,8,3,,256,211,10,58,23,15.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Lazio,1,51,7,1,6,0,8,2,2,0,5,1,,289,252,13,50,20,cat8,https://www.flashscore.com/match/6H7ojSjg/#/match-summary/match-statistics/2
+349,15.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Sassuolo,0,51,6,2,1,3,6,3,0,1,9,2,,280,236,10,41,15,15.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Lazio,1,49,5,2,1,2,8,1,1,2,5,2,,270,230,11,43,13,cat9,https://www.flashscore.com/match/6H7ojSjg/#/match-summary/match-statistics/1
+350,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Udinese,0,52,12,3,4,5,13,3,0,0,9,1,,183,139,2,46,29,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Bologna,2,48,9,2,5,2,8,4,2,3,11,2,,170,120,14,45,22,cat10,https://www.flashscore.com/match/EsBgl6L5/#/match-summary/match-statistics/2
+351,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Udinese,1,50,8,1,5,2,7,3,3,0,1,0,,196,158,11,63,20,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Bologna,0,50,6,0,4,2,4,0,1,0,6,1,,195,150,10,41,18,cat11,https://www.flashscore.com/match/EsBgl6L5/#/match-summary/match-statistics/1
+352,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Torino,0,60,10,4,4,2,8,4,0,2,8,2,,262,201,3,53,34,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Spezia,0,40,6,2,4,0,8,1,1,4,7,3,,159,108,10,57,20,cat12,https://www.flashscore.com/match/ziCkkn6a/#/match-summary/match-statistics/2
+353,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Torino,0,72,1,0,1,0,5,3,3,2,5,1,,325,272,6,67,26,15.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Spezia,1,28,7,3,1,3,7,1,0,0,5,0,,130,89,12,42,9,cat13,https://www.flashscore.com/match/ziCkkn6a/#/match-summary/match-statistics/1
+354,15.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Atalanta,3,65,7,4,0,3,8,2,0,0,5,,,328,296,8,67,16,15.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Salernitana,1,35,5,1,3,1,5,0,2,1,6,,,196,156,7,24,9,cat14,https://www.flashscore.com/match/zwXGzmi6/#/match-summary/match-statistics/2
+355,15.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Atalanta,5,51,12,9,1,2,5,3,1,0,5,1,,204,167,4,50,29,15.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Salernitana,1,49,2,1,1,0,6,2,0,4,6,0,,196,154,10,31,13,cat15,https://www.flashscore.com/match/zwXGzmi6/#/match-summary/match-statistics/1
+356,15.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",AS Roma,1,51,6,2,3,1,3,4,1,2,8,2,,195,166,8,27,19,15.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Fiorentina,0,49,6,2,2,2,9,8,1,1,2,2,,189,155,5,48,17,cat16,https://www.flashscore.com/match/SQ8si8ym/#/match-summary/match-statistics/2
+357,15.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",AS Roma,1,53,4,2,2,0,9,1,2,1,7,1,0,257,230,10,49,14,15.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Fiorentina,0,47,1,1,0,0,9,1,0,1,10,2,1,234,204,5,52,9,cat17,https://www.flashscore.com/match/SQ8si8ym/#/match-summary/match-statistics/1
+358,16.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Empoli,1,44,7,2,4,1,10,2,1,7,7,4,,189,156,10,41,22,16.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Sampdoria,0,56,14,7,3,4,8,2,0,1,10,3,,222,184,10,65,26,cat18,https://www.flashscore.com/match/W4QPYQLI/#/match-summary/match-statistics/2
+359,16.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Empoli,0,55,9,3,3,3,6,1,1,0,8,1,,235,200,12,52,16,16.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 18",Sampdoria,0,45,2,0,2,0,9,1,0,3,6,3,,189,145,11,47,15,cat19,https://www.flashscore.com/match/W4QPYQLI/#/match-summary/match-statistics/1
+360,21.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Verona,1,37,6,2,3,1,5,5,0,0,9,1,,128,70,21,48,20,21.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Lecce,0,63,4,0,2,2,9,3,0,1,5,0,,227,166,6,70,33,cat0,https://www.flashscore.com/match/4W36o45O/#/match-summary/match-statistics/2
+361,21.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Verona,1,47,5,2,2,1,8,0,2,3,6,2,,194,136,11,47,4,21.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Lecce,0,53,5,3,1,1,8,1,1,1,7,0,,218,163,18,70,36,cat1,https://www.flashscore.com/match/4W36o45O/#/match-summary/match-statistics/1
+362,21.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Salernitana,0,27,3,1,1,1,12,1,3,1,11,2,,143,102,5,32,10,21.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Napoli,1,73,7,2,4,1,20,1,0,1,8,1,,410,374,6,91,31,cat2,https://www.flashscore.com/match/fHpJnE1b/#/match-summary/match-statistics/2
+363,21.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Salernitana,0,25,2,1,1,0,10,2,1,1,3,0,,128,82,5,31,10,21.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Napoli,1,75,2,2,0,0,4,3,3,1,7,1,,382,339,5,81,30,cat3,https://www.flashscore.com/match/fHpJnE1b/#/match-summary/match-statistics/1
+364,21.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Fiorentina,0,70,14,4,5,5,15,3,1,0,4,1,,290,247,6,57,46,21.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Torino,0,30,2,0,1,1,5,3,2,4,14,1,,141,89,10,37,12,cat4,https://www.flashscore.com/match/A942npjI/#/match-summary/match-statistics/2
+365,21.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Fiorentina,0,55,5,1,3,1,13,2,1,2,5,1,,262,222,7,49,22,21.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Torino,1,45,7,3,2,2,6,0,4,1,9,1,,208,169,6,43,18,cat5,https://www.flashscore.com/match/A942npjI/#/match-summary/match-statistics/1
+366,22.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Sampdoria,0,55,6,0,4,2,14,4,2,3,7,2,,193,150,8,46,28,22.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Udinese,1,45,7,4,1,2,15,3,0,0,7,0,,170,120,9,44,22,cat6,https://www.flashscore.com/match/xtzOoYG4/#/match-summary/match-statistics/2
+367,22.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Sampdoria,0,55,3,1,1,1,11,2,2,1,8,1,,214,184,19,42,13,22.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Udinese,0,45,7,1,3,3,9,3,1,1,10,1,,174,145,6,36,18,cat7,https://www.flashscore.com/match/xtzOoYG4/#/match-summary/match-statistics/1
+368,22.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Monza,1,62,6,3,2,1,7,4,2,0,11,2,,252,203,13,64,38,22.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Sassuolo,0,38,7,0,4,3,12,2,0,2,7,1,,168,124,10,60,11,cat8,https://www.flashscore.com/match/tEtFmfnh/#/match-summary/match-statistics/2
+369,22.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Monza,0,62,8,0,4,4,11,6,1,0,6,0,,246,205,2,61,33,22.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Sassuolo,1,38,6,1,4,1,7,2,0,0,11,1,,149,120,7,43,15,cat9,https://www.flashscore.com/match/tEtFmfnh/#/match-summary/match-statistics/1
+370,22.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Spezia,0,64,4,0,1,3,7,3,0,0,10,1,,327,267,16,97,22,22.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",AS Roma,1,36,6,1,4,1,11,0,1,0,6,1,,201,150,9,50,11,cat10,https://www.flashscore.com/match/GWYRphWA/#/match-summary/match-statistics/2
+371,22.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Spezia,0,40,4,0,4,0,5,1,0,1,7,2,,181,139,6,51,11,22.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 19",AS Roma,1,60,7,2,3,2,7,0,0,0,5,0,,278,233,9,31,10,cat11,https://www.flashscore.com/match/GWYRphWA/#/match-summary/match-statistics/1
+372,22.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Juventus,1,49,6,3,2,1,4,1,1,1,6,1,,256,209,6,49,23,22.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Atalanta,2,51,9,3,0,6,7,2,0,2,3,2,,271,228,9,68,29,cat12,https://www.flashscore.com/match/80r7kGHu/#/match-summary/match-statistics/2
+373,22.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Juventus,2,45,9,5,3,1,2,5,1,0,3,,,221,181,11,51,26,22.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Atalanta,1,55,5,1,3,1,4,2,0,3,3,,,277,232,9,54,29,cat13,https://www.flashscore.com/match/80r7kGHu/#/match-summary/match-statistics/1
+374,23.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Bologna,1,68,14,5,7,2,6,3,1,0,5,2,,271,224,10,59,33,23.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Cremonese,1,32,7,1,5,1,5,0,0,4,6,4,,134,94,8,37,16,cat14,https://www.flashscore.com/match/d60bmQzC/#/match-summary/match-statistics/2
+375,23.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Bologna,0,70,7,3,3,1,9,1,2,1,6,0,,362,301,5,78,24,23.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Cremonese,0,30,2,1,0,1,8,1,1,3,7,1,,142,88,5,44,19,cat15,https://www.flashscore.com/match/d60bmQzC/#/match-summary/match-statistics/1
+376,23.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Inter,0,47,8,0,5,3,10,1,0,3,8,2,,220,177,9,21,9,23.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Empoli,1,53,5,4,1,0,8,0,0,0,10,0,,279,241,5,29,11,cat16,https://www.flashscore.com/match/rN2ApOKU/#/match-summary/match-statistics/2
+377,23.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Inter,0,51,8,1,3,4,6,1,0,4,5,2,1,248,207,14,52,33,23.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Empoli,0,49,8,4,2,2,5,3,0,1,6,3,0,241,201,6,43,12,cat17,https://www.flashscore.com/match/rN2ApOKU/#/match-summary/match-statistics/1
+378,24.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Lazio,2,44,4,2,1,1,7,0,1,2,8,0,,191,149,10,47,15,24.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",AC Milan,0,56,7,2,2,3,9,2,0,0,8,1,,255,211,10,50,17,cat0,https://www.flashscore.com/match/nisBlzXo/#/match-summary/match-statistics/2
+379,24.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",Lazio,2,56,6,3,0,3,5,3,0,1,6,1,,301,266,16,54,11,24.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 19",AC Milan,0,44,3,1,0,2,6,2,2,1,3,1,,241,205,6,49,10,cat1,https://www.flashscore.com/match/nisBlzXo/#/match-summary/match-statistics/1
+380,27.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Bologna,1,52,7,2,4,1,19,0,2,1,5,2,,242,192,12,56,16,27.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Spezia,0,48,3,1,0,2,11,3,2,1,10,2,,224,173,7,56,18,cat0,https://www.flashscore.com/match/OdxzqW0N/#/match-summary/match-statistics/2
+381,27.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Bologna,1,64,11,4,3,4,6,5,2,3,3,,,314,258,8,71,20,27.01.2023 18:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Spezia,0,36,3,3,0,0,5,2,0,3,6,,,177,120,11,41,15,cat1,https://www.flashscore.com/match/OdxzqW0N/#/match-summary/match-statistics/1
+382,27.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Lecce,0,63,7,2,4,1,7,1,0,2,8,2,,277,228,8,72,27,27.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Salernitana,0,37,6,2,3,1,7,2,1,2,6,2,,165,107,8,52,29,cat2,https://www.flashscore.com/match/jq0c0XVc/#/match-summary/match-statistics/2
+383,27.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Lecce,1,58,8,3,4,1,5,3,2,2,6,0,,256,204,14,58,28,27.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Salernitana,2,42,4,4,0,0,8,2,1,2,5,2,,194,141,13,70,14,cat3,https://www.flashscore.com/match/jq0c0XVc/#/match-summary/match-statistics/1
+384,28.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Empoli,1,38,6,1,2,3,4,3,0,2,7,2,,166,120,3,34,22,28.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Torino,2,62,11,4,6,1,11,2,1,0,3,0,,283,232,10,69,33,cat4,https://www.flashscore.com/match/tEI6wAOp/#/match-summary/match-statistics/2
+385,28.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Empoli,1,56,5,3,1,1,9,2,1,0,5,,,216,182,13,48,24,28.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Torino,0,44,5,0,2,3,10,3,0,2,6,,,164,117,7,39,17,cat5,https://www.flashscore.com/match/tEI6wAOp/#/match-summary/match-statistics/1
+386,28.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Cremonese,0,39,9,2,5,2,10,1,0,3,4,,,191,150,4,47,18,28.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Inter,1,61,10,4,3,3,5,4,3,2,6,,,306,269,8,53,25,cat6,https://www.flashscore.com/match/6LRvrjGT/#/match-summary/match-statistics/2
+387,28.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Cremonese,1,31,3,2,1,0,9,1,0,5,3,0,,135,101,4,32,13,28.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Inter,1,69,20,6,9,5,4,10,0,1,6,2,,285,251,8,68,40,cat7,https://www.flashscore.com/match/6LRvrjGT/#/match-summary/match-statistics/1
+388,28.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Atalanta,1,53,8,2,4,2,10,3,1,3,8,0,,305,263,8,60,28,28.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Sampdoria,0,47,6,3,1,2,12,2,1,1,7,2,,249,190,11,51,22,cat8,https://www.flashscore.com/match/p6wWqCoH/#/match-summary/match-statistics/2
+389,28.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Atalanta,1,71,13,3,6,4,6,4,0,2,9,,,336,295,7,72,37,28.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Sampdoria,0,29,9,2,6,1,11,2,0,2,4,,,135,94,12,31,22,cat9,https://www.flashscore.com/match/p6wWqCoH/#/match-summary/match-statistics/1
+390,29.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",AC Milan,1,62,5,3,2,0,7,1,2,1,9,5,,229,176,9,61,24,29.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Sassuolo,2,38,4,3,0,1,10,2,2,2,5,4,,144,108,6,40,7,cat10,https://www.flashscore.com/match/UZb1aio4/#/match-summary/match-statistics/2
+391,29.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",AC Milan,1,60,5,2,3,0,4,1,3,1,4,2,,183,145,12,60,25,29.01.2023 12:30,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Sassuolo,3,40,5,4,0,1,7,1,1,1,3,0,,126,92,12,30,14,cat11,https://www.flashscore.com/match/UZb1aio4/#/match-summary/match-statistics/1
+392,29.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Juventus,0,46,16,7,4,5,3,8,3,1,7,0,,191,153,8,61,55,29.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Monza,0,54,1,1,0,0,10,0,0,7,3,2,,257,205,10,42,11,cat12,https://www.flashscore.com/match/fH6l2g1o/#/match-summary/match-statistics/2
+393,29.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Juventus,0,46,6,1,3,2,9,4,0,0,5,,,223,195,5,65,21,29.01.2023 15:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Monza,2,54,2,2,0,0,5,1,2,1,7,,,276,243,12,48,10,cat13,https://www.flashscore.com/match/fH6l2g1o/#/match-summary/match-statistics/1
+394,29.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Lazio,0,50,9,0,7,2,13,2,0,4,7,1,,234,184,9,57,25,29.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Fiorentina,1,50,13,5,4,4,7,2,1,0,12,2,,232,180,8,64,15,cat14,https://www.flashscore.com/match/Y75h1DGi/#/match-summary/match-statistics/2
+395,29.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Lazio,1,40,4,1,3,0,6,1,1,1,5,1,,242,197,11,26,8,29.01.2023 18:00,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Fiorentina,0,60,4,1,2,1,6,2,1,0,5,1,,361,318,3,67,17,cat15,https://www.flashscore.com/match/Y75h1DGi/#/match-summary/match-statistics/1
+396,29.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Napoli,1,54,5,3,1,1,5,2,0,1,4,1,,267,223,12,70,27,29.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",AS Roma,1,46,7,2,3,2,4,5,0,2,5,1,,223,176,13,48,25,cat16,https://www.flashscore.com/match/Odb5bB0A/#/match-summary/match-statistics/2
+397,29.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Napoli,1,60,6,3,3,0,9,1,0,1,4,0,,331,285,7,59,14,29.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",AS Roma,0,40,4,1,1,2,4,3,0,2,9,1,,221,170,6,58,13,cat17,https://www.flashscore.com/match/Odb5bB0A/#/match-summary/match-statistics/1
+398,30.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Udinese,0,54,13,5,1,7,7,10,0,1,2,0,,203,156,12,42,30,30.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Verona,0,46,5,1,2,2,2,2,2,5,5,1,,170,128,11,70,27,cat18,https://www.flashscore.com/match/x029cVFG/#/match-summary/match-statistics/2
+399,30.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Udinese,1,56,13,3,4,6,6,4,0,0,7,1,,196,159,14,60,30,30.01.2023 20:45,"FOOTBALL
+ITALY: SERIE A - ROUND 20",Verona,1,44,5,1,1,3,6,4,0,2,6,2,,158,115,11,37,17,cat19,https://www.flashscore.com/match/x029cVFG/#/match-summary/match-statistics/1
