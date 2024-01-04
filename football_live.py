@@ -1,6 +1,3 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
 import glob
 import pandas as pd
 import numpy as np
@@ -18,28 +15,12 @@ st.set_page_config(layout="wide")
 pd.options.display.float_format = "{:,.1f}".format
 warnings.filterwarnings('ignore')
 
-
 # TEAMNAMES value in teamnamedict must match the htdatan teamname!
-
 global teamnamedict
 # C:\Users\mg\JupyterLabDir\Rest\Pr Winning\teamnamedict_streamlit.json
 with open('teamnamedict_streamlit.json') as f:
     teamnamedict = json.load(f)
 
-# def _max_width_():
-#     max_width_str = f"max-width: 1300px;"
-#     st.markdown(
-#         f"""
-#     <style>
-#     .reportview-container .main .block-container{{
-#         {max_width_str}
-#     }}
-#     </style>
-#     """,
-#         unsafe_allow_html=True,
-#     )
-
-# _max_width_()
 global widthfig
 widthfig = 700
 heightfig = 600
@@ -54,7 +35,7 @@ saissons = []
 
 # ENV is BTCPRED
 for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
-    saissons.append(tables[x].split("/")[1].split("_24102021.csv")[0])
+    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
@@ -85,7 +66,6 @@ global saison
 saison = st.sidebar.selectbox("Saison", list(
     cleaned_names_saissons), 0)
 print(saison)
-# map names back for reading the correct csv name
 
 
 def find_key(input_dict, value):
@@ -93,7 +73,6 @@ def find_key(input_dict, value):
         if val == value:
             return key
     return "None"
-
 
 saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
                         saison.split(" ")[1]
@@ -138,79 +117,6 @@ def process_team_names_of_df(x_df):
 #######################################################
 ###  calculate table with two halftimes to one game ###
 #######################################################
-
-
-# def convert_hts_to_complete_games(df):
-#     # fill nane values of these not numeric columns
-#     df[['FK-H', 'FK-A']].fillna(0)
-#     # convert not numeric columns to numeric columns
-#     df['FK-H'] = df['FK-H'].astype('float64')
-#     df['FK-A'] = df['FK-A'].astype('float64')
-#     df['C-H'] = df['C-H'].astype('float64')
-#     df['F-H'] = df['F-H'].astype('float64')
-#     df['GA-H'] = df['GA-H'].astype('float64')
-#     df['SoffG-H'] = df['SoffG-H'].astype('float64')
-#     df['SoG-H'] = df['SoG-H'].astype('float64')
-#     df['C-A'] = df['C-A'].astype('float64')
-#     df['F-A'] = df['F-A'].astype('float64')
-#     df['GA-A'] = df['GA-A'].astype('float64')
-#     df['SoffG-A'] = df['SoffG-A'].astype('float64')
-#     df['SoG-A'] = df['SoG-A'].astype('float64')
-#     df['G-H'] = df['G-H'].astype('float64')
-#     df['G-A'] = df['G-A'].astype('float64')
-#     df['BP-H'] = df['BP-H'].astype('float64')
-#     df['BP-A'] = df['BP-A'].astype('float64')
-#     # xGoals columns
-#     if not set(['xG', 'xPTS', 'GOALS', 'A_xG', 'G-A', 'A_xPTS']).issubset(df.columns):
-#         df['xG'] = -1.0
-#         df['GOALS'] = -1.0
-#         df['xPTS'] = -1.0
-#         df['A_xG'] = -1.0
-#         df['G-A'] = -1.0
-#         df['A_xPTS'] = -1.0
-#     else:
-#         df['xG'] = df['xG'].astype('float64')
-#         df['GOALS'] = df['GOALS'].astype('float64')
-#         df['xPTS'] = df['xPTS'].astype('float64')
-#         df['A_xG'] = df['A_xG'].astype('float64')
-#         df['G-A'] = df['G-A'].astype('float64')
-#         df['A_xPTS'] = df['A_xPTS'].astype('float64')
-
-#     # calculate halftime table to fulltime table
-#     df = df.groupby(['Home', 'Opponent', 'Date', 'Round']).agg({'BP-H': 'mean', 'C-H': 'sum',
-#                                                                 'F-H': 'sum', 'FK-H': 'sum', 'GA-H': 'sum',
-#                                                                 'GoKeSa-H': 'sum', 'G-H': 'sum', 'Off-H': 'sum',
-#                                                                 'SoffG-H': 'sum', 'SoG-H': 'sum',
-#                                                                            'BP-A': 'mean',
-#                                                                            'C-A': 'sum',
-#                                                                            'F-A': 'sum', 'FK-A': 'sum', 'GA-A': 'sum',
-#                                                                            'GoKeSa-A': 'sum', 'G-A': 'sum', 'Off-A': 'sum',
-#                                                                            'SoffG-A': 'sum', 'SoG-A': 'sum',
-#                                                                            # xGoals stats are only from whole game - not halftime - so mean does not change anything
-#                                                                            'xG': 'mean',
-#                                                                            'GOALS': 'mean',
-#                                                                            'xPTS': 'mean',
-#                                                                            'A_xG': 'mean',
-#                                                                            'A_GOALS': 'mean',
-#                                                                            'A_xPTS': 'mean'
-#                                                                 }).reset_index()
-
-#     newcols = []
-
-#     for x in df.columns:
-#         if x.startswith('SUM') or x.startswith('MIN') or x.startswith('AVG'):
-#             x = re.sub('SUM', '', x)
-#             x = re.sub('MIN', '', x)
-#             x = re.sub('AVG', '', x)
-#             x = x.replace("`", "")
-#             x = x.replace(")", "")
-#             x = x.replace("(", "")
-#         newcols.append(x)
-
-#     df.columns = newcols
-
-#     return df
-
 
 def df_cleaning_converting(df):
     df = df[['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
@@ -292,9 +198,6 @@ def df_specific_team(df, team):
 
     # Berechnung Opponentgames
     df4Opponent = df.loc[((df['Opponent'] == team))]
-
-
-    
 
     # recalcualte the winner because of the columns switching to bring the selected team in the first column
     df4Opponent["1x2"] = 0
@@ -648,10 +551,6 @@ fig_xg_perminute_home.update_layout(
     )
 fig_xg_perminute_home.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
-# # Only thing I figured is - I could do this 
-
-
-
 # calculate the difference of team xg vs oppo xg
 dfxg_complete_game_all_bps = dfxg_homexg_complete_game_all_bps.clip(lower=0).mean() - dfxg_awayxg_complete_game_all_bps.clip(lower=0).mean()
 fig_xg_homexg_complete_game_all_bpse = go.Figure(data=[
@@ -750,19 +649,12 @@ figScatter = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     symbol = 'IsHome',
     symbol_sequence= ['diamond-cross', 'diamond'],
     size="SoG-H-SoG-A",
     text="Opponent",
     width=widthfig,
-    # height=heightfig,
-    # title="SoGH-SoGA - Halftimes",
-    # color_continuous_scale= 'Viridis',
-    # color_discrete_map={"W": "green", "D": "gray", "L": "red"}
-
-    # facet_row="time", # makes seperate plot for value
-    # marginal_x="histogram",
 ).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(
     marker=dict(color='green'), selector={'type': 'histogram'}
@@ -789,7 +681,7 @@ figScatter1 = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="SoG-A-SoG-H",
     symbol = 'IsHome',
     symbol_sequence= ['circle-x', 'circle'],
@@ -798,7 +690,6 @@ figScatter1 = px.scatter(
     # height=heightfig,
     title="SoGA-SoGH - Halftimes",
     # color_discrete_map={"W": "green", "D": "gray", "L": "red"}
-
     # facet_row="time", # makes seperate plot for value
     # marginal_x="histogram",
 ).update_traces(
@@ -823,10 +714,6 @@ figScatter1.update_layout(legend=dict(
 ))
 
 
-# wie oft passierts das team hinten ist und noch gewinnt / nicht verliert:´
-# sortier nach sieg x loss
-# mach diagramm halftimes für 1te und 2te hz
-
 # delete games where there is no two halftimes!
 df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby(
     'Opponent')['Opponent'].transform('size') >= 2]
@@ -842,13 +729,10 @@ figScatter5 = px.scatter(
     y='GoalDiff',
     size="SoG-H-SoG-A",
     text="Opponent",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     symbol = 'IsHome',
     symbol_sequence= ['diamond-cross', 'diamond'],
     width=widthfig,
-    # height=heightfig,
-    # color_continuous_scale= 'Viridis',
-    # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
 ).update_traces(textposition='top center',  marker=dict(
     color='green'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
@@ -871,7 +755,6 @@ figScatter5.update_layout(legend=dict(
     x=1.12
 ))
 
-
 figScatter6 = px.scatter(
     # .query(f'Date.between{end_date}'),
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
@@ -879,13 +762,10 @@ figScatter6 = px.scatter(
     y='GoalDiff',
     size="SoG-A-SoG-H",
     text="Opponent",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     symbol = 'IsHome',
     symbol_sequence= ['circle-x', 'circle'],
     width=widthfig,
-    # height=heightfig,
-    # color_continuous_scale= 'Viridis',
-    # facet_row="time", # makes seperate plot for value
     marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
     color='red'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
@@ -915,15 +795,12 @@ figScatter7 = px.scatter(
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="SoG-H-SoG-A",
     symbol = 'IsHome',
     symbol_sequence= ['diamond-cross', 'diamond'],
     text="Opponent",
     width=widthfig,
-    # height=heightfig,
-    # color_continuous_scale= 'Viridis',
-    # facet_row="time", # makes seperate plot for value
 ).update_traces(textposition='top center',  marker=dict(
     color='green'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
@@ -953,16 +830,12 @@ figScatter8 = px.scatter(
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="SoG-A-SoG-H",
     symbol = 'IsHome',
     symbol_sequence= ['circle-x', 'circle'],
     text="Opponent",
     width=widthfig,
-    # height=heightfig,
-    # color_continuous_scale= 'Viridis',
-    # facet_row="time", # makes seperate plot for value
-    # marginal_x="histogram",
 ).update_traces(textposition='top center', marker=dict(
     color='red'), selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
 ).update_traces(marker=dict(
@@ -994,10 +867,46 @@ try:
 except:
     highest_count_yaxis = 0
 
+df4CompleteGraph['count'] = 1
+df4CompleteGraph_ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == "1"]
+df4CompleteGraph_ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == "2"]
+required_categories = ['<45', '45-55', '>55']
+for category in required_categories:
+    if category not in df4CompleteGraph_ht1['BPTypes'].unique():
+        # Append a row with the missing category and a count of 0
+        df4CompleteGraph = df4CompleteGraph.append({
+            'BPTypes': category, 
+            'Halftime result': 'Draw',  
+            'Home': '',  
+            'Opponent': '',  
+            'IsHome': 0, 
+            'R': '',  
+            'xG': 0.0,  
+            'halftime': '1',
+            'A_xG': 0.0,
+            'count': 0
+        }, ignore_index=True)
+    if category not in df4CompleteGraph_ht2['BPTypes'].unique():
+        # Append a row with the missing category and a count of 0
+        df4CompleteGraph = df4CompleteGraph.append({
+            'BPTypes': category, 
+            'Halftime result': 'Draw',  
+            'Home': '',  
+            'Opponent': '',  
+            'IsHome': 0, 
+            'R': '',  
+            'xG': 0.0,  
+            'halftime': '2',
+            'A_xG': 0.0,
+            'count': 0
+        }, ignore_index=True)
+
+
 # Create data for histogram 2
 BarBallpossesionstylesResultsHalftime1 = px.bar(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
     x='BPTypes',
+    y='count',
     # text=df4CompleteGraph.index,
     # title="BP-Styles - Halftimes",
     color='Halftime result',
@@ -1006,7 +915,9 @@ BarBallpossesionstylesResultsHalftime1 = px.bar(
     # height=heightfig,
     # opacity=0.5,
     text="Opponent",
-).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55'],).update_yaxes(
+)
+
+BarBallpossesionstylesResultsHalftime1.update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55'],).update_yaxes(
     range=[0, highest_count_yaxis])
 
 BarBallpossesionstylesResultsHalftime1.update_layout(
@@ -1019,6 +930,7 @@ BarBallpossesionstylesResultsHalftime1.update_layout(
 BarBallpossesionstylesResultsHalftime2 = px.bar(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
     x='BPTypes',
+    y='count',
     # text=df4CompleteGraph.index,
     # title="BP-Styles - Halftimes",
     color='Halftime result',
@@ -1027,7 +939,9 @@ BarBallpossesionstylesResultsHalftime2 = px.bar(
     # height=heightfig,
     # opacity=0.5,
     text="Opponent",
-).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
+)
+
+BarBallpossesionstylesResultsHalftime2.update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
     range=[0, highest_count_yaxis])
 BarBallpossesionstylesResultsHalftime2.update_layout(
     title_text='Ballpossesionstyles - results halftime 2', title_x=0.5, xaxis=dict(
@@ -1035,27 +949,6 @@ BarBallpossesionstylesResultsHalftime2.update_layout(
     )
 )
 
-
-# # create scatterplot with XG - bubble size
-# df4CompleteGraph = df4Complete.copy()
-
-# df4CompleteGraph = convert_hts_to_complete_games(df4CompleteGraph)
-
-# # Calculate again the stuff like for the single halftimes before!
-# # GoalDifference
-# df4CompleteGraph["GoalDiff"] = df4CompleteGraph["G-H"] - \
-#     df4CompleteGraph["G-A"]
-# df4CompleteGraph = df4CompleteGraph.sort_values("Date",  ascending=False)
-# # calculate column with 3 Ballposition types
-# df4CompleteGraph["BPTypes"] = '0'
-# df4CompleteGraph["BPTypes"] = df4CompleteGraph.apply(
-#     lambda row: calculate_1x2_BPTypes(row), axis=1, result_type='reduce')
-# df4CompleteGraph['Date'] = pd.to_datetime(
-#     df4CompleteGraph['Date'], format="%d.%m.%Y %H:%M")
-# # convert datetime to timestamp for scatter visualization
-# df4CompleteGraph['timestamp'] = df4CompleteGraph.Date.astype('int64')//10**9
-# df4CompleteGraph = df4CompleteGraph.sort_values("Date", ascending=False)
-# Create data for scatter graph
 print(df4CompleteGraph.columns)
 print(df4CompleteGraph[["xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
@@ -1084,14 +977,11 @@ df4CompleteGraph["xg_halftime-Axg_halftime"] = df4CompleteGraph["xg_halftime-Axg
 df4CompleteGraph["Axg_halftime-xg_halftime"] = df4CompleteGraph["Axg_halftime-xg_halftime"].clip(lower=0)
 df4CompleteGraph["Axg_halftime-xg_halftime"] = df4CompleteGraph["Axg_halftime-xg_halftime"].round(2)
 
-
 print(df4CompleteGraph[["xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == "1"]
 print(ht1[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == "2"]
 print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
-
-
 
 # Create barchart for xg per bptypes 1
 BarBallpossesionstylesXGHalftime1 = px.bar(
@@ -1150,15 +1040,13 @@ BarBallpossesionstylesXGHalftime2.update_layout(legend=dict(
     x=1.12
 ))
 
-
-
 figHistogramxG_A_xG_1Ht = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="xg_halftime-Axg_halftime",
     symbol = 'IsHome',
     symbol_sequence= ['diamond-cross', 'diamond'],
@@ -1193,7 +1081,7 @@ figHistogramA_xG_xG_1Ht = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="Axg_halftime-xg_halftime",
     symbol = 'IsHome',
     symbol_sequence= ['circle-x', 'circle'],
@@ -1222,13 +1110,20 @@ figHistogramA_xG_xG_1Ht.update_layout(legend=dict(
 ))
 
 
+# Determine if there was a red card in a game
+df4CompleteGraph['red_card'] = df4CompleteGraph[['H_Red Cards', 'A_Red Cards']].apply(lambda x: x[0] > 0 or x[1] > 0, axis=1)
+# Define marker properties based on the presence of a red card
+df4CompleteGraph['marker_properties'] = df4CompleteGraph['red_card'].apply(
+    lambda x: {'line_width': 2, 'line_color': 'red'} if x else {'line_width': 1, 'line_color': 'black'}
+)
+
 figHistogramxG_A_xG_2Ht = px.scatter(
     df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],  # .query(f'Date.between{end_date}'),
     x='BP-H',
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="xg_halftime2-Axg_halftime2",
     symbol = 'IsHome',
     symbol_sequence= ['diamond-cross', 'diamond'],
@@ -1263,7 +1158,7 @@ figHistogramA_xG_xG_2Ht = px.scatter(
     y='GoalDiff',
     marginal_x="histogram",
     color="timestamp",
-    hover_data=['H_Red Cards', 'A_Red Cards'],
+    hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
     size="Axg_halftime2-xg_halftime2",
     symbol = 'IsHome',
     symbol_sequence= ['circle-x', 'circle'],
@@ -1292,50 +1187,31 @@ figHistogramA_xG_xG_2Ht.update_layout(legend=dict(
 ))
 
 
-
-# Streamlit encourages well-structured code, like starting execution in a main() function.
 st.title("Football statistics - {}".format(team))
 st.markdown('The following two diagrams display the new metric Expected Goals (**xGoals**), which is a qualitative measurement on base of the shots on goal.  \nThe expected goal model shows how high the chance of the goal really was and calculates a value for each completion based on several factors.   \nF.I. a penalty has generally a probably of 75 % to result in a goal, which would increase the xGoal value for 0.75 regardless of the penalty-outcame in this case.', unsafe_allow_html=False)
 
 col1, col2 = st.columns(2)
 
 col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
-
 col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
-
 col1.plotly_chart(BarBallpossesionstylesXGHalftime1)
-
 col2.plotly_chart(BarBallpossesionstylesXGHalftime2)
 
-
 col1.plotly_chart(figHistogramxG_A_xG_1Ht)
-
 col2.plotly_chart(figHistogramA_xG_xG_1Ht)
-
 col1.plotly_chart(figHistogramxG_A_xG_2Ht)
-
 col2.plotly_chart(figHistogramA_xG_xG_2Ht)
 
-
 col1.plotly_chart(figScatter)
-
 col2.plotly_chart(figScatter1)
-
 col1.plotly_chart(figScatter5)
-
 col2.plotly_chart(figScatter6)
-
 col1.plotly_chart(figScatter7)
-
 col2.plotly_chart(figScatter8)
 
-
 st.plotly_chart(fig_xg_perminute_home)
-
 st.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
-
 st.plotly_chart(fig_xg_perminute_home_bigger_55)
-
 st.plotly_chart(fig_xg_perminute_home_smaller_45)
 
 # C_WPercText, N_WPercText, BP_WPercText = calc_stats(df4Complete)
