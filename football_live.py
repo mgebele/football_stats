@@ -10,6 +10,7 @@ import json
 import traceback
 import streamlit as st
 import plotly.graph_objects as go
+from pathlib import Path
 
 st.set_page_config(layout="wide")
 pd.options.display.float_format = "{:,.1f}".format
@@ -34,8 +35,8 @@ global saissons
 saissons = []
 
 # ENV is BTCPRED
-for x in range(0, len(tables)):    # CHANGE THIS - \\ - to - / - FOR DEPLOYMENT!
-    saissons.append(tables[x].split("\\")[1].split("_24102021.csv")[0])
+for x in range(0, len(tables)):
+    saissons.append(Path(tables[x]).parts[1].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
