@@ -1,5 +1,7 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
+# exceute with pip automate_385 lib
+
 # %%
 import time
 import datetime
