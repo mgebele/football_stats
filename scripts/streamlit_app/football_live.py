@@ -36,7 +36,7 @@ saissons = []
 
 # ENV is BTCPRED
 for x in range(0, len(tables)):
-    saissons.append(Path(tables[x]).parts[1].split("_24102021.csv")[0])
+    saissons.append(Path(tables[x]).parts[2].split("_24102021.csv")[0])
 
 
 cleaned_names_saissons = []
