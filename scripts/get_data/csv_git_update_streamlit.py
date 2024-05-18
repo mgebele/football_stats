@@ -2,31 +2,22 @@
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
 import time
-from git import Repo
 import datetime
-import re
-import pandas.io.sql as psql
-import mysql.connector
+from git import Repo
+# import re
+# import pandas.io.sql as psql
+# import mysql.connector
 import MySQLdb
-import numpy as np
 import pandas as pd
 import os
-from email.mime.base import MIMEBase
-from email.message import EmailMessage
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from email.mime.image import MIMEImage
-import smtplib
 import subprocess
 
 os.chdir("C:\\Users\\mg\\github\\football_stats\\data")
 
-# try:
-
 # # # start - do xg games # # #
 
 # get all the gamestatistics from in dropdown specified league and season
-# setup the database connection.  There's no need to setup cursors with pandas psql.
+# setup the database connection.  
 db = MySQLdb.connect(host='127.0.0.1',
                      database='xg',
                      user='root',
@@ -82,7 +73,7 @@ time.sleep(3)
 # # # start - do htdatan games # # #
 
 # get all the gamestatistics from in dropdown specified league and season
-# setup the database connection.  There's no need to setup cursors with pandas psql.
+# setup the database connection.
 db = MySQLdb.connect(host='127.0.0.1',
                      database='htdatan',
                      user='root',
@@ -148,44 +139,3 @@ db.close()
 print("all run without Exception")
 
 # # # end - do htdatan games # # #
-
-# except Exception as e:
-#     print("WRONG")
-#     from_mail = "bbarwuahh@gmx.de"
-#     from_password = "Zinedine123"
-
-#     # Create the email message
-#     msg = MIMEMultipart()
-#     msg['Subject'] = 'Error with updating csvs xg htdatan for streamlit'
-#     msg['From'] = from_mail
-#     COMMASPACE = ', '
-#     msg['To'] = COMMASPACE.join(["gebele.markus@googlemail.com", from_mail])
-
-#     html_text = '''
-#             <html>
-#             <head>
-#             <style>
-#             table, th, td {{font-size:10pt; border:1px solid black; border-collapse:collapse; text-align:center;}}
-#             th, td {{padding: 5px;}}
-#             </style>
-#             </head>
-#                 <body>
-#                 <h1 style="text-align: center;">...</h1>
-#                 <br>
-#                 <h1 style="text-align: center;">{0}</h1>
-#                 </body>
-#             </html>
-#             '''.format(e)
-
-#     # Attach HTML body
-#     msg.attach(MIMEText(
-#         html_text,
-#         'html', 'utf-8'))
-
-#     # Send mail
-#     server = smtplib.SMTP('smtp.gmx.net', port=587)
-#     # server.ehlo()
-#     server.starttls()
-#     server.login(from_mail, from_password)
-#     server.sendmail(from_mail, [from_mail, from_mail], msg.as_string())
-#     server.quit()
