@@ -4,9 +4,9 @@
 import time
 import datetime
 from git import Repo
-# import re
-# import pandas.io.sql as psql
-# import mysql.connector
+import re
+import pandas.io.sql as psql
+import mysql.connector
 import MySQLdb
 import pandas as pd
 import os
