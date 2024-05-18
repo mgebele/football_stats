@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 # TEAMNAMES value in teamnamedict must match the htdatan teamname!
 global teamnamedict
 # C:\Users\mg\JupyterLabDir\Rest\Pr Winning\teamnamedict_streamlit.json
-with open('teamnamedict_streamlit.json') as f:
+with open('scripts/streamlit_app/teamnamedict_streamlit.json') as f:
     teamnamedict = json.load(f)
 
 global widthfig
@@ -28,7 +28,7 @@ heightfig = 600
 
 # get all the gamestatistics from in dropdown specified league and season
 # setup the database connection.  There's no need to setup cursors with pandas psql.
-tables = list(glob.glob("htdatan/*"))
+tables = list(glob.glob("data/htdatan/*"))
 
 # take only the 0 part of the every list entry
 global saissons
@@ -80,10 +80,10 @@ saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
 
 try:
     df_complete_saison = pd.read_csv(
-        "htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
+        "data/htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
 except:
     df_complete_saison = pd.read_csv(
-        "htdatan/"+saison+"_24102021.csv", index_col=0, encoding='utf-8')
+        "data/htdatan/"+saison+"_24102021.csv", index_col=0, encoding='utf-8')
 
 df_complete_saison = df_complete_saison.replace(teamnamedict)
 dfallteamnamesl = df_complete_saison.H_Teamnames.unique()
@@ -525,7 +525,7 @@ def load_xg_gamestats_sql(saison, team):
     xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
 
     df_complete_saison = pd.read_csv(
-        "xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
+        "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
 
     df_complete_saison = process_team_names_of_df(df_complete_saison)
 
@@ -552,7 +552,7 @@ def load_xg_season_stats_sql(saison):
     xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
 
     df_complete_saison = pd.read_csv(
-        "xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
+        "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
 
     df_complete_saison = process_team_names_of_df(df_complete_saison)
 
