@@ -15,7 +15,6 @@ import subprocess
 os.chdir("C:\\Users\\mg\\github\\football_stats\\data")
 
 # # # start - do xg games # # #
-
 # get all the gamestatistics from in dropdown specified league and season
 # setup the database connection.  
 db = MySQLdb.connect(host='127.0.0.1',
@@ -26,7 +25,6 @@ db = MySQLdb.connect(host='127.0.0.1',
 cursor = db.cursor()     # get the cursor
 
 cursor.execute("USE xg")  # select the database
-# execute 'SHOW TABLES' (but data is not returned)
 cursor.execute("SHOW TABLES")
 
 # %%
@@ -79,10 +77,8 @@ db = MySQLdb.connect(host='127.0.0.1',
                      user='root',
                      password='root')
 
-cursor = db.cursor()     # get the cursor
-
+cursor = db.cursor() 
 cursor.execute("USE htdatan")  # select the database
-# execute 'SHOW TABLES' (but data is not returned)
 cursor.execute("SHOW TABLES")
 
 # %%
