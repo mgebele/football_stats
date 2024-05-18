@@ -12,7 +12,6 @@ Update Streamlit repository with xG and Flashscore data by retrieving them from 
 - **JupyterLabDir\Rest\streamlit\rest\football\csv_git_update_streamlit.py**:
   - Retrieves xG and Flashscore games from the local MySQL database, commits, and pushes to the repository.
 
-
 ## Other Repository: Web Scraping
 The data used in this repository comes from another repository responsible for web scraping football data from xG and Flashscore.
 
@@ -50,7 +49,6 @@ Web scraping of football data from top leagues using xG and Flashscore, and stor
 - **Optional Data Verification**:
   - **JupyterLabDir\Rest\Pr Winning\clean_database\flashscore\mail_alert_odd_halftime_numbers.py**:
     - Checks Flashscore data for correctness and alerts on odd halftime numbers.
-
 
 ## Setup
 
@@ -90,3 +88,5 @@ Contributions are welcome! Please create a pull request or open an issue to disc
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+```
