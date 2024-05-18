@@ -42,7 +42,7 @@ for saison in saissons_2021:
     dfall = pd.read_sql(queryall, con=db)
     # convert string to df to use process_team_names_of_df function
     df_teamname = pd.DataFrame(dfall)
-    df_teamname.to_csv("data\\xg\\{}.csv".format(saison),
+    df_teamname.to_csv("xg\\{}.csv".format(saison),
                        encoding='utf-8', index=True)
 
 # make sure .git folder is properly configured
@@ -109,7 +109,7 @@ for saison in saissons_ht_2021:
     dfall = pd.read_sql(queryall, con=db)
     # convert string to df to use process_team_names_of_df functions
     df_teamname = pd.DataFrame(dfall)
-    df_teamname.to_csv("data\\htdatan\\{}.csv".format(saison),
+    df_teamname.to_csv("htdatan\\{}.csv".format(saison),
                        encoding='utf-8', index=True)
 
 # make sure .git folder is properly configured
