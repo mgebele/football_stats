@@ -1,0 +1,541 @@
+,H_datetime,H_Gameinfo,H_Teamnames,H_Goals,H_Ball Possession,H_Goal Attempts,H_Shots on Goal,H_Shots off Goal,H_Blocked Shots,H_Free Kicks,H_Corner Kicks,H_Offsides,H_Goalkeeper Saves,H_Fouls,H_Yellow Cards,H_Red Cards,H_Total Passes,H_Completed Passes,H_Tackles,H_Attacks,H_Dangerous Attacks,A_datetime,A_gameinfo,A_Teamnames,A_Goals,A_Ball Possession,A_Goal Attempts,A_Shots on Goal,A_Shots off Goal,A_Blocked Shots,A_Free Kicks,A_Corner Kicks,A_Offsides,A_Goalkeeper Saves,A_Fouls,A_Yellow Cards,A_Red Cards,A_Total Passes,A_Completed Passes,A_Tackles,A_Attacks,A_Dangerous Attacks,H_cat,gameurl
+0,15.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Ath Bilbao,0,80,5,3,0,2,13,5,2,1,9,4,,,,,66,21,15.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Getafe,1,20,5,2,2,1,11,5,3,3,8,0,,,,,39,11,cat0,https://www.flashscore.com/match/hO0nKEm3/#/match-summary/match-statistics/2
+1,15.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Ath Bilbao,1,58,2,1,1,0,8,0,0,0,6,0,,,,,74,12,15.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Getafe,0,42,4,0,3,1,8,1,3,0,4,1,,,,,41,13,cat1,https://www.flashscore.com/match/hO0nKEm3/#/match-summary/match-statistics/1
+2,15.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Betis,0,34,10,2,7,1,3,1,1,1,6,2,,,,,35,23,15.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Girona,1,66,8,2,4,2,8,3,1,2,1,0,,,,,79,51,cat2,https://www.flashscore.com/match/QyafIhIF/#/match-summary/match-statistics/2
+3,15.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Betis,1,44,9,2,3,4,8,3,0,0,5,,,,,,37,24,15.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Girona,0,56,5,0,3,2,5,1,2,1,6,,,,,,51,24,cat3,https://www.flashscore.com/match/QyafIhIF/#/match-summary/match-statistics/1
+4,16.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Celta Vigo,2,67,5,4,1,0,15,2,3,1,4,2,,,,,57,29,16.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Alaves,0,33,8,1,5,2,7,2,1,2,14,1,,,,,61,22,cat4,https://www.flashscore.com/match/nDzACNof/#/match-summary/match-statistics/2
+5,16.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Celta Vigo,0,61,1,0,1,0,13,1,1,0,4,1,,,,,51,13,16.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Alaves,1,39,2,1,1,0,5,1,2,0,9,1,,,,,42,17,cat5,https://www.flashscore.com/match/nDzACNof/#/match-summary/match-statistics/1
+6,16.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Las Palmas,1,46,9,3,4,2,6,3,0,3,9,2,,,,,68,13,16.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Sevilla,1,54,10,4,5,1,13,0,0,2,8,1,,,,,49,17,cat6,https://www.flashscore.com/match/hnqZAAAk/#/match-summary/match-statistics/2
+7,16.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Las Palmas,1,50,6,2,3,1,11,3,1,0,5,0,,,,,38,23,16.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Sevilla,1,50,8,1,5,2,6,3,2,1,7,1,,,,,42,21,cat7,https://www.flashscore.com/match/hnqZAAAk/#/match-summary/match-statistics/1
+8,17.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Osasuna,1,66,13,4,5,4,6,6,1,1,8,3,,,,,26,46,17.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Leganes,0,34,5,1,3,1,9,1,0,3,7,1,,,,,37,8,cat8,https://www.flashscore.com/match/ruUIA1G6/#/match-summary/match-statistics/2
+9,17.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Osasuna,0,56,3,1,1,1,10,0,0,2,6,0,,,,,81,28,17.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Leganes,1,44,5,3,1,1,7,3,2,1,5,1,,,,,60,12,cat9,https://www.flashscore.com/match/ruUIA1G6/#/match-summary/match-statistics/1
+10,17.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Valencia,0,37,3,0,3,0,9,2,3,3,5,0,,,,,38,26,17.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Barcelona,1,63,11,4,6,1,7,5,0,0,9,2,,,,,68,24,cat10,https://www.flashscore.com/match/KbKTWiX8/#/match-summary/match-statistics/2
+11,17.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Valencia,1,35,3,1,1,1,6,1,4,3,6,2,,,,,30,18,17.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Barcelona,1,65,7,4,1,2,11,3,1,0,4,1,,,,,66,23,cat11,https://www.flashscore.com/match/KbKTWiX8/#/match-summary/match-statistics/1
+12,18.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Real Sociedad,1,68,5,3,1,1,14,5,0,1,7,1,,,,,54,31,18.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Rayo Vallecano,2,32,4,3,0,1,8,1,1,2,11,3,,,,,59,18,cat12,https://www.flashscore.com/match/Eax2EqHs/#/match-summary/match-statistics/2
+13,18.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Real Sociedad,0,64,6,2,3,1,12,5,0,2,7,1,,,,,45,27,18.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Rayo Vallecano,0,36,8,2,4,2,8,4,2,2,10,1,,,,,37,24,cat13,https://www.flashscore.com/match/Eax2EqHs/#/match-summary/match-statistics/1
+14,18.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Mallorca,1,29,7,2,3,2,2,2,0,3,4,,0,,,,40,28,18.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Real Madrid,0,71,9,3,3,3,5,4,0,1,3,,1,,,,81,43,cat14,https://www.flashscore.com/match/M3h3GWnS/#/match-summary/match-statistics/2
+15,18.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Mallorca,0,37,5,3,2,0,3,6,0,0,7,1,,,,,39,23,18.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Real Madrid,1,63,4,1,3,0,8,3,0,3,3,0,,,,,65,30,cat15,https://www.flashscore.com/match/M3h3GWnS/#/match-summary/match-statistics/1
+16,19.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Valladolid,0,41,4,0,3,1,7,1,2,1,11,2,,,,,43,24,19.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Espanyol,0,59,7,1,4,2,15,1,1,0,6,2,,,,,51,24,cat16,https://www.flashscore.com/match/ITdtTrn2/#/match-summary/match-statistics/2
+17,19.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Valladolid,1,49,8,3,2,3,2,2,4,1,4,,,,,,66,22,19.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Espanyol,0,51,3,1,2,0,8,1,0,2,2,,,,,,39,11,cat17,https://www.flashscore.com/match/ITdtTrn2/#/match-summary/match-statistics/1
+18,19.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Villarreal,0,42,3,0,3,0,8,1,2,0,4,0,,,,,59,19,19.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Atl. Madrid,0,58,3,0,2,1,7,2,0,0,6,1,,,,,72,35,cat18,https://www.flashscore.com/match/E1Xs9lu2/#/match-summary/match-statistics/2
+19,19.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Villarreal,2,48,6,3,1,2,8,1,0,3,3,1,,,,,43,22,19.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 1",Atl. Madrid,2,52,6,5,1,0,3,1,2,1,6,2,,,,,38,18,cat19,https://www.flashscore.com/match/E1Xs9lu2/#/match-summary/match-statistics/1
+20,23.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Celta Vigo,1,40,2,2,0,0,8,3,1,2,7,2,,,,,35,19,23.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Valencia,0,60,10,2,8,0,9,4,1,1,8,0,,,,,73,34,cat20,https://www.flashscore.com/match/8KIT2SzJ/#/match-summary/match-statistics/2
+21,23.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Celta Vigo,2,58,5,3,0,2,4,1,1,2,2,1,,,,,60,16,23.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Valencia,1,42,3,3,0,0,4,3,0,1,3,0,,,,,54,21,cat21,https://www.flashscore.com/match/8KIT2SzJ/#/match-summary/match-statistics/1
+22,23.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Sevilla,0,62,7,6,1,0,8,1,0,1,10,2,,,,,89,30,23.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Villarreal,1,38,5,2,3,0,12,2,2,6,5,4,,,,,58,22,cat22,https://www.flashscore.com/match/QekfJmLa/#/match-summary/match-statistics/2
+23,23.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Sevilla,1,58,9,3,5,1,5,6,4,2,6,1,,,,,49,30,23.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Villarreal,1,42,3,3,0,0,11,0,2,2,3,1,,,,,51,10,cat23,https://www.flashscore.com/match/QekfJmLa/#/match-summary/match-statistics/1
+24,24.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Osasuna,1,38,8,2,4,2,5,2,1,0,7,2,,,,,25,26,24.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Mallorca,0,62,3,0,0,3,8,2,0,1,4,1,,,,,55,38,cat24,https://www.flashscore.com/match/vJDNK0d4/#/match-summary/match-statistics/2
+25,24.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Osasuna,0,54,7,3,3,1,4,3,0,2,3,,,,,,68,40,24.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Mallorca,0,46,8,2,4,2,4,2,0,3,4,,,,,,46,16,cat25,https://www.flashscore.com/match/vJDNK0d4/#/match-summary/match-statistics/1
+26,24.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Barcelona,1,68,8,3,4,1,16,1,2,0,7,3,,,,,49,20,24.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Ath Bilbao,0,32,4,0,3,1,8,2,3,2,11,4,,,,,41,18,cat26,https://www.flashscore.com/match/WhAFMMRi/#/match-summary/match-statistics/2
+27,24.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Barcelona,1,64,5,2,1,2,8,4,0,1,4,1,,,,,67,33,24.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Ath Bilbao,1,36,5,2,1,2,5,4,2,1,5,1,,,,,41,14,cat27,https://www.flashscore.com/match/WhAFMMRi/#/match-summary/match-statistics/1
+28,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Getafe,0,43,10,0,8,2,12,3,0,1,9,0,,,,,70,30,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Rayo Vallecano,0,57,2,1,0,1,8,0,1,0,13,2,,,,,53,17,cat28,https://www.flashscore.com/match/YcAFQVSP/#/match-summary/match-statistics/2
+29,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Getafe,0,53,2,0,1,1,11,0,0,0,7,1,,,,,71,21,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Rayo Vallecano,0,47,1,0,1,0,9,2,3,0,5,0,,,,,49,23,cat29,https://www.flashscore.com/match/YcAFQVSP/#/match-summary/match-statistics/1
+30,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Espanyol,0,31,10,2,5,3,17,5,1,2,6,2,,,,,45,17,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Real Sociedad,1,69,5,3,2,0,7,3,1,2,11,2,,,,,58,24,cat30,https://www.flashscore.com/match/OQqSjnv9/#/match-summary/match-statistics/2
+31,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Espanyol,0,37,3,1,2,0,7,2,0,1,8,,,,,,41,21,24.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Real Sociedad,0,63,3,1,2,0,9,1,1,1,7,,,,,,56,23,cat31,https://www.flashscore.com/match/OQqSjnv9/#/match-summary/match-statistics/1
+32,25.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Real Madrid,3,56,14,8,3,3,4,2,0,1,6,1,,,,,62,44,25.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Valladolid,0,44,7,1,4,2,6,4,0,5,6,0,,,,,39,31,cat32,https://www.flashscore.com/match/IVonL9jm/#/match-summary/match-statistics/2
+33,25.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Real Madrid,0,72,3,1,2,0,12,3,4,1,4,0,,,,,104,52,25.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Valladolid,0,28,1,1,0,0,10,1,0,1,9,1,,,,,31,16,cat33,https://www.flashscore.com/match/IVonL9jm/#/match-summary/match-statistics/1
+34,25.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Leganes,2,31,6,5,1,0,3,2,1,1,3,,,,,,38,22,25.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Las Palmas,1,69,5,2,3,0,3,4,0,3,4,,,,,,72,28,cat34,https://www.flashscore.com/match/hA5zaJZp/#/match-summary/match-statistics/2
+35,25.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Leganes,0,47,4,0,3,1,7,1,0,3,8,1,,,,,48,16,25.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Las Palmas,0,53,5,3,1,1,9,3,0,0,6,1,,,,,48,16,cat35,https://www.flashscore.com/match/hA5zaJZp/#/match-summary/match-statistics/1
+36,25.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Alaves,0,33,3,0,2,1,11,1,0,3,9,0,1,,,,57,27,25.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Betis,0,67,10,3,6,1,9,7,1,0,9,3,0,,,,53,21,cat36,https://www.flashscore.com/match/MNr3HRkC/#/match-summary/match-statistics/2
+37,25.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Alaves,0,41,2,1,0,1,9,2,1,0,8,1,,,,,55,29,25.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Betis,0,59,5,0,4,1,10,1,0,1,7,1,,,,,43,23,cat37,https://www.flashscore.com/match/MNr3HRkC/#/match-summary/match-statistics/1
+38,25.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Atl. Madrid,2,35,4,2,0,2,7,1,1,2,4,0,,,,,32,15,25.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Girona,0,65,7,2,2,3,5,5,2,0,6,1,,,,,88,50,cat38,https://www.flashscore.com/match/ChPK4l66/#/match-summary/match-statistics/2
+39,25.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Atl. Madrid,1,49,7,4,2,1,7,0,1,3,7,1,,,,,52,25,25.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 2",Girona,0,51,6,3,1,2,9,4,0,3,5,2,,,,,58,19,cat39,https://www.flashscore.com/match/ChPK4l66/#/match-summary/match-statistics/1
+40,26.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Villarreal,3,39,10,5,5,0,7,1,2,3,4,4,,,,,33,14,26.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Celta Vigo,1,61,13,4,3,6,8,3,1,2,5,3,,,,,57,29,cat40,https://www.flashscore.com/match/hpMqQeYq/#/match-summary/match-statistics/2
+41,26.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Villarreal,1,51,14,4,6,4,2,6,0,2,4,,,,,,57,31,26.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Celta Vigo,2,49,7,4,1,2,5,1,0,3,2,,,,,,51,23,cat41,https://www.flashscore.com/match/hpMqQeYq/#/match-summary/match-statistics/1
+42,27.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Mallorca,0,42,9,3,5,1,4,4,1,2,8,0,0,,,,56,32,27.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Sevilla,0,58,6,2,3,1,11,5,0,3,5,1,1,,,,46,28,cat42,https://www.flashscore.com/match/4KmdZaBc/#/match-summary/match-statistics/2
+43,27.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Mallorca,0,48,3,1,1,1,7,1,2,5,7,,,,,,63,23,27.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Sevilla,0,52,10,5,3,2,10,4,1,1,5,,,,,,49,20,cat43,https://www.flashscore.com/match/4KmdZaBc/#/match-summary/match-statistics/1
+44,27.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Rayo Vallecano,0,39,4,1,2,1,7,4,2,1,9,2,,,,,32,17,27.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Barcelona,2,61,15,3,5,7,12,4,0,1,6,1,,,,,50,31,cat44,https://www.flashscore.com/match/8CpDVHAM/#/match-summary/match-statistics/2
+45,27.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Rayo Vallecano,1,35,4,3,1,0,5,2,2,2,8,1,,,,,42,22,27.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Barcelona,0,65,7,2,1,4,11,2,1,2,5,0,,,,,63,31,cat45,https://www.flashscore.com/match/8CpDVHAM/#/match-summary/match-statistics/1
+46,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Valladolid,0,57,5,1,3,1,15,1,0,1,8,1,,,,,55,36,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Leganes,0,43,5,1,4,0,8,2,2,1,12,4,,,,,64,14,cat46,https://www.flashscore.com/match/f92vnwe3/#/match-summary/match-statistics/2
+47,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Valladolid,0,59,7,1,5,1,8,3,0,0,5,0,,,,,42,34,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Leganes,0,41,3,0,2,1,5,2,0,1,7,1,,,,,45,15,cat47,https://www.flashscore.com/match/f92vnwe3/#/match-summary/match-statistics/1
+48,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Ath Bilbao,0,44,6,1,2,3,8,1,1,0,7,1,,,,,76,18,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Valencia,0,56,1,0,1,0,10,2,3,1,4,1,,,,,44,19,cat48,https://www.flashscore.com/match/0Y1WIvRG/#/match-summary/match-statistics/2
+49,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Ath Bilbao,1,57,7,3,2,2,5,4,0,0,7,0,,,,,75,31,28.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Valencia,0,43,1,0,0,1,8,1,0,2,5,2,,,,,43,12,cat49,https://www.flashscore.com/match/0Y1WIvRG/#/match-summary/match-statistics/1
+50,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Real Sociedad,0,51,4,0,4,0,9,5,1,2,6,2,,,,,52,29,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Alaves,1,49,11,3,7,1,5,2,1,0,7,4,,,,,64,28,cat50,https://www.flashscore.com/match/v1KiOZ2d/#/match-summary/match-statistics/2
+51,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Real Sociedad,1,55,6,1,3,2,9,3,2,1,10,2,1,,,,46,14,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Alaves,1,45,3,2,1,0,12,4,2,0,6,0,0,,,,51,20,cat51,https://www.flashscore.com/match/v1KiOZ2d/#/match-summary/match-statistics/1
+52,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Atl. Madrid,0,67,12,3,5,4,4,3,4,1,3,0,,,,,68,35,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Espanyol,0,33,6,1,5,0,7,2,0,3,4,2,,,,,46,6,cat52,https://www.flashscore.com/match/KhwykQ8L/#/match-summary/match-statistics/2
+53,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Atl. Madrid,0,57,13,4,6,3,6,6,2,0,3,,,,,,55,36,28.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Espanyol,0,43,2,0,2,0,5,1,0,4,5,,,,,,51,17,cat53,https://www.flashscore.com/match/KhwykQ8L/#/match-summary/match-statistics/1
+54,29.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Girona,3,59,6,3,2,1,6,3,1,0,6,,,,,,52,30,29.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Osasuna,0,41,1,0,1,0,9,0,1,0,5,,,,,,28,5,cat54,https://www.flashscore.com/match/CQ0ABdJj/#/match-summary/match-statistics/2
+55,29.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Girona,1,61,4,2,1,1,5,2,4,0,4,,,,,,68,30,29.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Osasuna,0,39,0,0,0,0,8,0,1,1,4,,,,,,38,13,cat55,https://www.flashscore.com/match/CQ0ABdJj/#/match-summary/match-statistics/1
+56,29.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Las Palmas,0,40,4,2,2,0,9,2,1,4,7,0,,,,,38,19,29.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Real Madrid,1,60,16,5,8,3,9,2,0,2,8,1,,,,,94,37,cat56,https://www.flashscore.com/match/0ns5XwtA/#/match-summary/match-statistics/2
+57,29.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Las Palmas,1,48,3,1,1,1,5,0,0,3,9,0,,,,,32,17,29.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Real Madrid,0,52,9,3,2,4,10,4,0,0,5,1,,,,,77,45,cat57,https://www.flashscore.com/match/0ns5XwtA/#/match-summary/match-statistics/1
+58,31.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Barcelona,4,77,13,4,8,1,13,6,1,0,2,0,,,,,64,21,31.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Valladolid,0,23,1,0,0,1,2,1,2,0,9,2,,,,,19,45,cat58,https://www.flashscore.com/match/OlferefS/#/match-summary/match-statistics/2
+59,31.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Barcelona,3,63,10,6,2,2,6,4,3,2,4,0,,,,,77,42,31.08.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Valladolid,0,37,4,2,1,1,8,0,2,3,3,1,,,,,25,12,cat59,https://www.flashscore.com/match/OlferefS/#/match-summary/match-statistics/1
+60,31.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Ath Bilbao,0,50,5,1,3,1,10,2,1,1,6,0,,,,,69,32,31.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Atl. Madrid,1,50,5,2,2,1,8,1,1,1,7,1,,,,,50,21,cat60,https://www.flashscore.com/match/SM0npHPF/#/match-summary/match-statistics/2
+61,31.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Ath Bilbao,0,56,3,0,2,1,3,0,0,0,7,3,,,,,97,46,31.08.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Atl. Madrid,0,44,4,0,2,2,8,1,1,0,2,0,,,,,55,21,cat61,https://www.flashscore.com/match/SM0npHPF/#/match-summary/match-statistics/1
+62,31.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Espanyol,1,49,6,3,1,2,10,2,0,2,9,3,,,,,53,28,31.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Rayo Vallecano,0,51,11,2,4,5,8,5,2,2,10,2,,,,,52,24,cat62,https://www.flashscore.com/match/GOO6q4Wr/#/match-summary/match-statistics/2
+63,31.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Espanyol,1,45,4,2,2,0,10,1,0,2,5,,,,,,42,16,31.08.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Rayo Vallecano,1,55,6,3,2,1,8,2,0,1,6,,,,,,57,36,cat63,https://www.flashscore.com/match/GOO6q4Wr/#/match-summary/match-statistics/1
+64,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Valencia,0,64,19,3,10,6,6,8,0,2,9,2,0,,,,75,55,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Villarreal,0,36,4,2,1,1,11,2,0,3,6,4,1,,,,29,15,cat64,https://www.flashscore.com/match/EJYZzDn2/#/match-summary/match-statistics/2
+65,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Valencia,1,52,3,3,0,0,7,6,1,0,6,1,,,,,59,29,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Villarreal,1,48,5,1,3,1,8,1,1,2,5,1,,,,,44,9,cat65,https://www.flashscore.com/match/EJYZzDn2/#/match-summary/match-statistics/1
+66,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Leganes,0,66,2,1,1,0,11,0,1,0,7,1,,,,,82,30,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Mallorca,0,34,5,0,4,1,6,1,0,1,11,3,,,,,39,28,cat66,https://www.flashscore.com/match/xhKUdf9L/#/match-summary/match-statistics/2
+67,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Leganes,0,42,2,1,1,0,7,1,2,2,4,,,,,,48,12,31.08.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Mallorca,1,58,7,3,2,2,8,2,0,1,6,,,,,,57,27,cat67,https://www.flashscore.com/match/xhKUdf9L/#/match-summary/match-statistics/1
+68,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Osasuna,1,44,6,1,5,0,12,3,2,1,14,2,0,,,,60,17,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Celta Vigo,1,56,8,2,6,0,0,2,2,0,9,0,1,,,,59,36,cat68,https://www.flashscore.com/match/vyy1kC1e/#/match-summary/match-statistics/2
+69,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Osasuna,2,56,4,3,1,0,3,3,1,0,5,,,,,,79,26,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Celta Vigo,1,44,4,1,0,3,2,1,1,1,1,,,,,,35,20,cat69,https://www.flashscore.com/match/vyy1kC1e/#/match-summary/match-statistics/1
+70,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Alaves,1,35,10,4,4,2,5,3,0,5,5,1,,,,,65,22,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Las Palmas,0,65,7,5,1,1,6,2,0,3,5,0,,,,,66,17,cat70,https://www.flashscore.com/match/tQQLbGv9/#/match-summary/match-statistics/2
+71,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Alaves,1,23,5,1,2,2,4,3,1,2,8,2,,,,,31,16,01.09.2024 17:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Las Palmas,0,77,5,2,3,0,10,3,0,0,4,0,,,,,62,16,cat71,https://www.flashscore.com/match/tQQLbGv9/#/match-summary/match-statistics/1
+72,01.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Sevilla,0,55,11,3,6,2,0,4,2,1,5,3,,,,,36,21,01.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Girona,1,45,7,2,5,0,7,2,0,3,11,2,,,,,41,14,cat72,https://www.flashscore.com/match/n1v9mjW7/#/match-summary/match-statistics/2
+73,01.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Sevilla,0,45,5,2,1,2,0,3,2,1,1,,,,,,49,29,01.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Girona,1,55,4,2,1,1,3,3,0,2,3,,,,,,51,21,cat73,https://www.flashscore.com/match/n1v9mjW7/#/match-summary/match-statistics/1
+74,01.09.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Getafe,0,66,12,1,4,7,10,4,1,0,8,0,,,,,68,43,01.09.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Real Sociedad,0,34,0,0,0,0,9,0,0,1,8,1,,,,,37,20,cat74,https://www.flashscore.com/match/h4pRxZHk/#/match-summary/match-statistics/2
+75,01.09.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Getafe,0,40,4,0,3,1,9,0,1,0,6,1,,,,,52,32,01.09.2024 19:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Real Sociedad,0,60,1,0,0,1,10,1,1,0,8,0,,,,,36,8,cat75,https://www.flashscore.com/match/h4pRxZHk/#/match-summary/match-statistics/1
+76,01.09.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Real Madrid,2,60,9,5,3,1,14,3,1,1,5,2,,,,,55,39,01.09.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Betis,0,40,6,1,1,4,7,2,1,3,12,0,,,,,51,57,cat76,https://www.flashscore.com/match/YN50iYWr/#/match-summary/match-statistics/2
+77,01.09.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Real Madrid,0,60,13,3,6,4,6,4,0,1,4,,,,,,81,36,01.09.2024 21:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 4",Betis,0,40,5,1,2,2,4,1,1,3,5,,,,,,41,24,cat77,https://www.flashscore.com/match/YN50iYWr/#/match-summary/match-statistics/1
+78,13.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Betis,2,62,8,4,1,3,9,7,1,0,7,,,,,,72,37,13.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Leganes,0,38,2,0,1,1,7,1,0,2,8,,,,,,36,9,cat78,https://www.flashscore.com/match/YeqTho8m/#/match-summary/match-statistics/2
+79,13.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Betis,0,66,6,1,5,0,11,4,1,0,4,1,,,,,82,30,13.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Leganes,0,34,1,0,1,0,6,0,1,1,10,2,,,,,47,10,cat79,https://www.flashscore.com/match/YeqTho8m/#/match-summary/match-statistics/1
+80,14.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Mallorca,1,54,3,0,1,2,5,2,1,2,5,1,1,,,,49,22,14.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Villarreal,1,46,13,3,5,5,6,2,0,0,5,2,0,,,,45,29,cat80,https://www.flashscore.com/match/08zpk37C/#/match-summary/match-statistics/2
+81,14.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Mallorca,0,54,7,5,2,0,6,5,1,0,6,2,,,,,51,32,14.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Villarreal,1,46,8,1,5,2,8,4,1,5,5,1,,,,,44,31,cat81,https://www.flashscore.com/match/08zpk37C/#/match-summary/match-statistics/1
+82,14.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Espanyol,2,30,4,2,1,1,6,0,0,3,11,2,,,,,19,7,14.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Alaves,1,70,15,4,5,6,5,3,0,0,7,2,,,,,47,37,cat82,https://www.flashscore.com/match/CjIFsr1e/#/match-summary/match-statistics/2
+83,14.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Espanyol,1,46,5,2,3,0,8,0,3,1,6,0,,,,,52,9,14.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Alaves,1,54,4,2,2,0,9,2,0,1,7,1,,,,,61,35,cat83,https://www.flashscore.com/match/CjIFsr1e/#/match-summary/match-statistics/1
+84,14.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Sevilla,0,56,5,2,2,1,10,2,1,2,9,3,1,,,,44,26,14.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Getafe,0,44,7,2,3,2,11,2,2,2,6,3,0,,,,36,13,cat84,https://www.flashscore.com/match/8EcB5Oig/#/match-summary/match-statistics/2
+85,14.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Sevilla,1,64,5,2,2,1,9,1,0,2,10,0,,,,,68,23,14.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Getafe,0,36,8,2,3,3,10,2,0,1,9,1,,,,,45,19,cat85,https://www.flashscore.com/match/8EcB5Oig/#/match-summary/match-statistics/1
+86,14.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Real Sociedad,0,58,3,1,2,0,7,1,1,2,7,2,,,,,73,31,14.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Real Madrid,2,42,6,4,0,2,7,3,1,1,5,1,,,,,36,19,cat86,https://www.flashscore.com/match/jckS1tiI/#/match-summary/match-statistics/2
+87,14.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Real Sociedad,0,38,8,1,4,3,4,5,1,3,5,2,,,,,40,22,14.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Real Madrid,0,62,10,3,2,5,6,3,0,1,4,0,,,,,57,44,cat87,https://www.flashscore.com/match/jckS1tiI/#/match-summary/match-statistics/1
+88,15.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Celta Vigo,1,57,8,4,4,0,6,2,1,0,7,2,0,,,,41,20,15.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Valladolid,1,43,5,1,4,0,8,3,0,3,12,3,1,,,,48,28,cat88,https://www.flashscore.com/match/SfxxiPx0/#/match-summary/match-statistics/2
+89,15.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Celta Vigo,2,51,6,3,1,2,4,3,2,0,7,1,,,,,70,19,15.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Valladolid,0,49,1,0,0,1,11,0,1,1,3,2,,,,,34,11,cat89,https://www.flashscore.com/match/SfxxiPx0/#/match-summary/match-statistics/1
+90,15.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Girona,1,40,6,1,4,1,3,1,4,3,7,2,0,,,,49,23,15.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Barcelona,2,60,14,5,7,2,9,3,0,0,3,2,1,,,,54,22,cat90,https://www.flashscore.com/match/na927pNt/#/match-summary/match-statistics/2
+91,15.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Girona,0,50,3,3,0,0,1,0,3,2,6,1,,,,,28,13,15.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Barcelona,2,50,6,4,2,0,14,3,0,3,1,0,,,,,62,37,cat91,https://www.flashscore.com/match/na927pNt/#/match-summary/match-statistics/1
+92,15.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Las Palmas,2,75,12,3,4,5,7,7,0,0,4,,0,,,,77,55,15.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Ath Bilbao,1,25,4,1,3,0,3,2,0,1,6,,1,,,,45,9,cat92,https://www.flashscore.com/match/dzUhmsxP/#/match-summary/match-statistics/2
+93,15.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Las Palmas,0,53,3,3,0,0,9,2,0,1,4,1,,,,,66,15,15.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Ath Bilbao,2,47,5,3,2,0,4,1,1,3,6,2,,,,,65,23,cat93,https://www.flashscore.com/match/dzUhmsxP/#/match-summary/match-statistics/1
+94,15.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Atl. Madrid,2,42,4,2,2,0,6,1,0,1,6,,,,,,33,9,15.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Valencia,0,58,4,1,3,0,6,3,0,0,6,,,,,,89,38,cat94,https://www.flashscore.com/match/SdHeBgOE/#/match-summary/match-statistics/2
+95,15.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Atl. Madrid,1,64,10,3,5,2,4,6,1,0,4,1,,,,,74,49,15.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Valencia,0,36,1,0,1,0,6,0,2,2,2,2,,,,,53,12,cat95,https://www.flashscore.com/match/SdHeBgOE/#/match-summary/match-statistics/1
+96,16.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Rayo Vallecano,3,68,10,4,4,2,6,4,1,0,9,3,,,,,41,20,16.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Osasuna,0,32,2,0,2,0,12,3,0,1,8,0,,,,,65,29,cat96,https://www.flashscore.com/match/fVeJ32M5/#/match-summary/match-statistics/2
+97,16.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Rayo Vallecano,0,64,7,2,3,2,9,3,2,1,3,0,,,,,67,36,16.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 5",Osasuna,1,36,3,2,1,0,5,1,0,2,7,2,,,,,40,7,cat97,https://www.flashscore.com/match/fVeJ32M5/#/match-summary/match-statistics/1
+98,17.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Mallorca,0,34,5,1,4,0,7,1,3,2,2,1,,,,,41,16,17.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Real Sociedad,0,66,9,2,6,1,6,5,1,1,5,1,,,,,76,46,cat98,https://www.flashscore.com/match/AyPaTn1c/#/match-summary/match-statistics/2
+99,17.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Mallorca,1,46,5,3,2,0,4,4,0,2,3,,,,,,69,16,17.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Real Sociedad,0,54,4,2,1,1,3,0,0,2,5,,,,,,64,17,cat99,https://www.flashscore.com/match/AyPaTn1c/#/match-summary/match-statistics/1
+100,18.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Betis,2,65,7,5,0,2,8,5,0,3,2,1,,,,,65,30,18.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Getafe,1,35,12,4,6,2,3,3,1,3,8,2,,,,,57,37,cat100,https://www.flashscore.com/match/8b5vHIeT/#/match-summary/match-statistics/2
+101,18.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Betis,0,67,11,3,5,3,15,3,0,1,8,2,,,,,61,25,18.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 3",Getafe,0,33,3,1,2,0,8,1,1,3,12,3,,,,,52,23,cat101,https://www.flashscore.com/match/8b5vHIeT/#/match-summary/match-statistics/1
+102,19.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Leganes,0,53,10,1,6,3,13,4,4,1,8,2,,,,,,,19.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Ath Bilbao,2,47,6,3,1,2,12,4,1,1,9,0,,,,,,,cat102,https://www.flashscore.com/match/xjut9IFr/#/match-summary/match-statistics/2
+103,19.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Leganes,0,41,4,2,1,1,4,0,0,1,4,1,,,,,,,19.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Ath Bilbao,0,59,4,1,1,2,4,3,2,2,2,0,,,,,,,cat103,https://www.flashscore.com/match/xjut9IFr/#/match-summary/match-statistics/1
+104,20.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Alaves,1,27,5,2,2,1,8,3,0,1,7,1,,,,,,,20.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Sevilla,1,73,6,2,2,2,8,2,0,1,9,2,,,,,,,cat104,https://www.flashscore.com/match/IRBb0lXA/#/match-summary/match-statistics/2
+105,20.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Alaves,1,41,5,2,2,1,10,0,1,0,4,0,,,,,,,20.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Sevilla,0,59,2,0,2,0,5,3,2,1,7,2,,,,,,,cat105,https://www.flashscore.com/match/IRBb0lXA/#/match-summary/match-statistics/1
+106,21.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Valladolid,0,30,11,1,7,3,10,2,0,1,9,3,,,,,,,21.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Real Sociedad,0,70,9,1,5,3,10,3,2,1,8,3,,,,,,,cat106,https://www.flashscore.com/match/dYbQEmn4/#/match-summary/match-statistics/2
+107,21.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Valladolid,0,40,4,1,3,0,7,3,0,3,6,1,,,,,,,21.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Real Sociedad,0,60,5,3,1,1,7,4,1,1,4,1,,,,,,,cat107,https://www.flashscore.com/match/dYbQEmn4/#/match-summary/match-statistics/1
+108,21.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Osasuna,1,32,7,3,4,0,6,0,2,3,7,2,,,,,,,21.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Las Palmas,0,68,8,3,5,0,12,3,1,2,4,2,,,,,,,cat108,https://www.flashscore.com/match/4b2YCRGG/#/match-summary/match-statistics/2
+109,21.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Osasuna,1,46,6,1,4,1,8,2,2,2,7,0,,,,,,,21.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Las Palmas,1,54,3,3,0,0,9,1,2,0,7,3,,,,,,,cat109,https://www.flashscore.com/match/4b2YCRGG/#/match-summary/match-statistics/1
+110,21.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Valencia,2,29,3,2,1,0,5,3,1,3,9,3,,,,,,,21.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Girona,0,71,7,3,3,1,12,2,1,0,4,0,,,,,,,cat110,https://www.flashscore.com/match/xWrPG9Hi/#/match-summary/match-statistics/2
+111,21.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Valencia,0,35,4,0,2,2,8,2,0,0,4,0,,,,,,,21.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Girona,0,65,1,0,1,0,4,2,1,0,6,2,,,,,,,cat111,https://www.flashscore.com/match/xWrPG9Hi/#/match-summary/match-statistics/1
+112,21.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Real Madrid,4,69,18,8,8,2,1,3,0,1,6,3,,,,,,,21.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Espanyol,1,31,6,2,3,1,7,3,0,4,2,2,,,,,,,cat112,https://www.flashscore.com/match/ImLNuMV7/#/match-summary/match-statistics/2
+113,21.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Real Madrid,0,77,13,6,3,4,4,6,2,0,1,1,,,,,,,21.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Espanyol,0,23,4,0,3,1,3,1,1,6,3,1,,,,,,,cat113,https://www.flashscore.com/match/ImLNuMV7/#/match-summary/match-statistics/1
+114,22.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Getafe,1,64,4,1,1,2,11,5,0,1,8,3,,,,,,,22.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Leganes,1,36,2,2,0,0,9,0,1,0,9,1,,,,,,,cat114,https://www.flashscore.com/match/dCNk2A2b/#/match-summary/match-statistics/2
+115,22.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Getafe,0,54,8,2,3,3,8,1,0,1,8,0,,,,,,,22.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Leganes,0,46,4,1,1,2,8,2,0,2,8,1,,,,,,,cat115,https://www.flashscore.com/match/dCNk2A2b/#/match-summary/match-statistics/1
+116,22.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Ath Bilbao,1,30,6,5,0,1,6,1,0,2,5,1,,,,,,,22.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Celta Vigo,0,70,6,2,4,0,6,4,1,4,5,2,,,,,,,cat116,https://www.flashscore.com/match/OAmz0KLU/#/match-summary/match-statistics/2
+117,22.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Ath Bilbao,2,34,4,2,2,0,7,2,1,1,11,2,,,,,,,22.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Celta Vigo,1,66,5,2,1,2,11,2,1,0,6,0,,,,,,,cat117,https://www.flashscore.com/match/OAmz0KLU/#/match-summary/match-statistics/1
+118,22.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Villarreal,0,39,4,1,2,1,8,1,2,1,9,5,,,,,,,22.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Barcelona,3,61,8,4,2,2,10,1,0,1,6,1,,,,,,,cat118,https://www.flashscore.com/match/pxdwg6Pp/#/match-summary/match-statistics/2
+119,22.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Villarreal,1,33,9,3,5,1,6,6,5,4,3,1,,,,,,,22.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Barcelona,2,67,9,6,2,1,8,2,0,2,6,0,,,,,,,cat119,https://www.flashscore.com/match/pxdwg6Pp/#/match-summary/match-statistics/1
+120,22.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Rayo Vallecano,0,38,4,1,2,1,5,0,0,2,5,,,,,,,,22.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Atl. Madrid,1,62,3,3,0,0,5,3,0,1,5,,,,,,,,cat120,https://www.flashscore.com/match/QiF6bS1N/#/match-summary/match-statistics/2
+121,22.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Rayo Vallecano,1,68,12,2,6,4,6,3,0,2,4,,,,,,,,22.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Atl. Madrid,0,32,7,2,3,2,4,1,0,1,7,,,,,,,,cat121,https://www.flashscore.com/match/QiF6bS1N/#/match-summary/match-statistics/1
+122,23.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Betis,0,56,9,3,4,2,11,4,1,2,4,0,,,,,,,23.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Mallorca,1,44,4,3,1,0,6,2,2,3,8,3,,,,,,,cat122,https://www.flashscore.com/match/445r4WXo/#/match-summary/match-statistics/2
+123,23.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Betis,1,65,7,3,1,3,8,2,0,2,8,3,,,,,,,23.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 6",Mallorca,1,35,3,3,0,0,9,1,1,2,6,0,,,,,,,cat123,https://www.flashscore.com/match/445r4WXo/#/match-summary/match-statistics/1
+124,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Valencia,0,57,6,1,3,2,7,7,3,2,1,1,,,,,,,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Osasuna,0,43,7,2,3,2,5,1,1,1,6,3,,,,,,,cat124,https://www.flashscore.com/match/bwZsTw7E/#/match-summary/match-statistics/2
+125,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Valencia,0,47,4,1,1,2,6,3,2,0,5,1,,,,,,,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Osasuna,0,53,2,0,2,0,7,4,1,1,5,0,,,,,,,cat125,https://www.flashscore.com/match/bwZsTw7E/#/match-summary/match-statistics/1
+126,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Sevilla,1,63,13,4,9,0,9,3,0,1,6,4,1,,,,,,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Valladolid,1,37,7,2,1,4,6,3,0,3,7,2,0,,,,,,cat126,https://www.flashscore.com/match/rkN7RQV9/#/match-summary/match-statistics/2
+127,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Sevilla,1,47,9,1,2,6,10,3,2,0,8,1,,,,,,,24.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Valladolid,0,53,1,0,1,0,11,1,4,0,5,2,,,,,,,cat127,https://www.flashscore.com/match/rkN7RQV9/#/match-summary/match-statistics/1
+128,24.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Real Madrid,1,66,4,2,2,0,3,1,0,0,4,2,,,,,,,24.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Alaves,2,34,10,2,7,1,4,2,1,1,4,0,,,,,,,cat128,https://www.flashscore.com/match/f5SjRHyR/#/match-summary/match-statistics/2
+129,24.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Real Madrid,2,72,6,2,2,2,8,3,2,1,3,2,,,,,,,24.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Alaves,0,28,2,1,0,1,4,2,0,0,6,0,,,,,,,cat129,https://www.flashscore.com/match/f5SjRHyR/#/match-summary/match-statistics/1
+130,25.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Girona,0,74,10,0,8,2,8,2,0,0,4,2,,,,,,,25.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Rayo Vallecano,0,26,2,0,2,0,4,1,0,0,8,3,,,,,,,cat130,https://www.flashscore.com/match/ddsD5q9j/#/match-summary/match-statistics/2
+131,25.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Girona,0,68,1,0,1,0,9,2,2,0,4,1,,,,,,,25.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Rayo Vallecano,0,32,0,0,0,0,7,2,0,0,8,1,,,,,,,cat131,https://www.flashscore.com/match/ddsD5q9j/#/match-summary/match-statistics/1
+132,25.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Barcelona,0,79,8,2,4,2,13,5,1,0,2,1,,,,,,,25.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Getafe,0,21,3,0,2,1,3,3,6,2,7,1,,,,,,,cat132,https://www.flashscore.com/match/QDjsB5oT/#/match-summary/match-statistics/2
+133,25.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Barcelona,1,77,7,2,2,3,11,2,4,1,2,,,,,,,,25.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Getafe,0,23,4,1,1,2,7,2,1,1,8,,,,,,,,cat133,https://www.flashscore.com/match/QDjsB5oT/#/match-summary/match-statistics/1
+134,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Las Palmas,0,67,5,0,4,1,11,1,1,3,10,4,,,,,,,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Betis,0,33,5,3,2,0,10,2,2,0,8,2,,,,,,,cat134,https://www.flashscore.com/match/6VWd5zF7/#/match-summary/match-statistics/2
+135,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Las Palmas,1,43,3,2,0,1,5,0,1,1,11,,,,,,,,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Betis,1,57,9,2,5,2,15,2,2,1,2,,,,,,,,cat135,https://www.flashscore.com/match/6VWd5zF7/#/match-summary/match-statistics/1
+136,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Espanyol,0,69,10,1,4,5,7,2,0,0,6,5,,,,,,,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Villarreal,1,31,9,1,5,3,5,0,0,1,8,2,,,,,,,cat136,https://www.flashscore.com/match/bqbA3PNE/#/match-summary/match-statistics/2
+137,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Espanyol,1,43,1,1,0,0,9,2,0,2,6,0,,,,,,,26.09.2024 19:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Villarreal,1,57,6,3,2,1,8,1,1,0,6,1,,,,,,,cat137,https://www.flashscore.com/match/bqbA3PNE/#/match-summary/match-statistics/1
+138,26.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Celta Vigo,0,59,7,2,5,0,6,1,0,1,6,1,,,,,,,26.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Atl. Madrid,1,41,8,2,2,4,4,2,0,2,7,1,,,,,,,cat138,https://www.flashscore.com/match/pGrl7dpe/#/match-summary/match-statistics/2
+139,26.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Celta Vigo,0,59,3,2,1,0,6,1,0,0,5,1,,,,,,,26.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 7",Atl. Madrid,0,41,0,0,0,0,7,1,0,2,4,1,,,,,,,cat139,https://www.flashscore.com/match/pGrl7dpe/#/match-summary/match-statistics/1
+140,27.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Valladolid,1,51,8,1,6,1,8,6,1,2,10,2,,,,,,,27.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Mallorca,2,49,10,4,5,1,12,2,0,0,7,1,,,,,,,cat140,https://www.flashscore.com/match/06X4YYrf/#/match-summary/match-statistics/2
+141,27.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Valladolid,0,49,5,0,4,1,6,1,1,2,6,1,,,,,,,27.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Mallorca,0,51,7,2,3,2,8,2,1,0,4,1,,,,,,,cat141,https://www.flashscore.com/match/06X4YYrf/#/match-summary/match-statistics/1
+142,28.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Getafe,1,38,8,5,2,1,11,2,2,0,9,3,,,,,,,28.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Alaves,0,62,4,0,4,0,12,0,1,4,10,4,,,,,,,cat142,https://www.flashscore.com/match/hMoEUjrJ/#/match-summary/match-statistics/2
+143,28.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Getafe,1,52,6,3,1,2,17,0,2,1,8,0,,,,,,,28.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Alaves,0,48,5,1,1,3,12,2,1,2,14,2,,,,,,,cat143,https://www.flashscore.com/match/hMoEUjrJ/#/match-summary/match-statistics/1
+144,28.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Rayo Vallecano,0,52,9,4,3,2,4,3,1,1,10,2,,,,,,,28.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Leganes,1,48,9,2,3,4,13,3,2,4,1,0,,,,,,,cat144,https://www.flashscore.com/match/KSw0hfzQ/#/match-summary/match-statistics/2
+145,28.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Rayo Vallecano,1,54,6,2,2,2,5,2,1,1,2,0,,,,,,,28.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Leganes,0,46,4,1,3,0,3,2,0,1,6,1,,,,,,,cat145,https://www.flashscore.com/match/KSw0hfzQ/#/match-summary/match-statistics/1
+146,28.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Real Sociedad,2,57,5,4,0,1,9,1,4,3,5,,,,,,,,28.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Valencia,0,43,7,3,3,1,10,3,1,2,7,,,,,,,,cat146,https://www.flashscore.com/match/YemQuHjK/#/match-summary/match-statistics/2
+147,28.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Real Sociedad,1,65,6,2,3,1,6,5,1,1,2,,,,,,,,28.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Valencia,0,35,2,1,0,1,4,1,1,1,5,,,,,,,,cat147,https://www.flashscore.com/match/YemQuHjK/#/match-summary/match-statistics/1
+148,28.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Osasuna,2,20,4,2,2,0,1,3,4,2,8,2,,,,,,,28.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Barcelona,2,80,9,4,3,2,13,5,0,0,2,2,,,,,,,cat148,https://www.flashscore.com/match/4vvdzeEs/#/match-summary/match-statistics/2
+149,28.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Osasuna,2,30,7,3,3,1,1,2,6,2,5,,,,,,,,28.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Barcelona,0,70,3,2,1,0,13,3,0,1,1,,,,,,,,cat149,https://www.flashscore.com/match/4vvdzeEs/#/match-summary/match-statistics/1
+150,29.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Celta Vigo,1,58,8,2,4,2,14,4,0,2,5,1,,,,,,,29.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Girona,0,42,6,2,1,3,5,4,1,1,10,0,,,,,,,cat150,https://www.flashscore.com/match/h0AwIDbD/#/match-summary/match-statistics/2
+151,29.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Celta Vigo,0,38,4,0,1,3,4,0,0,1,4,,,,,,,,29.09.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Girona,1,62,3,2,1,0,4,0,0,0,4,,,,,,,,cat151,https://www.flashscore.com/match/h0AwIDbD/#/match-summary/match-statistics/1
+152,29.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Ath Bilbao,0,35,6,2,3,1,7,2,1,2,5,0,1,,,,,,29.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Sevilla,1,65,10,3,5,2,6,4,1,2,6,3,0,,,,,,cat152,https://www.flashscore.com/match/jyEMLeal/#/match-summary/match-statistics/2
+153,29.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Ath Bilbao,1,43,7,3,3,1,3,2,2,0,1,,,,,,,,29.09.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Sevilla,0,57,3,0,2,1,3,3,2,2,1,,,,,,,,cat153,https://www.flashscore.com/match/jyEMLeal/#/match-summary/match-statistics/1
+154,29.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Betis,1,59,8,5,3,0,15,5,0,1,9,2,,,,,,,29.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Espanyol,0,41,5,1,2,2,9,2,1,4,11,3,,,,,,,cat154,https://www.flashscore.com/match/4rQsoH7m/#/match-summary/match-statistics/2
+155,29.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Betis,0,47,12,7,2,3,8,3,0,0,5,0,,,,,,,29.09.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Espanyol,0,53,3,0,1,2,4,2,0,7,9,1,,,,,,,cat155,https://www.flashscore.com/match/4rQsoH7m/#/match-summary/match-statistics/1
+156,29.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Atl. Madrid,1,56,8,2,2,4,3,4,2,1,6,3,1,,,,,,29.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Real Madrid,1,44,8,2,4,2,9,3,0,1,4,0,0,,,,,,cat156,https://www.flashscore.com/match/n37VJZT0/#/match-summary/match-statistics/2
+157,29.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Atl. Madrid,0,46,4,2,0,2,8,1,0,2,5,0,,,,,,,29.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Real Madrid,0,54,4,2,1,1,5,2,0,2,7,1,,,,,,,cat157,https://www.flashscore.com/match/n37VJZT0/#/match-summary/match-statistics/1
+158,30.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Villarreal,2,42,10,4,1,5,6,1,3,0,10,0,,,,,,,30.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Las Palmas,1,58,3,1,2,0,16,0,1,2,7,2,,,,,,,cat158,https://www.flashscore.com/match/YJVCWCD6/#/match-summary/match-statistics/2
+159,30.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Villarreal,1,42,10,3,2,5,5,2,2,2,5,0,,,,,,,30.09.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 8",Las Palmas,0,58,4,2,1,1,7,2,0,2,4,1,,,,,,,cat159,https://www.flashscore.com/match/YJVCWCD6/#/match-summary/match-statistics/1
+160,04.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Leganes,0,62,7,0,4,3,5,1,4,1,8,1,,,,,,,04.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Valencia,0,38,5,1,3,1,14,0,0,0,5,1,,,,,,,cat160,https://www.flashscore.com/match/QmPfsURO/#/match-summary/match-statistics/2
+161,04.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Leganes,0,56,1,0,0,1,11,0,5,0,7,1,,,,,,,04.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Valencia,0,44,1,0,1,0,14,2,1,0,9,1,,,,,,,cat161,https://www.flashscore.com/match/QmPfsURO/#/match-summary/match-statistics/1
+162,05.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Espanyol,1,33,2,2,0,0,10,1,0,3,7,1,,,,,,,05.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Mallorca,1,67,10,4,3,3,6,5,0,1,11,5,,,,,,,cat0,https://www.flashscore.com/match/0AJjqex0/#/match-summary/match-statistics/2
+163,05.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Espanyol,1,47,6,1,5,0,9,3,0,0,7,,,,,,,,05.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Mallorca,0,53,1,0,0,1,8,1,0,0,8,,,,,,,,cat1,https://www.flashscore.com/match/0AJjqex0/#/match-summary/match-statistics/1
+164,05.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Getafe,0,36,10,2,6,2,9,4,4,1,5,0,,,,,,,05.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Osasuna,1,64,4,2,2,0,8,2,0,2,8,3,,,,,,,cat2,https://www.flashscore.com/match/40FWnYcm/#/match-summary/match-statistics/2
+165,05.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Getafe,1,44,1,1,0,0,2,0,1,0,12,2,,,,,,,05.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Osasuna,0,56,2,0,2,0,15,0,0,0,2,1,,,,,,,cat3,https://www.flashscore.com/match/40FWnYcm/#/match-summary/match-statistics/1
+166,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Valladolid,1,42,9,4,2,3,9,3,0,0,4,2,,,,,,,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Rayo Vallecano,2,58,8,2,5,1,5,8,0,3,9,2,,,,,,,cat4,https://www.flashscore.com/match/EB22wLQj/#/match-summary/match-statistics/2
+167,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Valladolid,0,36,4,1,3,0,13,2,1,1,9,2,,,,,,,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Rayo Vallecano,0,64,9,1,4,4,11,5,2,1,9,0,,,,,,,cat5,https://www.flashscore.com/match/EB22wLQj/#/match-summary/match-statistics/1
+168,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Las Palmas,0,79,20,2,14,4,13,8,1,0,6,2,0,,,,,,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Celta Vigo,0,21,5,0,3,2,8,0,0,2,8,6,2,,,,,,cat6,https://www.flashscore.com/match/KApUeTtI/#/match-summary/match-statistics/2
+169,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Las Palmas,0,43,4,3,1,0,6,3,0,0,3,1,,,,,,,05.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Celta Vigo,1,57,3,1,2,0,3,2,2,3,5,2,,,,,,,cat7,https://www.flashscore.com/match/KApUeTtI/#/match-summary/match-statistics/1
+170,05.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Real Madrid,1,56,2,0,1,1,4,0,1,0,4,,,,,,,,05.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Villarreal,0,44,6,0,5,1,6,2,1,0,3,,,,,,,,cat8,https://www.flashscore.com/match/CQIvoCSa/#/match-summary/match-statistics/2
+171,05.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Real Madrid,1,54,9,2,4,3,10,2,0,1,3,0,,,,,,,05.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Villarreal,0,46,6,1,3,2,3,3,2,1,8,1,,,,,,,cat9,https://www.flashscore.com/match/CQIvoCSa/#/match-summary/match-statistics/1
+172,06.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Girona,1,80,8,4,3,1,8,4,2,0,7,3,0,,,,,,06.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Ath Bilbao,0,20,6,0,3,3,9,1,0,3,8,2,1,,,,,,cat10,https://www.flashscore.com/match/4Ef51XCt/#/match-summary/match-statistics/2
+173,06.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Girona,1,52,6,2,2,2,3,2,1,3,5,1,,,,,,,06.10.2024 14:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Ath Bilbao,1,48,7,4,3,0,5,0,0,1,5,1,,,,,,,cat11,https://www.flashscore.com/match/4Ef51XCt/#/match-summary/match-statistics/1
+174,06.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Alaves,0,22,7,2,3,2,7,6,7,3,7,1,,,,,,,06.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Barcelona,0,78,7,3,3,1,14,2,2,2,5,2,,,,,,,cat12,https://www.flashscore.com/match/hzRnqjcC/#/match-summary/match-statistics/2
+175,06.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Alaves,0,32,4,0,2,2,6,5,4,3,6,1,,,,,,,06.10.2024 16:15,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Barcelona,3,68,8,6,1,1,13,1,1,0,3,0,,,,,,,cat13,https://www.flashscore.com/match/hzRnqjcC/#/match-summary/match-statistics/1
+176,06.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Sevilla,1,44,10,4,2,4,8,0,1,0,9,6,1,,,,,,06.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Betis,0,56,5,0,5,0,12,0,1,3,9,2,0,,,,,,cat14,https://www.flashscore.com/match/YgnMckC5/#/match-summary/match-statistics/2
+177,06.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Sevilla,0,60,4,1,3,0,5,4,1,3,6,0,,,,,,,06.10.2024 18:30,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Betis,0,40,6,3,2,1,8,1,0,1,6,1,,,,,,,cat15,https://www.flashscore.com/match/YgnMckC5/#/match-summary/match-statistics/1
+178,06.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Real Sociedad,1,72,8,1,7,0,9,3,1,0,6,0,,,,,,,06.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Atl. Madrid,0,28,2,0,2,0,7,0,1,0,8,2,,,,,,,cat16,https://www.flashscore.com/match/CvbDaBsg/#/match-summary/match-statistics/2
+179,06.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Real Sociedad,0,62,8,6,2,0,2,2,1,0,4,,,,,,,,06.10.2024 21:00,"FOOTBALL
+SPAIN: LALIGA - ROUND 9",Atl. Madrid,1,38,2,1,1,0,6,1,1,6,1,,,,,,,,cat17,https://www.flashscore.com/match/CvbDaBsg/#/match-summary/match-statistics/1

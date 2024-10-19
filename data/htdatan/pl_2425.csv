@@ -1,0 +1,421 @@
+,H_datetime,H_Gameinfo,H_Teamnames,H_Goals,H_Ball Possession,H_Goal Attempts,H_Shots on Goal,H_Shots off Goal,H_Blocked Shots,H_Free Kicks,H_Corner Kicks,H_Offsides,H_Goalkeeper Saves,H_Fouls,H_Yellow Cards,H_Red Cards,H_Total Passes,H_Completed Passes,H_Tackles,H_Attacks,H_Dangerous Attacks,A_datetime,A_gameinfo,A_Teamnames,A_Goals,A_Ball Possession,A_Goal Attempts,A_Shots on Goal,A_Shots off Goal,A_Blocked Shots,A_Free Kicks,A_Corner Kicks,A_Offsides,A_Goalkeeper Saves,A_Fouls,A_Yellow Cards,A_Red Cards,A_Total Passes,A_Completed Passes,A_Tackles,A_Attacks,A_Dangerous Attacks,H_cat,gameurl
+0,16.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester Utd,1,47,8,2,5,1,3,5,0,1,9,0,,163,,8,47,23,16.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Fulham,0,53,7,1,4,2,7,7,0,1,7,2,,178,,17,56,32,cat0,https://www.flashscore.com/match/Kl1AOZN9/#/match-summary/match-statistics/2
+1,16.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester Utd,0,63,6,3,3,0,7,2,3,1,3,2,,319,,12,63,29,16.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Fulham,0,37,3,1,2,0,6,1,1,3,3,1,,206,,6,35,4,cat1,https://www.flashscore.com/match/Kl1AOZN9/#/match-summary/match-statistics/1
+2,17.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Ipswich,0,32,3,0,2,1,5,1,5,3,2,0,,153,,17,34,17,17.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Liverpool,2,68,15,5,5,5,2,4,0,0,6,1,,314,,5,56,51,cat2,https://www.flashscore.com/match/t4kJMDhM/#/match-summary/match-statistics/2
+3,17.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Ipswich,0,44,4,2,1,1,14,1,0,0,7,3,,194,,3,46,20,17.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Liverpool,0,56,3,0,1,2,8,6,0,2,12,0,,256,,4,38,27,cat3,https://www.flashscore.com/match/t4kJMDhM/#/match-summary/match-statistics/1
+4,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Nottingham,0,49,5,3,1,1,5,2,0,2,9,1,,227,,18,59,36,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Bournemouth,1,51,8,3,3,2,9,3,1,3,5,2,,235,,13,60,37,cat4,https://www.flashscore.com/match/tIUiyD7F/#/match-summary/match-statistics/2
+5,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Nottingham,1,58,9,5,2,2,4,0,1,2,9,0,,276,,6,78,21,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Bournemouth,0,42,7,2,5,0,10,3,3,4,4,1,,197,,6,64,26,cat5,https://www.flashscore.com/match/tIUiyD7F/#/match-summary/match-statistics/1
+6,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Newcastle,0,16,0,0,0,0,8,0,0,5,7,1,,54,,15,22,14,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Southampton,0,84,15,5,3,7,7,11,0,0,8,2,,289,,12,71,61,cat6,https://www.flashscore.com/match/pjyqwZx3/#/match-summary/match-statistics/2
+7,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Newcastle,1,28,3,1,0,2,7,3,1,0,8,1,1,127,,1,31,16,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Southampton,0,72,4,0,3,1,8,1,2,0,8,2,0,360,,2,53,24,cat7,https://www.flashscore.com/match/pjyqwZx3/#/match-summary/match-statistics/1
+8,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Everton,0,28,3,0,1,2,2,0,1,2,7,1,1,142,,17,26,17,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brighton,2,72,5,4,1,0,8,4,1,0,2,0,0,324,,17,77,34,cat8,https://www.flashscore.com/match/hdlcFVpd/#/match-summary/match-statistics/2
+9,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Everton,0,46,6,1,5,0,7,1,6,0,1,0,,202,,5,59,30,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brighton,1,54,5,1,4,0,1,1,0,1,6,1,,251,,3,38,13,cat9,https://www.flashscore.com/match/hdlcFVpd/#/match-summary/match-statistics/1
+10,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Arsenal,1,42,6,2,1,3,4,4,0,2,12,2,,130,,12,34,22,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Wolves,0,58,5,2,3,0,13,2,1,1,5,0,,211,,15,60,37,cat10,https://www.flashscore.com/match/CntkHiGq/#/match-summary/match-statistics/2
+11,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Arsenal,1,64,12,4,6,2,10,4,0,1,5,0,,290,,6,77,39,17.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Wolves,0,36,4,1,2,1,5,0,0,3,9,2,,164,,4,30,11,cat11,https://www.flashscore.com/match/CntkHiGq/#/match-summary/match-statistics/1
+12,17.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",West Ham,0,51,9,1,6,2,5,3,0,0,10,0,,203,,9,53,19,17.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Aston Villa,1,49,7,1,4,2,10,2,1,1,5,1,,186,,19,58,30,cat12,https://www.flashscore.com/match/nHdPI4il/#/match-summary/match-statistics/2
+13,17.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",West Ham,1,51,5,2,2,1,5,2,1,1,8,1,,214,,5,49,23,17.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Aston Villa,1,49,8,2,3,3,9,1,0,1,6,1,,208,,4,42,27,cat13,https://www.flashscore.com/match/nHdPI4il/#/match-summary/match-statistics/1
+14,18.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brentford,1,40,6,3,2,1,7,2,0,4,3,0,,152,,15,54,24,18.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Crystal Palace,1,60,10,5,2,3,3,6,2,2,6,3,,244,,16,71,29,cat14,https://www.flashscore.com/match/8WpYGrM0/#/match-summary/match-statistics/2
+15,18.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Brentford,1,52,3,2,1,0,10,2,1,1,3,1,,237,,5,54,21,18.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Crystal Palace,0,48,4,1,2,1,3,1,1,1,9,2,,221,,5,55,23,cat15,https://www.flashscore.com/match/8WpYGrM0/#/match-summary/match-statistics/1
+16,18.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Chelsea,0,44,6,2,1,3,6,2,0,1,5,1,,253,,6,46,30,18.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester City,1,56,4,2,2,0,7,1,1,2,5,1,,337,,8,45,37,cat16,https://www.flashscore.com/match/fmqtFMjD/#/match-summary/match-statistics/2
+17,18.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Chelsea,0,52,4,1,1,2,4,2,2,2,7,,,273,,4,42,28,18.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Manchester City,1,48,7,3,2,2,7,2,0,1,4,,,240,,3,50,37,cat17,https://www.flashscore.com/match/fmqtFMjD/#/match-summary/match-statistics/1
+18,19.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Leicester,1,31,6,3,2,1,10,2,1,3,4,1,,136,,17,45,17,19.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Tottenham,0,69,5,3,0,2,5,4,0,2,9,1,,311,,21,63,54,cat18,https://www.flashscore.com/match/AeRSxQrK/#/match-summary/match-statistics/2
+19,19.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Leicester,0,27,1,0,1,0,3,0,1,3,7,,,132,,6,21,2,19.08.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 1",Tottenham,1,73,10,4,2,4,7,9,1,0,3,,,355,,2,39,34,cat19,https://www.flashscore.com/match/AeRSxQrK/#/match-summary/match-statistics/1
+20,24.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Brighton,1,49,11,4,6,1,8,4,0,2,6,1,,209,,14,32,47,24.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Manchester Utd,1,51,6,3,1,2,6,1,3,3,8,2,,205,,13,37,23,cat20,https://www.flashscore.com/match/8j9FTL56/#/match-summary/match-statistics/2
+21,24.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Brighton,1,47,3,1,2,0,6,0,0,1,3,,,268,,3,45,21,24.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Manchester Utd,0,53,5,1,4,0,4,3,3,0,5,,,306,,6,47,25,cat21,https://www.flashscore.com/match/8j9FTL56/#/match-summary/match-statistics/1
+22,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Tottenham,2,67,4,2,1,1,13,4,0,0,6,,,260,,20,42,12,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Everton,0,33,1,0,0,1,7,1,3,0,11,,,139,,20,43,16,cat22,https://www.flashscore.com/match/2m3cvwKO/#/match-summary/match-statistics/2
+23,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Tottenham,2,75,9,5,3,1,4,8,0,1,5,,,349,,2,67,55,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Everton,0,25,9,1,7,1,5,4,1,3,4,,,112,,9,29,25,cat23,https://www.flashscore.com/match/2m3cvwKO/#/match-summary/match-statistics/1
+24,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Southampton,0,73,1,0,0,1,10,3,0,3,6,1,,331,,17,65,27,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Nottingham,1,27,11,4,4,3,8,3,1,0,8,3,,118,,21,21,7,cat24,https://www.flashscore.com/match/fNaktakC/#/match-summary/match-statistics/2
+25,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Southampton,0,57,4,1,1,2,5,1,0,4,8,2,,325,,1,47,14,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Nottingham,0,43,12,4,4,4,8,7,0,1,5,0,,234,,3,52,45,cat25,https://www.flashscore.com/match/fNaktakC/#/match-summary/match-statistics/1
+26,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Manchester City,1,78,5,1,0,4,7,7,3,0,3,2,,374,,12,47,53,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Ipswich,0,22,0,0,0,0,3,1,0,0,8,2,,115,,12,13,5,cat26,https://www.flashscore.com/match/lAUlrLKa/#/match-summary/match-statistics/2
+27,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Manchester City,3,74,9,4,4,1,9,3,0,1,1,0,,381,,2,84,58,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Ipswich,1,26,2,2,0,0,1,0,1,1,7,1,,130,,5,16,5,cat27,https://www.flashscore.com/match/lAUlrLKa/#/match-summary/match-statistics/1
+28,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Fulham,1,51,8,1,6,1,7,5,0,1,11,2,,206,,12,55,24,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Leicester,0,49,5,1,2,2,13,2,2,0,6,2,,219,,16,29,11,cat28,https://www.flashscore.com/match/dCkAk3SP/#/match-summary/match-statistics/2
+29,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Fulham,1,59,10,5,2,3,9,2,0,2,3,,,332,,2,89,43,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Leicester,1,41,5,3,2,0,3,3,3,4,7,,,235,,5,34,12,cat29,https://www.flashscore.com/match/dCkAk3SP/#/match-summary/match-statistics/1
+30,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Crystal Palace,0,67,6,1,4,1,14,0,2,1,4,1,,264,,13,59,31,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",West Ham,2,33,9,3,5,1,5,1,2,1,12,1,,117,,9,35,11,cat30,https://www.flashscore.com/match/U5cORazJ/#/match-summary/match-statistics/2
+31,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Crystal Palace,0,51,8,1,4,3,5,3,1,0,5,,,288,,10,63,21,24.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",West Ham,0,49,9,0,5,4,5,2,0,1,5,,,276,,11,61,15,cat31,https://www.flashscore.com/match/U5cORazJ/#/match-summary/match-statistics/1
+32,24.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Aston Villa,0,43,8,2,4,2,7,4,2,1,5,1,,182,,19,30,17,24.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Arsenal,2,57,6,3,2,1,6,0,0,2,8,2,,193,,13,36,26,cat32,https://www.flashscore.com/match/2g67Vsyf/#/match-summary/match-statistics/2
+33,24.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Aston Villa,0,35,3,1,1,1,9,0,1,1,3,0,,147,,3,23,10,24.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Arsenal,0,65,3,1,2,0,3,1,1,1,7,1,,321,,4,65,37,cat33,https://www.flashscore.com/match/2g67Vsyf/#/match-summary/match-statistics/1
+34,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Wolves,0,39,4,0,4,0,5,1,2,0,8,1,,184,,16,40,25,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Chelsea,4,61,8,4,2,2,9,1,0,0,5,1,,284,,7,69,33,cat34,https://www.flashscore.com/match/61T7bt5t/#/match-summary/match-statistics/2
+35,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Wolves,2,37,8,4,4,0,9,4,1,2,5,1,,136,,3,37,23,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Chelsea,2,63,6,4,1,1,5,4,1,2,8,2,,211,,7,51,23,cat35,https://www.flashscore.com/match/61T7bt5t/#/match-summary/match-statistics/1
+36,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Bournemouth,0,29,11,1,7,3,4,7,0,3,11,1,,89,,17,41,24,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Newcastle,1,71,12,4,5,3,14,6,0,1,5,2,,226,,18,58,50,cat36,https://www.flashscore.com/match/6RCbX36s/#/match-summary/match-statistics/2
+37,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Bournemouth,1,49,5,3,1,1,3,1,0,1,8,1,,232,,4,73,22,25.08.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Newcastle,0,51,2,1,1,0,7,3,0,2,3,0,,269,,3,50,20,cat37,https://www.flashscore.com/match/6RCbX36s/#/match-summary/match-statistics/1
+38,25.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Liverpool,1,69,14,6,2,6,2,5,1,1,3,0,,330,,20,77,54,25.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Brentford,0,31,3,1,1,1,2,2,2,5,2,1,,150,,8,36,28,cat38,https://www.flashscore.com/match/GdWtpsjm/#/match-summary/match-statistics/2
+39,25.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Liverpool,1,55,5,2,2,1,5,4,0,1,7,2,,272,,2,65,21,25.08.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 2",Brentford,0,45,5,1,2,2,8,2,0,1,5,2,,208,,3,39,16,cat39,https://www.flashscore.com/match/GdWtpsjm/#/match-summary/match-statistics/1
+40,31.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Arsenal,0,24,5,2,1,2,3,1,0,2,6,3,1,72,,5,35,20,31.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Brighton,1,76,19,3,10,6,6,6,1,2,2,2,0,260,,13,65,56,cat40,https://www.flashscore.com/match/ERWFdKZh/#/match-summary/match-statistics/2
+41,31.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Arsenal,1,48,6,5,0,1,5,2,3,1,6,2,,198,,12,47,26,31.08.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Brighton,0,52,3,1,1,1,6,1,0,4,5,0,,211,,5,35,13,cat41,https://www.flashscore.com/match/ERWFdKZh/#/match-summary/match-statistics/1
+42,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Nottingham,0,58,10,3,3,4,0,5,3,0,8,2,,176,,15,65,42,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Wolves,0,42,3,0,1,2,7,2,0,3,9,1,,153,,23,39,16,cat42,https://www.flashscore.com/match/2Fanm72d/#/match-summary/match-statistics/2
+43,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Nottingham,1,46,6,2,4,0,5,2,1,2,7,1,,191,,2,50,24,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Wolves,1,54,8,3,3,2,9,1,0,1,9,3,,206,,2,50,18,cat43,https://www.flashscore.com/match/2Fanm72d/#/match-summary/match-statistics/1
+44,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Leicester,1,56,7,1,4,2,14,0,2,1,8,3,,236,,18,75,29,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Aston Villa,1,44,5,2,3,0,7,2,0,0,8,3,,181,,12,40,23,cat44,https://www.flashscore.com/match/lpob9cJb/#/match-summary/match-statistics/2
+45,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Leicester,0,58,2,2,0,0,14,1,1,2,5,1,,277,,4,44,17,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Aston Villa,1,42,5,3,1,1,8,2,1,2,13,2,,202,,5,47,15,cat45,https://www.flashscore.com/match/lpob9cJb/#/match-summary/match-statistics/1
+46,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Ipswich,0,55,5,1,1,3,11,5,3,2,9,1,,239,,2,54,26,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Fulham,0,45,5,2,1,2,8,3,0,1,12,3,,128,,9,42,17,cat46,https://www.flashscore.com/match/SUdkBJln/#/match-summary/match-statistics/2
+47,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Ipswich,1,41,6,3,3,0,5,3,1,1,6,1,,162,,11,34,16,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Fulham,1,59,4,2,1,1,10,3,0,2,3,0,,290,,2,55,28,cat47,https://www.flashscore.com/match/SUdkBJln/#/match-summary/match-statistics/1
+48,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Everton,2,37,14,7,7,0,7,4,0,4,3,2,,148,,12,59,37,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Bournemouth,3,63,13,7,5,1,4,2,1,5,8,1,,173,,22,58,35,cat48,https://www.flashscore.com/match/x6HuiG3U/#/match-summary/match-statistics/2
+49,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Everton,0,57,4,1,3,0,5,4,2,0,3,,,201,,5,62,31,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Bournemouth,0,43,4,0,2,2,3,2,1,1,3,,,219,,4,51,26,cat49,https://www.flashscore.com/match/x6HuiG3U/#/match-summary/match-statistics/1
+50,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Brentford,2,36,10,3,4,3,3,0,0,2,5,1,,165,,12,51,25,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Southampton,1,64,10,3,4,3,5,4,1,1,2,0,,305,,12,61,37,cat50,https://www.flashscore.com/match/8QPOfb45/#/match-summary/match-statistics/2
+51,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Brentford,1,38,10,4,4,2,4,2,1,3,5,1,,193,,5,39,34,31.08.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Southampton,0,62,8,3,3,2,5,4,1,3,5,1,,316,,3,40,24,cat51,https://www.flashscore.com/match/8QPOfb45/#/match-summary/match-statistics/1
+52,31.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",West Ham,0,33,7,0,6,1,1,3,0,2,6,3,,181,,7,45,29,31.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Manchester City,1,67,11,3,6,2,6,4,0,0,2,1,,352,,10,73,48,cat52,https://www.flashscore.com/match/INsZAAf3/#/match-summary/match-statistics/2
+53,31.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",West Ham,1,31,3,2,1,0,2,0,0,3,4,0,,159,,4,41,11,31.08.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Manchester City,2,69,12,5,5,2,4,7,1,1,1,1,,374,,5,75,61,cat53,https://www.flashscore.com/match/INsZAAf3/#/match-summary/match-statistics/1
+54,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Newcastle,1,33,3,2,0,1,7,3,1,3,7,1,,19,,10,27,17,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Tottenham,1,67,12,4,4,4,8,8,1,1,7,3,,232,,19,77,65,cat54,https://www.flashscore.com/match/U11vkTXq/#/match-summary/match-statistics/2
+55,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Newcastle,1,35,6,1,4,1,6,4,1,2,9,3,,142,,7,33,22,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Tottenham,0,65,8,2,2,4,9,4,3,0,6,1,,268,,3,64,40,cat55,https://www.flashscore.com/match/U11vkTXq/#/match-summary/match-statistics/1
+56,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Chelsea,0,65,6,4,1,1,5,2,0,1,3,2,,276,,7,88,29,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Crystal Palace,1,35,6,2,0,4,3,4,1,4,3,1,,116,,19,38,14,cat56,https://www.flashscore.com/match/tvOWhxZH/#/match-summary/match-statistics/2
+57,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Chelsea,1,61,7,3,3,1,10,2,0,1,6,2,,314,,6,66,18,01.09.2024 14:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Crystal Palace,0,39,3,1,1,1,7,0,0,2,10,1,,234,,0,44,9,cat57,https://www.flashscore.com/match/tvOWhxZH/#/match-summary/match-statistics/1
+58,01.09.2024 17:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Manchester Utd,0,60,6,2,4,0,5,3,0,0,3,1,,219,,26,61,43,01.09.2024 17:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Liverpool,1,40,8,1,7,0,1,1,1,2,5,1,,184,,17,48,26,cat58,https://www.flashscore.com/match/z1q67ylB/#/match-summary/match-statistics/2
+59,01.09.2024 17:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Manchester Utd,0,46,2,1,1,0,3,2,0,0,4,3,,288,,6,52,19,01.09.2024 17:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 3",Liverpool,2,54,3,2,1,0,6,1,1,1,2,0,,280,,7,66,33,cat59,https://www.flashscore.com/match/z1q67ylB/#/match-summary/match-statistics/1
+60,14.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Southampton,0,36,1,1,0,0,8,0,0,1,6,1,1,229,,16,30,6,14.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Manchester Utd,1,64,8,2,2,4,8,3,0,1,7,3,0,335,,16,65,38,cat60,https://www.flashscore.com/match/2kGeEq1e/#/match-summary/match-statistics/2
+61,14.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Southampton,0,52,5,3,1,1,6,0,0,6,5,0,,251,,5,55,31,14.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Manchester Utd,2,48,10,8,1,1,4,4,0,3,7,1,,276,,6,39,12,cat61,https://www.flashscore.com/match/2kGeEq1e/#/match-summary/match-statistics/1
+62,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Manchester City,0,60,11,4,4,3,2,7,0,1,6,2,,299,,9,57,49,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Brentford,0,40,2,1,1,0,6,0,1,4,1,1,,192,,15,26,8,cat62,https://www.flashscore.com/match/tzSnG5Wr/#/match-summary/match-statistics/2
+63,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Manchester City,2,48,7,3,2,2,1,5,1,3,3,1,,245,,3,60,45,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Brentford,1,52,6,4,1,1,3,3,0,1,2,0,,276,,5,38,25,cat63,https://www.flashscore.com/match/tzSnG5Wr/#/match-summary/match-statistics/1
+64,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Liverpool,0,70,6,1,3,2,2,3,0,2,6,4,,311,,8,57,28,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Nottingham,1,30,4,3,1,0,3,0,1,1,4,2,,124,,21,26,15,cat64,https://www.flashscore.com/match/AiyHLR8L/#/match-summary/match-statistics/2
+65,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Liverpool,0,70,8,4,3,1,3,4,0,0,9,0,,293,,4,60,34,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Nottingham,0,30,1,0,1,0,10,2,4,4,2,2,,149,,1,54,15,cat65,https://www.flashscore.com/match/AiyHLR8L/#/match-summary/match-statistics/1
+66,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Fulham,0,57,10,1,5,4,13,0,0,2,10,2,,187,,27,45,29,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",West Ham,1,43,6,3,2,1,11,2,1,1,12,3,,148,,12,25,16,cat66,https://www.flashscore.com/match/jkLFNmv9/#/match-summary/match-statistics/2
+67,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Fulham,1,51,11,4,3,4,6,3,3,0,5,,,208,,3,51,26,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",West Ham,0,49,5,0,3,2,5,0,1,3,6,,,185,,6,61,16,cat67,https://www.flashscore.com/match/jkLFNmv9/#/match-summary/match-statistics/1
+68,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Crystal Palace,2,71,11,2,2,7,10,2,3,1,4,0,,271,,18,48,35,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Leicester,1,29,4,2,1,1,5,0,0,0,9,3,,110,,16,33,9,cat68,https://www.flashscore.com/match/beYTapn2/#/match-summary/match-statistics/2
+69,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Crystal Palace,0,63,9,2,4,3,5,3,0,1,7,,,324,,6,78,26,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Leicester,1,37,5,2,3,0,7,2,0,2,6,,,183,,3,43,14,cat69,https://www.flashscore.com/match/beYTapn2/#/match-summary/match-statistics/1
+70,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Brighton,0,69,15,2,4,9,4,5,0,1,6,4,,323,,14,42,33,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Ipswich,0,31,5,1,3,1,7,2,1,2,6,2,,156,,20,32,7,cat70,https://www.flashscore.com/match/2TvL16Hk/#/match-summary/match-statistics/2
+71,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Brighton,0,71,6,4,1,1,11,4,1,0,8,0,,247,,5,91,34,14.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Ipswich,0,29,1,0,1,0,8,0,2,4,10,1,,105,,5,33,3,cat71,https://www.flashscore.com/match/2TvL16Hk/#/match-summary/match-statistics/1
+72,14.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Aston Villa,2,69,10,4,5,1,7,3,1,0,3,1,,284,,18,47,23,14.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Everton,0,31,3,0,3,0,3,1,1,2,6,2,,138,,20,29,17,cat72,https://www.flashscore.com/match/Wplk7SgS/#/match-summary/match-statistics/2
+73,14.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Aston Villa,1,77,7,4,1,2,6,3,0,0,7,0,,381,,2,83,30,14.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Everton,2,23,3,2,0,1,8,1,2,3,6,2,,102,,4,41,15,cat73,https://www.flashscore.com/match/Wplk7SgS/#/match-summary/match-statistics/1
+74,14.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Bournemouth,0,35,9,3,4,2,5,3,2,1,7,3,,141,,8,47,36,14.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Chelsea,1,65,6,2,3,1,5,1,2,3,7,5,,273,,10,44,35,cat74,https://www.flashscore.com/match/AVat9lPF/#/match-summary/match-statistics/2
+75,14.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Bournemouth,0,31,10,4,5,1,3,3,2,1,9,3,,135,,6,55,27,14.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Chelsea,0,69,4,1,2,1,12,2,1,4,2,3,,306,,2,58,15,cat75,https://www.flashscore.com/match/AVat9lPF/#/match-summary/match-statistics/1
+76,15.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Tottenham,0,61,10,4,4,2,4,4,2,0,3,0,,212,,14,64,41,15.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Arsenal,1,39,2,1,0,1,4,1,3,4,3,1,,144,,19,29,13,cat76,https://www.flashscore.com/match/AFJ3CNV7/#/match-summary/match-statistics/2
+77,15.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Tottenham,0,67,5,1,2,2,7,3,0,3,10,5,,282,,6,57,39,15.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Arsenal,0,33,6,3,1,2,11,5,0,1,7,2,,138,,2,41,31,cat77,https://www.flashscore.com/match/AFJ3CNV7/#/match-summary/match-statistics/1
+78,15.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Wolves,0,60,7,3,3,1,1,2,1,3,8,3,,245,,16,61,42,15.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Newcastle,2,40,11,5,3,3,17,5,1,3,1,2,,137,,11,46,42,cat78,https://www.flashscore.com/match/Of1jzRNE/#/match-summary/match-statistics/2
+79,15.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Wolves,1,37,5,2,2,1,5,2,2,1,9,0,,188,,7,49,17,15.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 4",Newcastle,0,63,3,1,1,1,1,2,1,1,5,1,,334,,3,61,28,cat79,https://www.flashscore.com/match/Of1jzRNE/#/match-summary/match-statistics/1
+80,21.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",West Ham,0,56,6,4,1,1,4,2,0,2,12,5,,262,,,,,21.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Chelsea,1,44,7,3,2,2,14,5,0,4,4,1,,188,,,,,cat80,https://www.flashscore.com/match/C0axT3Xo/#/match-summary/match-statistics/2
+81,21.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",West Ham,0,48,9,3,3,3,6,4,2,0,5,0,,236,,,,,21.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Chelsea,2,52,5,2,2,1,5,0,0,3,6,1,,266,,,,,cat81,https://www.flashscore.com/match/C0axT3Xo/#/match-summary/match-statistics/1
+82,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Tottenham,1,43,7,5,1,1,7,5,0,2,5,2,,202,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Brentford,0,57,2,2,0,0,6,2,2,4,6,1,,262,,,,,cat82,https://www.flashscore.com/match/W2BSyvaJ/#/match-summary/match-statistics/2
+83,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Tottenham,2,53,16,5,2,9,3,4,1,3,6,1,,232,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Brentford,1,47,4,4,0,0,8,2,0,3,3,0,,227,,,,,cat83,https://www.flashscore.com/match/W2BSyvaJ/#/match-summary/match-statistics/1
+84,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Southampton,0,55,8,2,3,3,9,2,3,2,7,3,,223,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Ipswich,1,45,6,3,1,2,7,2,0,2,9,4,,191,,,,,cat84,https://www.flashscore.com/match/Q58Kw0U6/#/match-summary/match-statistics/2
+85,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Southampton,1,53,3,1,2,0,8,0,0,3,9,1,,269,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Ipswich,0,47,7,3,2,2,10,8,1,0,7,0,,218,,,,,cat85,https://www.flashscore.com/match/Q58Kw0U6/#/match-summary/match-statistics/1
+86,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Liverpool,0,54,9,5,1,3,6,1,0,4,8,1,,237,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Bournemouth,0,46,14,4,6,4,8,6,1,5,4,1,,208,,,,,cat86,https://www.flashscore.com/match/dQG3srVs/#/match-summary/match-statistics/2
+87,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Liverpool,3,64,10,8,2,0,8,2,0,2,2,0,,347,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Bournemouth,0,36,5,2,3,0,2,3,2,5,8,3,,181,,,,,cat87,https://www.flashscore.com/match/dQG3srVs/#/match-summary/match-statistics/1
+88,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Leicester,1,70,8,1,5,2,8,4,2,2,6,1,,215,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Everton,0,30,6,2,2,2,6,0,2,0,7,2,,116,,,,,cat88,https://www.flashscore.com/match/xtzXn47K/#/match-summary/match-statistics/2
+89,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Leicester,0,46,4,1,2,1,5,2,0,2,5,,,245,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Everton,1,54,10,3,5,2,5,1,3,1,5,,,219,,,,,cat89,https://www.flashscore.com/match/xtzXn47K/#/match-summary/match-statistics/1
+90,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Fulham,1,38,11,4,5,2,5,3,0,2,7,2,,158,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Newcastle,1,62,11,3,6,2,7,0,2,3,4,0,,276,,,,,cat90,https://www.flashscore.com/match/pYXoP0FD/#/match-summary/match-statistics/2
+91,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Fulham,2,40,11,7,3,1,3,3,1,1,9,4,,186,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Newcastle,0,60,4,1,2,1,10,0,4,5,4,0,,284,,,,,cat91,https://www.flashscore.com/match/pYXoP0FD/#/match-summary/match-statistics/1
+92,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Aston Villa,3,65,7,4,0,3,9,4,0,0,7,2,,227,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Wolves,0,35,0,0,0,0,9,1,4,1,7,3,,91,,,,,cat92,https://www.flashscore.com/match/d8abY4hR/#/match-summary/match-statistics/2
+93,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Aston Villa,0,41,2,0,0,2,9,2,1,3,4,1,,220,,,,,21.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Wolves,1,59,10,4,0,6,4,4,1,0,9,3,,307,,,,,cat93,https://www.flashscore.com/match/d8abY4hR/#/match-summary/match-statistics/1
+94,21.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Crystal Palace,0,36,7,3,4,0,7,3,1,1,4,3,,177,,,,,21.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Manchester Utd,0,64,2,1,0,1,6,4,0,3,5,1,,380,,,,,cat94,https://www.flashscore.com/match/OIqwRMp1/#/match-summary/match-statistics/2
+95,21.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Crystal Palace,0,30,2,1,0,1,6,1,0,5,3,0,,136,,,,,21.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Manchester Utd,0,70,13,5,6,2,2,7,0,1,7,1,,259,,,,,cat95,https://www.flashscore.com/match/OIqwRMp1/#/match-summary/match-statistics/1
+96,22.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Brighton,0,77,8,1,2,5,9,6,0,0,5,1,0,280,0,,,,22.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Nottingham,1,23,2,1,0,1,6,1,3,1,7,5,1,99,0,,,,cat96,https://www.flashscore.com/match/GhtVSrGl/#/match-summary/match-statistics/2
+97,22.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Brighton,2,65,6,2,4,0,4,3,0,1,7,2,,262,,,,,22.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Nottingham,1,35,2,2,0,0,6,0,1,0,4,1,,146,,,,,cat97,https://www.flashscore.com/match/GhtVSrGl/#/match-summary/match-statistics/1
+98,22.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Manchester City,1,90,28,9,8,11,3,6,0,1,3,1,,391,,10,,,22.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Arsenal,0,10,1,1,0,0,4,0,0,8,3,3,,54,,16,,,cat98,https://www.flashscore.com/match/UwFBuMaf/#/match-summary/match-statistics/2
+99,22.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Manchester City,1,66,5,2,2,1,6,2,0,0,4,2,0,314,,,,,22.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 5",Arsenal,2,34,4,2,2,0,4,2,1,1,7,3,1,154,,,,,cat99,https://www.flashscore.com/match/UwFBuMaf/#/match-summary/match-statistics/1
+100,28.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Newcastle,1,35,4,2,2,0,5,0,1,3,6,2,,155,,,,,28.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Manchester City,0,65,8,3,3,2,8,3,0,1,5,4,,298,,,,,cat100,https://www.flashscore.com/match/8MkyzwoT/#/match-summary/match-statistics/2
+101,28.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Newcastle,0,41,6,2,0,4,5,5,0,2,8,2,,176,,,,,28.09.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Manchester City,1,59,8,3,1,4,10,3,0,2,5,0,,260,,,,,cat101,https://www.flashscore.com/match/8MkyzwoT/#/match-summary/match-statistics/1
+102,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Nottingham,0,48,6,1,3,2,7,3,5,0,4,1,,192,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Fulham,1,52,7,1,2,4,4,1,1,1,5,4,,210,,,,,cat102,https://www.flashscore.com/match/4hy7UG8j/#/match-summary/match-statistics/2
+103,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Nottingham,0,34,5,0,2,3,11,3,2,1,7,1,,159,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Fulham,0,66,7,1,3,3,7,4,0,0,10,0,,317,,,,,cat103,https://www.flashscore.com/match/4hy7UG8j/#/match-summary/match-statistics/1
+104,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Everton,2,41,4,2,2,0,8,2,2,1,6,2,,138,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Crystal Palace,0,59,8,1,5,2,8,5,0,0,7,0,,235,,,,,cat104,https://www.flashscore.com/match/bXkCusHi/#/match-summary/match-statistics/2
+105,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Everton,0,41,4,0,3,1,4,3,0,3,7,,,209,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Crystal Palace,1,59,9,4,2,3,7,3,0,0,4,,,300,,,,,cat105,https://www.flashscore.com/match/bXkCusHi/#/match-summary/match-statistics/1
+106,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Chelsea,0,46,8,3,2,3,4,8,3,1,9,1,,197,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Brighton,0,54,6,1,2,3,10,0,0,3,2,0,,241,,,,,cat106,https://www.flashscore.com/match/WQcQHwPp/#/match-summary/match-statistics/2
+107,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Chelsea,4,36,7,4,2,1,4,0,3,2,2,2,,179,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Brighton,2,64,9,4,3,2,2,2,2,0,6,2,,311,,,,,cat107,https://www.flashscore.com/match/WQcQHwPp/#/match-summary/match-statistics/1
+108,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Brentford,0,64,4,2,2,0,8,6,0,2,2,2,,270,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",West Ham,1,36,11,3,6,2,2,3,1,2,7,2,,162,,,,,cat108,https://www.flashscore.com/match/l6f1Na1N/#/match-summary/match-statistics/2
+109,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Brentford,1,50,4,1,2,1,4,1,1,0,0,0,,258,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",West Ham,0,50,8,0,5,3,0,3,1,0,4,1,,237,,,,,cat109,https://www.flashscore.com/match/l6f1Na1N/#/match-summary/match-statistics/1
+110,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Arsenal,2,74,25,11,10,4,4,11,0,1,6,2,,249,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Leicester,2,26,4,3,1,0,8,0,0,9,2,2,,95,,,,,cat110,https://www.flashscore.com/match/GhdgPLWA/#/match-summary/match-statistics/2
+111,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Arsenal,2,76,11,5,3,3,4,6,0,0,5,0,,414,,,,,28.09.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Leicester,0,24,1,0,0,1,5,0,1,3,4,2,,137,,,,,cat111,https://www.flashscore.com/match/GhdgPLWA/#/match-summary/match-statistics/1
+112,28.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Wolves,1,45,5,1,3,1,5,2,1,2,11,1,,185,,,,,28.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Liverpool,1,55,5,3,2,0,8,4,2,0,4,1,,243,,,,,cat112,https://www.flashscore.com/match/K0JghK0c/#/match-summary/match-statistics/2
+113,28.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Wolves,0,45,3,2,1,0,3,0,0,2,5,1,,241,,,,,28.09.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Liverpool,1,55,5,3,1,1,8,6,0,2,4,2,,291,,,,,cat113,https://www.flashscore.com/match/K0JghK0c/#/match-summary/match-statistics/1
+114,29.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Ipswich,1,52,9,2,3,4,5,7,2,1,5,2,,231,,,,,29.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Aston Villa,0,48,3,1,2,0,6,0,1,1,5,1,,222,,,,,cat114,https://www.flashscore.com/match/KnvLwLo4/#/match-summary/match-statistics/2
+115,29.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Ipswich,1,36,6,3,2,1,11,3,0,0,5,2,,177,,,,,29.09.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Aston Villa,2,64,4,2,2,0,4,0,0,2,9,0,,320,,,,,cat115,https://www.flashscore.com/match/KnvLwLo4/#/match-summary/match-statistics/1
+116,29.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Manchester Utd,0,41,8,0,5,3,8,5,1,5,5,2,,193,,26,,,29.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Tottenham,2,59,12,7,3,2,3,1,1,0,8,2,,294,,6,,,cat116,https://www.flashscore.com/match/SCsTyaGG/#/match-summary/match-statistics/2
+117,29.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Manchester Utd,0,37,3,2,1,0,7,0,1,3,11,3,1,202,,,,,29.09.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Tottenham,1,63,12,4,4,4,10,2,0,2,6,1,0,342,,,,,cat117,https://www.flashscore.com/match/SCsTyaGG/#/match-summary/match-statistics/1
+118,30.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Bournemouth,0,30,8,2,2,4,2,4,0,1,10,1,,161,,,,,30.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Southampton,1,70,6,2,2,2,10,2,0,2,3,4,,342,,,,,cat118,https://www.flashscore.com/match/KQ2pRs2b/#/match-summary/match-statistics/2
+119,30.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Bournemouth,3,50,6,4,0,2,10,2,1,1,9,1,,210,,,,,30.09.2024 21:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 6",Southampton,0,50,3,1,1,1,13,2,1,1,9,1,,226,,,,,cat119,https://www.flashscore.com/match/KQ2pRs2b/#/match-summary/match-statistics/1
+120,05.10.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Crystal Palace,0,44,7,4,3,0,4,1,0,3,6,4,,180,,,,,05.10.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Liverpool,0,56,8,3,3,2,7,1,0,4,5,0,,307,,,,,cat0,https://www.flashscore.com/match/r3Wq3yFF/#/match-summary/match-statistics/2
+121,05.10.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Crystal Palace,0,28,1,1,0,0,11,2,1,1,0,0,,137,,,,,05.10.2024 13:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Liverpool,1,72,9,2,4,3,0,7,0,1,11,2,,362,,,,,cat1,https://www.flashscore.com/match/r3Wq3yFF/#/match-summary/match-statistics/1
+122,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",West Ham,2,44,11,6,3,2,3,1,2,1,5,,,194,,19,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Ipswich,0,56,4,1,2,1,6,3,0,4,2,,,247,,15,,,cat0,https://www.flashscore.com/match/d6dJHzU8/#/match-summary/match-statistics/2
+123,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",West Ham,2,62,12,7,3,2,4,4,1,0,7,0,,302,,,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Ipswich,1,38,5,1,2,2,9,2,1,5,4,1,,183,,,,,cat1,https://www.flashscore.com/match/d6dJHzU8/#/match-summary/match-statistics/1
+124,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Manchester City,2,51,5,3,1,1,7,0,0,1,1,2,,293,,11,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Fulham,1,49,4,2,0,2,1,1,2,1,6,1,,261,,23,,,cat2,https://www.flashscore.com/match/tbEWgXy2/#/match-summary/match-statistics/2
+125,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Manchester City,1,65,15,4,4,7,4,8,0,1,3,,,341,,,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Fulham,1,35,7,2,2,3,3,2,1,3,4,,,191,,,,,cat3,https://www.flashscore.com/match/tbEWgXy2/#/match-summary/match-statistics/1
+126,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Leicester,0,37,1,0,1,0,8,0,1,1,9,3,,123,,14,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Bournemouth,0,63,11,1,9,1,9,5,2,0,8,1,,259,,22,,,cat4,https://www.flashscore.com/match/YXAOeg7k/#/match-summary/match-statistics/2
+127,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Leicester,1,51,5,2,3,0,8,0,1,1,3,1,,245,,,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Bournemouth,0,49,6,1,2,3,4,4,1,1,6,0,,184,,,,,cat5,https://www.flashscore.com/match/YXAOeg7k/#/match-summary/match-statistics/1
+128,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Brentford,1,39,10,6,3,1,5,5,2,2,6,2,,143,,15,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Wolves,1,61,9,3,3,3,7,3,1,5,6,2,,235,,16,,,cat6,https://www.flashscore.com/match/bFdtqGNq/#/match-summary/match-statistics/2
+129,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Brentford,4,49,9,6,1,2,4,5,3,1,3,0,,222,,,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Wolves,2,51,8,3,3,2,3,0,0,2,4,1,,243,,,,,cat7,https://www.flashscore.com/match/bFdtqGNq/#/match-summary/match-statistics/1
+130,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Arsenal,3,46,16,5,8,3,4,5,1,0,6,,,191,,15,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Southampton,1,54,6,1,4,1,8,1,0,2,4,,,236,,15,,,cat8,https://www.flashscore.com/match/SQM1jbV9/#/match-summary/match-statistics/2
+131,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Arsenal,0,72,13,1,5,7,5,8,0,1,4,0,,345,,,,,05.10.2024 16:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Southampton,0,28,2,1,0,1,4,0,0,1,5,3,,159,,,,,cat9,https://www.flashscore.com/match/SQM1jbV9/#/match-summary/match-statistics/1
+132,05.10.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Everton,0,37,5,0,5,0,5,0,0,2,2,0,,161,,19,,,05.10.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Newcastle,0,63,9,2,3,4,2,4,2,0,5,2,,290,,25,,,cat10,https://www.flashscore.com/match/l0Zi1FqS/#/match-summary/match-statistics/2
+133,05.10.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Everton,0,29,3,2,0,1,4,0,2,1,10,1,,149,,,,,05.10.2024 18:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Newcastle,0,71,5,1,3,1,10,6,1,2,3,0,,366,,,,,cat11,https://www.flashscore.com/match/l0Zi1FqS/#/match-summary/match-statistics/1
+134,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Chelsea,1,67,13,6,5,2,5,10,0,6,8,5,0,238,,,,,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Nottingham,1,33,10,7,0,3,1,3,2,5,5,3,1,123,,,,,cat12,https://www.flashscore.com/match/nywy5cp3/#/match-summary/match-statistics/2
+135,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Chelsea,0,65,9,2,4,3,7,1,1,2,4,1,,344,,,,,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Nottingham,0,35,6,2,1,3,5,0,1,2,6,1,,173,,,,,cat13,https://www.flashscore.com/match/nywy5cp3/#/match-summary/match-statistics/1
+136,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Aston Villa,0,58,7,1,5,1,5,5,0,2,5,1,,198,,,,,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Manchester Utd,0,42,8,2,4,2,6,3,0,1,5,2,,138,,,,,cat14,https://www.flashscore.com/match/ltBAlx0M/#/match-summary/match-statistics/2
+137,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Aston Villa,0,50,4,0,2,2,7,1,0,2,7,0,,214,,,,,06.10.2024 15:00,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Manchester Utd,0,50,2,2,0,0,7,0,1,0,6,3,,218,,,,,cat15,https://www.flashscore.com/match/ltBAlx0M/#/match-summary/match-statistics/1
+138,06.10.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Brighton,3,45,6,4,1,1,6,3,0,1,8,,,153,,12,,,06.10.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Tottenham,0,55,7,1,5,1,9,5,1,1,5,,,241,,20,,,cat16,https://www.flashscore.com/match/fsjksfhd/#/match-summary/match-statistics/2
+139,06.10.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Brighton,0,37,5,0,4,1,5,1,2,0,6,,,198,,,,,06.10.2024 17:30,"FOOTBALL
+ENGLAND: PREMIER LEAGUE - ROUND 7",Tottenham,2,63,6,2,2,2,7,2,1,0,5,,,271,,,,,cat17,https://www.flashscore.com/match/fsjksfhd/#/match-summary/match-statistics/1
