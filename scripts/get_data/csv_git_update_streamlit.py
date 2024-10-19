@@ -30,13 +30,12 @@ cursor.execute("USE xg")  # select the database
 cursor.execute("SHOW TABLES")
 
 # %%
-saissons_2021 = [
-    'bundesliga2021', 'epl2021', 'la_liga2021', 'ligue_12021', 'serie_a2021',
-    'bundesliga2022', 'epl2022', 'la_liga2022', 'ligue_12022', 'serie_a2022',
-    'bundesliga2023', 'epl2023', 'la_liga2023', 'ligue_12023', 'serie_a2023',
+# TODO: New saison 2025 2026, change here the names to xx_2025
+saissons = [
+    'bundesliga2024', 'epl2024', 'la_liga2024', 'ligue_12024', 'serie_a2024',
 ]
 
-for saison in saissons_2021:
+for saison in saissons:
     # get all teamnames
     queryall = "SELECT * FROM {}".format(saison)
     print(queryall)
@@ -84,23 +83,13 @@ cursor.execute("USE htdatan")  # select the database
 cursor.execute("SHOW TABLES")
 
 # %%
-saissons_ht_2021 = ['b_2122',
-                    'l1_2122',
-                    'll_2122',
-                    'pl_2122',
-                    'sa_2122',
-
-                    'b_2223',
-                    'll_2223',
-                    'l1_2223',
-                    'pl_2223',
-                    'sa_2223',
-
-                    'b_2324',
-                    'll_2324',
-                    'l1_2324',
-                    'pl_2324',
-                    'sa_2324',
+# TODO: New saison 2025 2026, change here the names!
+saissons_ht_2021 = [    
+                    'b_2425',
+                    'll_2425',
+                    'l1_2425',
+                    'pl_2425',
+                    'sa_2425',
                     ]
 
 for saison in saissons_ht_2021:
