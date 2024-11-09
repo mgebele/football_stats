@@ -26,6 +26,8 @@ global widthfig
 widthfig = 700
 heightfig = 600
 
+title_x=.2 # alignment of title of plotly diagrams. 0 = left, 1 = right
+
 # get all the gamestatistics from in dropdown specified league and season
 # setup the database connection.  There's no need to setup cursors with pandas psql.
 tables = list(glob.glob("data/htdatan/*"))
@@ -804,7 +806,7 @@ def page_teamx():
             )
         )
     fig_xg_perminute_home.update_layout(
-        title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=0.5,
+        title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -833,7 +835,7 @@ def page_teamx():
             )
         )
     fig_xg_homexg_complete_game_all_bpse.update_layout(
-        title_text='Expectedgoals per minute', title_x=0.5,
+        title_text='Expectedgoals per minute', title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -864,7 +866,7 @@ def page_teamx():
             )
         )
     fig_xg_perminute_home_bigger_55.update_layout(
-        title_text='Expectedgoals per minute: bp > 55', title_x=0.5,
+        title_text='Expectedgoals per minute: bp > 55', title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -895,7 +897,7 @@ def page_teamx():
             )
         )
     fig_xg_perminute_home_smaller_45.update_layout(
-        title_text='Expectedgoals per minute: bp < 45', title_x=0.5,
+        title_text='Expectedgoals per minute: bp < 45', title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -906,7 +908,7 @@ def page_teamx():
     fig_xg_perminute_home_smaller_45.update_yaxes(range=[(dfxg_awayxg_complete_game.mean().max()+0.02)*-1, dfxg_homexg_complete_game.mean().max()+0.02])
 
 
-    figScatter = px.scatter(
+    figScatter_SoG_SoGA = px.scatter(
         df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
         x='BP-H',
         y='GoalDiff',
@@ -922,23 +924,23 @@ def page_teamx():
     ).update_traces(
         marker=dict(color='green'), selector={'type': 'histogram'}
     )
-    figScatter.update_xaxes(range=[5, 95])
-    figScatter.update_layout(
-        title_text='All halftimes: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    figScatter_SoG_SoGA.update_xaxes(range=[5, 95])
+    figScatter_SoG_SoGA.update_layout(
+        title_text='All halftimes: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
             dtick=1,
             title="Goal difference"
         ))
-    figScatter.update_layout(legend=dict(
+    figScatter_SoG_SoGA.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
         x=1.12
     ))
 
-    figScatter1 = px.scatter(
+    figScatter_SoGA_soG = px.scatter(
         df4CompleteGraph.sort_values("IsHome", ascending=False),  # .query(f'Date.between{end_date}'),
         x='BP-H',
         y='GoalDiff',
@@ -959,9 +961,9 @@ def page_teamx():
         textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray").update_traces(
             marker=dict(color='red'), selector={'type': 'histogram'}
     )
-    figScatter1.update_xaxes(range=[5, 95])
-    figScatter1.update_layout(
-        title_text='All halftimes: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    figScatter_SoGA_soG.update_xaxes(range=[5, 95])
+    figScatter_SoGA_soG.update_layout(
+        title_text='All halftimes: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -969,7 +971,7 @@ def page_teamx():
             title="Goal difference"
         )
     )
-    figScatter1.update_layout(legend=dict(
+    figScatter_SoGA_soG.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -985,7 +987,7 @@ def page_teamx():
     df4CompleteGraph["halftime"] = "0"
     df4CompleteGraph['halftime'] = np.where(df4CompleteGraph.index % 2, '1', '2')
 
-    figScatter5 = px.scatter(
+    figScatter_h1_soG_SoGA = px.scatter(
         # .query(f'Date.between{end_date}'),
         df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
         x='BP-H',
@@ -1002,23 +1004,23 @@ def page_teamx():
     ).update_traces(marker=dict(
         color='green'), selector={'type': 'histogram'}
     )
-    figScatter5.update_xaxes(range=[5, 95])
-    figScatter5.update_layout(
-        title_text='Halftime 1: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    figScatter_h1_soG_SoGA.update_xaxes(range=[5, 95])
+    figScatter_h1_soG_SoGA.update_layout(
+        title_text='Halftime 1: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
             dtick=1,
             title="Goal difference"
         ))
-    figScatter5.update_layout(legend=dict(
+    figScatter_h1_soG_SoGA.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
         x=1.12
     ))
 
-    figScatter6 = px.scatter(
+    figScatter_h1_SoGA_soG = px.scatter(
         # .query(f'Date.between{end_date}'),
         df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
         x='BP-H',
@@ -1035,16 +1037,16 @@ def page_teamx():
     ).update_traces(marker=dict(
         color='red'), selector={'type': 'histogram'}
     )
-    figScatter6.update_xaxes(range=[5, 95])
-    figScatter6.update_layout(
-        title_text='Halftime 1: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    figScatter_h1_SoGA_soG.update_xaxes(range=[5, 95])
+    figScatter_h1_SoGA_soG.update_layout(
+        title_text='Halftime 1: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
             dtick=1,
             title="Goal difference"
         ))
-    figScatter6.update_layout(legend=dict(
+    figScatter_h1_SoGA_soG.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1052,7 +1054,7 @@ def page_teamx():
     ))
 
 
-    figScatter7 = px.scatter(
+    figScatter_h2_SoG_SoGA = px.scatter(
         # .query(f'Date.between{end_date}'),
         df4CompleteGraph[df4CompleteGraph["halftime"] == "2"].sort_values("IsHome", ascending=False),
         x='BP-H',
@@ -1069,9 +1071,9 @@ def page_teamx():
     ).update_traces(marker=dict(
         color='green'), selector={'type': 'histogram'}
     )
-    figScatter7.update_xaxes(range=[5, 95])
-    figScatter7.update_layout(
-        title_text='Halftime 2: Shots on Goal - Shots on Goal Opponent', title_x=0.5,
+    figScatter_h2_SoG_SoGA.update_xaxes(range=[5, 95])
+    figScatter_h2_SoG_SoGA.update_layout(
+        title_text='Halftime 2: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1079,7 +1081,7 @@ def page_teamx():
             title="Goal difference"
         )
     )
-    figScatter7.update_layout(legend=dict(
+    figScatter_h2_SoG_SoGA.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1087,7 +1089,7 @@ def page_teamx():
     ))
 
 
-    figScatter8 = px.scatter(
+    figScatter_h2_SoGA_SoG = px.scatter(
         # .query(f'Date.between{end_date}'),
         df4CompleteGraph[df4CompleteGraph["halftime"] == "2"].sort_values("IsHome", ascending=False),
         x='BP-H',
@@ -1104,16 +1106,16 @@ def page_teamx():
     ).update_traces(marker=dict(
         color='red'), selector={'type': 'histogram'}
     )
-    figScatter8.update_xaxes(range=[5, 95])
-    figScatter8.update_layout(
-        title_text='Halftime 2: Shots on Goal Opponent - Shots on Goal', title_x=0.5,
+    figScatter_h2_SoGA_SoG.update_xaxes(range=[5, 95])
+    figScatter_h2_SoGA_SoG.update_layout(
+        title_text='Halftime 2: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
             dtick=1,
             title="Goal difference"
         ))
-    figScatter8.update_layout(legend=dict(
+    figScatter_h2_SoGA_SoG.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1171,20 +1173,17 @@ def page_teamx():
         x='BPTypes',
         y='count',
         # text=df4CompleteGraph.index,
-        # title="BP-Styles - Halftimes",
         color='Halftime result',
         color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
         width=widthfig,
         # height=heightfig,
-        # opacity=0.5,
         text="Opponent",
     )
-
     BarBallpossesionstylesResultsHalftime1.update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55'],).update_yaxes(
         range=[0, highest_count_yaxis])
 
     BarBallpossesionstylesResultsHalftime1.update_layout(
-        title_text='Ballpossesionstyles - results halftime 1', title_x=0.5, xaxis=dict(
+        title_text='Ballpossesionstyles - results halftime 1', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
@@ -1195,19 +1194,16 @@ def page_teamx():
         x='BPTypes',
         y='count',
         # text=df4CompleteGraph.index,
-        # title="BP-Styles - Halftimes",
         color='Halftime result',
         color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
         width=widthfig,
         # height=heightfig,
-        # opacity=0.5,
         text="Opponent",
     )
-
     BarBallpossesionstylesResultsHalftime2.update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
     BarBallpossesionstylesResultsHalftime2.update_layout(
-        title_text='Ballpossesionstyles - results halftime 2', title_x=0.5, xaxis=dict(
+        title_text='Ballpossesionstyles - results halftime 2', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
@@ -1224,21 +1220,25 @@ def page_teamx():
     # all values for first half
     df4CompleteGraph["xg_halftime-Axg_halftime"] = df4CompleteGraph["xg_halftime"] - df4CompleteGraph["Axg_halftime"]
     df4CompleteGraph["Axg_halftime-xg_halftime"] = df4CompleteGraph["Axg_halftime"] - df4CompleteGraph["xg_halftime"]
+   
     # all values for second half
-    df4CompleteGraph["xg_halftime2-Axg_halftime2"] = df4CompleteGraph["xG-A_xG"] - df4CompleteGraph["xg_halftime-Axg_halftime"]
-    df4CompleteGraph["xg_halftime2-Axg_halftime2"] = df4CompleteGraph["xg_halftime2-Axg_halftime2"].clip(lower=0)
-    df4CompleteGraph["xg_halftime2-Axg_halftime2"] = df4CompleteGraph["xg_halftime2-Axg_halftime2"].round(2)
-    df4CompleteGraph["Axg_halftime2-xg_halftime2"] = df4CompleteGraph["xg_halftime-Axg_halftime"] - df4CompleteGraph["xG-A_xG"]
-    df4CompleteGraph["Axg_halftime2-xg_halftime2"] = df4CompleteGraph["Axg_halftime2-xg_halftime2"].clip(lower=0)
-    df4CompleteGraph["Axg_halftime2-xg_halftime2"] = df4CompleteGraph["Axg_halftime2-xg_halftime2"].round(2)
-    df4CompleteGraph["xG-A_xG"] = df4CompleteGraph["xG-A_xG"].clip(lower=0)
-    df4CompleteGraph["xG-A_xG"] = df4CompleteGraph["xG-A_xG"].round(2)
-    df4CompleteGraph["A_xG-xG"] = df4CompleteGraph["A_xG-xG"].clip(lower=0)
-    df4CompleteGraph["A_xG-xG"] = df4CompleteGraph["A_xG-xG"].round(2)
+    df4CompleteGraph["diff_xg_fulltime-diff_xg_halftime"] = df4CompleteGraph["xG-A_xG"] - df4CompleteGraph["xg_halftime-Axg_halftime"]
+    df4CompleteGraph["diff_Axg_fulltime-diff_Axg_halftime"] = df4CompleteGraph["A_xG-xG"] - df4CompleteGraph["Axg_halftime-xg_halftime"]
+ 
+    # formatting
+    df4CompleteGraph["diff_xg_fulltime-diff_xg_halftime"] = df4CompleteGraph["diff_xg_fulltime-diff_xg_halftime"].clip(lower=0)
+    df4CompleteGraph["diff_xg_fulltime-diff_xg_halftime"] = df4CompleteGraph["diff_xg_fulltime-diff_xg_halftime"].round(2)
+    df4CompleteGraph["diff_Axg_fulltime-diff_Axg_halftime"] = df4CompleteGraph["diff_Axg_fulltime-diff_Axg_halftime"].clip(lower=0)
+    df4CompleteGraph["diff_Axg_fulltime-diff_Axg_halftime"] = df4CompleteGraph["diff_Axg_fulltime-diff_Axg_halftime"].round(2)
     df4CompleteGraph["xg_halftime-Axg_halftime"] = df4CompleteGraph["xg_halftime-Axg_halftime"].clip(lower=0)
     df4CompleteGraph["xg_halftime-Axg_halftime"] = df4CompleteGraph["xg_halftime-Axg_halftime"].round(2)
     df4CompleteGraph["Axg_halftime-xg_halftime"] = df4CompleteGraph["Axg_halftime-xg_halftime"].clip(lower=0)
     df4CompleteGraph["Axg_halftime-xg_halftime"] = df4CompleteGraph["Axg_halftime-xg_halftime"].round(2)
+    df4CompleteGraph["xG-A_xG"] = df4CompleteGraph["xG-A_xG"].clip(lower=0)
+    df4CompleteGraph["xG-A_xG"] = df4CompleteGraph["xG-A_xG"].round(2)
+    df4CompleteGraph["A_xG-xG"] = df4CompleteGraph["A_xG-xG"].clip(lower=0)
+    df4CompleteGraph["A_xG-xG"] = df4CompleteGraph["A_xG-xG"].round(2)
+
 
     print(df4CompleteGraph[["xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
     ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == "1"]
@@ -1263,7 +1263,7 @@ def page_teamx():
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
     BarBallpossesionstylesXGHalftime1.update_layout(
-        title_text='Ballpossesionstyles - xG halftime 1', title_x=0.5, xaxis=dict(
+        title_text='Ballpossesionstyles - xG halftime 1', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
@@ -1279,12 +1279,12 @@ def page_teamx():
     BarBallpossesionstylesXGHalftime2 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
         x='BPTypes',
-        y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
+        y=['diff_xg_fulltime-diff_xg_halftime', 'diff_Axg_fulltime-diff_Axg_halftime'],
         barmode='group',
         # text=df4CompleteGraph.index,
         # title="BP-Styles - Halftimes",
         # color='Halftime result',
-        color_discrete_map={"xg_halftime-Axg_halftime": "green", "Axg_halftime-xg_halftime": "red"},
+        color_discrete_map={"diff_xg_fulltime-diff_xg_halftime": "green", "diff_Axg_fulltime-diff_Axg_halftime": "red"},
         width=widthfig,
         # height=heightfig,
         # opacity=0.5,
@@ -1292,7 +1292,7 @@ def page_teamx():
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
     BarBallpossesionstylesXGHalftime2.update_layout(
-        title_text='Ballpossesionstyles - xG halftime 2', title_x=0.5, xaxis=dict(
+        title_text='Ballpossesionstyles - xG halftime 2', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
@@ -1324,7 +1324,7 @@ def page_teamx():
     )
     figHistogramxG_A_xG_1Ht.update_xaxes(range=[5, 95])
     figHistogramxG_A_xG_1Ht.update_layout(
-        title_text='Ht1: Expectedgoals - Expectedgoals Opponent', title_x=0.5,
+        title_text='Ht1: Expectedgoals - Expectedgoals Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1358,7 +1358,7 @@ def page_teamx():
     )
     figHistogramA_xG_xG_1Ht.update_xaxes(range=[5, 95])
     figHistogramA_xG_xG_1Ht.update_layout(
-        title_text='Ht1: Expectedgoals Opponent - Expectedgoals', title_x=0.5,
+        title_text='Ht1: Expectedgoals Opponent - Expectedgoals', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1387,7 +1387,7 @@ def page_teamx():
         marginal_x="histogram",
         color="timestamp",
         hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
-        size="xg_halftime2-Axg_halftime2",
+        size="diff_xg_fulltime-diff_xg_halftime",
         symbol = 'IsHome',
         symbol_sequence= ['diamond-cross', 'diamond'],
         text="Opponent",
@@ -1401,7 +1401,7 @@ def page_teamx():
     )
     figHistogramxG_A_xG_2Ht.update_xaxes(range=[5, 95])
     figHistogramxG_A_xG_2Ht.update_layout(
-        title_text='Ht2: Expectedgoals - Expectedgoals Opponent', title_x=0.5,
+        title_text='Ht2: Expectedgoals - Expectedgoals Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1422,7 +1422,7 @@ def page_teamx():
         marginal_x="histogram",
         color="timestamp",
         hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
-        size="Axg_halftime2-xg_halftime2",
+        size="diff_Axg_fulltime-diff_Axg_halftime",
         symbol = 'IsHome',
         symbol_sequence= ['circle-x', 'circle'],
         text="Opponent",
@@ -1435,7 +1435,7 @@ def page_teamx():
     )
     figHistogramA_xG_xG_2Ht.update_xaxes(range=[5, 95])
     figHistogramA_xG_xG_2Ht.update_layout(
-        title_text='Ht2: Expectedgoals Opponent - Expectedgoals', title_x=0.5,
+        title_text='Ht2: Expectedgoals Opponent - Expectedgoals', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1461,16 +1461,16 @@ def page_teamx():
     col2.plotly_chart(BarBallpossesionstylesXGHalftime2)
 
     col1.plotly_chart(figHistogramxG_A_xG_1Ht)
-    col2.plotly_chart(figHistogramA_xG_xG_1Ht)
     col1.plotly_chart(figHistogramxG_A_xG_2Ht)
+    col2.plotly_chart(figHistogramA_xG_xG_1Ht)
     col2.plotly_chart(figHistogramA_xG_xG_2Ht)
 
-    col1.plotly_chart(figScatter)
-    col2.plotly_chart(figScatter1)
-    col1.plotly_chart(figScatter5)
-    col2.plotly_chart(figScatter6)
-    col1.plotly_chart(figScatter7)
-    col2.plotly_chart(figScatter8)
+    col1.plotly_chart(figScatter_SoG_SoGA)
+    col2.plotly_chart(figScatter_SoGA_soG)
+    col1.plotly_chart(figScatter_h1_soG_SoGA)
+    col1.plotly_chart(figScatter_h2_SoG_SoGA)
+    col2.plotly_chart(figScatter_h1_SoGA_soG)
+    col2.plotly_chart(figScatter_h2_SoGA_SoG)
 
     st.plotly_chart(fig_xg_perminute_home)
     st.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
