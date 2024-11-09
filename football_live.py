@@ -1461,15 +1461,15 @@ def page_teamx():
     col2.plotly_chart(BarBallpossesionstylesXGHalftime2)
 
     col1.plotly_chart(figHistogramxG_A_xG_1Ht)
-    col1.plotly_chart(figHistogramxG_A_xG_2Ht)
-    col2.plotly_chart(figHistogramA_xG_xG_1Ht)
+    col1.plotly_chart(figHistogramA_xG_xG_1Ht)
+    col2.plotly_chart(figHistogramxG_A_xG_2Ht)
     col2.plotly_chart(figHistogramA_xG_xG_2Ht)
 
     col1.plotly_chart(figScatter_SoG_SoGA)
     col2.plotly_chart(figScatter_SoGA_soG)
     col1.plotly_chart(figScatter_h1_soG_SoGA)
-    col1.plotly_chart(figScatter_h2_SoG_SoGA)
-    col2.plotly_chart(figScatter_h1_SoGA_soG)
+    col1.plotly_chart(figScatter_h1_SoGA_soG)
+    col2.plotly_chart(figScatter_h2_SoG_SoGA)
     col2.plotly_chart(figScatter_h2_SoGA_SoG)
 
     st.plotly_chart(fig_xg_perminute_home)
