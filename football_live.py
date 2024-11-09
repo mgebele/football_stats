@@ -325,38 +325,38 @@ def df_cleaning_converting(df):
                 timing_chart = df["timing_chart_xg"].loc[index]
                 
                 # Away team XG at halftime
-                away_xg = None
+                home_xg = None
                 for minute in ['46', '45', '47']:
                     try:
                         if minute == '46':
-                            away_xg = timing_chart.split("46' Total xG:")[0].split("Total xG: ")[-1].split("\n")[0].replace(";", "")
+                            home_xg = timing_chart.split("46' Total xG:")[0].split("Total xG: ")[-1].split("\n")[0].replace(";", "")
                         else:
-                            away_xg = timing_chart.split(f"{int(minute)}' Total xG:")[0].split(f"{minute}' Total xG: ")[-1].split("\n")[0].replace(";", "")
+                            home_xg = timing_chart.split(f"{int(minute)}' Total xG:")[0].split(f"{minute}' Total xG: ")[-1].split("\n")[0].replace(";", "")
                         break
                     except Exception:
                         if minute == '46':
                             print(f"Could not find 46' Total xG for away team at index {index}, trying 45' or 47'")
                         continue
                 
-                if away_xg is None:
+                if home_xg is None:
                     print(f"Failed to extract away XG for all minute variations at index {index}")
                     continue
                 
                 # Home team XG at halftime
-                home_xg = None
+                away_xg = None
                 for minute in ['45', '44', '46']:
                     try:
                         if minute == '45':
-                            home_xg = timing_chart.split("45' Total xG: ")[1].split(";45' Total xG:")[0].split("\n")[0].replace(";", "")
+                            away_xg = timing_chart.split("45' Total xG: ")[1].split(";45' Total xG:")[0].split("\n")[0].replace(";", "")
                         else:
-                            home_xg = timing_chart.split(f"{minute}' Total xG: ")[1].split(f";{minute}' Total xG:")[0].split("\n")[0].replace(";", "")
+                            away_xg = timing_chart.split(f"{minute}' Total xG: ")[1].split(f";{minute}' Total xG:")[0].split("\n")[0].replace(";", "")
                         break
                     except Exception:
                         if minute == '45':
                             print(f"Could not find 45' Total xG for home team at index {index}, trying 44' or 46'")
                         continue
                 
-                if home_xg is None:
+                if away_xg is None:
                     print(f"Failed to extract home XG for all minute variations at index {index}")
                     continue
                     
