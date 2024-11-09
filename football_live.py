@@ -303,11 +303,11 @@ def process_team_names_of_df(x_df):
 #######################################################
 
 def df_cleaning_converting(df):
-    df = df[['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
+    df = df[['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'H_Goal Attempts', 'A_Goal Attempts',
              'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',"H_Red Cards", "A_Red Cards",
              'A_Free Kicks', 'H_Corner Kicks', 'A_Corner Kicks', 'H_Offsides', 'A_Offsides', 'H_Goalkeeper Saves', 'A_Goalkeeper Saves',
              'H_Fouls', 'A_Fouls', 'A_gameinfo', 'A_datetime', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'timing_chart_xg', "homexg_complete_game", "awayxg_complete_game"]]
-    df = df.drop_duplicates(subset=['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'A_Goal Attempts', 'H_Goal Attempts',
+    df = df.drop_duplicates(subset=['H_Teamnames', 'A_Teamnames', 'H_Goals', 'A_Goals', 'H_Ball Possession', 'A_Ball Possession', 'H_Goal Attempts', 'A_Goal Attempts',
              'H_Shots on Goal', 'A_Shots on Goal', 'H_Shots off Goal', 'A_Shots off Goal', 'H_Free Kicks',"H_Red Cards", "A_Red Cards",
              'A_Free Kicks', 'H_Corner Kicks', 'A_Corner Kicks', 'H_Offsides', 'A_Offsides', 'H_Goalkeeper Saves', 'A_Goalkeeper Saves',
              'H_Fouls', 'A_Fouls', 'A_gameinfo', 'A_datetime', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS'], keep='first')
@@ -654,8 +654,8 @@ def page_teamx():
     df4Complete = df4Complete.sort_values("Date", ascending=False)
     df4Complete = df4Complete.round(1)
 
-    df4Complete[['xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]] = df4Complete[['xG',
-                                                                                                                                'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]].apply(pd.to_numeric, errors='coerce', axis=1)
+    df4Complete[['xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]] = df4Complete[[
+                 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]].apply(pd.to_numeric, errors='coerce', axis=1)
 
     df4Complete['A_Red Cards'] = df4Complete['A_Red Cards'].fillna(0)
     df4Complete['H_Red Cards'] = df4Complete['H_Red Cards'].fillna(0)
