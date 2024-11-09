@@ -316,20 +316,62 @@ def df_cleaning_converting(df):
 
     df['timing_chart_xg'] = df['timing_chart_xg'].astype('str') 
 
-    # calculate halftime xG for both teams!
-    df['xg_halftime'] = -1
-    df['Axg_halftime'] = -1
-    for index, row in df.iterrows():
-        print(index)
-        try:    
-            # away team xg at halfime!
-            df['Axg_halftime'].loc[index] = df["timing_chart_xg"].loc[index].split("46' Total xG:")[0].split("Total xG: ")[-1].split("\n")[0].replace(";", "")  
-            # home team xg at halfime!
-            df['xg_halftime'].loc[index] = df["timing_chart_xg"].loc[index].split("45' Total xG: ")[1].split(";45' Total xG:")[0].split("\n")[0].replace(";", "") 
-        except Exception:
-            print("WRONG! index: ", index)
-            # print(row)
-            # print(traceback.format_exc())
+    def extract_xg_values(df):
+        """ Extracts the xG values from the timing_chart_xg columnn.
+            This contains a string formatted as a list of xG values for each minute.
+        """
+        for index, _ in df.iterrows():
+            try:
+                timing_chart = df["timing_chart_xg"].loc[index]
+                
+                # Away team XG at halftime
+                away_xg = None
+                for minute in ['46', '45', '47']:
+                    try:
+                        if minute == '46':
+                            away_xg = timing_chart.split("46' Total xG:")[0].split("Total xG: ")[-1].split("\n")[0].replace(";", "")
+                        else:
+                            away_xg = timing_chart.split(f"{int(minute)}' Total xG:")[0].split(f"{minute}' Total xG: ")[-1].split("\n")[0].replace(";", "")
+                        break
+                    except Exception:
+                        if minute == '46':
+                            print(f"Could not find 46' Total xG for away team at index {index}, trying 45' or 47'")
+                        continue
+                
+                if away_xg is None:
+                    print(f"Failed to extract away XG for all minute variations at index {index}")
+                    continue
+                
+                # Home team XG at halftime
+                home_xg = None
+                for minute in ['45', '44', '46']:
+                    try:
+                        if minute == '45':
+                            home_xg = timing_chart.split("45' Total xG: ")[1].split(";45' Total xG:")[0].split("\n")[0].replace(";", "")
+                        else:
+                            home_xg = timing_chart.split(f"{minute}' Total xG: ")[1].split(f";{minute}' Total xG:")[0].split("\n")[0].replace(";", "")
+                        break
+                    except Exception:
+                        if minute == '45':
+                            print(f"Could not find 45' Total xG for home team at index {index}, trying 44' or 46'")
+                        continue
+                
+                if home_xg is None:
+                    print(f"Failed to extract home XG for all minute variations at index {index}")
+                    continue
+                    
+                # Assign values to dataframe
+                df.loc[index, 'Axg_halftime'] = away_xg
+                df.loc[index, 'xg_halftime'] = home_xg
+                
+            except Exception as e:
+                print(f"Error processing index {index}: {str(e)}")
+                continue
+        
+        return df
+
+    df = extract_xg_values(df)
+
 
     df.xg_halftime = df.xg_halftime.astype(float).fillna(0.0)
     df.Axg_halftime = df.Axg_halftime.astype(float).fillna(0.0) 
