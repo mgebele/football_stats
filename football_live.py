@@ -1,16 +1,17 @@
-from utils.oracle import oracle_conn
-db = oracle_conn.OracleDB()
-
 import glob
 import pandas as pd
 import numpy as np
 import re
 import plotly_express as px
+import datetime
 import warnings
+import os
 import json
+import traceback
 import streamlit as st
 import plotly.graph_objects as go
 from pathlib import Path
+
 st.set_page_config(layout="wide")
 pd.options.display.float_format = "{:,.1f}".format
 warnings.filterwarnings('ignore')
@@ -31,10 +32,20 @@ title_x=.2 # alignment of title of plotly diagrams. 0 = left, 1 = right
 # setup the database connection.  There's no need to setup cursors with pandas psql.
 tables = list(glob.glob("data/htdatan/*"))
 
-df_list_all_tables = db.list_htdatan_tables()
-list_all_tables = df_list_all_tables['TABLE_NAME'].tolist()
-list_htdatan_tables = [name for name in list_all_tables if not name.startswith('XG_')]
-cleaned_names_saissons = [name.replace('_', ' ').lower() for name in list_htdatan_tables if not name.startswith('XG_')]
+# take only the 0 part of the every list entry
+global saissons
+saissons = []
+
+for x in range(0, len(tables)):
+    saissons.append(Path(tables[x]).parts[2].split("_24102021.csv")[0])
+
+
+cleaned_names_saissons = []
+for saisson in saissons:
+    saisson = saisson.replace("_", " ")
+    saisson = saisson.replace(".csv", "")
+    # saison = saison.strip()
+    cleaned_names_saissons.append(saisson)
 
 # map league shortcuts to real names:
 shortcut_league_dict = {
@@ -45,7 +56,7 @@ shortcut_league_dict = {
     "l1": "League-1",
     "b": "Bundesliga",
 }
-
+# list(map(cleaned_names_saissons, shortcut_league_dict) )
 cleaned_names_saissons = [e.replace(
     key, val) for e in cleaned_names_saissons for key, val in shortcut_league_dict.items() if key in e]
 
@@ -65,14 +76,23 @@ def find_key(input_dict, value):
     return "None"
 
 saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
-                        saison.split(" ")[1])
+                        saison.split(" ")[1]
+                        )
 
-df_complete_saison = db.show_table(saison)
+try:
+    df_complete_saison = pd.read_csv(
+        "data/htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
+except:
+    df_complete_saison = pd.read_csv(
+        "data/htdatan/"+saison+"_24102021.csv", index_col=0, encoding='utf-8')
 
 df_complete_saison = df_complete_saison.replace(teamnamedict)
 dfallteamnamesl = df_complete_saison.H_TEAMNAMES.unique()
 
-# Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
+
+
+
+# Schritt 3: Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
 def assign_points(row, team_type):
     if team_type == 'H': # and row['BP-H'] > 59
         if row['Halbzeit_Ergebnis_H'] == 'Gewinn':
@@ -181,70 +201,69 @@ def page_league_table():
     error_list = []
 
     for team in df_complete_saison["H_TEAMNAMES"].unique():
-        # try:
-        # teamname corrected that it fits to htdatan teamnames
-        # team = df_complete_saison["H_TEAMNAMES"].unique()[0]
-        dfxg = load_xg_saison_oracle(saison)
+        try:
+            # teamname corrected that it fits to htdatan teamnames
+            # team = df_complete_saison["H_TEAMNAMES"].unique()[0]
+            dfxg = load_xg_season_stats_sql(saison)
 
-        # convert xg teamnames to correct ones that are used in htdatan
-        dfxg = process_team_names_of_df(dfxg)
+            # convert xg teamnames to correct ones that are used in htdatan
+            dfxg = process_team_names_of_df(dfxg)
 
-        # rename columns for
-        dfxg_rename = dfxg.rename(
-            columns={'TEAMS': 'H_TEAMNAMES', 'A_TEAMS': 'A_TEAMNAMES'})
+            # rename columns for
+            dfxg_rename = dfxg.rename(
+                columns={'TEAMS': 'H_TEAMNAMES', 'A_TEAMS': 'A_TEAMNAMES'})
 
-        dfxg_df_merged = pd.merge(
-            df_complete_saison, dfxg_rename, on=["H_TEAMNAMES", "A_TEAMNAMES"])
-        df = dfxg_df_merged.drop_duplicates()
+            dfxg_df_merged = pd.merge(
+                df_complete_saison, dfxg_rename, on=["H_TEAMNAMES", "A_TEAMNAMES"])
+            df = dfxg_df_merged.drop_duplicates()
 
-        # the following is only so the functions have the expecting columns
-        df["HOMEXG_COMPLETE_GAME"] = ""
-        df["AWAYXG_COMPLETE_GAME"] = ""
-        df["last_game_minute"] = -1
-        df["start_min_game"] = -1
+            # the following is only so the functions have the expecting columns
+            df["HOMEXG_COMPLETE_GAME"] = ""
+            df["AWAYXG_COMPLETE_GAME"] = ""
+            df["last_game_minute"] = -1
+            df["start_min_game"] = -1
 
-        # rename xg table columns
-        df.rename(columns={'A_GOALS_x': 'A_GOALS'}, inplace=True)
-        df.rename(columns={'A_GOALS_y': 'A_GOALS_COMPLETE_GAME'}, inplace=True)
+            # rename xg table columns
+            df.rename(columns={'A_GOALS_x': 'A_GOALS'}, inplace=True)
+            df.rename(columns={'A_GOALS_y': 'A_GOALS_COMPLETE_GAME'}, inplace=True)
 
-        dfxg_df_merged_cleaned = df_cleaning_converting(df)
+            dfxg_df_merged_cleaned = df_cleaning_converting(df)
 
-        df4Home, df4OpponentReversed = df_specific_team(
-            dfxg_df_merged_cleaned, team)
-        dfxg_df_merged_cleaned = create_df4Complete(df4Home, df4OpponentReversed)
+            df4Home, df4OpponentReversed = df_specific_team(
+                dfxg_df_merged_cleaned, team)
+            dfxg_df_merged_cleaned = create_df4Complete(df4Home, df4OpponentReversed)
 
-        # Sortieren des DataFrames nach Index (falls erforderlich)
-        dfxg_df_merged_cleaned = dfxg_df_merged_cleaned.sort_index()
+            # Sortieren des DataFrames nach Index (falls erforderlich)
+            dfxg_df_merged_cleaned = dfxg_df_merged_cleaned.sort_index()
 
-        # Berechnen der xG-Werte für die zweite Halbzeit und Aktualisieren der 'xg_halftime'-Spalte
-        for i in range(1, len(dfxg_df_merged_cleaned), 2):  # Start bei 1 und springe jede zweite Zeile
-            if dfxg_df_merged_cleaned.iloc[i]['Home'] == dfxg_df_merged_cleaned.iloc[i-1]['Home'] and dfxg_df_merged_cleaned.iloc[i]['Opponent'] == dfxg_df_merged_cleaned.iloc[i-1]['Opponent']:
-                dfxg_df_merged_cleaned.at[i, 'xg_halftime'] = dfxg_df_merged_cleaned.iloc[i]['xG'] - dfxg_df_merged_cleaned.iloc[i-1]['xg_halftime']
-                dfxg_df_merged_cleaned.at[i, 'Axg_halftime'] = dfxg_df_merged_cleaned.iloc[i]['A_xG'] - dfxg_df_merged_cleaned.iloc[i-1]['Axg_halftime']
-        
-        dfxg_df_merged_cleaned['Halbzeit_Ergebnis_H'] = dfxg_df_merged_cleaned.apply(calc_halftime_result_h, axis=1)
-        dfxg_df_merged_cleaned['Halbzeit_Ergebnis_A'] = dfxg_df_merged_cleaned.apply(calc_halftime_result_a, axis=1)
+            # Berechnen der xG-Werte für die zweite Halbzeit und Aktualisieren der 'xg_halftime'-Spalte
+            for i in range(1, len(dfxg_df_merged_cleaned), 2):  # Start bei 1 und springe jede zweite Zeile
+                if dfxg_df_merged_cleaned.iloc[i]['Home'] == dfxg_df_merged_cleaned.iloc[i-1]['Home'] and dfxg_df_merged_cleaned.iloc[i]['Opponent'] == dfxg_df_merged_cleaned.iloc[i-1]['Opponent']:
+                    dfxg_df_merged_cleaned.at[i, 'xg_halftime'] = dfxg_df_merged_cleaned.iloc[i]['xG'] - dfxg_df_merged_cleaned.iloc[i-1]['xg_halftime']
+                    dfxg_df_merged_cleaned.at[i, 'Axg_halftime'] = dfxg_df_merged_cleaned.iloc[i]['A_xG'] - dfxg_df_merged_cleaned.iloc[i-1]['Axg_halftime']
+            
+            dfxg_df_merged_cleaned['Halbzeit_Ergebnis_H'] = dfxg_df_merged_cleaned.apply(calc_halftime_result_h, axis=1)
+            dfxg_df_merged_cleaned['Halbzeit_Ergebnis_A'] = dfxg_df_merged_cleaned.apply(calc_halftime_result_a, axis=1)
 
-        # now it should not be called Home Away but Team and Opposition!
+            # now it should not be called Home Away but Team and Opposition!
 
-        # st.write(dfxg_df_merged_cleaned)
+            # st.write(dfxg_df_merged_cleaned)
 
-        table_ballpositionstyle = get_table_ballpositionstyle(dfxg_df_merged_cleaned)
-        table_counterstyle = get_table_counterstyle(dfxg_df_merged_cleaned)
-        table_evenstyle = get_table_even(dfxg_df_merged_cleaned)
+            table_ballpositionstyle = get_table_ballpositionstyle(dfxg_df_merged_cleaned)
+            table_counterstyle = get_table_counterstyle(dfxg_df_merged_cleaned)
+            table_evenstyle = get_table_even(dfxg_df_merged_cleaned)
 
-        # st.dataframe(table_ballpositionstyle[table_ballpositionstyle["Team"]==team])
-        # st.dataframe(table_counterstyle[table_counterstyle["Team"]==team])
-        # st.dataframe(table_evenstyle[table_evenstyle["Team"]==team])
+            # st.dataframe(table_ballpositionstyle[table_ballpositionstyle["Team"]==team])
+            # st.dataframe(table_counterstyle[table_counterstyle["Team"]==team])
+            # st.dataframe(table_evenstyle[table_evenstyle["Team"]==team])
 
-        result_table_ballpositionstyle_list.append(table_ballpositionstyle[table_ballpositionstyle["Team"]==team])
-        result_table_counterstyle_list.append(table_counterstyle[table_counterstyle["Team"]==team])
-        result_table_evenstyle_list.append(table_evenstyle[table_evenstyle["Team"]==team])
+            result_table_ballpositionstyle_list.append(table_ballpositionstyle[table_ballpositionstyle["Team"]==team])
+            result_table_counterstyle_list.append(table_counterstyle[table_counterstyle["Team"]==team])
+            result_table_evenstyle_list.append(table_evenstyle[table_evenstyle["Team"]==team])
 
-        # except:
-        #     print(f"error for team {team}")
-        #     error_list.append(team)
-
+        except:
+            print(f"error for team {team}")
+            error_list.append(team)
 
     # rename xg table columns
     df.rename(columns={'A_GOALS_x': 'A_GOALS'}, inplace=True)
@@ -540,41 +559,52 @@ def calc_stats(df4Complete):
 
     return C_WPercText, N_WPercText, BP_WPercText
 
-def convert_htdatan_to_xg_table_name(htdatan_table_name):
-    # Mapping from league codes to full league names
-    league_mapping = {
-        "B": "BUNDESLIGA",
-        "PL": "EPL",
-        "LL": "LA_LIGA",
-        "L1": "LIGUE_1",
-        "SA": "SERIE_A"
-    }
-
-    # Split the input into league code and season
-    league_code, season = htdatan_table_name.upper().split("_")
-    # Convert season to the correct year
-    start_year = "20" + season[:2]
-    full_season = start_year
-    # Map league code to full league name
-    full_league_name = league_mapping.get(league_code, league_code)
-    # Format and return the output
-    return f"XG_{full_league_name}{full_season}"
 
 # get name of the selected team in dropdown
-def load_xg_gamestats_oracle(saison, team):
-    xg_table_name = convert_htdatan_to_xg_table_name(saison)
-    df_complete_saison = db.show_table(xg_table_name)
+def load_xg_gamestats_sql(saison, team):
+
+    if saison.split("_")[0] == 'b':
+        xgprefix = 'bundesliga'
+    elif saison.split("_")[0] == 'l1':
+        xgprefix = 'ligue_1'
+    elif saison.split("_")[0] == 'll':
+        xgprefix = 'la_liga'
+    elif saison.split("_")[0] == 'pl':
+        xgprefix = 'epl'
+    elif saison.split("_")[0] == 'sa':
+        xgprefix = 'serie_a'
+
+    xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
+
+    df_complete_saison = pd.read_csv(
+        "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
 
     df_complete_saison = process_team_names_of_df(df_complete_saison)
 
     # execute the query and assign it to a pandas dataframe
     dfxg = df_complete_saison[(df_complete_saison.TEAMS == team) | (
         df_complete_saison.A_TEAMS == team)]
+
     return dfxg
 
-def load_xg_saison_oracle(saison):
-    xg_table_name = convert_htdatan_to_xg_table_name(saison)
-    df_complete_saison = db.show_table(xg_table_name)
+# get all teams for the selected season in dropdown
+def load_xg_season_stats_sql(saison):
+
+    if saison.split("_")[0] == 'b':
+        xgprefix = 'bundesliga'
+    elif saison.split("_")[0] == 'l1':
+        xgprefix = 'ligue_1'
+    elif saison.split("_")[0] == 'll':
+        xgprefix = 'la_liga'
+    elif saison.split("_")[0] == 'pl':
+        xgprefix = 'epl'
+    elif saison.split("_")[0] == 'sa':
+        xgprefix = 'serie_a'
+
+    xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
+
+    df_complete_saison = pd.read_csv(
+        "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
 
     df_complete_saison = process_team_names_of_df(df_complete_saison)
     return df_complete_saison
@@ -602,7 +632,7 @@ def page_teamx():
 
     
     df = process_team_names_of_df(df)
-    dfxg = load_xg_gamestats_oracle(saison, team)
+    dfxg = load_xg_gamestats_sql(saison, team)
 
     # rename columns for
     dfxg_rename = dfxg.rename(
@@ -657,10 +687,6 @@ def page_teamx():
 
     df_homexg_complete_game = df_homexg_complete_game.apply(pd.to_numeric)
     df_awayxg_complete_game = df_awayxg_complete_game.apply(pd.to_numeric)
-    
-    print("df")
-    print(df)
-    
     # rename xg table columns
     df.rename(columns={'A_GOALS_x': 'A_GOALS'}, inplace=True)
     df.rename(columns={'A_GOALS_y': 'A_GOALS_COMPLETE_GAME'}, inplace=True)
@@ -1477,7 +1503,7 @@ def page_teamx():
 
 
 # Erstelle ein Seitenleisten-Menü
-page = st.sidebar.radio("Choose a page:", ( 'Team Analyis', 'League Tables'))
+page = st.sidebar.radio("Choose a page:", ( 'League Tables', 'Team Analyis'))
 
 # Navigiere zur ausgewählten Seite
 if page == 'Team Analyis':
