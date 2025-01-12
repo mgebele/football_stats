@@ -13,11 +13,19 @@ class OracleDB:
         self._validate_env_vars()
         
     def _validate_env_vars(self):
-        required = ["DB_USER", "DB_PASSWORD", "DB_DSN"]
+        required = ["DB_HOST", "DB_PORT", "DB_SERVICE_NAME", "DB_USER", "DB_PASSWORD"]
         missing = [var for var in required if not os.getenv(var)]
         if missing:
             raise EnvironmentError(f"Missing environment variables: {', '.join(missing)}")
     
+    def _get_connection_string(self) -> str:
+        """Constructs a complete connection string from environment variables."""
+        return (
+            f"(DESCRIPTION="
+            f"(ADDRESS=(PROTOCOL=TCP)(HOST={os.getenv('DB_HOST')})(PORT={os.getenv('DB_PORT')}))"
+            f"(CONNECT_DATA=(SERVICE_NAME={os.getenv('DB_SERVICE_NAME')})))"
+        )
+
     def list_htdatan_tables(self) -> pd.DataFrame:
         query = """
         SELECT TABLE_NAME 
@@ -54,16 +62,19 @@ class OracleDB:
         try:
             if use_sqlalchemy:
                 from sqlalchemy import create_engine
-                engine = create_engine(
-                    f'oracle+oracledb://{os.getenv("DB_USER")}:{os.getenv("DB_PASSWORD")}@{os.getenv("DB_DSN")}'
+                connection_string = (
+                    f"oracle+oracledb://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}"
+                    f"@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}"
+                    f"/?service_name={os.getenv('DB_SERVICE_NAME')}"
                 )
+                engine = create_engine(connection_string)
                 yield engine
             else:
-                # Using thin mode by default (no thick client needed)
                 conn = oracledb.connect(
                     user=os.getenv("DB_USER"),
                     password=os.getenv("DB_PASSWORD"),
-                    dsn=os.getenv("DB_DSN"),
+                    dsn=self._get_connection_string(),
+                    thick_mode=False
                 )
                 yield conn
         except Exception as e:
