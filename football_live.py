@@ -1,5 +1,5 @@
 from utils.oracle import oracle_conn
-db = oracle_conn.OracleDB(is_cloud=False)
+db = oracle_conn.OracleDB()
 
 import glob
 import pandas as pd
