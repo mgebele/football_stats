@@ -74,7 +74,6 @@ class OracleDB:
                     user=os.getenv("DB_USER"),
                     password=os.getenv("DB_PASSWORD"),
                     dsn=self._get_connection_string(),
-                    thick_mode=False
                 )
                 yield conn
         except Exception as e:
