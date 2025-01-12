@@ -1,5 +1,3 @@
-# import sys
-# sys.path.append('C:/Users/gebel/github/football_data_aggr/utils')
 from utils.oracle import oracle_conn
 db = oracle_conn.OracleDB(is_cloud=False)
 
@@ -69,7 +67,6 @@ def find_key(input_dict, value):
 saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
                         saison.split(" ")[1])
 
-# connection = db.get_connection()
 df_complete_saison = db.show_table(saison)
 
 df_complete_saison = df_complete_saison.replace(teamnamedict)
