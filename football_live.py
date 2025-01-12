@@ -1,9 +1,7 @@
-# %%
-import sys
-sys.path.append('C:/Users/gebel/github/football_data_aggr/utils')
-
-import oracle_conn
-db = oracle_conn.OracleDB(is_cloud=False) 
+# import sys
+# sys.path.append('C:/Users/gebel/github/football_data_aggr/utils')
+from utils.oracle import oracle_conn
+db = oracle_conn.OracleDB(is_cloud=False)
 
 import glob
 import pandas as pd
@@ -71,16 +69,13 @@ def find_key(input_dict, value):
 saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
                         saison.split(" ")[1])
 
-connection = db.get_connection()
+# connection = db.get_connection()
 df_complete_saison = db.show_table(saison)
 
 df_complete_saison = df_complete_saison.replace(teamnamedict)
 dfallteamnamesl = df_complete_saison.H_TEAMNAMES.unique()
 
-
-
-
-# Schritt 3: Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
+# Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
 def assign_points(row, team_type):
     if team_type == 'H': # and row['BP-H'] > 59
         if row['Halbzeit_Ergebnis_H'] == 'Gewinn':
@@ -586,58 +581,6 @@ def load_xg_saison_oracle(saison):
 
     df_complete_saison = process_team_names_of_df(df_complete_saison)
     return df_complete_saison
-
-
-# get name of the selected team in dropdown
-def load_xg_gamestats_sql(saison, team):
-
-    if saison.split("_")[0] == 'b':
-        xgprefix = 'bundesliga'
-    elif saison.split("_")[0] == 'l1':
-        xgprefix = 'ligue_1'
-    elif saison.split("_")[0] == 'll':
-        xgprefix = 'la_liga'
-    elif saison.split("_")[0] == 'pl':
-        xgprefix = 'epl'
-    elif saison.split("_")[0] == 'sa':
-        xgprefix = 'serie_a'
-
-    xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
-
-    df_complete_saison = pd.read_csv(
-        "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
-
-    df_complete_saison = process_team_names_of_df(df_complete_saison)
-
-    # execute the query and assign it to a pandas dataframe
-    dfxg = df_complete_saison[(df_complete_saison.TEAMS == team) | (
-        df_complete_saison.A_TEAMS == team)]
-
-    return dfxg
-
-# get all teams for the selected season in dropdown
-def load_xg_season_stats_sql(saison):
-
-    if saison.split("_")[0] == 'b':
-        xgprefix = 'bundesliga'
-    elif saison.split("_")[0] == 'l1':
-        xgprefix = 'ligue_1'
-    elif saison.split("_")[0] == 'll':
-        xgprefix = 'la_liga'
-    elif saison.split("_")[0] == 'pl':
-        xgprefix = 'epl'
-    elif saison.split("_")[0] == 'sa':
-        xgprefix = 'serie_a'
-
-    xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
-
-    df_complete_saison = pd.read_csv(
-        "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
-
-    df_complete_saison = process_team_names_of_df(df_complete_saison)
-
-    return df_complete_saison
-
 
 # Definiere die Funktionen für jede Seite
 def page_teamx():
