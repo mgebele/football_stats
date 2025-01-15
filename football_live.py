@@ -237,7 +237,6 @@ def page_league_table():
             dfxg_df_merged_cleaned['Halbzeit_Ergebnis_A'] = dfxg_df_merged_cleaned.apply(calc_halftime_result_a, axis=1)
 
             # now it should not be called Home Away but Team and Opposition!
-
             # st.write(dfxg_df_merged_cleaned)
 
             table_ballpositionstyle = get_table_ballpositionstyle(dfxg_df_merged_cleaned)
@@ -384,18 +383,17 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
     df.Axg_halftime = df.Axg_halftime.astype(float).fillna(0.0) 
 
     for i in range(0, len(df)):
-        try:
-
-            if df["H_Goals"][i] > df["A_Goals"][i]:
-                df["R"][i] = 'H'
-            if df["H_Goals"][i] < df["A_Goals"][i]:
-                df["R"][i] = 'A'
-            else:
-                df["R"][i] = 'D'
-        except Exception as e:
-            print(f"Error at row index {i}: {e}")
-            traceback.print_exc() 
-            continue
+        # try:
+        if df["H_Goals"][i] > df["A_Goals"][i]:
+            df["R"][i] = 'H'
+        if df["H_Goals"][i] < df["A_Goals"][i]:
+            df["R"][i] = 'A'
+        else:
+            df["R"][i] = 'D'
+        # except Exception as e:
+        #     print(f"Error at row index {i}: {e}")
+        #     traceback.print_exc() 
+        #     continue
             
     print("!!!", df.columns)
     df.columns = ['Home', 'Opponent', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
