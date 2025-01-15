@@ -252,7 +252,7 @@ def page_league_table():
             result_table_evenstyle_list.append(table_evenstyle[table_evenstyle["Team"]==team])
 
         except:
-            print(f"error for team {team}")
+            # print(f"error for team {team}")
             error_list.append(team)
 
     # rename xg table columns
@@ -359,8 +359,8 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
                             home_xg = timing_chart.split(f"{minute}' Total xG: ")[1].split(f";{minute}' Total xG:")[0].split("\n")[0].replace(";", "")
                         break
                     except Exception:
-                        if minute == '45':
-                            print(f"Could not find 45' Total xG for home team at index {index}, trying 44' or 46'")
+                        # if minute == '45':
+                            # print(f"Could not find 45' Total xG for home team at index {index}, trying 44' or 46'")
                         continue
                 
                 if home_xg is None:
@@ -382,14 +382,13 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
     df.xg_halftime = df.xg_halftime.astype(float).fillna(0.0)
     df.Axg_halftime = df.Axg_halftime.astype(float).fillna(0.0) 
 
-    for i in range(0, len(df)):
-        # try:
-        if df["H_Goals"][i] > df["A_Goals"][i]:
-            df["R"][i] = 'H'
-        if df["H_Goals"][i] < df["A_Goals"][i]:
-            df["R"][i] = 'A'
+    for i in range(len(df)):
+        if df["H_GOALS"][i] > df["A_GOALS"][i]:
+            df.loc[i, "R"] = 'H'
+        elif df["H_GOALS"][i] < df["A_GOALS"][i]:
+            df.loc[i, "R"] = 'A'
         else:
-            df["R"][i] = 'D'
+            df.loc[i, "R"] = 'D'
         # except Exception as e:
         #     print(f"Error at row index {i}: {e}")
         #     traceback.print_exc() 
