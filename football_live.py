@@ -79,8 +79,17 @@ saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
                         saison.split(" ")[1])
 
 df_complete_saison = pd.read_csv("data/htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
-
 df_complete_saison = df_complete_saison.replace(teamnamedict)
+
+# adapt column names, because they are not the same for all seasons
+df_complete_saison.columns = df_complete_saison.columns.str.upper()
+df_complete_saison.columns = df_complete_saison.columns.str.replace(' ', '_')
+if 'HALFTIME' not in df_complete_saison.columns:
+    df_complete_saison['HALFTIME'] = np.nan
+
+print("df_complete_saison.columns")
+print(df_complete_saison.columns)
+
 dfallteamnamesl = df_complete_saison.H_TEAMNAMES.unique()
 
 # Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
@@ -251,9 +260,8 @@ def page_league_table():
             result_table_counterstyle_list.append(table_counterstyle[table_counterstyle["Team"]==team])
             result_table_evenstyle_list.append(table_evenstyle[table_evenstyle["Team"]==team])
 
-        except:
-            # print(f"error for team {team}")
-            error_list.append(team)
+        except Exception as e:
+            print(e)
 
     # rename xg table columns
     df.rename(columns={'A_GOALS_x': 'A_GOALS'}, inplace=True)
@@ -313,11 +321,12 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
     df = df[['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
             'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
             'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
-            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', 'TIMING_CHART_XG', "HOMEXG_COMPLETE_GAME", "AWAYXG_COMPLETE_GAME", "HALFTIME"]]
+            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', 'TIMING_CHART_XG', 
+            "HOMEXG_COMPLETE_GAME", "AWAYXG_COMPLETE_GAME", 'HALFTIME']]
     df = df.drop_duplicates(subset=['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
             'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
             'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
-            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', "HALFTIME"], keep='first')
+            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS'], keep='first')
     df = df.reset_index(drop=True)
     df["R"] = 'X'
 
@@ -382,30 +391,17 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
     df.xg_halftime = df.xg_halftime.astype(float).fillna(0.0)
     df.Axg_halftime = df.Axg_halftime.astype(float).fillna(0.0) 
 
-    for i in range(len(df)):
-        if df["H_GOALS"][i] > df["A_GOALS"][i]:
-            df.loc[i, "R"] = 'H'
-        elif df["H_GOALS"][i] < df["A_GOALS"][i]:
-            df.loc[i, "R"] = 'A'
-        else:
-            df.loc[i, "R"] = 'D'
-        # except Exception as e:
-        #     print(f"Error at row index {i}: {e}")
-        #     traceback.print_exc() 
-        #     continue
-            
-    print("!!!", df.columns)
     df.columns = ['Home', 'Opponent', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                 'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
                 'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A',
-                'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 
-                "timing_chart_xg", "homexg_complete_game", "awayxg_complete_game", 'R',  'xg_halftime', 
-                'Axg_halftime', 'halftime']
+                'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS',
+                "timing_chart_xg", "homexg_complete_game", "awayxg_complete_game", 'halftime', 'R',  'xg_halftime',
+                'Axg_halftime']
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
              'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-             'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 
+             'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS',
              'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", 'halftime']]
 
     df["IsHome"] = 0
@@ -415,8 +411,21 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
              'F-A', 'Round', 'Date', 'IsHome', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS',
              'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", 'halftime']]
-    return df
 
+    for i in range(len(df)):
+        try:
+            if df["G-H"].iloc[i] > df["G-A"].iloc[i]:
+                df.loc[i, "R"] = 'H'
+            elif df["G-H"].iloc[i] < df["G-A"].iloc[i]:
+                df.loc[i, "R"] = 'A'
+            else:
+                df.loc[i, "R"] = 'D'
+        except Exception as e:
+            # pass
+            print(f"Error at row index {i}: {e}")
+            traceback.print_exc()
+    
+    return df
 
 @st.cache_data
 def df_specific_team(df, team):
@@ -442,13 +451,13 @@ def df_specific_team(df, team):
     # change the halftime-xg with halftime-Axg:
     # switched the two columns
     # Change the columns for the Opponentmatches of the specific team
-    print("df4Opponent.columns before reassignment oppo", df4Opponent.columns)
+    # print("df4Opponent.columns before reassignment oppo", df4Opponent.columns)
 
     OpponentTeamReversedColumns = ['Opponent', 'Home',  '1x2', 'R',  'G-A', 'G-H', 'BP-A', 'BP-H', 'GA-A', 'GA-H',  
                                     'SoG-A', 'SoG-H', 'SoffG-A', 'SoffG-H',  'FK-A',  "A_Red Cards", "H_Red Cards",
                                     'FK-H','C-A', 'C-H',  'Off-A', 'Off-H', 'GoKeSa-A', 'GoKeSa-H', 'F-A', 
                                     'F-H', 'Round', 'Date', 'IsHome','A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 
-                                    'Axg_halftime', 'xg_halftime',"awayxg_complete_game", "homexg_complete_game", 'halftime'] 
+                                    'Axg_halftime', 'xg_halftime',"awayxg_complete_game", "homexg_complete_game", "halftime"] 
     
     # Change the columns for the Opponentmatches of the specific team
     df4OpponentReversed = df4Opponent.reindex(
@@ -458,9 +467,9 @@ def df_specific_team(df, team):
                                    'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H', "H_Red Cards", "A_Red Cards",
                                    'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
                                    'F-A', 'Round', 'Date', 'IsHome', 'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS",
-                                   'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", 'halftime']
+                                   'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", "halftime"]
 
-    print("df4OpponentReversed.columns after reassignment oppo", df4OpponentReversed.columns)
+    # print("df4OpponentReversed.columns after reassignment oppo", df4OpponentReversed.columns)
 
     return df4Home, df4OpponentReversed
 
@@ -582,6 +591,9 @@ def load_xg_gamestats_sql(saison, team):
     df_complete_saison = pd.read_csv(
         "data/xg/"+xgtablename+".csv", index_col=0, encoding='utf-8')
 
+    df_complete_saison.columns = df_complete_saison.columns.str.upper()
+    df_complete_saison.columns = df_complete_saison.columns.str.replace(' ', '_')
+
     df_complete_saison = process_team_names_of_df(df_complete_saison)
 
     # execute the query and assign it to a pandas dataframe
@@ -631,7 +643,6 @@ def page_teamx():
 
     df = df_complete_saison[(df_complete_saison.H_TEAMNAMES == team) | (
         df_complete_saison.A_TEAMNAMES == team)]
-
     
     df = process_team_names_of_df(df)
     dfxg = load_xg_gamestats_sql(saison, team)
@@ -639,13 +650,10 @@ def page_teamx():
     # rename columns for
     dfxg_rename = dfxg.rename(
         columns={'TEAMS': 'H_TEAMNAMES', 'A_TEAMS': 'A_TEAMNAMES'})
-    # del dfxg
 
-    dfxg_df_merged = pd.merge(
+    df = pd.merge(
         df, dfxg_rename, on=["H_TEAMNAMES", "A_TEAMNAMES"])
-    dfxg_df_merged = dfxg_df_merged.drop_duplicates()
-
-    df = dfxg_df_merged
+    df = df.drop_duplicates()
 
     df["homexg_complete_game"] = ""
     df["awayxg_complete_game"] = ""
@@ -680,7 +688,6 @@ def page_teamx():
     for x in range(len(df)):
         df.homexg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
         df.awayxg_complete_game.iloc[x][0:0] = [None] * df.start_min_game.iloc[x]
-
 
 
     df_homexg_complete_game = pd.DataFrame(df.homexg_complete_game.tolist(), index= df.index)
@@ -720,7 +727,7 @@ def page_teamx():
                                     'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]]
 
     # calc the xg per minute over all games to get the mean over all minutes from all games!
-
+    
     values = st.sidebar.slider(
         'BP-Range for xG per minute',
         0.0, 100.0, (0.0, 100.0))
@@ -775,12 +782,8 @@ def page_teamx():
         dfxg_homexg_complete_game_smaller_45[dfxg_homexg_complete_game_smaller_45 < 0] = 0
         dfxg_awayxg_complete_game_smaller_45[dfxg_awayxg_complete_game_smaller_45 < 0] = 0
 
-
-    print("df4Complete_show")
-    print(df4Complete_show)
     # create df for visualizing
     df4CompleteGraph = df4Complete.copy()
-
 
     teamname_to_search = st.sidebar.text_input("Search for Opponent", )
     df4CompleteGraph = df4CompleteGraph[df4CompleteGraph["Opponent"].str.contains("{}".format(teamname_to_search), na=False, case=False)]
@@ -994,6 +997,7 @@ def page_teamx():
     # second half is second entry always for all rows where halftime column has nan values
     # from 2025 on we have the halftime values correctly filled with 1 or 2.
     # Remove games that do not have exactly two rows
+
     df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby('Date')['Date'].transform('size') >= 2]
     df4CompleteGraph = df4CompleteGraph.sort_index()
     def fill_halftime(group):
@@ -1005,11 +1009,10 @@ def page_teamx():
     df4CompleteGraph['halftime'] = df4CompleteGraph.groupby('Date').apply(fill_halftime).reset_index(level=0, drop=True)
     df4CompleteGraph['halftime'] = df4CompleteGraph['halftime'].astype(int)
     df4CompleteGraph = df4CompleteGraph.sort_index()
-    
 
     figScatter_h1_soG_SoGA = px.scatter(
         # .query(f'Date.between{end_date}'),
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 1].sort_values("IsHome", ascending=False),
         x='BP-H',
         y='GoalDiff',
         size="SoG-H-SoG-A",
@@ -1042,7 +1045,7 @@ def page_teamx():
 
     figScatter_h1_SoGA_soG = px.scatter(
         # .query(f'Date.between{end_date}'),
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "1"].sort_values("IsHome", ascending=False),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 1].sort_values("IsHome", ascending=False),
         x='BP-H',
         y='GoalDiff',
         size="SoG-A-SoG-H",
@@ -1076,7 +1079,7 @@ def page_teamx():
 
     figScatter_h2_SoG_SoGA = px.scatter(
         # .query(f'Date.between{end_date}'),
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "2"].sort_values("IsHome", ascending=False),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 2].sort_values("IsHome", ascending=False),
         x='BP-H',
         y='GoalDiff',
         marginal_x="histogram",
@@ -1111,7 +1114,7 @@ def page_teamx():
 
     figScatter_h2_SoGA_SoG = px.scatter(
         # .query(f'Date.between{end_date}'),
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "2"].sort_values("IsHome", ascending=False),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 2].sort_values("IsHome", ascending=False),
         x='BP-H',
         y='GoalDiff',
         marginal_x="histogram",
@@ -1153,13 +1156,14 @@ def page_teamx():
         highest_count_yaxis = 0
 
     df4CompleteGraph['count'] = 1
-    df4CompleteGraph_ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == "1"]
-    df4CompleteGraph_ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == "2"]
+    df4CompleteGraph_ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == 1]
+    df4CompleteGraph_ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == 2]
     required_categories = ['<45', '45-55', '>55']
     for category in required_categories:
         if category not in df4CompleteGraph_ht1['BPTypes'].unique():
-            # Append a row with the missing category and a count of 0
-            df4CompleteGraph = df4CompleteGraph.append({
+            print("category", category)
+            # Create a DataFrame for the new row
+            new_row_ht1 = pd.DataFrame([{
                 'BPTypes': category, 
                 'Halftime result': 'Draw',  
                 'Home': '',  
@@ -1167,13 +1171,17 @@ def page_teamx():
                 'IsHome': 0, 
                 'R': '',  
                 'xG': 0.0,  
-                'halftime': '1',
+                'halftime': 1,
                 'A_xG': 0.0,
                 'count': 0
-            }, ignore_index=True)
+            }])
+            # Use pd.concat to add the new row
+            df4CompleteGraph = pd.concat([df4CompleteGraph, new_row_ht1], ignore_index=True)
+        
         if category not in df4CompleteGraph_ht2['BPTypes'].unique():
-            # Append a row with the missing category and a count of 0
-            df4CompleteGraph = df4CompleteGraph.append({
+            print("category", category)
+            # Create a DataFrame for the new row
+            new_row_ht2 = pd.DataFrame([{
                 'BPTypes': category, 
                 'Halftime result': 'Draw',  
                 'Home': '',  
@@ -1181,15 +1189,17 @@ def page_teamx():
                 'IsHome': 0, 
                 'R': '',  
                 'xG': 0.0,  
-                'halftime': '2',
+                'halftime': 2,
                 'A_xG': 0.0,
                 'count': 0
-            }, ignore_index=True)
+            }])
+            # Use pd.concat to add the new row
+            df4CompleteGraph = pd.concat([df4CompleteGraph, new_row_ht2], ignore_index=True)
 
 
     # Create data for histogram 2
     BarBallpossesionstylesResultsHalftime1 = px.bar(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
         x='BPTypes',
         y='count',
         # text=df4CompleteGraph.index,
@@ -1210,7 +1220,7 @@ def page_teamx():
 
     # Create data for histogram 2
     BarBallpossesionstylesResultsHalftime2 = px.bar(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],
         x='BPTypes',
         y='count',
         # text=df4CompleteGraph.index,
@@ -1261,14 +1271,14 @@ def page_teamx():
 
 
     print(df4CompleteGraph[["xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
-    ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == "1"]
+    ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == 1]
     print(ht1[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
-    ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == "2"]
+    ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == 2]
     print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
     # Create barchart for xg per bptypes 1
     BarBallpossesionstylesXGHalftime1 = px.bar(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
         x='BPTypes',
         y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
         barmode='group',
@@ -1297,7 +1307,7 @@ def page_teamx():
 
     # Create barchart for xg per bptypes 2
     BarBallpossesionstylesXGHalftime2 = px.bar(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],
         x='BPTypes',
         y=['diff_xg_fulltime-diff_xg_halftime', 'diff_Axg_fulltime-diff_Axg_halftime'],
         barmode='group',
@@ -1324,7 +1334,7 @@ def page_teamx():
     ))
 
     figHistogramxG_A_xG_1Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],  # .query(f'Date.between{end_date}'),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],  # .query(f'Date.between{end_date}'),
         x='BP-H',
         y='GoalDiff',
         marginal_x="histogram",
@@ -1359,7 +1369,7 @@ def page_teamx():
     ))
 
     figHistogramA_xG_xG_1Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "1"],  # .query(f'Date.between{end_date}'),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],  # .query(f'Date.between{end_date}'),
         x='BP-H',
         y='GoalDiff',
         marginal_x="histogram",
@@ -1401,7 +1411,7 @@ def page_teamx():
     )
 
     figHistogramxG_A_xG_2Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],  # .query(f'Date.between{end_date}'),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],  # .query(f'Date.between{end_date}'),
         x='BP-H',
         y='GoalDiff',
         marginal_x="histogram",
@@ -1436,7 +1446,7 @@ def page_teamx():
     ))
 
     figHistogramA_xG_xG_2Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == "2"],  # .query(f'Date.between{end_date}'),
+        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],  # .query(f'Date.between{end_date}'),
         x='BP-H',
         y='GoalDiff',
         marginal_x="histogram",
@@ -1507,9 +1517,6 @@ def page_teamx():
                                                 'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
                                                 'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
                                                 }))
-
-
-
 
 # Erstelle ein Seitenleisten-Menü
 page = st.sidebar.radio("Choose a page:", ( 'League Tables', 'Team Analyis'))
