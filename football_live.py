@@ -1003,10 +1003,8 @@ def page_teamx():
         x=1.12
     ))
 
-    # This check has to be done for oracle database!
-    # htdatan games:
-    # delete games where there are no two halftimes!
-    df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby('Opponent')['Opponent'].transform('size') >= 2]
+    # Group by Date to ensure that each game is represented by two rows
+    df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby('Date')['Date'].transform('size') >= 2]
     # Sort index to ensure proper ordering within each game
     df4CompleteGraph = df4CompleteGraph.sort_index()
     # Assign halftime values
@@ -1016,7 +1014,7 @@ def page_teamx():
         halftime_values[pd.isna(halftime_values)] = [1, 2]
         return halftime_values
 
-    df4CompleteGraph['halftime'] = df4CompleteGraph.groupby('Opponent').apply(fill_halftime).reset_index(level=0, drop=True)
+    df4CompleteGraph['halftime'] = df4CompleteGraph.groupby('Date').apply(fill_halftime).reset_index(level=0, drop=True)
     # Ensure halftime is of type integer for consistency
     df4CompleteGraph['halftime'] = df4CompleteGraph['halftime'].astype(int)
 
