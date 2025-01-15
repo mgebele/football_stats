@@ -76,15 +76,9 @@ def find_key(input_dict, value):
     return "None"
 
 saison = "{}_{}".format(find_key(shortcut_league_dict, saison.split(" ")[0]),
-                        saison.split(" ")[1]
-                        )
+                        saison.split(" ")[1])
 
-try:
-    df_complete_saison = pd.read_csv(
-        "data/htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
-except:
-    df_complete_saison = pd.read_csv(
-        "data/htdatan/"+saison+"_24102021.csv", index_col=0, encoding='utf-8')
+df_complete_saison = pd.read_csv("data/htdatan/"+saison+".csv", index_col=0, encoding='utf-8')
 
 df_complete_saison = df_complete_saison.replace(teamnamedict)
 dfallteamnamesl = df_complete_saison.H_TEAMNAMES.unique()
@@ -308,7 +302,7 @@ def process_team_names_of_df(x_df):
 #######################################################
 ###  calculate table with two halftimes to one game ###
 #######################################################
-def df_cleaning_converting(df):
+def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
     """
     Cleans and converts a DataFrame by selecting specific columns, removing duplicates,
     and resetting the index. Adds a new column 'R' initialized with 'X' and converts
@@ -316,14 +310,7 @@ def df_cleaning_converting(df):
     halftime and assigns them to the DataFrame. Updates the result column 'R' based on
     the goal comparison between home and away teams. Finally, renames the columns for
     consistency and reorders them.
-
-    Parameters:
-    df (DataFrame): Input DataFrame containing football match data.
-
-    Returns:
-    DataFrame: The cleaned and converted DataFrame with updated columns and xG values.
     """
-
     df = df[['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
             'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
             'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
@@ -393,7 +380,6 @@ def df_cleaning_converting(df):
 
     df = extract_xg_values(df)
 
-
     df.xg_halftime = df.xg_halftime.astype(float).fillna(0.0)
     df.Axg_halftime = df.Axg_halftime.astype(float).fillna(0.0) 
 
@@ -406,8 +392,11 @@ def df_cleaning_converting(df):
                 df["R"][i] = 'A'
             else:
                 df["R"][i] = 'D'
-        except:
-            print("error?")
+        except Exception as e:
+            print(f"Error at row index {i}: {e}")
+            traceback.print_exc() 
+            continue
+            
     print("!!!", df.columns)
     df.columns = ['Home', 'Opponent', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                 'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
@@ -601,12 +590,10 @@ def load_xg_gamestats_sql(saison, team):
     # execute the query and assign it to a pandas dataframe
     dfxg = df_complete_saison[(df_complete_saison.TEAMS == team) | (
         df_complete_saison.A_TEAMS == team)]
-
     return dfxg
 
 # get all teams for the selected season in dropdown
 def load_xg_season_stats_sql(saison):
-
     if saison.split("_")[0] == 'b':
         xgprefix = 'bundesliga'
     elif saison.split("_")[0] == 'l1':
@@ -617,7 +604,8 @@ def load_xg_season_stats_sql(saison):
         xgprefix = 'epl'
     elif saison.split("_")[0] == 'sa':
         xgprefix = 'serie_a'
-
+    else:
+        raise ValueError("Unknown league")
     xgtablename = "{}20{}".format(xgprefix, saison.split("_")[1][:2])
 
     df_complete_saison = pd.read_csv(
