@@ -89,10 +89,7 @@ except:
 df_complete_saison = df_complete_saison.replace(teamnamedict)
 dfallteamnamesl = df_complete_saison.H_TEAMNAMES.unique()
 
-
-
-
-# Schritt 3: Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
+# Zuweisen von Punkten basierend auf dem Halbzeit-Ergebnis
 def assign_points(row, team_type):
     if team_type == 'H': # and row['BP-H'] > 59
         if row['Halbzeit_Ergebnis_H'] == 'Gewinn':
@@ -330,11 +327,11 @@ def df_cleaning_converting(df):
     df = df[['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
             'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
             'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
-            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', 'TIMING_CHART_XG', "HOMEXG_COMPLETE_GAME", "AWAYXG_COMPLETE_GAME"]]
+            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', 'TIMING_CHART_XG', "HOMEXG_COMPLETE_GAME", "AWAYXG_COMPLETE_GAME", "HALFTIME"]]
     df = df.drop_duplicates(subset=['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
             'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
             'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
-            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS'], keep='first')
+            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', "HALFTIME"], keep='first')
     df = df.reset_index(drop=True)
     df["R"] = 'X'
 
@@ -415,19 +412,23 @@ def df_cleaning_converting(df):
     df.columns = ['Home', 'Opponent', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                 'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
                 'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A',
-                'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', "timing_chart_xg", "homexg_complete_game", "awayxg_complete_game", 'R',  'xg_halftime', 'Axg_halftime']
+                'F-H', 'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 
+                "timing_chart_xg", "homexg_complete_game", "awayxg_complete_game", 'R',  'xg_halftime', 
+                'Axg_halftime', 'halftime']
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
              'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-             'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game"]]
+             'F-A', 'Round', 'Date', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS', 
+             'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", 'halftime']]
 
     df["IsHome"] = 0
 
     df = df[['Home', 'Opponent', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
              'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H',"H_Red Cards", "A_Red Cards",
              'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-             'F-A', 'Round', 'Date', 'IsHome', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS','xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", ]]
+             'F-A', 'Round', 'Date', 'IsHome', 'xG', 'GOALS', 'xPTS', 'A_xG', 'A_GOALS', 'A_xPTS',
+             'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", 'halftime']]
     return df
 
 
@@ -460,16 +461,18 @@ def df_specific_team(df, team):
     OpponentTeamReversedColumns = ['Opponent', 'Home',  '1x2', 'R',  'G-A', 'G-H', 'BP-A', 'BP-H', 'GA-A', 'GA-H',  
                                     'SoG-A', 'SoG-H', 'SoffG-A', 'SoffG-H',  'FK-A',  "A_Red Cards", "H_Red Cards",
                                     'FK-H','C-A', 'C-H',  'Off-A', 'Off-H', 'GoKeSa-A', 'GoKeSa-H', 'F-A', 
-                                    'F-H', 'Round', 'Date', 'IsHome','A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 'Axg_halftime', 'xg_halftime',"awayxg_complete_game", "homexg_complete_game",   ]  # , 'IsHome'
+                                    'F-H', 'Round', 'Date', 'IsHome','A_xG', "A_xPTS", "A_GOALS", 'xG', "xPTS", "GOALS", 
+                                    'Axg_halftime', 'xg_halftime',"awayxg_complete_game", "homexg_complete_game", 'halftime'] 
+    
     # Change the columns for the Opponentmatches of the specific team
-
     df4OpponentReversed = df4Opponent.reindex(
         columns=OpponentTeamReversedColumns)
 
     df4OpponentReversed.columns = ['Home', 'Opponent', '1x2', 'R', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
                                    'SoG-H', 'SoG-A', 'SoffG-H', 'SoffG-A', 'FK-H', "H_Red Cards", "A_Red Cards",
                                    'FK-A', 'C-H', 'C-A', 'Off-H', 'Off-A', 'GoKeSa-H', 'GoKeSa-A', 'F-H',
-                                   'F-A', 'Round', 'Date', 'IsHome', 'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS", 'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", ]
+                                   'F-A', 'Round', 'Date', 'IsHome', 'xG', "xPTS", "GOALS", 'A_xG', "A_xPTS", "A_GOALS",
+                                   'xg_halftime', 'Axg_halftime', "homexg_complete_game", "awayxg_complete_game", 'halftime']
 
     print("df4OpponentReversed.columns after reassignment oppo", df4OpponentReversed.columns)
 
@@ -664,7 +667,6 @@ def page_teamx():
     df["last_game_minute"] = -1
     df["start_min_game"] = -1
 
-            
     for game_loc in df.index:
 
         homexg_complete_game = []
@@ -723,14 +725,14 @@ def page_teamx():
     df4Complete = df4Complete.sort_values("Date", ascending=False)
     df4Complete = df4Complete.round(1)
 
-    df4Complete[['xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]] = df4Complete[[
-                 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards"]].apply(pd.to_numeric, errors='coerce', axis=1)
+    df4Complete[['xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards", "halftime"]] = df4Complete[[
+                 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A', 'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS',  "A_Red Cards", "H_Red Cards", "halftime"]].apply(pd.to_numeric, errors='coerce', axis=1)
 
     df4Complete['A_Red Cards'] = df4Complete['A_Red Cards'].fillna(0)
     df4Complete['H_Red Cards'] = df4Complete['H_Red Cards'].fillna(0)
 
     df4Complete_show = df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-                                    'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards"]]
+                                    'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]]
 
     # calc the xg per minute over all games to get the mean over all minutes from all games!
 
@@ -1003,27 +1005,22 @@ def page_teamx():
         x=1.12
     ))
 
-    # Group by Date to ensure that each game is represented by two rows
+
+    # second half is second entry always for all rows where halftime column has nan values
+    # from 2025 on we have the halftime values correctly filled with 1 or 2.
+    # Remove games that do not have exactly two rows
     df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby('Date')['Date'].transform('size') >= 2]
-    # Sort index to ensure proper ordering within each game
     df4CompleteGraph = df4CompleteGraph.sort_index()
-    # Assign halftime values
     def fill_halftime(group):
-        # Only fill halftime where it is NaN
         halftime_values = group['halftime'].copy()
+        # This assumes there are exactly two rows per group
         halftime_values[pd.isna(halftime_values)] = [1, 2]
         return halftime_values
 
     df4CompleteGraph['halftime'] = df4CompleteGraph.groupby('Date').apply(fill_halftime).reset_index(level=0, drop=True)
-    # Ensure halftime is of type integer for consistency
     df4CompleteGraph['halftime'] = df4CompleteGraph['halftime'].astype(int)
-
-
     df4CompleteGraph = df4CompleteGraph.sort_index()
-    # second half is second entry always for all rows where halftime column has nan values
-    # from 2025 on we have the halftime values correctly filled with 1 or 2.
-    df4CompleteGraph["halftime"] = "0"
-    df4CompleteGraph['halftime'] = np.where(df4CompleteGraph.index % 2, '1', '2')
+    
 
     figScatter_h1_soG_SoGA = px.scatter(
         # .query(f'Date.between{end_date}'),
