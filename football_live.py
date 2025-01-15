@@ -311,8 +311,22 @@ def process_team_names_of_df(x_df):
 #######################################################
 ###  calculate table with two halftimes to one game ###
 #######################################################
-
 def df_cleaning_converting(df):
+    """
+    Cleans and converts a DataFrame by selecting specific columns, removing duplicates,
+    and resetting the index. Adds a new column 'R' initialized with 'X' and converts
+    'TIMING_CHART_XG' to a string type. Extracts expected goals (xG) values for
+    halftime and assigns them to the DataFrame. Updates the result column 'R' based on
+    the goal comparison between home and away teams. Finally, renames the columns for
+    consistency and reorders them.
+
+    Parameters:
+    df (DataFrame): Input DataFrame containing football match data.
+
+    Returns:
+    DataFrame: The cleaned and converted DataFrame with updated columns and xG values.
+    """
+
     df = df[['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
             'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
             'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
@@ -989,12 +1003,27 @@ def page_teamx():
         x=1.12
     ))
 
-
-    # delete games where there is no two halftimes!
-    df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby(
-        'Opponent')['Opponent'].transform('size') >= 2]
+    # This check has to be done for oracle database!
+    # htdatan games:
+    # delete games where there are no two halftimes!
+    df4CompleteGraph = df4CompleteGraph[df4CompleteGraph.groupby('Gameurl')['Gameurl'].transform('size') >= 2]
+    # Sort index to ensure proper ordering within each game
     df4CompleteGraph = df4CompleteGraph.sort_index()
-    # second half is second entry always!
+    # Assign halftime values
+    def fill_halftime(group):
+        # Only fill halftime where it is NaN
+        halftime_values = group['halftime'].copy()
+        halftime_values[pd.isna(halftime_values)] = [1, 2]
+        return halftime_values
+
+    df4CompleteGraph['halftime'] = df4CompleteGraph.groupby('Gameurl').apply(fill_halftime).reset_index(level=0, drop=True)
+    # Ensure halftime is of type integer for consistency
+    df4CompleteGraph['halftime'] = df4CompleteGraph['halftime'].astype(int)
+
+
+    df4CompleteGraph = df4CompleteGraph.sort_index()
+    # second half is second entry always for all rows where halftime column has nan values
+    # from 2025 on we have the halftime values correctly filled with 1 or 2.
     df4CompleteGraph["halftime"] = "0"
     df4CompleteGraph['halftime'] = np.where(df4CompleteGraph.index % 2, '1', '2')
 
