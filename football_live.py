@@ -808,7 +808,7 @@ def page_teamx():
         [0.4, 'rgb(34, 139, 34)'],      # Forest Green
         [0.6, 'rgb(50, 205, 50)'],      # Lime Green
         [0.8, 'rgb(144, 238, 144)'],    # Light Green
-        [1.0, 'rgb(240, 255, 240)']     # Sehr hellgrün (nahezu weiß)
+        [1.0, 'rgb(193, 255, 193)']     # Hellgrün (PaleGreen statt fast weiß)
     ]
 
     custom_red_scale = [
@@ -817,9 +817,8 @@ def page_teamx():
         [0.4, 'rgb(178, 34, 34)'],       # Crimson
         [0.6, 'rgb(220, 20, 60)'],       # Orangerot (Crimson)
         [0.8, 'rgb(255, 99, 71)'],       # Tomate (Tomato)
-        [1.0, 'rgb(255, 228, 225)']      # Sehr hellrot (Misty Rose)
+        [1.0, 'rgb(255, 160, 160)']     # Hellrot (LightCoral statt fast weiß)
     ]
-
 
     # calculate the difference of team xg vs oppo xg
     dfxg_complete_game = dfxg_homexg_complete_game.clip(lower=0).mean() - dfxg_awayxg_complete_game.clip(lower=0).mean()
@@ -1306,6 +1305,13 @@ def page_teamx():
     ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == 2]
     print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
+    # Determine if there was a red card in a game
+    df4CompleteGraph['red_card'] = df4CompleteGraph[['H_Red Cards', 'A_Red Cards']].apply(lambda x: x[0] > 0 or x[1] > 0, axis=1)
+    # Define marker properties based on the presence of a red card
+    df4CompleteGraph['marker_properties'] = df4CompleteGraph['red_card'].apply(
+        lambda x: {'line_width': 2, 'line_color': 'red'} if x else {'line_width': 1, 'line_color': 'black'}
+    )
+
     # Create barchart for xg per bptypes 1
     BarBPstylesXGHalftime1 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
@@ -1363,155 +1369,146 @@ def page_teamx():
         x=1.12
     ))
 
-    figHistogramxG_A_xG_1Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],  # .query(f'Date.between{end_date}'),
-        x='BP-H',
-        y='GoalDiff',
-        marginal_x="histogram",
-        color="timestamp",
-        hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
-        size="xg_halftime-Axg_halftime",
-        symbol = 'IsHome',
-        symbol_sequence= ['diamond-cross', 'diamond'],
-        text="Opponent",
-        width=widthfig,
-        # height=heightfig,
-        color_continuous_scale= custom_green_scale,
-        # facet_row="time", # makes seperate plot for value
-        # marginal_x="histogram",
-    ).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
-        marker=dict(color='green'), selector={'type': 'histogram'}
-    )
-    figHistogramxG_A_xG_1Ht.update_xaxes(range=[5, 95])
-    figHistogramxG_A_xG_1Ht.update_layout(
-        title_text='Ht1: xG - xGO', title_x=title_x,
+    plot_data = df4CompleteGraph[df4CompleteGraph["halftime"] == 1].copy()
+    # Create figure
+    figHistogramHt1xG_Combined = go.Figure()
+
+    # Add traces with conditional symbol based on size
+    for color_scale, color in [(custom_green_scale, 'green'), (custom_red_scale, 'red')]:
+        size_col = 'xg_halftime-Axg_halftime' if color == 'green' else 'Axg_halftime-xg_halftime'
+        
+        # Filter data where size > 0
+        data_subset = plot_data[plot_data[size_col] > 0]
+        
+        trace_name = 'xG - xGO' if color == 'green' else 'xGO - xG'
+
+        for is_home in [0, 1]:
+            home_subset = data_subset[data_subset['IsHome'] == is_home]
+            
+            # Logarithmic size scaling with minimum visible size
+            # log(x+1) ensures small values are visible while preventing extreme large sizes
+            marker_sizes = 10 + 20 * np.log(home_subset[size_col] + 1)
+
+            # Determine symbol based on IsHome
+            symbol = 'diamond' if is_home == 1 else 'circle'
+            
+            trace = go.Scatter(
+                x=home_subset['BP-H'],
+                y=home_subset['GoalDiff'],
+                mode='markers+text',
+                marker=dict(
+                    size=marker_sizes,
+                    color=home_subset['timestamp'],
+                    colorscale=color_scale,
+                    symbol=symbol
+                ),
+                name=f'{trace_name} {"(Home)" if is_home == 1 else "(Away)"}',
+                text=home_subset['Opponent'],
+                hovertemplate=
+                '<b>Opponent</b>: %{text}<br>' +
+                '<b>BP-H</b>: %{x:.2f}<br>' +
+                '<b>Goal Difference</b>: %{y}<br>' +
+                '<b>xG-dif</b>: %{customdata[3]:.2f}<br>' +
+                '<b>H Red Cards</b>: %{customdata[0]}<br>' +
+                '<b>A Red Cards</b>: %{customdata[1]}<br>' +
+                '<b>Date</b>: %{customdata[2]}<br>' +
+                '<b>Is Home</b>: %{customdata[4]}<extra></extra>',
+                customdata=home_subset[['H_Red Cards', 'A_Red Cards', 'Date', size_col, 'IsHome']],
+                textposition='top center',
+                textfont=dict(size=9, color='gray')
+            )
+            
+            figHistogramHt1xG_Combined.add_trace(trace)
+
+    # Update layout
+    figHistogramHt1xG_Combined.update_layout(
+        title_text='HT1: xG-xGO and xGO-xG',
+        title_x=title_x,
         yaxis=dict(
-            tickmode='linear',
-            tick0=1,
-            dtick=1,
+            tickmode='linear', 
+            tick0=1, 
+            dtick=1, 
             title="Goal difference"
-        ))
-    figHistogramxG_A_xG_1Ht.update_layout(legend=dict(
-        yanchor="top",
-        y=1.2,
-        xanchor="right",
-        x=1.12
-    ))
-
-    figHistogramA_xG_xG_1Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],  # .query(f'Date.between{end_date}'),
-        x='BP-H',
-        y='GoalDiff',
-        marginal_x="histogram",
-        color="timestamp",
-        hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
-        size="Axg_halftime-xg_halftime",
-        symbol = 'IsHome',
-        symbol_sequence= ['circle-x', 'circle'],
-        text="Opponent",
-        width=widthfig,
-        color_continuous_scale= custom_red_scale,
-        # height=heightfig,
-        # facet_row="time", # makes seperate plot for value
-        # marginal_x="histogram",
-    ).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
-        marker=dict(color='red'), selector={'type': 'histogram'}
+        ),
+        legend=dict(
+            yanchor="top", 
+            y=1.2, 
+            xanchor="right", 
+            x=1.12
+        )
     )
-    figHistogramA_xG_xG_1Ht.update_xaxes(range=[5, 95])
-    figHistogramA_xG_xG_1Ht.update_layout(
-        title_text='Ht1: xGO - xG', title_x=title_x,
+    figHistogramHt1xG_Combined.update_xaxes(range=[15, 90])
+
+
+    plot_data_Ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == 2].copy()
+    # Create figure
+    figHistogramHt2xG_Combined = go.Figure()
+
+    # Add traces with conditional symbol based on size
+    for color_scale, color in [(custom_green_scale, 'green'), (custom_red_scale, 'red')]:
+        size_col = 'diff_xg_fulltime-diff_xg_halftime' if color == 'green' else 'diff_Axg_fulltime-diff_Axg_halftime'
+        
+        # Filter data where size > 0
+        data_subset = plot_data_Ht2[plot_data_Ht2[size_col] > 0]
+        trace_name = 'xG - xGO' if color == 'green' else 'xGO - xG'
+
+        for is_home in [0, 1]:
+            home_subset = data_subset[data_subset['IsHome'] == is_home]
+            
+            # Determine symbol based on IsHome
+            symbol = 'diamond' if is_home == 1 else 'circle'
+
+            # Logarithmic size scaling with minimum visible size
+            # log(x+1) ensures small values are visible while preventing extreme large sizes
+            marker_sizes = 10 + 20 * np.log(home_subset[size_col] + 1)
+
+            trace = go.Scatter(
+                x=home_subset['BP-H'],
+                y=home_subset['GoalDiff'],
+                mode='markers+text',
+                marker=dict(
+                    size=marker_sizes,
+                    color=home_subset['timestamp'],
+                    colorscale=color_scale,
+                    symbol=symbol
+                ),
+                name=f'{trace_name} {"(Home)" if is_home == 1 else "(Away)"}',
+                text=home_subset['Opponent'],
+                hovertemplate=
+                '<b>Opponent</b>: %{text}<br>' +
+                '<b>BP-H</b>: %{x:.2f}<br>' +
+                '<b>Goal Difference</b>: %{y}<br>' +
+                '<b>xG-dif</b>: %{customdata[3]:.2f}<br>' +
+                '<b>H Red Cards</b>: %{customdata[0]}<br>' +
+                '<b>A Red Cards</b>: %{customdata[1]}<br>' +
+                '<b>Date</b>: %{customdata[2]}<br>' +
+                '<b>Is Home</b>: %{customdata[4]}<extra></extra>',
+                customdata=home_subset[['H_Red Cards', 'A_Red Cards', 'Date', size_col, 'IsHome']],
+                textposition='top center',
+                textfont=dict(size=9, color='gray')
+            )
+            
+            figHistogramHt2xG_Combined.add_trace(trace)
+
+    # Update layout
+    figHistogramHt2xG_Combined.update_layout(
+        title_text='HT2: xG-xGO and xGO-xG',
+        title_x=title_x,
         yaxis=dict(
-            tickmode='linear',
-            tick0=1,
-            dtick=1,
+            tickmode='linear', 
+            tick0=1, 
+            dtick=1, 
             title="Goal difference"
-        ))
-    figHistogramA_xG_xG_1Ht.update_layout(legend=dict(
-        yanchor="top",
-        y=1.2,
-        xanchor="right",
-        x=1.12
-    ))
-
-
-    # Determine if there was a red card in a game
-    df4CompleteGraph['red_card'] = df4CompleteGraph[['H_Red Cards', 'A_Red Cards']].apply(lambda x: x[0] > 0 or x[1] > 0, axis=1)
-    # Define marker properties based on the presence of a red card
-    df4CompleteGraph['marker_properties'] = df4CompleteGraph['red_card'].apply(
-        lambda x: {'line_width': 2, 'line_color': 'red'} if x else {'line_width': 1, 'line_color': 'black'}
+        ),
+        legend=dict(
+            yanchor="top", 
+            y=1.2, 
+            xanchor="right", 
+            x=1.12
+        )
     )
-
-    figHistogramxG_A_xG_2Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],  # .query(f'Date.between{end_date}'),
-        x='BP-H',
-        y='GoalDiff',
-        marginal_x="histogram",
-        color="timestamp",
-        hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
-        size="diff_xg_fulltime-diff_xg_halftime",
-        symbol = 'IsHome',
-        symbol_sequence= ['diamond-cross', 'diamond'],
-        text="Opponent",
-        width=widthfig,
-        # height=heightfig,
-        color_continuous_scale= custom_green_scale,
-        # facet_row="time", # makes seperate plot for value
-        # marginal_x="histogram",
-    ).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
-        marker=dict(color='green'), selector={'type': 'histogram'}
-    )
-    figHistogramxG_A_xG_2Ht.update_xaxes(range=[5, 95])
-    figHistogramxG_A_xG_2Ht.update_layout(
-        title_text='Ht2: xG - xGO', title_x=title_x,
-        yaxis=dict(
-            tickmode='linear',
-            tick0=1,
-            dtick=1,
-            title="Goal difference"
-        ))
-    figHistogramxG_A_xG_2Ht.update_layout(legend=dict(
-        yanchor="top",
-        y=1.2,
-        xanchor="right",
-        x=1.12
-    ))
-
-    figHistogramA_xG_xG_2Ht = px.scatter(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],  # .query(f'Date.between{end_date}'),
-        x='BP-H',
-        y='GoalDiff',
-        marginal_x="histogram",
-        color="timestamp",
-        hover_data=['H_Red Cards', 'A_Red Cards', 'Date'],
-        size="diff_Axg_fulltime-diff_Axg_halftime",
-        symbol = 'IsHome',
-        symbol_sequence= ['circle-x', 'circle'],
-        text="Opponent",
-        width=widthfig,
-        color_continuous_scale=custom_red_scale,
-        # height=heightfig,
-        # facet_row="time", # makes seperate plot for value
-        # marginal_x="histogram",
-    ).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
-        marker=dict(color='red'), selector={'type': 'histogram'}
-    )
-    figHistogramA_xG_xG_2Ht.update_xaxes(range=[5, 95])
-    figHistogramA_xG_xG_2Ht.update_layout(
-        title_text='Ht2: xGO - xG', title_x=title_x,
-        yaxis=dict(
-            tickmode='linear',
-            tick0=1,
-            dtick=1,
-            title="Goal difference"
-        ))
-    figHistogramA_xG_xG_2Ht.update_layout(legend=dict(
-        yanchor="top",
-        y=1.2,
-        xanchor="right",
-        x=1.12
-    ))
-
-
+    figHistogramHt2xG_Combined.update_xaxes(range=[15, 90])
+    
     st.title("Football statistics - {}".format(team))
     st.markdown('The following two diagrams display the new metric Expected Goals (**xGoals**), which is a qualitative measurement on base of the shots on goal.  \nThe expected goal model shows how high the chance of the goal really was and calculates a value for each completion based on several factors.   \nF.I. a penalty has generally a probably of 75 % to result in a goal, which would increase the xGoal value for 0.75 regardless of the penalty-outcame in this case.', unsafe_allow_html=False)
 
@@ -1522,10 +1519,8 @@ def page_teamx():
     col1.plotly_chart(BarBPstylesXGHalftime1)
     col2.plotly_chart(BarBPstylesXGHalftime2)
 
-    col1.plotly_chart(figHistogramxG_A_xG_1Ht)
-    col1.plotly_chart(figHistogramA_xG_xG_1Ht)
-    col2.plotly_chart(figHistogramxG_A_xG_2Ht)
-    col2.plotly_chart(figHistogramA_xG_xG_2Ht)
+    col1.plotly_chart(figHistogramHt1xG_Combined)
+    col2.plotly_chart(figHistogramHt2xG_Combined)
 
     col1.plotly_chart(figScatter_SoG_SoGA)
     col2.plotly_chart(figScatter_SoGA_soG)
