@@ -802,6 +802,24 @@ def page_teamx():
 
     df4CompleteGraph.sort_values("IsHome", ascending=False)
 
+    custom_green_scale = [
+        [0.0, 'rgb(0, 50, 0)'],         # Sehr dunkelgrün (nahezu schwarz)
+        [0.2, 'rgb(0, 100, 0)'],        # Dunkelgrün
+        [0.4, 'rgb(34, 139, 34)'],      # Forest Green
+        [0.6, 'rgb(50, 205, 50)'],      # Lime Green
+        [0.8, 'rgb(144, 238, 144)'],    # Light Green
+        [1.0, 'rgb(240, 255, 240)']     # Sehr hellgrün (nahezu weiß)
+    ]
+
+    custom_red_scale = [
+        [0.0, 'rgb(50, 0, 0)'],         # Sehr dunkelrot (nahezu schwarz)
+        [0.2, 'rgb(139, 0, 0)'],        # Dunkelrot (Firebrick)
+        [0.4, 'rgb(178, 34, 34)'],       # Crimson
+        [0.6, 'rgb(220, 20, 60)'],       # Orangerot (Crimson)
+        [0.8, 'rgb(255, 99, 71)'],       # Tomate (Tomato)
+        [1.0, 'rgb(255, 228, 225)']      # Sehr hellrot (Misty Rose)
+    ]
+
 
     # calculate the difference of team xg vs oppo xg
     dfxg_complete_game = dfxg_homexg_complete_game.clip(lower=0).mean() - dfxg_awayxg_complete_game.clip(lower=0).mean()
@@ -936,6 +954,7 @@ def page_teamx():
         size="SoG-H-SoG-A",
         text="Opponent",
         width=widthfig,
+        color_continuous_scale= custom_green_scale,
     ).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray"
     ).update_traces(
         marker=dict(color='green'), selector={'type': 'histogram'}
@@ -970,6 +989,7 @@ def page_teamx():
         width=widthfig,
         # height=heightfig,
         title="SoGA-SoGH - Halftimes",
+        color_continuous_scale= custom_red_scale,
         # color_discrete_map={"W": "green", "D": "gray", "L": "red"}
         # facet_row="time", # makes seperate plot for value
         # marginal_x="histogram",
@@ -1356,7 +1376,7 @@ def page_teamx():
         text="Opponent",
         width=widthfig,
         # height=heightfig,
-        # color_continuous_scale= 'Viridis',
+        color_continuous_scale= custom_green_scale,
         # facet_row="time", # makes seperate plot for value
         # marginal_x="histogram",
     ).update_traces(textposition='top center', selector={'type': 'scatter'}, textfont_size=9, textfont_color="gray" ).update_traces(
@@ -1390,6 +1410,7 @@ def page_teamx():
         symbol_sequence= ['circle-x', 'circle'],
         text="Opponent",
         width=widthfig,
+        color_continuous_scale= custom_red_scale,
         # height=heightfig,
         # facet_row="time", # makes seperate plot for value
         # marginal_x="histogram",
@@ -1433,7 +1454,7 @@ def page_teamx():
         text="Opponent",
         width=widthfig,
         # height=heightfig,
-        # color_continuous_scale= 'Viridis',
+        color_continuous_scale= custom_green_scale,
         # facet_row="time", # makes seperate plot for value
         # marginal_x="histogram",
     ).update_traces(textposition='top center', selector={'type': 'scatter'},textfont_size=9, textfont_color="gray" ).update_traces(
@@ -1467,6 +1488,7 @@ def page_teamx():
         symbol_sequence= ['circle-x', 'circle'],
         text="Opponent",
         width=widthfig,
+        color_continuous_scale=custom_red_scale,
         # height=heightfig,
         # facet_row="time", # makes seperate plot for value
         # marginal_x="histogram",
