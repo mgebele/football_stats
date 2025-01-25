@@ -840,7 +840,7 @@ def page_teamx():
             )
         )
     fig_xg_perminute_home.update_layout(
-        title_text='Expectedgoals per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=title_x,
+        title_text='xG per minute: {} < bp < {}'.format(int(bigger_bp), int(smaller_bp)), title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -869,7 +869,7 @@ def page_teamx():
             )
         )
     fig_xg_homexg_complete_game_all_bpse.update_layout(
-        title_text='Expectedgoals per minute', title_x=title_x,
+        title_text='xG per minute', title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -900,7 +900,7 @@ def page_teamx():
             )
         )
     fig_xg_perminute_home_bigger_55.update_layout(
-        title_text='Expectedgoals per minute: bp > 55', title_x=title_x,
+        title_text='xG per minute: bp > 55', title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -931,7 +931,7 @@ def page_teamx():
             )
         )
     fig_xg_perminute_home_smaller_45.update_layout(
-        title_text='Expectedgoals per minute: bp < 45', title_x=title_x,
+        title_text='xG per minute: bp < 45', title_x=title_x,
         yaxis=dict(
             title="xG"
         ),
@@ -1258,13 +1258,13 @@ def page_teamx():
         return fig
 
     # Create and display the bar charts
-    BarBallpossessionstylesResultsHalftime1 = create_bar_chart(1,
-        'Ball Possession Styles - Halftime 1 Results',
+    BarBPstylesResultsHalftime1 = create_bar_chart(1,
+        'BP Styles - Halftime 1 Results',
         highest_count_yaxis=highest_count_yaxis
     )
-    BarBallpossessionstylesResultsHalftime2 = create_bar_chart(
+    BarBPstylesResultsHalftime2 = create_bar_chart(
         2,
-        'Ball Possession Styles - Halftime 2 Results',
+        'BP Styles - Halftime 2 Results',
         highest_count_yaxis=highest_count_yaxis
     )
 
@@ -1307,7 +1307,7 @@ def page_teamx():
     print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
     # Create barchart for xg per bptypes 1
-    BarBallpossessionstylesXGHalftime1 = px.bar(
+    BarBPstylesXGHalftime1 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
         x='BPTypes',
         y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
@@ -1322,12 +1322,12 @@ def page_teamx():
         text="Opponent",
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
-    BarBallpossessionstylesXGHalftime1.update_layout(
-        title_text='Ballpossessionstyles - xG halftime 1', title_x=title_x, xaxis=dict(
+    BarBPstylesXGHalftime1.update_layout(
+        title_text='BP Styles - xG halftime 1', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
-    BarBallpossessionstylesXGHalftime1.update_layout(legend=dict(
+    BarBPstylesXGHalftime1.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1336,7 +1336,7 @@ def page_teamx():
 
 
     # Create barchart for xg per bptypes 2
-    BarBallpossessionstylesXGHalftime2 = px.bar(
+    BarBPstylesXGHalftime2 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == 2],
         x='BPTypes',
         y=['diff_xg_fulltime-diff_xg_halftime', 'diff_Axg_fulltime-diff_Axg_halftime'],
@@ -1351,12 +1351,12 @@ def page_teamx():
         text="Opponent",
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
-    BarBallpossessionstylesXGHalftime2.update_layout(
-        title_text='Ballpossessionstyles - xG halftime 2', title_x=title_x, xaxis=dict(
+    BarBPstylesXGHalftime2.update_layout(
+        title_text='BP Styles - xG halftime 2', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
-    BarBallpossessionstylesXGHalftime2.update_layout(legend=dict(
+    BarBPstylesXGHalftime2.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1384,7 +1384,7 @@ def page_teamx():
     )
     figHistogramxG_A_xG_1Ht.update_xaxes(range=[5, 95])
     figHistogramxG_A_xG_1Ht.update_layout(
-        title_text='Ht1: Expectedgoals - Expectedgoals Opponent', title_x=title_x,
+        title_text='Ht1: xG - xGO', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1419,7 +1419,7 @@ def page_teamx():
     )
     figHistogramA_xG_xG_1Ht.update_xaxes(range=[5, 95])
     figHistogramA_xG_xG_1Ht.update_layout(
-        title_text='Ht1: Expectedgoals Opponent - Expectedgoals', title_x=title_x,
+        title_text='Ht1: xGO - xG', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1462,7 +1462,7 @@ def page_teamx():
     )
     figHistogramxG_A_xG_2Ht.update_xaxes(range=[5, 95])
     figHistogramxG_A_xG_2Ht.update_layout(
-        title_text='Ht2: Expectedgoals - Expectedgoals Opponent', title_x=title_x,
+        title_text='Ht2: xG - xGO', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1497,7 +1497,7 @@ def page_teamx():
     )
     figHistogramA_xG_xG_2Ht.update_xaxes(range=[5, 95])
     figHistogramA_xG_xG_2Ht.update_layout(
-        title_text='Ht2: Expectedgoals Opponent - Expectedgoals', title_x=title_x,
+        title_text='Ht2: xGO - xG', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1517,10 +1517,10 @@ def page_teamx():
 
     col1, col2 = st.columns(2)
 
-    col1.plotly_chart(BarBallpossessionstylesResultsHalftime1)
-    col2.plotly_chart(BarBallpossessionstylesResultsHalftime2)
-    col1.plotly_chart(BarBallpossessionstylesXGHalftime1)
-    col2.plotly_chart(BarBallpossessionstylesXGHalftime2)
+    col1.plotly_chart(BarBPstylesResultsHalftime1)
+    col2.plotly_chart(BarBPstylesResultsHalftime2)
+    col1.plotly_chart(BarBPstylesXGHalftime1)
+    col2.plotly_chart(BarBPstylesXGHalftime2)
 
     col1.plotly_chart(figHistogramxG_A_xG_1Ht)
     col1.plotly_chart(figHistogramA_xG_xG_1Ht)
