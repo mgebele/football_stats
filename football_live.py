@@ -1050,7 +1050,7 @@ def page_teamx():
     )
     figScatter_h1_soG_SoGA.update_xaxes(range=[5, 95])
     figScatter_h1_soG_SoGA.update_layout(
-        title_text='Halftime 1: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
+        title_text='Ht1: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1083,7 +1083,7 @@ def page_teamx():
     )
     figScatter_h1_SoGA_soG.update_xaxes(range=[5, 95])
     figScatter_h1_SoGA_soG.update_layout(
-        title_text='Halftime 1: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
+        title_text='Ht1: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1117,7 +1117,7 @@ def page_teamx():
     )
     figScatter_h2_SoG_SoGA.update_xaxes(range=[5, 95])
     figScatter_h2_SoG_SoGA.update_layout(
-        title_text='Halftime 2: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
+        title_text='Ht2: Shots on Goal - Shots on Goal Opponent', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1152,7 +1152,7 @@ def page_teamx():
     )
     figScatter_h2_SoGA_SoG.update_xaxes(range=[5, 95])
     figScatter_h2_SoGA_SoG.update_layout(
-        title_text='Halftime 2: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
+        title_text='Ht2: Shots on Goal Opponent - Shots on Goal', title_x=title_x,
         yaxis=dict(
             tickmode='linear',
             tick0=1,
@@ -1250,7 +1250,7 @@ def page_teamx():
         fig.update_yaxes(range=[0, highest_count_yaxis], title='Adjusted Count')
         fig.update_layout(
             title_text=title,
-            title_x=0.5,  # Center alignment
+            title_x=title_x,  # Center alignment
             xaxis=dict(tickmode='array', showticklabels=True),
             bargap=0.2,        # Adjust this value (0 to 1) for spacing between bars
             bargroupgap=0.1    # Adjust this value for spacing within grouped bars
@@ -1259,12 +1259,12 @@ def page_teamx():
 
     # Create and display the bar charts
     BarBPstylesResultsHalftime1 = create_bar_chart(1,
-        'BP Styles - Halftime 1 Results',
+        'BP Styles - Ht1 Results',
         highest_count_yaxis=highest_count_yaxis
     )
     BarBPstylesResultsHalftime2 = create_bar_chart(
         2,
-        'BP Styles - Halftime 2 Results',
+        'BP Styles - Ht2 Results',
         highest_count_yaxis=highest_count_yaxis
     )
 
@@ -1323,7 +1323,7 @@ def page_teamx():
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
     BarBPstylesXGHalftime1.update_layout(
-        title_text='BP Styles - xG halftime 1', title_x=title_x, xaxis=dict(
+        title_text='BP Styles - xG Ht1', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
@@ -1352,7 +1352,7 @@ def page_teamx():
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
     BarBPstylesXGHalftime2.update_layout(
-        title_text='BP Styles - xG halftime 2', title_x=title_x, xaxis=dict(
+        title_text='BP Styles - xG Ht2', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
