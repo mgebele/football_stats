@@ -12,6 +12,8 @@ import streamlit as st
 import plotly.graph_objects as go
 from pathlib import Path
 
+# C:\Users\gebel\github\football_stats>activate football_stats
+
 st.set_page_config(layout="wide")
 pd.options.display.float_format = "{:,.1f}".format
 warnings.filterwarnings('ignore')
@@ -483,7 +485,6 @@ def create_df4Complete(df4Home, df4OpponentReversed):
     df4Complete["BP-H"] = df4Complete["BP-H"].astype('float64')
     df4Complete["BP-A"] = df4Complete["BP-A"].astype('float64')
 
-    # GoalDifference
     df4Complete["GoalDiff"] = df4Complete["G-H"] - df4Complete["G-A"]
     df4Complete = df4Complete.sort_values("Date",  ascending=False)
 
@@ -1197,45 +1198,54 @@ def page_teamx():
             df4CompleteGraph = pd.concat([df4CompleteGraph, new_row_ht2], ignore_index=True)
 
 
-    # Create data for histogram 2
-    BarBallpossesionstylesResultsHalftime1 = px.bar(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
-        x='BPTypes',
-        y='count',
-        # text=df4CompleteGraph.index,
-        color='Halftime result',
-        color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
-        width=widthfig,
-        # height=heightfig,
-        text="Opponent",
-    )
-    BarBallpossesionstylesResultsHalftime1.update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55'],).update_yaxes(
-        range=[0, highest_count_yaxis])
+    # add goal differences for halftime charts, with draws consistently represented by a single unit in height
+    df4CompleteGraph['GoalDifference_abs'] = abs(df4CompleteGraph['G-H'] - df4CompleteGraph['G-A'])
 
-    BarBallpossesionstylesResultsHalftime1.update_layout(
-        title_text='Ballpossesionstyles - results halftime 1', title_x=title_x, xaxis=dict(
-            tickmode='array', showticklabels=True,
-        )
+    # Create the 'AdjustedCount' column based on the halftime result
+    df4CompleteGraph['AdjustedCount'] = df4CompleteGraph.apply(
+        lambda row: 1 if row['Halftime result'] == 'Draw' else row['GoalDifference_abs'],
+        axis=1
     )
 
-    # Create data for histogram 2
-    BarBallpossesionstylesResultsHalftime2 = px.bar(
-        df4CompleteGraph[df4CompleteGraph["halftime"] == 2],
-        x='BPTypes',
-        y='count',
-        # text=df4CompleteGraph.index,
-        color='Halftime result',
-        color_discrete_map={"Win": "green", "Draw": "gray", "Loss": "red"},
-        width=widthfig,
-        # height=heightfig,
-        text="Opponent",
-    )
-    BarBallpossesionstylesResultsHalftime2.update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
-        range=[0, highest_count_yaxis])
-    BarBallpossesionstylesResultsHalftime2.update_layout(
-        title_text='Ballpossesionstyles - results halftime 2', title_x=title_x, xaxis=dict(
-            tickmode='array', showticklabels=True,
+    # Define color mapping and category order
+    color_map = {"Win": "green", "Draw": "gray", "Loss": "red"}
+    category_order = ['<45', '45-55', '>55']
+    category_orders = {'BPTypes': category_order}
+
+    # Function to create bar charts for a given halftime
+    def create_bar_chart(halftime, title, highest_count_yaxis):
+        filtered_df = df4CompleteGraph[df4CompleteGraph["halftime"] == halftime]
+        fig = px.bar(
+            filtered_df,
+            x='BPTypes',
+            y='AdjustedCount',
+            color='Halftime result',
+            color_discrete_map=color_map,
+            width=widthfig,
+            text="Opponent",
+            category_orders=category_orders,
+            barmode='group'  # Ensures bars are grouped side by side
         )
+        fig.update_xaxes(categoryorder="array", categoryarray=category_order)
+        fig.update_yaxes(range=[0, highest_count_yaxis], title='Adjusted Count')
+        fig.update_layout(
+            title_text=title,
+            title_x=0.5,  # Center alignment
+            xaxis=dict(tickmode='array', showticklabels=True),
+            bargap=0.2,        # Adjust this value (0 to 1) for spacing between bars
+            bargroupgap=0.1    # Adjust this value for spacing within grouped bars
+        )
+        return fig
+
+    # Create and display the bar charts
+    BarBallpossessionstylesResultsHalftime1 = create_bar_chart(1,
+        'Ball Possession Styles - Halftime 1 Results',
+        highest_count_yaxis=highest_count_yaxis
+    )
+    BarBallpossessionstylesResultsHalftime2 = create_bar_chart(
+        2,
+        'Ball Possession Styles - Halftime 2 Results',
+        highest_count_yaxis=highest_count_yaxis
     )
 
     print(df4CompleteGraph.columns)
@@ -1277,7 +1287,7 @@ def page_teamx():
     print(ht2[["IsHome","xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
 
     # Create barchart for xg per bptypes 1
-    BarBallpossesionstylesXGHalftime1 = px.bar(
+    BarBallpossessionstylesXGHalftime1 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
         x='BPTypes',
         y=['xg_halftime-Axg_halftime', 'Axg_halftime-xg_halftime'],
@@ -1292,12 +1302,12 @@ def page_teamx():
         text="Opponent",
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
-    BarBallpossesionstylesXGHalftime1.update_layout(
-        title_text='Ballpossesionstyles - xG halftime 1', title_x=title_x, xaxis=dict(
+    BarBallpossessionstylesXGHalftime1.update_layout(
+        title_text='Ballpossessionstyles - xG halftime 1', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
-    BarBallpossesionstylesXGHalftime1.update_layout(legend=dict(
+    BarBallpossessionstylesXGHalftime1.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1306,7 +1316,7 @@ def page_teamx():
 
 
     # Create barchart for xg per bptypes 2
-    BarBallpossesionstylesXGHalftime2 = px.bar(
+    BarBallpossessionstylesXGHalftime2 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == 2],
         x='BPTypes',
         y=['diff_xg_fulltime-diff_xg_halftime', 'diff_Axg_fulltime-diff_Axg_halftime'],
@@ -1321,12 +1331,12 @@ def page_teamx():
         text="Opponent",
     ).update_xaxes(categoryorder="array", categoryarray=['<45', '45-55', '>55']).update_yaxes(
         range=[0, highest_count_yaxis])
-    BarBallpossesionstylesXGHalftime2.update_layout(
-        title_text='Ballpossesionstyles - xG halftime 2', title_x=title_x, xaxis=dict(
+    BarBallpossessionstylesXGHalftime2.update_layout(
+        title_text='Ballpossessionstyles - xG halftime 2', title_x=title_x, xaxis=dict(
             tickmode='array', showticklabels=True,
         )
     )
-    BarBallpossesionstylesXGHalftime2.update_layout(legend=dict(
+    BarBallpossessionstylesXGHalftime2.update_layout(legend=dict(
         yanchor="top",
         y=1.2,
         xanchor="right",
@@ -1485,10 +1495,10 @@ def page_teamx():
 
     col1, col2 = st.columns(2)
 
-    col1.plotly_chart(BarBallpossesionstylesResultsHalftime1)
-    col2.plotly_chart(BarBallpossesionstylesResultsHalftime2)
-    col1.plotly_chart(BarBallpossesionstylesXGHalftime1)
-    col2.plotly_chart(BarBallpossesionstylesXGHalftime2)
+    col1.plotly_chart(BarBallpossessionstylesResultsHalftime1)
+    col2.plotly_chart(BarBallpossessionstylesResultsHalftime2)
+    col1.plotly_chart(BarBallpossessionstylesXGHalftime1)
+    col2.plotly_chart(BarBallpossessionstylesXGHalftime2)
 
     col1.plotly_chart(figHistogramxG_A_xG_1Ht)
     col1.plotly_chart(figHistogramA_xG_xG_1Ht)
