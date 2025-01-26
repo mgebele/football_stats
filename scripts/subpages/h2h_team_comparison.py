@@ -9,7 +9,7 @@ from scripts.data_processing.pre_processing_loading import process_team_names_of
 from scripts.data_processing.processing_augmentation import df_specific_team, create_df4Complete
 
 global widthfig
-widthfig = 700
+widthfig = 1000
 heightfig = 600
 
 custom_green_scale = [
@@ -489,6 +489,7 @@ def team_x_visualization(df4Complete):
     category_order = ['<45', '45-55', '>55']
     category_orders = {'BPTypes': category_order}
 
+
     # Create and display the bar charts
     BarBPstylesResultsHalftime1 = create_bar_chart(df4CompleteGraph=df4CompleteGraph, halftime=1, title='BP Styles - Ht1 Results',
         highest_count_yaxis=highest_count_yaxis, color_map=color_map, category_orders=category_orders, category_order=category_order)
@@ -540,22 +541,13 @@ def team_x_visualization(df4Complete):
     df4CompleteGraph['marker_properties'] = df4CompleteGraph['red_card'].apply(
         lambda x: {'line_width': 2, 'line_color': 'red'} if x else {'line_width': 1, 'line_color': 'black'}
     )
+    
+    return BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, \
+            figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
+            fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4CompleteGraph
 
-    #  Define the clusters
-    clusters = [
-        'diff_xg_fulltime-diff_xg_halftime', 
-        'diff_Axg_fulltime-diff_Axg_halftime',
-        'xg_halftime-Axg_halftime', 
-        'Axg_halftime-xg_halftime'
-    ]
-    grouped_sum = df4CompleteGraph.groupby(["BPTypes", "halftime"])[clusters].sum()
-    try:
-        # Find the maximum value across all clusters and groups
-        highest_xg_count_yaxis = grouped_sum.values.max()
-    except Exception as e:
-        print(f"An error occurred while calculating the y-axis range: {e}")
-        highest_xg_count_yaxis = 0
 
+def xg_diagrams_per_halftime(df4CompleteGraph, widthfig, highest_xg_count_yaxis):
     # Create barchart for xg per bptypes 1
     BarBPstylesXGHalftime1 = px.bar(
         df4CompleteGraph[df4CompleteGraph["halftime"] == 1],
@@ -609,10 +601,7 @@ def team_x_visualization(df4Complete):
         xanchor="right",
         x=1.12
     ))
-    
-    return BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, BarBPstylesXGHalftime1, BarBPstylesXGHalftime2, \
-            figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
-            fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4CompleteGraph
+    return BarBPstylesXGHalftime1, BarBPstylesXGHalftime2
 
 
 def plot_scatters(df4CompleteGraph, max_loss_goals_diff, max_win_goals_diff):
@@ -794,6 +783,17 @@ def get_max_win_loss_goals_diff(df):
 
     return max_loss, max_win
 
+def get_comp_highest_xg_count_yaxis(df4CompleteGraph):  
+    grouped_sum = df4CompleteGraph.groupby(["BPTypes", "halftime"])[['diff_xg_fulltime-diff_xg_halftime', \
+    'diff_Axg_fulltime-diff_Axg_halftime', 'xg_halftime-Axg_halftime','Axg_halftime-xg_halftime']].sum()
+    try:
+        highest_xg_count_yaxis = grouped_sum.values.max() # Find the maximum value across all clusters and groups
+    except Exception as e:
+        print(f"An error occurred while calculating the y-axis range: {e}")
+        highest_xg_count_yaxis = 0
+    return highest_xg_count_yaxis
+                
+
 def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, saison : str):
 
     dfallteamnamesl = df_complete_saison.H_TEAMNAMES.unique()
@@ -825,27 +825,35 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
 
         df4Complete = team_x_data_processing(df_complete_saison, teamnamedict, saison, team)
 
-        BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, BarBPstylesXGHalftime1, \
-        BarBPstylesXGHalftime2, figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, \
+        BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, \
         fig_xg_homexg_complete_game_all_bpse, fig_xg_perminute_home_bigger_55, \
         fig_xg_perminute_home_smaller_45, df4CompleteGraph = team_x_visualization(df4Complete)
 
         max_loss_goals_diff, max_win_goals_diff = get_max_win_loss_goals_diff(df4CompleteGraph)
-        print("team max_loss_goals_diff, max_win_goals_diff")
-        print(max_loss_goals_diff, max_win_goals_diff)
+
+        highest_xg_count_yaxis = get_comp_highest_xg_count_yaxis(df4CompleteGraph)
 
         # need to get the max_loss_goals_diff, max_win_goals_diff for team 2 to set an equal y-axis for both teams
         df4Complete2 = team_x_data_processing(df_complete_saison, teamnamedict, saison, team_2)
-        BarBPstylesResultsHalftime1_Team2, BarBPstylesResultsHalftime2_Team2, BarBPstylesXGHalftime1_Team2, \
-        BarBPstylesXGHalftime2_Team2, figScatter_SoG_SoGA_Team2, figScatter_SoGA_soG_Team2, fig_xg_perminute_home_Team2, fig_xg_homexg_complete_game_all_bpse_Team2, \
-        fig_xg_perminute_home_bigger_55_Team2, fig_xg_perminute_home_smaller_45_Team2, df4Complete2Graph_Team2 = team_x_visualization(df4Complete2)
-        max_loss_goals_diff_Team2, max_win_goals_diff_Team2 = get_max_win_loss_goals_diff(df4Complete2Graph_Team2)
 
+        BarBPstylesResultsHalftime1_Team2, BarBPstylesResultsHalftime2_Team2, figScatter_SoG_SoGA_Team2, figScatter_SoGA_soG_Team2, \
+        fig_xg_perminute_home_Team2, fig_xg_homexg_complete_game_all_bpse_Team2, fig_xg_perminute_home_bigger_55_Team2, \
+        fig_xg_perminute_home_smaller_45_Team2, df4Complete2Graph_Team2 = team_x_visualization(df4Complete2)
+
+
+        highest_xg_count_yaxis_Team2 = get_comp_highest_xg_count_yaxis(df4Complete2Graph_Team2)
+        # getting the max value for the y-axis xg_count for both teams to allign the xg bar plots
+        comp_highest_xg_count_yaxis = max(highest_xg_count_yaxis, highest_xg_count_yaxis_Team2)
+
+
+        max_loss_goals_diff_Team2, max_win_goals_diff_Team2 = get_max_win_loss_goals_diff(df4Complete2Graph_Team2)
         # getting the max win and loss values for the y-axis for both teams to allign the scatterplots
         comp_max_loss_goals_diff = max(max_loss_goals_diff, max_loss_goals_diff_Team2)
         comp_max_win_goals_diff = max(max_win_goals_diff, max_win_goals_diff_Team2)
 
         # plots for team 1
+        BarBPstylesXGHalftime1, BarBPstylesXGHalftime2 = xg_diagrams_per_halftime(df4CompleteGraph, widthfig, comp_highest_xg_count_yaxis)
+
         figHistogramHt1xG_Combined, figHistogramHt2xG_Combined = plot_scatters(df4CompleteGraph, comp_max_loss_goals_diff, comp_max_win_goals_diff)
 
         col1, col2 = st.columns(2)
@@ -865,15 +873,18 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
         col1.plotly_chart(fig_xg_perminute_home_bigger_55)
         col1.plotly_chart(fig_xg_perminute_home_smaller_45)
         
-        col1.dataframe(df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'xPTS', 'A_xPTS',  \
-                                    'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]].style.format(  \
+        col1.dataframe(df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A',  \
+                                   'xg_halftime', 'Axg_halftime', "halftime", "A_Red Cards", "H_Red Cards", 'Date']].style.format(  \
                                         {'xG': '{:.1f}', 'A_xG': '{:.1f}',
                                         'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
                                         'BP-A': '{:.0f}', 'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 
                                         }))
 
         # plots for team 2
+        BarBPstylesXGHalftime1_Team2, BarBPstylesXGHalftime2_Team2 = xg_diagrams_per_halftime(df4Complete2Graph_Team2, widthfig, comp_highest_xg_count_yaxis)
+        
         figHistogramHt1xG_Combined_Team2, figHistogramHt2xG_Combined_Team2 = plot_scatters(df4Complete2Graph_Team2, comp_max_loss_goals_diff, comp_max_win_goals_diff)
+        
         col2.plotly_chart(BarBPstylesResultsHalftime1_Team2)
         col2.plotly_chart(BarBPstylesResultsHalftime2_Team2)
         col2.plotly_chart(BarBPstylesXGHalftime1_Team2)
@@ -886,8 +897,8 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
         col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse_Team2)
         col2.plotly_chart(fig_xg_perminute_home_bigger_55_Team2)
         col2.plotly_chart(fig_xg_perminute_home_smaller_45_Team2)
-        col2.dataframe(df4Complete2[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'xPTS', 'A_xPTS', \
-                                      'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]].style.format(  \
+        col2.dataframe(df4Complete2[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', \
+                                      'xg_halftime', 'Axg_halftime',  "halftime", "A_Red Cards", "H_Red Cards",'Date']].style.format(  \
                                         {'xG': '{:.1f}', 'A_xG': '{:.1f}', 
                                         'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
                                         'BP-A': '{:.0f}', 'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 
