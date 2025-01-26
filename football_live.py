@@ -92,5 +92,6 @@ if page == 'Team Analyis':
     page_teamx(df_complete_saison, teamnamedict, saison)
 elif page == 'Comparison':
     page_h2h_comparison(df_complete_saison, teamnamedict, saison)
+
 elif page == 'League Tables':
     page_league_table(df_complete_saison, saison, teamnamedict)

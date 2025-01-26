@@ -790,56 +790,56 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
     # teamname corrected that it fits to htdatan teamnames
     team_2 = team_2_df.iloc[0][0]
 
+    if st.sidebar.button("Run Comparison"):
 
-    BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, BarBPstylesXGHalftime1, \
-    BarBPstylesXGHalftime2, figHistogramHt1xG_Combined, figHistogramHt2xG_Combined, \
-    figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
-    fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4Complete_show = team_x_data_processing_visualization(df_complete_saison, teamnamedict, saison, team)
+        BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, BarBPstylesXGHalftime1, \
+        BarBPstylesXGHalftime2, figHistogramHt1xG_Combined, figHistogramHt2xG_Combined, \
+        figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
+        fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4Complete_show = team_x_data_processing_visualization(df_complete_saison, teamnamedict, saison, team)
 
-    col1, col2 = st.columns(2)
-    col1.title("{}".format(team))
-    col2.title("{}".format(team_2))
+        col1, col2 = st.columns(2)
+        col1.title("{}".format(team))
+        col2.title("{}".format(team_2))
 
-    col1.plotly_chart(BarBPstylesResultsHalftime1)
-    col1.plotly_chart(BarBPstylesResultsHalftime2)
-    col1.plotly_chart(BarBPstylesXGHalftime1)
-    col1.plotly_chart(BarBPstylesXGHalftime2)
-    col1.plotly_chart(figHistogramHt1xG_Combined)
-    col1.plotly_chart(figHistogramHt2xG_Combined)
-    col1.plotly_chart(figScatter_SoG_SoGA)
-    col1.plotly_chart(figScatter_SoGA_soG)
-    col1.plotly_chart(fig_xg_perminute_home)
-    col1.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
-    col1.plotly_chart(fig_xg_perminute_home_bigger_55)
-    col1.plotly_chart(fig_xg_perminute_home_smaller_45)
-    col1.dataframe(df4Complete_show.style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'SoG-H': '{:.0f}',
-                                                'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
-                                                'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
-                                                'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
-                                                }))
+        col1.plotly_chart(BarBPstylesResultsHalftime1)
+        col1.plotly_chart(BarBPstylesResultsHalftime2)
+        col1.plotly_chart(BarBPstylesXGHalftime1)
+        col1.plotly_chart(BarBPstylesXGHalftime2)
+        col1.plotly_chart(figHistogramHt1xG_Combined)
+        col1.plotly_chart(figHistogramHt2xG_Combined)
+        col1.plotly_chart(figScatter_SoG_SoGA)
+        col1.plotly_chart(figScatter_SoGA_soG)
+        col1.plotly_chart(fig_xg_perminute_home)
+        col1.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
+        col1.plotly_chart(fig_xg_perminute_home_bigger_55)
+        col1.plotly_chart(fig_xg_perminute_home_smaller_45)
+        col1.dataframe(df4Complete_show.style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'SoG-H': '{:.0f}',
+                                                    'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
+                                                    'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
+                                                    'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
+                                                    }))
 
 
-    
 
-    BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, BarBPstylesXGHalftime1, \
-    BarBPstylesXGHalftime2, figHistogramHt1xG_Combined, figHistogramHt2xG_Combined, \
-    figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
-    fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4Complete_show = team_x_data_processing_visualization(df_complete_saison, teamnamedict, saison, team_2)
-    
-    col2.plotly_chart(BarBPstylesResultsHalftime1)
-    col2.plotly_chart(BarBPstylesResultsHalftime2)
-    col2.plotly_chart(BarBPstylesXGHalftime1)
-    col2.plotly_chart(BarBPstylesXGHalftime2)
-    col2.plotly_chart(figHistogramHt1xG_Combined)
-    col2.plotly_chart(figHistogramHt2xG_Combined)
-    col2.plotly_chart(figScatter_SoG_SoGA)
-    col2.plotly_chart(figScatter_SoGA_soG)
-    col2.plotly_chart(fig_xg_perminute_home)
-    col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
-    col2.plotly_chart(fig_xg_perminute_home_bigger_55)
-    col2.plotly_chart(fig_xg_perminute_home_smaller_45)
-    col2.dataframe(df4Complete_show.style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'SoG-H': '{:.0f}',
-                                                'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
-                                                'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
-                                                'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
-                                                }))
+        BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, BarBPstylesXGHalftime1, \
+        BarBPstylesXGHalftime2, figHistogramHt1xG_Combined, figHistogramHt2xG_Combined, \
+        figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
+        fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4Complete_show = team_x_data_processing_visualization(df_complete_saison, teamnamedict, saison, team_2)
+        
+        col2.plotly_chart(BarBPstylesResultsHalftime1)
+        col2.plotly_chart(BarBPstylesResultsHalftime2)
+        col2.plotly_chart(BarBPstylesXGHalftime1)
+        col2.plotly_chart(BarBPstylesXGHalftime2)
+        col2.plotly_chart(figHistogramHt1xG_Combined)
+        col2.plotly_chart(figHistogramHt2xG_Combined)
+        col2.plotly_chart(figScatter_SoG_SoGA)
+        col2.plotly_chart(figScatter_SoGA_soG)
+        col2.plotly_chart(fig_xg_perminute_home)
+        col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse)
+        col2.plotly_chart(fig_xg_perminute_home_bigger_55)
+        col2.plotly_chart(fig_xg_perminute_home_smaller_45)
+        col2.dataframe(df4Complete_show.style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'SoG-H': '{:.0f}',
+                                                    'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
+                                                    'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
+                                                    'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
+                                                    }))
