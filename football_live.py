@@ -8,6 +8,7 @@ from pathlib import Path
 
 from scripts.subpages.single_team_page import page_teamx
 from scripts.subpages.league_table_overview_page import page_league_table
+from scripts.subpages.h2h_team_comparison import page_h2h_comparison
 
 # C:\Users\gebel\github\football_stats>activate football_stats
 
@@ -84,10 +85,12 @@ print("df_complete_saison.columns")
 print(df_complete_saison.columns)
 
 # Erstelle ein Seitenleisten-Menü
-page = st.sidebar.radio("Choose a page:", ( 'League Tables', 'Team Analyis'))
+page = st.sidebar.radio("Choose a page:", ('Comparison', 'League Tables', 'Team Analyis'))
 
 # Navigiere zur ausgewählten Seite
 if page == 'Team Analyis':
     page_teamx(df_complete_saison, teamnamedict, saison)
+elif page == 'Comparison':
+    page_h2h_comparison(df_complete_saison, teamnamedict, saison)
 elif page == 'League Tables':
     page_league_table(df_complete_saison, saison, teamnamedict)
