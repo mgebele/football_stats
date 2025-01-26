@@ -12,6 +12,11 @@ global widthfig
 widthfig = 1000
 heightfig = 600
 
+# Define color mapping and category order
+color_map = {"Win": "green", "Draw": "gray", "Loss": "red"}
+category_order = ['<45', '45-55', '>55']
+category_orders = {'BPTypes': category_order}
+
 custom_green_scale = [
         [0.0, 'rgb(0, 50, 0)'],         # Sehr dunkelgrün (nahezu schwarz)
         [0.2, 'rgb(0, 100, 0)'],        # Dunkelgrün
@@ -427,12 +432,6 @@ def team_x_visualization(df4Complete):
     df4CompleteGraph['Halftime result'] = df4CompleteGraph['1x2'].replace(
         naming1x2)
 
-    try:
-        highest_count_yaxis = df4CompleteGraph.groupby(["BPTypes", "halftime"]).agg(
-            'count').sort_values("Opponent", ascending=False).iloc[0].Home
-    except:
-        highest_count_yaxis = 0
-
     df4CompleteGraph['count'] = 1
     df4CompleteGraph_ht1 = df4CompleteGraph[df4CompleteGraph["halftime"] == 1]
     df4CompleteGraph_ht2 = df4CompleteGraph[df4CompleteGraph["halftime"] == 2]
@@ -483,19 +482,6 @@ def team_x_visualization(df4Complete):
         lambda row: 1 if row['Halftime result'] == 'Draw' else row['GoalDifference_abs'],
         axis=1
     )
-    
-    # Define color mapping and category order
-    color_map = {"Win": "green", "Draw": "gray", "Loss": "red"}
-    category_order = ['<45', '45-55', '>55']
-    category_orders = {'BPTypes': category_order}
-
-
-    # Create and display the bar charts
-    BarBPstylesResultsHalftime1 = create_bar_chart(df4CompleteGraph=df4CompleteGraph, halftime=1, title='BP Styles - Ht1 Results',
-        highest_count_yaxis=highest_count_yaxis, color_map=color_map, category_orders=category_orders, category_order=category_order)
-    
-    BarBPstylesResultsHalftime2 = create_bar_chart(df4CompleteGraph=df4CompleteGraph, halftime=2, title='BP Styles - Ht2 Results',
-        highest_count_yaxis=highest_count_yaxis, color_map=color_map, category_orders=category_orders, category_order=category_order)
 
     print(df4CompleteGraph.columns)
     print(df4CompleteGraph[["xG","A_xG", "xg_halftime", "Axg_halftime","halftime","Opponent",'Halftime result',"timestamp"]])
@@ -542,9 +528,19 @@ def team_x_visualization(df4Complete):
         lambda x: {'line_width': 2, 'line_color': 'red'} if x else {'line_width': 1, 'line_color': 'black'}
     )
     
-    return BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, \
-            figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
+    return figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, fig_xg_homexg_complete_game_all_bpse, \
             fig_xg_perminute_home_bigger_55, fig_xg_perminute_home_smaller_45, df4CompleteGraph
+
+
+def create_bp_styles_barcharts(df4CompleteGraph, highest_count_yaxis, color_map, category_orders, category_order):
+    # Create and display the bar charts
+    BarBPstylesResultsHalftime1 = create_bar_chart(df4CompleteGraph=df4CompleteGraph, halftime=1, title='BP Styles - Ht1 Results',
+        highest_count_yaxis=highest_count_yaxis, color_map=color_map, category_orders=category_orders, category_order=category_order)
+    
+    BarBPstylesResultsHalftime2 = create_bar_chart(df4CompleteGraph=df4CompleteGraph, halftime=2, title='BP Styles - Ht2 Results',
+        highest_count_yaxis=highest_count_yaxis, color_map=color_map, category_orders=category_orders, category_order=category_order)
+    
+    return BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2
 
 
 def xg_diagrams_per_halftime(df4CompleteGraph, widthfig, highest_xg_count_yaxis):
@@ -793,6 +789,13 @@ def get_comp_highest_xg_count_yaxis(df4CompleteGraph):
         highest_xg_count_yaxis = 0
     return highest_xg_count_yaxis
                 
+def get_max_y_bar_goals_diff(df4CompleteGraph):
+            try:
+                highest_count_yaxis = df4CompleteGraph.groupby(["BPTypes", "halftime"]).agg(
+                    'count').sort_values("Opponent", ascending=False).iloc[0].Home
+            except:
+                highest_count_yaxis = 0
+            return highest_count_yaxis
 
 def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, saison : str):
 
@@ -825,9 +828,12 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
 
         df4Complete = team_x_data_processing(df_complete_saison, teamnamedict, saison, team)
 
-        BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2, figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, \
+        figScatter_SoG_SoGA, figScatter_SoGA_soG, fig_xg_perminute_home, \
         fig_xg_homexg_complete_game_all_bpse, fig_xg_perminute_home_bigger_55, \
         fig_xg_perminute_home_smaller_45, df4CompleteGraph = team_x_visualization(df4Complete)
+
+        # getting the max value for the y-axis goals diff for both teams to allign the xg bar plots
+        highest_count_yaxis = get_max_y_bar_goals_diff(df4CompleteGraph)
 
         max_loss_goals_diff, max_win_goals_diff = get_max_win_loss_goals_diff(df4CompleteGraph)
 
@@ -836,9 +842,20 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
         # need to get the max_loss_goals_diff, max_win_goals_diff for team 2 to set an equal y-axis for both teams
         df4Complete2 = team_x_data_processing(df_complete_saison, teamnamedict, saison, team_2)
 
-        BarBPstylesResultsHalftime1_Team2, BarBPstylesResultsHalftime2_Team2, figScatter_SoG_SoGA_Team2, figScatter_SoGA_soG_Team2, \
-        fig_xg_perminute_home_Team2, fig_xg_homexg_complete_game_all_bpse_Team2, fig_xg_perminute_home_bigger_55_Team2, \
+        figScatter_SoG_SoGA_Team2, figScatter_SoGA_soG_Team2, fig_xg_perminute_home_Team2, \
+        fig_xg_homexg_complete_game_all_bpse_Team2, fig_xg_perminute_home_bigger_55_Team2, \
         fig_xg_perminute_home_smaller_45_Team2, df4Complete2Graph_Team2 = team_x_visualization(df4Complete2)
+
+        # getting the max value for the y-axis goals diff for both teams to allign the xg bar plots
+        highest_count_yaxis_Team2 = get_max_y_bar_goals_diff(df4Complete2Graph_Team2)
+        comp_highest_count_yaxis = max(highest_count_yaxis, highest_count_yaxis_Team2)
+
+        # visalization for both the goals diff per ht bar plots 
+        BarBPstylesResultsHalftime1, BarBPstylesResultsHalftime2 = create_bp_styles_barcharts( \
+            df4CompleteGraph, comp_highest_count_yaxis, color_map, category_orders, category_order)
+
+        BarBPstylesResultsHalftime1_Team2, BarBPstylesResultsHalftime2_Team2 = create_bp_styles_barcharts( \
+            df4Complete2Graph_Team2, comp_highest_count_yaxis, color_map, category_orders, category_order)
 
 
         highest_xg_count_yaxis_Team2 = get_comp_highest_xg_count_yaxis(df4Complete2Graph_Team2)
