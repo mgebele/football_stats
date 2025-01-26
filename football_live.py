@@ -78,11 +78,13 @@ df_complete_saison = df_complete_saison.replace(teamnamedict)
 # adapt column names, because they are not the same for all seasons
 df_complete_saison.columns = df_complete_saison.columns.str.upper()
 df_complete_saison.columns = df_complete_saison.columns.str.replace(' ', '_')
+
 if 'HALFTIME' not in df_complete_saison.columns:
     df_complete_saison['HALFTIME'] = np.nan
-
-print("df_complete_saison.columns")
-print(df_complete_saison.columns)
+# Fill missing values for halftime column!
+# Extract the last integer after the '/' in 'GAMEURL' and assign it to 'HALFTIME'
+df_complete_saison['HALFTIME'] = df_complete_saison['GAMEURL'].str.extract(r'/(\d+)$')
+df_complete_saison['HALFTIME'] = df_complete_saison['HALFTIME'].astype(float)
 
 # Erstelle ein Seitenleisten-Menü
 page = st.sidebar.radio("Choose a page:", ('Comparison', 'League Tables', 'Team Analyis'))

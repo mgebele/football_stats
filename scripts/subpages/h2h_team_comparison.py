@@ -685,6 +685,17 @@ def plot_scatters(df4CompleteGraph, max_loss_goals_diff, max_win_goals_diff):
             x=1.12
         )
     )
+    # Add horizontal line at y=0
+    figHistogramHt1xG_Combined.add_trace(
+        go.Scatter(
+            x=[15, 90],  # Adjust x-axis range to match your plot
+            y=[0, 0],
+            mode='lines',
+            line=dict(color='gray', width=3),  # Thicker line
+            name='Goal Difference = 0',
+            showlegend=False
+        )
+    )
     figHistogramHt1xG_Combined.update_xaxes(range=[15, 90])
 
 
@@ -754,6 +765,17 @@ def plot_scatters(df4CompleteGraph, max_loss_goals_diff, max_win_goals_diff):
             y=1.2, 
             xanchor="right", 
             x=1.12
+        )
+    )
+    # Add horizontal line at y=0
+    figHistogramHt2xG_Combined.add_trace(
+        go.Scatter(
+            x=[15, 90],  # Adjust x-axis range to match your plot
+            y=[0, 0],
+            mode='lines',
+            line=dict(color='gray', width=3),  # Thicker line
+            name='Goal Difference = 0',
+            showlegend=False
         )
     )
     figHistogramHt2xG_Combined.update_xaxes(range=[15, 90])
@@ -843,14 +865,13 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
         col1.plotly_chart(fig_xg_perminute_home_bigger_55)
         col1.plotly_chart(fig_xg_perminute_home_smaller_45)
         
-        col1.dataframe(df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-                                    'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]].style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'SoG-H': '{:.0f}',
-                                                    'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
-                                                    'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
-                                                    'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
-                                                    }))
+        col1.dataframe(df4Complete[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'xPTS', 'A_xPTS',  \
+                                    'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]].style.format(  \
+                                        {'xG': '{:.1f}', 'A_xG': '{:.1f}',
+                                        'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
+                                        'BP-A': '{:.0f}', 'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 
+                                        }))
 
-        
         # plots for team 2
         figHistogramHt1xG_Combined_Team2, figHistogramHt2xG_Combined_Team2 = plot_scatters(df4Complete2Graph_Team2, comp_max_loss_goals_diff, comp_max_win_goals_diff)
         col2.plotly_chart(BarBPstylesResultsHalftime1_Team2)
@@ -865,9 +886,9 @@ def page_h2h_comparison(df_complete_saison : pd.DataFrame, teamnamedict : dict, 
         col2.plotly_chart(fig_xg_homexg_complete_game_all_bpse_Team2)
         col2.plotly_chart(fig_xg_perminute_home_bigger_55_Team2)
         col2.plotly_chart(fig_xg_perminute_home_smaller_45_Team2)
-        col2.dataframe(df4Complete2[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'GA-H', 'GA-A',
-                                'SoG-H', 'SoG-A',  'xPTS', 'A_xPTS', 'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]].style.format({'xG': '{:.1f}', 'A_xG': '{:.1f}', 'SoG-H': '{:.0f}',
-                                                'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
-                                                'BP-A': '{:.0f}', 'GA-H': '{:.0f}', 'GA-A': '{:.0f}',
-                                                'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 'SoG-A': '{:.0f}',
-                                                }))
+        col2.dataframe(df4Complete2[['Home', 'Opponent', 'IsHome', 'R', 'xG', 'A_xG', 'G-H', 'G-A', 'BP-H', 'BP-A', 'xPTS', 'A_xPTS', \
+                                      'Date', 'xg_halftime', 'Axg_halftime', "A_Red Cards", "H_Red Cards", "halftime"]].style.format(  \
+                                        {'xG': '{:.1f}', 'A_xG': '{:.1f}', 
+                                        'G-H': '{:.0f}', 'G-A': '{:.0f}', 'BP-H': '{:.0f}',
+                                        'BP-A': '{:.0f}', 'xPTS': '{:.1f}', 'A_xPTS': '{:.1f}', 
+                                        }))

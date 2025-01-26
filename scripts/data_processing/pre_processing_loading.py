@@ -4,37 +4,7 @@ import numpy as np
 import streamlit as st
 import traceback
 
-def process_team_names_of_df(x_df, teamnamedict):
-    x_df = x_df.replace(teamnamedict)
-    return x_df
-
-#######################################################
-###  calculate table with two halftimes to one game ###
-#######################################################
-def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Cleans and converts a DataFrame by selecting specific columns, removing duplicates,
-    and resetting the index. Adds a new column 'R' initialized with 'X' and converts
-    'TIMING_CHART_XG' to a string type. Extracts expected goals (xG) values for
-    halftime and assigns them to the DataFrame. Updates the result column 'R' based on
-    the goal comparison between home and away teams. Finally, renames the columns for
-    consistency and reorders them.
-    """
-    df = df[['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
-            'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
-            'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
-            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', 'TIMING_CHART_XG', 
-            "HOMEXG_COMPLETE_GAME", "AWAYXG_COMPLETE_GAME", 'HALFTIME']]
-    df = df.drop_duplicates(subset=['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
-            'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
-            'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
-            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS'], keep='first')
-    df = df.reset_index(drop=True)
-    df["R"] = 'X'
-
-    df['TIMING_CHART_XG'] = df['TIMING_CHART_XG'].astype('str') 
-
-    def extract_xg_values(df):
+def extract_xg_values(df):
         """ Extracts the xG values from the TIMING_CHART_XG columnn.
             This contains a string formatted as a list of xG values for each minute.
         """
@@ -87,6 +57,36 @@ def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
                 continue
         
         return df
+
+def process_team_names_of_df(x_df, teamnamedict):
+    x_df = x_df.replace(teamnamedict)
+    return x_df
+
+#######################################################
+###  calculate table with two halftimes to one game ###
+#######################################################
+def df_cleaning_converting(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Cleans and converts a DataFrame by selecting specific columns, removing duplicates,
+    and resetting the index. Adds a new column 'R' initialized with 'X' and converts
+    'TIMING_CHART_XG' to a string type. Extracts expected goals (xG) values for
+    halftime and assigns them to the DataFrame. Updates the result column 'R' based on
+    the goal comparison between home and away teams. Finally, renames the columns for
+    consistency and reorders them.
+    """
+    df = df[['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
+            'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
+            'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
+            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS', 'TIMING_CHART_XG', 
+            "HOMEXG_COMPLETE_GAME", "AWAYXG_COMPLETE_GAME", 'HALFTIME']]
+    df = df.drop_duplicates(subset=['H_TEAMNAMES', 'A_TEAMNAMES', 'H_GOALS', 'A_GOALS', 'H_BALL_POSSESSION', 'A_BALL_POSSESSION', 'H_GOAL_ATTEMPTS', 'A_GOAL_ATTEMPTS',
+            'H_SHOTS_ON_GOAL', 'A_SHOTS_ON_GOAL', 'H_SHOTS_OFF_GOAL', 'A_SHOTS_OFF_GOAL', 'H_FREE_KICKS', "H_RED_CARDS", "A_RED_CARDS",
+            'A_FREE_KICKS', 'H_CORNER_KICKS', 'A_CORNER_KICKS', 'H_OFFSIDES', 'A_OFFSIDES', 'H_GOALKEEPER_SAVES', 'A_GOALKEEPER_SAVES',
+            'H_FOULS', 'A_FOULS', 'A_GAMEINFO', 'A_DATETIME', 'XG', 'GOALS', 'XPTS', 'A_XG', 'A_GOALS', 'A_XPTS'], keep='first')
+    df = df.reset_index(drop=True)
+    df["R"] = 'X'
+
+    df['TIMING_CHART_XG'] = df['TIMING_CHART_XG'].astype('str') 
 
     df = extract_xg_values(df)
 
