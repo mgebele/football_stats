@@ -1,1081 +1,1081 @@
 ,H_DATETIME,H_GAMEINFO,H_TEAMNAMES,H_GOALS,H_BALL_POSSESSION,H_GOAL_ATTEMPTS,H_SHOTS_ON_GOAL,H_SHOTS_OFF_GOAL,H_BLOCKED_SHOTS,H_FREE_KICKS,H_CORNER_KICKS,H_OFFSIDES,H_GOALKEEPER_SAVES,H_FOULS,H_YELLOW_CARDS,H_RED_CARDS,H_TOTAL_PASSES,H_COMPLETED_PASSES,H_TACKLES,H_ATTACKS,H_DANGEROUS_ATTACKS,A_DATETIME,A_GAMEINFO,A_TEAMNAMES,A_GOALS,A_BALL_POSSESSION,A_GOAL_ATTEMPTS,A_SHOTS_ON_GOAL,A_SHOTS_OFF_GOAL,A_BLOCKED_SHOTS,A_FREE_KICKS,A_CORNER_KICKS,A_OFFSIDES,A_GOALKEEPER_SAVES,A_FOULS,A_YELLOW_CARDS,A_RED_CARDS,A_TOTAL_PASSES,A_COMPLETED_PASSES,A_TACKLES,A_ATTACKS,A_DANGEROUS_ATTACKS,H_CAT,GAMEURL,H_PASSES_IN_THE_FINAL_THIRD,H_HIT_THE_WOODWORK,A_BIG_CHANCES,H_SHOTS_INSIDE_THE_BOX,H_BIG_CHANCES,A_TOUCHES_IN_THE_OPPOSITION_BOX,H_CROSSES,A_CROSSES,A_EXPECTED_GOALS_XG,A_INTERCEPTIONS,H_SHOTS_OUTSIDE_THE_BOX,A_PASSES_IN_THE_FINAL_THIRD,H_THROWINS,H_INTERCEPTIONS,A_SHOTS_OUTSIDE_THE_BOX,H_EXPECTED_GOALS_XG,A_THROWINS,H_CLEARANCES_TOTAL,H_TOUCHES_IN_THE_OPPOSITION_BOX,A_HIT_THE_WOODWORK,A_SHOTS_INSIDE_THE_BOX,A_CLEARANCES_TOTAL,H_HEADED_GOALS,A_HEADED_GOALS,HALFTIME
-0,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Nantes,0,30,2,0,1,1,5,1,1,2,7,1.0,,155.0,128.0,36.0,,,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Lyon,1,70,8,3,3,2,7,5,1,0,5,0.0,,,,38.0,,,1,https://www.flashscore.com/match/xQNnrkgL/#/match-summary/match-statistics/1,61.0,0,1,2,0,28,0.0,29.0,0.73,6,0,80.0,6,4,1,0.07,7,15,4,1,7,11,,,1.0
-1,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Nantes,1,44,5,5,0,0,6,3,1,1,7,2.0,,196.0,171.0,89.0,,,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Lyon,0,56,7,1,1,5,7,3,2,4,6,1.0,,,,64.0,,,2,https://www.flashscore.com/match/xQNnrkgL/#/match-summary/match-statistics/2,76.0,0,1,4,3,17,17.0,50.0,0.34,2,1,80.0,10,3,0,1.19,8,8,13,0,7,20,1,0,2.0
-2,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Toulouse,0,68,7,2,2,3,10,3,1,1,4,,,287.0,236.0,100.0,,,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Montpellier,0,32,3,1,1,1,4,1,1,2,10,,,,,62.0,,,1,https://www.flashscore.com/match/UN2Rz7oe/#/match-summary/match-statistics/1,70.0,0,1,4,0,3,22.0,50.0,0.17,8,3,45.0,15,3,1,0.36,13,16,16,0,2,22,,,1.0
-3,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Toulouse,1,64,8,4,2,2,5,3,1,1,5,,,249.0,202.0,60.0,,,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Montpellier,2,36,3,3,0,0,5,1,0,3,5,,,,,63.0,,,2,https://www.flashscore.com/match/UN2Rz7oe/#/match-summary/match-statistics/2,73.0,0,1,6,1,5,25.0,0.0,0.42,7,2,43.0,19,2,1,0.64,9,10,17,0,2,13,0,1,2.0
-4,26.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Le Havre,0,36,2,1,1,0,9,2,0,5,5,,,153.0,117.0,64.0,,,26.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Brest,1,64,10,6,1,3,5,5,1,1,9,,,,,58.0,,,1,https://www.flashscore.com/match/xl6ZYpG7/#/match-summary/match-statistics/1,54.0,0,3,1,0,17,0.0,20.0,1.56,5,1,77.0,7,5,1,0.32,12,17,4,0,9,15,,,1.0
-5,26.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Le Havre,0,52,9,0,5,4,5,4,0,3,7,,,213.0,169.0,67.0,,,26.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Brest,0,48,7,3,2,2,7,1,0,0,5,,,,,67.0,,,2,https://www.flashscore.com/match/xl6ZYpG7/#/match-summary/match-statistics/2,60.0,1,0,8,1,16,37.0,13.0,0.38,5,1,72.0,18,4,3,0.60,6,14,20,1,4,24,,,2.0
-6,31.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Montpellier,0,42,5,1,4,0,8,1,1,2,5,1.0,,172.0,129.0,79.0,,,31.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Lens,1,58,11,3,3,5,5,4,1,1,8,2.0,,,,57.0,,,1,https://www.flashscore.com/match/C4PyiJyg/#/match-summary/match-statistics/1,47.0,0,2,4,0,17,71.0,6.0,1.03,5,1,73.0,9,5,5,0.52,12,31,9,0,6,10,,,1.0
-7,31.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Montpellier,0,56,9,1,6,2,9,3,1,1,7,3.0,,257.0,217.0,83.0,,,31.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Lens,1,44,8,2,5,1,7,1,1,1,9,1.0,,,,38.0,,,2,https://www.flashscore.com/match/C4PyiJyg/#/match-summary/match-statistics/2,63.0,0,3,4,2,12,23.0,33.0,1.05,7,5,80.0,5,1,3,0.31,3,7,12,0,5,21,,,2.0
-8,01.02.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Lille,1,67,10,4,4,2,6,4,1,0,4,,,304.0,266.0,70.0,,,01.02.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",St Etienne,1,33,5,1,3,1,4,0,1,3,6,,,,,76.0,,,1,https://www.flashscore.com/match/pINqkc65/#/match-summary/match-statistics/1,78.0,0,2,8,1,13,50.0,33.0,1.46,8,2,76.0,16,3,0,1.08,8,1,14,0,5,6,,,1.0
-9,01.02.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Lille,3,67,19,9,3,7,6,3,0,1,7,1.0,0.0,318.0,286.0,93.0,,,01.02.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",St Etienne,0,33,4,1,1,2,7,1,0,6,6,1.0,1.0,,,20.0,,,2,https://www.flashscore.com/match/pINqkc65/#/match-summary/match-statistics/2,86.0,1,1,12,1,4,36.0,50.0,0.65,8,7,56.0,7,6,2,2.33,11,5,30,0,2,10,,,2.0
-10,01.02.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Monaco,1,63,4,2,2,0,7,4,0,4,7,1.0,,273.0,225.0,70.0,,,01.02.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Auxerre,2,37,9,6,2,1,7,3,4,1,7,1.0,,,,81.0,,,1,https://www.flashscore.com/match/tbdR1zjB/#/match-summary/match-statistics/1,59.0,0,2,3,1,10,25.0,57.0,1.42,9,1,75.0,9,9,5,0.32,10,7,11,0,4,15,,,1.0
-11,01.02.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Monaco,3,53,7,4,2,1,8,1,2,1,10,1.0,,233.0,193.0,44.0,,,01.02.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Auxerre,0,47,3,1,2,0,10,1,1,1,8,1.0,,,,29.0,,,2,https://www.flashscore.com/match/tbdR1zjB/#/match-summary/match-statistics/2,75.0,0,0,6,3,8,25.0,50.0,0.15,7,1,59.0,5,7,0,2.31,11,4,12,1,3,7,,,2.0
-12,01.02.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Brest,0,29,5,2,3,0,3,1,0,1,6,1.0,,167.0,124.0,100.0,,,01.02.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",PSG,1,71,7,2,3,2,6,6,0,2,3,0.0,,,,100.0,,,1,https://www.flashscore.com/match/GxWShu7t/#/match-summary/match-statistics/1,61.0,0,5,2,0,17,0.0,27.0,1.34,5,3,81.0,8,4,0,0.29,7,9,6,1,7,6,,,1.0
-13,01.02.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Brest,2,39,9,5,1,3,9,3,3,1,3,,,202.0,166.0,60.0,,,01.02.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",PSG,4,61,7,5,1,1,3,1,0,3,9,,,,,71.0,,,2,https://www.flashscore.com/match/GxWShu7t/#/match-summary/match-statistics/2,71.0,0,5,4,0,20,22.0,25.0,2.26,2,5,80.0,8,6,1,0.56,5,9,11,0,6,10,,,2.0
-14,02.02.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Marseille,0,68,6,1,4,1,6,1,0,0,8,1.0,,357.0,327.0,42.0,,,02.02.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Lyon,0,32,2,0,1,1,8,0,1,1,6,0.0,,,,60.0,,,1,https://www.flashscore.com/match/nNeJYyMO/#/match-summary/match-statistics/1,77.0,0,0,4,0,1,0.0,25.0,0.11,8,2,60.0,6,4,1,0.46,7,6,17,0,1,15,,,1.0
-15,02.02.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Marseille,3,58,14,10,4,0,4,5,0,2,5,3.0,,211.0,190.0,60.0,,,02.02.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Lyon,2,42,8,4,1,3,5,2,1,7,4,1.0,,,,17.0,,,2,https://www.flashscore.com/match/nNeJYyMO/#/match-summary/match-statistics/2,85.0,0,3,10,5,11,31.0,0.0,1.64,2,4,75.0,5,5,1,2.78,6,10,31,0,7,15,1,0,2.0
-16,02.02.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Angers,0,51,7,0,4,3,9,1,0,2,5,1.0,1.0,217.0,197.0,67.0,,,02.02.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Le Havre,0,49,5,2,2,1,5,1,0,0,9,2.0,1.0,,,50.0,,,1,https://www.flashscore.com/match/YiZaoF5U/#/match-summary/match-statistics/1,83.0,0,2,5,0,11,13.0,22.0,1.34,4,2,70.0,8,4,1,0.37,7,12,10,0,4,8,,,1.0
-17,02.02.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Angers,1,65,10,2,4,4,10,3,1,2,3,1.0,,290.0,265.0,75.0,,,02.02.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Le Havre,1,35,8,3,2,3,3,1,0,1,10,2.0,,,,57.0,,,2,https://www.flashscore.com/match/YiZaoF5U/#/match-summary/match-statistics/2,78.0,0,1,7,3,9,28.0,44.0,0.73,3,3,64.0,8,1,3,1.17,6,12,10,0,5,26,,,2.0
-18,02.02.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Reims,1,50,9,2,4,3,5,7,1,1,4,,,205.0,164.0,100.0,,,02.02.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 20",Nantes,1,50,4,2,1,1,4,1,0,1,5,,,,,67.0,,,1,https://www.flashscore.com/match/tpHhmyyI/#/match-summary/match-statistics/1,65.0,0,1,8,1,12,31.0,17.0,0.67,2,0,56.0,8,4,0,0.67,5,8,22,0,4,15,,,1.0
-19,04.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Lille,0,73,8,1,3,4,5,2,0,1,3,1.0,,346.0,303.0,45.0,,,04.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Nantes,1,27,3,2,1,0,3,0,1,1,5,2.0,,,,57.0,,,2,https://www.flashscore.com/match/vgbyE4S6/#/match-summary/match-statistics/2,77.0,0,1,6,1,9,38.0,0.0,0.96,8,2,52.0,12,3,1,0.71,8,7,17,0,2,16,,,2.0
-20,04.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",St Etienne,0,61,9,1,7,1,3,3,1,0,10,,,308.0,271.0,33.0,,,04.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Reims,1,39,4,1,2,1,10,5,0,1,3,,,,,57.0,,,1,https://www.flashscore.com/match/xU1KHnTs/#/match-summary/match-statistics/1,76.0,1,2,8,3,13,17.0,9.0,0.82,3,1,76.0,10,7,1,1.04,11,15,16,0,3,10,,,1.0
-21,04.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",St Etienne,3,45,5,3,0,2,7,3,0,0,9,2.0,,223.0,175.0,50.0,,,04.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Reims,0,55,7,0,4,3,9,4,0,0,7,1.0,,,,75.0,,,2,https://www.flashscore.com/match/xU1KHnTs/#/match-summary/match-statistics/2,58.0,0,0,4,3,14,25.0,32.0,0.32,5,1,71.0,7,2,3,1.09,12,24,11,1,4,5,,,2.0
-22,03.01.2025 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Nice,3,49,4,3,0,1,3,0,3,1,5,1.0,,220.0,179.0,57.0,,,03.01.2025 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Rennes,1,51,4,2,1,1,5,2,0,0,3,1.0,,,,43.0,,,1,https://www.flashscore.com/match/naL2UPCm/#/match-summary/match-statistics/1,53.0,0,1,4,3,10,17.0,0.0,0.42,11,0,73.0,11,7,2,0.52,10,7,7,0,2,6,,,1.0
-23,03.01.2025 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Nice,0,43,5,3,1,1,11,3,1,2,6,2.0,1.0,195.0,148.0,71.0,,,03.01.2025 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Rennes,1,57,6,3,2,1,6,1,0,3,11,2.0,0.0,,,100.0,,,2,https://www.flashscore.com/match/naL2UPCm/#/match-summary/match-statistics/2,61.0,1,2,3,0,8,14.0,0.0,1.02,9,2,78.0,13,6,3,0.26,8,9,12,0,3,12,,,2.0
-24,18.12.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Monaco,0,41,6,2,2,2,4,0,2,5,7,2.0,,212.0,171.0,83.0,,,18.12.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",PSG,1,59,8,6,0,2,7,5,1,2,4,0.0,,,,100.0,,,1,https://www.flashscore.com/match/hOKf1Rr1/#/match-summary/match-statistics/1,67.0,0,1,3,1,14,0.0,20.0,0.94,9,3,78.0,2,2,2,0.34,17,9,10,1,6,7,,,1.0
-25,18.12.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Monaco,2,39,9,3,3,3,7,1,1,3,4,,,176.0,142.0,69.0,,,18.12.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",PSG,3,61,9,6,3,0,4,4,0,1,7,,,,,25.0,,,2,https://www.flashscore.com/match/hOKf1Rr1/#/match-summary/match-statistics/2,66.0,0,3,8,4,16,40.0,50.0,0.82,5,1,75.0,10,5,5,1.64,9,16,22,1,4,8,0,1,2.0
-26,15.12.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",PSG,2,66,7,3,2,2,3,3,1,1,5,2.0,,365.0,336.0,89.0,,,15.12.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Lyon,1,34,3,2,0,1,5,0,0,1,3,2.0,,,,57.0,,,1,https://www.flashscore.com/match/W8Wo3mEl/#/match-summary/match-statistics/1,86.0,0,2,6,1,11,29.0,0.0,0.57,6,1,72.0,7,5,1,1.44,5,8,16,0,2,7,,,1.0
-27,15.12.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",PSG,1,70,6,3,2,1,5,1,1,1,2,0.0,,369.0,336.0,57.0,,,15.12.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Lyon,0,30,4,1,2,1,2,3,3,2,5,1.0,,,,67.0,,,2,https://www.flashscore.com/match/W8Wo3mEl/#/match-summary/match-statistics/2,85.0,0,0,5,3,14,0.0,33.0,0.41,2,1,70.0,13,2,0,1.44,6,13,15,0,4,11,,,2.0
-28,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Brest,2,65,4,2,2,0,6,0,1,3,5,1.0,,327.0,297.0,100.0,,,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Nantes,0,35,7,3,2,2,5,2,0,0,6,0.0,,,,33.0,,,1,https://www.flashscore.com/match/4bn7AVLE/#/match-summary/match-statistics/1,73.0,0,1,1,1,11,22.0,50.0,0.34,2,3,62.0,11,1,1,0.17,12,8,4,0,6,7,1,0,1.0
-29,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Brest,2,39,9,6,1,2,8,0,1,3,5,2.0,,183.0,146.0,69.0,,,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Nantes,1,61,9,4,1,4,5,3,0,4,8,3.0,,,,71.0,,,2,https://www.flashscore.com/match/4bn7AVLE/#/match-summary/match-statistics/2,67.0,1,1,6,4,18,43.0,32.0,0.78,2,3,81.0,3,1,2,1.66,19,21,11,0,7,4,,,2.0
-30,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Le Havre,0,57,4,1,2,1,3,2,2,2,3,,,314.0,279.0,50.0,,,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Strasbourg,2,43,5,4,1,0,3,1,1,1,3,,,,,100.0,,,1,https://www.flashscore.com/match/IsOPchx9/#/match-summary/match-statistics/1,74.0,0,2,1,0,10,17.0,29.0,0.21,6,2,77.0,12,7,0,0.10,10,6,10,0,5,14,,,1.0
-31,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Le Havre,0,55,7,0,7,0,4,1,1,0,8,0.0,,254.0,233.0,60.0,,,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Strasbourg,1,45,4,1,2,1,8,1,2,0,4,1.0,,,,50.0,,,2,https://www.flashscore.com/match/IsOPchx9/#/match-summary/match-statistics/2,79.0,0,1,6,3,7,31.0,0.0,0.71,4,1,57.0,5,5,1,0.83,2,3,13,0,3,20,,,2.0
-32,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Rennes,1,51,3,2,1,0,5,0,0,0,9,1.0,,264.0,225.0,83.0,,,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Angers,0,49,1,0,1,0,9,0,2,1,5,0.0,,,,58.0,,,1,https://www.flashscore.com/match/vaJpzkp2/#/match-summary/match-statistics/1,68.0,0,1,1,1,7,50.0,22.0,0.29,9,2,56.0,11,2,0,0.26,7,8,7,0,1,3,1,0,1.0
-33,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Rennes,1,37,4,2,1,1,7,2,0,0,9,2.0,,164.0,129.0,62.0,,,15.12.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Angers,0,63,2,0,1,1,9,1,1,1,7,1.0,,,,64.0,,,2,https://www.flashscore.com/match/vaJpzkp2/#/match-summary/match-statistics/2,69.0,0,0,3,0,7,13.0,40.0,0.07,6,1,72.0,8,6,0,0.35,15,11,8,0,2,8,,,2.0
-34,15.12.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Montpellier,1,47,9,3,2,4,7,3,1,2,6,0.0,,196.0,165.0,29.0,,,15.12.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Nice,2,53,8,4,2,2,6,1,0,2,7,1.0,,,,82.0,,,1,https://www.flashscore.com/match/C4aLnST7/#/match-summary/match-statistics/1,70.0,0,0,6,1,7,31.0,0.0,0.31,4,3,88.0,10,3,4,0.92,6,5,13,0,4,13,1,0,1.0
-35,15.12.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Montpellier,1,55,11,5,4,2,6,6,0,2,9,1.0,,201.0,160.0,76.0,,,15.12.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 15",Nice,0,45,10,2,5,3,9,3,0,4,6,1.0,,,,40.0,,,2,https://www.flashscore.com/match/C4aLnST7/#/match-summary/match-statistics/2,62.0,0,1,9,2,12,28.0,30.0,0.81,4,2,80.0,13,2,4,1.31,7,10,28,0,6,18,,,2.0
-36,04.01.2025 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Lyon,1,55,7,2,2,3,8,0,1,2,5,1.0,,232.0,194.0,36.0,,,04.01.2025 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Montpellier,0,45,7,2,4,1,5,3,0,1,8,2.0,,,,58.0,,,2,https://www.flashscore.com/match/QkY1a5DD/#/match-summary/match-statistics/2,66.0,0,0,6,1,11,43.0,21.0,0.71,3,1,79.0,11,4,3,1.15,12,25,16,0,4,10,,,2.0
-37,04.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Lille,1,69,5,2,1,2,5,0,1,0,3,,,371.0,340.0,50.0,,,04.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 16",Nantes,0,31,3,0,2,1,3,0,0,1,5,,,,,70.0,,,1,https://www.flashscore.com/match/vgbyE4S6/#/match-summary/match-statistics/1,77.0,1,0,5,1,5,21.0,25.0,0.37,3,0,64.0,11,3,1,0.51,10,6,19,0,2,19,,,1.0
-38,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Le Havre,0,50,4,1,3,0,8,2,1,2,4,0.0,,187.0,151.0,,,,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Reims,1,50,9,3,3,3,4,6,1,1,8,1.0,,,,,,,2,https://www.flashscore.com/match/nRkUEVfA/#/match-summary/match-statistics/2,,,,,,,,,1.33,3,,,13,3,,1.01,10,,,,,,,,2.0
-39,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Montpellier,2,38,9,4,2,3,5,3,3,1,6,1.0,,139.0,105.0,,,,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Brest,0,62,8,1,6,1,6,3,0,2,5,1.0,,,,,,,1,https://www.flashscore.com/match/QB1LGiQc/#/match-summary/match-statistics/1,,,,,,,,,0.39,1,,,7,5,,1.24,11,,,,,,,,1.0
-40,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Montpellier,1,26,5,4,1,0,8,0,0,4,12,4.0,,105.0,64.0,,,,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Brest,1,74,11,5,6,0,12,4,1,3,8,0.0,,,,,,,2,https://www.flashscore.com/match/QB1LGiQc/#/match-summary/match-statistics/2,,,,,,,,,0.46,0,,,8,5,,1.17,14,,,,,,,,2.0
-41,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Rennes,0,62,3,1,1,1,6,3,1,0,9,3.0,,278.0,240.0,,,,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Toulouse,2,38,6,2,4,0,9,2,1,1,6,0.0,,,,,,,1,https://www.flashscore.com/match/WWnG5RHd/#/match-summary/match-statistics/1,,,,,,,,,1.15,6,,,14,3,,0.37,6,,,,,,,,1.0
-42,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Rennes,0,72,4,0,1,3,10,2,1,0,7,0.0,,318.0,273.0,,,,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Toulouse,0,28,3,0,2,1,7,1,0,0,10,1.0,,,,,,,2,https://www.flashscore.com/match/WWnG5RHd/#/match-summary/match-statistics/2,,,,,,,,,0.24,11,,,13,2,,0.13,6,,,,,,,,2.0
-43,10.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Nice,0,32,4,1,2,1,3,4,2,1,2,1.0,,154.0,119.0,,,,10.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Lille,1,68,5,2,1,2,2,0,0,1,3,0.0,,,,,,,1,https://www.flashscore.com/match/l8H0Dwy3/#/match-summary/match-statistics/1,,,,,,,,,0.74,4,,,6,6,,0.25,9,,,,,,,,1.0
-44,10.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Nice,2,53,13,4,4,5,6,2,0,3,10,1.0,,227.0,190.0,,,,10.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Lille,1,47,8,4,4,0,10,2,0,2,6,2.0,,,,,,,2,https://www.flashscore.com/match/l8H0Dwy3/#/match-summary/match-statistics/2,,,,,,,,,0.81,7,,,9,2,,1.85,7,,,,,,,,2.0
-45,09.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Angers,0,27,5,0,4,1,7,1,0,3,1,0.0,,160.0,128.0,,,,09.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",PSG,4,73,12,7,4,1,1,1,0,0,7,1.0,,,,,,,1,https://www.flashscore.com/match/dYK8BH5F/#/match-summary/match-statistics/1,,,,,,,,,1.83,5,,,2,7,,0.19,8,,,,,,,,1.0
-46,09.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Angers,2,33,5,3,1,1,9,5,3,5,4,0.0,,163.0,141.0,,,,09.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",PSG,0,67,14,5,5,4,4,7,0,1,9,2.0,,,,,,,2,https://www.flashscore.com/match/dYK8BH5F/#/match-summary/match-statistics/2,,,,,,,,,1.51,5,,,4,3,,0.36,5,,,,,,,,2.0
-47,09.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Lens,1,62,6,1,3,2,7,3,1,0,8,2.0,,267.0,221.0,,,,09.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Nantes,1,38,4,1,3,0,8,0,1,0,7,0.0,,,,,,,1,https://www.flashscore.com/match/bJl87mmp/#/match-summary/match-statistics/1,,,,,,,,,1.02,5,,,10,3,,1.14,8,,,,,,,,1.0
-48,09.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Lens,2,72,9,2,4,3,1,3,1,1,6,,,384.0,342.0,,,,09.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Nantes,1,28,5,2,2,1,6,1,1,0,1,,,,,,,,2,https://www.flashscore.com/match/bJl87mmp/#/match-summary/match-statistics/2,,,,,,,,,0.41,8,,,8,3,,1.75,11,,,,,,,,2.0
-49,09.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Strasbourg,1,42,5,2,3,0,13,0,1,2,7,1.0,,198.0,164.0,,,,09.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Monaco,0,58,6,2,3,1,7,2,1,1,13,2.0,,,,,,,1,https://www.flashscore.com/match/figxD9PM/#/match-summary/match-statistics/1,,,,,,,,,1.00,5,,,8,5,,0.79,9,,,,,,,,1.0
-50,09.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Strasbourg,0,42,0,0,0,0,5,1,0,3,9,4.0,,166.0,122.0,,,,09.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Monaco,3,58,13,6,4,3,9,0,1,0,5,0.0,,,,,,,2,https://www.flashscore.com/match/figxD9PM/#/match-summary/match-statistics/2,,,,,,,,,2.72,6,,,14,8,,0.00,5,,,,,,,,2.0
-51,08.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Marseille,0,75,9,3,4,2,7,3,2,2,5,,,355.0,322.0,,,,08.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Auxerre,3,25,7,5,1,1,5,1,2,3,7,,,,,,,,1,https://www.flashscore.com/match/Gp6AbAAT/#/match-summary/match-statistics/1,,,,,,,,,1.19,4,,,9,2,,0.80,7,,,,,,,,1.0
-52,07.12.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 14",Nice,2,53,12,5,3,4,6,2,0,0,6,3.0,,203.0,170.0,70.0,,,07.12.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 14",Le Havre,1,47,6,1,2,3,6,4,2,3,6,2.0,,,,71.0,,,2,https://www.flashscore.com/match/dzY6oOnn/#/match-summary/match-statistics/2,70.0,0,0,9,2,8,9.0,21.0,0.30,5,3,73.0,4,3,2,1.67,6,12,18,0,4,13,0,1,2.0
-53,22.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",PSG,2,70,10,4,2,4,9,5,2,1,4,0.0,,351.0,311.0,78.0,,,22.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Toulouse,0,30,8,1,5,2,4,4,0,2,9,1.0,,,,60.0,,,2,https://www.flashscore.com/match/Im9H9ezS/#/match-summary/match-statistics/2,88.0,0,3,6,2,19,29.0,8.0,1.24,4,4,76.0,3,6,1,0.75,8,14,21,0,7,5,,,2.0
-54,22.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Monaco,2,64,4,2,2,0,6,1,1,0,4,0.0,,334.0,283.0,44.0,,,22.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Brest,0,36,5,0,3,2,4,2,1,0,6,1.0,,,,50.0,,,1,https://www.flashscore.com/match/xdpX3Q36/#/match-summary/match-statistics/1,62.0,1,1,3,3,14,33.0,8.0,0.50,8,1,60.0,5,5,1,1.63,17,13,13,0,4,5,,,1.0
-55,22.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Monaco,1,40,6,2,2,2,6,1,2,2,3,2.0,,166.0,117.0,17.0,,,22.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Brest,2,60,7,4,2,1,3,6,0,1,6,1.0,,,,73.0,,,2,https://www.flashscore.com/match/xdpX3Q36/#/match-summary/match-statistics/2,54.0,0,1,4,2,14,25.0,31.0,0.55,6,2,70.0,10,12,3,0.80,12,17,12,0,4,11,0,2,2.0
-56,10.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Lyon,1,62,13,5,2,6,6,4,0,1,7,1.0,,292.0,255.0,,,,10.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",St Etienne,0,38,2,1,1,0,7,2,0,4,6,2.0,,,,,,,1,https://www.flashscore.com/match/b59ZhlYj/#/match-summary/match-statistics/1,,,,,,,,,0.14,6,,,16,5,,1.13,4,,,,,,,,1.0
-57,10.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Lyon,0,60,4,2,1,1,7,3,0,5,4,2.0,,253.0,213.0,,,,10.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",St Etienne,0,40,8,5,0,3,4,4,0,2,7,0.0,,,,,,,2,https://www.flashscore.com/match/b59ZhlYj/#/match-summary/match-statistics/2,,,,,,,,,0.56,11,,,14,6,,0.33,13,,,,,,,,2.0
-58,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Le Havre,0,58,6,2,2,2,9,6,0,2,6,1.0,,209.0,178.0,,,,10.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 11",Reims,2,42,9,4,3,2,6,1,1,2,9,3.0,,,,,,,1,https://www.flashscore.com/match/nRkUEVfA/#/match-summary/match-statistics/1,,,,,,,,,1.45,2,,,11,5,,0.62,6,,,,,,,,1.0
-59,27.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",PSG,1,66,12,2,4,6,4,6,3,1,4,0.0,,,,,,,27.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Rennes,0,34,6,1,3,2,4,1,0,1,4,2.0,,,,,,,cat93,https://www.flashscore.com/match/zBdshgV6/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-60,28.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Lens,0,46,7,4,3,0,6,4,0,3,9,3.0,1.0,,,,,,28.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Nice,0,54,11,3,4,4,6,3,1,4,4,1.0,0.0,,,,,,cat94,https://www.flashscore.com/match/v3PZcqJP/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-61,28.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Lens,0,65,15,3,7,5,3,7,1,1,7,0.0,,,,,,,28.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Nice,0,35,4,1,2,1,8,1,0,3,3,1.0,,,,,,,cat95,https://www.flashscore.com/match/v3PZcqJP/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-62,28.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Le Havre,0,54,4,2,2,0,6,1,0,1,4,1.0,,,,,,,28.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Lille,1,46,5,2,3,0,3,0,1,2,7,1.0,,,,,,,cat96,https://www.flashscore.com/match/xb7MlutC/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-63,28.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Le Havre,0,22,3,2,0,1,4,0,1,6,7,1.0,,,,,,,28.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Lille,2,78,13,8,2,3,8,5,2,2,2,0.0,,,,,,,cat97,https://www.flashscore.com/match/xb7MlutC/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-64,28.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Monaco,1,65,14,4,7,3,4,6,0,1,8,4.0,0.0,,,,,,28.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Montpellier,0,35,4,1,3,0,10,1,0,3,4,1.0,1.0,,,,,,cat98,https://www.flashscore.com/match/lxyu7Met/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-65,28.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Monaco,1,65,7,3,3,1,16,0,2,2,9,0.0,,,,,,,28.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Montpellier,1,35,5,3,0,2,12,1,2,2,13,2.0,,,,,,,cat99,https://www.flashscore.com/match/lxyu7Met/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-66,29.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Toulouse,0,43,7,3,2,2,7,2,2,0,11,2.0,,,,,,,29.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Lyon,1,57,2,1,0,1,11,2,0,3,8,1.0,,,,,,,cat100,https://www.flashscore.com/match/bDeVnJAO/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-67,29.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Toulouse,1,47,3,1,2,0,9,1,2,0,1,0.0,,,,,,,29.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Lyon,1,53,2,0,1,1,2,2,1,0,7,1.0,,,,,,,cat101,https://www.flashscore.com/match/bDeVnJAO/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-68,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Nantes,1,62,9,2,5,2,8,5,2,1,6,2.0,1.0,,,,,,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",St Etienne,2,38,3,3,0,0,5,3,0,1,8,2.0,0.0,,,,,,cat102,https://www.flashscore.com/match/zZA5hNtm/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-69,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Nantes,1,60,7,1,4,2,4,3,0,0,5,,,,,,,,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",St Etienne,0,40,2,0,2,0,5,1,1,0,4,,,,,,,,cat103,https://www.flashscore.com/match/zZA5hNtm/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-70,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Angers,1,59,10,3,6,1,7,2,2,5,3,0.0,,,,,,,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Reims,1,41,13,6,7,0,3,3,1,2,6,1.0,,,,,,,cat104,https://www.flashscore.com/match/p4Um50Qh/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-71,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Angers,0,47,4,0,2,2,6,3,0,2,4,0.0,,,,,,,29.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Reims,2,53,8,4,3,1,4,1,0,0,5,2.0,,,,,,,cat105,https://www.flashscore.com/match/p4Um50Qh/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-72,29.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Strasbourg,0,41,8,2,4,2,3,5,0,2,7,2.0,,,,,,,29.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Marseille,0,59,7,2,4,1,5,2,0,2,3,1.0,,,,,,,cat106,https://www.flashscore.com/match/Ee8YgF0f/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-73,29.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Strasbourg,1,41,6,4,2,0,8,3,1,1,10,,,,,,,,29.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Marseille,0,59,3,1,2,0,13,1,4,3,4,,,,,,,,cat107,https://www.flashscore.com/match/Ee8YgF0f/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-74,04.10.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Marseille,1,86,10,2,6,2,7,7,0,0,8,,,,,,,,04.10.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Angers,1,14,5,1,3,1,10,1,2,1,6,,,,,,,,cat108,https://www.flashscore.com/match/xYNVFHvB/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-75,04.10.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Marseille,0,66,6,2,2,2,3,2,0,2,7,4.0,1.0,,,,,,04.10.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Angers,0,34,5,2,2,1,7,2,2,2,3,0.0,1.0,,,,,,cat109,https://www.flashscore.com/match/xYNVFHvB/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-76,05.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",St Etienne,2,39,5,2,3,0,7,1,1,2,6,3.0,,,,,,,05.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Auxerre,1,61,9,3,3,3,7,3,2,0,6,0.0,,,,,,,cat0,https://www.flashscore.com/match/z9REJaun/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-77,05.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",St Etienne,1,43,8,3,2,3,4,4,2,0,7,0.0,,,,,,,05.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Auxerre,0,57,2,0,2,0,9,1,2,2,4,1.0,,,,,,,cat1,https://www.flashscore.com/match/z9REJaun/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-78,05.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Lille,2,54,5,2,1,2,2,3,1,2,8,1.0,,,,,,,05.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Toulouse,0,46,5,2,3,0,7,4,1,0,2,1.0,,,,,,,cat2,https://www.flashscore.com/match/Wf14adfU/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-79,05.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Lille,0,62,5,1,3,1,6,1,0,0,5,2.0,,,,,,,05.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Toulouse,1,38,4,1,2,1,6,2,1,1,6,1.0,,,,,,,cat3,https://www.flashscore.com/match/Wf14adfU/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-80,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Reims,1,52,6,5,1,0,10,0,0,2,4,1.0,,,,,29.0,10.0,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Rennes,0,48,6,2,2,2,5,1,1,4,8,2.0,,,,,51.0,16.0,cat46,https://www.flashscore.com/match/p6XSLUlB/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-81,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Reims,1,54,5,2,2,1,5,3,0,2,5,1.0,,,,,52.0,25.0,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Rennes,1,46,7,3,2,2,5,4,1,1,5,0.0,,,,,40.0,27.0,cat47,https://www.flashscore.com/match/p6XSLUlB/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-82,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Le Havre,2,50,14,6,5,3,5,0,3,2,4,1.0,,,,,41.0,25.0,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Auxerre,0,50,3,2,1,0,5,1,0,4,5,1.0,,,,,26.0,8.0,cat48,https://www.flashscore.com/match/ChZKNjKb/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-83,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Le Havre,1,48,8,2,5,1,11,2,1,0,6,0.0,0.0,,,,46.0,20.0,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Auxerre,1,52,5,1,0,4,7,1,0,1,10,4.0,1.0,,,,54.0,23.0,cat49,https://www.flashscore.com/match/ChZKNjKb/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-84,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Angers,1,57,12,5,7,0,6,2,0,1,4,2.0,0.0,,,,56.0,44.0,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Nice,2,43,5,3,2,0,5,2,0,4,6,2.0,1.0,,,,20.0,5.0,cat50,https://www.flashscore.com/match/SU02594U/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-85,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Angers,0,51,2,2,0,0,7,2,0,4,10,4.0,,,,,41.0,13.0,01.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Nice,2,49,9,6,2,1,11,5,0,2,7,2.0,,,,,59.0,26.0,cat51,https://www.flashscore.com/match/SU02594U/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-86,01.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Lille,1,44,6,3,1,2,6,2,3,1,7,2.0,,,,,52.0,40.0,01.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",PSG,1,56,5,2,1,2,7,1,0,2,7,1.0,,,,,26.0,16.0,cat52,https://www.flashscore.com/match/6ZfxDZ5t/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-87,01.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Lille,0,40,2,1,1,0,4,1,2,3,2,1.0,,,,,38.0,29.0,01.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",PSG,2,60,6,5,0,1,2,0,2,1,2,1.0,,,,,66.0,18.0,cat53,https://www.flashscore.com/match/6ZfxDZ5t/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-88,13.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",St Etienne,0,28,4,1,3,0,7,0,1,2,6,1.0,,282.0,,,36.0,14.0,13.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Lille,0,72,13,2,10,1,7,4,0,1,6,1.0,,691.0,,,72.0,36.0,cat54,https://www.flashscore.com/match/vsYzkTIc/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-89,13.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",St Etienne,1,30,6,4,2,0,5,2,2,2,6,,,,,,30.0,13.0,13.09.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Lille,0,70,4,2,1,1,6,3,1,3,4,,,,,,86.0,42.0,cat55,https://www.flashscore.com/match/vsYzkTIc/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-90,14.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Marseille,1,49,6,3,2,1,2,0,0,4,9,4.0,1.0,499.0,,,30.0,8.0,14.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Nice,0,51,8,4,3,1,12,1,1,2,2,1.0,0.0,385.0,,,55.0,15.0,cat56,https://www.flashscore.com/match/0dMqm7mA/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-91,14.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Marseille,1,63,4,2,1,1,2,1,1,0,9,1.0,,,,,54.0,11.0,14.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Nice,0,37,4,0,2,2,9,1,4,1,2,1.0,,,,,36.0,28.0,cat57,https://www.flashscore.com/match/0dMqm7mA/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-92,14.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Auxerre,0,44,6,2,2,2,7,1,0,5,5,,,404.0,,,40.0,26.0,14.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Monaco,1,56,11,6,1,4,6,4,2,2,7,,,587.0,,,50.0,19.0,cat58,https://www.flashscore.com/match/CGH7Enso/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-93,14.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Auxerre,0,38,7,1,3,3,8,0,1,1,8,3.0,,,,,63.0,44.0,14.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Monaco,2,62,8,3,3,2,6,2,1,1,9,0.0,,,,,54.0,25.0,cat59,https://www.flashscore.com/match/CGH7Enso/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-94,14.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",PSG,2,71,8,3,2,3,11,4,1,1,4,0.0,,679.0,,,70.0,33.0,14.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Brest,0,29,2,1,0,1,4,1,1,1,9,2.0,,333.0,,,24.0,6.0,cat60,https://www.flashscore.com/match/8MPiooIM/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-95,14.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",PSG,1,63,14,6,5,3,5,5,2,1,3,2.0,,,,,63.0,41.0,14.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Brest,1,37,3,2,0,1,2,0,0,5,4,1.0,,,,,56.0,16.0,cat61,https://www.flashscore.com/match/8MPiooIM/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-96,15.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Rennes,1,47,5,4,1,0,4,0,1,3,7,0.0,,452.0,,,45.0,31.0,15.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Montpellier,0,53,8,3,5,0,5,2,2,3,4,2.0,,444.0,,,44.0,19.0,cat62,https://www.flashscore.com/match/hCffxjZi/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-97,15.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Rennes,2,55,6,2,3,1,3,3,0,1,3,1.0,,,,,54.0,28.0,15.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Montpellier,0,45,4,1,1,2,6,2,1,0,3,1.0,,,,,66.0,19.0,cat63,https://www.flashscore.com/match/hCffxjZi/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-98,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Toulouse,2,54,8,4,2,2,6,2,0,2,8,1.0,,520.0,,,39.0,23.0,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Le Havre,0,46,2,2,0,0,7,0,0,2,8,1.0,,438.0,,,40.0,12.0,cat64,https://www.flashscore.com/match/fJaIWo3T/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-99,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Toulouse,0,54,7,3,2,2,5,4,0,1,2,,,,,,81.0,19.0,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Le Havre,0,46,3,1,2,0,4,5,0,3,3,,,,,,37.0,21.0,cat65,https://www.flashscore.com/match/fJaIWo3T/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-100,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Strasbourg,0,48,6,2,3,1,8,3,0,1,8,2.0,,469.0,,,44.0,14.0,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Angers,1,52,10,2,5,3,9,7,1,2,10,1.0,,432.0,,,40.0,32.0,cat66,https://www.flashscore.com/match/E3tkRPQj/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-101,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Strasbourg,1,54,4,3,1,0,7,3,0,0,3,2.0,,,,,49.0,16.0,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Angers,0,46,2,0,0,2,4,2,0,2,4,0.0,,,,,42.0,20.0,cat67,https://www.flashscore.com/match/E3tkRPQj/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-102,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Nantes,0,43,11,3,3,5,4,1,1,2,11,2.0,,456.0,,,33.0,21.0,15.09.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 4",Reims,1,57,8,3,3,2,12,1,2,3,4,1.0,,582.0,,,52.0,26.0,cat68,https://www.flashscore.com/match/M51AY7YG/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-103,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Nice,1,31,4,3,1,0,7,0,0,1,5,1.0,0.0,125.0,91.0,,,,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Monaco,1,69,3,2,0,1,5,5,1,2,7,4.0,1.0,,,,,,1,https://www.flashscore.com/match/KdJMr7EE/#/match-summary/match-statistics/1,,,,,,,,,0.21,3,,,9,8,,0.47,9,,,,,,,,1.0
-104,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Nice,1,49,13,6,5,2,4,6,2,3,11,1.0,,188.0,155.0,,,,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Monaco,0,51,8,3,1,4,11,1,0,5,4,1.0,,,,,,,2,https://www.flashscore.com/match/KdJMr7EE/#/match-summary/match-statistics/2,,,,,,,,,0.19,4,,,7,10,,1.25,6,,,,,,,,2.0
-105,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Strasbourg,1,56,5,3,0,2,7,3,0,1,9,1.0,,233.0,198.0,,,,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Nantes,0,44,2,1,0,1,9,2,1,2,7,0.0,,,,,,,1,https://www.flashscore.com/match/h2acepbK/#/match-summary/match-statistics/1,,,,,,,,,0.07,2,,,16,3,,0.53,9,,,,,,,,1.0
-106,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Strasbourg,2,44,4,2,1,1,10,2,0,4,6,1.0,,254.0,214.0,,,,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Nantes,1,56,6,5,1,0,6,2,1,0,10,3.0,,,,,,,2,https://www.flashscore.com/match/h2acepbK/#/match-summary/match-statistics/2,,,,,,,,,0.67,4,,,6,1,,1.34,13,,,,,,,,2.0
-107,27.10.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Lyon,1,64,6,3,2,1,7,3,1,0,6,0.0,,269.0,234.0,,,,27.10.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Auxerre,0,36,3,0,2,1,6,0,2,2,7,2.0,,,,,,,1,https://www.flashscore.com/match/WdE2Z2y1/#/match-summary/match-statistics/1,,,,,,,,,0.11,4,,,13,2,,1.31,11,,,,,,,,1.0
-108,27.10.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Lyon,1,62,6,5,0,1,7,2,1,2,1,0.0,,250.0,208.0,,,,27.10.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Auxerre,2,38,14,4,5,5,1,4,2,4,7,2.0,,,,,,,2,https://www.flashscore.com/match/WdE2Z2y1/#/match-summary/match-statistics/2,,,,,,,,,1.19,8,,,8,5,,0.56,10,,,,,,,,2.0
-109,26.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Lens,0,63,7,3,1,3,8,4,3,1,8,1.0,,217.0,168.0,,,,26.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Lille,0,37,2,1,1,0,8,0,0,3,8,1.0,,,,,,,1,https://www.flashscore.com/match/vaZNtoqR/#/match-summary/match-statistics/1,,,,,,,,,0.26,4,,,12,5,,0.89,12,,,,,,,,1.0
-110,26.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Lens,0,53,4,1,1,2,6,4,1,0,8,3.0,,212.0,158.0,,,,26.10.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Lille,2,47,9,2,0,7,8,2,1,1,6,3.0,,,,,,,2,https://www.flashscore.com/match/vaZNtoqR/#/match-summary/match-statistics/2,,,,,,,,,1.53,5,,,10,6,,0.16,13,,,,,,,,2.0
-111,26.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Reims,1,60,6,3,3,0,6,3,1,1,5,0.0,,221.0,186.0,,,,26.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Brest,2,40,6,3,0,3,5,2,0,2,6,1.0,,,,,,,1,https://www.flashscore.com/match/hQspntL6/#/match-summary/match-statistics/1,,,,,,,,,1.21,6,,,12,7,,0.39,9,,,,,,,,1.0
-112,26.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Reims,0,46,5,0,3,2,5,4,2,1,10,3.0,,191.0,162.0,,,,26.10.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Brest,0,54,7,1,4,2,10,1,1,0,5,1.0,,,,,,,2,https://www.flashscore.com/match/hQspntL6/#/match-summary/match-statistics/2,,,,,,,,,0.29,1,,,7,3,,0.40,5,,,,,,,,2.0
-113,02.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",PSG,1,66,11,5,4,2,10,4,1,2,0,0.0,,326.0,286.0,,,,02.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Lens,0,34,6,2,1,3,0,2,2,4,10,2.0,,,,,,,1,https://www.flashscore.com/match/rX720WuH/#/match-summary/match-statistics/1,,,,,,,,,0.46,3,,,4,4,,2.24,3,,,,,,,,1.0
-114,02.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",PSG,0,70,7,3,1,3,10,3,1,0,3,1.0,0.0,394.0,341.0,,,,02.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Lens,0,30,7,0,5,2,3,2,1,3,10,3.0,1.0,,,,,,2,https://www.flashscore.com/match/rX720WuH/#/match-summary/match-statistics/2,,,,,,,,,0.36,5,,,9,5,,0.41,4,,,,,,,,2.0
-115,01.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Lille,1,55,11,2,6,3,8,1,1,0,3,1.0,,265.0,239.0,,,,01.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Lyon,0,45,3,0,1,2,3,1,0,1,8,1.0,,,,,,,1,https://www.flashscore.com/match/bqYbtBlo/#/match-summary/match-statistics/1,,,,,,,,,0.10,2,,,8,8,,1.37,5,,,,,,,,1.0
-116,01.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Lille,0,39,3,0,2,1,2,3,0,2,9,2.0,,134.0,94.0,,,,01.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Lyon,1,61,11,3,5,3,9,8,3,0,2,0.0,,,,,,,2,https://www.flashscore.com/match/bqYbtBlo/#/match-summary/match-statistics/2,,,,,,,,,1.03,2,,,4,2,,0.30,13,,,,,,,,2.0
-117,01.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Monaco,0,60,3,0,1,2,7,3,0,1,8,1.0,,254.0,216.0,,,,01.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Angers,1,40,7,2,2,3,8,1,1,0,7,0.0,,,,,,,1,https://www.flashscore.com/match/0ljCkFRb/#/match-summary/match-statistics/1,,,,,,,,,0.35,6,,,8,5,,0.09,12,,,,,,,,1.0
-118,01.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Monaco,0,68,8,3,3,2,5,1,0,1,8,0.0,,305.0,258.0,,,,01.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 10",Angers,0,32,3,1,1,1,8,3,1,3,5,1.0,,,,,,,2,https://www.flashscore.com/match/0ljCkFRb/#/match-summary/match-statistics/2,,,,,,,,,0.09,11,,,11,5,,1.25,13,,,,,,,,2.0
-119,27.10.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Marseille,0,27,2,1,0,1,2,1,2,1,3,1.0,1.0,166.0,133.0,,,,27.10.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",PSG,3,73,6,4,2,0,3,1,4,1,2,0.0,0.0,,,,,,1,https://www.flashscore.com/match/AsQgyP6l/#/match-summary/match-statistics/1,,,,,,,,,0.90,4,,,8,4,,0.06,5,,,,,,,,1.0
-120,27.10.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Marseille,0,23,3,0,2,1,5,0,0,4,1,,,143.0,108.0,,,,27.10.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",PSG,0,77,13,4,7,2,1,1,4,0,5,,,,,,,,2,https://www.flashscore.com/match/AsQgyP6l/#/match-summary/match-statistics/2,,,,,,,,,2.08,5,,,7,5,,0.16,3,,,,,,,,2.0
-121,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Montpellier,0,57,5,1,3,1,9,1,0,1,4,1.0,,260.0,219.0,,,,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Toulouse,3,43,7,4,1,2,4,0,1,1,9,0.0,,,,,,,1,https://www.flashscore.com/match/vNHAXt6D/#/match-summary/match-statistics/1,,,,,,,,,0.99,4,,,9,2,,0.14,8,,,,,,,,1.0
-122,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Montpellier,0,47,4,1,2,1,11,0,0,2,4,0.0,1.0,227.0,197.0,,,,27.10.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Toulouse,0,53,8,2,4,2,4,3,0,1,11,2.0,0.0,,,,,,2,https://www.flashscore.com/match/vNHAXt6D/#/match-summary/match-statistics/2,,,,,,,,,0.44,6,,,4,7,,0.08,7,,,,,,,,2.0
-123,26.10.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",Angers,2,42,9,6,2,1,6,0,0,2,6,1.0,,203.0,156.0,,,,26.10.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 9",St Etienne,1,58,13,3,4,6,6,2,0,4,6,2.0,,,,,,,1,https://www.flashscore.com/match/p0vxl2jf/#/match-summary/match-statistics/1,,,,,,,,,1.13,7,,,11,5,,1.68,13,,,,,,,,1.0
-124,12.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Le Havre,1,27,6,2,1,3,7,3,0,2,5,1.0,,113.0,77.0,44.0,,,12.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Lens,1,73,14,3,5,6,5,4,0,1,7,1.0,,,,64.0,,,1,https://www.flashscore.com/match/U5ul6et4/#/match-summary/match-statistics/1,71.0,0,1,5,2,24,0.0,39.0,1.20,3,1,75.0,11,9,2,0.53,10,23,9,0,12,12,1,1,1.0
-125,12.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Le Havre,0,33,2,2,0,0,7,0,0,3,6,1.0,,132.0,86.0,60.0,,,12.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Lens,1,67,11,4,5,2,6,4,3,2,7,1.0,,,,38.0,,,2,https://www.flashscore.com/match/U5ul6et4/#/match-summary/match-statistics/2,50.0,0,2,2,1,26,14.0,33.0,1.48,1,0,77.0,6,3,1,1.31,12,31,7,0,10,9,0,1,2.0
-126,19.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Marseille,0,69,4,0,2,2,9,3,1,0,8,0.0,,323.0,281.0,50.0,,,19.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Strasbourg,1,31,2,1,1,0,8,1,3,0,9,3.0,,,,100.0,,,1,https://www.flashscore.com/match/jZ8VIYP9/#/match-summary/match-statistics/1,65.0,0,1,3,0,3,33.0,50.0,0.29,6,1,53.0,10,7,2,0.23,7,5,9,0,0,8,,,1.0
-127,19.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Marseille,1,69,14,3,7,4,5,6,0,2,5,3.0,,284.0,249.0,44.0,,,19.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Strasbourg,0,31,5,2,1,2,5,2,2,2,5,0.0,,,,27.0,,,2,https://www.flashscore.com/match/jZ8VIYP9/#/match-summary/match-statistics/2,80.0,1,1,12,6,10,32.0,20.0,0.51,3,2,42.0,7,10,1,2.69,7,15,31,1,4,27,,,2.0
-128,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Angers,1,46,3,1,1,1,3,1,3,1,5,1.0,0.0,216.0,185.0,60.0,,,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Auxerre,0,54,5,1,4,0,5,2,0,0,3,0.0,1.0,,,58.0,,,1,https://www.flashscore.com/match/riCiOT1k/#/match-summary/match-statistics/1,68.0,1,0,0,0,8,14.0,0.0,0.22,7,2,65.0,13,6,2,0.12,14,9,4,0,3,13,,,1.0
-129,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Angers,1,48,9,3,3,3,7,3,1,3,4,1.0,,244.0,212.0,82.0,,,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Auxerre,0,52,5,3,1,1,4,0,1,2,7,1.0,,,,30.0,,,2,https://www.flashscore.com/match/riCiOT1k/#/match-summary/match-statistics/2,86.0,0,0,7,2,10,33.0,33.0,0.29,6,3,74.0,3,4,2,0.75,10,8,11,0,3,9,,,2.0
-130,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Reims,1,49,3,2,1,0,4,2,0,0,5,1.0,,201.0,169.0,100.0,,,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Le Havre,0,51,2,0,0,2,5,4,0,1,4,1.0,,,,86.0,,,1,https://www.flashscore.com/match/C8LLTkvS/#/match-summary/match-statistics/1,72.0,0,0,2,1,4,0.0,11.0,0.05,8,0,59.0,13,3,0,0.14,14,14,7,0,2,11,,,1.0
-131,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Reims,0,61,8,1,3,4,4,4,1,1,4,1.0,,287.0,257.0,50.0,,,19.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Le Havre,1,39,5,2,3,0,4,2,2,1,4,1.0,,,,64.0,,,2,https://www.flashscore.com/match/C8LLTkvS/#/match-summary/match-statistics/2,81.0,0,2,3,1,9,11.0,21.0,0.89,5,6,71.0,4,1,1,0.66,7,9,14,1,4,32,,,2.0
-132,18.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Lyon,0,64,6,0,2,4,3,1,1,1,4,,,316.0,283.0,69.0,,,18.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Toulouse,0,36,4,1,3,0,4,3,2,0,3,,,,,62.0,,,1,https://www.flashscore.com/match/UmnI9Und/#/match-summary/match-statistics/1,79.0,0,2,5,0,8,11.0,20.0,0.51,3,1,67.0,9,7,2,0.48,6,10,16,0,2,14,,,1.0
-133,18.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Lyon,0,60,5,3,1,1,5,7,1,3,4,1.0,,253.0,212.0,43.0,,,18.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Toulouse,0,40,9,3,2,4,4,2,1,3,5,0.0,,,,60.0,,,2,https://www.flashscore.com/match/UmnI9Und/#/match-summary/match-statistics/2,76.0,0,0,3,0,16,18.0,43.0,0.60,7,2,74.0,8,4,0,0.29,9,9,25,0,9,18,,,2.0
-134,18.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Rennes,0,62,11,3,4,4,5,3,0,0,6,1.0,,254.0,222.0,70.0,,,18.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Brest,1,38,6,1,2,3,6,4,1,3,5,1.0,,,,56.0,,,1,https://www.flashscore.com/match/vJ50M7W1/#/match-summary/match-statistics/1,82.0,1,0,7,1,8,8.0,22.0,0.11,5,4,60.0,12,6,2,0.53,9,22,14,0,4,19,,,1.0
-135,18.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Rennes,1,74,11,6,4,1,6,1,1,1,7,1.0,,350.0,303.0,100.0,,,18.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Brest,1,26,4,2,2,0,7,0,1,5,6,2.0,,,,75.0,,,2,https://www.flashscore.com/match/vJ50M7W1/#/match-summary/match-statistics/2,80.0,1,3,9,1,7,36.0,100.0,1.18,9,2,44.0,9,6,0,0.96,3,4,34,0,4,20,,,2.0
-136,19.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",St Etienne,0,77,2,0,1,1,8,4,1,1,5,,,384.0,333.0,50.0,,,19.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Nantes,1,23,2,2,0,0,5,0,0,0,8,,,,,40.0,,,1,https://www.flashscore.com/match/pdU4XXv3/#/match-summary/match-statistics/1,73.0,0,1,1,0,5,44.0,33.0,0.25,7,0,58.0,14,7,0,0.03,9,6,13,0,2,24,,,1.0
-137,19.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",St Etienne,1,73,10,2,3,5,3,3,1,2,4,,,356.0,320.0,100.0,,,19.01.2025 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Nantes,0,27,6,2,2,2,4,7,0,1,3,,,,,43.0,,,2,https://www.flashscore.com/match/pdU4XXv3/#/match-summary/match-statistics/2,84.0,0,1,10,1,12,25.0,27.0,0.99,4,1,46.0,15,4,1,0.78,5,16,19,0,5,28,,,2.0
-138,18.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Lens,1,34,3,1,0,2,3,4,1,2,8,1.0,,159.0,122.0,67.0,,,18.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",PSG,0,66,2,2,0,0,8,0,0,0,3,1.0,,,,63.0,,,1,https://www.flashscore.com/match/xj7wHCfM/#/match-summary/match-statistics/1,64.0,0,0,3,1,8,22.0,0.0,0.12,4,0,80.0,10,2,1,0.20,20,12,13,0,1,13,,,1.0
-139,18.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Lens,0,32,7,4,0,3,5,2,4,3,4,1.0,,171.0,132.0,79.0,,,18.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",PSG,2,68,7,5,0,2,4,1,0,4,5,1.0,,,,80.0,,,2,https://www.flashscore.com/match/xj7wHCfM/#/match-summary/match-statistics/2,67.0,0,3,5,1,19,14.0,0.0,1.10,13,2,87.0,8,5,1,0.44,5,6,11,0,6,14,,,2.0
-140,17.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Lille,0,60,6,1,3,2,6,5,1,2,5,1.0,,282.0,246.0,33.0,,,17.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Nice,1,40,9,3,4,2,5,5,0,1,6,1.0,,,,100.0,,,1,https://www.flashscore.com/match/dzlABjIq/#/match-summary/match-statistics/1,77.0,0,3,4,0,14,60.0,33.0,2.57,6,2,64.0,8,7,1,0.24,10,13,17,1,8,14,,,1.0
-141,17.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Lille,2,50,5,3,2,0,7,2,0,0,8,0.0,,235.0,198.0,53.0,,,17.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Nice,0,50,2,0,1,1,8,2,0,1,7,2.0,,,,75.0,,,2,https://www.flashscore.com/match/dzlABjIq/#/match-summary/match-statistics/2,78.0,0,1,4,2,8,50.0,0.0,0.30,10,1,68.0,14,6,1,0.78,11,18,7,0,1,9,,,2.0
-142,17.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Montpellier,0,32,6,2,3,1,5,2,2,7,3,,,119.0,76.0,71.0,,,17.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Monaco,1,68,17,8,3,6,3,11,2,2,5,,,,,63.0,,,1,https://www.flashscore.com/match/jgXCVB9F/#/match-summary/match-statistics/1,50.0,0,1,3,1,20,33.0,40.0,1.42,6,3,78.0,6,5,8,0.34,14,19,5,0,9,9,0,1,1.0
-143,24.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Lille,1,63,4,2,2,0,8,2,1,1,6,1.0,,292.0,260.0,50.0,,,24.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Rennes,0,37,2,1,1,0,6,1,0,1,8,1.0,,,,70.0,,,1,https://www.flashscore.com/match/AqgG784s/#/match-summary/match-statistics/1,78.0,0,0,3,1,5,22.0,33.0,0.11,8,1,64.0,8,2,1,0.35,10,7,11,0,1,9,,,1.0
-144,24.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Lille,0,43,1,0,1,0,8,1,1,0,13,2.0,,172.0,134.0,64.0,,,24.11.2024 14:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Rennes,0,57,2,0,0,2,13,2,0,0,8,1.0,,,,64.0,,,2,https://www.flashscore.com/match/AqgG784s/#/match-summary/match-statistics/2,61.0,0,0,0,0,0,0.0,18.0,0.09,4,1,78.0,10,5,2,0.05,14,9,7,0,0,6,,,2.0
-145,30.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",Rennes,2,73,8,4,0,4,8,4,1,0,10,,0.0,320.0,295.0,83.0,,,30.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",St Etienne,0,27,1,0,1,0,10,0,1,2,8,,1.0,,,64.0,,,1,https://www.flashscore.com/match/2DnbIPIa/#/match-summary/match-statistics/1,73.0,0,0,5,1,4,,,0.07,5,3,35.0,9,4,0,1.05,5,2,11,1,1,10,,,1.0
-146,30.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",Rennes,3,71,10,5,4,1,4,2,1,0,4,0.0,,361.0,323.0,63.0,,,30.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",St Etienne,0,29,1,0,0,1,4,1,0,2,4,1.0,,,,64.0,,,2,https://www.flashscore.com/match/2DnbIPIa/#/match-summary/match-statistics/2,81.0,1,0,8,2,4,14.0,20.0,0.04,5,2,55.0,10,6,0,2.14,7,4,26,0,1,12,1,0,2.0
-147,29.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",Reims,0,49,8,1,5,2,5,1,0,2,7,1.0,,204.0,169.0,63.0,,,29.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",Lens,1,51,6,3,2,1,7,0,0,1,5,1.0,,,,45.0,,,1,https://www.flashscore.com/match/d0HcKolm/#/match-summary/match-statistics/1,63.0,0,0,4,0,7,18.0,17.0,0.23,2,4,79.0,15,4,3,0.42,9,9,6,0,3,16,,,1.0
-148,29.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",Reims,0,53,8,2,3,3,7,2,1,2,7,0.0,,249.0,211.0,55.0,,,29.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 13",Lens,1,47,5,3,2,0,7,1,4,2,7,1.0,,,,54.0,,,2,https://www.flashscore.com/match/d0HcKolm/#/match-summary/match-statistics/2,59.0,0,2,2,0,7,0.0,100.0,0.79,6,6,65.0,16,6,2,0.39,7,6,4,0,3,15,,,2.0
-149,24.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Nice,0,61,11,1,6,4,4,3,0,0,7,1.0,,285.0,244.0,56.0,,,24.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Strasbourg,1,39,1,1,0,0,7,3,0,1,4,0.0,,,,79.0,,,1,https://www.flashscore.com/match/Olld2DS1/#/match-summary/match-statistics/1,69.0,0,1,7,1,4,21.0,0.0,0.07,7,4,62.0,10,3,0,0.99,8,6,18,0,1,19,,,1.0
-150,24.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Nice,2,47,4,4,0,0,4,1,0,2,9,1.0,,222.0,187.0,50.0,,,24.11.2024 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Strasbourg,0,53,9,2,1,6,9,4,1,2,4,0.0,,,,50.0,,,2,https://www.flashscore.com/match/Olld2DS1/#/match-summary/match-statistics/2,62.0,0,0,4,2,14,0.0,43.0,0.24,4,0,82.0,8,6,5,1.14,8,5,16,0,4,8,,,2.0
-151,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Auxerre,0,50,3,3,0,0,3,0,0,2,5,1.0,,284.0,250.0,77.0,,,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Angers,0,50,3,2,1,0,5,0,0,3,3,1.0,,,,63.0,,,1,https://www.flashscore.com/match/pMmu24YI/#/match-summary/match-statistics/1,66.0,0,0,0,0,5,0.0,50.0,0.34,6,3,59.0,9,4,2,0.06,11,5,2,0,1,5,,,1.0
-152,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Auxerre,1,46,7,3,3,1,4,2,0,3,8,3.0,,172.0,126.0,44.0,,,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Angers,0,54,7,3,2,2,8,2,1,2,4,0.0,,,,33.0,,,2,https://www.flashscore.com/match/pMmu24YI/#/match-summary/match-statistics/2,55.0,0,2,5,1,10,40.0,36.0,0.51,5,2,64.0,6,5,2,0.50,11,6,10,0,5,8,1,0,2.0
-153,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Nantes,0,71,5,1,3,1,8,4,0,2,7,,,352.0,309.0,56.0,,,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Le Havre,1,29,4,3,0,1,7,1,0,1,8,,,,,83.0,,,1,https://www.flashscore.com/match/GtdO5nZg/#/match-summary/match-statistics/1,67.0,0,1,5,0,3,20.0,14.0,0.61,6,0,55.0,11,1,1,0.42,9,11,13,0,3,22,,,1.0
-154,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Nantes,0,71,13,3,5,5,4,6,0,1,7,2.0,,265.0,231.0,58.0,,,24.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Le Havre,1,29,3,2,1,0,7,1,2,3,4,1.0,,,,70.0,,,2,https://www.flashscore.com/match/GtdO5nZg/#/match-summary/match-statistics/2,78.0,1,1,5,0,8,19.0,33.0,0.40,0,8,48.0,13,3,0,0.49,7,9,19,0,3,41,,,2.0
-155,23.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Reims,0,40,5,2,3,0,6,3,2,4,5,,,200.0,162.0,43.0,,,23.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Lyon,1,60,8,5,2,1,5,1,1,2,6,,,,,75.0,,,1,https://www.flashscore.com/match/0UVRP7QP/#/match-summary/match-statistics/1,66.0,0,2,3,0,21,22.0,100.0,0.91,6,2,75.0,9,1,2,0.15,5,4,8,0,6,11,0,1,1.0
-156,23.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Reims,1,40,9,4,2,3,7,1,2,2,6,2.0,,162.0,129.0,83.0,,,23.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Lyon,0,60,5,2,3,0,6,1,0,3,7,0.0,,,,36.0,,,2,https://www.flashscore.com/match/0UVRP7QP/#/match-summary/match-statistics/2,77.0,0,2,6,2,15,38.0,33.0,0.79,0,3,71.0,8,10,0,1.07,9,5,15,0,5,7,,,2.0
-157,23.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",St Etienne,0,32,5,2,3,0,5,2,0,1,7,0.0,,141.0,118.0,56.0,,,23.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Montpellier,0,68,4,1,1,2,7,1,0,2,5,3.0,,,,78.0,,,1,https://www.flashscore.com/match/GryrQGK8/#/match-summary/match-statistics/1,72.0,0,1,4,1,6,50.0,25.0,0.47,4,1,58.0,7,5,2,0.73,12,14,11,0,2,4,,,1.0
-158,23.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",St Etienne,1,32,6,2,1,3,6,3,1,2,12,3.0,,117.0,80.0,86.0,,,23.11.2024 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Montpellier,0,68,7,2,4,1,12,10,0,1,6,2.0,,,,56.0,,,2,https://www.flashscore.com/match/GryrQGK8/#/match-summary/match-statistics/2,44.0,0,0,3,1,14,25.0,17.0,0.49,6,3,72.0,8,5,4,0.75,7,29,6,0,3,8,,,2.0
-159,23.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Lens,0,45,10,4,5,1,4,4,2,1,5,1.0,,213.0,169.0,44.0,,,23.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Marseille,0,55,3,1,2,0,5,0,1,4,4,1.0,,,,43.0,,,1,https://www.flashscore.com/match/SMfm4Zck/#/match-summary/match-statistics/1,64.0,0,0,7,5,1,27.0,0.0,0.17,7,3,70.0,9,11,2,0.96,13,5,20,0,1,15,,,1.0
-160,01.12.2024 16:00,"FOOTBALL
+0,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Lyon,3,56,10,5,3,2,6,1,1,0,5,,,281.0,236.0,92.0,,,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Nice,1,44,2,1,0,1,5,1,0,2,6,,,,,75.0,,,1,https://www.flashscore.com/match/hM7dRK1U/#/match-summary/match-statistics/1,71.0,1,1,8,2,7,33.0,0.0,0.86,9,2,80.0,11,6,0,1.31,11,3,15,0,2,15,,,1.0
-161,01.12.2024 16:00,"FOOTBALL
+1,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Lyon,1,50,6,3,1,2,5,4,2,6,6,1.0,,187.0,140.0,86.0,,,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Nice,0,50,14,6,3,5,6,3,1,2,5,2.0,,,,56.0,,,2,https://www.flashscore.com/match/hM7dRK1U/#/match-summary/match-statistics/2,72.0,0,1,4,2,19,0.0,15.0,1.43,6,2,79.0,6,3,4,1.25,5,11,13,0,10,5,,,2.0
-162,01.12.2024 16:00,"FOOTBALL
+2,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Toulouse,2,57,7,5,0,2,6,5,2,0,7,,,230.0,195.0,78.0,,,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Auxerre,0,43,0,0,0,0,7,0,2,3,6,,,,,57.0,,,1,https://www.flashscore.com/match/WhvFEsIO/#/match-summary/match-statistics/1,46.0,0,0,6,4,3,40.0,0.0,0.00,4,1,42.0,13,6,0,1.59,7,6,15,0,0,8,,,1.0
-163,01.12.2024 16:00,"FOOTBALL
+3,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Toulouse,0,45,5,2,2,1,6,1,0,0,7,,,203.0,153.0,43.0,,,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Auxerre,0,55,4,0,1,3,7,2,1,2,6,,,,,100.0,,,2,https://www.flashscore.com/match/WhvFEsIO/#/match-summary/match-statistics/2,48.0,0,0,3,2,15,13.0,40.0,0.08,6,2,57.0,12,6,2,0.58,6,13,11,0,2,9,,,2.0
-164,01.12.2024 14:00,"FOOTBALL
+4,01.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Montpellier,1,34,6,4,1,1,8,6,2,1,4,2.0,,131.0,97.0,56.0,,,01.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Lille,1,66,7,2,5,0,4,2,1,3,8,1.0,,,,67.0,,,1,https://www.flashscore.com/match/GGCXWOXh/#/match-summary/match-statistics/1,57.0,0,1,4,0,15,46.0,20.0,1.18,3,2,84.0,9,6,3,0.14,6,6,6,0,4,12,1,0,1.0
-165,01.12.2024 14:00,"FOOTBALL
+5,01.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Montpellier,1,48,5,1,4,0,13,1,1,1,5,2.0,1.0,187.0,140.0,57.0,,,01.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Lille,1,52,6,2,2,2,5,0,0,0,13,4.0,1.0,,,50.0,,,2,https://www.flashscore.com/match/GGCXWOXh/#/match-summary/match-statistics/2,45.0,1,1,4,2,12,40.0,0.0,1.18,6,1,67.0,6,5,1,1.31,12,5,8,0,5,12,,,2.0
-166,30.11.2024 20:00,"FOOTBALL
+6,30.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",PSG,1,83,13,8,5,0,4,4,0,0,2,,,538.0,496.0,80.0,,,30.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Nantes,1,17,2,1,0,1,2,0,2,7,4,,,,,18.0,,,1,https://www.flashscore.com/match/lUAuV225/#/match-summary/match-statistics/1,83.0,1,1,11,4,2,25.0,0.0,0.39,5,2,29.0,13,2,0,1.84,5,3,34,0,1,21,,,1.0
-167,07.12.2024 16:00,"FOOTBALL
+7,07.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Monaco,0,61,12,3,7,2,9,0,2,0,5,0.0,,294.0,240.0,82.0,,,07.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Toulouse,0,39,1,0,1,0,5,1,0,3,9,1.0,,,,75.0,,,1,https://www.flashscore.com/match/6oLxxBFk/#/match-summary/match-statistics/1,57.0,2,0,9,2,4,50.0,0.0,0.01,7,3,52.0,5,6,0,1.65,14,8,15,0,1,6,,,1.0
-168,07.12.2024 16:00,"FOOTBALL
+8,07.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Monaco,2,55,7,2,4,1,7,2,2,3,10,2.0,,216.0,159.0,67.0,,,07.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Toulouse,0,45,5,3,1,1,10,2,1,0,7,1.0,,,,50.0,,,2,https://www.flashscore.com/match/6oLxxBFk/#/match-summary/match-statistics/2,65.0,0,0,5,2,10,20.0,40.0,0.37,4,2,63.0,7,4,2,1.27,8,12,12,0,3,12,2,0,2.0
-169,06.12.2024 20:00,"FOOTBALL
+9,06.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Auxerre,0,25,1,0,0,1,4,2,1,4,3,,,122.0,81.0,44.0,,,06.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",PSG,0,75,7,4,2,1,3,3,3,0,4,,,,,50.0,,,1,https://www.flashscore.com/match/riWEq2Hb/#/match-summary/match-statistics/1,57.0,0,2,1,0,12,0.0,38.0,0.35,5,0,81.0,8,2,1,0.06,12,9,12,0,6,7,,,1.0
-170,06.12.2024 20:00,"FOOTBALL
+10,06.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Auxerre,0,29,5,2,1,2,3,1,2,7,5,2.0,,129.0,88.0,71.0,,,06.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",PSG,0,71,18,7,7,4,5,12,1,2,3,1.0,,,,60.0,,,2,https://www.flashscore.com/match/riWEq2Hb/#/match-summary/match-statistics/2,53.0,0,3,3,0,29,50.0,26.0,1.54,7,2,80.0,9,7,4,0.22,12,25,8,1,14,6,,,2.0
-171,06.12.2024 18:00,"FOOTBALL
+11,06.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Lille,2,57,2,2,0,0,11,1,1,1,8,0.0,,268.0,235.0,29.0,,,06.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Brest,0,43,1,1,0,0,8,1,1,0,11,1.0,,,,89.0,,,1,https://www.flashscore.com/match/WG42zbvo/#/match-summary/match-statistics/1,67.0,0,0,2,2,2,0.0,0.0,0.03,8,0,45.0,13,2,1,1.43,8,10,7,0,0,6,,,1.0
-172,06.12.2024 18:00,"FOOTBALL
+12,06.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Lille,1,65,8,4,2,2,5,1,0,1,5,1.0,,357.0,313.0,80.0,,,06.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Brest,1,35,6,2,4,0,5,0,0,3,5,0.0,,,,80.0,,,2,https://www.flashscore.com/match/WG42zbvo/#/match-summary/match-statistics/2,75.0,0,1,5,2,7,0.0,40.0,0.60,9,3,52.0,8,7,2,1.08,13,5,10,0,4,6,,,2.0
-173,01.12.2024 19:45,"FOOTBALL
+13,01.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Marseille,0,61,6,1,2,3,4,3,0,1,7,,,328.0,289.0,67.0,,,01.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Monaco,1,39,2,2,0,0,7,1,0,1,4,,,,,71.0,,,1,https://www.flashscore.com/match/pd4lTtXH/#/match-summary/match-statistics/1,80.0,0,0,2,0,7,22.0,0.0,0.36,7,4,63.0,9,10,0,0.27,9,6,8,0,2,8,,,1.0
-174,01.12.2024 19:45,"FOOTBALL
+14,01.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Marseille,2,65,3,3,0,0,12,2,0,2,8,0.0,,327.0,275.0,78.0,,,01.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Monaco,0,35,5,2,1,2,8,2,1,1,12,1.0,,,,14.0,,,2,https://www.flashscore.com/match/pd4lTtXH/#/match-summary/match-statistics/2,80.0,0,1,3,2,9,13.0,20.0,0.66,12,0,51.0,13,5,2,1.73,8,13,10,0,3,6,1,0,2.0
-175,01.12.2024 16:00,"FOOTBALL
+15,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Le Havre,0,49,4,0,3,1,5,0,0,2,6,,,230.0,202.0,63.0,,,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Angers,0,51,9,2,3,4,6,3,0,0,5,,,,,89.0,,,1,https://www.flashscore.com/match/Awj6G3mC/#/match-summary/match-statistics/1,71.0,0,2,1,0,13,0.0,14.0,1.38,5,3,74.0,8,3,1,0.18,10,2,7,0,8,12,,,1.0
-176,01.12.2024 16:00,"FOOTBALL
+16,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Le Havre,0,63,1,1,0,0,5,2,0,0,2,2.0,,259.0,234.0,68.0,,,01.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Angers,1,37,3,1,1,1,2,1,1,1,5,0.0,,,,36.0,,,2,https://www.flashscore.com/match/Awj6G3mC/#/match-summary/match-statistics/2,81.0,0,1,1,0,2,29.0,50.0,0.46,5,0,54.0,7,6,1,0.00,12,3,15,0,2,15,0,1,2.0
-177,30.11.2024 20:00,"FOOTBALL
+17,30.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",PSG,0,85,11,2,3,6,2,5,1,1,1,,,470.0,438.0,67.0,,,30.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Nantes,0,15,3,1,2,0,1,3,0,2,2,,,,,38.0,,,2,https://www.flashscore.com/match/lUAuV225/#/match-summary/match-statistics/2,91.0,0,0,6,2,13,15.0,40.0,0.26,4,5,50.0,14,7,0,0.72,5,4,33,0,4,32,,,2.0
-178,30.11.2024 18:00,"FOOTBALL
+18,30.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Brest,2,36,8,6,1,1,3,4,0,0,7,3.0,,158.0,136.0,80.0,,,30.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Strasbourg,0,64,4,0,1,3,7,1,0,4,3,1.0,,,,50.0,,,1,https://www.flashscore.com/match/MHJOYp3t/#/match-summary/match-statistics/1,64.0,1,0,7,3,15,20.0,38.0,0.30,1,1,64.0,14,8,1,1.74,9,12,12,0,3,12,,,1.0
-179,30.11.2024 18:00,"FOOTBALL
+19,30.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Brest,1,38,3,2,0,1,5,0,3,3,8,0.0,,188.0,159.0,71.0,,,30.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 13",Strasbourg,1,62,8,4,4,0,8,2,1,1,5,1.0,,,,100.0,,,2,https://www.flashscore.com/match/MHJOYp3t/#/match-summary/match-statistics/2,66.0,0,1,2,1,13,0.0,17.0,0.19,0,1,69.0,6,4,3,0.83,8,12,7,0,5,4,,,2.0
-180,14.12.2024 18:00,"FOOTBALL
+20,04.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Lille,0,73,8,1,3,4,5,2,0,1,3,1.0,,346.0,303.0,45.0,,,04.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Nantes,1,27,3,2,1,0,3,0,1,1,5,2.0,,,,57.0,,,2,https://www.flashscore.com/match/vgbyE4S6/#/match-summary/match-statistics/2,77.0,0,1,6,1,9,38.0,0.0,0.96,8,2,52.0,12,3,1,0.71,8,7,17,0,2,16,,,2.0
+21,04.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",St Etienne,0,61,9,1,7,1,3,3,1,0,10,,,308.0,271.0,33.0,,,04.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Reims,1,39,4,1,2,1,10,5,0,1,3,,,,,57.0,,,1,https://www.flashscore.com/match/xU1KHnTs/#/match-summary/match-statistics/1,76.0,1,2,8,3,13,17.0,9.0,0.82,3,1,76.0,10,7,1,1.04,11,15,16,0,3,10,,,1.0
+22,04.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",St Etienne,3,45,5,3,0,2,7,3,0,0,9,2.0,,223.0,175.0,50.0,,,04.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Reims,0,55,7,0,4,3,9,4,0,0,7,1.0,,,,75.0,,,2,https://www.flashscore.com/match/xU1KHnTs/#/match-summary/match-statistics/2,58.0,0,0,4,3,14,25.0,32.0,0.32,5,1,71.0,7,2,3,1.09,12,24,11,1,4,5,,,2.0
+23,03.01.2025 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Nice,3,49,4,3,0,1,3,0,3,1,5,1.0,,220.0,179.0,57.0,,,03.01.2025 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Rennes,1,51,4,2,1,1,5,2,0,0,3,1.0,,,,43.0,,,1,https://www.flashscore.com/match/naL2UPCm/#/match-summary/match-statistics/1,53.0,0,1,4,3,10,17.0,0.0,0.42,11,0,73.0,11,7,2,0.52,10,7,7,0,2,6,,,1.0
+24,03.01.2025 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Nice,0,43,5,3,1,1,11,3,1,2,6,2.0,1.0,195.0,148.0,71.0,,,03.01.2025 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Rennes,1,57,6,3,2,1,6,1,0,3,11,2.0,0.0,,,100.0,,,2,https://www.flashscore.com/match/naL2UPCm/#/match-summary/match-statistics/2,61.0,1,2,3,0,8,14.0,0.0,1.02,9,2,78.0,13,6,3,0.26,8,9,12,0,3,12,,,2.0
+25,18.12.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Monaco,0,41,6,2,2,2,4,0,2,5,7,2.0,,212.0,171.0,83.0,,,18.12.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",PSG,1,59,8,6,0,2,7,5,1,2,4,0.0,,,,100.0,,,1,https://www.flashscore.com/match/hOKf1Rr1/#/match-summary/match-statistics/1,67.0,0,1,3,1,14,0.0,20.0,0.94,9,3,78.0,2,2,2,0.34,17,9,10,1,6,7,,,1.0
+26,18.12.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Monaco,2,39,9,3,3,3,7,1,1,3,4,,,176.0,142.0,69.0,,,18.12.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",PSG,3,61,9,6,3,0,4,4,0,1,7,,,,,25.0,,,2,https://www.flashscore.com/match/hOKf1Rr1/#/match-summary/match-statistics/2,66.0,0,3,8,4,16,40.0,50.0,0.82,5,1,75.0,10,5,5,1.64,9,16,22,1,4,8,0,1,2.0
+27,15.12.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",PSG,2,66,7,3,2,2,3,3,1,1,5,2.0,,365.0,336.0,89.0,,,15.12.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Lyon,1,34,3,2,0,1,5,0,0,1,3,2.0,,,,57.0,,,1,https://www.flashscore.com/match/W8Wo3mEl/#/match-summary/match-statistics/1,86.0,0,2,6,1,11,29.0,0.0,0.57,6,1,72.0,7,5,1,1.44,5,8,16,0,2,7,,,1.0
+28,15.12.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",PSG,1,70,6,3,2,1,5,1,1,1,2,0.0,,369.0,336.0,57.0,,,15.12.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Lyon,0,30,4,1,2,1,2,3,3,2,5,1.0,,,,67.0,,,2,https://www.flashscore.com/match/W8Wo3mEl/#/match-summary/match-statistics/2,85.0,0,0,5,3,14,0.0,33.0,0.41,2,1,70.0,13,2,0,1.44,6,13,15,0,4,11,,,2.0
+29,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Brest,2,65,4,2,2,0,6,0,1,3,5,1.0,,327.0,297.0,100.0,,,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Nantes,0,35,7,3,2,2,5,2,0,0,6,0.0,,,,33.0,,,1,https://www.flashscore.com/match/4bn7AVLE/#/match-summary/match-statistics/1,73.0,0,1,1,1,11,22.0,50.0,0.34,2,3,62.0,11,1,1,0.17,12,8,4,0,6,7,1,0,1.0
+30,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Brest,2,39,9,6,1,2,8,0,1,3,5,2.0,,183.0,146.0,69.0,,,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Nantes,1,61,9,4,1,4,5,3,0,4,8,3.0,,,,71.0,,,2,https://www.flashscore.com/match/4bn7AVLE/#/match-summary/match-statistics/2,67.0,1,1,6,4,18,43.0,32.0,0.78,2,3,81.0,3,1,2,1.66,19,21,11,0,7,4,,,2.0
+31,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Le Havre,0,57,4,1,2,1,3,2,2,2,3,,,314.0,279.0,50.0,,,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Strasbourg,2,43,5,4,1,0,3,1,1,1,3,,,,,100.0,,,1,https://www.flashscore.com/match/IsOPchx9/#/match-summary/match-statistics/1,74.0,0,2,1,0,10,17.0,29.0,0.21,6,2,77.0,12,7,0,0.10,10,6,10,0,5,14,,,1.0
+32,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Le Havre,0,55,7,0,7,0,4,1,1,0,8,0.0,,254.0,233.0,60.0,,,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Strasbourg,1,45,4,1,2,1,8,1,2,0,4,1.0,,,,50.0,,,2,https://www.flashscore.com/match/IsOPchx9/#/match-summary/match-statistics/2,79.0,0,1,6,3,7,31.0,0.0,0.71,4,1,57.0,5,5,1,0.83,2,3,13,0,3,20,,,2.0
+33,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Rennes,1,51,3,2,1,0,5,0,0,0,9,1.0,,264.0,225.0,83.0,,,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Angers,0,49,1,0,1,0,9,0,2,1,5,0.0,,,,58.0,,,1,https://www.flashscore.com/match/vaJpzkp2/#/match-summary/match-statistics/1,68.0,0,1,1,1,7,50.0,22.0,0.29,9,2,56.0,11,2,0,0.26,7,8,7,0,1,3,1,0,1.0
+34,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Rennes,1,37,4,2,1,1,7,2,0,0,9,2.0,,164.0,129.0,62.0,,,15.12.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Angers,0,63,2,0,1,1,9,1,1,1,7,1.0,,,,64.0,,,2,https://www.flashscore.com/match/vaJpzkp2/#/match-summary/match-statistics/2,69.0,0,0,3,0,7,13.0,40.0,0.07,6,1,72.0,8,6,0,0.35,15,11,8,0,2,8,,,2.0
+35,15.12.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Montpellier,1,47,9,3,2,4,7,3,1,2,6,0.0,,196.0,165.0,29.0,,,15.12.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Nice,2,53,8,4,2,2,6,1,0,2,7,1.0,,,,82.0,,,1,https://www.flashscore.com/match/C4aLnST7/#/match-summary/match-statistics/1,70.0,0,0,6,1,7,31.0,0.0,0.31,4,3,88.0,10,3,4,0.92,6,5,13,0,4,13,1,0,1.0
+36,15.12.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Montpellier,1,55,11,5,4,2,6,6,0,2,9,1.0,,201.0,160.0,76.0,,,15.12.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 15",Nice,0,45,10,2,5,3,9,3,0,4,6,1.0,,,,40.0,,,2,https://www.flashscore.com/match/C4aLnST7/#/match-summary/match-statistics/2,62.0,0,1,9,2,12,28.0,30.0,0.81,4,2,80.0,13,2,4,1.31,7,10,28,0,6,18,,,2.0
+37,04.01.2025 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Lyon,1,55,7,2,2,3,8,0,1,2,5,1.0,,232.0,194.0,36.0,,,04.01.2025 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Montpellier,0,45,7,2,4,1,5,3,0,1,8,2.0,,,,58.0,,,2,https://www.flashscore.com/match/QkY1a5DD/#/match-summary/match-statistics/2,66.0,0,0,6,1,11,43.0,21.0,0.71,3,1,79.0,11,4,3,1.15,12,25,16,0,4,10,,,2.0
+38,04.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Lille,1,69,5,2,1,2,5,0,1,0,3,,,371.0,340.0,50.0,,,04.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 16",Nantes,0,31,3,0,2,1,3,0,0,1,5,,,,,70.0,,,1,https://www.flashscore.com/match/vgbyE4S6/#/match-summary/match-statistics/1,77.0,1,0,5,1,5,21.0,25.0,0.37,3,0,64.0,11,3,1,0.51,10,6,19,0,2,19,,,1.0
+39,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Le Havre,0,50,4,1,3,0,8,2,1,2,4,0.0,,187.0,151.0,,,,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Reims,1,50,9,3,3,3,4,6,1,1,8,1.0,,,,,,,2,https://www.flashscore.com/match/nRkUEVfA/#/match-summary/match-statistics/2,,,,,,,,,1.33,3,,,13,3,,1.01,10,,,,,,,,2.0
+40,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Montpellier,2,38,9,4,2,3,5,3,3,1,6,1.0,,139.0,105.0,,,,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Brest,0,62,8,1,6,1,6,3,0,2,5,1.0,,,,,,,1,https://www.flashscore.com/match/QB1LGiQc/#/match-summary/match-statistics/1,,,,,,,,,0.39,1,,,7,5,,1.24,11,,,,,,,,1.0
+41,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Montpellier,1,26,5,4,1,0,8,0,0,4,12,4.0,,105.0,64.0,,,,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Brest,1,74,11,5,6,0,12,4,1,3,8,0.0,,,,,,,2,https://www.flashscore.com/match/QB1LGiQc/#/match-summary/match-statistics/2,,,,,,,,,0.46,0,,,8,5,,1.17,14,,,,,,,,2.0
+42,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Rennes,0,62,3,1,1,1,6,3,1,0,9,3.0,,278.0,240.0,,,,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Toulouse,2,38,6,2,4,0,9,2,1,1,6,0.0,,,,,,,1,https://www.flashscore.com/match/WWnG5RHd/#/match-summary/match-statistics/1,,,,,,,,,1.15,6,,,14,3,,0.37,6,,,,,,,,1.0
+43,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Rennes,0,72,4,0,1,3,10,2,1,0,7,0.0,,318.0,273.0,,,,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Toulouse,0,28,3,0,2,1,7,1,0,0,10,1.0,,,,,,,2,https://www.flashscore.com/match/WWnG5RHd/#/match-summary/match-statistics/2,,,,,,,,,0.24,11,,,13,2,,0.13,6,,,,,,,,2.0
+44,10.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Nice,0,32,4,1,2,1,3,4,2,1,2,1.0,,154.0,119.0,,,,10.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Lille,1,68,5,2,1,2,2,0,0,1,3,0.0,,,,,,,1,https://www.flashscore.com/match/l8H0Dwy3/#/match-summary/match-statistics/1,,,,,,,,,0.74,4,,,6,6,,0.25,9,,,,,,,,1.0
+45,10.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Nice,2,53,13,4,4,5,6,2,0,3,10,1.0,,227.0,190.0,,,,10.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Lille,1,47,8,4,4,0,10,2,0,2,6,2.0,,,,,,,2,https://www.flashscore.com/match/l8H0Dwy3/#/match-summary/match-statistics/2,,,,,,,,,0.81,7,,,9,2,,1.85,7,,,,,,,,2.0
+46,09.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Angers,0,27,5,0,4,1,7,1,0,3,1,0.0,,160.0,128.0,,,,09.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",PSG,4,73,12,7,4,1,1,1,0,0,7,1.0,,,,,,,1,https://www.flashscore.com/match/dYK8BH5F/#/match-summary/match-statistics/1,,,,,,,,,1.83,5,,,2,7,,0.19,8,,,,,,,,1.0
+47,09.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Angers,2,33,5,3,1,1,9,5,3,5,4,0.0,,163.0,141.0,,,,09.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",PSG,0,67,14,5,5,4,4,7,0,1,9,2.0,,,,,,,2,https://www.flashscore.com/match/dYK8BH5F/#/match-summary/match-statistics/2,,,,,,,,,1.51,5,,,4,3,,0.36,5,,,,,,,,2.0
+48,09.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Lens,1,62,6,1,3,2,7,3,1,0,8,2.0,,267.0,221.0,,,,09.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Nantes,1,38,4,1,3,0,8,0,1,0,7,0.0,,,,,,,1,https://www.flashscore.com/match/bJl87mmp/#/match-summary/match-statistics/1,,,,,,,,,1.02,5,,,10,3,,1.14,8,,,,,,,,1.0
+49,09.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Lens,2,72,9,2,4,3,1,3,1,1,6,,,384.0,342.0,,,,09.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Nantes,1,28,5,2,2,1,6,1,1,0,1,,,,,,,,2,https://www.flashscore.com/match/bJl87mmp/#/match-summary/match-statistics/2,,,,,,,,,0.41,8,,,8,3,,1.75,11,,,,,,,,2.0
+50,09.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Strasbourg,1,42,5,2,3,0,13,0,1,2,7,1.0,,198.0,164.0,,,,09.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Monaco,0,58,6,2,3,1,7,2,1,1,13,2.0,,,,,,,1,https://www.flashscore.com/match/figxD9PM/#/match-summary/match-statistics/1,,,,,,,,,1.00,5,,,8,5,,0.79,9,,,,,,,,1.0
+51,09.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Strasbourg,0,42,0,0,0,0,5,1,0,3,9,4.0,,166.0,122.0,,,,09.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Monaco,3,58,13,6,4,3,9,0,1,0,5,0.0,,,,,,,2,https://www.flashscore.com/match/figxD9PM/#/match-summary/match-statistics/2,,,,,,,,,2.72,6,,,14,8,,0.00,5,,,,,,,,2.0
+52,08.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Marseille,0,75,9,3,4,2,7,3,2,2,5,,,355.0,322.0,,,,08.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Auxerre,3,25,7,5,1,1,5,1,2,3,7,,,,,,,,1,https://www.flashscore.com/match/Gp6AbAAT/#/match-summary/match-statistics/1,,,,,,,,,1.19,4,,,9,2,,0.80,7,,,,,,,,1.0
+53,07.12.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 14",Nice,2,53,12,5,3,4,6,2,0,0,6,3.0,,203.0,170.0,70.0,,,07.12.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 14",Le Havre,1,47,6,1,2,3,6,4,2,3,6,2.0,,,,71.0,,,2,https://www.flashscore.com/match/dzY6oOnn/#/match-summary/match-statistics/2,70.0,0,0,9,2,8,9.0,21.0,0.30,5,3,73.0,4,3,2,1.67,6,12,18,0,4,13,0,1,2.0
+54,22.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",PSG,2,70,10,4,2,4,9,5,2,1,4,0.0,,351.0,311.0,78.0,,,22.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Toulouse,0,30,8,1,5,2,4,4,0,2,9,1.0,,,,60.0,,,2,https://www.flashscore.com/match/Im9H9ezS/#/match-summary/match-statistics/2,88.0,0,3,6,2,19,29.0,8.0,1.24,4,4,76.0,3,6,1,0.75,8,14,21,0,7,5,,,2.0
+55,22.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Monaco,2,64,4,2,2,0,6,1,1,0,4,0.0,,334.0,283.0,44.0,,,22.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Brest,0,36,5,0,3,2,4,2,1,0,6,1.0,,,,50.0,,,1,https://www.flashscore.com/match/xdpX3Q36/#/match-summary/match-statistics/1,62.0,1,1,3,3,14,33.0,8.0,0.50,8,1,60.0,5,5,1,1.63,17,13,13,0,4,5,,,1.0
+56,22.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Monaco,1,40,6,2,2,2,6,1,2,2,3,2.0,,166.0,117.0,17.0,,,22.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Brest,2,60,7,4,2,1,3,6,0,1,6,1.0,,,,73.0,,,2,https://www.flashscore.com/match/xdpX3Q36/#/match-summary/match-statistics/2,54.0,0,1,4,2,14,25.0,31.0,0.55,6,2,70.0,10,12,3,0.80,12,17,12,0,4,11,0,2,2.0
+57,10.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Lyon,1,62,13,5,2,6,6,4,0,1,7,1.0,,292.0,255.0,,,,10.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",St Etienne,0,38,2,1,1,0,7,2,0,4,6,2.0,,,,,,,1,https://www.flashscore.com/match/b59ZhlYj/#/match-summary/match-statistics/1,,,,,,,,,0.14,6,,,16,5,,1.13,4,,,,,,,,1.0
+58,10.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Lyon,0,60,4,2,1,1,7,3,0,5,4,2.0,,253.0,213.0,,,,10.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",St Etienne,0,40,8,5,0,3,4,4,0,2,7,0.0,,,,,,,2,https://www.flashscore.com/match/b59ZhlYj/#/match-summary/match-statistics/2,,,,,,,,,0.56,11,,,14,6,,0.33,13,,,,,,,,2.0
+59,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Le Havre,0,58,6,2,2,2,9,6,0,2,6,1.0,,209.0,178.0,,,,10.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 11",Reims,2,42,9,4,3,2,6,1,1,2,9,3.0,,,,,,,1,https://www.flashscore.com/match/nRkUEVfA/#/match-summary/match-statistics/1,,,,,,,,,1.45,2,,,11,5,,0.62,6,,,,,,,,1.0
+60,27.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",PSG,1,66,12,2,4,6,4,6,3,1,4,0.0,,,,,,,27.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Rennes,0,34,6,1,3,2,4,1,0,1,4,2.0,,,,,,,cat93,https://www.flashscore.com/match/zBdshgV6/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+61,28.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Lens,0,46,7,4,3,0,6,4,0,3,9,3.0,1.0,,,,,,28.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Nice,0,54,11,3,4,4,6,3,1,4,4,1.0,0.0,,,,,,cat94,https://www.flashscore.com/match/v3PZcqJP/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+62,28.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Lens,0,65,15,3,7,5,3,7,1,1,7,0.0,,,,,,,28.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Nice,0,35,4,1,2,1,8,1,0,3,3,1.0,,,,,,,cat95,https://www.flashscore.com/match/v3PZcqJP/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+63,28.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Le Havre,0,54,4,2,2,0,6,1,0,1,4,1.0,,,,,,,28.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Lille,1,46,5,2,3,0,3,0,1,2,7,1.0,,,,,,,cat96,https://www.flashscore.com/match/xb7MlutC/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+64,28.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Le Havre,0,22,3,2,0,1,4,0,1,6,7,1.0,,,,,,,28.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Lille,2,78,13,8,2,3,8,5,2,2,2,0.0,,,,,,,cat97,https://www.flashscore.com/match/xb7MlutC/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+65,28.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Monaco,1,65,14,4,7,3,4,6,0,1,8,4.0,0.0,,,,,,28.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Montpellier,0,35,4,1,3,0,10,1,0,3,4,1.0,1.0,,,,,,cat98,https://www.flashscore.com/match/lxyu7Met/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+66,28.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Monaco,1,65,7,3,3,1,16,0,2,2,9,0.0,,,,,,,28.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Montpellier,1,35,5,3,0,2,12,1,2,2,13,2.0,,,,,,,cat99,https://www.flashscore.com/match/lxyu7Met/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+67,29.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Toulouse,0,43,7,3,2,2,7,2,2,0,11,2.0,,,,,,,29.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Lyon,1,57,2,1,0,1,11,2,0,3,8,1.0,,,,,,,cat100,https://www.flashscore.com/match/bDeVnJAO/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+68,29.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Toulouse,1,47,3,1,2,0,9,1,2,0,1,0.0,,,,,,,29.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Lyon,1,53,2,0,1,1,2,2,1,0,7,1.0,,,,,,,cat101,https://www.flashscore.com/match/bDeVnJAO/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+69,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Nantes,1,62,9,2,5,2,8,5,2,1,6,2.0,1.0,,,,,,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",St Etienne,2,38,3,3,0,0,5,3,0,1,8,2.0,0.0,,,,,,cat102,https://www.flashscore.com/match/zZA5hNtm/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+70,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Nantes,1,60,7,1,4,2,4,3,0,0,5,,,,,,,,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",St Etienne,0,40,2,0,2,0,5,1,1,0,4,,,,,,,,cat103,https://www.flashscore.com/match/zZA5hNtm/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+71,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Angers,1,59,10,3,6,1,7,2,2,5,3,0.0,,,,,,,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Reims,1,41,13,6,7,0,3,3,1,2,6,1.0,,,,,,,cat104,https://www.flashscore.com/match/p4Um50Qh/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+72,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Angers,0,47,4,0,2,2,6,3,0,2,4,0.0,,,,,,,29.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Reims,2,53,8,4,3,1,4,1,0,0,5,2.0,,,,,,,cat105,https://www.flashscore.com/match/p4Um50Qh/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+73,29.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Strasbourg,0,41,8,2,4,2,3,5,0,2,7,2.0,,,,,,,29.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Marseille,0,59,7,2,4,1,5,2,0,2,3,1.0,,,,,,,cat106,https://www.flashscore.com/match/Ee8YgF0f/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+74,29.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Strasbourg,1,41,6,4,2,0,8,3,1,1,10,,,,,,,,29.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Marseille,0,59,3,1,2,0,13,1,4,3,4,,,,,,,,cat107,https://www.flashscore.com/match/Ee8YgF0f/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+75,04.10.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Marseille,1,86,10,2,6,2,7,7,0,0,8,,,,,,,,04.10.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Angers,1,14,5,1,3,1,10,1,2,1,6,,,,,,,,cat108,https://www.flashscore.com/match/xYNVFHvB/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+76,04.10.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Marseille,0,66,6,2,2,2,3,2,0,2,7,4.0,1.0,,,,,,04.10.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Angers,0,34,5,2,2,1,7,2,2,2,3,0.0,1.0,,,,,,cat109,https://www.flashscore.com/match/xYNVFHvB/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+77,05.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",St Etienne,2,39,5,2,3,0,7,1,1,2,6,3.0,,,,,,,05.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Auxerre,1,61,9,3,3,3,7,3,2,0,6,0.0,,,,,,,cat0,https://www.flashscore.com/match/z9REJaun/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+78,05.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",St Etienne,1,43,8,3,2,3,4,4,2,0,7,0.0,,,,,,,05.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Auxerre,0,57,2,0,2,0,9,1,2,2,4,1.0,,,,,,,cat1,https://www.flashscore.com/match/z9REJaun/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+79,05.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Lille,2,54,5,2,1,2,2,3,1,2,8,1.0,,,,,,,05.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Toulouse,0,46,5,2,3,0,7,4,1,0,2,1.0,,,,,,,cat2,https://www.flashscore.com/match/Wf14adfU/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+80,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Nantes,0,30,2,0,1,1,5,1,1,2,7,1.0,,155.0,128.0,36.0,,,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Lyon,1,70,8,3,3,2,7,5,1,0,5,0.0,,,,38.0,,,1,https://www.flashscore.com/match/xQNnrkgL/#/match-summary/match-statistics/1,61.0,0,1,2,0,28,0.0,29.0,0.73,6,0,80.0,6,4,1,0.07,7,15,4,1,7,11,,,1.0
+81,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Nantes,1,44,5,5,0,0,6,3,1,1,7,2.0,,196.0,171.0,89.0,,,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Lyon,0,56,7,1,1,5,7,3,2,4,6,1.0,,,,64.0,,,2,https://www.flashscore.com/match/xQNnrkgL/#/match-summary/match-statistics/2,76.0,0,1,4,3,17,17.0,50.0,0.34,2,1,80.0,10,3,0,1.19,8,8,13,0,7,20,1,0,2.0
+82,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Toulouse,0,68,7,2,2,3,10,3,1,1,4,,,287.0,236.0,100.0,,,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Montpellier,0,32,3,1,1,1,4,1,1,2,10,,,,,62.0,,,1,https://www.flashscore.com/match/UN2Rz7oe/#/match-summary/match-statistics/1,70.0,0,1,4,0,3,22.0,50.0,0.17,8,3,45.0,15,3,1,0.36,13,16,16,0,2,22,,,1.0
+83,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Toulouse,1,64,8,4,2,2,5,3,1,1,5,,,249.0,202.0,60.0,,,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Montpellier,2,36,3,3,0,0,5,1,0,3,5,,,,,63.0,,,2,https://www.flashscore.com/match/UN2Rz7oe/#/match-summary/match-statistics/2,73.0,0,1,6,1,5,25.0,0.0,0.42,7,2,43.0,19,2,1,0.64,9,10,17,0,2,13,0,1,2.0
+84,26.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Le Havre,0,36,2,1,1,0,9,2,0,5,5,,,153.0,117.0,64.0,,,26.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Brest,1,64,10,6,1,3,5,5,1,1,9,,,,,58.0,,,1,https://www.flashscore.com/match/xl6ZYpG7/#/match-summary/match-statistics/1,54.0,0,3,1,0,17,0.0,20.0,1.56,5,1,77.0,7,5,1,0.32,12,17,4,0,9,15,,,1.0
+85,26.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Le Havre,0,52,9,0,5,4,5,4,0,3,7,,,213.0,169.0,67.0,,,26.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Brest,0,48,7,3,2,2,7,1,0,0,5,,,,,67.0,,,2,https://www.flashscore.com/match/xl6ZYpG7/#/match-summary/match-statistics/2,60.0,1,0,8,1,16,37.0,13.0,0.38,5,1,72.0,18,4,3,0.60,6,14,20,1,4,24,,,2.0
+86,31.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Montpellier,0,42,5,1,4,0,8,1,1,2,5,1.0,,172.0,129.0,79.0,,,31.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Lens,1,58,11,3,3,5,5,4,1,1,8,2.0,,,,57.0,,,1,https://www.flashscore.com/match/C4PyiJyg/#/match-summary/match-statistics/1,47.0,0,2,4,0,17,71.0,6.0,1.03,5,1,73.0,9,5,5,0.52,12,31,9,0,6,10,,,1.0
+87,31.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Montpellier,0,56,9,1,6,2,9,3,1,1,7,3.0,,257.0,217.0,83.0,,,31.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Lens,1,44,8,2,5,1,7,1,1,1,9,1.0,,,,38.0,,,2,https://www.flashscore.com/match/C4PyiJyg/#/match-summary/match-statistics/2,63.0,0,3,4,2,12,23.0,33.0,1.05,7,5,80.0,5,1,3,0.31,3,7,12,0,5,21,,,2.0
+88,01.02.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Lille,1,67,10,4,4,2,6,4,1,0,4,,,304.0,266.0,70.0,,,01.02.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",St Etienne,1,33,5,1,3,1,4,0,1,3,6,,,,,76.0,,,1,https://www.flashscore.com/match/pINqkc65/#/match-summary/match-statistics/1,78.0,0,2,8,1,13,50.0,33.0,1.46,8,2,76.0,16,3,0,1.08,8,1,14,0,5,6,,,1.0
+89,01.02.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Lille,3,67,19,9,3,7,6,3,0,1,7,1.0,0.0,318.0,286.0,93.0,,,01.02.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",St Etienne,0,33,4,1,1,2,7,1,0,6,6,1.0,1.0,,,20.0,,,2,https://www.flashscore.com/match/pINqkc65/#/match-summary/match-statistics/2,86.0,1,1,12,1,4,36.0,50.0,0.65,8,7,56.0,7,6,2,2.33,11,5,30,0,2,10,,,2.0
+90,01.02.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Monaco,1,63,4,2,2,0,7,4,0,4,7,1.0,,273.0,225.0,70.0,,,01.02.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Auxerre,2,37,9,6,2,1,7,3,4,1,7,1.0,,,,81.0,,,1,https://www.flashscore.com/match/tbdR1zjB/#/match-summary/match-statistics/1,59.0,0,2,3,1,10,25.0,57.0,1.42,9,1,75.0,9,9,5,0.32,10,7,11,0,4,15,,,1.0
+91,01.02.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Monaco,3,53,7,4,2,1,8,1,2,1,10,1.0,,233.0,193.0,44.0,,,01.02.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Auxerre,0,47,3,1,2,0,10,1,1,1,8,1.0,,,,29.0,,,2,https://www.flashscore.com/match/tbdR1zjB/#/match-summary/match-statistics/2,75.0,0,0,6,3,8,25.0,50.0,0.15,7,1,59.0,5,7,0,2.31,11,4,12,1,3,7,,,2.0
+92,01.02.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Brest,0,29,5,2,3,0,3,1,0,1,6,1.0,,167.0,124.0,100.0,,,01.02.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",PSG,1,71,7,2,3,2,6,6,0,2,3,0.0,,,,100.0,,,1,https://www.flashscore.com/match/GxWShu7t/#/match-summary/match-statistics/1,61.0,0,5,2,0,17,0.0,27.0,1.34,5,3,81.0,8,4,0,0.29,7,9,6,1,7,6,,,1.0
+93,01.02.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Brest,2,39,9,5,1,3,9,3,3,1,3,,,202.0,166.0,60.0,,,01.02.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",PSG,4,61,7,5,1,1,3,1,0,3,9,,,,,71.0,,,2,https://www.flashscore.com/match/GxWShu7t/#/match-summary/match-statistics/2,71.0,0,5,4,0,20,22.0,25.0,2.26,2,5,80.0,8,6,1,0.56,5,9,11,0,6,10,,,2.0
+94,02.02.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Marseille,0,68,6,1,4,1,6,1,0,0,8,1.0,,357.0,327.0,42.0,,,02.02.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Lyon,0,32,2,0,1,1,8,0,1,1,6,0.0,,,,60.0,,,1,https://www.flashscore.com/match/nNeJYyMO/#/match-summary/match-statistics/1,77.0,0,0,4,0,1,0.0,25.0,0.11,8,2,60.0,6,4,1,0.46,7,6,17,0,1,15,,,1.0
+95,02.02.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Marseille,3,58,14,10,4,0,4,5,0,2,5,3.0,,211.0,190.0,60.0,,,02.02.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Lyon,2,42,8,4,1,3,5,2,1,7,4,1.0,,,,17.0,,,2,https://www.flashscore.com/match/nNeJYyMO/#/match-summary/match-statistics/2,85.0,0,3,10,5,11,31.0,0.0,1.64,2,4,75.0,5,5,1,2.78,6,10,31,0,7,15,1,0,2.0
+96,02.02.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Angers,0,51,7,0,4,3,9,1,0,2,5,1.0,1.0,217.0,197.0,67.0,,,02.02.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Le Havre,0,49,5,2,2,1,5,1,0,0,9,2.0,1.0,,,50.0,,,1,https://www.flashscore.com/match/YiZaoF5U/#/match-summary/match-statistics/1,83.0,0,2,5,0,11,13.0,22.0,1.34,4,2,70.0,8,4,1,0.37,7,12,10,0,4,8,,,1.0
+97,02.02.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Angers,1,65,10,2,4,4,10,3,1,2,3,1.0,,290.0,265.0,75.0,,,02.02.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Le Havre,1,35,8,3,2,3,3,1,0,1,10,2.0,,,,57.0,,,2,https://www.flashscore.com/match/YiZaoF5U/#/match-summary/match-statistics/2,78.0,0,1,7,3,9,28.0,44.0,0.73,3,3,64.0,8,1,3,1.17,6,12,10,0,5,26,,,2.0
+98,02.02.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Reims,1,50,9,2,4,3,5,7,1,1,4,,,205.0,164.0,100.0,,,02.02.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 20",Nantes,1,50,4,2,1,1,4,1,0,1,5,,,,,67.0,,,1,https://www.flashscore.com/match/tpHhmyyI/#/match-summary/match-statistics/1,65.0,0,1,8,1,12,31.0,17.0,0.67,2,0,56.0,8,4,0,0.67,5,8,22,0,4,15,,,1.0
+99,14.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Auxerre,1,43,7,1,3,3,3,2,0,2,5,2.0,,195.0,153.0,22.0,,,14.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Lens,0,57,9,2,3,4,5,1,3,0,3,1.0,,,,100.0,,,2,https://www.flashscore.com/match/Au34jAUr/#/match-summary/match-statistics/2,58.0,0,0,5,0,14,17.0,50.0,0.45,4,2,72.0,6,9,4,0.48,8,14,13,0,5,12,1,0,2.0
-181,14.12.2024 16:00,"FOOTBALL
+100,14.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Marseille,1,61,2,1,1,0,3,0,1,3,7,,,324.0,298.0,56.0,,,14.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Lille,0,39,5,3,2,0,7,5,0,0,3,,,,,56.0,,,1,https://www.flashscore.com/match/0QuG89jR/#/match-summary/match-statistics/1,78.0,0,1,1,1,15,0.0,30.0,0.33,2,1,76.0,5,3,2,0.40,8,13,2,0,3,1,,,1.0
-182,14.12.2024 16:00,"FOOTBALL
+101,14.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Marseille,0,51,7,2,2,3,6,3,2,1,7,1.0,1.0,250.0,219.0,71.0,,,14.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Lille,1,49,5,2,2,1,7,3,0,2,6,3.0,0.0,,,56.0,,,2,https://www.flashscore.com/match/0QuG89jR/#/match-summary/match-statistics/2,68.0,1,2,5,1,14,25.0,42.0,0.44,2,2,74.0,6,3,1,0.88,8,18,13,0,4,11,0,1,2.0
-183,13.12.2024 19:45,"FOOTBALL
+102,13.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Toulouse,0,33,6,1,3,2,6,0,0,0,8,1.0,,202.0,165.0,71.0,,,13.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",St Etienne,0,67,0,0,0,0,8,2,0,1,6,1.0,,,,67.0,,,1,https://www.flashscore.com/match/I56Cllae/#/match-summary/match-statistics/1,66.0,0,0,5,1,3,0.0,0.0,0.00,4,0,74.0,11,8,0,0.41,5,8,11,0,0,16,,,1.0
-184,13.12.2024 19:45,"FOOTBALL
+103,13.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Toulouse,2,44,5,3,1,1,9,2,0,1,8,2.0,,211.0,179.0,70.0,,,13.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",St Etienne,1,56,3,2,1,0,8,1,0,1,9,3.0,,,,67.0,,,2,https://www.flashscore.com/match/I56Cllae/#/match-summary/match-statistics/2,65.0,0,1,6,2,1,44.0,50.0,0.51,3,0,50.0,9,5,2,0.61,7,4,10,0,1,11,2,0,2.0
-185,08.12.2024 19:45,"FOOTBALL
+104,08.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",St Etienne,0,28,2,1,0,1,7,0,0,3,4,,,191.0,154.0,25.0,,,08.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Marseille,1,72,9,4,2,3,4,3,1,1,7,,,,,82.0,,,1,https://www.flashscore.com/match/vJPNstnB/#/match-summary/match-statistics/1,65.0,0,1,0,0,11,0.0,29.0,0.81,3,2,74.0,10,9,3,0.11,3,8,2,0,6,4,,,1.0
-186,08.12.2024 19:45,"FOOTBALL
+105,08.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",St Etienne,0,35,1,1,0,0,3,0,0,5,9,1.0,,207.0,179.0,100.0,,,08.12.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Marseille,1,65,12,6,2,4,9,6,0,1,3,1.0,,,,75.0,,,2,https://www.flashscore.com/match/vJPNstnB/#/match-summary/match-statistics/2,71.0,0,3,0,0,20,25.0,43.0,1.70,4,1,81.0,4,3,1,0.05,6,7,4,0,11,2,,,2.0
-187,08.12.2024 16:00,"FOOTBALL
+106,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Nantes,0,45,4,1,2,1,5,3,1,2,8,,0.0,202.0,153.0,75.0,,,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Rennes,0,55,4,2,2,0,8,4,1,1,5,,1.0,,,71.0,,,1,https://www.flashscore.com/match/Cp34fJVG/#/match-summary/match-statistics/1,62.0,0,0,2,1,8,17.0,60.0,0.24,5,2,50.0,15,3,1,0.11,7,8,5,0,3,17,,,1.0
-188,08.12.2024 16:00,"FOOTBALL
+107,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Nantes,1,47,10,1,2,7,4,2,0,1,7,1.0,,187.0,158.0,33.0,,,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Rennes,0,53,1,1,0,0,7,0,0,0,4,1.0,,,,89.0,,,2,https://www.flashscore.com/match/Cp34fJVG/#/match-summary/match-statistics/2,74.0,0,0,9,1,2,24.0,0.0,0.03,5,1,77.0,12,4,1,1.20,11,10,28,0,0,20,,,2.0
-189,08.12.2024 16:00,"FOOTBALL
+108,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Strasbourg,0,46,1,0,1,0,7,1,0,2,5,1.0,,233.0,203.0,67.0,,,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Reims,0,54,6,2,3,1,5,0,1,0,7,1.0,,,,60.0,,,1,https://www.flashscore.com/match/4Kaddu14/#/match-summary/match-statistics/1,74.0,0,2,1,1,12,0.0,18.0,0.73,4,0,75.0,7,6,2,0.29,10,13,5,0,4,10,,,1.0
-190,08.12.2024 16:00,"FOOTBALL
+109,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Strasbourg,0,50,6,2,2,2,9,2,0,1,8,0.0,,211.0,174.0,100.0,,,08.12.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Reims,0,50,5,1,1,3,8,2,1,2,9,1.0,,,,57.0,,,2,https://www.flashscore.com/match/4Kaddu14/#/match-summary/match-statistics/2,63.0,1,0,3,1,9,50.0,33.0,0.23,3,3,71.0,7,1,2,0.22,8,11,12,0,3,10,,,2.0
-191,08.12.2024 14:00,"FOOTBALL
+110,08.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Lens,1,65,11,2,4,5,2,4,3,1,8,0.0,,298.0,261.0,67.0,,,08.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Montpellier,0,35,2,1,1,0,8,0,0,1,2,1.0,,,,64.0,,,1,https://www.flashscore.com/match/r5Bmb1Wi/#/match-summary/match-statistics/1,77.0,0,0,5,0,5,36.0,25.0,0.09,5,6,52.0,11,5,1,0.78,7,3,17,0,1,17,,,1.0
-192,08.12.2024 14:00,"FOOTBALL
+111,08.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Lens,1,45,7,2,4,1,5,2,1,3,7,2.0,,210.0,185.0,91.0,,,08.12.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Montpellier,0,55,5,3,2,0,7,3,1,1,5,2.0,,,,82.0,,,2,https://www.flashscore.com/match/r5Bmb1Wi/#/match-summary/match-statistics/2,87.0,1,3,4,0,14,13.0,14.0,1.01,3,2,75.0,6,2,1,0.45,7,13,12,0,4,6,,,2.0
-193,07.12.2024 20:00,"FOOTBALL
+112,07.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Angers,0,30,3,1,2,0,6,1,2,5,5,0.0,,131.0,102.0,50.0,,,07.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Lyon,1,70,10,6,1,3,5,4,0,1,6,1.0,,,,33.0,,,1,https://www.flashscore.com/match/CWNVuKGN/#/match-summary/match-statistics/1,63.0,1,2,1,0,15,50.0,30.0,0.76,7,2,78.0,11,5,4,0.11,14,12,3,0,6,2,0,1,1.0
-194,07.12.2024 20:00,"FOOTBALL
+113,07.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Angers,0,42,7,1,4,2,7,1,2,2,8,0.0,,182.0,153.0,63.0,,,07.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Lyon,2,58,6,4,0,2,8,3,1,1,7,1.0,,,,71.0,,,2,https://www.flashscore.com/match/CWNVuKGN/#/match-summary/match-statistics/2,77.0,0,1,4,0,22,27.0,22.0,0.55,5,3,78.0,12,5,1,0.40,6,18,12,0,5,9,,,2.0
-195,07.12.2024 18:00,"FOOTBALL
+114,07.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Nice,0,49,5,0,3,2,4,3,0,1,4,,,202.0,168.0,73.0,,,07.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 14",Le Havre,0,51,6,1,3,2,4,4,0,0,4,,,,,75.0,,,1,https://www.flashscore.com/match/dzY6oOnn/#/match-summary/match-statistics/1,68.0,1,2,2,2,10,17.0,17.0,0.72,5,3,76.0,11,5,2,0.33,16,13,7,0,4,8,,,1.0
-196,14.12.2024 20:00,"FOOTBALL
+115,14.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Reims,0,36,4,0,3,1,11,0,1,3,8,0.0,,168.0,127.0,73.0,,,14.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Monaco,0,64,7,3,2,2,8,1,4,0,11,1.0,,,,33.0,,,1,https://www.flashscore.com/match/Q7RXeW6L/#/match-summary/match-statistics/1,65.0,0,2,3,2,16,27.0,0.0,0.70,5,1,58.0,3,9,3,1.11,15,11,10,0,4,7,,,1.0
-197,14.12.2024 20:00,"FOOTBALL
+116,14.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Reims,0,36,4,0,3,1,11,1,0,0,7,1.0,,167.0,115.0,69.0,,,14.12.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Monaco,0,64,7,0,5,2,7,3,2,0,11,2.0,,,,67.0,,,2,https://www.flashscore.com/match/Q7RXeW6L/#/match-summary/match-statistics/2,56.0,1,0,4,0,20,17.0,27.0,0.43,3,0,70.0,8,9,3,0.23,9,13,9,0,4,6,,,2.0
-198,14.12.2024 18:00,"FOOTBALL
+117,14.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Auxerre,1,35,3,2,1,0,7,1,0,1,5,1.0,,172.0,131.0,63.0,,,14.12.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 15",Lens,2,65,7,3,2,2,5,4,2,1,7,0.0,,,,81.0,,,1,https://www.flashscore.com/match/Au34jAUr/#/match-summary/match-statistics/1,60.0,0,3,1,0,13,11.0,11.0,1.01,6,2,78.0,15,10,2,0.09,9,12,6,0,5,12,,,1.0
-199,05.01.2025 19:45,"FOOTBALL
+118,05.01.2025 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Marseille,3,74,8,4,3,1,3,3,0,0,5,1.0,,503.0,471.0,67.0,,,05.01.2025 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Le Havre,0,26,1,0,1,0,5,0,1,1,3,0.0,,,,58.0,,,1,https://www.flashscore.com/match/08npCrcJ/#/match-summary/match-statistics/1,86.0,1,0,3,1,1,,,0.04,5,4,55.0,7,2,0,0.49,4,6,16,0,1,20,1,0,1.0
-200,11.01.2025 20:05,"FOOTBALL
+119,11.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Rennes,1,33,4,3,0,1,8,1,2,1,5,,,169.0,136.0,57.0,,,11.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Marseille,1,67,4,2,1,1,5,2,0,2,8,,,,,46.0,,,1,https://www.flashscore.com/match/UJKMKfec/#/match-summary/match-statistics/1,75.0,1,2,4,3,11,33.0,0.0,0.79,4,0,51.0,10,9,1,1.59,7,9,5,0,3,1,,,1.0
-201,11.01.2025 20:05,"FOOTBALL
+120,11.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Rennes,0,39,1,1,0,0,5,1,4,4,6,2.0,,195.0,165.0,80.0,,,11.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Marseille,1,61,9,5,2,2,6,1,0,1,5,2.0,,,,67.0,,,2,https://www.flashscore.com/match/UJKMKfec/#/match-summary/match-statistics/2,74.0,0,2,1,0,13,14.0,43.0,0.64,6,0,75.0,5,5,2,0.04,15,13,3,0,7,8,0,1,2.0
-202,11.01.2025 18:00,"FOOTBALL
+121,11.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Reims,1,50,6,2,3,1,3,1,0,5,5,1.0,,264.0,224.0,43.0,,,11.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Nice,2,50,10,7,2,1,5,3,1,1,3,1.0,,,,83.0,,,1,https://www.flashscore.com/match/Muxt8HBi/#/match-summary/match-statistics/1,75.0,0,4,2,1,15,0.0,30.0,1.48,6,4,71.0,4,3,1,0.48,8,13,6,0,9,9,0,1,1.0
-203,11.01.2025 18:00,"FOOTBALL
+122,11.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Reims,1,58,6,1,5,0,4,5,0,1,7,3.0,,270.0,240.0,67.0,,,11.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Nice,2,42,5,3,1,1,7,0,2,0,4,1.0,,,,75.0,,,2,https://www.flashscore.com/match/Muxt8HBi/#/match-summary/match-statistics/2,77.0,0,3,3,0,9,27.0,0.0,0.93,8,3,71.0,12,3,0,0.32,9,11,10,0,5,16,,,2.0
-204,11.01.2025 16:00,"FOOTBALL
+123,11.01.2025 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Brest,2,31,5,3,2,0,4,1,0,1,3,,,168.0,128.0,100.0,,,11.01.2025 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Lyon,1,69,5,2,2,1,3,5,1,1,4,,,,,50.0,,,1,https://www.flashscore.com/match/rTo42DuT/#/match-summary/match-statistics/1,63.0,0,2,4,1,15,67.0,27.0,0.78,5,1,68.0,10,12,1,0.40,7,19,7,0,4,5,,,1.0
-205,11.01.2025 16:00,"FOOTBALL
+124,11.01.2025 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Brest,0,35,6,3,1,2,6,3,2,1,7,1.0,,141.0,100.0,50.0,,,11.01.2025 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Lyon,0,65,5,1,2,2,7,2,1,3,6,2.0,,,,20.0,,,2,https://www.flashscore.com/match/rTo42DuT/#/match-summary/match-statistics/2,63.0,1,2,5,1,12,50.0,13.0,0.52,3,1,76.0,5,4,1,0.40,10,8,13,0,4,12,,,2.0
-206,10.01.2025 20:05,"FOOTBALL
+125,10.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Auxerre,0,30,7,1,2,4,6,5,0,1,3,0.0,,134.0,100.0,45.0,,,10.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Lille,0,70,4,1,0,3,3,3,1,1,6,2.0,,,,38.0,,,1,https://www.flashscore.com/match/pE1q8Zeo/#/match-summary/match-statistics/1,57.0,0,0,6,0,11,20.0,43.0,0.22,3,1,73.0,8,8,2,0.33,14,16,13,0,2,15,,,1.0
-207,10.01.2025 20:05,"FOOTBALL
+126,10.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Auxerre,0,28,6,2,3,1,2,1,0,4,4,0.0,1.0,114.0,62.0,67.0,,,10.01.2025 20:05,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Lille,0,72,9,4,1,4,4,7,0,2,2,2.0,0.0,,,60.0,,,2,https://www.flashscore.com/match/pE1q8Zeo/#/match-summary/match-statistics/2,32.0,0,2,3,0,26,20.0,29.0,1.25,1,3,75.0,13,7,3,0.25,13,20,4,0,6,4,,,2.0
-208,10.01.2025 18:00,"FOOTBALL
+127,10.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Nantes,1,31,5,2,1,2,7,2,0,1,8,,,148.0,112.0,100.0,,,10.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Monaco,0,69,3,1,2,0,8,6,0,1,7,,,,,100.0,,,1,https://www.flashscore.com/match/vFZBQsCC/#/match-summary/match-statistics/1,63.0,0,2,4,1,12,50.0,31.0,0.49,7,1,68.0,5,4,1,0.39,16,19,6,0,2,6,,,1.0
-209,10.01.2025 18:00,"FOOTBALL
+128,10.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Nantes,1,31,5,2,2,1,7,1,1,4,9,3.0,,130.0,90.0,56.0,,,10.01.2025 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 17",Monaco,2,69,12,6,3,3,9,5,0,1,7,0.0,,,,83.0,,,2,https://www.flashscore.com/match/vFZBQsCC/#/match-summary/match-statistics/2,54.0,1,4,4,2,19,40.0,25.0,2.91,2,1,78.0,13,3,3,0.38,8,9,14,0,9,9,0,1,2.0
-210,05.01.2025 19:45,"FOOTBALL
+129,05.01.2025 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Marseille,2,66,7,5,2,0,3,1,0,0,7,,,416.0,391.0,50.0,,,05.01.2025 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Le Havre,1,34,3,1,1,1,7,0,2,3,3,,,,,50.0,,,2,https://www.flashscore.com/match/08npCrcJ/#/match-summary/match-statistics/2,85.0,0,2,4,4,7,0.0,75.0,0.42,4,4,57.0,6,5,1,2.77,4,1,11,0,2,10,0,1,2.0
-211,05.01.2025 14:00,"FOOTBALL
+130,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Angers,1,38,4,1,3,0,5,2,1,4,8,2.0,,171.0,130.0,20.0,,,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Brest,0,62,8,4,3,1,8,0,1,0,5,1.0,,,,64.0,,,1,https://www.flashscore.com/match/YeeTFQcf/#/match-summary/match-statistics/1,67.0,0,0,4,2,12,57.0,23.0,0.69,0,0,71.0,9,7,3,0.57,11,12,9,0,5,7,,,1.0
-212,05.01.2025 14:00,"FOOTBALL
+131,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Angers,1,38,3,1,1,1,6,0,0,0,6,,,158.0,123.0,50.0,,,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Brest,0,62,4,0,3,1,6,4,0,0,6,,,,,50.0,,,2,https://www.flashscore.com/match/YeeTFQcf/#/match-summary/match-statistics/2,78.0,0,0,3,1,12,27.0,22.0,0.18,2,0,80.0,11,4,0,0.99,9,17,14,0,4,6,,,2.0
-213,05.01.2025 14:00,"FOOTBALL
+132,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Lens,0,64,9,1,5,3,7,4,0,2,10,2.0,,265.0,226.0,55.0,,,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Toulouse,0,36,5,2,0,3,10,1,0,1,7,1.0,,,,46.0,,,1,https://www.flashscore.com/match/tbGlN85K/#/match-summary/match-statistics/1,78.0,0,1,4,2,12,14.0,33.0,0.72,7,5,59.0,10,3,0,1.21,4,5,17,0,5,26,,,1.0
-214,05.01.2025 14:00,"FOOTBALL
+133,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Lens,0,66,5,0,1,4,5,3,0,1,10,3.0,1.0,247.0,209.0,75.0,,,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Toulouse,1,34,3,2,1,0,10,0,0,0,5,1.0,0.0,,,50.0,,,2,https://www.flashscore.com/match/tbGlN85K/#/match-summary/match-statistics/2,78.0,0,2,3,0,9,12.0,67.0,1.47,2,2,66.0,8,2,0,0.21,7,5,19,1,3,24,,,2.0
-215,05.01.2025 14:00,"FOOTBALL
+134,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Strasbourg,1,68,4,1,2,1,8,2,0,2,3,1.0,,335.0,304.0,60.0,,,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Auxerre,1,32,5,3,2,0,3,1,0,0,8,1.0,,,,63.0,,,1,https://www.flashscore.com/match/SEvWZokQ/#/match-summary/match-statistics/1,77.0,0,1,3,2,4,11.0,0.0,0.50,4,1,50.0,8,5,1,0.90,9,2,12,0,4,15,,,1.0
-216,05.01.2025 14:00,"FOOTBALL
+135,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Strasbourg,2,52,7,3,1,3,5,2,1,4,7,0.0,,208.0,176.0,63.0,,,05.01.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Auxerre,0,48,9,4,4,1,7,2,0,1,5,1.0,,,,64.0,,,2,https://www.flashscore.com/match/SEvWZokQ/#/match-summary/match-statistics/2,61.0,0,2,7,2,12,17.0,19.0,0.82,3,0,75.0,9,1,2,1.41,5,17,12,0,7,9,,,2.0
-217,04.01.2025 20:00,"FOOTBALL
+136,04.01.2025 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Lyon,0,61,5,0,5,0,2,3,0,4,3,,,271.0,238.0,75.0,,,04.01.2025 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 16",Montpellier,0,39,9,4,4,1,3,2,0,0,2,,,,,44.0,,,1,https://www.flashscore.com/match/QkY1a5DD/#/match-summary/match-statistics/1,76.0,0,2,4,0,10,17.0,38.0,0.46,6,1,65.0,8,2,5,0.20,18,11,12,1,4,18,,,1.0
-218,15.09.2024 17:00,"FOOTBALL
+137,15.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 4",Nantes,1,47,7,3,2,2,1,5,1,0,3,1.0,,,,,49.0,29.0,15.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 4",Reims,1,53,3,1,2,0,4,2,0,2,1,0.0,,,,,43.0,25.0,cat69,https://www.flashscore.com/match/M51AY7YG/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-219,15.09.2024 20:45,"FOOTBALL
+138,15.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 4",Lens,0,53,6,3,2,1,6,1,0,1,7,,,492.0,,,79.0,31.0,15.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 4",Lyon,0,47,3,1,2,0,5,5,0,3,4,,,421.0,,,58.0,30.0,cat70,https://www.flashscore.com/match/Qw81zU34/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-220,15.09.2024 20:45,"FOOTBALL
+139,15.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 4",Lens,0,55,6,2,3,1,9,4,4,2,5,,,,,,68.0,41.0,15.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 4",Lyon,0,45,5,2,0,3,4,3,2,2,7,,,,,,66.0,23.0,cat71,https://www.flashscore.com/match/Qw81zU34/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-221,20.09.2024 20:45,"FOOTBALL
+140,20.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Nice,2,56,9,6,3,0,5,2,2,1,6,,,,,,,,20.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",St Etienne,0,44,6,1,3,2,7,1,0,4,5,,,,,,,,cat72,https://www.flashscore.com/match/0K4Ww3Ad/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-222,20.09.2024 20:45,"FOOTBALL
+141,20.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Nice,6,62,9,6,1,2,9,1,1,1,1,0.0,,,,,,,20.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",St Etienne,0,38,2,1,1,0,1,1,0,0,8,1.0,,,,,,,cat73,https://www.flashscore.com/match/0K4Ww3Ad/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-223,21.09.2024 17:00,"FOOTBALL
+142,21.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Lille,1,70,6,1,3,2,5,5,1,5,9,2.0,,,,,,,21.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Strasbourg,1,30,7,6,1,0,11,4,1,0,6,1.0,,,,,,,cat74,https://www.flashscore.com/match/fiy8wfGD/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-224,21.09.2024 17:00,"FOOTBALL
+143,21.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Lille,2,58,9,6,3,0,7,4,3,1,7,0.0,,,,,,,21.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Strasbourg,2,42,5,3,0,2,8,1,1,4,6,1.0,,,,,,,cat75,https://www.flashscore.com/match/fiy8wfGD/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-225,21.09.2024 19:00,"FOOTBALL
+144,21.09.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Rennes,0,34,4,3,0,1,10,1,0,1,8,1.0,,,,,,,21.09.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Lens,1,66,9,2,2,5,8,3,1,3,9,3.0,,,,,,,cat76,https://www.flashscore.com/match/noOg1c8K/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-226,21.09.2024 19:00,"FOOTBALL
+145,21.09.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Rennes,1,46,7,3,3,1,11,3,1,0,8,1.0,,,,,,,21.09.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Lens,0,54,1,0,1,0,9,0,2,2,11,1.0,,,,,,,cat77,https://www.flashscore.com/match/noOg1c8K/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-227,21.09.2024 21:00,"FOOTBALL
+146,21.09.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Reims,0,21,4,0,2,2,3,2,1,1,4,1.0,,,,,,,21.09.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",PSG,1,79,5,2,3,0,4,2,0,0,3,0.0,,,,,,,cat78,https://www.flashscore.com/match/v39B1623/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-228,21.09.2024 21:00,"FOOTBALL
+147,21.09.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Reims,1,23,4,1,1,2,3,1,0,2,7,1.0,,,,,,,21.09.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",PSG,0,77,6,2,1,3,8,3,1,0,3,1.0,,,,,,,cat79,https://www.flashscore.com/match/v39B1623/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-229,22.09.2024 15:00,"FOOTBALL
+148,22.09.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Monaco,2,60,7,3,4,0,12,2,1,1,5,0.0,,,,,,,22.09.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Le Havre,0,40,6,1,5,0,6,3,2,1,10,1.0,,,,,,,cat80,https://www.flashscore.com/match/6V4QeyWs/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-230,22.09.2024 15:00,"FOOTBALL
+149,22.09.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Monaco,1,64,5,1,2,2,7,4,4,0,5,1.0,,,,,,,22.09.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Le Havre,1,36,2,1,0,1,6,1,1,0,7,2.0,,,,,,,cat81,https://www.flashscore.com/match/6V4QeyWs/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-231,22.09.2024 17:00,"FOOTBALL
+150,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Montpellier,3,49,9,4,3,2,9,4,1,2,5,2.0,,,,,,,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Auxerre,1,51,7,3,3,1,6,3,1,1,8,4.0,,,,,,,cat82,https://www.flashscore.com/match/EsTauGo1/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-232,22.09.2024 17:00,"FOOTBALL
+151,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Montpellier,0,59,5,1,3,1,13,7,3,2,8,1.0,,,,,,,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Auxerre,1,41,4,3,0,1,9,2,0,1,12,0.0,,,,,,,cat83,https://www.flashscore.com/match/EsTauGo1/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-233,22.09.2024 17:00,"FOOTBALL
+152,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Brest,1,39,2,2,0,0,13,3,0,0,9,,,,,,,,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Toulouse,0,61,7,0,6,1,11,2,0,1,12,,,,,,,,cat84,https://www.flashscore.com/match/nTCJapXF/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-234,22.09.2024 17:00,"FOOTBALL
+153,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Brest,1,47,6,3,2,1,7,1,0,1,6,1.0,,,,,,,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Toulouse,0,53,4,1,2,1,5,1,0,2,6,1.0,,,,,,,cat85,https://www.flashscore.com/match/nTCJapXF/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-235,22.09.2024 17:00,"FOOTBALL
+154,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Angers,0,56,1,0,0,1,9,2,0,1,4,0.0,,,,,,,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Nantes,0,44,4,1,0,3,5,4,0,0,10,3.0,,,,,,,cat86,https://www.flashscore.com/match/6HPisxHl/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-236,22.09.2024 17:00,"FOOTBALL
+155,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Angers,1,44,3,1,2,0,5,1,0,1,9,1.0,,,,,,,22.09.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Nantes,1,56,5,2,2,1,11,2,0,0,6,1.0,,,,,,,cat87,https://www.flashscore.com/match/6HPisxHl/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-237,22.09.2024 20:45,"FOOTBALL
+156,22.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Lyon,2,63,12,4,7,1,3,6,1,0,12,3.0,,,,,,,22.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Marseille,3,37,7,3,4,0,11,1,1,2,4,1.0,,,,,,,cat88,https://www.flashscore.com/match/S66OuPup/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-238,22.09.2024 20:45,"FOOTBALL
+157,22.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Lyon,0,63,10,5,3,2,4,4,2,2,5,1.0,0.0,,,,,,22.09.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 5",Marseille,0,37,2,2,0,0,9,2,3,5,4,2.0,1.0,,,,,,cat89,https://www.flashscore.com/match/S66OuPup/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-239,23.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Lens,1,45,6,3,2,1,5,2,1,0,12,2.0,,179.0,146.0,40.0,,,23.11.2024 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Marseille,3,55,4,3,0,1,12,0,0,2,5,2.0,,,,40.0,,,2,https://www.flashscore.com/match/SMfm4Zck/#/match-summary/match-statistics/2,66.0,0,2,4,2,18,14.0,0.0,1.02,3,2,61.0,7,10,2,0.97,8,7,6,0,5,11,,,2.0
-240,22.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",PSG,1,76,7,4,2,1,5,2,0,1,7,1.0,,415.0,372.0,89.0,,,22.11.2024 20:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 12",Toulouse,0,24,3,1,1,1,7,1,0,3,5,1.0,,,,57.0,,,1,https://www.flashscore.com/match/Im9H9ezS/#/match-summary/match-statistics/1,75.0,0,1,4,0,4,33.0,0.0,0.15,7,3,47.0,11,5,2,0.60,12,8,13,0,1,15,,,1.0
-241,27.09.2024 19:00,"FOOTBALL
+158,27.09.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 6",Auxerre,1,30,5,1,2,2,9,1,2,3,6,1.0,,,,,,,27.09.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 6",Brest,0,70,6,3,3,0,5,3,1,0,9,0.0,,,,,,,cat90,https://www.flashscore.com/match/MRfkjXaJ/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-242,27.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Auxerre,2,46,10,3,4,3,9,1,0,1,7,1.0,,,,,,,27.09.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Brest,0,54,2,1,1,0,10,0,0,1,7,0.0,,,,,,,cat91,https://www.flashscore.com/match/MRfkjXaJ/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-243,27.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",PSG,2,58,12,6,6,0,11,0,2,3,8,1.0,,,,,,,27.09.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 6",Rennes,1,42,6,4,0,2,5,3,1,4,9,1.0,,,,,,,cat92,https://www.flashscore.com/match/zBdshgV6/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-244,16.08.2024 20:45,"FOOTBALL
+159,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Reims,1,52,6,5,1,0,10,0,0,2,4,1.0,,,,,29.0,10.0,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Rennes,0,48,6,2,2,2,5,1,1,4,8,2.0,,,,,51.0,16.0,cat46,https://www.flashscore.com/match/p6XSLUlB/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+160,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Reims,1,54,5,2,2,1,5,3,0,2,5,1.0,,,,,52.0,25.0,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Rennes,1,46,7,3,2,2,5,4,1,1,5,0.0,,,,,40.0,27.0,cat47,https://www.flashscore.com/match/p6XSLUlB/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+161,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Le Havre,2,50,14,6,5,3,5,0,3,2,4,1.0,,,,,41.0,25.0,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Auxerre,0,50,3,2,1,0,5,1,0,4,5,1.0,,,,,26.0,8.0,cat48,https://www.flashscore.com/match/ChZKNjKb/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+162,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Le Havre,1,48,8,2,5,1,11,2,1,0,6,0.0,0.0,,,,46.0,20.0,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Auxerre,1,52,5,1,0,4,7,1,0,1,10,4.0,1.0,,,,54.0,23.0,cat49,https://www.flashscore.com/match/ChZKNjKb/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+163,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Angers,1,57,12,5,7,0,6,2,0,1,4,2.0,0.0,,,,56.0,44.0,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Nice,2,43,5,3,2,0,5,2,0,4,6,2.0,1.0,,,,20.0,5.0,cat50,https://www.flashscore.com/match/SU02594U/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+164,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Angers,0,51,2,2,0,0,7,2,0,4,10,4.0,,,,,41.0,13.0,01.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Nice,2,49,9,6,2,1,11,5,0,2,7,2.0,,,,,59.0,26.0,cat51,https://www.flashscore.com/match/SU02594U/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+165,01.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Lille,1,44,6,3,1,2,6,2,3,1,7,2.0,,,,,52.0,40.0,01.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",PSG,1,56,5,2,1,2,7,1,0,2,7,1.0,,,,,26.0,16.0,cat52,https://www.flashscore.com/match/6ZfxDZ5t/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+166,01.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Lille,0,40,2,1,1,0,4,1,2,3,2,1.0,,,,,38.0,29.0,01.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",PSG,2,60,6,5,0,1,2,0,2,1,2,1.0,,,,,66.0,18.0,cat53,https://www.flashscore.com/match/6ZfxDZ5t/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+167,13.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",St Etienne,0,28,4,1,3,0,7,0,1,2,6,1.0,,282.0,,,36.0,14.0,13.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Lille,0,72,13,2,10,1,7,4,0,1,6,1.0,,691.0,,,72.0,36.0,cat54,https://www.flashscore.com/match/vsYzkTIc/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+168,13.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",St Etienne,1,30,6,4,2,0,5,2,2,2,6,,,,,,30.0,13.0,13.09.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Lille,0,70,4,2,1,1,6,3,1,3,4,,,,,,86.0,42.0,cat55,https://www.flashscore.com/match/vsYzkTIc/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+169,14.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Marseille,1,49,6,3,2,1,2,0,0,4,9,4.0,1.0,499.0,,,30.0,8.0,14.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Nice,0,51,8,4,3,1,12,1,1,2,2,1.0,0.0,385.0,,,55.0,15.0,cat56,https://www.flashscore.com/match/0dMqm7mA/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+170,14.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Marseille,1,63,4,2,1,1,2,1,1,0,9,1.0,,,,,54.0,11.0,14.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Nice,0,37,4,0,2,2,9,1,4,1,2,1.0,,,,,36.0,28.0,cat57,https://www.flashscore.com/match/0dMqm7mA/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+171,14.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Auxerre,0,44,6,2,2,2,7,1,0,5,5,,,404.0,,,40.0,26.0,14.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Monaco,1,56,11,6,1,4,6,4,2,2,7,,,587.0,,,50.0,19.0,cat58,https://www.flashscore.com/match/CGH7Enso/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+172,14.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Auxerre,0,38,7,1,3,3,8,0,1,1,8,3.0,,,,,63.0,44.0,14.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Monaco,2,62,8,3,3,2,6,2,1,1,9,0.0,,,,,54.0,25.0,cat59,https://www.flashscore.com/match/CGH7Enso/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+173,14.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",PSG,2,71,8,3,2,3,11,4,1,1,4,0.0,,679.0,,,70.0,33.0,14.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Brest,0,29,2,1,0,1,4,1,1,1,9,2.0,,333.0,,,24.0,6.0,cat60,https://www.flashscore.com/match/8MPiooIM/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+174,14.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",PSG,1,63,14,6,5,3,5,5,2,1,3,2.0,,,,,63.0,41.0,14.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Brest,1,37,3,2,0,1,2,0,0,5,4,1.0,,,,,56.0,16.0,cat61,https://www.flashscore.com/match/8MPiooIM/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+175,15.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Rennes,1,47,5,4,1,0,4,0,1,3,7,0.0,,452.0,,,45.0,31.0,15.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Montpellier,0,53,8,3,5,0,5,2,2,3,4,2.0,,444.0,,,44.0,19.0,cat62,https://www.flashscore.com/match/hCffxjZi/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+176,15.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Rennes,2,55,6,2,3,1,3,3,0,1,3,1.0,,,,,54.0,28.0,15.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Montpellier,0,45,4,1,1,2,6,2,1,0,3,1.0,,,,,66.0,19.0,cat63,https://www.flashscore.com/match/hCffxjZi/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+177,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Toulouse,2,54,8,4,2,2,6,2,0,2,8,1.0,,520.0,,,39.0,23.0,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Le Havre,0,46,2,2,0,0,7,0,0,2,8,1.0,,438.0,,,40.0,12.0,cat64,https://www.flashscore.com/match/fJaIWo3T/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+178,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Toulouse,0,54,7,3,2,2,5,4,0,1,2,,,,,,81.0,19.0,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Le Havre,0,46,3,1,2,0,4,5,0,3,3,,,,,,37.0,21.0,cat65,https://www.flashscore.com/match/fJaIWo3T/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+179,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Strasbourg,0,48,6,2,3,1,8,3,0,1,8,2.0,,469.0,,,44.0,14.0,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Angers,1,52,10,2,5,3,9,7,1,2,10,1.0,,432.0,,,40.0,32.0,cat66,https://www.flashscore.com/match/E3tkRPQj/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+180,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Strasbourg,1,54,4,3,1,0,7,3,0,0,3,2.0,,,,,49.0,16.0,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Angers,0,46,2,0,0,2,4,2,0,2,4,0.0,,,,,42.0,20.0,cat67,https://www.flashscore.com/match/E3tkRPQj/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+181,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Nantes,0,43,11,3,3,5,4,1,1,2,11,2.0,,456.0,,,33.0,21.0,15.09.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 4",Reims,1,57,8,3,3,2,12,1,2,3,4,1.0,,582.0,,,52.0,26.0,cat68,https://www.flashscore.com/match/M51AY7YG/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+182,16.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Le Havre,1,21,2,1,1,0,5,0,0,3,4,1.0,,119.0,80.0,8.0,34.0,6.0,16.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",PSG,3,79,9,6,2,1,5,6,0,0,4,0.0,,440.0,374.0,1.0,82.0,36.0,cat0,https://www.flashscore.com/match/SOLVXEbk/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-245,16.08.2024 20:45,"FOOTBALL
+183,16.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Le Havre,0,30,3,1,0,2,4,2,1,2,5,2.0,,162.0,132.0,1.0,40.0,15.0,16.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",PSG,1,70,5,3,1,1,4,2,1,1,5,0.0,,447.0,425.0,3.0,75.0,23.0,cat1,https://www.flashscore.com/match/SOLVXEbk/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-246,17.08.2024 17:00,"FOOTBALL
+184,17.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Brest,0,48,2,1,1,0,7,4,1,0,6,1.0,,253.0,233.0,4.0,92.0,16.0,17.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Marseille,2,52,4,2,1,1,8,0,0,1,7,0.0,,292.0,281.0,4.0,24.0,3.0,cat2,https://www.flashscore.com/match/0js8u60b/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-247,17.08.2024 17:00,"FOOTBALL
+185,17.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Brest,1,54,5,4,0,1,0,1,1,0,4,3.0,,270.0,230.0,5.0,85.0,38.0,17.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Marseille,3,46,3,3,0,0,4,0,0,3,1,1.0,,261.0,207.0,8.0,32.0,11.0,cat3,https://www.flashscore.com/match/0js8u60b/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-248,17.08.2024 19:00,"FOOTBALL
+186,17.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Reims,0,28,1,0,0,1,8,0,0,1,4,2.0,,121.0,92.0,7.0,41.0,9.0,17.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Lille,1,72,10,2,4,4,4,4,2,0,7,2.0,,317.0,324.0,2.0,69.0,64.0,cat4,https://www.flashscore.com/match/jqSiuc6F/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-249,17.08.2024 19:00,"FOOTBALL
+187,17.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Reims,0,30,1,0,1,0,6,0,0,3,2,,1.0,176.0,133.0,4.0,44.0,16.0,17.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Lille,1,70,11,4,3,4,2,4,0,0,6,,0.0,336.0,297.0,5.0,60.0,36.0,cat5,https://www.flashscore.com/match/jqSiuc6F/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-250,17.08.2024 21:00,"FOOTBALL
+188,17.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Monaco,0,62,7,3,1,3,5,2,0,2,6,1.0,,267.0,223.0,1.0,66.0,41.0,17.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",St Etienne,0,38,2,2,0,0,7,0,1,3,8,1.0,,157.0,114.0,11.0,25.0,4.0,cat6,https://www.flashscore.com/match/fHYrsJy3/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-251,17.08.2024 21:00,"FOOTBALL
+189,17.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Monaco,1,60,6,3,2,1,9,3,2,2,7,,,261.0,216.0,5.0,69.0,21.0,17.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",St Etienne,0,40,5,2,2,1,10,4,2,2,6,,,159.0,108.0,7.0,56.0,10.0,cat7,https://www.flashscore.com/match/fHYrsJy3/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-252,18.08.2024 15:00,"FOOTBALL
+190,18.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Auxerre,1,44,6,2,4,0,12,0,1,1,6,,,182.0,154.0,2.0,42.0,18.0,18.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Nice,0,56,5,1,3,1,7,4,2,1,10,,,245.0,210.0,5.0,49.0,24.0,cat8,https://www.flashscore.com/match/ripawyyS/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-253,18.08.2024 15:00,"FOOTBALL
+191,18.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Auxerre,1,48,10,5,4,1,7,3,1,0,5,,,261.0,223.0,5.0,49.0,28.0,18.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Nice,1,52,4,1,1,2,5,1,1,4,7,,,291.0,261.0,2.0,70.0,25.0,cat9,https://www.flashscore.com/match/ripawyyS/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-254,18.08.2024 17:00,"FOOTBALL
+192,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Toulouse,0,55,5,2,3,0,5,5,0,2,3,0.0,,233.0,191.0,5.0,49.0,27.0,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Nantes,0,45,2,2,0,0,7,4,0,2,3,2.0,,206.0,158.0,0.0,54.0,37.0,cat10,https://www.flashscore.com/match/6ehlLyFq/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-255,18.08.2024 17:00,"FOOTBALL
+193,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Toulouse,0,51,2,1,0,1,8,5,0,0,7,1.0,,284.0,238.0,1.0,63.0,32.0,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Nantes,0,49,4,0,2,2,9,1,0,1,5,1.0,,245.0,206.0,3.0,57.0,27.0,cat11,https://www.flashscore.com/match/6ehlLyFq/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-256,18.08.2024 17:00,"FOOTBALL
+194,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Montpellier,1,38,2,2,0,0,8,1,0,2,14,3.0,,139.0,113.0,1.0,37.0,26.0,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Strasbourg,1,62,6,3,2,1,15,2,0,1,9,2.0,,260.0,216.0,4.0,61.0,16.0,cat12,https://www.flashscore.com/match/M5VGwpVA/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-257,18.08.2024 17:00,"FOOTBALL
+195,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Montpellier,0,48,5,3,1,1,10,5,0,1,6,1.0,,197.0,155.0,2.0,47.0,28.0,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Strasbourg,0,52,5,1,4,0,7,2,0,3,9,1.0,,220.0,184.0,4.0,42.0,9.0,cat13,https://www.flashscore.com/match/M5VGwpVA/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-258,18.08.2024 17:00,"FOOTBALL
+196,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Angers,0,41,3,2,0,1,9,2,3,1,9,1.0,,185.0,142.0,5.0,71.0,25.0,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Lens,0,59,4,1,3,0,4,3,0,2,8,0.0,,251.0,223.0,5.0,41.0,16.0,cat14,https://www.flashscore.com/match/2NocJFqd/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-259,18.08.2024 17:00,"FOOTBALL
+197,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Angers,0,47,1,1,0,0,7,5,1,3,3,,,182.0,122.0,5.0,58.0,38.0,18.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Lens,1,53,6,4,2,0,8,0,3,1,6,,,288.0,226.0,6.0,66.0,23.0,cat15,https://www.flashscore.com/match/2NocJFqd/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-260,18.08.2024 20:45,"FOOTBALL
+198,18.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Rennes,1,48,14,5,7,2,7,6,1,2,12,1.0,,221.0,201.0,4.0,53.0,30.0,18.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Lyon,0,52,12,2,6,4,7,6,0,4,11,0.0,,195.0,180.0,5.0,38.0,27.0,cat16,https://www.flashscore.com/match/zkPwWhT1/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-261,18.08.2024 20:45,"FOOTBALL
+199,18.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Rennes,2,48,8,3,3,2,5,1,0,0,1,1.0,,236.0,187.0,6.0,55.0,32.0,18.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 1",Lyon,0,52,4,0,2,2,8,1,2,1,1,1.0,,281.0,225.0,6.0,76.0,39.0,cat17,https://www.flashscore.com/match/zkPwWhT1/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-262,23.08.2024 20:45,"FOOTBALL
+200,23.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",PSG,4,74,15,8,5,2,7,5,0,2,7,1.0,,,,,82.0,44.0,23.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Montpellier,0,26,4,2,1,1,10,1,2,4,6,2.0,,,,,31.0,11.0,cat18,https://www.flashscore.com/match/ppvl45N8/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-263,23.08.2024 20:45,"FOOTBALL
+201,23.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",PSG,2,68,6,2,3,1,12,5,0,1,2,0.0,,,,,89.0,30.0,23.08.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Montpellier,0,32,2,1,1,0,2,1,0,0,10,2.0,,,,,28.0,9.0,cat19,https://www.flashscore.com/match/ppvl45N8/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-264,24.08.2024 17:00,"FOOTBALL
+202,24.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Lyon,0,26,0,0,0,0,4,0,3,0,3,2.0,0.0,,,,42.0,14.0,24.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Monaco,2,74,7,2,4,1,10,3,1,0,3,2.0,1.0,,,,44.0,31.0,cat20,https://www.flashscore.com/match/pSpI7vU0/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-265,24.08.2024 17:00,"FOOTBALL
+203,24.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Lyon,0,38,2,1,0,1,6,0,1,2,7,0.0,,,,,39.0,25.0,24.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Monaco,0,62,8,2,4,2,10,3,0,1,4,1.0,,,,,79.0,28.0,cat21,https://www.flashscore.com/match/pSpI7vU0/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-266,24.08.2024 19:00,"FOOTBALL
+204,24.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Lille,1,60,4,2,2,0,13,2,0,2,3,0.0,,,,,58.0,33.0,24.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Angers,0,40,5,2,3,0,4,2,3,1,9,1.0,,,,,40.0,9.0,cat22,https://www.flashscore.com/match/CKcVGr7E/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-267,26.10.2024 15:00,"FOOTBALL
+205,26.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 9",Angers,2,42,4,2,2,0,7,2,0,3,4,0.0,,194.0,162.0,,,,26.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 9",St Etienne,1,58,6,4,1,1,4,1,0,0,7,1.0,,,,,,,2,https://www.flashscore.com/match/p0vxl2jf/#/match-summary/match-statistics/2,,,,,,,,,0.23,5,,,5,2,,1.20,9,,,,,,,,2.0
-268,25.10.2024 18:45,"FOOTBALL
+206,25.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 9",Rennes,0,70,12,2,4,6,3,10,0,0,6,1.0,,299.0,267.0,,,,25.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 9",Le Havre,0,30,1,0,1,0,6,0,0,2,3,1.0,,,,,,,1,https://www.flashscore.com/match/lYpTkOLs/#/match-summary/match-statistics/1,,,,,,,,,0.09,7,,,17,7,,0.83,5,,,,,,,,1.0
-269,25.10.2024 18:45,"FOOTBALL
+207,25.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 9",Rennes,1,52,8,2,4,2,4,4,0,1,4,1.0,0.0,239.0,198.0,,,,25.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 9",Le Havre,0,48,4,1,1,2,4,0,2,1,4,3.0,1.0,,,,,,2,https://www.flashscore.com/match/lYpTkOLs/#/match-summary/match-statistics/2,,,,,,,,,0.34,6,,,11,5,,1.04,16,,,,,,,,2.0
-270,20.10.2024 18:45,"FOOTBALL
+208,20.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Montpellier,0,35,4,1,3,0,9,2,4,3,8,1.0,,132.0,107.0,,,,20.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Marseille,3,65,13,6,6,1,8,1,1,1,9,1.0,,,,,,,1,https://www.flashscore.com/match/nVutWTU8/#/match-summary/match-statistics/1,,,,,,,,,2.39,2,,,6,5,,0.84,11,,,,,,,,1.0
-271,20.10.2024 18:45,"FOOTBALL
+209,20.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Montpellier,0,35,9,4,0,5,8,1,2,2,3,0.0,1.0,161.0,131.0,,,,20.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Marseille,2,65,8,4,3,1,3,1,1,4,9,2.0,0.0,,,,,,2,https://www.flashscore.com/match/nVutWTU8/#/match-summary/match-statistics/2,,,,,,,,,0.97,7,,,6,2,,0.35,6,,,,,,,,2.0
-272,20.10.2024 15:00,"FOOTBALL
+210,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Auxerre,1,35,6,5,1,0,6,3,0,2,2,1.0,,129.0,99.0,,,,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Reims,0,65,6,2,2,2,2,5,1,4,6,1.0,,,,,,,1,https://www.flashscore.com/match/h8K6HUFF/#/match-summary/match-statistics/1,,,,,,,,,0.30,1,,,5,5,,1.98,13,,,,,,,,1.0
-273,20.10.2024 15:00,"FOOTBALL
+211,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Auxerre,1,37,4,3,1,0,4,2,2,0,4,1.0,,135.0,98.0,,,,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Reims,1,63,9,1,2,6,4,4,1,2,4,2.0,,,,,,,2,https://www.flashscore.com/match/h8K6HUFF/#/match-summary/match-statistics/2,,,,,,,,,0.78,5,,,6,4,,0.93,20,,,,,,,,2.0
-274,20.10.2024 15:00,"FOOTBALL
+212,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Nantes,0,38,2,1,0,1,5,2,0,4,5,2.0,,182.0,144.0,,,,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Nice,0,62,6,4,1,1,5,6,2,1,5,0.0,,,,,,,1,https://www.flashscore.com/match/WMcg8Qx2/#/match-summary/match-statistics/1,,,,,,,,,0.37,3,,,11,6,,0.08,11,,,,,,,,1.0
-275,20.10.2024 15:00,"FOOTBALL
+213,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Nantes,1,46,9,6,3,0,5,2,0,2,5,0.0,,208.0,176.0,,,,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Nice,1,54,7,3,4,0,3,2,0,5,6,1.0,,,,,,,2,https://www.flashscore.com/match/WMcg8Qx2/#/match-summary/match-statistics/2,,,,,,,,,0.48,7,,,12,7,,0.41,10,,,,,,,,2.0
-276,20.10.2024 15:00,"FOOTBALL
+214,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Toulouse,0,65,7,4,2,1,5,1,0,1,7,1.0,,288.0,254.0,,,,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Angers,1,35,5,2,1,2,7,2,1,4,5,2.0,,,,,,,1,https://www.flashscore.com/match/vPIEF8pS/#/match-summary/match-statistics/1,,,,,,,,,0.56,5,,,12,2,,0.98,8,,,,,,,,1.0
-277,20.10.2024 15:00,"FOOTBALL
+215,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Toulouse,1,67,11,2,5,4,4,7,0,2,4,1.0,,247.0,197.0,,,,20.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Angers,0,33,3,2,1,0,4,0,0,1,4,2.0,,,,,,,2,https://www.flashscore.com/match/vPIEF8pS/#/match-summary/match-statistics/2,,,,,,,,,0.82,6,,,11,1,,0.99,10,,,,,,,,2.0
-278,20.10.2024 13:00,"FOOTBALL
+216,20.10.2024 13:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Le Havre,0,24,1,0,0,1,7,0,1,2,11,3.0,,94.0,64.0,,,,20.10.2024 13:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Lyon,1,76,9,3,2,4,11,6,1,0,7,2.0,,,,,,,1,https://www.flashscore.com/match/b9aoAn8k/#/match-summary/match-statistics/1,,,,,,,,,0.52,1,,,5,3,,0.08,9,,,,,,,,1.0
-279,20.10.2024 13:00,"FOOTBALL
+217,20.10.2024 13:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Le Havre,0,52,6,1,3,2,4,4,2,2,6,0.0,,209.0,177.0,,,,20.10.2024 13:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Lyon,3,48,7,5,2,0,6,0,0,1,4,2.0,,,,,,,2,https://www.flashscore.com/match/b9aoAn8k/#/match-summary/match-statistics/2,,,,,,,,,2.20,7,,,10,4,,0.41,10,,,,,,,,2.0
-280,19.10.2024 19:00,"FOOTBALL
+218,19.10.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",PSG,1,60,9,4,3,2,4,3,0,3,6,0.0,,331.0,306.0,,,,19.10.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Strasbourg,0,40,5,3,0,2,6,2,1,3,4,1.0,,,,,,,1,https://www.flashscore.com/match/S2WzL3M7/#/match-summary/match-statistics/1,,,,,,,,,0.24,3,,,6,5,,1.17,11,,,,,,,,1.0
-281,19.10.2024 19:00,"FOOTBALL
+219,19.10.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",PSG,3,52,9,6,2,1,8,2,2,3,4,2.0,,229.0,186.0,,,,19.10.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Strasbourg,2,48,11,5,1,5,4,3,0,3,8,1.0,,,,,,,2,https://www.flashscore.com/match/S2WzL3M7/#/match-summary/match-statistics/2,,,,,,,,,1.72,4,,,4,3,,2.32,9,,,,,,,,2.0
-282,19.10.2024 17:00,"FOOTBALL
+220,19.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",St Etienne,0,30,4,0,3,1,7,1,0,3,6,0.0,,137.0,92.0,,,,19.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Lens,1,70,12,4,7,1,6,4,2,0,7,1.0,,,,,,,1,https://www.flashscore.com/match/OAZJOoNr/#/match-summary/match-statistics/1,,,,,,,,,0.60,3,,,5,8,,0.31,14,,,,,,,,1.0
-283,19.10.2024 17:00,"FOOTBALL
+221,19.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",St Etienne,0,44,11,1,4,6,9,1,1,0,6,2.0,,198.0,156.0,,,,19.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Lens,1,56,1,1,0,0,6,3,1,1,9,1.0,,,,,,,2,https://www.flashscore.com/match/OAZJOoNr/#/match-summary/match-statistics/2,,,,,,,,,0.62,0,,,13,4,,0.47,14,,,,,,,,2.0
-284,19.10.2024 15:00,"FOOTBALL
+222,19.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Brest,0,65,6,1,4,1,7,0,0,2,11,0.0,,273.0,213.0,,,,19.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Rennes,0,35,2,2,0,0,11,3,1,1,7,1.0,,,,,,,1,https://www.flashscore.com/match/WzwSMPie/#/match-summary/match-statistics/1,,,,,,,,,0.05,6,,,11,6,,0.41,8,,,,,,,,1.0
-285,19.10.2024 15:00,"FOOTBALL
+223,19.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Brest,1,47,6,1,3,2,5,2,2,1,7,2.0,,188.0,140.0,,,,19.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Rennes,1,53,4,2,2,0,5,1,1,0,8,1.0,,,,,,,2,https://www.flashscore.com/match/WzwSMPie/#/match-summary/match-statistics/2,,,,,,,,,1.11,7,,,12,1,,1.06,9,,,,,,,,2.0
-286,18.10.2024 18:45,"FOOTBALL
+224,18.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Monaco,0,60,7,3,4,0,6,3,1,1,5,1.0,,268.0,227.0,,,,18.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Lille,0,40,1,1,0,0,5,0,1,3,6,3.0,,,,,,,1,https://www.flashscore.com/match/vwbmU7aL/#/match-summary/match-statistics/1,,,,,,,,,0.17,12,,,13,4,,0.55,8,,,,,,,,1.0
-287,18.10.2024 18:45,"FOOTBALL
+225,18.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Monaco,0,42,7,1,3,3,8,3,1,0,8,0.0,1.0,190.0,158.0,,,,18.10.2024 18:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 8",Lille,0,58,2,0,2,0,8,1,0,1,8,2.0,0.0,,,,,,2,https://www.flashscore.com/match/vwbmU7aL/#/match-summary/match-statistics/2,,,,,,,,,0.08,5,,,9,4,,0.68,9,,,,,,,,2.0
-288,02.02.2025 16:15,"FOOTBALL
+226,02.02.2025 16:15,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Reims,0,58,4,0,2,2,5,2,2,3,10,,,234.0,198.0,100.0,,,02.02.2025 16:15,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Nantes,1,42,7,4,1,2,10,2,0,0,5,,,,,70.0,,,2,https://www.flashscore.com/match/tpHhmyyI/#/match-summary/match-statistics/2,75.0,0,3,4,0,9,14.0,43.0,1.26,4,1,55.0,16,1,1,0.24,7,5,16,0,6,26,,,2.0
-289,02.02.2025 16:15,"FOOTBALL
+227,02.02.2025 16:15,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Rennes,0,51,6,2,4,0,6,5,1,1,5,1.0,,243.0,199.0,55.0,,,02.02.2025 16:15,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Strasbourg,0,49,3,1,2,0,5,0,0,2,6,0.0,,,,75.0,,,1,https://www.flashscore.com/match/pW2I3dLb/#/match-summary/match-statistics/1,77.0,0,1,4,0,6,29.0,50.0,0.89,6,2,64.0,9,8,0,0.45,10,8,15,0,3,18,,,1.0
-290,02.02.2025 16:15,"FOOTBALL
+228,02.02.2025 16:15,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Rennes,1,39,7,1,3,3,4,1,2,2,9,2.0,,178.0,135.0,100.0,,,02.02.2025 16:15,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Strasbourg,0,61,4,2,1,1,9,2,0,0,4,3.0,,,,75.0,,,2,https://www.flashscore.com/match/pW2I3dLb/#/match-summary/match-statistics/2,77.0,0,1,4,0,9,17.0,22.0,0.30,3,3,65.0,15,11,1,0.48,8,9,9,0,3,10,,,2.0
-291,02.02.2025 14:00,"FOOTBALL
+229,02.02.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Toulouse,0,57,11,3,4,4,10,4,0,1,9,,,274.0,239.0,75.0,,,02.02.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Nice,1,43,4,2,1,1,9,0,0,3,10,,,,,69.0,,,1,https://www.flashscore.com/match/x6aA5Ijn/#/match-summary/match-statistics/1,70.0,0,1,10,0,7,38.0,60.0,1.10,6,1,63.0,10,3,1,0.74,7,6,17,0,3,13,,,1.0
-292,02.02.2025 14:00,"FOOTBALL
+230,02.02.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Toulouse,1,49,4,1,3,0,10,3,0,1,11,,,216.0,172.0,50.0,,,02.02.2025 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 20",Nice,0,51,9,1,5,3,11,2,0,0,10,,,,,42.0,,,2,https://www.flashscore.com/match/x6aA5Ijn/#/match-summary/match-statistics/2,58.0,0,0,4,0,14,9.0,17.0,0.57,3,0,60.0,11,3,3,0.65,7,13,11,0,6,23,,,2.0
-293,24.08.2024 19:00,"FOOTBALL
+231,24.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Lille,1,74,7,4,1,2,8,1,1,0,6,1.0,,,,,108.0,38.0,24.08.2024 19:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Angers,0,26,0,0,0,0,6,0,1,3,8,1.0,,,,,24.0,5.0,cat23,https://www.flashscore.com/match/CKcVGr7E/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-294,24.08.2024 21:00,"FOOTBALL
+232,24.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",St Etienne,0,64,15,4,6,5,4,2,1,2,4,1.0,,,,,67.0,29.0,24.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Le Havre,2,36,7,4,3,0,4,2,2,4,2,1.0,,,,,45.0,23.0,cat24,https://www.flashscore.com/match/KQAqguF7/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-295,24.08.2024 21:00,"FOOTBALL
+233,24.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",St Etienne,0,53,3,1,2,0,8,0,1,1,7,2.0,,,,,38.0,13.0,24.08.2024 21:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Le Havre,0,47,7,1,4,2,8,2,1,1,7,2.0,,,,,51.0,32.0,cat25,https://www.flashscore.com/match/KQAqguF7/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-296,25.08.2024 15:00,"FOOTBALL
+234,25.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Lens,0,47,12,6,2,4,4,4,4,2,4,1.0,1.0,,,,48.0,26.0,25.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Brest,0,53,5,2,3,0,7,2,0,6,2,2.0,0.0,,,,78.0,27.0,cat26,https://www.flashscore.com/match/OCd990al/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-297,25.08.2024 15:00,"FOOTBALL
+235,25.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Lens,2,55,10,5,4,1,3,1,2,0,4,1.0,,,,,88.0,30.0,25.08.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Brest,0,45,5,0,3,2,3,0,1,3,4,1.0,,,,,48.0,10.0,cat27,https://www.flashscore.com/match/OCd990al/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-298,25.08.2024 17:00,"FOOTBALL
+236,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Strasbourg,2,67,5,3,2,0,8,1,1,3,4,2.0,,,,,33.0,10.0,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Rennes,1,33,9,4,3,2,4,2,1,1,8,2.0,,,,,77.0,20.0,cat28,https://www.flashscore.com/match/xrJSdNFr/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-299,25.08.2024 17:00,"FOOTBALL
+237,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Strasbourg,1,51,4,2,0,2,14,1,2,1,3,0.0,,,,,38.0,8.0,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Rennes,0,49,4,1,3,0,4,3,0,1,11,2.0,,,,,61.0,25.0,cat29,https://www.flashscore.com/match/xrJSdNFr/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-300,25.08.2024 17:00,"FOOTBALL
+238,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Nice,1,47,5,2,2,1,11,1,1,1,7,3.0,,,,,61.0,26.0,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Toulouse,1,53,12,2,5,5,9,3,0,1,10,2.0,,,,,68.0,25.0,cat30,https://www.flashscore.com/match/8nivFMyR/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-301,25.08.2024 17:00,"FOOTBALL
+239,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Nice,0,65,5,2,2,1,13,3,0,1,4,1.0,,,,,51.0,23.0,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Toulouse,0,35,3,1,1,1,5,1,1,2,11,0.0,,,,,48.0,5.0,cat31,https://www.flashscore.com/match/8nivFMyR/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-302,25.08.2024 17:00,"FOOTBALL
+240,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Nantes,1,44,5,5,0,0,3,2,2,2,5,2.0,0.0,,,,44.0,36.0,25.08.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 2",Auxerre,0,56,5,2,2,1,5,6,0,4,3,0.0,1.0,,,,82.0,33.0,cat32,https://www.flashscore.com/match/ObHze1pe/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-303,25.08.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 2",Nantes,1,32,3,1,1,1,2,1,0,1,4,0.0,,,,,42.0,29.0,25.08.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 2",Auxerre,0,68,5,1,1,3,4,6,1,0,3,1.0,,,,,76.0,26.0,cat33,https://www.flashscore.com/match/ObHze1pe/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-304,25.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 2",Marseille,1,66,8,5,2,1,8,1,0,1,8,1.0,,,,,52.0,26.0,25.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 2",Reims,2,34,6,3,3,0,8,1,1,4,9,1.0,,,,,48.0,25.0,cat34,https://www.flashscore.com/match/hhlQ5IbD/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-305,25.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 2",Marseille,1,66,8,5,2,1,7,1,3,0,2,,,,,,65.0,21.0,25.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 2",Reims,0,34,6,0,4,2,3,3,0,4,4,,,,,,43.0,16.0,cat35,https://www.flashscore.com/match/hhlQ5IbD/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-306,30.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Lyon,3,45,3,3,0,0,4,3,2,4,8,2.0,,,,,43.0,23.0,30.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Strasbourg,2,55,10,6,1,3,11,2,1,0,3,1.0,,,,,44.0,22.0,cat36,https://www.flashscore.com/match/vmgpBDzg/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-307,30.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Lyon,1,51,17,9,2,6,3,6,2,1,3,1.0,,,,,69.0,40.0,30.08.2024 20:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Strasbourg,1,49,5,2,1,2,3,0,1,8,3,1.0,,,,,42.0,8.0,cat37,https://www.flashscore.com/match/vmgpBDzg/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-308,31.08.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Brest,2,33,12,4,6,2,16,2,0,0,8,0.0,,,,,29.0,21.0,31.08.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",St Etienne,0,67,5,0,4,1,6,1,1,2,25,4.0,,,,,42.0,21.0,cat38,https://www.flashscore.com/match/bk9o9i55/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-309,31.08.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Brest,2,61,10,5,3,2,12,5,2,0,4,0.0,,,,,60.0,24.0,31.08.2024 17:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",St Etienne,0,39,1,0,1,0,8,1,3,3,3,1.0,,,,,51.0,15.0,cat39,https://www.flashscore.com/match/bk9o9i55/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-310,31.08.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Montpellier,0,76,4,1,2,1,13,3,0,0,8,2.0,,,,,68.0,28.0,31.08.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Nantes,1,24,1,0,1,0,7,1,0,1,11,2.0,,,,,17.0,14.0,cat40,https://www.flashscore.com/match/6FCg7VZH/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-311,31.08.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Montpellier,1,62,6,3,3,0,3,5,0,2,3,,,,,,74.0,45.0,31.08.2024 19:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Nantes,2,38,8,4,3,1,4,2,1,2,3,,,,,,31.0,23.0,cat41,https://www.flashscore.com/match/6FCg7VZH/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-312,31.08.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Toulouse,1,23,1,0,1,0,6,1,0,0,4,3.0,,,,,25.0,13.0,31.08.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Marseille,1,77,6,1,5,0,4,2,0,0,6,1.0,,,,,61.0,23.0,cat42,https://www.flashscore.com/match/tYQyK8JN/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-313,31.08.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Toulouse,0,25,2,1,1,0,10,1,0,1,6,1.0,1.0,,,,36.0,10.0,31.08.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Marseille,2,75,6,3,0,3,6,1,0,1,9,1.0,0.0,,,,76.0,33.0,cat43,https://www.flashscore.com/match/tYQyK8JN/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-314,01.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Monaco,1,60,6,2,1,3,10,5,0,2,7,1.0,,,,,42.0,21.0,01.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Lens,1,40,8,3,3,2,5,3,1,1,10,1.0,,,,,25.0,23.0,cat44,https://www.flashscore.com/match/IgtCPCkn/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-315,01.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Monaco,0,62,8,1,5,2,12,2,2,1,4,0.0,,,,,63.0,20.0,01.09.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 3",Lens,0,38,4,1,3,0,6,4,0,1,11,3.0,,,,,40.0,18.0,cat45,https://www.flashscore.com/match/IgtCPCkn/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-316,06.10.2024 15:00,"FOOTBALL
+241,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Nice,1,31,4,3,1,0,7,0,0,1,5,1.0,0.0,125.0,91.0,,,,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Monaco,1,69,3,2,0,1,5,5,1,2,7,4.0,1.0,,,,,,1,https://www.flashscore.com/match/KdJMr7EE/#/match-summary/match-statistics/1,,,,,,,,,0.21,3,,,9,8,,0.47,9,,,,,,,,1.0
+242,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Nice,1,49,13,6,5,2,4,6,2,3,11,1.0,,188.0,155.0,,,,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Monaco,0,51,8,3,1,4,11,1,0,5,4,1.0,,,,,,,2,https://www.flashscore.com/match/KdJMr7EE/#/match-summary/match-statistics/2,,,,,,,,,0.19,4,,,7,10,,1.25,6,,,,,,,,2.0
+243,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Strasbourg,1,56,5,3,0,2,7,3,0,1,9,1.0,,233.0,198.0,,,,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Nantes,0,44,2,1,0,1,9,2,1,2,7,0.0,,,,,,,1,https://www.flashscore.com/match/h2acepbK/#/match-summary/match-statistics/1,,,,,,,,,0.07,2,,,16,3,,0.53,9,,,,,,,,1.0
+244,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Strasbourg,2,44,4,2,1,1,10,2,0,4,6,1.0,,254.0,214.0,,,,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Nantes,1,56,6,5,1,0,6,2,1,0,10,3.0,,,,,,,2,https://www.flashscore.com/match/h2acepbK/#/match-summary/match-statistics/2,,,,,,,,,0.67,4,,,6,1,,1.34,13,,,,,,,,2.0
+245,27.10.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Lyon,1,64,6,3,2,1,7,3,1,0,6,0.0,,269.0,234.0,,,,27.10.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Auxerre,0,36,3,0,2,1,6,0,2,2,7,2.0,,,,,,,1,https://www.flashscore.com/match/WdE2Z2y1/#/match-summary/match-statistics/1,,,,,,,,,0.11,4,,,13,2,,1.31,11,,,,,,,,1.0
+246,27.10.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Lyon,1,62,6,5,0,1,7,2,1,2,1,0.0,,250.0,208.0,,,,27.10.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Auxerre,2,38,14,4,5,5,1,4,2,4,7,2.0,,,,,,,2,https://www.flashscore.com/match/WdE2Z2y1/#/match-summary/match-statistics/2,,,,,,,,,1.19,8,,,8,5,,0.56,10,,,,,,,,2.0
+247,26.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Lens,0,63,7,3,1,3,8,4,3,1,8,1.0,,217.0,168.0,,,,26.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Lille,0,37,2,1,1,0,8,0,0,3,8,1.0,,,,,,,1,https://www.flashscore.com/match/vaZNtoqR/#/match-summary/match-statistics/1,,,,,,,,,0.26,4,,,12,5,,0.89,12,,,,,,,,1.0
+248,26.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Lens,0,53,4,1,1,2,6,4,1,0,8,3.0,,212.0,158.0,,,,26.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Lille,2,47,9,2,0,7,8,2,1,1,6,3.0,,,,,,,2,https://www.flashscore.com/match/vaZNtoqR/#/match-summary/match-statistics/2,,,,,,,,,1.53,5,,,10,6,,0.16,13,,,,,,,,2.0
+249,26.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Reims,1,60,6,3,3,0,6,3,1,1,5,0.0,,221.0,186.0,,,,26.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Brest,2,40,6,3,0,3,5,2,0,2,6,1.0,,,,,,,1,https://www.flashscore.com/match/hQspntL6/#/match-summary/match-statistics/1,,,,,,,,,1.21,6,,,12,7,,0.39,9,,,,,,,,1.0
+250,26.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Reims,0,46,5,0,3,2,5,4,2,1,10,3.0,,191.0,162.0,,,,26.10.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Brest,0,54,7,1,4,2,10,1,1,0,5,1.0,,,,,,,2,https://www.flashscore.com/match/hQspntL6/#/match-summary/match-statistics/2,,,,,,,,,0.29,1,,,7,3,,0.40,5,,,,,,,,2.0
+251,02.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",PSG,1,66,11,5,4,2,10,4,1,2,0,0.0,,326.0,286.0,,,,02.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Lens,0,34,6,2,1,3,0,2,2,4,10,2.0,,,,,,,1,https://www.flashscore.com/match/rX720WuH/#/match-summary/match-statistics/1,,,,,,,,,0.46,3,,,4,4,,2.24,3,,,,,,,,1.0
+252,02.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",PSG,0,70,7,3,1,3,10,3,1,0,3,1.0,0.0,394.0,341.0,,,,02.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Lens,0,30,7,0,5,2,3,2,1,3,10,3.0,1.0,,,,,,2,https://www.flashscore.com/match/rX720WuH/#/match-summary/match-statistics/2,,,,,,,,,0.36,5,,,9,5,,0.41,4,,,,,,,,2.0
+253,01.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Lille,1,55,11,2,6,3,8,1,1,0,3,1.0,,265.0,239.0,,,,01.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Lyon,0,45,3,0,1,2,3,1,0,1,8,1.0,,,,,,,1,https://www.flashscore.com/match/bqYbtBlo/#/match-summary/match-statistics/1,,,,,,,,,0.10,2,,,8,8,,1.37,5,,,,,,,,1.0
+254,01.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Lille,0,39,3,0,2,1,2,3,0,2,9,2.0,,134.0,94.0,,,,01.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Lyon,1,61,11,3,5,3,9,8,3,0,2,0.0,,,,,,,2,https://www.flashscore.com/match/bqYbtBlo/#/match-summary/match-statistics/2,,,,,,,,,1.03,2,,,4,2,,0.30,13,,,,,,,,2.0
+255,01.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Monaco,0,60,3,0,1,2,7,3,0,1,8,1.0,,254.0,216.0,,,,01.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Angers,1,40,7,2,2,3,8,1,1,0,7,0.0,,,,,,,1,https://www.flashscore.com/match/0ljCkFRb/#/match-summary/match-statistics/1,,,,,,,,,0.35,6,,,8,5,,0.09,12,,,,,,,,1.0
+256,01.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Monaco,0,68,8,3,3,2,5,1,0,1,8,0.0,,305.0,258.0,,,,01.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 10",Angers,0,32,3,1,1,1,8,3,1,3,5,1.0,,,,,,,2,https://www.flashscore.com/match/0ljCkFRb/#/match-summary/match-statistics/2,,,,,,,,,0.09,11,,,11,5,,1.25,13,,,,,,,,2.0
+257,27.10.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Marseille,0,27,2,1,0,1,2,1,2,1,3,1.0,1.0,166.0,133.0,,,,27.10.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",PSG,3,73,6,4,2,0,3,1,4,1,2,0.0,0.0,,,,,,1,https://www.flashscore.com/match/AsQgyP6l/#/match-summary/match-statistics/1,,,,,,,,,0.90,4,,,8,4,,0.06,5,,,,,,,,1.0
+258,27.10.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Marseille,0,23,3,0,2,1,5,0,0,4,1,,,143.0,108.0,,,,27.10.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",PSG,0,77,13,4,7,2,1,1,4,0,5,,,,,,,,2,https://www.flashscore.com/match/AsQgyP6l/#/match-summary/match-statistics/2,,,,,,,,,2.08,5,,,7,5,,0.16,3,,,,,,,,2.0
+259,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Montpellier,0,57,5,1,3,1,9,1,0,1,4,1.0,,260.0,219.0,,,,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Toulouse,3,43,7,4,1,2,4,0,1,1,9,0.0,,,,,,,1,https://www.flashscore.com/match/vNHAXt6D/#/match-summary/match-statistics/1,,,,,,,,,0.99,4,,,9,2,,0.14,8,,,,,,,,1.0
+260,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Montpellier,0,47,4,1,2,1,11,0,0,2,4,0.0,1.0,227.0,197.0,,,,27.10.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Toulouse,0,53,8,2,4,2,4,3,0,1,11,2.0,0.0,,,,,,2,https://www.flashscore.com/match/vNHAXt6D/#/match-summary/match-statistics/2,,,,,,,,,0.44,6,,,4,7,,0.08,7,,,,,,,,2.0
+261,26.10.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",Angers,2,42,9,6,2,1,6,0,0,2,6,1.0,,203.0,156.0,,,,26.10.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 9",St Etienne,1,58,13,3,4,6,6,2,0,4,6,2.0,,,,,,,1,https://www.flashscore.com/match/p0vxl2jf/#/match-summary/match-statistics/1,,,,,,,,,1.13,7,,,11,5,,1.68,13,,,,,,,,1.0
+262,12.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Le Havre,1,27,6,2,1,3,7,3,0,2,5,1.0,,113.0,77.0,44.0,,,12.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Lens,1,73,14,3,5,6,5,4,0,1,7,1.0,,,,64.0,,,1,https://www.flashscore.com/match/U5ul6et4/#/match-summary/match-statistics/1,71.0,0,1,5,2,24,0.0,39.0,1.20,3,1,75.0,11,9,2,0.53,10,23,9,0,12,12,1,1,1.0
+263,12.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Le Havre,0,33,2,2,0,0,7,0,0,3,6,1.0,,132.0,86.0,60.0,,,12.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Lens,1,67,11,4,5,2,6,4,3,2,7,1.0,,,,38.0,,,2,https://www.flashscore.com/match/U5ul6et4/#/match-summary/match-statistics/2,50.0,0,2,2,1,26,14.0,33.0,1.48,1,0,77.0,6,3,1,1.31,12,31,7,0,10,9,0,1,2.0
+264,19.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Marseille,0,69,4,0,2,2,9,3,1,0,8,0.0,,323.0,281.0,50.0,,,19.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Strasbourg,1,31,2,1,1,0,8,1,3,0,9,3.0,,,,100.0,,,1,https://www.flashscore.com/match/jZ8VIYP9/#/match-summary/match-statistics/1,65.0,0,1,3,0,3,33.0,50.0,0.29,6,1,53.0,10,7,2,0.23,7,5,9,0,0,8,,,1.0
+265,19.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Marseille,1,69,14,3,7,4,5,6,0,2,5,3.0,,284.0,249.0,44.0,,,19.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Strasbourg,0,31,5,2,1,2,5,2,2,2,5,0.0,,,,27.0,,,2,https://www.flashscore.com/match/jZ8VIYP9/#/match-summary/match-statistics/2,80.0,1,1,12,6,10,32.0,20.0,0.51,3,2,42.0,7,10,1,2.69,7,15,31,1,4,27,,,2.0
+266,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Angers,1,46,3,1,1,1,3,1,3,1,5,1.0,0.0,216.0,185.0,60.0,,,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Auxerre,0,54,5,1,4,0,5,2,0,0,3,0.0,1.0,,,58.0,,,1,https://www.flashscore.com/match/riCiOT1k/#/match-summary/match-statistics/1,68.0,1,0,0,0,8,14.0,0.0,0.22,7,2,65.0,13,6,2,0.12,14,9,4,0,3,13,,,1.0
+267,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Angers,1,48,9,3,3,3,7,3,1,3,4,1.0,,244.0,212.0,82.0,,,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Auxerre,0,52,5,3,1,1,4,0,1,2,7,1.0,,,,30.0,,,2,https://www.flashscore.com/match/riCiOT1k/#/match-summary/match-statistics/2,86.0,0,0,7,2,10,33.0,33.0,0.29,6,3,74.0,3,4,2,0.75,10,8,11,0,3,9,,,2.0
+268,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Reims,1,49,3,2,1,0,4,2,0,0,5,1.0,,201.0,169.0,100.0,,,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Le Havre,0,51,2,0,0,2,5,4,0,1,4,1.0,,,,86.0,,,1,https://www.flashscore.com/match/C8LLTkvS/#/match-summary/match-statistics/1,72.0,0,0,2,1,4,0.0,11.0,0.05,8,0,59.0,13,3,0,0.14,14,14,7,0,2,11,,,1.0
+269,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Reims,0,61,8,1,3,4,4,4,1,1,4,1.0,,287.0,257.0,50.0,,,19.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Le Havre,1,39,5,2,3,0,4,2,2,1,4,1.0,,,,64.0,,,2,https://www.flashscore.com/match/C8LLTkvS/#/match-summary/match-statistics/2,81.0,0,2,3,1,9,11.0,21.0,0.89,5,6,71.0,4,1,1,0.66,7,9,14,1,4,32,,,2.0
+270,18.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Lyon,0,64,6,0,2,4,3,1,1,1,4,,,316.0,283.0,69.0,,,18.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Toulouse,0,36,4,1,3,0,4,3,2,0,3,,,,,62.0,,,1,https://www.flashscore.com/match/UmnI9Und/#/match-summary/match-statistics/1,79.0,0,2,5,0,8,11.0,20.0,0.51,3,1,67.0,9,7,2,0.48,6,10,16,0,2,14,,,1.0
+271,18.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Lyon,0,60,5,3,1,1,5,7,1,3,4,1.0,,253.0,212.0,43.0,,,18.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Toulouse,0,40,9,3,2,4,4,2,1,3,5,0.0,,,,60.0,,,2,https://www.flashscore.com/match/UmnI9Und/#/match-summary/match-statistics/2,76.0,0,0,3,0,16,18.0,43.0,0.60,7,2,74.0,8,4,0,0.29,9,9,25,0,9,18,,,2.0
+272,18.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Rennes,0,62,11,3,4,4,5,3,0,0,6,1.0,,254.0,222.0,70.0,,,18.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Brest,1,38,6,1,2,3,6,4,1,3,5,1.0,,,,56.0,,,1,https://www.flashscore.com/match/vJ50M7W1/#/match-summary/match-statistics/1,82.0,1,0,7,1,8,8.0,22.0,0.11,5,4,60.0,12,6,2,0.53,9,22,14,0,4,19,,,1.0
+273,18.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Rennes,1,74,11,6,4,1,6,1,1,1,7,1.0,,350.0,303.0,100.0,,,18.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Brest,1,26,4,2,2,0,7,0,1,5,6,2.0,,,,75.0,,,2,https://www.flashscore.com/match/vJ50M7W1/#/match-summary/match-statistics/2,80.0,1,3,9,1,7,36.0,100.0,1.18,9,2,44.0,9,6,0,0.96,3,4,34,0,4,20,,,2.0
+274,19.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",St Etienne,0,77,2,0,1,1,8,4,1,1,5,,,384.0,333.0,50.0,,,19.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Nantes,1,23,2,2,0,0,5,0,0,0,8,,,,,40.0,,,1,https://www.flashscore.com/match/pdU4XXv3/#/match-summary/match-statistics/1,73.0,0,1,1,0,5,44.0,33.0,0.25,7,0,58.0,14,7,0,0.03,9,6,13,0,2,24,,,1.0
+275,19.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",St Etienne,1,73,10,2,3,5,3,3,1,2,4,,,356.0,320.0,100.0,,,19.01.2025 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Nantes,0,27,6,2,2,2,4,7,0,1,3,,,,,43.0,,,2,https://www.flashscore.com/match/pdU4XXv3/#/match-summary/match-statistics/2,84.0,0,1,10,1,12,25.0,27.0,0.99,4,1,46.0,15,4,1,0.78,5,16,19,0,5,28,,,2.0
+276,18.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Lens,1,34,3,1,0,2,3,4,1,2,8,1.0,,159.0,122.0,67.0,,,18.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",PSG,0,66,2,2,0,0,8,0,0,0,3,1.0,,,,63.0,,,1,https://www.flashscore.com/match/xj7wHCfM/#/match-summary/match-statistics/1,64.0,0,0,3,1,8,22.0,0.0,0.12,4,0,80.0,10,2,1,0.20,20,12,13,0,1,13,,,1.0
+277,18.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Lens,0,32,7,4,0,3,5,2,4,3,4,1.0,,171.0,132.0,79.0,,,18.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",PSG,2,68,7,5,0,2,4,1,0,4,5,1.0,,,,80.0,,,2,https://www.flashscore.com/match/xj7wHCfM/#/match-summary/match-statistics/2,67.0,0,3,5,1,19,14.0,0.0,1.10,13,2,87.0,8,5,1,0.44,5,6,11,0,6,14,,,2.0
+278,17.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Lille,0,60,6,1,3,2,6,5,1,2,5,1.0,,282.0,246.0,33.0,,,17.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Nice,1,40,9,3,4,2,5,5,0,1,6,1.0,,,,100.0,,,1,https://www.flashscore.com/match/dzlABjIq/#/match-summary/match-statistics/1,77.0,0,3,4,0,14,60.0,33.0,2.57,6,2,64.0,8,7,1,0.24,10,13,17,1,8,14,,,1.0
+279,17.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Lille,2,50,5,3,2,0,7,2,0,0,8,0.0,,235.0,198.0,53.0,,,17.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Nice,0,50,2,0,1,1,8,2,0,1,7,2.0,,,,75.0,,,2,https://www.flashscore.com/match/dzlABjIq/#/match-summary/match-statistics/2,78.0,0,1,4,2,8,50.0,0.0,0.30,10,1,68.0,14,6,1,0.78,11,18,7,0,1,9,,,2.0
+280,17.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Montpellier,0,32,6,2,3,1,5,2,2,7,3,,,119.0,76.0,71.0,,,17.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Monaco,1,68,17,8,3,6,3,11,2,2,5,,,,,63.0,,,1,https://www.flashscore.com/match/jgXCVB9F/#/match-summary/match-statistics/1,50.0,0,1,3,1,20,33.0,40.0,1.42,6,3,78.0,6,5,8,0.34,14,19,5,0,9,9,0,1,1.0
+281,24.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Lille,1,63,4,2,2,0,8,2,1,1,6,1.0,,292.0,260.0,50.0,,,24.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Rennes,0,37,2,1,1,0,6,1,0,1,8,1.0,,,,70.0,,,1,https://www.flashscore.com/match/AqgG784s/#/match-summary/match-statistics/1,78.0,0,0,3,1,5,22.0,33.0,0.11,8,1,64.0,8,2,1,0.35,10,7,11,0,1,9,,,1.0
+282,24.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Lille,0,43,1,0,1,0,8,1,1,0,13,2.0,,172.0,134.0,64.0,,,24.11.2024 14:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Rennes,0,57,2,0,0,2,13,2,0,0,8,1.0,,,,64.0,,,2,https://www.flashscore.com/match/AqgG784s/#/match-summary/match-statistics/2,61.0,0,0,0,0,0,0.0,18.0,0.09,4,1,78.0,10,5,2,0.05,14,9,7,0,0,6,,,2.0
+283,30.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",Rennes,2,73,8,4,0,4,8,4,1,0,10,,0.0,320.0,295.0,83.0,,,30.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",St Etienne,0,27,1,0,1,0,10,0,1,2,8,,1.0,,,64.0,,,1,https://www.flashscore.com/match/2DnbIPIa/#/match-summary/match-statistics/1,73.0,0,0,5,1,4,,,0.07,5,3,35.0,9,4,0,1.05,5,2,11,1,1,10,,,1.0
+284,30.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",Rennes,3,71,10,5,4,1,4,2,1,0,4,0.0,,361.0,323.0,63.0,,,30.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",St Etienne,0,29,1,0,0,1,4,1,0,2,4,1.0,,,,64.0,,,2,https://www.flashscore.com/match/2DnbIPIa/#/match-summary/match-statistics/2,81.0,1,0,8,2,4,14.0,20.0,0.04,5,2,55.0,10,6,0,2.14,7,4,26,0,1,12,1,0,2.0
+285,29.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",Reims,0,49,8,1,5,2,5,1,0,2,7,1.0,,204.0,169.0,63.0,,,29.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",Lens,1,51,6,3,2,1,7,0,0,1,5,1.0,,,,45.0,,,1,https://www.flashscore.com/match/d0HcKolm/#/match-summary/match-statistics/1,63.0,0,0,4,0,7,18.0,17.0,0.23,2,4,79.0,15,4,3,0.42,9,9,6,0,3,16,,,1.0
+286,29.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",Reims,0,53,8,2,3,3,7,2,1,2,7,0.0,,249.0,211.0,55.0,,,29.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 13",Lens,1,47,5,3,2,0,7,1,4,2,7,1.0,,,,54.0,,,2,https://www.flashscore.com/match/d0HcKolm/#/match-summary/match-statistics/2,59.0,0,2,2,0,7,0.0,100.0,0.79,6,6,65.0,16,6,2,0.39,7,6,4,0,3,15,,,2.0
+287,24.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Nice,0,61,11,1,6,4,4,3,0,0,7,1.0,,285.0,244.0,56.0,,,24.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Strasbourg,1,39,1,1,0,0,7,3,0,1,4,0.0,,,,79.0,,,1,https://www.flashscore.com/match/Olld2DS1/#/match-summary/match-statistics/1,69.0,0,1,7,1,4,21.0,0.0,0.07,7,4,62.0,10,3,0,0.99,8,6,18,0,1,19,,,1.0
+288,24.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Nice,2,47,4,4,0,0,4,1,0,2,9,1.0,,222.0,187.0,50.0,,,24.11.2024 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Strasbourg,0,53,9,2,1,6,9,4,1,2,4,0.0,,,,50.0,,,2,https://www.flashscore.com/match/Olld2DS1/#/match-summary/match-statistics/2,62.0,0,0,4,2,14,0.0,43.0,0.24,4,0,82.0,8,6,5,1.14,8,5,16,0,4,8,,,2.0
+289,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Auxerre,0,50,3,3,0,0,3,0,0,2,5,1.0,,284.0,250.0,77.0,,,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Angers,0,50,3,2,1,0,5,0,0,3,3,1.0,,,,63.0,,,1,https://www.flashscore.com/match/pMmu24YI/#/match-summary/match-statistics/1,66.0,0,0,0,0,5,0.0,50.0,0.34,6,3,59.0,9,4,2,0.06,11,5,2,0,1,5,,,1.0
+290,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Auxerre,1,46,7,3,3,1,4,2,0,3,8,3.0,,172.0,126.0,44.0,,,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Angers,0,54,7,3,2,2,8,2,1,2,4,0.0,,,,33.0,,,2,https://www.flashscore.com/match/pMmu24YI/#/match-summary/match-statistics/2,55.0,0,2,5,1,10,40.0,36.0,0.51,5,2,64.0,6,5,2,0.50,11,6,10,0,5,8,1,0,2.0
+291,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Nantes,0,71,5,1,3,1,8,4,0,2,7,,,352.0,309.0,56.0,,,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Le Havre,1,29,4,3,0,1,7,1,0,1,8,,,,,83.0,,,1,https://www.flashscore.com/match/GtdO5nZg/#/match-summary/match-statistics/1,67.0,0,1,5,0,3,20.0,14.0,0.61,6,0,55.0,11,1,1,0.42,9,11,13,0,3,22,,,1.0
+292,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Nantes,0,71,13,3,5,5,4,6,0,1,7,2.0,,265.0,231.0,58.0,,,24.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Le Havre,1,29,3,2,1,0,7,1,2,3,4,1.0,,,,70.0,,,2,https://www.flashscore.com/match/GtdO5nZg/#/match-summary/match-statistics/2,78.0,1,1,5,0,8,19.0,33.0,0.40,0,8,48.0,13,3,0,0.49,7,9,19,0,3,41,,,2.0
+293,23.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Reims,0,40,5,2,3,0,6,3,2,4,5,,,200.0,162.0,43.0,,,23.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Lyon,1,60,8,5,2,1,5,1,1,2,6,,,,,75.0,,,1,https://www.flashscore.com/match/0UVRP7QP/#/match-summary/match-statistics/1,66.0,0,2,3,0,21,22.0,100.0,0.91,6,2,75.0,9,1,2,0.15,5,4,8,0,6,11,0,1,1.0
+294,23.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Reims,1,40,9,4,2,3,7,1,2,2,6,2.0,,162.0,129.0,83.0,,,23.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Lyon,0,60,5,2,3,0,6,1,0,3,7,0.0,,,,36.0,,,2,https://www.flashscore.com/match/0UVRP7QP/#/match-summary/match-statistics/2,77.0,0,2,6,2,15,38.0,33.0,0.79,0,3,71.0,8,10,0,1.07,9,5,15,0,5,7,,,2.0
+295,23.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",St Etienne,0,32,5,2,3,0,5,2,0,1,7,0.0,,141.0,118.0,56.0,,,23.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Montpellier,0,68,4,1,1,2,7,1,0,2,5,3.0,,,,78.0,,,1,https://www.flashscore.com/match/GryrQGK8/#/match-summary/match-statistics/1,72.0,0,1,4,1,6,50.0,25.0,0.47,4,1,58.0,7,5,2,0.73,12,14,11,0,2,4,,,1.0
+296,23.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",St Etienne,1,32,6,2,1,3,6,3,1,2,12,3.0,,117.0,80.0,86.0,,,23.11.2024 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Montpellier,0,68,7,2,4,1,12,10,0,1,6,2.0,,,,56.0,,,2,https://www.flashscore.com/match/GryrQGK8/#/match-summary/match-statistics/2,44.0,0,0,3,1,14,25.0,17.0,0.49,6,3,72.0,8,5,4,0.75,7,29,6,0,3,8,,,2.0
+297,23.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Lens,0,45,10,4,5,1,4,4,2,1,5,1.0,,213.0,169.0,44.0,,,23.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Marseille,0,55,3,1,2,0,5,0,1,4,4,1.0,,,,43.0,,,1,https://www.flashscore.com/match/SMfm4Zck/#/match-summary/match-statistics/1,64.0,0,0,7,5,1,27.0,0.0,0.17,7,3,70.0,9,11,2,0.96,13,5,20,0,1,15,,,1.0
+298,23.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Lens,1,45,6,3,2,1,5,2,1,0,12,2.0,,179.0,146.0,40.0,,,23.11.2024 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Marseille,3,55,4,3,0,1,12,0,0,2,5,2.0,,,,40.0,,,2,https://www.flashscore.com/match/SMfm4Zck/#/match-summary/match-statistics/2,66.0,0,2,4,2,18,14.0,0.0,1.02,3,2,61.0,7,10,2,0.97,8,7,6,0,5,11,,,2.0
+299,22.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",PSG,1,76,7,4,2,1,5,2,0,1,7,1.0,,415.0,372.0,89.0,,,22.11.2024 20:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 12",Toulouse,0,24,3,1,1,1,7,1,0,3,5,1.0,,,,57.0,,,1,https://www.flashscore.com/match/Im9H9ezS/#/match-summary/match-statistics/1,75.0,0,1,4,0,4,33.0,0.0,0.15,7,3,47.0,11,5,2,0.60,12,8,13,0,1,15,,,1.0
+300,06.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Lyon,1,67,6,2,2,2,3,5,0,2,4,,,,,,,,06.10.2024 15:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Nantes,0,33,5,2,2,1,4,4,0,1,3,,,,,,,,cat7,https://www.flashscore.com/match/IHSe3ve5/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-317,06.10.2024 17:00,"FOOTBALL
+301,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Strasbourg,1,33,4,2,2,0,15,1,1,3,6,0.0,,,,,,,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Lens,0,67,6,3,3,0,5,3,2,1,12,2.0,,,,,,,cat8,https://www.flashscore.com/match/4nvCemgd/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-318,06.10.2024 17:00,"FOOTBALL
+302,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Strasbourg,1,41,4,3,1,0,7,2,1,0,9,2.0,,,,,,,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Lens,2,59,6,2,0,4,9,2,1,2,6,2.0,,,,,,,cat9,https://www.flashscore.com/match/4nvCemgd/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-319,06.10.2024 17:00,"FOOTBALL
+303,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Reims,2,56,9,2,5,2,14,1,2,0,8,3.0,,,,,,,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Montpellier,1,44,3,1,1,1,9,2,0,0,10,3.0,,,,,,,cat10,https://www.flashscore.com/match/WhWcJjo3/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-320,06.10.2024 17:00,"FOOTBALL
+304,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Reims,2,40,9,3,3,3,3,3,1,1,7,0.0,,,,,,,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Montpellier,1,60,7,2,4,1,8,2,0,1,3,2.0,,,,,,,cat11,https://www.flashscore.com/match/WhWcJjo3/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-321,06.10.2024 17:00,"FOOTBALL
+305,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Brest,1,62,6,2,1,3,3,0,1,0,9,2.0,1.0,,,,,,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Le Havre,0,38,3,0,3,0,9,4,0,1,3,0.0,1.0,,,,,,cat12,https://www.flashscore.com/match/rZUMHwAb/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-322,06.10.2024 17:00,"FOOTBALL
+306,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Brest,1,44,2,1,1,0,10,1,1,0,10,2.0,,,,,,,06.10.2024 17:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Le Havre,0,56,11,0,6,5,11,5,2,0,8,0.0,,,,,,,cat13,https://www.flashscore.com/match/rZUMHwAb/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-323,06.10.2024 20:45,"FOOTBALL
+307,06.10.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Nice,0,31,3,0,3,0,5,3,0,6,4,1.0,,,,,,,06.10.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",PSG,1,69,14,7,3,4,2,11,1,0,5,0.0,,,,,,,cat14,https://www.flashscore.com/match/OUcd1IPH/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-324,06.10.2024 20:45,"FOOTBALL
+308,06.10.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",Nice,1,27,5,3,0,2,4,2,2,2,3,0.0,,,,,,,06.10.2024 20:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 7",PSG,0,73,5,2,2,1,5,4,0,2,4,2.0,,,,,,,cat15,https://www.flashscore.com/match/OUcd1IPH/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-325,08.11.2024 19:45,"FOOTBALL
+309,08.11.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 11",Marseille,1,73,10,2,3,5,9,2,4,1,8,3.0,,303.0,261.0,,,,08.11.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 11",Auxerre,0,27,3,1,1,1,8,2,0,1,9,2.0,,,,,,,2,https://www.flashscore.com/match/Gp6AbAAT/#/match-summary/match-statistics/2,,,,,,,,,0.25,4,,,11,2,,1.89,7,,,,,,,,2.0
-326,05.10.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Rennes,0,61,10,1,5,4,12,5,1,0,3,1.0,,,,,,,05.10.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Monaco,0,39,3,0,2,1,4,2,0,1,10,3.0,,,,,,,cat4,https://www.flashscore.com/match/8Kp3c9Oq/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-327,05.10.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Rennes,1,55,4,2,0,2,7,5,0,0,6,1.0,,,,,,,05.10.2024 21:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Monaco,2,45,2,2,0,0,6,2,1,1,6,1.0,,,,,,,cat5,https://www.flashscore.com/match/8Kp3c9Oq/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
-328,06.10.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Lyon,1,57,11,4,6,1,2,1,1,4,6,1.0,,,,,,,06.10.2024 15:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 7",Nantes,0,43,6,4,2,0,7,5,1,3,2,2.0,,,,,,,cat6,https://www.flashscore.com/match/IHSe3ve5/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
-329,12.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",PSG,2,54,14,6,5,3,4,2,2,2,6,,,261.0,226.0,60.0,,,12.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",St Etienne,0,46,5,2,0,3,6,3,0,4,4,,,,,62.0,,,1,https://www.flashscore.com/match/2DSzci3j/#/match-summary/match-statistics/1,75.0,1,0,10,6,13,50.0,100.0,0.18,7,4,79.0,9,4,2,2.54,6,9,21,0,3,6,,,1.0
-330,12.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",PSG,0,64,11,3,7,1,7,5,0,0,10,1.0,,344.0,310.0,57.0,,,12.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",St Etienne,1,36,3,1,0,2,10,0,0,3,7,2.0,,,,60.0,,,2,https://www.flashscore.com/match/2DSzci3j/#/match-summary/match-statistics/2,82.0,0,0,8,3,6,40.0,50.0,0.00,7,3,77.0,10,6,2,1.48,10,5,25,0,1,17,,,2.0
-331,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Montpellier,0,58,5,2,3,0,6,1,1,1,6,2.0,,259.0,215.0,78.0,,,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Angers,1,42,9,2,4,3,6,2,1,2,6,0.0,,,,80.0,,,1,https://www.flashscore.com/match/AFmd4ZAG/#/match-summary/match-statistics/1,68.0,0,1,3,0,14,8.0,11.0,1.24,8,2,73.0,15,2,3,0.33,8,18,11,0,6,28,,,1.0
-332,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Montpellier,1,58,3,1,0,2,9,2,1,4,5,4.0,2.0,237.0,198.0,14.0,,,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Angers,2,42,12,6,4,2,5,1,0,0,9,2.0,0.0,,,33.0,,,2,https://www.flashscore.com/match/AFmd4ZAG/#/match-summary/match-statistics/2,62.0,0,5,2,2,16,10.0,50.0,1.90,6,1,82.0,11,2,5,0.97,5,5,17,1,7,26,,,2.0
-333,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Toulouse,1,52,8,1,4,3,7,2,2,0,5,1.0,,241.0,202.0,90.0,,,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Strasbourg,2,48,3,2,1,0,5,1,2,0,7,1.0,,,,50.0,,,1,https://www.flashscore.com/match/KCJAS3s0/#/match-summary/match-statistics/1,71.0,0,2,5,1,9,38.0,25.0,1.95,6,2,74.0,8,4,1,0.66,9,6,12,0,2,15,,,1.0
-334,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Toulouse,0,54,11,4,2,5,7,1,2,0,7,0.0,,220.0,170.0,58.0,,,12.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 17",Strasbourg,0,46,5,0,4,1,7,1,0,4,7,3.0,,,,80.0,,,2,https://www.flashscore.com/match/KCJAS3s0/#/match-summary/match-statistics/2,56.0,0,1,7,0,4,25.0,40.0,0.40,5,5,58.0,14,2,2,0.58,7,4,16,0,3,25,,,2.0
-335,17.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Montpellier,2,32,6,2,3,1,4,2,1,3,4,1.0,,139.0,80.0,33.0,,,17.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 18",Monaco,0,68,9,3,2,4,4,5,1,0,4,2.0,,,,46.0,,,2,https://www.flashscore.com/match/jgXCVB9F/#/match-summary/match-statistics/2,43.0,0,0,5,3,21,22.0,24.0,0.41,5,1,70.0,11,5,1,2.14,5,20,15,1,8,15,,,2.0
-336,24.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Auxerre,1,33,4,1,3,0,7,0,0,2,6,,,154.0,111.0,31.0,,,24.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",St Etienne,1,67,6,3,1,2,6,2,0,0,7,,,,,100.0,,,1,https://www.flashscore.com/match/jTmMdl8E/#/match-summary/match-statistics/1,60.0,1,2,2,0,11,14.0,50.0,1.06,5,2,63.0,9,6,3,0.28,15,24,11,0,3,15,0,1,1.0
-337,24.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Auxerre,0,41,7,4,2,1,6,3,0,0,9,2.0,,198.0,155.0,60.0,,,24.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",St Etienne,0,59,2,0,1,1,9,2,3,4,6,0.0,,,,67.0,,,2,https://www.flashscore.com/match/jTmMdl8E/#/match-summary/match-statistics/2,72.0,0,0,5,1,9,25.0,0.0,0.12,4,2,66.0,9,8,1,0.56,10,8,18,0,1,4,,,2.0
-338,25.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",PSG,0,75,9,3,3,3,9,2,0,2,5,1.0,,385.0,358.0,60.0,,,25.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Reims,0,25,2,2,0,0,5,1,2,3,9,1.0,,,,44.0,,,1,https://www.flashscore.com/match/Is42xKMa/#/match-summary/match-statistics/1,85.0,1,1,4,2,6,33.0,0.0,0.46,5,5,45.0,9,0,0,0.58,6,5,19,0,2,10,,,1.0
-339,25.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",PSG,1,81,9,4,1,4,4,6,0,0,8,1.0,,391.0,353.0,67.0,,,25.01.2025 20:05,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Reims,1,19,4,1,2,1,8,0,1,3,4,1.0,,,,50.0,,,2,https://www.flashscore.com/match/Is42xKMa/#/match-summary/match-statistics/2,84.0,0,1,7,1,6,33.0,14.0,0.51,7,2,61.0,10,0,2,0.67,4,11,29,0,2,24,,,2.0
-340,25.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Strasbourg,0,54,3,2,1,0,3,3,1,2,7,2.0,,296.0,267.0,50.0,,,25.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Lille,1,46,6,3,2,1,7,2,1,2,3,1.0,,,,91.0,,,1,https://www.flashscore.com/match/WChnpBO8/#/match-summary/match-statistics/1,59.0,0,2,3,0,14,25.0,50.0,0.69,6,0,63.0,7,3,2,0.19,9,11,8,0,4,10,,,1.0
-341,25.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Strasbourg,2,30,8,5,1,2,6,3,3,3,3,2.0,,124.0,101.0,67.0,,,25.01.2025 18:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Lille,0,70,9,3,3,3,3,5,1,3,6,1.0,,,,22.0,,,2,https://www.flashscore.com/match/WChnpBO8/#/match-summary/match-statistics/2,54.0,0,1,5,1,21,30.0,20.0,0.89,4,3,74.0,4,6,1,0.87,11,24,8,0,8,6,1,0,2.0
-342,25.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Monaco,1,61,11,4,4,3,5,1,0,2,5,,,282.0,231.0,73.0,,,25.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Rennes,1,39,7,3,3,1,5,2,0,3,5,,,,,63.0,,,1,https://www.flashscore.com/match/88EIxTGr/#/match-summary/match-statistics/1,70.0,1,2,9,3,13,14.0,38.0,1.12,8,2,71.0,10,3,2,1.17,6,8,30,0,5,12,,,1.0
-343,25.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Monaco,2,44,9,6,2,1,11,3,1,1,7,,,163.0,119.0,50.0,,,25.01.2025 16:00,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Rennes,1,56,7,2,4,1,7,0,1,4,11,,,,,71.0,,,2,https://www.flashscore.com/match/88EIxTGr/#/match-summary/match-statistics/2,67.0,0,0,7,4,9,14.0,0.0,0.89,3,2,79.0,9,11,4,2.01,18,15,15,0,3,12,,,2.0
-344,26.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Nice,1,34,8,2,4,2,5,4,1,4,6,,,168.0,125.0,50.0,,,26.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Marseille,0,66,8,4,2,2,6,5,0,1,5,,,,,89.0,,,1,https://www.flashscore.com/match/Q77AzbiC/#/match-summary/match-statistics/1,53.0,0,1,8,2,12,44.0,23.0,0.29,11,0,73.0,2,11,4,0.68,10,7,13,0,4,13,,,1.0
-345,26.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Nice,1,23,6,3,2,1,4,2,1,2,6,1.0,,111.0,89.0,75.0,,,26.01.2025 19:45,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Marseille,0,77,10,2,2,6,6,7,0,2,4,1.0,,,,75.0,,,2,https://www.flashscore.com/match/Q77AzbiC/#/match-summary/match-statistics/2,70.0,0,0,3,2,22,0.0,32.0,0.53,3,3,85.0,5,6,4,0.45,8,24,5,0,6,4,,,2.0
-346,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Lens,0,65,9,0,7,2,2,1,0,0,5,,,319.0,265.0,73.0,,,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Angers,0,35,1,0,0,1,5,3,0,0,2,,,,,69.0,,,1,https://www.flashscore.com/match/MFAgvthm/#/match-summary/match-statistics/1,78.0,0,0,5,1,5,43.0,0.0,0.11,9,4,57.0,19,7,0,0.82,10,6,13,0,1,15,,,1.0
-347,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Lens,1,63,7,4,2,1,8,3,1,0,11,1.0,,271.0,235.0,64.0,,,26.01.2025 16:15,"FOOTBALL
-FRANCE: LIGUE 1 - ROUND 19",Angers,0,37,1,0,0,1,11,1,1,3,8,1.0,,,,67.0,,,2,https://www.flashscore.com/match/MFAgvthm/#/match-summary/match-statistics/2,71.0,0,0,7,2,6,31.0,0.0,0.04,5,0,52.0,6,8,0,1.06,13,5,18,0,1,10,,,2.0
-348,03.11.2024 19:45,"FOOTBALL
+310,03.11.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Nantes,1,21,3,2,1,0,4,1,0,1,9,,,116.0,90.0,,,,03.11.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Marseille,1,79,5,2,1,2,9,5,1,1,4,,,,,,,,1,https://www.flashscore.com/match/UTsToXQN/#/match-summary/match-statistics/1,,,,,,,,,1.01,2,,,5,5,,0.48,5,,,,,,,,1.0
-349,03.11.2024 19:45,"FOOTBALL
+311,03.11.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Nantes,0,31,4,1,2,1,2,1,4,1,7,1.0,,154.0,113.0,,,,03.11.2024 19:45,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Marseille,1,69,4,2,2,0,7,0,0,1,2,1.0,,,,,,,2,https://www.flashscore.com/match/UTsToXQN/#/match-summary/match-statistics/2,,,,,,,,,0.16,4,,,13,2,,0.75,6,,,,,,,,2.0
-350,03.11.2024 16:00,"FOOTBALL
+312,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Auxerre,2,37,7,3,4,0,7,0,2,2,6,0.0,,156.0,126.0,,,,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Rennes,0,63,3,2,0,1,6,4,1,1,7,1.0,,,,,,,1,https://www.flashscore.com/match/EuWhpKkJ/#/match-summary/match-statistics/1,,,,,,,,,0.25,0,,,5,1,,0.48,11,,,,,,,,1.0
-351,03.11.2024 16:00,"FOOTBALL
+313,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Auxerre,2,41,9,5,3,1,8,3,1,2,5,0.0,,169.0,132.0,,,,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Rennes,0,59,4,2,1,1,5,4,1,3,8,1.0,,,,,,,2,https://www.flashscore.com/match/EuWhpKkJ/#/match-summary/match-statistics/2,,,,,,,,,0.55,5,,,8,5,,1.91,11,,,,,,,,2.0
-352,03.11.2024 16:00,"FOOTBALL
+314,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Le Havre,0,53,5,1,3,1,6,1,2,0,4,1.0,,249.0,218.0,,,,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Montpellier,0,47,7,0,3,4,4,3,0,1,6,1.0,,,,,,,1,https://www.flashscore.com/match/Y1lKmgdB/#/match-summary/match-statistics/1,,,,,,,,,0.60,3,,,11,5,,0.61,4,,,,,,,,1.0
-353,03.11.2024 16:00,"FOOTBALL
+315,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Le Havre,1,43,7,3,1,3,7,1,1,1,7,1.0,,183.0,140.0,,,,03.11.2024 16:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Montpellier,0,57,8,1,4,3,7,7,0,2,7,0.0,,,,,,,2,https://www.flashscore.com/match/Y1lKmgdB/#/match-summary/match-statistics/2,,,,,,,,,0.38,6,,,7,6,,1.58,8,,,,,,,,2.0
-354,03.11.2024 14:00,"FOOTBALL
+316,03.11.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Toulouse,0,48,5,4,1,0,7,1,0,2,8,,,198.0,161.0,,,,03.11.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Reims,0,52,7,2,1,4,8,5,2,4,7,,,,,,,,1,https://www.flashscore.com/match/4Md3iycn/#/match-summary/match-statistics/1,,,,,,,,,0.15,5,,,13,3,,0.23,5,,,,,,,,1.0
-355,03.11.2024 14:00,"FOOTBALL
+317,03.11.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Toulouse,1,52,8,2,4,2,8,5,0,0,8,0.0,,179.0,130.0,,,,03.11.2024 14:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Reims,0,48,6,0,3,3,8,2,1,1,8,3.0,,,,,,,2,https://www.flashscore.com/match/4Md3iycn/#/match-summary/match-statistics/2,,,,,,,,,0.59,5,,,10,3,,0.67,11,,,,,,,,2.0
-356,02.11.2024 20:00,"FOOTBALL
+318,02.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",St Etienne,0,34,5,0,3,2,2,1,1,1,5,1.0,,198.0,170.0,,,,02.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Strasbourg,0,66,5,1,2,2,5,2,0,0,2,1.0,,,,,,,1,https://www.flashscore.com/match/vuBo4Eth/#/match-summary/match-statistics/1,,,,,,,,,0.42,5,,,4,9,,0.33,6,,,,,,,,1.0
-357,02.11.2024 20:00,"FOOTBALL
+319,02.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",St Etienne,2,36,8,3,5,0,2,1,2,2,4,1.0,,189.0,152.0,,,,02.11.2024 20:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Strasbourg,0,64,4,2,2,0,4,1,0,1,2,0.0,,,,,,,2,https://www.flashscore.com/match/vuBo4Eth/#/match-summary/match-statistics/2,,,,,,,,,0.11,5,,,12,6,,2.33,5,,,,,,,,2.0
-358,02.11.2024 18:00,"FOOTBALL
+320,02.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Brest,0,52,5,2,3,0,2,1,0,2,4,,,253.0,209.0,,,,02.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Nice,1,48,11,3,7,1,4,2,3,2,2,,,,,,,,1,https://www.flashscore.com/match/n5Eg2hB4/#/match-summary/match-statistics/1,,,,,,,,,1.43,6,,,8,3,,0.33,12,,,,,,,,1.0
-359,02.11.2024 18:00,"FOOTBALL
+321,27.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Auxerre,2,46,10,3,4,3,9,1,0,1,7,1.0,,,,,,,27.09.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Brest,0,54,2,1,1,0,10,0,0,1,7,0.0,,,,,,,cat91,https://www.flashscore.com/match/MRfkjXaJ/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+322,27.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",PSG,2,58,12,6,6,0,11,0,2,3,8,1.0,,,,,,,27.09.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 6",Rennes,1,42,6,4,0,2,5,3,1,4,9,1.0,,,,,,,cat92,https://www.flashscore.com/match/zBdshgV6/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+323,05.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Lille,0,62,5,1,3,1,6,1,0,0,5,2.0,,,,,,,05.10.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Toulouse,1,38,4,1,2,1,6,2,1,1,6,1.0,,,,,,,cat3,https://www.flashscore.com/match/Wf14adfU/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+324,05.10.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Rennes,0,61,10,1,5,4,12,5,1,0,3,1.0,,,,,,,05.10.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Monaco,0,39,3,0,2,1,4,2,0,1,10,3.0,,,,,,,cat4,https://www.flashscore.com/match/8Kp3c9Oq/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+325,05.10.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Rennes,1,55,4,2,0,2,7,5,0,0,6,1.0,,,,,,,05.10.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Monaco,2,45,2,2,0,0,6,2,1,1,6,1.0,,,,,,,cat5,https://www.flashscore.com/match/8Kp3c9Oq/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+326,06.10.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Lyon,1,57,11,4,6,1,2,1,1,4,6,1.0,,,,,,,06.10.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 7",Nantes,0,43,6,4,2,0,7,5,1,3,2,2.0,,,,,,,cat6,https://www.flashscore.com/match/IHSe3ve5/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+327,12.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",PSG,2,54,14,6,5,3,4,2,2,2,6,,,261.0,226.0,60.0,,,12.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",St Etienne,0,46,5,2,0,3,6,3,0,4,4,,,,,62.0,,,1,https://www.flashscore.com/match/2DSzci3j/#/match-summary/match-statistics/1,75.0,1,0,10,6,13,50.0,100.0,0.18,7,4,79.0,9,4,2,2.54,6,9,21,0,3,6,,,1.0
+328,12.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",PSG,0,64,11,3,7,1,7,5,0,0,10,1.0,,344.0,310.0,57.0,,,12.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",St Etienne,1,36,3,1,0,2,10,0,0,3,7,2.0,,,,60.0,,,2,https://www.flashscore.com/match/2DSzci3j/#/match-summary/match-statistics/2,82.0,0,0,8,3,6,40.0,50.0,0.00,7,3,77.0,10,6,2,1.48,10,5,25,0,1,17,,,2.0
+329,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Montpellier,0,58,5,2,3,0,6,1,1,1,6,2.0,,259.0,215.0,78.0,,,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Angers,1,42,9,2,4,3,6,2,1,2,6,0.0,,,,80.0,,,1,https://www.flashscore.com/match/AFmd4ZAG/#/match-summary/match-statistics/1,68.0,0,1,3,0,14,8.0,11.0,1.24,8,2,73.0,15,2,3,0.33,8,18,11,0,6,28,,,1.0
+330,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Montpellier,1,58,3,1,0,2,9,2,1,4,5,4.0,2.0,237.0,198.0,14.0,,,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Angers,2,42,12,6,4,2,5,1,0,0,9,2.0,0.0,,,33.0,,,2,https://www.flashscore.com/match/AFmd4ZAG/#/match-summary/match-statistics/2,62.0,0,5,2,2,16,10.0,50.0,1.90,6,1,82.0,11,2,5,0.97,5,5,17,1,7,26,,,2.0
+331,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Toulouse,1,52,8,1,4,3,7,2,2,0,5,1.0,,241.0,202.0,90.0,,,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Strasbourg,2,48,3,2,1,0,5,1,2,0,7,1.0,,,,50.0,,,1,https://www.flashscore.com/match/KCJAS3s0/#/match-summary/match-statistics/1,71.0,0,2,5,1,9,38.0,25.0,1.95,6,2,74.0,8,4,1,0.66,9,6,12,0,2,15,,,1.0
+332,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Toulouse,0,54,11,4,2,5,7,1,2,0,7,0.0,,220.0,170.0,58.0,,,12.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 17",Strasbourg,0,46,5,0,4,1,7,1,0,4,7,3.0,,,,80.0,,,2,https://www.flashscore.com/match/KCJAS3s0/#/match-summary/match-statistics/2,56.0,0,1,7,0,4,25.0,40.0,0.40,5,5,58.0,14,2,2,0.58,7,4,16,0,3,25,,,2.0
+333,17.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Montpellier,2,32,6,2,3,1,4,2,1,3,4,1.0,,139.0,80.0,33.0,,,17.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 18",Monaco,0,68,9,3,2,4,4,5,1,0,4,2.0,,,,46.0,,,2,https://www.flashscore.com/match/jgXCVB9F/#/match-summary/match-statistics/2,43.0,0,0,5,3,21,22.0,24.0,0.41,5,1,70.0,11,5,1,2.14,5,20,15,1,8,15,,,2.0
+334,24.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Auxerre,1,33,4,1,3,0,7,0,0,2,6,,,154.0,111.0,31.0,,,24.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",St Etienne,1,67,6,3,1,2,6,2,0,0,7,,,,,100.0,,,1,https://www.flashscore.com/match/jTmMdl8E/#/match-summary/match-statistics/1,60.0,1,2,2,0,11,14.0,50.0,1.06,5,2,63.0,9,6,3,0.28,15,24,11,0,3,15,0,1,1.0
+335,24.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Auxerre,0,41,7,4,2,1,6,3,0,0,9,2.0,,198.0,155.0,60.0,,,24.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",St Etienne,0,59,2,0,1,1,9,2,3,4,6,0.0,,,,67.0,,,2,https://www.flashscore.com/match/jTmMdl8E/#/match-summary/match-statistics/2,72.0,0,0,5,1,9,25.0,0.0,0.12,4,2,66.0,9,8,1,0.56,10,8,18,0,1,4,,,2.0
+336,25.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",PSG,0,75,9,3,3,3,9,2,0,2,5,1.0,,385.0,358.0,60.0,,,25.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Reims,0,25,2,2,0,0,5,1,2,3,9,1.0,,,,44.0,,,1,https://www.flashscore.com/match/Is42xKMa/#/match-summary/match-statistics/1,85.0,1,1,4,2,6,33.0,0.0,0.46,5,5,45.0,9,0,0,0.58,6,5,19,0,2,10,,,1.0
+337,25.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",PSG,1,81,9,4,1,4,4,6,0,0,8,1.0,,391.0,353.0,67.0,,,25.01.2025 20:05,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Reims,1,19,4,1,2,1,8,0,1,3,4,1.0,,,,50.0,,,2,https://www.flashscore.com/match/Is42xKMa/#/match-summary/match-statistics/2,84.0,0,1,7,1,6,33.0,14.0,0.51,7,2,61.0,10,0,2,0.67,4,11,29,0,2,24,,,2.0
+338,25.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Strasbourg,0,54,3,2,1,0,3,3,1,2,7,2.0,,296.0,267.0,50.0,,,25.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Lille,1,46,6,3,2,1,7,2,1,2,3,1.0,,,,91.0,,,1,https://www.flashscore.com/match/WChnpBO8/#/match-summary/match-statistics/1,59.0,0,2,3,0,14,25.0,50.0,0.69,6,0,63.0,7,3,2,0.19,9,11,8,0,4,10,,,1.0
+339,25.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Strasbourg,2,30,8,5,1,2,6,3,3,3,3,2.0,,124.0,101.0,67.0,,,25.01.2025 18:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Lille,0,70,9,3,3,3,3,5,1,3,6,1.0,,,,22.0,,,2,https://www.flashscore.com/match/WChnpBO8/#/match-summary/match-statistics/2,54.0,0,1,5,1,21,30.0,20.0,0.89,4,3,74.0,4,6,1,0.87,11,24,8,0,8,6,1,0,2.0
+340,25.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Monaco,1,61,11,4,4,3,5,1,0,2,5,,,282.0,231.0,73.0,,,25.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Rennes,1,39,7,3,3,1,5,2,0,3,5,,,,,63.0,,,1,https://www.flashscore.com/match/88EIxTGr/#/match-summary/match-statistics/1,70.0,1,2,9,3,13,14.0,38.0,1.12,8,2,71.0,10,3,2,1.17,6,8,30,0,5,12,,,1.0
+341,25.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Monaco,2,44,9,6,2,1,11,3,1,1,7,,,163.0,119.0,50.0,,,25.01.2025 16:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Rennes,1,56,7,2,4,1,7,0,1,4,11,,,,,71.0,,,2,https://www.flashscore.com/match/88EIxTGr/#/match-summary/match-statistics/2,67.0,0,0,7,4,9,14.0,0.0,0.89,3,2,79.0,9,11,4,2.01,18,15,15,0,3,12,,,2.0
+342,26.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Nice,1,34,8,2,4,2,5,4,1,4,6,,,168.0,125.0,50.0,,,26.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Marseille,0,66,8,4,2,2,6,5,0,1,5,,,,,89.0,,,1,https://www.flashscore.com/match/Q77AzbiC/#/match-summary/match-statistics/1,53.0,0,1,8,2,12,44.0,23.0,0.29,11,0,73.0,2,11,4,0.68,10,7,13,0,4,13,,,1.0
+343,26.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Nice,1,23,6,3,2,1,4,2,1,2,6,1.0,,111.0,89.0,75.0,,,26.01.2025 19:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Marseille,0,77,10,2,2,6,6,7,0,2,4,1.0,,,,75.0,,,2,https://www.flashscore.com/match/Q77AzbiC/#/match-summary/match-statistics/2,70.0,0,0,3,2,22,0.0,32.0,0.53,3,3,85.0,5,6,4,0.45,8,24,5,0,6,4,,,2.0
+344,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Lens,0,65,9,0,7,2,2,1,0,0,5,,,319.0,265.0,73.0,,,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Angers,0,35,1,0,0,1,5,3,0,0,2,,,,,69.0,,,1,https://www.flashscore.com/match/MFAgvthm/#/match-summary/match-statistics/1,78.0,0,0,5,1,5,43.0,0.0,0.11,9,4,57.0,19,7,0,0.82,10,6,13,0,1,15,,,1.0
+345,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Lens,1,63,7,4,2,1,8,3,1,0,11,1.0,,271.0,235.0,64.0,,,26.01.2025 16:15,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 19",Angers,0,37,1,0,0,1,11,1,1,3,8,1.0,,,,67.0,,,2,https://www.flashscore.com/match/MFAgvthm/#/match-summary/match-statistics/2,71.0,0,0,7,2,6,31.0,0.0,0.04,5,0,52.0,6,8,0,1.06,13,5,18,0,1,10,,,2.0
+346,02.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Brest,0,74,11,4,6,1,2,5,1,0,5,0.0,,338.0,297.0,,,,02.11.2024 18:00,"FOOTBALL
 FRANCE: LIGUE 1 - ROUND 10",Nice,0,26,1,0,1,0,5,0,1,4,2,2.0,,,,,,,2,https://www.flashscore.com/match/n5Eg2hB4/#/match-summary/match-statistics/2,,,,,,,,,0.15,5,,,11,8,,0.70,7,,,,,,,,2.0
+347,25.08.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 2",Nantes,1,32,3,1,1,1,2,1,0,1,4,0.0,,,,,42.0,29.0,25.08.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 2",Auxerre,0,68,5,1,1,3,4,6,1,0,3,1.0,,,,,76.0,26.0,cat33,https://www.flashscore.com/match/ObHze1pe/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+348,25.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 2",Marseille,1,66,8,5,2,1,8,1,0,1,8,1.0,,,,,52.0,26.0,25.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 2",Reims,2,34,6,3,3,0,8,1,1,4,9,1.0,,,,,48.0,25.0,cat34,https://www.flashscore.com/match/hhlQ5IbD/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+349,25.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 2",Marseille,1,66,8,5,2,1,7,1,3,0,2,,,,,,65.0,21.0,25.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 2",Reims,0,34,6,0,4,2,3,3,0,4,4,,,,,,43.0,16.0,cat35,https://www.flashscore.com/match/hhlQ5IbD/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+350,30.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Lyon,3,45,3,3,0,0,4,3,2,4,8,2.0,,,,,43.0,23.0,30.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Strasbourg,2,55,10,6,1,3,11,2,1,0,3,1.0,,,,,44.0,22.0,cat36,https://www.flashscore.com/match/vmgpBDzg/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+351,30.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Lyon,1,51,17,9,2,6,3,6,2,1,3,1.0,,,,,69.0,40.0,30.08.2024 20:45,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Strasbourg,1,49,5,2,1,2,3,0,1,8,3,1.0,,,,,42.0,8.0,cat37,https://www.flashscore.com/match/vmgpBDzg/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+352,31.08.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Brest,2,33,12,4,6,2,16,2,0,0,8,0.0,,,,,29.0,21.0,31.08.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",St Etienne,0,67,5,0,4,1,6,1,1,2,25,4.0,,,,,42.0,21.0,cat38,https://www.flashscore.com/match/bk9o9i55/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+353,31.08.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Brest,2,61,10,5,3,2,12,5,2,0,4,0.0,,,,,60.0,24.0,31.08.2024 17:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",St Etienne,0,39,1,0,1,0,8,1,3,3,3,1.0,,,,,51.0,15.0,cat39,https://www.flashscore.com/match/bk9o9i55/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+354,31.08.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Montpellier,0,76,4,1,2,1,13,3,0,0,8,2.0,,,,,68.0,28.0,31.08.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Nantes,1,24,1,0,1,0,7,1,0,1,11,2.0,,,,,17.0,14.0,cat40,https://www.flashscore.com/match/6FCg7VZH/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+355,31.08.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Montpellier,1,62,6,3,3,0,3,5,0,2,3,,,,,,74.0,45.0,31.08.2024 19:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Nantes,2,38,8,4,3,1,4,2,1,2,3,,,,,,31.0,23.0,cat41,https://www.flashscore.com/match/6FCg7VZH/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+356,31.08.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Toulouse,1,23,1,0,1,0,6,1,0,0,4,3.0,,,,,25.0,13.0,31.08.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Marseille,1,77,6,1,5,0,4,2,0,0,6,1.0,,,,,61.0,23.0,cat42,https://www.flashscore.com/match/tYQyK8JN/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+357,31.08.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Toulouse,0,25,2,1,1,0,10,1,0,1,6,1.0,1.0,,,,36.0,10.0,31.08.2024 21:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Marseille,2,75,6,3,0,3,6,1,0,1,9,1.0,0.0,,,,76.0,33.0,cat43,https://www.flashscore.com/match/tYQyK8JN/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
+358,01.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Monaco,1,60,6,2,1,3,10,5,0,2,7,1.0,,,,,42.0,21.0,01.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Lens,1,40,8,3,3,2,5,3,1,1,10,1.0,,,,,25.0,23.0,cat44,https://www.flashscore.com/match/IgtCPCkn/#/match-summary/match-statistics/2,,,,,,,,,,,,,,,,,,,,,,,,,
+359,01.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Monaco,0,62,8,1,5,2,12,2,2,1,4,0.0,,,,,63.0,20.0,01.09.2024 15:00,"FOOTBALL
+FRANCE: LIGUE 1 - ROUND 3",Lens,0,38,4,1,3,0,6,4,0,1,11,3.0,,,,,40.0,18.0,cat45,https://www.flashscore.com/match/IgtCPCkn/#/match-summary/match-statistics/1,,,,,,,,,,,,,,,,,,,,,,,,,
